@@ -1,0 +1,440 @@
+{
+  "source_video": "D:/Cyrus/OneDrive/Videos/35f9b3403f977418523125aeb4dff5ce.mp4",
+  "review_date": "2026-11-08",
+  "review_scope": "Original frames reviewed at 11-27 and 57-68 seconds. Read-only; no UE operations.",
+  "media": {
+    "duration_seconds": 94.7445,
+    "native_width": 544,
+    "native_height": 960,
+    "rotation": "none",
+    "extraction": "Original PyAV decoded frames saved losslessly as PNG; no synthetic enhancement.",
+    "frame_index": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\frame_index.json",
+    "extracted_frames": 76
+  },
+  "direct_identification": {
+    "last_landing_floor": 4,
+    "floor_sign_actual_seconds": 67.02226666666667,
+    "floor_sign_frame": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_67.00s.png",
+    "basis": "The blue plaque visibly carries a large white 4. The small lower characters remain too soft to transcribe. The continuously visible arrival from approximately 59 to 64 seconds, door views and plaque at 67 seconds place that arrival landing at floor 4.",
+    "starting_floor": null,
+    "geographic_orientation": null
+  },
+  "context_note": "Another agent matched the opening teaching corridor/old cross-wing with video05 to the left end; this report has not independently established uninterrupted continuity across the possible transition around 3.6-5 seconds. Do not treat that route match alone as proof that all later stair footage belongs to the same stair.",
+  "observations": [
+    {
+      "id": "below_start_landing",
+      "classification": "visible_fact",
+      "observation_zh": "12.5秒從起點層平台向下看見一跑到下方半層平台：後牆有橫向四格高窗、下方三幅框畫；左角有紅色直管，平台上方有長條燈。",
+      "requested_seconds": [
+        12.5
+      ],
+      "actual_seconds": [
+        12.5
+      ],
+      "frame_paths": [
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_12.50s.png"
+      ],
+      "limits_zh": "此為起點平台下方，不是4樓；未識別該平台樓層。"
+    },
+    {
+      "id": "first_pair_topology",
+      "classification": "visible_fact",
+      "observation_zh": "15.5–20.5秒沿第一跑向上到有框畫和綠磚牆的半層平台；21–23秒轉身折返沿第二跑上樓，中央淺灰色豎桿欄杆在鏡頭左側，綠磚實牆及扶手在右側。",
+      "requested_seconds": [
+        15.5,
+        16,
+        20.5,
+        21,
+        22.5,
+        23,
+        25
+      ],
+      "actual_seconds": [
+        15.5,
+        16.022233333333332,
+        20.522233333333332,
+        21.022233333333332,
+        22.522233333333332,
+        23.022233333333332,
+        25.022233333333332
+      ],
+      "frame_paths": [
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_15.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_16.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_20.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_21.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_22.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_23.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_25.00s.png"
+      ],
+      "limits_zh": "第一對梯段的起終樓層號不明。"
+    },
+    {
+      "id": "first_half_landing",
+      "classification": "visible_fact",
+      "observation_zh": "19.5–21.5秒的半層平台是封閉牆圍住的矩形轉折平台；牆上綠磚到腰部，上部白牆，內角一條淺色直管；平台地面可見灰褐色大方磚接縫。",
+      "requested_seconds": [
+        19.5,
+        20,
+        20.5,
+        21.5
+      ],
+      "actual_seconds": [
+        19.522233333333332,
+        20.022233333333332,
+        20.522233333333332,
+        21.522233333333332
+      ],
+      "frame_paths": [
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_19.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_20.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_20.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_21.50s.png"
+      ],
+      "limits_zh": "上部高窗只局部掠過；不能用此段單獨推定其完整窗數或尺寸。"
+    },
+    {
+      "id": "stair_material",
+      "classification": "visible_fact",
+      "observation_zh": "踏步立面為粉紅／淺棕色帶黑白細顆粒的磨石外觀，踏面較灰；踏步橫向可見一至數條大塊接縫，不是03影片的密集米啡小方磚。",
+      "requested_seconds": [
+        16,
+        17,
+        17.5,
+        59.5,
+        60.5,
+        61.5
+      ],
+      "actual_seconds": [
+        16.022233333333332,
+        17.022233333333332,
+        17.522233333333332,
+        59.500033333333334,
+        60.500033333333334,
+        61.500033333333334
+      ],
+      "frame_paths": [
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_16.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_17.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_17.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_59.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_60.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_61.50s.png"
+      ]
+    },
+    {
+      "id": "wall_finish",
+      "classification": "visible_fact",
+      "observation_zh": "牆裙為灰綠小方磚配淺色縫，上半部白牆；頂界隨梯段上升，在平台轉為水平。階梯與牆接縫是黑褐小方磚階梯形踢腳。",
+      "requested_seconds": [
+        15.5,
+        17.5,
+        22.5,
+        25.5,
+        58.5,
+        65.5
+      ],
+      "actual_seconds": [
+        15.5,
+        17.522233333333332,
+        22.522233333333332,
+        25.522233333333332,
+        58.500033333333334,
+        65.52226666666667
+      ],
+      "frame_paths": [
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_15.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_17.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_22.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_25.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_58.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_65.50s.png"
+      ]
+    },
+    {
+      "id": "wall_handrail",
+      "classification": "visible_fact",
+      "observation_zh": "外側實牆有一條深色近圓／橢圓截面扶手，沿梯段斜向，以短黑色支架固定；末端有近水平短回彎。",
+      "requested_seconds": [
+        15.5,
+        25,
+        58.5,
+        59,
+        65.5
+      ],
+      "actual_seconds": [
+        15.5,
+        25.022233333333332,
+        58.500033333333334,
+        59.000033333333334,
+        65.52226666666667
+      ],
+      "frame_paths": [
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_15.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_25.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_58.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_59.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_65.50s.png"
+      ]
+    },
+    {
+      "id": "central_guard",
+      "classification": "visible_fact",
+      "observation_zh": "中央梯井邊是淺灰色金屬外觀豎桿欄杆、較深的連續扶手。可見上下相鄰斜跑的欄杆方向相反，平台處銜接。",
+      "requested_seconds": [
+        16,
+        23,
+        23.5,
+        59.5,
+        60,
+        66
+      ],
+      "actual_seconds": [
+        16.022233333333332,
+        23.022233333333332,
+        23.522233333333332,
+        59.500033333333334,
+        60.000033333333334,
+        66.02226666666667
+      ],
+      "frame_paths": [
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_16.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_23.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_23.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_59.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_60.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_66.00s.png"
+      ],
+      "limits_zh": "不要把03的全黑欄杆直接搬過來；桿件數目、尺寸、完整梯井寬仍未知。"
+    },
+    {
+      "id": "floor4_arrival",
+      "classification": "visible_fact",
+      "observation_zh": "59–63.5秒沿最後拍到的一跑到達整層平台，正前方為有多個電箱的白／綠牆；上行視線左側可見黃色門／門框。64–68秒仍在這個平台轉頭觀察。67.022秒藍牌白色大數字4清楚可見。",
+      "requested_seconds": [
+        59,
+        59.5,
+        60.5,
+        63.5,
+        64,
+        67,
+        67.5
+      ],
+      "actual_seconds": [
+        59.000033333333334,
+        59.500033333333334,
+        60.500033333333334,
+        63.52226666666667,
+        64.02226666666667,
+        67.02226666666667,
+        67.52226666666667
+      ],
+      "frame_paths": [
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_59.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_59.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_60.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_63.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_64.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_67.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_67.50s.png"
+      ]
+    },
+    {
+      "id": "floor4_doors",
+      "classification": "visible_fact",
+      "observation_zh": "4樓平台存在至少兩個黃色門位置：64秒畫面有左邊門框和柱右側另一黃色門；64.5秒近門為右鉸鏈、左側窄豎窗、上方閉門器、底部灰金屬踢板；67秒樓層牌旁另一門的長把手在右側。",
+      "requested_seconds": [
+        64,
+        64.5,
+        67
+      ],
+      "actual_seconds": [
+        64.02226666666667,
+        64.52226666666667,
+        67.02226666666667
+      ],
+      "frame_paths": [
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_64.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_64.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_67.00s.png"
+      ],
+      "limits_zh": "不得合併為一扇門。局部拍攝視角尚不足以給兩扇門可靠的平面世界方位、開向或確切去向。從最後梯段上樓時左側門可見，但其與67秒牌旁門的身份對應仍需審慎。"
+    },
+    {
+      "id": "floor4_upward_next",
+      "classification": "visible_fact",
+      "observation_zh": "65.5–66秒從4樓平台望見再往上去的另一跑，仍是磨石梯級及中央豎桿欄杆；上端牆面因曝光很亮。",
+      "requested_seconds": [
+        65.5,
+        65.8,
+        66
+      ],
+      "actual_seconds": [
+        65.52226666666667,
+        65.82226666666666,
+        66.02226666666667
+      ],
+      "frame_paths": [
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_65.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_65.80s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_66.00s.png"
+      ],
+      "limits_zh": "鏡頭沒有沿這跑走完；不能藉此證明上方整個樓層或其所有連接。"
+    },
+    {
+      "id": "four_floor_platform_finish",
+      "classification": "visible_fact",
+      "observation_zh": "4樓平台地板為淺灰色大方磚；牆腳黑褐踢腳，柱上半白下半綠小磚；上方有白色梁／板底及明裝管線。",
+      "requested_seconds": [
+        63.5,
+        64,
+        64.5,
+        67,
+        67.5,
+        68
+      ],
+      "actual_seconds": [
+        63.52226666666667,
+        64.02226666666667,
+        64.52226666666667,
+        67.02226666666667,
+        67.52226666666667,
+        68.02226666666667
+      ],
+      "frame_paths": [
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_63.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_64.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_64.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_67.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_67.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_68.00s.png"
+      ]
+    },
+    {
+      "id": "total_count_unknown",
+      "classification": "unconfirmed",
+      "observation_zh": "57–58秒畫面被遮擋，59秒再次可見時拍攝者已在梯段上，後續視圖下端均裁掉。因此通往4樓最後一跑的下端／首級沒有被可靠拍到，完整級數不可核定。",
+      "requested_seconds": [
+        57,
+        58,
+        58.5,
+        59,
+        59.5,
+        60.5
+      ],
+      "actual_seconds": [
+        57.000033333333334,
+        58.000033333333334,
+        58.500033333333334,
+        59.000033333333334,
+        59.500033333333334,
+        60.500033333333334
+      ],
+      "frame_paths": [
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_57.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_58.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_58.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_59.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_59.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_60.50s.png"
+      ]
+    },
+    {
+      "id": "initial_count_unknown",
+      "classification": "unconfirmed",
+      "observation_zh": "15.5秒第一上行跑的遠端多級模糊，下端緊貼畫面邊緣；16秒近處清楚但已裁掉下端。23秒折返跑也未同時清晰顯示起端平台與終端平台。無法把可數局部級數直接當完整跑數。",
+      "requested_seconds": [
+        15.3,
+        15.5,
+        16,
+        22.8,
+        23,
+        23.5
+      ],
+      "actual_seconds": [
+        15.3,
+        15.5,
+        16.022233333333332,
+        22.822233333333333,
+        23.022233333333332,
+        23.522233333333332
+      ],
+      "frame_paths": [
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_15.30s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_15.50s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_16.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_22.80s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_23.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_23.50s.png"
+      ]
+    },
+    {
+      "id": "no_floor_extrapolation",
+      "classification": "unconfirmed",
+      "observation_zh": "27–58秒長段畫面遮擋，不能透過片長或走路速度算中間上了幾層；起點不能由最後4樓倒推。",
+      "requested_seconds": [
+        27,
+        57,
+        58
+      ],
+      "actual_seconds": [
+        27.022233333333332,
+        57.000033333333334,
+        58.000033333333334
+      ],
+      "frame_paths": [
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_27.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_57.00s.png",
+        "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_58.00s.png"
+      ]
+    }
+  ],
+  "measurements": {
+    "first_full_flight_risers": null,
+    "first_return_full_flight_risers": null,
+    "last_flight_into_floor4_risers": null,
+    "next_flight_above_floor4_risers": null,
+    "floor_height_m": null,
+    "width_m": null,
+    "tread_depth_m": null,
+    "riser_height_m": null,
+    "half_landing_size_m": null,
+    "reason": "No fully bounded flight with reliably resolved first and last risers; no surveyed scale."
+  },
+  "build_supported_zh": [
+    "已能確定4樓平台的樓層身份及該處有磨石梯、淺灰豎桿欄杆、綠磚牆裙、白牆、大方地磚、至少兩個黃門位置。",
+    "可依畫面製作材質與門／欄杆外觀參考，但其完整尺寸和門洞平面定位仍需模型／別的實證吻合。",
+    "不支持以10級、11級、12級或標準尺寸任選一個完整梯段，也不支持複製六層。"
+  ],
+  "key_frames": {
+    "below_start_four_panel_window": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_12.50s.png",
+    "first_ascent_view": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_15.50s.png",
+    "terrazzo_and_gray_guard": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_16.00s.png",
+    "first_half_landing": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_20.50s.png",
+    "return_flight": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_23.00s.png",
+    "last_flight_arrival_direction": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_59.50s.png",
+    "two_yellow_door_locations": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_64.00s.png",
+    "door_details": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_64.50s.png",
+    "four_floor_sign": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_67.00s.png",
+    "electrical_wall": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_67.50s.png"
+  },
+  "contact_sheets": [
+    "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\contact_01.jpg",
+    "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\contact_02.jpg",
+    "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\contact_03.jpg",
+    "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\contact_04.jpg",
+    "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\contact_05.jpg",
+    "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\contact_06.jpg",
+    "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\contact_07.jpg"
+  ],
+  "latest_followup": {
+    "read_first": "latest_findings.json",
+    "superseded_inferences": [
+      "Video03 narrow opposite-building vista by itself meant right end.",
+      "Video02 far left stair and nearby terrazzo stair were the same location.",
+      "Blur during the short Video02 turns proved an edit.",
+      "One11-riser visible count applied to all runs."
+    ],
+    "scope": "Historical observations retained; current endpoint, continuity and count conclusions are in the linked follow-up."
+  }
+}

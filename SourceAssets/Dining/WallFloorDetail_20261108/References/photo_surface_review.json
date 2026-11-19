@@ -1,0 +1,108 @@
+{
+  "reviewed_on": "2026-11-08",
+  "scope": "Independent photographic and rendered-image surface review only. This agent did not operate UE or change project assets. Only this research report was written.",
+  "status": "Visual improvement accepted with fidelity and registration limits; not a measured reconstruction certification.",
+  "inspected_renders": [
+    "D:/Cyrus/OneDrive/文件/香港仔工業學校/ATS/Previews/C27_Dining_CrossWall_Detail.png",
+    "D:/Cyrus/OneDrive/文件/香港仔工業學校/ATS/Previews/C24_Dining_Mosaic_Wall_Detail.png",
+    "D:/Cyrus/OneDrive/文件/香港仔工業學校/ATS/Previews/C25_Dining_Mosaic_and_Terrazzo.png",
+    "D:/Cyrus/OneDrive/文件/香港仔工業學校/ATS/Previews/C28_Dining_Refined_Wall_Floor.png",
+    "D:/Cyrus/OneDrive/文件/香港仔工業學校/ATS/Previews/C29_Dining_Mosaic_Terrazzo_Close.png"
+  ],
+  "sources": [
+    {
+      "id": "hk01_school_supplied_cleanup_2023",
+      "url": "https://www.hk01.com/article/939149",
+      "local_image": "work/research/dining_shutters/hk01_flood_06.jpg",
+      "publication_date": "2023-09-09",
+      "visually_inspected_original_resolution": true,
+      "observed": "Pale alternating-direction short rectangular mosaic on lower walls and columns, narrow dark tiled cap, dark speckled skirting, pale terrazzo with dark/light irregular aggregate, thin slab joints and broad dark speckled floor bands. A reflective panel zone is on the right side when looking toward the cross wall.",
+      "limits": "Wet muddy cleanup state changes floor colour and reflectance. Furniture is being moved. Neither calibrated dimensions nor normal seating layout can be read from this photo."
+    },
+    {
+      "id": "goodschool_2021_dry_group",
+      "url": "https://media.goodschool.hk/storage/upload/ebook/2021-11-02-175925-108203.pdf",
+      "pdf_page": 15,
+      "local_image": "work/research/dining_layout/goodschool_2021_p15_image26.png",
+      "visually_inspected_original_resolution": true,
+      "observed": "Dry-looking pale warm-grey/beige terrazzo with distinct dark and pale aggregate, subtle slab joints and a broad black speckled band; matching cross/window wall and pale basket-pattern mosaic column.",
+      "limits": "Publication year is not a confirmed capture date. The small image and people obscure layout. Use for dry material character, not surveyed values."
+    },
+    {
+      "id": "school_anniversary_meal",
+      "url": "http://www.ats.edu.hk/images/doc/Dorm_10_Anniversary_Journal.pdf",
+      "pdf_page": 30,
+      "local_image": "work/research/dining_envelope/anniversary_p30_image02.png",
+      "visually_inspected_original_resolution": true,
+      "observed": "Reflective side panels and the blue hanging recycling sign are consistent with the HK01 room view.",
+      "limits": "290 by 202 pixels; no reliable panel endpoint or panel material measurement."
+    },
+    {
+      "id": "school_leaflet_selfie",
+      "url": "http://www.ats.edu.hk/images/doc/20261102.pdf",
+      "pdf_page": 2,
+      "local_image": "work/research/dining_envelope/leaflet_p02_image02.png",
+      "visually_inspected_original_resolution": true,
+      "observed": "Reverse dining view includes reflective panels at image left, white beams, tables and tall side windows.",
+      "limits": "376 by 282 pixels with people obscuring room edges. Does not locate the panel zone on the model."
+    }
+  ],
+  "before_review": {
+    "C27": "Whole view reads warmer and more beige/brown than the references. The mosaic becomes nearly uniform at this distance; the floor reads as fine fairly uniform sand rather than strongly separated terrazzo aggregate.",
+    "C24_correction_to_initial_impression": "The close render and shader source confirm that the existing pattern already is alternating short rectangular basket mosaic. It should not be replaced with a new square-tile scheme. Weak middle-distance visibility is not evidence that the physical module must be enlarged.",
+    "photometric_limit": "Uncalibrated camera exposure, lighting, white balance, viewing distance and pixel density differ. This is a directional visual comparison, not sampled true albedo, measured grain size, or a numerical fidelity score."
+  },
+  "implemented_revision_as_reported_by_parent": {
+    "mosaic_module_cm": 3.6,
+    "strips_per_module": 3,
+    "dimension_status": "Existing editable visual estimates retained, not measured real tile dimensions or confirmed strip count.",
+    "shader_changes": "Separate near grout/detail filtering from middle-distance block-average colour; small grout-contrast and normal changes.",
+    "floor_changes": "Aggregate scale multiplied by 1.2, stronger light/dark separation and less yellow matrix; polished-flat surface without gravel displacement.",
+    "lighting_changes": "21 dining lights changed from 5300 K to 6000 K with intensity unchanged.",
+    "lighting_status": "Rendering choice to produce a more neutral appearance, not confirmation of installed real lamp colour temperature.",
+    "verification_scope": "Implementation details above were relayed by parent. This agent verified rendered appearance only, not live asset settings or shader compilation."
+  },
+  "after_review": {
+    "C28": {
+      "improvement": "Compared with matching C27 framing, lower-wall material retains visible small-scale variation instead of becoming an almost plain field. Floor and wall appear less yellow, and visible foreground floor aggregate has more useful dark/light separation.",
+      "excluded_from_review": "Lower-right desktop thumbnail popup is UI, not scene geometry or material. Clean recapture is appropriate for delivery."
+    },
+    "C29": {
+      "improvement": "Short rectangular basket pattern and shallow joints are legible. The skirting reads as a black matrix containing pale aggregate. The floor has varied irregular dark/light chips and still reads as a smooth terrazzo surface.",
+      "major_visible_defects": "No obvious gross stretching, protruding gravel relief, broken window-edge finish, or severe pattern distortion in this static view.",
+      "minor_watch_item": "Pink and cream block-to-block contrast is somewhat more conspicuous than the pale real-photo wall, producing a mild patchwork/checker impression. Different exposure and close viewing prevent calling the amplitude definitively wrong. Keep this revision rather than further enlarging modules or substantially increasing colour contrast; reduce block variation slightly only if a matched-view review still finds it too strong.",
+      "limits": "A still image cannot verify temporal shimmer, mip transitions while walking, performance or collisions. Exact dimensions, phase, chip distribution and roughness remain appearance estimates."
+    },
+    "recommendation": "Accept the visible improvement for this pass. Keep natural dry terrazzo reflection and restrained wall relief. Do not copy muddy flood-water gloss or turn grout into deep grooves."
+  },
+  "black_trim_and_floor_joint_decisions": {
+    "cap": "References support a narrow dark tiled cap, with small individual joint breaks. Preserve the currently accepted cap path; no photograph-derived new height is asserted.",
+    "skirting": "References support dark speckled terrazzo-like skirting, not an entirely featureless black painted strip. C29 now conveys this material distinction. Do not infer a new perimeter height from these uncalibrated images.",
+    "floor_bands": "Broad black speckled floor bands are a real missing feature, but their complete coordinates, widths and junctions remain unsolved. The cross anchor supplies room direction and one location, not a unique calibrated floor mapping. No invented full-room band grid is recommended.",
+    "floor_joints": "Fine joints are visible within pale terrazzo. Their existence is supported, but slab spacing, origin and complete course alignment are not measured. Do not represent a guessed exact room-wide joint grid as verified."
+  },
+  "reflective_wall_registration": {
+    "direction_now_supported": "Relative to facing the user-confirmed cross/window wall, the reflective surface is on the right-hand adjacent side. Under the parent's current campus convention, this is the v=30.4 side direction.",
+    "new_cross_anchor_effect": "The confirmed cross position helps establish handedness and room orientation. It does not supply panel endpoints, length, height, or a photo-to-world scale for the right wall.",
+    "material_identity": "The photographs show reflection and panel divisions; they do not decisively distinguish mirror glass from polished metal or other reflective cladding. Do not label it a confirmed glass mirror or a roller shutter.",
+    "remaining_unknowns": [
+      "Where the reflective panel run begins and ends along the wall",
+      "Whether the panel zone reaches the cross-wall corner or is separated by painted/tiled wall and openings",
+      "Panel dimensions and count",
+      "Relationship to the user-plan doors, shop and washbasin",
+      "Whether all images show the same refurbishment state"
+    ],
+    "safe_action": "Retain research evidence and right-side directional annotation only. Do not add a full-width reflective wall or locate individual panels using the cross anchor alone."
+  },
+  "bounded_search_this_turn": {
+    "queries": [
+      "香港仔工業學校 飯堂 餐廳 十字架 牆 地板 照片",
+      "香港仔工業學校 飯堂 鏡 玻璃 餐廳",
+      "site.ats.edu.hk 飯堂",
+      "site.ats.edu.hk 餐廳 圖片",
+      "香港仔工業學校 飯堂 清潔"
+    ],
+    "result": "No new usable registered dining surface photograph found in this bounded search. HK01 original article was reopened and confirms its September 2023 flood-cleanup context. Unrelated school/canteen results were not used. Existing original school-photo extracts were re-inspected.",
+    "not_claimed": "Exhaustive web search, new whole-room survey, full photographic reconstruction or proof of current 2026 finishes."
+  }
+}

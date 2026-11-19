@@ -1,0 +1,13 @@
+{
+  "added": [
+    "SM_LW_Add_Culture_PlaqueLettering_SignGold",
+    "SM_LW_Add_Culture_Plaque_DarkOak",
+    "SM_LW_Step_PlantDetail_Plant",
+    "SM_LW_Step_PlantDetail_PlantDark",
+    "SM_LW_Step_PlantDetail_PlantLight"
+  ],
+  "removed_old_geometry": [
+    "SM_LW_Step_Plants_Plant"
+  ],
+  "reason": "Photo visible culture plaque and higher detail hanging foliage."
+}

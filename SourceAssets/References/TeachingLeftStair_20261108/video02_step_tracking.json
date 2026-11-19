@@ -1,0 +1,56 @@
+{
+  "source_video": "D:/Cyrus/OneDrive/Videos/35f9b3403f977418523125aeb4dff5ce.mp4",
+  "review_date": "2026-11-08",
+  "extraction": {
+    "reviewed_dense_ranges_seconds": [
+      [
+        12.1,
+        13.4
+      ],
+      [
+        15.1,
+        16.1
+      ],
+      [
+        21.8,
+        23.4
+      ],
+      [
+        58.1,
+        59.6
+      ],
+      [
+        65.2,
+        66.3
+      ]
+    ],
+    "frames_extracted": 197,
+    "frame_index": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_tracking_frames\\frame_index.json"
+  },
+  "status": "deprioritized_after_cross_video_route_match_pointed_to_video03; no exact full-flight count approved",
+  "first_pair": {
+    "first_flight_full_riser_count": null,
+    "return_flight_full_riser_count": null,
+    "full_count_interval": null,
+    "visible_return_nosings_in_23_022_frame": 11,
+    "return_start_keyframes": [
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_tracking_frames\\v02_022.322s.png",
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_tracking_frames\\v02_022.589s.png",
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_tracking_frames\\v02_022.756s.png",
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_tracking_frames\\v02_022.956s.png",
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_tracking_frames\\v02_023.022s.png"
+    ],
+    "warning_zh": "單幀能數到的11條鼻口不是已核准的完整跑級數。鏡頭轉向與前進會令最低級從下緣消失，需追蹤首級身份。15.433–15.5的可見級數改變使最初11級推測不成立；本次沒有把這個推測寫成建模尺寸。"
+  },
+  "floor4_final_flight": {
+    "total_risers": null,
+    "count_interval": null,
+    "reason_zh": "57–58秒遮擋後重新可見時已在梯段上，首端未拍清；不能給出有根據的完整級數上界。4樓身份仍由67.022秒牌子支持。"
+  },
+  "proportions": {
+    "absolute_dimensions": null,
+    "tile_grid_ratio": null,
+    "reason": "Unrectified perspective and blurred grid do not establish precise dimensions. No guessed absolute scale."
+  },
+  "safe_use": "Use video02 as separate finish/topology evidence and the established floor4 plaque; do not transplant its count or pale metal railing into video03 stair."
+}

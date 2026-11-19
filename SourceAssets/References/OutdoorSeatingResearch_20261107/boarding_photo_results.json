@@ -1,0 +1,110 @@
+[
+  {
+    "file": "boarding_intro.jpg",
+    "url": "http://www.ats.edu.hk/images/PostImage/boarding_intro.jpg",
+    "error": "HTTPConnectionPool(host='www.ats.edu.hk', port=80): Read timed out.",
+    "ok": false
+  },
+  {
+    "file": "boarding_intro_01.jpg",
+    "url": "http://www.ats.edu.hk/images/PostImage/boarding_intro_01.jpg",
+    "bytes": 121323,
+    "ok": true
+  },
+  {
+    "file": "boarding_intro_05.jpg",
+    "url": "http://www.ats.edu.hk/images/PostImage/boarding_intro_05.jpg",
+    "bytes": 133655,
+    "ok": true
+  },
+  {
+    "file": "boarding_intro_03.jpg",
+    "url": "http://www.ats.edu.hk/images/PostImage/boarding_intro_03.jpg",
+    "bytes": 106883,
+    "ok": true
+  },
+  {
+    "file": "boarding_intro_04.jpg",
+    "url": "http://www.ats.edu.hk/images/PostImage/boarding_intro_04.jpg",
+    "bytes": 97735,
+    "ok": true
+  },
+  {
+    "file": "boarding_intro_19.jpg",
+    "url": "http://www.ats.edu.hk/images/PostImage/boarding_intro_19.jpg",
+    "bytes": 108884,
+    "ok": true
+  },
+  {
+    "file": "boarding_intro_06.jpg",
+    "url": "http://www.ats.edu.hk/images/PostImage/boarding_intro_06.jpg",
+    "bytes": 116593,
+    "ok": true
+  },
+  {
+    "file": "boarding_intro_07.jpg",
+    "url": "http://www.ats.edu.hk/images/PostImage/boarding_intro_07.jpg",
+    "bytes": 122796,
+    "ok": true
+  },
+  {
+    "file": "boarding_intro_08.jpg",
+    "url": "http://www.ats.edu.hk/images/PostImage/boarding_intro_08.jpg",
+    "bytes": 90070,
+    "ok": true
+  },
+  {
+    "file": "boarding_intro_09.jpg",
+    "url": "http://www.ats.edu.hk/images/PostImage/boarding_intro_09.jpg",
+    "bytes": 106105,
+    "ok": true
+  },
+  {
+    "file": "boarding_intro_10.jpg",
+    "url": "http://www.ats.edu.hk/images/PostImage/boarding_intro_10.jpg",
+    "bytes": 135570,
+    "ok": true
+  },
+  {
+    "file": "boarding_intro_11.jpg",
+    "url": "http://www.ats.edu.hk/images/PostImage/boarding_intro_11.jpg",
+    "bytes": 100120,
+    "ok": true
+  },
+  {
+    "file": "boarding_intro_12.jpg",
+    "url": "http://www.ats.edu.hk/images/PostImage/boarding_intro_12.jpg",
+    "bytes": 123323,
+    "ok": true
+  },
+  {
+    "file": "boarding_intro_13.jpg",
+    "url": "http://www.ats.edu.hk/images/PostImage/boarding_intro_13.jpg",
+    "bytes": 87867,
+    "ok": true
+  },
+  {
+    "file": "boarding_intro_14.jpg",
+    "url": "http://www.ats.edu.hk/images/PostImage/boarding_intro_14.jpg",
+    "bytes": 71022,
+    "ok": true
+  },
+  {
+    "file": "boarding_intro_15.jpg",
+    "url": "http://www.ats.edu.hk/images/PostImage/boarding_intro_15.jpg",
+    "bytes": 71782,
+    "ok": true
+  },
+  {
+    "file": "boarding_latest_20261102.pdf",
+    "url": "http://www.ats.edu.hk/images/doc/20261102.pdf",
+    "bytes": 2322967,
+    "ok": true
+  },
+  {
+    "file": "boarding_life.pdf",
+    "url": "http://www.ats.edu.hk/images/doc/ATS_happy_boarding_live.pdf",
+    "bytes": 22628999,
+    "ok": true
+  }
+]

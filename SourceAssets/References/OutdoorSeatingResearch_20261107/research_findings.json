@@ -1,0 +1,190 @@
+{
+  "recorded_at": "2026-11-07T21:46:46.469746+08:00",
+  "user_request": "我也有點忘了，你可以上網搜索",
+  "target": "G/F 餐廳外、大堂左門外，用戶面向的靠窗長廊區域",
+  "status": "researched_target_furniture_still_unverified",
+  "confirmed": [
+    "General area indicated by the user and saved as an editor-only location marker"
+  ],
+  "still_unconfirmed": [
+    "Furniture style",
+    "Count",
+    "Dimensions",
+    "Exact arrangement",
+    "Extent of the seating area",
+    "Whether the model canopy matches reality"
+  ],
+  "decision": "Do not create physical furniture from unmatched photographs. Preserve the user-confirmed general location and retain the evidence for later verification.",
+  "physical_furniture_added": 0,
+  "sources": [
+    {
+      "id": "official_boarding_photos",
+      "url": "http://www.ats.edu.hk/index.php/2018-12-05-07-42-24/2019-02-25-03-01-00",
+      "review": "15 original school photographs visually inspected.",
+      "finding": "Photo 10 shows indoor dining with light-coloured long tables and blue chairs. Photos 11 and 12 show a basketball court and school desks along a sheltered edge. Neither location is matched to the user-pointed outdoor corridor.",
+      "limitations": "Photo dates are not established. Furniture in other rooms or activity areas must not be transferred to the target location."
+    },
+    {
+      "id": "official_boarding_leaflet",
+      "url": "http://www.ats.edu.hk/images/doc/20261102.pdf",
+      "review": "All 4 pages visually inspected.",
+      "finding": "Includes indoor dining photographs; no confirmed image of the requested outdoor seating area found."
+    },
+    {
+      "id": "official_boarding_life",
+      "url": "http://www.ats.edu.hk/images/doc/ATS_happy_boarding_live.pdf",
+      "review": "All 20 pages visually inspected in rendered contact sheets.",
+      "finding": "Indoor dining, library, dormitory, learning and activity photographs; no confirmed match to the requested outdoor seating area found."
+    },
+    {
+      "id": "school_prospectus_2026",
+      "url": "https://www.goodschool.hk/ebook/qr/81005",
+      "pdf_url": "https://media.goodschool.hk/storage/upload/ebook/2026-10-16-172815-785575.pdf",
+      "review": "All 36 pages visually inspected; page 21 additionally inspected at higher resolution.",
+      "finding": "No confirmed match to the target outdoor furniture found."
+    },
+    {
+      "id": "heritage_album",
+      "url": "https://skywalker.autozine.org/Heritage/1HK/12_Aberdeen/HK12_04.html",
+      "review": "17 photographs visually inspected, including the separately retrieved ground-floor stair image.",
+      "finding": "Exterior, chapel, hall, stairs and an upper balcony; no verified target seating image found."
+    },
+    {
+      "id": "campus_documentary",
+      "url": "https://www.youtube.com/watch?v=vefRqyBVdcE",
+      "review": "105 public storyboard thumbnails at approximately 10-second intervals visually inspected; not a full playback.",
+      "finding": "An indoor dining scene appears near 12:50; no confirmed outdoor furniture match found in the sampled images.",
+      "limitations": "Short scenes between sampled frames may be missed."
+    },
+    {
+      "id": "official_videos_not_reviewed",
+      "url": "http://www.ats.edu.hk/index.php/2018-11-26-06-17-11/f1admission/intro-video",
+      "review": "Official video titles and links found. Four requested YouTube pages returned HTTP 429 and were not reviewed.",
+      "video_ids": [
+        "JrZGGgkGTEE",
+        "8kA9DavPEDc",
+        "jAAo1rgDbyw",
+        "ndrEmpPKyJY"
+      ]
+    }
+  ],
+  "archived_files": [
+    {
+      "file": "boarding_intro_10.jpg",
+      "bytes": 135570,
+      "sha256": "4a39b5b4d56b2450718ae1a1bdb8271f5a6d8610a053a0ac8fabd2c3a5cb2ff7"
+    },
+    {
+      "file": "boarding_intro_11.jpg",
+      "bytes": 100120,
+      "sha256": "96e724457f8bcd71fe57c69d8d27f09716026ea732de73a07bdee20687c22e2e"
+    },
+    {
+      "file": "boarding_intro_12.jpg",
+      "bytes": 123323,
+      "sha256": "f13313044d876999c21eabbd0310c7af16dd570740df79f3c2a9decc40949f3b"
+    },
+    {
+      "file": "boarding_contact.jpg",
+      "bytes": 503541,
+      "sha256": "1673707202f11dbb4e56e191976467e9502cb82b3fa1ec414954fd193a311bad"
+    },
+    {
+      "file": "boarding_photo_results.json",
+      "bytes": 2981,
+      "sha256": "b581b7dd106a98fdb02b079b7b14468eb298990d17348f8b53c09b5cbb5675ac"
+    },
+    {
+      "file": "boarding_latest_20261102.pdf",
+      "bytes": 2322967,
+      "sha256": "358301e7618602ba3016afd54800f01bc3983dcbc873501fb5bf0d3b5259c5ef"
+    },
+    {
+      "file": "boarding_life.pdf",
+      "bytes": 22628999,
+      "sha256": "129c78b9bc558ee5df05ca7ea002ea06ca8f860f7e66bef396b6026d34708944"
+    },
+    {
+      "file": "school_facility_sources.json",
+      "bytes": 13287,
+      "sha256": "9f3218a26c8330e2e060ff145ea9751d3626dcc95646200207f8f28b6b8ae4cf"
+    },
+    {
+      "file": "school_relevant_links.json",
+      "bytes": 1788,
+      "sha256": "d3f69fdda1fc08f7fc69c128da6af78c757032502956915a7d9aa90b920e748b"
+    },
+    {
+      "file": "youtube_metadata.json",
+      "bytes": 3673,
+      "sha256": "457e692a07a748dff12b480e69d994768502f38fb6e167bb7ab1b24222f85600"
+    },
+    {
+      "file": "boarding_life_contact_0.jpg",
+      "bytes": 575514,
+      "sha256": "fd2401ba87a6aae3f0edaa8bcca8d4042daae7b7b51cf2e4336c8f756839fce4"
+    },
+    {
+      "file": "boarding_life_contact_1.jpg",
+      "bytes": 600866,
+      "sha256": "9b9c6b7dc625cda9e79c0e172272718b17bd4361a8fae3d02889813bf78b8171"
+    },
+    {
+      "file": "boarding_life_contact_2.jpg",
+      "bytes": 263913,
+      "sha256": "4f6ff0ad715119dae3fe682570edc05c3424d2d7927e894fc5d0c8065df97602"
+    },
+    {
+      "file": "brochure_contact_0.jpg",
+      "bytes": 463483,
+      "sha256": "1b8fa38d2e15da7e605ef31ec947da3519fb53ea09ca101b96309a8cf621499c"
+    },
+    {
+      "file": "brochure_contact_1.jpg",
+      "bytes": 554238,
+      "sha256": "4e6bd7a453d2bc5a388f75dd69f15532f1b998f3f771a6889a87d63826fc61c6"
+    },
+    {
+      "file": "brochure_contact_2.jpg",
+      "bytes": 465905,
+      "sha256": "7ba4ac26a9846fd09aa9ffc1edc598c510bb95cd00883f34480ccaf1ad5462be"
+    },
+    {
+      "file": "yt_contact_0.jpg",
+      "bytes": 549787,
+      "sha256": "1357c2b4f12b39ca243a4b048e6e63f31ef12030b1f677c7f886c7d042fbae11"
+    },
+    {
+      "file": "yt_contact_1.jpg",
+      "bytes": 559376,
+      "sha256": "6ef283ecede0090ce51b8ffaf21a5cb669cf288f1f08ff355fd519914e85633b"
+    },
+    {
+      "file": "yt_contact_2.jpg",
+      "bytes": 590915,
+      "sha256": "2c0a63e49840f248f342ac17ccdbf066c55639d6dab7e8c660e2f7615d0dcf75"
+    },
+    {
+      "file": "yt_contact_3.jpg",
+      "bytes": 586131,
+      "sha256": "540ea333978138d08a7c57a85aad0f4a629a4d91090411ede711c9c965b55a17"
+    },
+    {
+      "file": "yt_contact_4.jpg",
+      "bytes": 201561,
+      "sha256": "6f4c7b975143bf2219b437be2e791a4d7fa942cdeab1074cae8ceafee9cf3fc6"
+    },
+    {
+      "file": "heritage_contact.jpg",
+      "bytes": 275946,
+      "sha256": "691d91996735f50e394abf2b1f5541ea8195944e6302478743054eadd1f2612e"
+    },
+    {
+      "file": "heritage_https_test.jpg",
+      "bytes": 149059,
+      "sha256": "7434e6fb25844c948347f1ebc0a70e9d53eb523b83daa41b6aada2d6d953ab12"
+    }
+  ],
+  "full_research_working_folder": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\outdoor_seating",
+  "scope_limit": "No matching image was established in the inspected sources. This does not establish that no matching image exists online."
+}

@@ -1,0 +1,19 @@
+{
+  "confirmed_at": "2026-11-07T22:02:30.754546+08:00",
+  "question": "你現在停在的這片空地，是餐廳內部，還是餐廳門外？",
+  "user_answer": "這裡就是餐廳內部",
+  "status": "user_confirmed_inside_dining_room",
+  "reference_view": "SourceAssets/Dining/User_Dining_Location_20261107.json",
+  "camera_campus_m_at_original_question": [
+    13.511396415327642,
+    12.04704815183997,
+    2.654047781530039
+  ],
+  "confirmed_scope": "The area containing the captured camera position is inside the dining room.",
+  "not_confirmed_by_this_answer": [
+    "Exact room extent, partitions, doors, windows or ceiling height",
+    "Kitchen location or layout",
+    "Furniture dimensions, total count or exact arrangement"
+  ],
+  "geometry_changes": 0
+}

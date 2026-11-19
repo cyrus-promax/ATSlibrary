@@ -1,0 +1,13 @@
+{
+  "texture_pool_mb": 1024,
+  "virtual_shadow_pages": 1024,
+  "shadow_casting_rect_lights": [
+    "LW_Main_SoftLight_1",
+    "LW_Main_SoftLight_6",
+    "LW_Step_SoftLight_1",
+    "LW_Lecture_SoftLight_1",
+    "LW_Culture_SoftLight_1"
+  ],
+  "source_textures_unchanged_4096": true,
+  "cvar_scope": "Current editor session only"
+}

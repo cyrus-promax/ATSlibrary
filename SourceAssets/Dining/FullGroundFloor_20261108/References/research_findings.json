@@ -1,0 +1,71 @@
+{
+  "reviewed_on": "2026-11-08",
+  "scope": "ATS dining-room roller shutters and Vita tuck-shop scale/frontage. Read-only research; no project or UE edits.",
+  "direct_user_confirmation": {
+    "dining_extent": "The dining room occupies the whole G floor of the building the user is viewing.",
+    "tuck_shop": "Vita tuck shop should be larger and face the current user view.",
+    "entrance_type": "The dining-room doors are rolling shutters.",
+    "weight": "Direct user observations; do not override them with an ambiguous photograph."
+  },
+  "new_useful_asset": {
+    "file": "hk01_flood_06.jpg",
+    "size_px": [1824, 1368],
+    "source_page": "https://www.hk01.com/article/939149",
+    "source_image": "https://cdn.hk01.com/di/media/images/dw/20230909/777190212928671744458609.jpeg/mYl1stBhunR-gVXPP8MwhAWE0MDJaz10S6YAVEumAFQ",
+    "source_credit": "The report credits the school for the flood/cleanup photographs.",
+    "event_date": "2023-09",
+    "relationship_to_existing": "Same event/angle as the small 2023 school-news dining image, but this is a higher-resolution source image, not an AI enlargement or an independent second angle.",
+    "visually_verified": [
+      "White ceiling beams and columns; pale patterned mosaic on lower walls and columns, black narrow top border and dark skirting.",
+      "Tall multi-pane windows, long suspended fluorescent fittings, ceiling fans and blue wall fans.",
+      "White long tables with blue/aqua plastic chairs, stacked and moved during flood cleanup; arrangement is not normal seating evidence.",
+      "Grey closed surface left of the first main column, with a central vertical joint and long housing above. Horizontal shutter slats cannot be resolved convincingly.",
+      "Large grey reflective rectangular wall panels on the right; these should not automatically be interpreted as rolling shutters."
+    ],
+    "cannot_establish": [
+      "Metric size or total width of the entire room.",
+      "Which of the user's three drawn door positions is visible.",
+      "Exact shutter profile, colour, dimensions, guide-rail design or motor housing.",
+      "Vita tuck-shop facade or dimensions."
+    ]
+  },
+  "other_reviewed_assets": [
+    {
+      "file": "hk01_flood_07.jpg",
+      "size_px": [1080, 984],
+      "observation": "Open double doorway towards a covered walkway and railings. The location is not labelled as the dining entrance, and it should not be copied to the dining plan."
+    },
+    {
+      "file": "school_boarding_07.jpg",
+      "source_image": "http://www.ats.edu.hk/images/PostImage/boarding_intro_10.jpg",
+      "source_page": "http://www.ats.edu.hk/index.php/2018-12-05-07-42-24/2018-12-18-01-49-38",
+      "size_px": [350, 233],
+      "observation": "School-hosted dining photograph: white long tables, blue chairs and people eating; no entrance or shop frontage is visible."
+    },
+    {
+      "file": "goodschool_2026_17.jpg",
+      "source_image": "https://media.goodschool.hk//storage/upload/校園直擊/2026-10-28-162137-654817.jpeg",
+      "source_page": "https://www.goodschool.hk/news/學業品德相得益彰　多元舞台盡展鋒芒",
+      "size_px": [1280, 800],
+      "observation": "Students reading at round white tables with cream chairs, piano and balloon decorations. The article does not identify this as the dining room. Do not replace the established white-long-table/blue-chair references with this different room."
+    },
+    {
+      "existing_file": "../dining_layout/2627_School_News_1_p16_image13.png",
+      "source_page": "http://www.ats.edu.hk/images/doc/2627_School_News_1.pdf",
+      "pdf_page": 16,
+      "observation": "Only a small brown latched door portion is visible behind eating students. Its purpose and connection are unknown; it does not establish that all dining entrances are hinged wooden doors."
+    }
+  ],
+  "supplier_only_not_ATS": {
+    "page": "https://www.vitaland.com.hk/en/content.php?wid=52",
+    "image": "https://www.vitaland.com.hk/attachment/upload/files/IMG_7033.JPG",
+    "observation": "Official supplier page describes school-specific frontage designs and shows a branded counter, but does not identify the school in that image. It cannot establish ATS frontage, shutter type or shop size."
+  },
+  "search_outcome": "No publicly verifiable ATS Vita tuck-shop frontage or close-up of the dining roller shutters was found in this bounded search. No photo-derived numerical shutter/shop dimensions are proposed.",
+  "implementation_guidance": [
+    "Use the user's direct confirmation for upward-rolling restaurant entrances; do not retain the previous wooden swing-door interpretation.",
+    "Use the current UE camera to face the shop towards the user; web photos cannot resolve that orientation.",
+    "Fit the user-confirmed whole-G-floor room to the existing building envelope. Clearly retain model-derived dimensions as estimates.",
+    "Do not copy another school's counter proportions or stock/displays as if they were ATS evidence."
+  ]
+}

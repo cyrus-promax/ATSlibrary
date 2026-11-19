@@ -1,0 +1,51 @@
+{
+  "material_paths": {
+    "floor": "/Game/ATS/Dining/StructuralSurfaces_20261108/Materials/M_Dining_DryTerrazzo_StableGrain.M_Dining_DryTerrazzo_StableGrain",
+    "paint": "/Game/ATS/Dining/StructuralSurfaces_20261108/Materials/M_Dining_OffWhitePaint_Matte.M_Dining_OffWhitePaint_Matte"
+  },
+  "created": [
+    "/Game/ATS/Dining/StructuralSurfaces_20261108/Materials/M_Dining_DryTerrazzo_StableGrain.M_Dining_DryTerrazzo_StableGrain",
+    "/Game/ATS/Dining/StructuralSurfaces_20261108/Materials/M_Dining_OffWhitePaint_Matte.M_Dining_OffWhitePaint_Matte"
+  ],
+  "reused_untouched": [],
+  "compile_results": {
+    "floor": "None",
+    "paint": "None"
+  },
+  "scene_modified": false,
+  "unassigned_studies": [],
+  "validation": "UE shader compilation and lit near/far appearance require caller verification.",
+  "note": "Shader numeric settings are visual approximations, not site measurements.",
+  "shader_coverage_integration": [
+    {
+      "layer": 0,
+      "samples": 300000,
+      "coverage": 0.19391,
+      "integrated_colour_coefficients": [
+        0.07651759684085846,
+        0.06062247231602669,
+        0.05407026410102844
+      ],
+      "conditional_colour_weights": [
+        0.3946036658287786,
+        0.31263200616794745,
+        0.27884206127083927
+      ]
+    },
+    {
+      "layer": 1,
+      "samples": 300000,
+      "coverage": 0.16146333333333332,
+      "integrated_colour_coefficients": [
+        0.06327890604734421,
+        0.05104398354887962,
+        0.04491348937153816
+      ],
+      "conditional_colour_weights": [
+        0.39190882995526877,
+        0.31613359203666236,
+        0.27816525550613036
+      ]
+    }
+  ]
+}

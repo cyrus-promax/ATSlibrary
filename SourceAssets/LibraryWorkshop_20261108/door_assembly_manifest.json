@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "doors": [
+    {
+      "id": "Step_DoubleExit_Leaf_1",
+      "module": "Step",
+      "wood_mesh": "SM_LW_A_Step_DoubleExit_Leaf_1_PaleOak",
+      "moving_leaf_parts": [
+        "SM_LW_A_Step_DoubleExit_Leaf_1_Glass_Glass",
+        "SM_LW_A_Step_DoubleExit_Leaf_1_GlazingBead_WhiteMetal",
+        "SM_LW_A_Step_DoubleExit_Leaf_1_Handle_WhiteMetal",
+        "SM_LW_A_Step_DoubleExit_Leaf_1_Hinges_WhiteMetal"
+      ],
+      "hinge_m": [
+        27.006,
+        0,
+        0
+      ],
+      "leaf_direction_vector": [
+        1,
+        0,
+        0
+      ],
+      "rotation_axis": "Blender +Z",
+      "suggested_open_angle_blender_degrees": 90,
+      "suggested_open_angle_ue_degrees": -90,
+      "leave_static": [
+        "SM_LW_A_Step_DoubleExit_Leaf_1_Closer_WhiteMetal"
+      ],
+      "closer_note": "One combined closer body+arm mesh; keep static for initial proximity-door prototype. Detailed articulated closer awaits a separate rig.",
+      "frame_meshes": [
+        "SM_LW_A_Step_DoubleExit_Frame_PaleOak",
+        "SM_LW_A_Step_DoubleExit_Stop_PaleOak",
+        "SM_LW_A_Step_DoubleExit_Seal_Rubber",
+        "SM_LW_A_Step_DoubleExit_ExitBox_WhiteMetal",
+        "SM_LW_A_Step_DoubleExit_ExitFace_Light",
+        "SM_LW_A_Step_DoubleExit_ExitLettering_ExitGreen"
+      ],
+      "mesh_coordinate_mode": "All vertices in global Blender metres; mesh object transform identity. Use negative hinge offset on mesh child when attaching to hinge pivot.",
+      "location_accuracy": "Display-study dimensions, not surveyed."
+    },
+    {
+      "id": "Step_DoubleExit_Leaf_2",
+      "module": "Step",
+      "wood_mesh": "SM_LW_A_Step_DoubleExit_Leaf_2_PaleOak",
+      "moving_leaf_parts": [
+        "SM_LW_A_Step_DoubleExit_Leaf_2_Glass_Glass",
+        "SM_LW_A_Step_DoubleExit_Leaf_2_GlazingBead_WhiteMetal",
+        "SM_LW_A_Step_DoubleExit_Leaf_2_Handle_WhiteMetal",
+        "SM_LW_A_Step_DoubleExit_Leaf_2_Hinges_WhiteMetal"
+      ],
+      "hinge_m": [
+        28.394,
+        0,
+        0
+      ],
+      "leaf_direction_vector": [
+        -1,
+        0,
+        0
+      ],
+      "rotation_axis": "Blender +Z",
+      "suggested_open_angle_blender_degrees": -90,
+      "suggested_open_angle_ue_degrees": 90,
+      "leave_static": [
+        "SM_LW_A_Step_DoubleExit_Leaf_2_Closer_WhiteMetal"
+      ],
+      "closer_note": "One combined closer body+arm mesh; keep static for initial proximity-door prototype. Detailed articulated closer awaits a separate rig.",
+      "frame_meshes": [
+        "SM_LW_A_Step_DoubleExit_Frame_PaleOak",
+        "SM_LW_A_Step_DoubleExit_Stop_PaleOak",
+        "SM_LW_A_Step_DoubleExit_Seal_Rubber",
+        "SM_LW_A_Step_DoubleExit_ExitBox_WhiteMetal",
+        "SM_LW_A_Step_DoubleExit_ExitFace_Light",
+        "SM_LW_A_Step_DoubleExit_ExitLettering_ExitGreen"
+      ],
+      "mesh_coordinate_mode": "All vertices in global Blender metres; mesh object transform identity. Use negative hinge offset on mesh child when attaching to hinge pivot.",
+      "location_accuracy": "Display-study dimensions, not surveyed."
+    },
+    {
+      "id": "Lecture_StageExit1_Leaf_1",
+      "module": "Lecture",
+      "wood_mesh": "SM_LW_A_Lecture_StageExit1_Leaf_1_PaleOak",
+      "moving_leaf_parts": [
+        "SM_LW_A_Lecture_StageExit1_Leaf_1_Glass_Glass",
+        "SM_LW_A_Lecture_StageExit1_Leaf_1_GlazingBead_WhiteMetal",
+        "SM_LW_A_Lecture_StageExit1_Leaf_1_Handle_WhiteMetal",
+        "SM_LW_A_Lecture_StageExit1_Leaf_1_Hinges_WhiteMetal"
+      ],
+      "hinge_m": [
+        8,
+        16.186,
+        0
+      ],
+      "leaf_direction_vector": [
+        0,
+        1,
+        0
+      ],
+      "rotation_axis": "Blender +Z",
+      "suggested_open_angle_blender_degrees": 90,
+      "suggested_open_angle_ue_degrees": -90,
+      "leave_static": [
+        "SM_LW_A_Lecture_StageExit1_Leaf_1_Closer_WhiteMetal"
+      ],
+      "closer_note": "One combined closer body+arm mesh; keep static for initial proximity-door prototype. Detailed articulated closer awaits a separate rig.",
+      "frame_meshes": [
+        "SM_LW_A_Lecture_StageExit1_Frame_PaleOak",
+        "SM_LW_A_Lecture_StageExit1_Stop_PaleOak",
+        "SM_LW_A_Lecture_StageExit1_Seal_Rubber",
+        "SM_LW_A_Lecture_StageExit1_ExitBox_WhiteMetal",
+        "SM_LW_A_Lecture_StageExit1_ExitFace_Light",
+        "SM_LW_A_Lecture_StageExit1_ExitLettering_ExitGreen"
+      ],
+      "mesh_coordinate_mode": "All vertices in global Blender metres; mesh object transform identity. Use negative hinge offset on mesh child when attaching to hinge pivot.",
+      "location_accuracy": "Display-study dimensions, not surveyed."
+    },
+    {
+      "id": "Lecture_StageExit2_Leaf_1",
+      "module": "Lecture",
+      "wood_mesh": "SM_LW_A_Lecture_StageExit2_Leaf_1_PaleOak",
+      "moving_leaf_parts": [
+        "SM_LW_A_Lecture_StageExit2_Leaf_1_Glass_Glass",
+        "SM_LW_A_Lecture_StageExit2_Leaf_1_GlazingBead_WhiteMetal",
+        "SM_LW_A_Lecture_StageExit2_Leaf_1_Handle_WhiteMetal",
+        "SM_LW_A_Lecture_StageExit2_Leaf_1_Hinges_WhiteMetal"
+      ],
+      "hinge_m": [
+        8,
+        20.786,
+        0
+      ],
+      "leaf_direction_vector": [
+        0,
+        1,
+        0
+      ],
+      "rotation_axis": "Blender +Z",
+      "suggested_open_angle_blender_degrees": 90,
+      "suggested_open_angle_ue_degrees": -90,
+      "leave_static": [
+        "SM_LW_A_Lecture_StageExit2_Leaf_1_Closer_WhiteMetal"
+      ],
+      "closer_note": "One combined closer body+arm mesh; keep static for initial proximity-door prototype. Detailed articulated closer awaits a separate rig.",
+      "frame_meshes": [
+        "SM_LW_A_Lecture_StageExit2_Frame_PaleOak",
+        "SM_LW_A_Lecture_StageExit2_Stop_PaleOak",
+        "SM_LW_A_Lecture_StageExit2_Seal_Rubber",
+        "SM_LW_A_Lecture_StageExit2_ExitBox_WhiteMetal",
+        "SM_LW_A_Lecture_StageExit2_ExitFace_Light",
+        "SM_LW_A_Lecture_StageExit2_ExitLettering_ExitGreen"
+      ],
+      "mesh_coordinate_mode": "All vertices in global Blender metres; mesh object transform identity. Use negative hinge offset on mesh child when attaching to hinge pivot.",
+      "location_accuracy": "Display-study dimensions, not surveyed."
+    }
+  ],
+  "portal_note": "The Step endwall open connection is a doorframe-only study with no invented leaf. The two main-module cutaway ends are not doors."
+}

@@ -1,0 +1,421 @@
+{
+  "recorded_at": "2026-11-07T22:43:49.730874+08:00",
+  "user_statement": "我想起來了，是這樣的，UE視角我對好了",
+  "source_image": "餐廳結構圖_更新原圖.png",
+  "source_sha256": "0ce4c07068569252036ceaabbf35e00da29ded2c5474d1726338ff3d64564057",
+  "anchor_confirmation": {
+    "question": "新圖下方兩個沒有文字的方框，是否就是 UE 畫面下方並排、凹下去的兩個天井？",
+    "answer": "是，就是兩個天井"
+  },
+  "status": "orientation_and_relative_adjacency_user_confirmed_dimensions_unverified",
+  "confirmed_relationships": [
+    "餐廳位於左邊天井圖上方",
+    "露天桌椅區位於餐廳圖左側",
+    "右側兩扇門和靠左天井一側的門",
+    "維他天地在餐廳左下；洗手池在下方門右邊；飲水機在右下角"
+  ],
+  "transform": {
+    "u": "20 + (image_y - 254) * sy",
+    "v": "13.2 + (image_x - 318) * sx",
+    "sx_metres_per_pixel_for_registration_only": 0.03186682520808562,
+    "sy_metres_per_pixel_for_registration_only": 0.03111111111111111,
+    "world_rotation_degrees": 20,
+    "world_enu_origin": [
+      -8,
+      -24,
+      -24.55
+    ]
+  },
+  "features": [
+    {
+      "id": "room",
+      "label": "餐廳",
+      "diagram_rect": [
+        200,
+        16,
+        505,
+        258
+      ],
+      "approx_center_campus": [
+        16.36,
+        14.299405469678954,
+        0.15
+      ],
+      "approx_corners_campus": [
+        [
+          12.595555555555556,
+          9.439714625445896,
+          0.15
+        ],
+        [
+          12.595555555555556,
+          19.15909631391201,
+          0.15
+        ],
+        [
+          20.124444444444446,
+          19.15909631391201,
+          0.15
+        ],
+        [
+          20.124444444444446,
+          9.439714625445896,
+          0.15
+        ]
+      ],
+      "position_status": "registered_sketch_not_measured"
+    },
+    {
+      "id": "outdoor",
+      "label": "露天桌椅區",
+      "diagram_rect": [
+        150,
+        10,
+        200,
+        261
+      ],
+      "approx_center_campus": [
+        16.313333333333333,
+        8.643043995243755,
+        0.15
+      ],
+      "approx_corners_campus": [
+        [
+          12.408888888888889,
+          7.846373365041615,
+          0.15
+        ],
+        [
+          12.408888888888889,
+          9.439714625445896,
+          0.15
+        ],
+        [
+          20.217777777777776,
+          9.439714625445896,
+          0.15
+        ],
+        [
+          20.217777777777776,
+          7.846373365041615,
+          0.15
+        ]
+      ],
+      "position_status": "registered_sketch_not_measured"
+    },
+    {
+      "id": "vita",
+      "label": "維他天地",
+      "diagram_rect": [
+        200,
+        157,
+        289,
+        258
+      ],
+      "approx_center_campus": [
+        18.553333333333335,
+        10.857788347205705,
+        0.15
+      ],
+      "approx_corners_campus": [
+        [
+          16.982222222222223,
+          9.439714625445896,
+          0.15
+        ],
+        [
+          16.982222222222223,
+          12.275862068965516,
+          0.15
+        ],
+        [
+          20.124444444444446,
+          12.275862068965516,
+          0.15
+        ],
+        [
+          20.124444444444446,
+          9.439714625445896,
+          0.15
+        ]
+      ],
+      "position_status": "registered_sketch_not_measured"
+    },
+    {
+      "id": "door_right_upper",
+      "label": "右側門 1",
+      "diagram_rect": [
+        478,
+        36,
+        505,
+        79
+      ],
+      "approx_center_campus": [
+        13.886666666666667,
+        18.728894173602853,
+        0.15
+      ],
+      "approx_corners_campus": [
+        [
+          13.217777777777778,
+          18.298692033293698,
+          0.15
+        ],
+        [
+          13.217777777777778,
+          19.15909631391201,
+          0.15
+        ],
+        [
+          14.555555555555555,
+          19.15909631391201,
+          0.15
+        ],
+        [
+          14.555555555555555,
+          18.298692033293698,
+          0.15
+        ]
+      ],
+      "position_status": "registered_sketch_not_measured"
+    },
+    {
+      "id": "door_right_lower",
+      "label": "右側門 2",
+      "diagram_rect": [
+        475,
+        126,
+        505,
+        177
+      ],
+      "approx_center_campus": [
+        16.81111111111111,
+        18.681093935790727,
+        0.15
+      ],
+      "approx_corners_campus": [
+        [
+          16.017777777777777,
+          18.203091557669442,
+          0.15
+        ],
+        [
+          16.017777777777777,
+          19.15909631391201,
+          0.15
+        ],
+        [
+          17.604444444444443,
+          19.15909631391201,
+          0.15
+        ],
+        [
+          17.604444444444443,
+          18.203091557669442,
+          0.15
+        ]
+      ],
+      "position_status": "registered_sketch_not_measured"
+    },
+    {
+      "id": "door_bottom",
+      "label": "靠天井門",
+      "diagram_rect": [
+        303,
+        232,
+        361,
+        258
+      ],
+      "approx_center_campus": [
+        19.72,
+        13.646135552913197,
+        0.15
+      ],
+      "approx_corners_campus": [
+        [
+          19.315555555555555,
+          12.721997621878716,
+          0.15
+        ],
+        [
+          19.315555555555555,
+          14.57027348394768,
+          0.15
+        ],
+        [
+          20.124444444444446,
+          14.57027348394768,
+          0.15
+        ],
+        [
+          20.124444444444446,
+          12.721997621878716,
+          0.15
+        ]
+      ],
+      "position_status": "registered_sketch_not_measured"
+    },
+    {
+      "id": "washbasin",
+      "label": "洗手池",
+      "diagram_rect": [
+        368,
+        238,
+        459,
+        258
+      ],
+      "approx_center_campus": [
+        19.813333333333333,
+        16.243281807372178,
+        0.15
+      ],
+      "approx_corners_campus": [
+        [
+          19.502222222222223,
+          14.79334126040428,
+          0.15
+        ],
+        [
+          19.502222222222223,
+          17.693222354340072,
+          0.15
+        ],
+        [
+          20.124444444444446,
+          17.693222354340072,
+          0.15
+        ],
+        [
+          20.124444444444446,
+          14.79334126040428,
+          0.15
+        ]
+      ],
+      "position_status": "registered_sketch_not_measured"
+    },
+    {
+      "id": "water",
+      "label": "飲水機",
+      "diagram_rect": [
+        459,
+        216,
+        505,
+        258
+      ],
+      "approx_center_campus": [
+        19.47111111111111,
+        18.42615933412604,
+        0.15
+      ],
+      "approx_corners_campus": [
+        [
+          18.817777777777778,
+          17.693222354340072,
+          0.15
+        ],
+        [
+          18.817777777777778,
+          19.15909631391201,
+          0.15
+        ],
+        [
+          20.124444444444446,
+          19.15909631391201,
+          0.15
+        ],
+        [
+          20.124444444444446,
+          17.693222354340072,
+          0.15
+        ]
+      ],
+      "position_status": "registered_sketch_not_measured"
+    }
+  ],
+  "courtyard_anchors": [
+    {
+      "id": "left",
+      "diagram_rect": [
+        193,
+        256,
+        443,
+        469
+      ],
+      "model_campus_bounds_uuvv": [
+        20,
+        27,
+        9,
+        17.4
+      ],
+      "registration_corner_residual_m": [
+        0.2254051066752103,
+        0.22540510667520858,
+        0.3791120950771422,
+        0.3791120950771432
+      ]
+    },
+    {
+      "id": "right",
+      "diagram_rect": [
+        591,
+        252,
+        886,
+        489
+      ],
+      "model_campus_bounds_uuvv": [
+        20,
+        27,
+        22.6,
+        30.6
+      ],
+      "registration_corner_residual_m": [
+        0.7031153089329107,
+        0.7031153089329107,
+        0.7663482603714452,
+        0.7663482603714452
+      ]
+    }
+  ],
+  "maximum_anchor_corner_residual_m": 0.7663482603714452,
+  "registration_is_measurement": false,
+  "room_dimensions_verified": false,
+  "door_destinations_verified": false,
+  "old_table_centres_compared_to_new_diagram": [
+    {
+      "group": 1,
+      "campus_m": [
+        9.6,
+        16.2,
+        0.004
+      ],
+      "inside_approx_room": false
+    },
+    {
+      "group": 2,
+      "campus_m": [
+        13.3,
+        16.2,
+        0.004
+      ],
+      "inside_approx_room": true
+    },
+    {
+      "group": 3,
+      "campus_m": [
+        9.6,
+        19.7,
+        0.004
+      ],
+      "inside_approx_room": false
+    }
+  ],
+  "old_inside_confirmation_still_within_registered_area": true,
+  "limitations": [
+    "兩個天井在原圖的寬高比例與模型不完全相同，因此草圖不能用作精確量尺",
+    "絕對門寬、開門方向、牆厚、天花高度和完整柱網未核實",
+    "露天區新位置是依兩個天井對位的圖示範圍；此前靠街長廊的點位作歷史保留",
+    "家具數量、排列與設備型號未核實",
+    "右側兩門去向仍未知；靠天井門未與任何未核實通道接通"
+  ],
+  "implementation": "Editor-only plan projection and G-floor reference markers, not physical partitions, equipment or room completion."
+}

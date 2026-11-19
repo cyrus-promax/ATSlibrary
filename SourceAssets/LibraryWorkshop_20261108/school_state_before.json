@@ -1,0 +1,17 @@
+{
+  "time": "2026-11-08T18:44:19.256264",
+  "world": "/Game/ATS/Maps/ATS_StudentCampus.ATS_StudentCampus",
+  "actor_count": 901,
+  "map_sha256": "d85aa90bfdd991b91c6f60904b15db120beceb53ab2e9209d6f44aa0edf68cc5",
+  "camera": [
+    2824.066259059424,
+    4490.031842500346,
+    1283.1966517459252
+  ],
+  "rotation": {
+    "pitch": -31.347593307495117,
+    "yaw": 628.7401123046875,
+    "roll": 0.0
+  },
+  "dirty_maps": []
+}

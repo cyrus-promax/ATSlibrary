@@ -1,0 +1,98 @@
+[
+  {
+    "v": 16.15,
+    "hits": [
+      {
+        "actor": "StaticMeshActor_620",
+        "label": "餐廳實體｜Walls",
+        "hit_world": [
+          -1329.8100505015466,
+          874.1879856490384,
+          -2235.0
+        ]
+      },
+      {
+        "actor": "StaticMeshActor_51",
+        "label": "HistoricWestWing | M_Interior_ShanghaiRender",
+        "hit_world": [
+          -1330.749685095926,
+          874.5299846724793,
+          -2235.0
+        ]
+      },
+      {
+        "actor": "StaticMeshActor_187",
+        "label": "Boundary | M_Interior_Stone",
+        "hit_world": [
+          -1422.839606853001,
+          908.0479750679581,
+          -2235.0
+        ]
+      }
+    ]
+  },
+  {
+    "v": 17.599447,
+    "hits": [
+      {
+        "actor": "StaticMeshActor_620",
+        "label": "餐廳實體｜Walls",
+        "hit_world": [
+          -1379.384057569843,
+          737.9845206370109,
+          -2235.0
+        ]
+      },
+      {
+        "actor": "StaticMeshActor_51",
+        "label": "HistoricWestWing | M_Interior_ShanghaiRender",
+        "hit_world": [
+          -1380.3236871233185,
+          738.3265178257127,
+          -2235.0
+        ]
+      },
+      {
+        "actor": "StaticMeshActor_187",
+        "label": "Boundary | M_Interior_Stone",
+        "hit_world": [
+          -1472.4136139212974,
+          771.8445100559305,
+          -2235.0
+        ]
+      }
+    ]
+  },
+  {
+    "v": 19.95,
+    "hits": [
+      {
+        "actor": "StaticMeshActor_620",
+        "label": "餐廳實體｜Walls",
+        "hit_world": [
+          -1459.777699924397,
+          517.1047879156541,
+          -2235.0
+        ]
+      },
+      {
+        "actor": "StaticMeshActor_51",
+        "label": "HistoricWestWing | M_Interior_ShanghaiRender",
+        "hit_world": [
+          -1460.7173193960643,
+          517.446781434878,
+          -2235.0
+        ]
+      },
+      {
+        "actor": "StaticMeshActor_187",
+        "label": "Boundary | M_Interior_Stone",
+        "hit_world": [
+          -1552.8072613167553,
+          550.9647791693128,
+          -2235.0
+        ]
+      }
+    ]
+  }
+]

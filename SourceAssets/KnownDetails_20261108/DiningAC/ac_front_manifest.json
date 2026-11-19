@@ -1,0 +1,232 @@
+{
+  "status": "isolated_source_built_not_imported",
+  "target_actor": "StaticMeshActor_625",
+  "mesh_name": "SM_DiningAC_PhotoFronts",
+  "source": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Dining\\CrossWindowWall_20261108\\ATS_Dining_CrossWindows.blend",
+  "source_sha256_before": "efadc7ff3150602c315ed9c4fdc4c8c37621367db422e4936ef639cd55d6703b",
+  "source_sha256_after": "efadc7ff3150602c315ed9c4fdc4c8c37621367db422e4936ef639cd55d6703b",
+  "source_unchanged": true,
+  "source_components": 22,
+  "retained_components": 4,
+  "removed_components": 18,
+  "added_components": 6,
+  "retained_vertex_count": 384,
+  "retained_polygon_count": 392,
+  "source_retained_vertices_bitwise_equal": true,
+  "casings": [
+    {
+      "bounds_campus_m": [
+        [
+          -0.0899996847043143,
+          0.33000001974399495
+        ],
+        [
+          15.79944733287764,
+          16.449447225469076
+        ],
+        [
+          2.52249984741211,
+          3.1024997711181648
+        ]
+      ],
+      "vertex_count": 96,
+      "preserved_exact_vertices": true,
+      "preserved_existing_bevel": true
+    },
+    {
+      "bounds_campus_m": [
+        [
+          -0.09000012222422882,
+          0.3299999083999072
+        ],
+        [
+          19.249447326286916,
+          19.899447438143408
+        ],
+        [
+          2.52249984741211,
+          3.1024997711181648
+        ]
+      ],
+      "vertex_count": 96,
+      "preserved_exact_vertices": true,
+      "preserved_existing_bevel": true
+    }
+  ],
+  "overall_mesh_bounds_world_m_before": [
+    [
+      -14.889694213867188,
+      -13.073471069335938
+    ],
+    [
+      -9.183265686035156,
+      -5.188660144805908
+    ],
+    [
+      -22.02750015258789,
+      -21.447500228881836
+    ]
+  ],
+  "overall_mesh_bounds_world_m_after": [
+    [
+      -14.889694213867188,
+      -13.084277153015137
+    ],
+    [
+      -9.183265686035156,
+      -5.188660144805908
+    ],
+    [
+      -22.02750015258789,
+      -21.447500228881836
+    ]
+  ],
+  "overall_bounds_delta_m": [
+    [
+      0.0,
+      -0.010806083679199219
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "new_parts": [
+    {
+      "part": "AC1_BroadPaleLeft",
+      "centre_campus_m": [
+        0.339,
+        16.03344727917336,
+        2.8324998092651374
+      ],
+      "size_m": [
+        0.018,
+        0.398,
+        0.355
+      ],
+      "material": "M_DiningAC_PaleIntake"
+    },
+    {
+      "part": "AC1_NarrowDarkRight",
+      "centre_campus_m": [
+        0.346,
+        16.34644727917336,
+        2.8924998092651375
+      ],
+      "size_m": [
+        0.025,
+        0.15,
+        0.33
+      ],
+      "material": "M_DiningAC_DarkOutlet"
+    },
+    {
+      "part": "AC1_UnlabelledLowerRight",
+      "centre_campus_m": [
+        0.345,
+        16.34644727917336,
+        2.6524998092651373
+      ],
+      "size_m": [
+        0.02,
+        0.15,
+        0.105
+      ],
+      "material": "M_DiningAC_ControlPatch"
+    },
+    {
+      "part": "AC2_BroadPaleLeft",
+      "centre_campus_m": [
+        0.339,
+        19.48344738221516,
+        2.8324998092651374
+      ],
+      "size_m": [
+        0.018,
+        0.398,
+        0.355
+      ],
+      "material": "M_DiningAC_PaleIntake"
+    },
+    {
+      "part": "AC2_NarrowDarkRight",
+      "centre_campus_m": [
+        0.346,
+        19.796447382215163,
+        2.8924998092651375
+      ],
+      "size_m": [
+        0.025,
+        0.15,
+        0.33
+      ],
+      "material": "M_DiningAC_DarkOutlet"
+    },
+    {
+      "part": "AC2_UnlabelledLowerRight",
+      "centre_campus_m": [
+        0.345,
+        19.796447382215163,
+        2.6524998092651373
+      ],
+      "size_m": [
+        0.02,
+        0.15,
+        0.105
+      ],
+      "material": "M_DiningAC_ControlPatch"
+    }
+  ],
+  "material_slots": [
+    "M_Dining_OffWhitePaint_Matte",
+    "M_DiningAC_PaleIntake",
+    "M_DiningAC_DarkOutlet",
+    "M_DiningAC_ControlPatch"
+  ],
+  "new_material_specs": {
+    "M_DiningAC_PaleIntake": {
+      "linear_rgb": [
+        0.39,
+        0.4,
+        0.365
+      ],
+      "roughness": 0.7,
+      "metallic": 0.0
+    },
+    "M_DiningAC_DarkOutlet": {
+      "linear_rgb": [
+        0.012,
+        0.015,
+        0.014
+      ],
+      "roughness": 0.6,
+      "metallic": 0.0
+    },
+    "M_DiningAC_ControlPatch": {
+      "linear_rgb": [
+        0.045,
+        0.065,
+        0.07
+      ],
+      "roughness": 0.62,
+      "metallic": 0.0
+    }
+  },
+  "existing_material_map": {
+    "M_Dining_OffWhitePaint_Matte": "/Game/ATS/Dining/PhotoFinishes_20261108/Materials/M_Dining_OffWhitePaint_Matte"
+  },
+  "evidence": {
+    "image": "work/research/dining_shutters/hk01_flood_06.jpg",
+    "photo_supported": "Broad pale/grey left front region, narrow dark right region, smaller darker patch beneath right region on BOTH units.",
+    "not_supported": "Exact fine louvre count, legible controls, manufacturer, measured appliance size.",
+    "slat_policy": "No discrete slats generated: exact count unresolved. The correction is front-face subdivision only."
+  },
+  "metric_limit": "Retains current casing size/placement; local panel proportions are visual interpretation inside that existing box, not a real appliance survey.",
+  "ue_changes": false,
+  "fbx": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\KnownDetails_20261108\\DiningAC\\ATS_Dining_AC_PhotoFronts.fbx",
+  "blend": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\KnownDetails_20261108\\DiningAC\\ATS_Dining_AC_PhotoFronts.blend"
+}

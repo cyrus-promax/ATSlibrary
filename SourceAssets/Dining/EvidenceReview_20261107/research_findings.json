@@ -1,0 +1,272 @@
+{
+  "recorded_at": "2026-11-07T22:36:47.240009+08:00",
+  "status": "appearance_cross_checked_full_layout_unresolved",
+  "sources": [
+    {
+      "id": "ats_2026_meal",
+      "file": "2627_School_News_1_p16_image13.png",
+      "title": "校方《校聲》2026–2027 第一學期：用餐照片",
+      "url": "http://www.ats.edu.hk/images/doc/2627_School_News_1.pdf",
+      "pdf": "2627_School_News_1.pdf",
+      "page": 16,
+      "observed": [
+        "白色桌面、藍色／藍綠色椅背、後方淡粉色小方磚牆",
+        "棕色門的一部分、疊起的桌面及膠箱"
+      ],
+      "limits": [
+        "照片拍攝日期沒有單獨標明；刊物年份不等於每張照片拍攝年份",
+        "只見局部用餐區，不能確定桌椅總數或全室排列",
+        "棕色門未能對應用戶圖中的任何一扇門"
+      ],
+      "local_image": "References/2627_School_News_1_p16_image13.png",
+      "native_pixels": [
+        805,
+        604
+      ],
+      "sha256": "c6c5be76c79976054c985e69e54076fe6cc0fea61610560942216f0d3291862b",
+      "publication_sha256": "f2fb8062492b316f942fba5f22fc1086b1eac3bf64cfda7ed5514e322b9f7092",
+      "research_original_path": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\dining_layout\\2627_School_News_1.pdf"
+    },
+    {
+      "id": "ats_2026_washing",
+      "file": "2627_School_News_1_p16_image12.png",
+      "title": "校方《校聲》2026–2027 第一學期：清洗活動照片",
+      "url": "http://www.ats.edu.hk/images/doc/2627_School_News_1.pdf",
+      "pdf": "2627_School_News_1.pdf",
+      "page": 16,
+      "observed": [
+        "窗邊長枱上有紅色盆，學生正在清洗，另有人沖洗地面",
+        "局部淺色小磚牆、深色牆腳和高窗"
+      ],
+      "limits": [
+        "頁面未把這個洗滌位置單獨標成餐廳洗手池",
+        "不能據此確定用戶圖中洗手池的款式、長度或朝向",
+        "不把紅色盆和工作枱直接改造成固定洗手池"
+      ],
+      "local_image": "References/2627_School_News_1_p16_image12.png",
+      "native_pixels": [
+        1005,
+        754
+      ],
+      "sha256": "feb67bb81ef50b857f5adaae5a6ff4126337f6a5af963fed6459c76380f76b39",
+      "publication_sha256": "f2fb8062492b316f942fba5f22fc1086b1eac3bf64cfda7ed5514e322b9f7092",
+      "research_original_path": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\dining_layout\\2627_School_News_1.pdf"
+    },
+    {
+      "id": "ats_2023_cleanup_wide",
+      "file": "flood_dining_2023_view_14.png",
+      "title": "校方《校聲》2023–2024 第一學期：飯堂水浸清理",
+      "url": "http://www.ats.edu.hk/images/doc/2324_School_News_1.pdf",
+      "pdf": "2324_School_News_1.pdf",
+      "page": 12,
+      "observed": [
+        "一列矩形柱、白色縱橫樑、長條燈、吊扇和藍色牆扇",
+        "柱下部淺色小磚、深色橫邊及深色牆腳",
+        "高窗、白桌藍椅、深淺相間地面帶"
+      ],
+      "limits": [
+        "2023 年清理場景，桌椅已搬動或疊起，不是正常用餐擺位",
+        "不能從透視照片直接取得完整柱網、房間尺寸或天花高度",
+        "原生照片僅 435 × 316；依 PDF 排版旋轉 180 度，沒有補畫細節"
+      ],
+      "local_image": "References/flood_dining_2023_view_14.png",
+      "native_pixels": [
+        435,
+        316
+      ],
+      "sha256": "89612fb835d3de0de83c094ea6313855577c89ee54f6f7db816052d9380f45b9",
+      "publication_sha256": "5248d85b7e6177efaf15680f7c6c9c46dd42449ce81d6809e97b812712997e41",
+      "research_original_path": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\dining_layout\\2324_School_News_1.pdf"
+    },
+    {
+      "id": "ats_2023_cleanup_side",
+      "file": "flood_dining_2023_view_13.png",
+      "title": "同次清理的另一個飯堂角度",
+      "url": "http://www.ats.edu.hk/images/doc/2324_School_News_1.pdf",
+      "pdf": "2324_School_News_1.pdf",
+      "page": 12,
+      "observed": [
+        "窗旁的白桌與疊放椅子",
+        "牆上十字架、吊扇、長條燈及較反光的局部牆面"
+      ],
+      "limits": [
+        "同一次清理活動，不能當作獨立的日常座位證據",
+        "局部牆面的確切飾材尚不能由低解析照片判定",
+        "原生照片僅 218 × 379；依 PDF 排版旋轉 180 度"
+      ],
+      "local_image": "References/flood_dining_2023_view_13.png",
+      "native_pixels": [
+        218,
+        379
+      ],
+      "sha256": "9aeb19c952d88aeb22ac99483e42ea398411fba47e10467634ad0a8d68966054",
+      "publication_sha256": "5248d85b7e6177efaf15680f7c6c9c46dd42449ce81d6809e97b812712997e41",
+      "research_original_path": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\dining_layout\\2324_School_News_1.pdf"
+    },
+    {
+      "id": "boarding_2021_group",
+      "file": "goodschool_2021_p15_image26.png",
+      "title": "2021 年刊載的寄宿生活圖片：模型車活動合照",
+      "url": "https://media.goodschool.hk/storage/upload/ebook/2021-11-02-175925-108203.pdf",
+      "pdf": "goodschool_2021.pdf",
+      "page": 15,
+      "printed_page": 13,
+      "observed": [
+        "窗邊淺色小磚、柱面花紋小磚及深色收邊",
+        "白色縱橫樑、長條燈、吊扇、藍色牆扇",
+        "白桌及地面深淺條帶"
+      ],
+      "limits": [
+        "合照遮擋大部分家具；活動擺位不能代表日常用餐排列",
+        "不是全室全景，無法把照片方向對到用戶結構圖",
+        "較舊照片僅作交叉核對，不代表每件設施目前仍原樣"
+      ],
+      "local_image": "References/goodschool_2021_p15_image26.png",
+      "native_pixels": [
+        823,
+        550
+      ],
+      "sha256": "1c45bb34faf0af65598fc2c1520481b7992ace2756368276454e40e24915fcd5",
+      "publication_sha256": "e56d906c530e15ba38f69cfb8c81f1948d77bb0a89a0650a33adea317958b785",
+      "research_original_path": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\dining_layout\\goodschool_2021.pdf"
+    },
+    {
+      "id": "visit_2018_meal",
+      "file": "ccc2019_p19_image00.png",
+      "title": "2019 年出版的探訪記錄：2018 年與寄宿生用餐",
+      "url": "https://cgf-cccosa.com.hk/download/Booklet/CCC2019.pdf",
+      "pdf": "ccc2019.pdf",
+      "page": 19,
+      "observed": [
+        "用餐時白色長枱、藍椅與窗邊的相對關係"
+      ],
+      "limits": [
+        "拍攝活動為 2018 年，不能直接當作目前配置",
+        "照片只有 269 × 202，桌椅總數與通道邊界看不完整"
+      ],
+      "local_image": "References/ccc2019_p19_image00.png",
+      "native_pixels": [
+        269,
+        202
+      ],
+      "sha256": "184aa9639971988d91911b7270e11038bf7dd0052b989e18c77bac526ac2b4fc",
+      "publication_sha256": "93872817cb6f4a5e41d28631eccc06ef686994750bcd56572b75463269191972",
+      "research_original_path": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\dining_layout\\ccc2019.pdf"
+    },
+    {
+      "id": "visit_2018_side",
+      "file": "ccc2019_p19_image02.png",
+      "title": "同次探訪的窗邊角度",
+      "url": "https://cgf-cccosa.com.hk/download/Booklet/CCC2019.pdf",
+      "pdf": "ccc2019.pdf",
+      "page": 19,
+      "observed": [
+        "窗邊白桌、藍椅及牆上設備"
+      ],
+      "limits": [
+        "原生照片只有 273 × 205",
+        "沒有三扇門及維他天地等定位點，無法對位到新圖"
+      ],
+      "local_image": "References/ccc2019_p19_image02.png",
+      "native_pixels": [
+        273,
+        205
+      ],
+      "sha256": "03478c5baab5822329df5a3f0b229f22acd9ab1c70ca9d15670cf078ca1283ee",
+      "publication_sha256": "93872817cb6f4a5e41d28631eccc06ef686994750bcd56572b75463269191972",
+      "research_original_path": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\dining_layout\\ccc2019.pdf"
+    },
+    {
+      "id": "goodschool_2020_meal_duplicate",
+      "file": "goodschool_2020_02.jpg",
+      "title": "GoodSchool《寄宿生活樂趣多》：較清楚的既有用餐照片",
+      "url": "https://www.goodschool.hk/blog/3ca6df60-33c0-11eb-95a2-21cd6b992bff",
+      "image_url": "https://media.goodschool.hk/upload/2020/12/ISSUE_32_750x430284308d30d5334377312cbdda72200218d.jpg",
+      "observed": [
+        "白桌、藍椅、金屬桌椅腳及後方青綠色櫃面"
+      ],
+      "limits": [
+        "與先前教育局簡報和 2021 年刊物使用的是同一張用餐照片",
+        "只是清晰度較好的來源，不能算作另一日期或另一角度的驗證",
+        "櫃面位置不能與維他天地或洗手池直接畫上等號"
+      ],
+      "local_image": "References/goodschool_2020_02.jpg",
+      "native_pixels": [
+        750,
+        430
+      ],
+      "sha256": "9b9fa2f7e028a14d9ef5357f6b11e9974c808de84a4e8fadb1d12a99da9603d8"
+    }
+  ],
+  "user_diagram": "user_plan_constraints.json",
+  "comparison": [
+    {
+      "item": "牆面與柱",
+      "supported": "不同位置有淺色／淡粉色小方磚、深色收邊，另有局部較反光的牆面；飯堂有一列柱。",
+      "unresolved": "各飾材對應哪面牆、柱的完整數量及座標、磚尺寸與色號。",
+      "action": "撤下上一版指定位置的灰色牆面；不把小方磚鋪滿整個房間。"
+    },
+    {
+      "item": "天花",
+      "supported": "白色縱橫樑、長條燈、吊扇，另見藍色牆扇。",
+      "unresolved": "完整樑網、天花高度、燈與風扇的總數和間距。",
+      "action": "撤下上一版估計的天花和配套燈扇；不從單一透視圖硬推尺寸。"
+    },
+    {
+      "item": "桌椅",
+      "supported": "多張照片可核對白色長枱與藍色膠椅；局部窗邊也有桌椅。",
+      "unresolved": "完整日常排列、方向、通道寬度、總數及實際桌椅尺寸。",
+      "action": "三組桌椅的估計擺位退出導覽；款式模型保存在參考組。"
+    },
+    {
+      "item": "三扇門",
+      "supported": "用戶圖顯示右側兩門和下方一門；下方門不是通往先前的室外桌椅走廊。",
+      "unresolved": "右側兩門去向，以及圖紙相對校園的朝向。",
+      "action": "不新接任何門到室外走廊。"
+    },
+    {
+      "item": "維他天地、洗手池、飲水機",
+      "supported": "按用戶圖記錄三者的相對位置。",
+      "unresolved": "型號、尺寸、樣式、界線，以及對應實景照片和校園座標。",
+      "action": "只存位置約束，未新增未確認模型；清洗照片不直接當作洗手池。"
+    }
+  ],
+  "newsletter_review": {
+    "files": [
+      "2324_School_News_1.pdf",
+      "2324_School_News_2.pdf",
+      "2425_School_News_1.pdf",
+      "2425_School_News_2.pdf",
+      "2526_School_News_1.pdf",
+      "2526_School_News_2.pdf",
+      "2627_School_News_1.pdf"
+    ],
+    "coverage": "All rendered page overview sheets visually screened; candidate dining images opened at native resolution. This is a bounded search, not proof that no other photographs exist."
+  },
+  "other_review": {
+    "goodschool_2021_pdf_pages": 20,
+    "ccc2019_pdf_pages": [
+      17,
+      19,
+      20
+    ]
+  },
+  "evidence_limits": [
+    "舊照片、合照、水浸清理和日常用餐照片用途不同，不能混成一張精確平面圖",
+    "2026 刊物中的照片拍攝日期未單獨確定",
+    "同一張用餐照片跨刊物重用，不能重複計為不同角度",
+    "低解析照片不經生成式補畫來當作實景細節",
+    "Facebook 暫時封鎖、部分影片或刊物無法直接存取，沒有聲稱看過未取得的內容"
+  ],
+  "scene_action": {
+    "report": "../../../dining_evidence_review_scene.json",
+    "runtime_report": "../../../dining_evidence_review_runtime.json",
+    "reference_only_actor_count": 30,
+    "other_actors_preserved": 820,
+    "full_layout_verified": false,
+    "new_geometry": 0,
+    "new_door_connections": 0,
+    "assets_deleted": 0,
+    "backup": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\Saved\\Backups\\DiningEvidenceReview_20261107_223403"
+  }
+}

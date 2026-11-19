@@ -1,0 +1,111 @@
+{
+  "reviewed_at": "2026-11-08",
+  "scope": "Visual evidence for ATS dining-room floor, lower walls, upper walls and ceiling. Research only; no UE or project edits.",
+  "method": "Direct visual inspection of original-size local photographs, web search and source-page verification. No AI-generated or AI-upscaled evidence. Photographic colour is not a measured albedo.",
+  "sources": [
+    {
+      "id": "hk01_cleanup_2023",
+      "page_url": "https://www.hk01.com/article/939149",
+      "image_url": "https://cdn.hk01.com/di/media/images/dw/20230909/777190212928671744458609.jpeg/mYl1stBhunR-gVXPP8MwhAWE0MDJaz10S6YAVEumAFQ",
+      "local_path": "C:/Users/Cyrus/Documents/Codex/2026-11-06/dao/work/research/dining_shutters/hk01_flood_06.jpg",
+      "size_px": [1824, 1368],
+      "publication_date": "2023-09-09; updated 2023-09-10",
+      "event": "September 2023 rainstorm cleanup; school-supplied photographs",
+      "observations": [
+        "Warm beige terrazzo field containing dense irregular black, grey and light aggregate. Dark charcoal/black terrazzo bands contain contrasting pale aggregate.",
+        "Fine square slab joints are visible within the light terrazzo field. Dark strips form at least several orthogonal divisions in the visible portion.",
+        "Water, mud, exposure and artificial light affect the apparent golden colour and strong mirror reflection. These are not the normal dry finish.",
+        "Lower walls and column wraps have pale cream/grey/pink small rectangular mosaic units alternating direction in a basketweave or maze-like pattern, with a narrow dark tiled top border and dark skirting.",
+        "Upper walls, ceiling slab and substantial exposed downstand beams are painted off-white. Suspended linear light fittings, ceiling fans and exposed conduit are visible. No suspended square ceiling grid is visible in this room portion.",
+        "The rightmost wall also includes a large reflective panel surface. Its material, extent and relationship to the plan cannot be established."
+      ],
+      "limits": [
+        "Cleanup furniture positions are not evidence of normal seating layout.",
+        "The source does not give dimensional plans or a camera position registered to the UE model.",
+        "This is the same photograph as a small image in the 2023 school newsletter, not independent corroboration."
+      ]
+    },
+    {
+      "id": "goodschool_2021_dry_activity",
+      "page_url": "https://media.goodschool.hk/storage/upload/ebook/2021-11-02-175925-108203.pdf",
+      "pdf_page": 15,
+      "printed_page": 13,
+      "local_path": "C:/Users/Cyrus/Documents/Codex/2026-11-06/dao/work/research/dining_layout/goodschool_2021_p15_image26.png",
+      "size_px": [823, 550],
+      "publication_date": "2021, upload path dated 2021-11-02",
+      "photo_capture_date": null,
+      "observations": [
+        "Group activity in a matching hall: tall windows, cross, blue wall fans, white beams and narrow suspended lights.",
+        "Foreground has dry-looking warm light beige terrazzo with small dark/light chips and a broad dark terrazzo band. It is substantially less golden and less mirror-reflective than the flood-cleanup image.",
+        "The right column clearly shows the pale rectangular alternating-direction mosaic and narrow dark cap border, independently corroborating that surface appearance before the 2023 flood.",
+        "Exposed white ceiling beams and fans agree with the 2023 image."
+      ],
+      "limits": [
+        "People obscure much of the floor and furniture. No whole-room band map or measured tile scale can be recovered.",
+        "Matching room identification is a visual inference, not a labelled floorplan registration.",
+        "Image white balance has a green cast; do not sample it as exact material colour."
+      ]
+    },
+    {
+      "id": "newsletter_2627_meal",
+      "page_url": "http://www.ats.edu.hk/images/doc/2627_School_News_1.pdf",
+      "pdf_page": 16,
+      "local_path": "C:/Users/Cyrus/Documents/Codex/2026-11-06/dao/work/research/dining_layout/2627_School_News_1_p16_image13.png",
+      "size_px": [805, 604],
+      "publication_period": "2026/27 according to filename; photograph capture date unspecified",
+      "observations": [
+        "Dining students use white rectangular tables and blue/aqua individual plastic chairs.",
+        "The visible lower wall is pale pink with a fine regular square-like grid, unlike the clearly alternating rectangular mosaic on the 2021/2023 hall columns.",
+        "A small patch of speckled grey/beige floor is visible at the right edge. No ceiling or top wall border is visible."
+      ],
+      "limits": [
+        "The photo cannot establish that every dining wall is pink square mosaic or establish the wall's location in the user plan.",
+        "Do not assume a photo in a 2026/27 publication was captured in 2026 or supersedes all older images.",
+        "An unlabelled small timber door at the edge cannot override the user's confirmation of roller-shutter entrances."
+      ]
+    },
+    {
+      "id": "newsletter_2627_cleaning",
+      "page_url": "http://www.ats.edu.hk/images/doc/2627_School_News_1.pdf",
+      "pdf_page": 16,
+      "local_path": "C:/Users/Cyrus/Documents/Codex/2026-11-06/dao/work/research/dining_layout/2627_School_News_1_p16_image12.png",
+      "size_px": [1005, 754],
+      "photo_capture_date": null,
+      "observations": [
+        "A washing/cleaning space with large windows, pale pink right lower wall, warmer beige left lower wall, off-white upper walls and dark skirting.",
+        "No narrow black top cap like the main hall column is clearly visible; the picture does not establish whether it is another section or a later alteration.",
+        "Students use red plastic basins on a long metal bench. The visible setup does not prove the location or design of the user's fixed long washbasin."
+      ],
+      "limits": ["Do not transfer this wall finish or the basin bench to an unverified position in the dining plan."]
+    }
+  ],
+  "cross_photo_conclusions": {
+    "floor": "High confidence that the photographed main hall uses light warm beige speckled terrazzo with contrasting dark speckled bands. A generic near-monochrome grey floor is a poor match. Dry appearance should not copy the flood image's mud colour or wet gloss.",
+    "lower_wall": "High confidence in pale alternating-direction rectangular mosaic on the main hall columns and several walls in 2021/2023. Other dining/cleaning photos show pink fine-grid wall areas; exact zoning and age are unresolved. Neither uniform pink square tiles everywhere nor basketweave everywhere is established.",
+    "upper_wall_ceiling": "High confidence in off-white paint on exposed structural ceiling, beams, upper walls and columns in the photographed hall. A tiled drop-ceiling appearance has no support here. Exact beam, column and fixture coordinates remain unknown."
+  },
+  "implementation_guidance": {
+    "safe_appearance_changes": [
+      "Use warm light beige terrazzo with small irregular multi-tone aggregate as the general photographed hall floor appearance.",
+      "Prepare a separate dark terrazzo material for photo-confirmed strips, but apply strips only after their world positions can be registered; do not generate a whole-room invented grid.",
+      "Use off-white low-gloss paint for the existing upper wall and ceiling geometry.",
+      "Prepare the pale rectangular alternating-direction mosaic and narrow dark cap for positively matched wall/column surfaces. Retain the pink-grid evidence as a separate unresolved zone instead of overwriting every wall.",
+      "Do not add a fabricated regular beam grid, ceiling tile grid, conduit network or identical light-spacing pattern."
+    ],
+    "shader_starting_points_not_site_measurements": {
+      "notice": "The following are renderer tuning suggestions only, not measured ATS material properties or calibrated colours. Verify under neutral illumination before adjusting the existing scene lighting.",
+      "dry_light_terrazzo": {"metallic": 0, "roughness_range": [0.42, 0.62], "normal": "Very shallow aggregate texture; avoid cobblestone relief or deep grout.", "colour": "Low-saturation warm ivory/beige matrix, dark grey and light chips; avoid yellow flood-water tint."},
+      "dark_terrazzo": {"metallic": 0, "roughness_range": [0.4, 0.6], "colour": "Charcoal matrix with many light grey/white irregular chips."},
+      "pale_mosaic": {"metallic": 0, "roughness_range": [0.5, 0.72], "colour": "Off-white/light grey tiles with subtle cream or pink variation, restrained grout contrast.", "normal": "Small shallow joints; do not represent tiny mosaic as coarse 5 cm squares."},
+      "painted_upper_surfaces": {"metallic": 0, "roughness_range": [0.75, 0.9], "colour": "Off-white neutral to slightly warm; avoid stark emissive white and strong yellow."}
+    },
+    "dimensions_and_position_evidence_boundary": [
+      "No exact tile size, grout width, floor slab module, dark band width, skirting height or wall-dado height is established by a ruler or dimensioned drawing.",
+      "No exact beam width/depth/spacing or ceiling height is established by these images.",
+      "No exact floor-band arrangement relative to the user's three doors, tuck shop, sink or two courtyards is established.",
+      "The user's whole-G-floor confirmation and current exterior model may constrain room extent; that does not convert photo estimates into measured dimensions.",
+      "Keep any provisional texture scale or material numeric settings identified as visual approximation."
+    ]
+  },
+  "bounded_search_outcome": "Searches for ATS dining/floor/boarding photos did not reveal a newer labelled full-room material survey. General image search returned unrelated schools and was excluded. The inspected 2021 dry activity photo gives useful independent surface corroboration; nearby collage/art-room images in the same PDF were inspected and excluded as different rooms. No new original asset download was needed because the full-resolution source images were already present."
+}

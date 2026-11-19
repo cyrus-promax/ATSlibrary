@@ -1,0 +1,1148 @@
+{
+  "mode": "Read only; no source model or UE asset modified",
+  "query_campus_m": [
+    [
+      -0.5,
+      0.5
+    ],
+    [
+      13,
+      24
+    ],
+    [
+      0.5,
+      3.5
+    ]
+  ],
+  "reports": [
+    {
+      "source_file": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Walkthrough\\ATS_Walkthrough.blend",
+      "sha256_before": "0b1fe69043159fa3131a232ba4358a74068450ae930b909d15dfd8374fc3ce4e",
+      "sha256_after": "0b1fe69043159fa3131a232ba4358a74068450ae930b909d15dfd8374fc3ce4e",
+      "objects": [
+        {
+          "object": "SM_Walk_HistoricWestWing_ShanghaiRender",
+          "object_transform": "<Matrix 4x4 (1.0000, 0.0000, 0.0000, 0.0000)\n            (0.0000, 1.0000, 0.0000, 0.0000)\n            (0.0000, 0.0000, 1.0000, 0.0000)\n            (0.0000, 0.0000, 0.0000, 1.0000)>",
+          "total_vertices": 48,
+          "total_faces": 36,
+          "object_bounds_campus_m": [
+            [
+              -0.03000085456067403,
+              24.999999912945494
+            ],
+            [
+              -0.2400002681193616,
+              30.399999788985774
+            ],
+            [
+              7.629394538355427e-07,
+              12.8
+            ]
+          ],
+          "intersecting_faces": [
+            3,
+            5
+          ],
+          "intersecting_faces_count": 2,
+          "intersecting_components": [
+            {
+              "bounds_campus_m": [
+                [
+                  -0.03000085456067403,
+                  0.23000082465336824
+                ],
+                [
+                  -9.318952079850201e-07,
+                  30.399999788985774
+                ],
+                [
+                  7.629394538355427e-07,
+                  12.8
+                ]
+              ],
+              "vertex_count": 8,
+              "face_count": 6,
+              "vertex_indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "face_indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "material_names": [
+                "M_Interior_ShanghaiRender"
+              ],
+              "is_8_vertex_6_face_box": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Dining\\FullGroundFloor_20261108\\ATS_Dining_Built.blend",
+      "sha256_before": "d77c819e9dedc02c1cf3dfb4190bc121dfd965585e1bfcd9107bf494642c86f3",
+      "sha256_after": "d77c819e9dedc02c1cf3dfb4190bc121dfd965585e1bfcd9107bf494642c86f3",
+      "objects": [
+        {
+          "object": "SM_DiningBuilt_Tiles",
+          "object_transform": "<Matrix 4x4 (1.0000, 0.0000, 0.0000, 0.0000)\n            (0.0000, 1.0000, 0.0000, 0.0000)\n            (0.0000, 0.0000, 1.0000, 0.0000)\n            (0.0000, 0.0000, 0.0000, 1.0000)>",
+          "total_vertices": 379952,
+          "total_faces": 284964,
+          "object_bounds_campus_m": [
+            [
+              0.24299998143763368,
+              19.67850037049146
+            ],
+            [
+              3.673999174254362,
+              30.309000273489886
+            ],
+            [
+              0.019999313354492898,
+              1.8499992370605476
+            ]
+          ],
+          "intersecting_faces": [
+            216486,
+            216487,
+            216489,
+            216490,
+            216491,
+            216492,
+            216493,
+            216495,
+            216496,
+            216497,
+            216498,
+            216499,
+            216501,
+            216502,
+            216503,
+            216504,
+            216505,
+            216507,
+            216508,
+            216509
+          ],
+          "intersecting_faces_count": 34428,
+          "intersecting_components": [
+            {
+              "bounds_campus_m": [
+                [
+                  0.24399961589334618,
+                  0.25400037629538996
+                ],
+                [
+                  12.971499893686012,
+                  13.018500404317136
+                ],
+                [
+                  0.5014999389648445,
+                  0.5485008239746101
+                ]
+              ],
+              "vertex_count": 8,
+              "face_count": 6,
+              "vertex_indices": [
+                288648,
+                288649,
+                288650,
+                288651,
+                288652,
+                288653,
+                288654,
+                288655
+              ],
+              "face_indices": [
+                216486,
+                216487,
+                216488,
+                216489,
+                216490,
+                216491
+              ],
+              "material_names": [
+                "M_DiningBuild_CreamTile0"
+              ],
+              "is_8_vertex_6_face_box": true
+            },
+            {
+              "bounds_campus_m": [
+                [
+                  0.24399961589334618,
+                  0.25400037629538996
+                ],
+                [
+                  12.971499893686012,
+                  13.018500404317136
+                ],
+                [
+                  0.5514991760253913,
+                  0.598500061035157
+                ]
+              ],
+              "vertex_count": 8,
+              "face_count": 6,
+              "vertex_indices": [
+                288656,
+                288657,
+                288658,
+                288659,
+                288660,
+                288661,
+                288662,
+                288663
+              ],
+              "face_indices": [
+                216492,
+                216493,
+                216494,
+                216495,
+                216496,
+                216497
+              ],
+              "material_names": [
+                "M_DiningBuild_CreamTile0"
+              ],
+              "is_8_vertex_6_face_box": true
+            },
+            {
+              "bounds_campus_m": [
+                [
+                  0.24399961589334618,
+                  0.25400037629538996
+                ],
+                [
+                  12.971499893686012,
+                  13.018500404317136
+                ],
+                [
+                  0.601500320434571,
+                  0.6484992980957038
+                ]
+              ],
+              "vertex_count": 8,
+              "face_count": 6,
+              "vertex_indices": [
+                288664,
+                288665,
+                288666,
+                288667,
+                288668,
+                288669,
+                288670,
+                288671
+              ],
+              "face_indices": [
+                216498,
+                216499,
+                216500,
+                216501,
+                216502,
+                216503
+              ],
+              "material_names": [
+                "M_DiningBuild_CreamTile2"
+              ],
+              "is_8_vertex_6_face_box": true
+            }
+          ],
+          "superseded_not_live": true,
+          "intersecting_components_count": 5747,
+          "components_truncated_reason": "Old 5cm tile geometry is superseded by StructuralSurfaces HallSurfacePanels; retain three examples only."
+        },
+        {
+          "object": "SM_DiningBuilt_Walls",
+          "object_transform": "<Matrix 4x4 (1.0000, 0.0000, 0.0000, 0.0000)\n            (0.0000, 1.0000, 0.0000, 0.0000)\n            (0.0000, 0.0000, 1.0000, 0.0000)\n            (0.0000, 0.0000, 0.0000, 1.0000)>",
+          "total_vertices": 384,
+          "total_faces": 288,
+          "object_bounds_campus_m": [
+            [
+              0.22999919541984504,
+              19.680000340315214
+            ],
+            [
+              3.449999156436572,
+              30.490000388438546
+            ],
+            [
+              7.629394538355427e-07,
+              3.95999984741211
+            ]
+          ],
+          "intersecting_faces": [
+            3,
+            5
+          ],
+          "intersecting_faces_count": 2,
+          "intersecting_components": [
+            {
+              "bounds_campus_m": [
+                [
+                  0.22999919541984504,
+                  0.23999962964606425
+                ],
+                [
+                  3.6699993526994197,
+                  30.400000410584184
+                ],
+                [
+                  7.629394538355427e-07,
+                  3.95999984741211
+                ]
+              ],
+              "vertex_count": 8,
+              "face_count": 6,
+              "vertex_indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "face_indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "material_names": [
+                "M_DiningBuild_Paint"
+              ],
+              "is_8_vertex_6_face_box": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Dining\\StructuralSurfaces_20261108\\ATS_Dining_HallSurfaces.blend",
+      "sha256_before": "cfa9a718ed5782c389f2eafab6c49ad451a40cc54aeec93bc159957890e3f33a",
+      "sha256_after": "cfa9a718ed5782c389f2eafab6c49ad451a40cc54aeec93bc159957890e3f33a",
+      "objects": [
+        {
+          "object": "SM_Dining_HallSurfacePanels",
+          "object_transform": "<Matrix 4x4 (1.0000, 0.0000, 0.0000, 0.0000)\n            (0.0000, 1.0000, 0.0000, 0.0000)\n            (0.0000, 0.0000, 1.0000, 0.0000)\n            (0.0000, 0.0000, 0.0000, 1.0000)>",
+          "total_vertices": 664,
+          "total_faces": 282,
+          "object_bounds_campus_m": [
+            [
+              0.24299998143763368,
+              19.67600005750808
+            ],
+            [
+              3.673999174254362,
+              30.309000273489886
+            ],
+            [
+              0.019999313354492898,
+              1.8499992370605476
+            ]
+          ],
+          "intersecting_faces": [
+            102,
+            103,
+            105,
+            107,
+            277,
+            279,
+            281
+          ],
+          "intersecting_faces_count": 7,
+          "intersecting_components": [
+            {
+              "bounds_campus_m": [
+                [
+                  0.24299998143763368,
+                  0.2610000795592544
+                ],
+                [
+                  3.7699993897142874,
+                  30.299999840570006
+                ],
+                [
+                  1.8000000000000007,
+                  1.8000000000000007
+                ]
+              ],
+              "vertex_count": 4,
+              "face_count": 1,
+              "vertex_indices": [
+                408,
+                409,
+                410,
+                411
+              ],
+              "face_indices": [
+                102
+              ],
+              "material_names": [
+                "M_Dining_Hall_CharcoalCap"
+              ],
+              "is_8_vertex_6_face_box": false
+            },
+            {
+              "bounds_campus_m": [
+                [
+                  0.24299998143763368,
+                  0.2610000795592544
+                ],
+                [
+                  3.7699993897142874,
+                  30.299999840570006
+                ],
+                [
+                  1.8499992370605476,
+                  1.8499992370605476
+                ]
+              ],
+              "vertex_count": 4,
+              "face_count": 1,
+              "vertex_indices": [
+                412,
+                413,
+                414,
+                415
+              ],
+              "face_indices": [
+                103
+              ],
+              "material_names": [
+                "M_Dining_Hall_CharcoalCap"
+              ],
+              "is_8_vertex_6_face_box": false
+            },
+            {
+              "bounds_campus_m": [
+                [
+                  0.2610000790629553,
+                  0.2610000795592544
+                ],
+                [
+                  3.7699999488514124,
+                  30.299999840570006
+                ],
+                [
+                  1.8000000000000007,
+                  1.8499992370605476
+                ]
+              ],
+              "vertex_count": 4,
+              "face_count": 1,
+              "vertex_indices": [
+                420,
+                421,
+                422,
+                423
+              ],
+              "face_indices": [
+                105
+              ],
+              "material_names": [
+                "M_Dining_Hall_CharcoalCap"
+              ],
+              "is_8_vertex_6_face_box": false
+            },
+            {
+              "bounds_campus_m": [
+                [
+                  0.24299998143763368,
+                  0.24300014502184553
+                ],
+                [
+                  3.7699993897142874,
+                  30.29999972951324
+                ],
+                [
+                  1.8000000000000007,
+                  1.8499992370605476
+                ]
+              ],
+              "vertex_count": 4,
+              "face_count": 1,
+              "vertex_indices": [
+                428,
+                429,
+                430,
+                431
+              ],
+              "face_indices": [
+                107
+              ],
+              "material_names": [
+                "M_Dining_Hall_CharcoalCap"
+              ],
+              "is_8_vertex_6_face_box": false
+            },
+            {
+              "bounds_campus_m": [
+                [
+                  0.2520000302502944,
+                  0.2540005572683426
+                ],
+                [
+                  3.76999966928285,
+                  30.3000000090818
+                ],
+                [
+                  0.15000038146972727,
+                  1.8000000000000007
+                ]
+              ],
+              "vertex_count": 8,
+              "face_count": 6,
+              "vertex_indices": [
+                656,
+                657,
+                658,
+                659,
+                660,
+                661,
+                662,
+                663
+              ],
+              "face_indices": [
+                276,
+                277,
+                278,
+                279,
+                280,
+                281
+              ],
+              "material_names": [
+                "M_Dining_Hall_BasketMosaic"
+              ],
+              "is_8_vertex_6_face_box": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "implementation_summary": {
+    "coordinate_system": "Campus metres (u,v,h), u0 west wall, h0 G floor",
+    "required_layers": [
+      {
+        "actor": "StaticMeshActor_51",
+        "object": "SM_Walk_HistoricWestWing_ShanghaiRender",
+        "source_report": 0,
+        "vertices_to_split": [
+          0,
+          7
+        ],
+        "faces_to_split": [
+          0,
+          5
+        ],
+        "box_bounds": {
+          "u": [
+            -0.03,
+            0.23
+          ],
+          "v": [
+            0,
+            30.4
+          ],
+          "h": [
+            0,
+            12.8
+          ]
+        },
+        "preserve": "All 40 other vertices and 30 other faces; top wall above windows; save derived asset, never overwrite old original or courtyard facade."
+      },
+      {
+        "actor": "StaticMeshActor_620",
+        "object": "SM_DiningBuilt_Walls",
+        "source_report": 1,
+        "vertices_to_split": [
+          0,
+          7
+        ],
+        "faces_to_split": [
+          0,
+          5
+        ],
+        "box_bounds": {
+          "u": [
+            0.23,
+            0.24
+          ],
+          "v": [
+            3.67,
+            30.4
+          ],
+          "h": [
+            0,
+            3.96
+          ]
+        },
+        "preserve": "All 376 other vertices and 282 other faces; preserve PhotoFinishes component material overrides."
+      },
+      {
+        "actor": "StaticMeshActor_619",
+        "object": "SM_Dining_HallSurfacePanels",
+        "source_report": 2,
+        "panel_vertices_to_split": [
+          656,
+          663
+        ],
+        "panel_faces_to_split": [
+          276,
+          281
+        ],
+        "panel_bounds": {
+          "u": [
+            0.252,
+            0.254
+          ],
+          "v": [
+            3.77,
+            30.3
+          ],
+          "h": [
+            0.15,
+            1.8
+          ]
+        },
+        "intersecting_cap_faces": [
+          102,
+          103,
+          105,
+          107
+        ],
+        "cap_h": [
+          1.8,
+          1.85
+        ],
+        "preserve": "Existing surface panels elsewhere and h<.15 skirting. Cap end faces outside query need not change. Do not restore old FullGroundFloor Tiles."
+      }
+    ],
+    "do_not_patch": "StaticMeshActor_49 FacadeWhite is the courtyard facade with already fixed apertures, not this west wall.",
+    "audit_limit": "Read-only sources and persisted actor snapshot, not current live physics trace. Validate each new aperture against current UE mesh and hidden collision volumes.",
+    "all_sources_unchanged": true
+  },
+  "persisted_hidden_collision_audit": {
+    "snapshot": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Dining\\StructuralSurfaces_20261108\\scene_after.json",
+    "cube_count": 26,
+    "overlapping_cubes": [],
+    "non_cube_bounds_not_inferred": [
+      {
+        "actor": "StaticMeshActor_148",
+        "label": "Unmodeled Area Boundary | Rear wing unmodeled interior",
+        "mesh": "/Game/ATS/Dining/FullGroundFloor_20261108/RearShutterApertures/ATS_Dining_RearBoundaryClearance.ATS_Dining_RearBoundaryClearance"
+      }
+    ],
+    "all_cube_bounds": [
+      {
+        "actor": "StaticMeshActor_125",
+        "label": "Unmodeled Area Boundary | Teaching stair 49 floor 0",
+        "bounds_campus_m": [
+          [
+            53.878478067870766,
+            59.852535898028584
+          ],
+          [
+            32.48471789877382,
+            35.08171393050717
+          ],
+          [
+            0.0,
+            3.400000000000002
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_126",
+        "label": "Unmodeled Area Boundary | Teaching stair 94 floor 0",
+        "bounds_campus_m": [
+          [
+            95.453057030259,
+            101.42711486041682
+          ],
+          [
+            15.263963444102867,
+            17.86095947583622
+          ],
+          [
+            0.0,
+            3.400000000000002
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_127",
+        "label": "Unmodeled Area Boundary | Teaching stair 49 floor 1",
+        "bounds_campus_m": [
+          [
+            53.878478067870766,
+            59.852535898028584
+          ],
+          [
+            32.48471789877382,
+            35.08171393050717
+          ],
+          [
+            3.5,
+            6.900000000000002
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_128",
+        "label": "Unmodeled Area Boundary | Teaching stair 94 floor 1",
+        "bounds_campus_m": [
+          [
+            95.453057030259,
+            101.42711486041682
+          ],
+          [
+            15.263963444102867,
+            17.86095947583622
+          ],
+          [
+            3.5,
+            6.900000000000002
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_129",
+        "label": "Unmodeled Area Boundary | Teaching stair 49 floor 2",
+        "bounds_campus_m": [
+          [
+            53.878478067870766,
+            59.852535898028584
+          ],
+          [
+            32.48471789877382,
+            35.08171393050717
+          ],
+          [
+            7.0,
+            10.4
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_130",
+        "label": "Unmodeled Area Boundary | Teaching stair 94 floor 2",
+        "bounds_campus_m": [
+          [
+            95.453057030259,
+            101.42711486041682
+          ],
+          [
+            15.263963444102867,
+            17.86095947583622
+          ],
+          [
+            7.0,
+            10.4
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_131",
+        "label": "Unmodeled Area Boundary | Teaching stair 49 floor 3",
+        "bounds_campus_m": [
+          [
+            53.878478067870766,
+            59.852535898028584
+          ],
+          [
+            32.48471789877382,
+            35.08171393050717
+          ],
+          [
+            10.5,
+            13.9
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_132",
+        "label": "Unmodeled Area Boundary | Teaching stair 94 floor 3",
+        "bounds_campus_m": [
+          [
+            95.453057030259,
+            101.42711486041682
+          ],
+          [
+            15.263963444102867,
+            17.86095947583622
+          ],
+          [
+            10.5,
+            13.9
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_133",
+        "label": "Unmodeled Area Boundary | Teaching stair 49 floor 4",
+        "bounds_campus_m": [
+          [
+            53.878478067870766,
+            59.852535898028584
+          ],
+          [
+            32.48471789877382,
+            35.08171393050717
+          ],
+          [
+            14.0,
+            17.4
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_134",
+        "label": "Unmodeled Area Boundary | Teaching stair 94 floor 4",
+        "bounds_campus_m": [
+          [
+            95.453057030259,
+            101.42711486041682
+          ],
+          [
+            15.263963444102867,
+            17.86095947583622
+          ],
+          [
+            14.0,
+            17.4
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_135",
+        "label": "Unmodeled Area Boundary | Teaching stair 49 floor 5",
+        "bounds_campus_m": [
+          [
+            53.878478067870766,
+            59.852535898028584
+          ],
+          [
+            32.48471789877382,
+            35.08171393050717
+          ],
+          [
+            17.5,
+            20.900000000000002
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_136",
+        "label": "Unmodeled Area Boundary | Teaching stair 94 floor 5",
+        "bounds_campus_m": [
+          [
+            95.453057030259,
+            101.42711486041682
+          ],
+          [
+            15.263963444102867,
+            17.86095947583622
+          ],
+          [
+            17.5,
+            20.900000000000002
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_137",
+        "label": "Unmodeled Area Boundary | Teaching stair 49 floor 6",
+        "bounds_campus_m": [
+          [
+            53.878478067870766,
+            59.852535898028584
+          ],
+          [
+            32.48471789877382,
+            35.08171393050717
+          ],
+          [
+            21.0,
+            24.400000000000002
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_138",
+        "label": "Unmodeled Area Boundary | Teaching stair 94 floor 6",
+        "bounds_campus_m": [
+          [
+            95.453057030259,
+            101.42711486041682
+          ],
+          [
+            15.263963444102867,
+            17.86095947583622
+          ],
+          [
+            21.0,
+            24.400000000000002
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_139",
+        "label": "Unmodeled Area Boundary | Hall unconfirmed opening 30.5 10",
+        "bounds_campus_m": [
+          [
+            30.419999634479368,
+            30.58000036466397
+          ],
+          [
+            8.74999994565392,
+            11.2500000561648
+          ],
+          [
+            0.0,
+            3.0
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_140",
+        "label": "Unmodeled Area Boundary | Hall unconfirmed opening 30.5 15",
+        "bounds_campus_m": [
+          [
+            30.419999629967066,
+            30.58000036015167
+          ],
+          [
+            13.749999943114535,
+            16.25000005362541
+          ],
+          [
+            0.0,
+            3.0
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_141",
+        "label": "Unmodeled Area Boundary | Hall unconfirmed opening 30.5 20",
+        "bounds_campus_m": [
+          [
+            30.419999638271893,
+            30.58000036845649
+          ],
+          [
+            18.74999994655187,
+            21.250000057062746
+          ],
+          [
+            0.0,
+            3.0
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_142",
+        "label": "Unmodeled Area Boundary | Hall unconfirmed opening 43.7 5",
+        "bounds_campus_m": [
+          [
+            43.61999963423203,
+            43.78000036441662
+          ],
+          [
+            3.749999947904991,
+            6.250000058415866
+          ],
+          [
+            0.0,
+            3.0
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_143",
+        "label": "Unmodeled Area Boundary | Hall unconfirmed opening 43.7 10",
+        "bounds_campus_m": [
+          [
+            43.61999963911666,
+            43.780000369301256
+          ],
+          [
+            8.749999941945399,
+            11.250000052456274
+          ],
+          [
+            0.0,
+            3.0
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_144",
+        "label": "Unmodeled Area Boundary | Hall unconfirmed opening 43.7 15",
+        "bounds_campus_m": [
+          [
+            43.61999963802455,
+            43.78000036820916
+          ],
+          [
+            13.74999994880294,
+            16.250000059313816
+          ],
+          [
+            0.0,
+            3.0
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_145",
+        "label": "Unmodeled Area Boundary | Hall unconfirmed opening 43.7 20",
+        "bounds_campus_m": [
+          [
+            43.61999963351224,
+            43.78000036369685
+          ],
+          [
+            18.749999946263554,
+            21.25000005677443
+          ],
+          [
+            0.0,
+            3.0
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_146",
+        "label": "Unmodeled Area Boundary | Hall unconfirmed rear opening",
+        "bounds_campus_m": [
+          [
+            35.84999994598061,
+            38.35000005649148
+          ],
+          [
+            0.4199996368253309,
+            0.5800003670099336
+          ],
+          [
+            0.0,
+            3.0
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_147",
+        "label": "Unmodeled Area Boundary | East block unmodeled interior",
+        "bounds_campus_m": [
+          [
+            94.19999769592985,
+            119.8000023016211
+          ],
+          [
+            0.1999961072586558,
+            13.800003890763897
+          ],
+          [
+            0.0,
+            20.8
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_149",
+        "label": "Unmodeled Area Boundary | Historic street wing unmodeled interior",
+        "bounds_campus_m": [
+          [
+            44.0999968752466,
+            93.10000312592891
+          ],
+          [
+            -4.100007331558643,
+            13.100007340330693
+          ],
+          [
+            0.0,
+            12.5
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_150",
+        "label": "Unmodeled Area Boundary | Removed northwest connector 1",
+        "bounds_campus_m": [
+          [
+            43.9499999453358,
+            46.45000005584667
+          ],
+          [
+            28.11999962992196,
+            28.28000036010657
+          ],
+          [
+            4.199999999999999,
+            7.400000000000002
+          ]
+        ],
+        "overlaps_query": false
+      },
+      {
+        "actor": "StaticMeshActor_151",
+        "label": "Unmodeled Area Boundary | Removed northwest connector 2",
+        "bounds_campus_m": [
+          [
+            43.9499999453358,
+            46.45000005584667
+          ],
+          [
+            28.11999962992196,
+            28.28000036010657
+          ],
+          [
+            8.400000000000002,
+            11.600000000000001
+          ]
+        ],
+        "overlaps_query": false
+      }
+    ]
+  }
+}

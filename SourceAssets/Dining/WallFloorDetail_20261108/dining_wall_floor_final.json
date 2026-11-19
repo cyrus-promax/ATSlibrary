@@ -1,0 +1,34 @@
+{
+  "status": "saved_visual_static_and_reload_verified",
+  "timestamp": "2026-11-08T14:57:13.486601",
+  "actor_count": 901,
+  "reloaded_actor_snapshots_matched": 901,
+  "all_other_actors_unchanged": 877,
+  "static_checks_passed": 107,
+  "changes": [
+    "More legible pale basket-mosaic with multi-scale colour filtering and fine recessed joint highlight response; original model tile-module size retained",
+    "Dry light terrazzo with more distinct dark/grey/ivory aggregate, reduced yellow cast, smooth surface without displacement",
+    "More legible aggregate in the dark terrazzo skirting",
+    "Close the old 20mm bare-paint gap between mosaic lower edge and black skirting",
+    "Dining lights adjusted from 5300K to 6000K for rendering appearance; intensity, placement and lamp models unchanged"
+  ],
+  "lighting_temperature_is_rendering_choice_not_verified_lamp_spec": true,
+  "backup": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\Saved\\Backups\\DiningWallFloor_20261108_144545",
+  "user_camera_restored": true,
+  "actor_transforms_collision_and_door_logic_unchanged": true,
+  "runtime_not_repeated": "Only surface materials, non-colliding lower wall-panel edge and light colour temperature changed; all collision-bearing geometry, movement and shutter logic unchanged.",
+  "new_partition_or_floor_band_geometry_added": false,
+  "full_reconstruction_complete": false,
+  "not_yet_located": [
+    "Complete dark floor-band graph and widths",
+    "Floor slab-joint layout",
+    "Reflective wall panel bounds",
+    "Interior structural beam and column grid"
+  ],
+  "surface_colours_grain_sizes_roughness_are_visual_estimates": true,
+  "previews": [
+    "Previews/C28_Dining_Refined_Wall_Floor.png",
+    "Previews/C29_Dining_Mosaic_Terrazzo_Close.png"
+  ],
+  "visual_limits": "Static rendered views checked; temporal shimmer during camera motion was not independently measured."
+}

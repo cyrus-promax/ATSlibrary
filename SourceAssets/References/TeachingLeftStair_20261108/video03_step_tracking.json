@@ -1,0 +1,212 @@
+{
+  "source_video": "D:/Cyrus/OneDrive/Videos/74a8a07b375743ab1a07dd216743f29c.mp4",
+  "review_date": "2026-11-08",
+  "supersedes": "The earlier video03_evidence.json left every flight count unknown. This follow-up resolves ONLY the upper flight observed from the initial full-floor landing at 1.4-2.5 seconds.",
+  "extraction": {
+    "reviewed_dense_ranges_seconds": [
+      [
+        1.4,
+        2.5
+      ],
+      [
+        3.8,
+        4.4
+      ],
+      [
+        13.2,
+        15.2
+      ],
+      [
+        19.8,
+        21.2
+      ]
+    ],
+    "frames_extracted": 157,
+    "native_resolution_after_90deg_ccw_rotation": [
+      544,
+      960
+    ],
+    "frame_index": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_tracking_frames\\frame_index.json"
+  },
+  "bounded_flight": {
+    "scope_zh": "影片起始整層平台上方、在1.4–2.5秒鏡頭向右轉時看見的上行跑；不是拍攝者隨後走下的第一跑。",
+    "direction_zh": "從起始整層平台面向內側半層平台，這是中央梯井左邊的上行跑。",
+    "riser_count": 11,
+    "count_interval": [
+      11,
+      11
+    ],
+    "confidence": "high_for_this_visible_flight_only",
+    "riser_definition": "One vertical level rise; the last rise terminates at the half-landing surface. This is not a claim of 11 separate treads plus a further landing riser.",
+    "lower_endpoint_zh": "最下白色立面與大方地磚整層平台相接，地面及首級均在畫面內。",
+    "upper_endpoint_zh": "第11白色立面之後接水平半層平台；深色牆腳踢腳亦在該處轉為水平。沒有把後方扶手或陰影另算成梯級。",
+    "continuity_zh": "1.733–2.000秒拍攝者在整層平台上向右轉視角，沒有沿這跑上樓。首級、末級持續可見；人物主要遮擋右半邊，左半邊可逐級讀取。",
+    "raw_keyframes": [
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_tracking_frames\\v03_001.733s.png",
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_tracking_frames\\v03_001.800s.png",
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_tracking_frames\\v03_001.900s.png",
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_tracking_frames\\v03_001.967s.png",
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_tracking_frames\\v03_002.000s.png"
+    ],
+    "annotated_keyframe": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_tracking_frames\\v03_1.900_11_riser_candidate_annotated.png",
+    "annotation_note": "Filename retains candidate from peer-review preparation. Annotation numbers are evidence labels, not fabricated geometry. Original lossless frame is preserved alongside it.",
+    "annotation_centres_in_original_544x960_pixels": [
+      {
+        "riser_index_from_bottom": 1,
+        "xy": [
+          125,
+          575
+        ]
+      },
+      {
+        "riser_index_from_bottom": 2,
+        "xy": [
+          162,
+          528
+        ]
+      },
+      {
+        "riser_index_from_bottom": 3,
+        "xy": [
+          175,
+          484
+        ]
+      },
+      {
+        "riser_index_from_bottom": 4,
+        "xy": [
+          195,
+          445
+        ]
+      },
+      {
+        "riser_index_from_bottom": 5,
+        "xy": [
+          215,
+          414
+        ]
+      },
+      {
+        "riser_index_from_bottom": 6,
+        "xy": [
+          222,
+          383
+        ]
+      },
+      {
+        "riser_index_from_bottom": 7,
+        "xy": [
+          240,
+          354
+        ]
+      },
+      {
+        "riser_index_from_bottom": 8,
+        "xy": [
+          252,
+          330
+        ]
+      },
+      {
+        "riser_index_from_bottom": 9,
+        "xy": [
+          272,
+          306
+        ]
+      },
+      {
+        "riser_index_from_bottom": 10,
+        "xy": [
+          291,
+          284
+        ]
+      },
+      {
+        "riser_index_from_bottom": 11,
+        "xy": [
+          308,
+          263
+        ]
+      }
+    ],
+    "inspection_crops": [
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_tracking_frames\\inspection_crop_1.900.png",
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_tracking_frames\\inspection_crop_1.967.png"
+    ],
+    "crop_note": "Simple crop and 2x resize for readability only, no generated detail or super-resolution."
+  },
+  "other_flights": {
+    "first_downward_flight_total": null,
+    "return_downward_flight_total": null,
+    "next_pair_total": null,
+    "all_floors_same": false,
+    "reason": "Do not extend a count from this one clearly bounded upper flight to other flights, storeys or buildings.",
+    "observed_relative_sequence": [
+      {
+        "id": "D1",
+        "seconds": [
+          3.8,
+          7.2
+        ],
+        "from": "initial full-floor landing A",
+        "to": "inner half-landing A-0.5",
+        "count": null,
+        "count_limit": "Near-camera top nosing sits at/crosses lower image edge; people also occlude other edges. Whole flight is not approved as 11."
+      },
+      {
+        "id": "D2",
+        "seconds": [
+          8.0,
+          12.5
+        ],
+        "from": "inner half-landing A-0.5",
+        "to": "intermediate corridor full-floor landing A-1",
+        "count": null,
+        "count_limit": "Turn and start of descent do not supply a reliably bounded full-flight count; person and suitcase occlude stair edges."
+      },
+      {
+        "id": "D3",
+        "seconds": [
+          13.5,
+          18.5
+        ],
+        "from": "intermediate corridor full-floor landing A-1",
+        "to": "next inner half-landing A-1.5",
+        "count": null,
+        "count_limit": "Several stair edges visible, but no independently verified simultaneous first/last endpoint count."
+      },
+      {
+        "id": "D4",
+        "seconds": [
+          20.0,
+          26.0
+        ],
+        "from": "next inner half-landing A-1.5",
+        "to": "lower corridor full-floor landing A-2",
+        "count": null,
+        "count_limit": "Top endpoint moves out of view during turn; suitcase/person cover lower edges at earlier times. No exact full-flight count approved."
+      }
+    ],
+    "continuity_zh": "可確認連續路線次序為兩對折返梯段、三個整層平台及兩個內側半層平台。這是相對高差與連接關係，並非已定位的2/3/4樓。四個下行跑各自完整級數均保留未知。",
+    "comparison_with_verified_flight": "The verified 11-riser upper flight is A -> A+0.5, whereas the filmed descent begins A -> A-0.5. They are different flights."
+  },
+  "proportions": {
+    "surveyed_scale": null,
+    "absolute_riser_height_mm": null,
+    "absolute_tread_depth_mm": null,
+    "absolute_flight_width_mm": null,
+    "tile_based_dimensions": null,
+    "reason_zh": "牆磚／踏磚有透視及局部遮擋，且兩種磚不一定同尺寸。沒有量測標尺，不能把任意小方磚規格當實際尺度。只可保存11個上升面的拓撲事實；尺度需由已校準的建築／樓層高度另行定義並標明來源。"
+  },
+  "tile_grid_inspection": {
+    "source_frame": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_22.50s.png",
+    "riser_rows": "approximately 3 visible tile rows",
+    "tread_rows": "approximately 4 visible tile rows plus nosing strip",
+    "classification": "visual_estimate_not_a_dimension",
+    "full_flight_width_tile_columns": null,
+    "limits_zh": "清晰近照的兩側完整梯寬未同時顯示，不能核定整跑橫向磚列。行數只是局部外觀估讀，不支持毫米尺寸或對整校的尺度宣稱。"
+  },
+  "independent_review": "Parent independently counted the same eleven riser faces on the 1.900-second frame.",
+  "scene_edit_approval": "none; only evidence and reference annotations were produced",
+  "location_limit_zh": "這份計數不自行認定地理方位或樓層。若其他證據對到教學樓左端，可將影片的這一可見跑作局部參考；仍不能生成未拍到的六層。"
+}

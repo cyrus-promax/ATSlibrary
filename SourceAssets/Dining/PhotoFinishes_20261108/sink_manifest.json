@@ -1,0 +1,44 @@
+{
+  "length_m": 4.5,
+  "previous_length_m": 2.82,
+  "retained_fitting_count": 3,
+  "fitting_v": [
+    23.93,
+    25.72,
+    27.509999999999998
+  ],
+  "basis": "User explicitly requested a longer washbasin in the drawn position. Length and retained generic fittings are not verified site measurements or a verified product. No new tap count inferred.",
+  "mesh_baked_bounds_campus_m": [
+    18.9525,
+    19.5875,
+    23.4525,
+    27.987499999999997,
+    0.02,
+    1.182
+  ],
+  "effective_world_campus_bounds_m": [
+    18.284111261270684,
+    18.919111261270682,
+    16.70412564064946,
+    21.239125640649455,
+    0.02,
+    1.182
+  ],
+  "existing_actor_translation_ue_cm_preserved": [
+    168,
+    657,
+    0
+  ],
+  "effective_campus_offset_m": [
+    -0.6683887387293173,
+    -6.748374359350542,
+    0
+  ],
+  "position_basis": "Preserved the actor translation present in the fresh user scene, including the user-selected washbasin. No reset to the previous reconstruction position.",
+  "legacy_identity_transform_gap_estimates_not_applicable": {
+    "fountain_gap_m": 1.417500000000004,
+    "courtyard_door_gap_m": 8.70636445
+  },
+  "effective_courtyard_door_v_gap_m": 1.9579900906494583,
+  "effective_fountain_v_gap_m": 8.165874359350546
+}

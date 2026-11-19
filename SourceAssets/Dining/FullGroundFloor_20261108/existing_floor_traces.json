@@ -1,0 +1,65 @@
+[
+  {
+    "campus_xy": [
+      3.775,
+      31.6
+    ],
+    "blocking": true,
+    "actor": "Site | M_Interior_GreyTile",
+    "ground_h": -7.152557373046875e-07
+  },
+  {
+    "campus_xy": [
+      11.805,
+      31.6
+    ],
+    "blocking": true,
+    "actor": "Site | M_Interior_GreyTile",
+    "ground_h": -9.5367431640625e-07
+  },
+  {
+    "campus_xy": [
+      3.775,
+      29
+    ],
+    "blocking": true,
+    "actor": "Site | M_Interior_GreyTile",
+    "ground_h": -2.384185791015625e-07
+  },
+  {
+    "campus_xy": [
+      11.805,
+      29
+    ],
+    "blocking": true,
+    "actor": "NorthwestRearWing | M_Interior_TerrazzoRose",
+    "ground_h": -4.76837158203125e-07
+  },
+  {
+    "campus_xy": [
+      2,
+      28
+    ],
+    "blocking": true,
+    "actor": "Site | M_Interior_GreyTile",
+    "ground_h": 1.1920928955078125e-07
+  },
+  {
+    "campus_xy": [
+      18,
+      28
+    ],
+    "blocking": true,
+    "actor": "Site | M_Interior_GreyTile",
+    "ground_h": -7.152557373046875e-07
+  },
+  {
+    "campus_xy": [
+      16.25,
+      24.44
+    ],
+    "blocking": true,
+    "actor": "Site | M_Interior_GreyTile",
+    "ground_h": -2.384185791015625e-07
+  }
+]

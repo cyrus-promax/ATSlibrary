@@ -1,0 +1,19 @@
+{
+  "material_paths": {
+    "floor": "/Game/ATS/Dining/PhotoFinishes_20261108/Materials/M_Dining_BeigeFineTerrazzo_Dry.M_Dining_BeigeFineTerrazzo_Dry",
+    "paint": "/Game/ATS/Dining/PhotoFinishes_20261108/Materials/M_Dining_OffWhitePaint_Matte.M_Dining_OffWhitePaint_Matte"
+  },
+  "created": [
+    "/Game/ATS/Dining/PhotoFinishes_20261108/Materials/M_Dining_BeigeFineTerrazzo_Dry.M_Dining_BeigeFineTerrazzo_Dry",
+    "/Game/ATS/Dining/PhotoFinishes_20261108/Materials/M_Dining_OffWhitePaint_Matte.M_Dining_OffWhitePaint_Matte"
+  ],
+  "reused_untouched": [],
+  "compile_results": {
+    "floor": "None",
+    "paint": "None"
+  },
+  "scene_modified": false,
+  "unassigned_studies": [],
+  "validation": "UE shader compilation and lit near/far appearance require caller verification.",
+  "note": "Shader numeric settings are visual approximations, not site measurements."
+}

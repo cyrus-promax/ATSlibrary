@@ -1,0 +1,6319 @@
+{
+  "version": 1,
+  "kind": "independent_photo_based_library_studies",
+  "coordinate_system": "Blender metres x/y/z; objects transforms baked to identity",
+  "not_as_built": true,
+  "notes": [
+    "Four spaced display modules; their relative arrangement is not the school floorplan.",
+    "Dimensions and detailed service routes are provisional visual study, not measured.",
+    "Open cutaway ends intentionally avoid inventing unknown partitions or corridors.",
+    "Each door leaf, glazing, handle, hinge and closer is separately identifiable for later pivot grouping."
+  ],
+  "materials": {
+    "LW_Plaster": {
+      "color": [
+        0.84,
+        0.84,
+        0.8
+      ],
+      "roughness": 0.81,
+      "metallic": 0
+    },
+    "LW_PaleOak": {
+      "color": [
+        0.65,
+        0.49,
+        0.3
+      ],
+      "roughness": 0.5,
+      "metallic": 0
+    },
+    "LW_FloorOak": {
+      "color": [
+        0.51,
+        0.38,
+        0.23
+      ],
+      "roughness": 0.58,
+      "metallic": 0
+    },
+    "LW_DarkOak": {
+      "color": [
+        0.21,
+        0.105,
+        0.045
+      ],
+      "roughness": 0.48,
+      "metallic": 0
+    },
+    "LW_BlackMetal": {
+      "color": [
+        0.026,
+        0.035,
+        0.04
+      ],
+      "roughness": 0.28,
+      "metallic": 0.65
+    },
+    "LW_WhiteMetal": {
+      "color": [
+        0.81,
+        0.82,
+        0.79
+      ],
+      "roughness": 0.34,
+      "metallic": 0.5
+    },
+    "LW_Glass": {
+      "color": [
+        0.69,
+        0.82,
+        0.84
+      ],
+      "roughness": 0.06,
+      "metallic": 0
+    },
+    "LW_Rubber": {
+      "color": [
+        0.014,
+        0.016,
+        0.018
+      ],
+      "roughness": 0.8,
+      "metallic": 0
+    },
+    "LW_Light": {
+      "color": [
+        0.96,
+        0.94,
+        0.81
+      ],
+      "roughness": 0.3,
+      "metallic": 0
+    },
+    "LW_Orange": {
+      "color": [
+        0.56,
+        0.19,
+        0.045
+      ],
+      "roughness": 0.46,
+      "metallic": 0
+    },
+    "LW_Wicker": {
+      "color": [
+        0.45,
+        0.27,
+        0.11
+      ],
+      "roughness": 0.71,
+      "metallic": 0
+    },
+    "LW_ExitGreen": {
+      "color": [
+        0.02,
+        0.35,
+        0.23
+      ],
+      "roughness": 0.4,
+      "metallic": 0
+    },
+    "LW_ScreenWhite": {
+      "color": [
+        0.86,
+        0.86,
+        0.84
+      ],
+      "roughness": 0.73,
+      "metallic": 0
+    }
+  },
+  "meshes": [
+    {
+      "name": "SM_LW_A_Main_Floor_FloorOak",
+      "module": "Main",
+      "part": "Floor",
+      "material": "LW_FloorOak",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          0.0,
+          0.0,
+          -0.10999999940395355
+        ],
+        "max": [
+          14.0,
+          8.0,
+          0.0
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_CeilingSlab_Plaster",
+      "module": "Main",
+      "part": "CeilingSlab",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          0.0,
+          0.0,
+          3.799999952316284
+        ],
+        "max": [
+          14.0,
+          8.0,
+          4.0
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_ExposedBeams_Plaster",
+      "module": "Main",
+      "part": "ExposedBeams",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 280,
+      "polygons": 270,
+      "bounds_m": {
+        "min": [
+          0.07999999821186066,
+          0.0,
+          3.4800000190734863
+        ],
+        "max": [
+          13.920000076293945,
+          8.0,
+          3.799999952316284
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_ExposedWhiteServices_WhiteMetal",
+      "module": "Main",
+      "part": "ExposedWhiteServices",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 1560,
+      "polygons": 1440,
+      "bounds_m": {
+        "min": [
+          0.11999999731779099,
+          0.5575000047683716,
+          3.3935999870300293
+        ],
+        "max": [
+          13.809000015258789,
+          7.392499923706055,
+          3.6263999938964844
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_ConduitSupports_WhiteMetal",
+      "module": "Main",
+      "part": "ConduitSupports",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 1568,
+      "polygons": 1408,
+      "bounds_m": {
+        "min": [
+          0.19200000166893005,
+          0.5299999713897705,
+          3.4120001792907715
+        ],
+        "max": [
+          13.808000564575195,
+          7.420000076293945,
+          3.7899999618530273
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowWallPanels_Plaster",
+      "module": "Main",
+      "part": "WindowWallPanels",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 784,
+      "polygons": 756,
+      "bounds_m": {
+        "min": [
+          -0.13500000536441803,
+          -0.15000000596046448,
+          0.0
+        ],
+        "max": [
+          14.135000228881836,
+          8.149999618530273,
+          3.799999952316284
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_1_Frame_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_A_1_Frame",
+      "material": "LW_BlackMetal",
+      "collision": true,
+      "vertices": 504,
+      "polygons": 486,
+      "bounds_m": {
+        "min": [
+          0.1274999976158142,
+          -0.054999999701976776,
+          1.087499976158142
+        ],
+        "max": [
+          3.372499942779541,
+          0.054999999701976776,
+          2.952500104904175
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_1_Gasket_Rubber",
+      "module": "Main",
+      "part": "WindowBay_A_1_Gasket",
+      "material": "LW_Rubber",
+      "collision": false,
+      "vertices": 2688,
+      "polygons": 2592,
+      "bounds_m": {
+        "min": [
+          0.19200000166893005,
+          0.007499999832361937,
+          1.1475000381469727
+        ],
+        "max": [
+          3.308000087738037,
+          0.032499998807907104,
+          2.8924999237060547
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_1_Glass_Glass",
+      "module": "Main",
+      "part": "WindowBay_A_1_Glass",
+      "material": "LW_Glass",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 72,
+      "bounds_m": {
+        "min": [
+          0.20250000059604645,
+          -0.0044999998062849045,
+          1.159000039100647
+        ],
+        "max": [
+          3.297499895095825,
+          0.0044999998062849045,
+          2.88100004196167
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_1_Hardware_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_A_1_Hardware",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 800,
+      "polygons": 712,
+      "bounds_m": {
+        "min": [
+          0.8149999976158142,
+          0.06400000303983688,
+          1.6100000143051147
+        ],
+        "max": [
+          3.2799999713897705,
+          0.1080000028014183,
+          1.690000057220459
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_1_HopperLatches_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_A_1_HopperLatches",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 288,
+      "polygons": 248,
+      "bounds_m": {
+        "min": [
+          0.5504999756813049,
+          0.06414978206157684,
+          2.598604440689087
+        ],
+        "max": [
+          2.94950008392334,
+          0.09585022181272507,
+          2.66139554977417
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_1_Sill_Plaster",
+      "module": "Main",
+      "part": "WindowBay_A_1_Sill",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          0.11999999731779099,
+          -0.14000000059604645,
+          1.0199999809265137
+        ],
+        "max": [
+          3.380000114440918,
+          0.1599999964237213,
+          1.090000033378601
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_1_BlindRoller_Plaster",
+      "module": "Main",
+      "part": "WindowBay_A_1_BlindRoller",
+      "material": "LW_Plaster",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 82,
+      "bounds_m": {
+        "min": [
+          0.1899999976158142,
+          0.085999995470047,
+          3.00600004196167
+        ],
+        "max": [
+          3.309999942779541,
+          0.15399999916553497,
+          3.0739998817443848
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_1_BlindChain_WhiteMetal",
+      "module": "Main",
+      "part": "WindowBay_A_1_BlindChain",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 170,
+      "polygons": 166,
+      "bounds_m": {
+        "min": [
+          3.275921583175659,
+          0.10779670625925064,
+          2.359999895095825
+        ],
+        "max": [
+          3.3040785789489746,
+          0.11220329254865646,
+          3.0199999809265137
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_2_Frame_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_A_2_Frame",
+      "material": "LW_BlackMetal",
+      "collision": true,
+      "vertices": 504,
+      "polygons": 486,
+      "bounds_m": {
+        "min": [
+          3.627500057220459,
+          -0.054999999701976776,
+          1.087499976158142
+        ],
+        "max": [
+          6.872499942779541,
+          0.054999999701976776,
+          2.952500104904175
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_2_Gasket_Rubber",
+      "module": "Main",
+      "part": "WindowBay_A_2_Gasket",
+      "material": "LW_Rubber",
+      "collision": false,
+      "vertices": 2688,
+      "polygons": 2592,
+      "bounds_m": {
+        "min": [
+          3.691999912261963,
+          0.007499999832361937,
+          1.1475000381469727
+        ],
+        "max": [
+          6.808000087738037,
+          0.032499998807907104,
+          2.8924999237060547
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_2_Glass_Glass",
+      "module": "Main",
+      "part": "WindowBay_A_2_Glass",
+      "material": "LW_Glass",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 72,
+      "bounds_m": {
+        "min": [
+          3.702500104904175,
+          -0.0044999998062849045,
+          1.159000039100647
+        ],
+        "max": [
+          6.797500133514404,
+          0.0044999998062849045,
+          2.88100004196167
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_2_Hardware_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_A_2_Hardware",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 800,
+      "polygons": 712,
+      "bounds_m": {
+        "min": [
+          4.315000057220459,
+          0.06400000303983688,
+          1.6100000143051147
+        ],
+        "max": [
+          6.78000020980835,
+          0.1080000028014183,
+          1.690000057220459
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_2_HopperLatches_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_A_2_HopperLatches",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 288,
+      "polygons": 248,
+      "bounds_m": {
+        "min": [
+          4.05049991607666,
+          0.06414978206157684,
+          2.598604440689087
+        ],
+        "max": [
+          6.44950008392334,
+          0.09585022181272507,
+          2.66139554977417
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_2_Sill_Plaster",
+      "module": "Main",
+      "part": "WindowBay_A_2_Sill",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          3.619999885559082,
+          -0.14000000059604645,
+          1.0199999809265137
+        ],
+        "max": [
+          6.880000114440918,
+          0.1599999964237213,
+          1.090000033378601
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_2_BlindRoller_Plaster",
+      "module": "Main",
+      "part": "WindowBay_A_2_BlindRoller",
+      "material": "LW_Plaster",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 82,
+      "bounds_m": {
+        "min": [
+          3.690000057220459,
+          0.085999995470047,
+          3.00600004196167
+        ],
+        "max": [
+          6.809999942779541,
+          0.15399999916553497,
+          3.0739998817443848
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_2_BlindChain_WhiteMetal",
+      "module": "Main",
+      "part": "WindowBay_A_2_BlindChain",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 170,
+      "polygons": 166,
+      "bounds_m": {
+        "min": [
+          6.77592134475708,
+          0.10779670625925064,
+          2.359999895095825
+        ],
+        "max": [
+          6.804078578948975,
+          0.11220329254865646,
+          3.0199999809265137
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_3_Frame_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_A_3_Frame",
+      "material": "LW_BlackMetal",
+      "collision": true,
+      "vertices": 504,
+      "polygons": 486,
+      "bounds_m": {
+        "min": [
+          7.127500057220459,
+          -0.054999999701976776,
+          1.087499976158142
+        ],
+        "max": [
+          10.3725004196167,
+          0.054999999701976776,
+          2.952500104904175
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_3_Gasket_Rubber",
+      "module": "Main",
+      "part": "WindowBay_A_3_Gasket",
+      "material": "LW_Rubber",
+      "collision": false,
+      "vertices": 2688,
+      "polygons": 2592,
+      "bounds_m": {
+        "min": [
+          7.191999912261963,
+          0.007499999832361937,
+          1.1475000381469727
+        ],
+        "max": [
+          10.307999610900879,
+          0.032499998807907104,
+          2.8924999237060547
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_3_Glass_Glass",
+      "module": "Main",
+      "part": "WindowBay_A_3_Glass",
+      "material": "LW_Glass",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 72,
+      "bounds_m": {
+        "min": [
+          7.202499866485596,
+          -0.0044999998062849045,
+          1.159000039100647
+        ],
+        "max": [
+          10.297499656677246,
+          0.0044999998062849045,
+          2.88100004196167
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_3_Hardware_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_A_3_Hardware",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 800,
+      "polygons": 712,
+      "bounds_m": {
+        "min": [
+          7.815000057220459,
+          0.06400000303983688,
+          1.6100000143051147
+        ],
+        "max": [
+          10.279999732971191,
+          0.1080000028014183,
+          1.690000057220459
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_3_HopperLatches_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_A_3_HopperLatches",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 288,
+      "polygons": 248,
+      "bounds_m": {
+        "min": [
+          7.55049991607666,
+          0.06414978206157684,
+          2.598604440689087
+        ],
+        "max": [
+          9.94950008392334,
+          0.09585022181272507,
+          2.66139554977417
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_3_Sill_Plaster",
+      "module": "Main",
+      "part": "WindowBay_A_3_Sill",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          7.119999885559082,
+          -0.14000000059604645,
+          1.0199999809265137
+        ],
+        "max": [
+          10.380000114440918,
+          0.1599999964237213,
+          1.090000033378601
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_3_BlindRoller_Plaster",
+      "module": "Main",
+      "part": "WindowBay_A_3_BlindRoller",
+      "material": "LW_Plaster",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 82,
+      "bounds_m": {
+        "min": [
+          7.190000057220459,
+          0.085999995470047,
+          3.00600004196167
+        ],
+        "max": [
+          10.3100004196167,
+          0.15399999916553497,
+          3.0739998817443848
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_3_BlindChain_WhiteMetal",
+      "module": "Main",
+      "part": "WindowBay_A_3_BlindChain",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 170,
+      "polygons": 166,
+      "bounds_m": {
+        "min": [
+          10.275921821594238,
+          0.10779670625925064,
+          2.359999895095825
+        ],
+        "max": [
+          10.304078102111816,
+          0.11220329254865646,
+          3.0199999809265137
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_4_Frame_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_A_4_Frame",
+      "material": "LW_BlackMetal",
+      "collision": true,
+      "vertices": 504,
+      "polygons": 486,
+      "bounds_m": {
+        "min": [
+          10.6274995803833,
+          -0.054999999701976776,
+          1.087499976158142
+        ],
+        "max": [
+          13.8725004196167,
+          0.054999999701976776,
+          2.952500104904175
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_4_Gasket_Rubber",
+      "module": "Main",
+      "part": "WindowBay_A_4_Gasket",
+      "material": "LW_Rubber",
+      "collision": false,
+      "vertices": 2688,
+      "polygons": 2592,
+      "bounds_m": {
+        "min": [
+          10.692000389099121,
+          0.007499999832361937,
+          1.1475000381469727
+        ],
+        "max": [
+          13.807999610900879,
+          0.032499998807907104,
+          2.8924999237060547
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_4_Glass_Glass",
+      "module": "Main",
+      "part": "WindowBay_A_4_Glass",
+      "material": "LW_Glass",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 72,
+      "bounds_m": {
+        "min": [
+          10.702500343322754,
+          -0.0044999998062849045,
+          1.159000039100647
+        ],
+        "max": [
+          13.797499656677246,
+          0.0044999998062849045,
+          2.88100004196167
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_4_Hardware_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_A_4_Hardware",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 800,
+      "polygons": 712,
+      "bounds_m": {
+        "min": [
+          11.3149995803833,
+          0.06400000303983688,
+          1.6100000143051147
+        ],
+        "max": [
+          13.779999732971191,
+          0.1080000028014183,
+          1.690000057220459
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_4_HopperLatches_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_A_4_HopperLatches",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 288,
+      "polygons": 248,
+      "bounds_m": {
+        "min": [
+          11.05049991607666,
+          0.06414978206157684,
+          2.598604440689087
+        ],
+        "max": [
+          13.44950008392334,
+          0.09585022181272507,
+          2.66139554977417
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_4_Sill_Plaster",
+      "module": "Main",
+      "part": "WindowBay_A_4_Sill",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          10.619999885559082,
+          -0.14000000059604645,
+          1.0199999809265137
+        ],
+        "max": [
+          13.880000114440918,
+          0.1599999964237213,
+          1.090000033378601
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_4_BlindRoller_Plaster",
+      "module": "Main",
+      "part": "WindowBay_A_4_BlindRoller",
+      "material": "LW_Plaster",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 82,
+      "bounds_m": {
+        "min": [
+          10.6899995803833,
+          0.085999995470047,
+          3.00600004196167
+        ],
+        "max": [
+          13.8100004196167,
+          0.15399999916553497,
+          3.0739998817443848
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_A_4_BlindChain_WhiteMetal",
+      "module": "Main",
+      "part": "WindowBay_A_4_BlindChain",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 170,
+      "polygons": 166,
+      "bounds_m": {
+        "min": [
+          13.775921821594238,
+          0.10779670625925064,
+          2.359999895095825
+        ],
+        "max": [
+          13.804078102111816,
+          0.11220329254865646,
+          3.0199999809265137
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_Skirting_Plaster",
+      "module": "Main",
+      "part": "Skirting",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 112,
+      "polygons": 108,
+      "bounds_m": {
+        "min": [
+          0.0,
+          0.11749999970197678,
+          0.0
+        ],
+        "max": [
+          14.0,
+          7.882500171661377,
+          0.10999999940395355
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_1_Frame_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_B_1_Frame",
+      "material": "LW_BlackMetal",
+      "collision": true,
+      "vertices": 504,
+      "polygons": 486,
+      "bounds_m": {
+        "min": [
+          0.1274999976158142,
+          7.945000171661377,
+          1.087499976158142
+        ],
+        "max": [
+          3.372499942779541,
+          8.055000305175781,
+          2.952500104904175
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_1_Gasket_Rubber",
+      "module": "Main",
+      "part": "WindowBay_B_1_Gasket",
+      "material": "LW_Rubber",
+      "collision": false,
+      "vertices": 2688,
+      "polygons": 2592,
+      "bounds_m": {
+        "min": [
+          0.19200000166893005,
+          7.96750020980835,
+          1.1475000381469727
+        ],
+        "max": [
+          3.308000087738037,
+          7.992499828338623,
+          2.8924999237060547
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_1_Glass_Glass",
+      "module": "Main",
+      "part": "WindowBay_B_1_Glass",
+      "material": "LW_Glass",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 72,
+      "bounds_m": {
+        "min": [
+          0.20250000059604645,
+          7.995500087738037,
+          1.159000039100647
+        ],
+        "max": [
+          3.297499895095825,
+          8.004500389099121,
+          2.88100004196167
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_1_Hardware_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_B_1_Hardware",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 800,
+      "polygons": 712,
+      "bounds_m": {
+        "min": [
+          0.8149999976158142,
+          7.892000198364258,
+          1.6100000143051147
+        ],
+        "max": [
+          3.2799999713897705,
+          7.935999870300293,
+          1.690000057220459
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_1_HopperLatches_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_B_1_HopperLatches",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 288,
+      "polygons": 248,
+      "bounds_m": {
+        "min": [
+          0.5504999756813049,
+          7.904149532318115,
+          2.598604440689087
+        ],
+        "max": [
+          2.94950008392334,
+          7.935850143432617,
+          2.66139554977417
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_1_Sill_Plaster",
+      "module": "Main",
+      "part": "WindowBay_B_1_Sill",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          0.11999999731779099,
+          7.840000152587891,
+          1.0199999809265137
+        ],
+        "max": [
+          3.380000114440918,
+          8.140000343322754,
+          1.090000033378601
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_1_BlindRoller_Plaster",
+      "module": "Main",
+      "part": "WindowBay_B_1_BlindRoller",
+      "material": "LW_Plaster",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 82,
+      "bounds_m": {
+        "min": [
+          0.1899999976158142,
+          7.8460001945495605,
+          3.00600004196167
+        ],
+        "max": [
+          3.309999942779541,
+          7.914000034332275,
+          3.0739998817443848
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_1_BlindChain_WhiteMetal",
+      "module": "Main",
+      "part": "WindowBay_B_1_BlindChain",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 170,
+      "polygons": 166,
+      "bounds_m": {
+        "min": [
+          3.275921583175659,
+          7.887796401977539,
+          2.359999895095825
+        ],
+        "max": [
+          3.3040785789489746,
+          7.892203330993652,
+          3.0199999809265137
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_2_Frame_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_B_2_Frame",
+      "material": "LW_BlackMetal",
+      "collision": true,
+      "vertices": 504,
+      "polygons": 486,
+      "bounds_m": {
+        "min": [
+          3.627500057220459,
+          7.945000171661377,
+          1.087499976158142
+        ],
+        "max": [
+          6.872499942779541,
+          8.055000305175781,
+          2.952500104904175
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_2_Gasket_Rubber",
+      "module": "Main",
+      "part": "WindowBay_B_2_Gasket",
+      "material": "LW_Rubber",
+      "collision": false,
+      "vertices": 2688,
+      "polygons": 2592,
+      "bounds_m": {
+        "min": [
+          3.691999912261963,
+          7.96750020980835,
+          1.1475000381469727
+        ],
+        "max": [
+          6.808000087738037,
+          7.992499828338623,
+          2.8924999237060547
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_2_Glass_Glass",
+      "module": "Main",
+      "part": "WindowBay_B_2_Glass",
+      "material": "LW_Glass",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 72,
+      "bounds_m": {
+        "min": [
+          3.702500104904175,
+          7.995500087738037,
+          1.159000039100647
+        ],
+        "max": [
+          6.797500133514404,
+          8.004500389099121,
+          2.88100004196167
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_2_Hardware_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_B_2_Hardware",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 800,
+      "polygons": 712,
+      "bounds_m": {
+        "min": [
+          4.315000057220459,
+          7.892000198364258,
+          1.6100000143051147
+        ],
+        "max": [
+          6.78000020980835,
+          7.935999870300293,
+          1.690000057220459
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_2_HopperLatches_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_B_2_HopperLatches",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 288,
+      "polygons": 248,
+      "bounds_m": {
+        "min": [
+          4.05049991607666,
+          7.904149532318115,
+          2.598604440689087
+        ],
+        "max": [
+          6.44950008392334,
+          7.935850143432617,
+          2.66139554977417
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_2_Sill_Plaster",
+      "module": "Main",
+      "part": "WindowBay_B_2_Sill",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          3.619999885559082,
+          7.840000152587891,
+          1.0199999809265137
+        ],
+        "max": [
+          6.880000114440918,
+          8.140000343322754,
+          1.090000033378601
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_2_BlindRoller_Plaster",
+      "module": "Main",
+      "part": "WindowBay_B_2_BlindRoller",
+      "material": "LW_Plaster",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 82,
+      "bounds_m": {
+        "min": [
+          3.690000057220459,
+          7.8460001945495605,
+          3.00600004196167
+        ],
+        "max": [
+          6.809999942779541,
+          7.914000034332275,
+          3.0739998817443848
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_2_BlindChain_WhiteMetal",
+      "module": "Main",
+      "part": "WindowBay_B_2_BlindChain",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 170,
+      "polygons": 166,
+      "bounds_m": {
+        "min": [
+          6.77592134475708,
+          7.887796401977539,
+          2.359999895095825
+        ],
+        "max": [
+          6.804078578948975,
+          7.892203330993652,
+          3.0199999809265137
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_3_Frame_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_B_3_Frame",
+      "material": "LW_BlackMetal",
+      "collision": true,
+      "vertices": 504,
+      "polygons": 486,
+      "bounds_m": {
+        "min": [
+          7.127500057220459,
+          7.945000171661377,
+          1.087499976158142
+        ],
+        "max": [
+          10.3725004196167,
+          8.055000305175781,
+          2.952500104904175
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_3_Gasket_Rubber",
+      "module": "Main",
+      "part": "WindowBay_B_3_Gasket",
+      "material": "LW_Rubber",
+      "collision": false,
+      "vertices": 2688,
+      "polygons": 2592,
+      "bounds_m": {
+        "min": [
+          7.191999912261963,
+          7.96750020980835,
+          1.1475000381469727
+        ],
+        "max": [
+          10.307999610900879,
+          7.992499828338623,
+          2.8924999237060547
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_3_Glass_Glass",
+      "module": "Main",
+      "part": "WindowBay_B_3_Glass",
+      "material": "LW_Glass",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 72,
+      "bounds_m": {
+        "min": [
+          7.202499866485596,
+          7.995500087738037,
+          1.159000039100647
+        ],
+        "max": [
+          10.297499656677246,
+          8.004500389099121,
+          2.88100004196167
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_3_Hardware_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_B_3_Hardware",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 800,
+      "polygons": 712,
+      "bounds_m": {
+        "min": [
+          7.815000057220459,
+          7.892000198364258,
+          1.6100000143051147
+        ],
+        "max": [
+          10.279999732971191,
+          7.935999870300293,
+          1.690000057220459
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_3_HopperLatches_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_B_3_HopperLatches",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 288,
+      "polygons": 248,
+      "bounds_m": {
+        "min": [
+          7.55049991607666,
+          7.904149532318115,
+          2.598604440689087
+        ],
+        "max": [
+          9.94950008392334,
+          7.935850143432617,
+          2.66139554977417
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_3_Sill_Plaster",
+      "module": "Main",
+      "part": "WindowBay_B_3_Sill",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          7.119999885559082,
+          7.840000152587891,
+          1.0199999809265137
+        ],
+        "max": [
+          10.380000114440918,
+          8.140000343322754,
+          1.090000033378601
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_3_BlindRoller_Plaster",
+      "module": "Main",
+      "part": "WindowBay_B_3_BlindRoller",
+      "material": "LW_Plaster",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 82,
+      "bounds_m": {
+        "min": [
+          7.190000057220459,
+          7.8460001945495605,
+          3.00600004196167
+        ],
+        "max": [
+          10.3100004196167,
+          7.914000034332275,
+          3.0739998817443848
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_3_BlindChain_WhiteMetal",
+      "module": "Main",
+      "part": "WindowBay_B_3_BlindChain",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 170,
+      "polygons": 166,
+      "bounds_m": {
+        "min": [
+          10.275921821594238,
+          7.887796401977539,
+          2.359999895095825
+        ],
+        "max": [
+          10.304078102111816,
+          7.892203330993652,
+          3.0199999809265137
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_4_Frame_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_B_4_Frame",
+      "material": "LW_BlackMetal",
+      "collision": true,
+      "vertices": 504,
+      "polygons": 486,
+      "bounds_m": {
+        "min": [
+          10.6274995803833,
+          7.945000171661377,
+          1.087499976158142
+        ],
+        "max": [
+          13.8725004196167,
+          8.055000305175781,
+          2.952500104904175
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_4_Gasket_Rubber",
+      "module": "Main",
+      "part": "WindowBay_B_4_Gasket",
+      "material": "LW_Rubber",
+      "collision": false,
+      "vertices": 2688,
+      "polygons": 2592,
+      "bounds_m": {
+        "min": [
+          10.692000389099121,
+          7.96750020980835,
+          1.1475000381469727
+        ],
+        "max": [
+          13.807999610900879,
+          7.992499828338623,
+          2.8924999237060547
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_4_Glass_Glass",
+      "module": "Main",
+      "part": "WindowBay_B_4_Glass",
+      "material": "LW_Glass",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 72,
+      "bounds_m": {
+        "min": [
+          10.702500343322754,
+          7.995500087738037,
+          1.159000039100647
+        ],
+        "max": [
+          13.797499656677246,
+          8.004500389099121,
+          2.88100004196167
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_4_Hardware_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_B_4_Hardware",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 800,
+      "polygons": 712,
+      "bounds_m": {
+        "min": [
+          11.3149995803833,
+          7.892000198364258,
+          1.6100000143051147
+        ],
+        "max": [
+          13.779999732971191,
+          7.935999870300293,
+          1.690000057220459
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_4_HopperLatches_BlackMetal",
+      "module": "Main",
+      "part": "WindowBay_B_4_HopperLatches",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 288,
+      "polygons": 248,
+      "bounds_m": {
+        "min": [
+          11.05049991607666,
+          7.904149532318115,
+          2.598604440689087
+        ],
+        "max": [
+          13.44950008392334,
+          7.935850143432617,
+          2.66139554977417
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_4_Sill_Plaster",
+      "module": "Main",
+      "part": "WindowBay_B_4_Sill",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          10.619999885559082,
+          7.840000152587891,
+          1.0199999809265137
+        ],
+        "max": [
+          13.880000114440918,
+          8.140000343322754,
+          1.090000033378601
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_4_BlindRoller_Plaster",
+      "module": "Main",
+      "part": "WindowBay_B_4_BlindRoller",
+      "material": "LW_Plaster",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 82,
+      "bounds_m": {
+        "min": [
+          10.6899995803833,
+          7.8460001945495605,
+          3.00600004196167
+        ],
+        "max": [
+          13.8100004196167,
+          7.914000034332275,
+          3.0739998817443848
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WindowBay_B_4_BlindChain_WhiteMetal",
+      "module": "Main",
+      "part": "WindowBay_B_4_BlindChain",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 170,
+      "polygons": 166,
+      "bounds_m": {
+        "min": [
+          13.775921821594238,
+          7.887796401977539,
+          2.359999895095825
+        ],
+        "max": [
+          13.804078102111816,
+          7.892203330993652,
+          3.0199999809265137
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_CeilingCassetteCasing_WhiteMetal",
+      "module": "Main",
+      "part": "CeilingCassetteCasing",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 672,
+      "polygons": 648,
+      "bounds_m": {
+        "min": [
+          1.899999976158142,
+          1.7799999713897705,
+          3.247499942779541
+        ],
+        "max": [
+          12.100000381469727,
+          6.21999979019165,
+          3.569999933242798
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_CassetteIntakeRecess_Rubber",
+      "module": "Main",
+      "part": "CassetteIntakeRecess",
+      "material": "LW_Rubber",
+      "collision": false,
+      "vertices": 1008,
+      "polygons": 972,
+      "bounds_m": {
+        "min": [
+          2.009999990463257,
+          1.8079999685287476,
+          3.2295000553131104
+        ],
+        "max": [
+          11.989999771118164,
+          6.191999912261963,
+          3.257499933242798
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_CassetteGrilleSlats_WhiteMetal",
+      "module": "Main",
+      "part": "CassetteGrilleSlats",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 9744,
+      "polygons": 9396,
+      "bounds_m": {
+        "min": [
+          2.0250000953674316,
+          1.8205000162124634,
+          3.2105000019073486
+        ],
+        "max": [
+          11.975000381469727,
+          6.179500102996826,
+          3.2309999465942383
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_CassetteFixings_WhiteMetal",
+      "module": "Main",
+      "part": "CassetteFixings",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 1440,
+      "polygons": 1248,
+      "bounds_m": {
+        "min": [
+          1.9833426475524902,
+          1.8630000352859497,
+          3.2160000801086426
+        ],
+        "max": [
+          12.016657829284668,
+          6.13700008392334,
+          3.2300000190734863
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_CassetteStatus_ExitGreen",
+      "module": "Main",
+      "part": "CassetteStatus",
+      "material": "LW_ExitGreen",
+      "collision": false,
+      "vertices": 336,
+      "polygons": 324,
+      "bounds_m": {
+        "min": [
+          2.9709999561309814,
+          2.677500009536743,
+          3.2195000648498535
+        ],
+        "max": [
+          11.98900032043457,
+          6.102499961853027,
+          3.2244999408721924
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_CassetteServicePipe_WhiteMetal",
+      "module": "Main",
+      "part": "CassetteServicePipe",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 1728,
+      "polygons": 1548,
+      "bounds_m": {
+        "min": [
+          3.0399999618530273,
+          2.2699999809265137,
+          3.440000057220459
+        ],
+        "max": [
+          12.34999942779541,
+          6.199999809265137,
+          3.7100000381469727
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_PendantSuspension_BlackMetal",
+      "module": "Main",
+      "part": "PendantSuspension",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 800,
+      "polygons": 752,
+      "bounds_m": {
+        "min": [
+          1.9600000381469727,
+          2.059999942779541,
+          3.0299999713897705
+        ],
+        "max": [
+          10.039999961853027,
+          5.940000057220459,
+          3.7774999141693115
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_CrossPendantBody_Orange",
+      "module": "Main",
+      "part": "CrossPendantBody",
+      "material": "LW_Orange",
+      "collision": false,
+      "vertices": 672,
+      "polygons": 648,
+      "bounds_m": {
+        "min": [
+          1.62450110912323,
+          1.724501132965088,
+          3.012500047683716
+        ],
+        "max": [
+          10.375499725341797,
+          6.275498867034912,
+          3.067500114440918
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_CrossPendantDiffuser_Light",
+      "module": "Main",
+      "part": "CrossPendantDiffuser",
+      "material": "LW_Light",
+      "collision": false,
+      "vertices": 672,
+      "polygons": 648,
+      "bounds_m": {
+        "min": [
+          1.6566745042800903,
+          1.7566742897033691,
+          2.997499942779541
+        ],
+        "max": [
+          10.343326568603516,
+          6.243325710296631,
+          3.012500047683716
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_FlowingLEDHousing_WhiteMetal",
+      "module": "Main",
+      "part": "FlowingLEDHousing",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 5856,
+      "polygons": 5844,
+      "bounds_m": {
+        "min": [
+          0.6497858166694641,
+          2.876000165939331,
+          2.9460031986236572
+        ],
+        "max": [
+          13.350160598754883,
+          5.123603343963623,
+          3.223973512649536
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_FlowingLEDDiffuser_Light",
+      "module": "Main",
+      "part": "FlowingLEDDiffuser",
+      "material": "LW_Light",
+      "collision": false,
+      "vertices": 5476,
+      "polygons": 5464,
+      "bounds_m": {
+        "min": [
+          0.6498863697052002,
+          2.886396646499634,
+          2.9330031871795654
+        ],
+        "max": [
+          13.350085258483887,
+          5.113999843597412,
+          3.190973997116089
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_FlowingLEDSuspension_BlackMetal",
+      "module": "Main",
+      "part": "FlowingLEDSuspension",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 672,
+      "polygons": 640,
+      "bounds_m": {
+        "min": [
+          0.6479215025901794,
+          2.8979132175445557,
+          3.2200000286102295
+        ],
+        "max": [
+          13.352078437805176,
+          5.102087020874023,
+          3.7899999618530273
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Main_WallCross_DarkOak",
+      "module": "Main",
+      "part": "WallCross",
+      "material": "LW_DarkOak",
+      "collision": false,
+      "vertices": 112,
+      "polygons": 108,
+      "bounds_m": {
+        "min": [
+          8.71500015258789,
+          7.817500114440918,
+          3.2100000381469727
+        ],
+        "max": [
+          8.885000228881836,
+          7.84250020980835,
+          3.509999990463257
+        ]
+      },
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_101837.jpg",
+        "20240831_101839.jpg",
+        "20240831_101230.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_Floor_FloorOak",
+      "module": "Step",
+      "part": "Floor",
+      "material": "LW_FloorOak",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          20.0,
+          0.0,
+          -0.10999999940395355
+        ],
+        "max": [
+          29.0,
+          6.0,
+          0.0
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_CeilingSlab_Plaster",
+      "module": "Step",
+      "part": "CeilingSlab",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          20.0,
+          0.0,
+          3.799999952316284
+        ],
+        "max": [
+          29.0,
+          6.0,
+          4.0
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_ExposedBeams_Plaster",
+      "module": "Step",
+      "part": "ExposedBeams",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 168,
+      "polygons": 162,
+      "bounds_m": {
+        "min": [
+          20.079999923706055,
+          0.0,
+          3.4800000190734863
+        ],
+        "max": [
+          28.920000076293945,
+          6.0,
+          3.799999952316284
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_ExposedWhiteServices_WhiteMetal",
+      "module": "Step",
+      "part": "ExposedWhiteServices",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 1224,
+      "polygons": 1116,
+      "bounds_m": {
+        "min": [
+          20.1200008392334,
+          0.5575000047683716,
+          3.3935999870300293
+        ],
+        "max": [
+          28.80900001525879,
+          5.392499923706055,
+          3.6263999938964844
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_ConduitSupports_WhiteMetal",
+      "module": "Step",
+      "part": "ConduitSupports",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 912,
+      "polygons": 816,
+      "bounds_m": {
+        "min": [
+          20.192001342773438,
+          0.5299999713897705,
+          3.4120001792907715
+        ],
+        "max": [
+          28.807998657226562,
+          5.420000076293945,
+          3.7899999618530273
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_WindowWallPanels_Plaster",
+      "module": "Step",
+      "part": "WindowWallPanels",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 280,
+      "polygons": 270,
+      "bounds_m": {
+        "min": [
+          19.864999771118164,
+          -0.15000000596046448,
+          0.0
+        ],
+        "max": [
+          26.834999084472656,
+          0.15000000596046448,
+          3.799999952316284
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_WindowBay_A_1_Frame_BlackMetal",
+      "module": "Step",
+      "part": "WindowBay_A_1_Frame",
+      "material": "LW_BlackMetal",
+      "collision": true,
+      "vertices": 504,
+      "polygons": 486,
+      "bounds_m": {
+        "min": [
+          20.127500534057617,
+          -0.054999999701976776,
+          1.087499976158142
+        ],
+        "max": [
+          23.22249984741211,
+          0.054999999701976776,
+          2.952500104904175
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_WindowBay_A_1_Gasket_Rubber",
+      "module": "Step",
+      "part": "WindowBay_A_1_Gasket",
+      "material": "LW_Rubber",
+      "collision": false,
+      "vertices": 2688,
+      "polygons": 2592,
+      "bounds_m": {
+        "min": [
+          20.191999435424805,
+          0.007499999832361937,
+          1.1475000381469727
+        ],
+        "max": [
+          23.158000946044922,
+          0.032499998807907104,
+          2.8924999237060547
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_WindowBay_A_1_Glass_Glass",
+      "module": "Step",
+      "part": "WindowBay_A_1_Glass",
+      "material": "LW_Glass",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 72,
+      "bounds_m": {
+        "min": [
+          20.202499389648438,
+          -0.0044999998062849045,
+          1.159000039100647
+        ],
+        "max": [
+          23.147499084472656,
+          0.0044999998062849045,
+          2.88100004196167
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_WindowBay_A_1_Hardware_BlackMetal",
+      "module": "Step",
+      "part": "WindowBay_A_1_Hardware",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 800,
+      "polygons": 712,
+      "bounds_m": {
+        "min": [
+          20.77750015258789,
+          0.06400000303983688,
+          1.6100000143051147
+        ],
+        "max": [
+          23.1299991607666,
+          0.1080000028014183,
+          1.690000057220459
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_WindowBay_A_1_HopperLatches_BlackMetal",
+      "module": "Step",
+      "part": "WindowBay_A_1_HopperLatches",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 288,
+      "polygons": 248,
+      "bounds_m": {
+        "min": [
+          20.531749725341797,
+          0.06414978206157684,
+          2.598604440689087
+        ],
+        "max": [
+          22.81825065612793,
+          0.09585022181272507,
+          2.66139554977417
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_WindowBay_A_1_Sill_Plaster",
+      "module": "Step",
+      "part": "WindowBay_A_1_Sill",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          20.1200008392334,
+          -0.14000000059604645,
+          1.0199999809265137
+        ],
+        "max": [
+          23.229999542236328,
+          0.1599999964237213,
+          1.090000033378601
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_WindowBay_A_1_BlindRoller_Plaster",
+      "module": "Step",
+      "part": "WindowBay_A_1_BlindRoller",
+      "material": "LW_Plaster",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 82,
+      "bounds_m": {
+        "min": [
+          20.190000534057617,
+          0.085999995470047,
+          3.00600004196167
+        ],
+        "max": [
+          23.15999984741211,
+          0.15399999916553497,
+          3.0739998817443848
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_WindowBay_A_1_BlindChain_WhiteMetal",
+      "module": "Step",
+      "part": "WindowBay_A_1_BlindChain",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 170,
+      "polygons": 166,
+      "bounds_m": {
+        "min": [
+          23.12592124938965,
+          0.10779670625925064,
+          2.359999895095825
+        ],
+        "max": [
+          23.15407943725586,
+          0.11220329254865646,
+          3.0199999809265137
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_WindowBay_A_2_Frame_BlackMetal",
+      "module": "Step",
+      "part": "WindowBay_A_2_Frame",
+      "material": "LW_BlackMetal",
+      "collision": true,
+      "vertices": 504,
+      "polygons": 486,
+      "bounds_m": {
+        "min": [
+          23.477500915527344,
+          -0.054999999701976776,
+          1.087499976158142
+        ],
+        "max": [
+          26.572500228881836,
+          0.054999999701976776,
+          2.952500104904175
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_WindowBay_A_2_Gasket_Rubber",
+      "module": "Step",
+      "part": "WindowBay_A_2_Gasket",
+      "material": "LW_Rubber",
+      "collision": false,
+      "vertices": 2688,
+      "polygons": 2592,
+      "bounds_m": {
+        "min": [
+          23.54199981689453,
+          0.007499999832361937,
+          1.1475000381469727
+        ],
+        "max": [
+          26.507999420166016,
+          0.032499998807907104,
+          2.8924999237060547
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_WindowBay_A_2_Glass_Glass",
+      "module": "Step",
+      "part": "WindowBay_A_2_Glass",
+      "material": "LW_Glass",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 72,
+      "bounds_m": {
+        "min": [
+          23.552499771118164,
+          -0.0044999998062849045,
+          1.159000039100647
+        ],
+        "max": [
+          26.497499465942383,
+          0.0044999998062849045,
+          2.88100004196167
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_WindowBay_A_2_Hardware_BlackMetal",
+      "module": "Step",
+      "part": "WindowBay_A_2_Hardware",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 800,
+      "polygons": 712,
+      "bounds_m": {
+        "min": [
+          24.127500534057617,
+          0.06400000303983688,
+          1.6100000143051147
+        ],
+        "max": [
+          26.479999542236328,
+          0.1080000028014183,
+          1.690000057220459
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_WindowBay_A_2_HopperLatches_BlackMetal",
+      "module": "Step",
+      "part": "WindowBay_A_2_HopperLatches",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 288,
+      "polygons": 248,
+      "bounds_m": {
+        "min": [
+          23.881750106811523,
+          0.06414978206157684,
+          2.598604440689087
+        ],
+        "max": [
+          26.168249130249023,
+          0.09585022181272507,
+          2.66139554977417
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_WindowBay_A_2_Sill_Plaster",
+      "module": "Step",
+      "part": "WindowBay_A_2_Sill",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          23.469999313354492,
+          -0.14000000059604645,
+          1.0199999809265137
+        ],
+        "max": [
+          26.579999923706055,
+          0.1599999964237213,
+          1.090000033378601
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_WindowBay_A_2_BlindRoller_Plaster",
+      "module": "Step",
+      "part": "WindowBay_A_2_BlindRoller",
+      "material": "LW_Plaster",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 82,
+      "bounds_m": {
+        "min": [
+          23.540000915527344,
+          0.085999995470047,
+          3.00600004196167
+        ],
+        "max": [
+          26.510000228881836,
+          0.15399999916553497,
+          3.0739998817443848
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_WindowBay_A_2_BlindChain_WhiteMetal",
+      "module": "Step",
+      "part": "WindowBay_A_2_BlindChain",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 170,
+      "polygons": 166,
+      "bounds_m": {
+        "min": [
+          26.475921630859375,
+          0.10779670625925064,
+          2.359999895095825
+        ],
+        "max": [
+          26.504079818725586,
+          0.11220329254865646,
+          3.0199999809265137
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_Skirting_Plaster",
+      "module": "Step",
+      "part": "Skirting",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          20.0,
+          0.11749999970197678,
+          0.0
+        ],
+        "max": [
+          26.700000762939453,
+          0.14249999821186066,
+          0.10999999940395355
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_EndWall_Plaster",
+      "module": "Step",
+      "part": "EndWall",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 168,
+      "polygons": 162,
+      "bounds_m": {
+        "min": [
+          28.899999618530273,
+          0.0,
+          0.0
+        ],
+        "max": [
+          29.100000381469727,
+          6.0,
+          3.799999952316284
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_EndDoorFrame_WhiteMetal",
+      "module": "Step",
+      "part": "EndDoorFrame",
+      "material": "LW_WhiteMetal",
+      "collision": true,
+      "vertices": 168,
+      "polygons": 162,
+      "bounds_m": {
+        "min": [
+          28.850000381469727,
+          1.472499966621399,
+          0.0
+        ],
+        "max": [
+          28.969999313354492,
+          2.7274999618530273,
+          2.3475000858306885
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_DoorWallAbove_Plaster",
+      "module": "Step",
+      "part": "DoorWallAbove",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 168,
+      "polygons": 162,
+      "bounds_m": {
+        "min": [
+          26.700000762939453,
+          -0.10999999940395355,
+          0.0
+        ],
+        "max": [
+          29.0,
+          0.10999999940395355,
+          3.799999952316284
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_DoubleExit_Frame_PaleOak",
+      "module": "Step",
+      "part": "DoubleExit_Frame",
+      "material": "LW_PaleOak",
+      "collision": true,
+      "vertices": 168,
+      "polygons": 162,
+      "bounds_m": {
+        "min": [
+          26.912500381469727,
+          -0.14000000059604645,
+          0.0
+        ],
+        "max": [
+          28.487499237060547,
+          0.14000000059604645,
+          2.380000114440918
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_DoubleExit_Stop_PaleOak",
+      "module": "Step",
+      "part": "DoubleExit_Stop",
+      "material": "LW_PaleOak",
+      "collision": false,
+      "vertices": 112,
+      "polygons": 108,
+      "bounds_m": {
+        "min": [
+          26.987499237060547,
+          0.029500000178813934,
+          0.0
+        ],
+        "max": [
+          28.412500381469727,
+          0.06449999660253525,
+          2.319999933242798
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_DoubleExit_Seal_Rubber",
+      "module": "Step",
+      "part": "DoubleExit_Seal",
+      "material": "LW_Rubber",
+      "collision": false,
+      "vertices": 112,
+      "polygons": 108,
+      "bounds_m": {
+        "min": [
+          27.003999710083008,
+          0.024000000208616257,
+          0.014999999664723873
+        ],
+        "max": [
+          28.395999908447266,
+          0.035999998450279236,
+          2.305000066757202
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_DoubleExit_Leaf_1_PaleOak",
+      "module": "Step",
+      "part": "DoubleExit_Leaf_1",
+      "material": "LW_PaleOak",
+      "collision": true,
+      "vertices": 224,
+      "polygons": 216,
+      "bounds_m": {
+        "min": [
+          27.006000518798828,
+          -0.02250000089406967,
+          0.0
+        ],
+        "max": [
+          27.694000244140625,
+          0.02250000089406967,
+          2.319999933242798
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_DoubleExit_Leaf_1_Glass_Glass",
+      "module": "Step",
+      "part": "DoubleExit_Leaf_1_Glass",
+      "material": "LW_Glass",
+      "collision": false,
+      "vertices": 8,
+      "polygons": 6,
+      "bounds_m": {
+        "min": [
+          27.29400062561035,
+          -0.004000000189989805,
+          0.4339999854564667
+        ],
+        "max": [
+          27.4060001373291,
+          0.004000000189989805,
+          1.9859999418258667
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_DoubleExit_Leaf_1_GlazingBead_WhiteMetal",
+      "module": "Step",
+      "part": "DoubleExit_Leaf_1_GlazingBead",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 224,
+      "polygons": 216,
+      "bounds_m": {
+        "min": [
+          27.27750015258789,
+          0.01899999938905239,
+          0.41749998927116394
+        ],
+        "max": [
+          27.422500610351562,
+          0.03700000047683716,
+          2.002500057220459
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_DoubleExit_Leaf_1_Handle_WhiteMetal",
+      "module": "Step",
+      "part": "DoubleExit_Leaf_1_Handle",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 288,
+      "polygons": 246,
+      "bounds_m": {
+        "min": [
+          27.509000778198242,
+          0.035999998450279236,
+          0.9229999780654907
+        ],
+        "max": [
+          27.63599967956543,
+          0.09099999815225601,
+          1.034999966621399
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_DoubleExit_Leaf_1_Hinges_WhiteMetal",
+      "module": "Step",
+      "part": "DoubleExit_Leaf_1_Hinges",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 384,
+      "polygons": 348,
+      "bounds_m": {
+        "min": [
+          26.989999771118164,
+          0.02199999988079071,
+          0.20000000298023224
+        ],
+        "max": [
+          27.02199935913086,
+          0.05000000074505806,
+          2.0799999237060547
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_DoubleExit_Leaf_1_Closer_WhiteMetal",
+      "module": "Step",
+      "part": "DoubleExit_Leaf_1_Closer",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 150,
+      "polygons": 140,
+      "bounds_m": {
+        "min": [
+          27.239999771118164,
+          0.02250000089406967,
+          2.1624999046325684
+        ],
+        "max": [
+          27.576391220092773,
+          0.18696612119674683,
+          2.3293936252593994
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_DoubleExit_Leaf_2_PaleOak",
+      "module": "Step",
+      "part": "DoubleExit_Leaf_2",
+      "material": "LW_PaleOak",
+      "collision": true,
+      "vertices": 224,
+      "polygons": 216,
+      "bounds_m": {
+        "min": [
+          27.70599937438965,
+          -0.02250000089406967,
+          0.0
+        ],
+        "max": [
+          28.393999099731445,
+          0.02250000089406967,
+          2.319999933242798
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_DoubleExit_Leaf_2_Glass_Glass",
+      "module": "Step",
+      "part": "DoubleExit_Leaf_2_Glass",
+      "material": "LW_Glass",
+      "collision": false,
+      "vertices": 8,
+      "polygons": 6,
+      "bounds_m": {
+        "min": [
+          27.993999481201172,
+          -0.004000000189989805,
+          0.4339999854564667
+        ],
+        "max": [
+          28.106000900268555,
+          0.004000000189989805,
+          1.9859999418258667
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_DoubleExit_Leaf_2_GlazingBead_WhiteMetal",
+      "module": "Step",
+      "part": "DoubleExit_Leaf_2_GlazingBead",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 224,
+      "polygons": 216,
+      "bounds_m": {
+        "min": [
+          27.977500915527344,
+          0.01899999938905239,
+          0.41749998927116394
+        ],
+        "max": [
+          28.122499465942383,
+          0.03700000047683716,
+          2.002500057220459
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_DoubleExit_Leaf_2_Handle_WhiteMetal",
+      "module": "Step",
+      "part": "DoubleExit_Leaf_2_Handle",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 288,
+      "polygons": 246,
+      "bounds_m": {
+        "min": [
+          27.763999938964844,
+          0.035999998450279236,
+          0.9229999780654907
+        ],
+        "max": [
+          27.891000747680664,
+          0.09099999815225601,
+          1.034999966621399
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_DoubleExit_Leaf_2_Hinges_WhiteMetal",
+      "module": "Step",
+      "part": "DoubleExit_Leaf_2_Hinges",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 384,
+      "polygons": 348,
+      "bounds_m": {
+        "min": [
+          28.378000259399414,
+          0.02199999988079071,
+          0.20000000298023224
+        ],
+        "max": [
+          28.40999984741211,
+          0.05000000074505806,
+          2.0799999237060547
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_DoubleExit_Leaf_2_Closer_WhiteMetal",
+      "module": "Step",
+      "part": "DoubleExit_Leaf_2_Closer",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 150,
+      "polygons": 140,
+      "bounds_m": {
+        "min": [
+          27.940000534057617,
+          0.02250000089406967,
+          2.1624999046325684
+        ],
+        "max": [
+          28.276391983032227,
+          0.18696612119674683,
+          2.3293936252593994
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_DoubleExit_ExitBox_WhiteMetal",
+      "module": "Step",
+      "part": "DoubleExit_ExitBox",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          27.489999771118164,
+          0.03999999910593033,
+          2.625
+        ],
+        "max": [
+          27.90999984741211,
+          0.11999999731779099,
+          2.7950000762939453
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_DoubleExit_ExitFace_Light",
+      "module": "Step",
+      "part": "DoubleExit_ExitFace",
+      "material": "LW_Light",
+      "collision": false,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          27.50550079345703,
+          0.12099999934434891,
+          2.6389999389648438
+        ],
+        "max": [
+          27.894500732421875,
+          0.1289999932050705,
+          2.7809998989105225
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_DoubleExit_ExitLettering_ExitGreen",
+      "module": "Step",
+      "part": "DoubleExit_ExitLettering",
+      "material": "LW_ExitGreen",
+      "collision": false,
+      "vertices": 432,
+      "polygons": 304,
+      "bounds_m": {
+        "min": [
+          27.57036590576172,
+          0.13129998743534088,
+          2.664619207382202
+        ],
+        "max": [
+          27.83301544189453,
+          0.13270001113414764,
+          2.721773624420166
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_PendantSuspension_BlackMetal",
+      "module": "Step",
+      "part": "PendantSuspension",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 1164,
+      "polygons": 1104,
+      "bounds_m": {
+        "min": [
+          21.832977294921875,
+          1.4128105640411377,
+          3.0299999713897705
+        ],
+        "max": [
+          27.831371307373047,
+          4.287384510040283,
+          3.7774999141693115
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_RingPendantBody_PaleOak",
+      "module": "Step",
+      "part": "RingPendantBody",
+      "material": "LW_PaleOak",
+      "collision": false,
+      "vertices": 4074,
+      "polygons": 4032,
+      "bounds_m": {
+        "min": [
+          21.565000534057617,
+          1.2650001049041748,
+          3.016378879547119
+        ],
+        "max": [
+          27.934968948364258,
+          4.434999942779541,
+          3.1236209869384766
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_RingPendantDiffuser_Light",
+      "module": "Step",
+      "part": "RingPendantDiffuser",
+      "material": "LW_Light",
+      "collision": false,
+      "vertices": 3492,
+      "polygons": 3456,
+      "bounds_m": {
+        "min": [
+          21.595001220703125,
+          1.2950000762939453,
+          3.0
+        ],
+        "max": [
+          27.904985427856445,
+          4.40500020980835,
+          3.0500001907348633
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_CeilingCassetteCasing_WhiteMetal",
+      "module": "Step",
+      "part": "CeilingCassetteCasing",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 224,
+      "polygons": 216,
+      "bounds_m": {
+        "min": [
+          22.399999618530273,
+          2.4800000190734863,
+          3.247499942779541
+        ],
+        "max": [
+          27.600000381469727,
+          3.5199999809265137,
+          3.569999933242798
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_CassetteIntakeRecess_Rubber",
+      "module": "Step",
+      "part": "CassetteIntakeRecess",
+      "material": "LW_Rubber",
+      "collision": false,
+      "vertices": 336,
+      "polygons": 324,
+      "bounds_m": {
+        "min": [
+          22.510000228881836,
+          2.507999897003174,
+          3.2295000553131104
+        ],
+        "max": [
+          27.489999771118164,
+          3.492000102996826,
+          3.257499933242798
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_CassetteGrilleSlats_WhiteMetal",
+      "module": "Step",
+      "part": "CassetteGrilleSlats",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 3248,
+      "polygons": 3132,
+      "bounds_m": {
+        "min": [
+          22.524999618530273,
+          2.5204999446868896,
+          3.2105000019073486
+        ],
+        "max": [
+          27.475000381469727,
+          3.4795000553131104,
+          3.2309999465942383
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_CassetteFixings_WhiteMetal",
+      "module": "Step",
+      "part": "CassetteFixings",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 480,
+      "polygons": 416,
+      "bounds_m": {
+        "min": [
+          22.48334312438965,
+          2.562999963760376,
+          3.2160000801086426
+        ],
+        "max": [
+          27.51665687561035,
+          3.437000036239624,
+          3.2300000190734863
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_CassetteStatus_ExitGreen",
+      "module": "Step",
+      "part": "CassetteStatus",
+      "material": "LW_ExitGreen",
+      "collision": false,
+      "vertices": 112,
+      "polygons": 108,
+      "bounds_m": {
+        "min": [
+          23.47100067138672,
+          3.377500057220459,
+          3.2195000648498535
+        ],
+        "max": [
+          27.48900032043457,
+          3.4024999141693115,
+          3.2244999408721924
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Step_CassetteServicePipe_WhiteMetal",
+      "module": "Step",
+      "part": "CassetteServicePipe",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 576,
+      "polygons": 516,
+      "bounds_m": {
+        "min": [
+          23.540000915527344,
+          2.9700000286102295,
+          3.440000057220459
+        ],
+        "max": [
+          27.850000381469727,
+          3.5,
+          3.7100000381469727
+        ]
+      },
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg",
+        "20240831_102702.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_Floor_FloorOak",
+      "module": "Lecture",
+      "part": "Floor",
+      "material": "LW_FloorOak",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          0.0,
+          16.0,
+          -0.10999999940395355
+        ],
+        "max": [
+          8.0,
+          22.0,
+          0.0
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_CeilingSlab_Plaster",
+      "module": "Lecture",
+      "part": "CeilingSlab",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          0.0,
+          16.0,
+          3.799999952316284
+        ],
+        "max": [
+          8.0,
+          22.0,
+          4.0
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_ExposedBeams_Plaster",
+      "module": "Lecture",
+      "part": "ExposedBeams",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 168,
+      "polygons": 162,
+      "bounds_m": {
+        "min": [
+          0.029999999329447746,
+          16.0,
+          3.4800000190734863
+        ],
+        "max": [
+          7.96999979019165,
+          22.0,
+          3.799999952316284
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_ExposedWhiteServices_WhiteMetal",
+      "module": "Lecture",
+      "part": "ExposedWhiteServices",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 1224,
+      "polygons": 1116,
+      "bounds_m": {
+        "min": [
+          0.11999999731779099,
+          16.5575008392334,
+          3.3935999870300293
+        ],
+        "max": [
+          7.859000205993652,
+          21.392499923706055,
+          3.6263999938964844
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_ConduitSupports_WhiteMetal",
+      "module": "Lecture",
+      "part": "ConduitSupports",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 912,
+      "polygons": 816,
+      "bounds_m": {
+        "min": [
+          0.1420000046491623,
+          16.530000686645508,
+          3.4120001792907715
+        ],
+        "max": [
+          7.857999801635742,
+          21.420000076293945,
+          3.7899999618530273
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageWallSegments_Plaster",
+      "module": "Lecture",
+      "part": "StageWallSegments",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 448,
+      "polygons": 432,
+      "bounds_m": {
+        "min": [
+          7.900000095367432,
+          16.0,
+          0.0
+        ],
+        "max": [
+          8.100000381469727,
+          22.0,
+          3.799999952316284
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageWindow_Frame_BlackMetal",
+      "module": "Lecture",
+      "part": "StageWindow_Frame",
+      "material": "LW_BlackMetal",
+      "collision": true,
+      "vertices": 504,
+      "polygons": 486,
+      "bounds_m": {
+        "min": [
+          7.945000171661377,
+          17.5674991607666,
+          1.0175000429153442
+        ],
+        "max": [
+          8.055000305175781,
+          20.4325008392334,
+          2.942500114440918
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageWindow_Gasket_Rubber",
+      "module": "Lecture",
+      "part": "StageWindow_Gasket",
+      "material": "LW_Rubber",
+      "collision": false,
+      "vertices": 2688,
+      "polygons": 2592,
+      "bounds_m": {
+        "min": [
+          7.96750020980835,
+          17.631999969482422,
+          1.0774999856948853
+        ],
+        "max": [
+          7.992499828338623,
+          20.368000030517578,
+          2.882499933242798
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageWindow_Glass_Glass",
+      "module": "Lecture",
+      "part": "StageWindow_Glass",
+      "material": "LW_Glass",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 72,
+      "bounds_m": {
+        "min": [
+          7.995500087738037,
+          17.642499923706055,
+          1.0889999866485596
+        ],
+        "max": [
+          8.004500389099121,
+          20.357500076293945,
+          2.871000051498413
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageWindow_Hardware_BlackMetal",
+      "module": "Lecture",
+      "part": "StageWindow_Hardware",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 800,
+      "polygons": 712,
+      "bounds_m": {
+        "min": [
+          7.892000198364258,
+          18.15999984741211,
+          1.5399999618530273
+        ],
+        "max": [
+          7.935999870300293,
+          20.34000015258789,
+          1.6200000047683716
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageWindow_HopperLatches_BlackMetal",
+      "module": "Lecture",
+      "part": "StageWindow_HopperLatches",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 288,
+      "polygons": 248,
+      "bounds_m": {
+        "min": [
+          7.904150009155273,
+          17.94300079345703,
+          2.588604688644409
+        ],
+        "max": [
+          7.935850143432617,
+          20.05699920654297,
+          2.651395559310913
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageWindow_Sill_Plaster",
+      "module": "Lecture",
+      "part": "StageWindow_Sill",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          7.840000152587891,
+          17.559999465942383,
+          0.949999988079071
+        ],
+        "max": [
+          8.140000343322754,
+          20.440000534057617,
+          1.0199999809265137
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageWindow_BlindRoller_Plaster",
+      "module": "Lecture",
+      "part": "StageWindow_BlindRoller",
+      "material": "LW_Plaster",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 82,
+      "bounds_m": {
+        "min": [
+          7.8460001945495605,
+          17.6299991607666,
+          2.996000051498413
+        ],
+        "max": [
+          7.914000034332275,
+          20.3700008392334,
+          3.063999891281128
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageWindow_BlindChain_WhiteMetal",
+      "module": "Lecture",
+      "part": "StageWindow_BlindChain",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 170,
+      "polygons": 166,
+      "bounds_m": {
+        "min": [
+          7.887796401977539,
+          20.335920333862305,
+          2.3499999046325684
+        ],
+        "max": [
+          7.892203330993652,
+          20.364078521728516,
+          3.009999990463257
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit1_Frame_PaleOak",
+      "module": "Lecture",
+      "part": "StageExit1_Frame",
+      "material": "LW_PaleOak",
+      "collision": true,
+      "vertices": 168,
+      "polygons": 162,
+      "bounds_m": {
+        "min": [
+          7.860000133514404,
+          16.092500686645508,
+          0.0
+        ],
+        "max": [
+          8.140000343322754,
+          17.3075008392334,
+          2.380000114440918
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit1_Stop_PaleOak",
+      "module": "Lecture",
+      "part": "StageExit1_Stop",
+      "material": "LW_PaleOak",
+      "collision": false,
+      "vertices": 112,
+      "polygons": 108,
+      "bounds_m": {
+        "min": [
+          7.935500144958496,
+          16.167499542236328,
+          0.0
+        ],
+        "max": [
+          7.9704999923706055,
+          17.232500076293945,
+          2.319999933242798
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit1_Seal_Rubber",
+      "module": "Lecture",
+      "part": "StageExit1_Seal",
+      "material": "LW_Rubber",
+      "collision": false,
+      "vertices": 112,
+      "polygons": 108,
+      "bounds_m": {
+        "min": [
+          7.964000225067139,
+          16.18400001525879,
+          0.014999999664723873
+        ],
+        "max": [
+          7.97599983215332,
+          17.215999603271484,
+          2.305000066757202
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit1_Leaf_1_PaleOak",
+      "module": "Lecture",
+      "part": "StageExit1_Leaf_1",
+      "material": "LW_PaleOak",
+      "collision": true,
+      "vertices": 224,
+      "polygons": 216,
+      "bounds_m": {
+        "min": [
+          7.977499961853027,
+          16.18600082397461,
+          0.0
+        ],
+        "max": [
+          8.022500038146973,
+          17.214000701904297,
+          2.319999933242798
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit1_Leaf_1_Glass_Glass",
+      "module": "Lecture",
+      "part": "StageExit1_Leaf_1_Glass",
+      "material": "LW_Glass",
+      "collision": false,
+      "vertices": 8,
+      "polygons": 6,
+      "bounds_m": {
+        "min": [
+          7.995999813079834,
+          16.643999099731445,
+          0.4339999854564667
+        ],
+        "max": [
+          8.003999710083008,
+          16.756000518798828,
+          1.9859999418258667
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit1_Leaf_1_GlazingBead_WhiteMetal",
+      "module": "Lecture",
+      "part": "StageExit1_Leaf_1_GlazingBead",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 224,
+      "polygons": 216,
+      "bounds_m": {
+        "min": [
+          7.9629998207092285,
+          16.627500534057617,
+          0.41749998927116394
+        ],
+        "max": [
+          7.980999946594238,
+          16.772499084472656,
+          2.002500057220459
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit1_Leaf_1_Handle_WhiteMetal",
+      "module": "Lecture",
+      "part": "StageExit1_Leaf_1_Handle",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 288,
+      "polygons": 246,
+      "bounds_m": {
+        "min": [
+          7.908999919891357,
+          17.02899932861328,
+          0.9229999780654907
+        ],
+        "max": [
+          7.964000225067139,
+          17.1560001373291,
+          1.034999966621399
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit1_Leaf_1_Hinges_WhiteMetal",
+      "module": "Lecture",
+      "part": "StageExit1_Leaf_1_Hinges",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 384,
+      "polygons": 348,
+      "bounds_m": {
+        "min": [
+          7.949999809265137,
+          16.170000076293945,
+          0.20000000298023224
+        ],
+        "max": [
+          7.978000164031982,
+          16.20199966430664,
+          2.0799999237060547
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit1_Leaf_1_Closer_WhiteMetal",
+      "module": "Lecture",
+      "part": "StageExit1_Leaf_1_Closer",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 150,
+      "polygons": 140,
+      "bounds_m": {
+        "min": [
+          7.8130340576171875,
+          16.59000015258789,
+          2.1624999046325684
+        ],
+        "max": [
+          7.977499961853027,
+          16.9263916015625,
+          2.3293936252593994
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit1_ExitBox_WhiteMetal",
+      "module": "Lecture",
+      "part": "StageExit1_ExitBox",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          7.880000114440918,
+          16.489999771118164,
+          2.625
+        ],
+        "max": [
+          7.960000038146973,
+          16.90999984741211,
+          2.7950000762939453
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit1_ExitFace_Light",
+      "module": "Lecture",
+      "part": "StageExit1_ExitFace",
+      "material": "LW_Light",
+      "collision": false,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          7.870999813079834,
+          16.50550079345703,
+          2.6389999389648438
+        ],
+        "max": [
+          7.879000186920166,
+          16.894500732421875,
+          2.7809998989105225
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit1_ExitLettering_ExitGreen",
+      "module": "Lecture",
+      "part": "StageExit1_ExitLettering",
+      "material": "LW_ExitGreen",
+      "collision": false,
+      "vertices": 432,
+      "polygons": 304,
+      "bounds_m": {
+        "min": [
+          7.867300033569336,
+          16.570363998413086,
+          2.664619207382202
+        ],
+        "max": [
+          7.86870002746582,
+          16.8330135345459,
+          2.721773624420166
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit2_Frame_PaleOak",
+      "module": "Lecture",
+      "part": "StageExit2_Frame",
+      "material": "LW_PaleOak",
+      "collision": true,
+      "vertices": 168,
+      "polygons": 162,
+      "bounds_m": {
+        "min": [
+          7.860000133514404,
+          20.6924991607666,
+          0.0
+        ],
+        "max": [
+          8.140000343322754,
+          21.907499313354492,
+          2.380000114440918
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit2_Stop_PaleOak",
+      "module": "Lecture",
+      "part": "StageExit2_Stop",
+      "material": "LW_PaleOak",
+      "collision": false,
+      "vertices": 112,
+      "polygons": 108,
+      "bounds_m": {
+        "min": [
+          7.935500144958496,
+          20.767499923706055,
+          0.0
+        ],
+        "max": [
+          7.9704999923706055,
+          21.832500457763672,
+          2.319999933242798
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit2_Seal_Rubber",
+      "module": "Lecture",
+      "part": "StageExit2_Seal",
+      "material": "LW_Rubber",
+      "collision": false,
+      "vertices": 112,
+      "polygons": 108,
+      "bounds_m": {
+        "min": [
+          7.964000225067139,
+          20.784000396728516,
+          0.014999999664723873
+        ],
+        "max": [
+          7.97599983215332,
+          21.81599998474121,
+          2.305000066757202
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit2_Leaf_1_PaleOak",
+      "module": "Lecture",
+      "part": "StageExit2_Leaf_1",
+      "material": "LW_PaleOak",
+      "collision": true,
+      "vertices": 224,
+      "polygons": 216,
+      "bounds_m": {
+        "min": [
+          7.977499961853027,
+          20.785999298095703,
+          0.0
+        ],
+        "max": [
+          8.022500038146973,
+          21.81399917602539,
+          2.319999933242798
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit2_Leaf_1_Glass_Glass",
+      "module": "Lecture",
+      "part": "StageExit2_Leaf_1_Glass",
+      "material": "LW_Glass",
+      "collision": false,
+      "vertices": 8,
+      "polygons": 6,
+      "bounds_m": {
+        "min": [
+          7.995999813079834,
+          21.243999481201172,
+          0.4339999854564667
+        ],
+        "max": [
+          8.003999710083008,
+          21.356000900268555,
+          1.9859999418258667
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit2_Leaf_1_GlazingBead_WhiteMetal",
+      "module": "Lecture",
+      "part": "StageExit2_Leaf_1_GlazingBead",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 224,
+      "polygons": 216,
+      "bounds_m": {
+        "min": [
+          7.9629998207092285,
+          21.227500915527344,
+          0.41749998927116394
+        ],
+        "max": [
+          7.980999946594238,
+          21.372499465942383,
+          2.002500057220459
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit2_Leaf_1_Handle_WhiteMetal",
+      "module": "Lecture",
+      "part": "StageExit2_Leaf_1_Handle",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 288,
+      "polygons": 246,
+      "bounds_m": {
+        "min": [
+          7.908999919891357,
+          21.628999710083008,
+          0.9229999780654907
+        ],
+        "max": [
+          7.964000225067139,
+          21.756000518798828,
+          1.034999966621399
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit2_Leaf_1_Hinges_WhiteMetal",
+      "module": "Lecture",
+      "part": "StageExit2_Leaf_1_Hinges",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 384,
+      "polygons": 348,
+      "bounds_m": {
+        "min": [
+          7.949999809265137,
+          20.770000457763672,
+          0.20000000298023224
+        ],
+        "max": [
+          7.978000164031982,
+          20.802000045776367,
+          2.0799999237060547
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit2_Leaf_1_Closer_WhiteMetal",
+      "module": "Lecture",
+      "part": "StageExit2_Leaf_1_Closer",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 150,
+      "polygons": 140,
+      "bounds_m": {
+        "min": [
+          7.8130340576171875,
+          21.190000534057617,
+          2.1624999046325684
+        ],
+        "max": [
+          7.977499961853027,
+          21.526391983032227,
+          2.3293936252593994
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit2_ExitBox_WhiteMetal",
+      "module": "Lecture",
+      "part": "StageExit2_ExitBox",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          7.880000114440918,
+          21.09000015258789,
+          2.625
+        ],
+        "max": [
+          7.960000038146973,
+          21.510000228881836,
+          2.7950000762939453
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit2_ExitFace_Light",
+      "module": "Lecture",
+      "part": "StageExit2_ExitFace",
+      "material": "LW_Light",
+      "collision": false,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          7.870999813079834,
+          21.105499267578125,
+          2.6389999389648438
+        ],
+        "max": [
+          7.879000186920166,
+          21.49449920654297,
+          2.7809998989105225
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_StageExit2_ExitLettering_ExitGreen",
+      "module": "Lecture",
+      "part": "StageExit2_ExitLettering",
+      "material": "LW_ExitGreen",
+      "collision": false,
+      "vertices": 432,
+      "polygons": 304,
+      "bounds_m": {
+        "min": [
+          7.867300033569336,
+          21.170366287231445,
+          2.664619207382202
+        ],
+        "max": [
+          7.86870002746582,
+          21.433015823364258,
+          2.721773624420166
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_TierWindowWall_Plaster",
+      "module": "Lecture",
+      "part": "TierWindowWall",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 280,
+      "polygons": 270,
+      "bounds_m": {
+        "min": [
+          -0.1599999964237213,
+          15.979999542236328,
+          0.0
+        ],
+        "max": [
+          0.1599999964237213,
+          22.020000457763672,
+          3.799999952316284
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_TierWindow1_Frame_BlackMetal",
+      "module": "Lecture",
+      "part": "TierWindow1_Frame",
+      "material": "LW_BlackMetal",
+      "collision": true,
+      "vertices": 504,
+      "polygons": 486,
+      "bounds_m": {
+        "min": [
+          -0.054999999701976776,
+          16.267499923706055,
+          1.6174999475479126
+        ],
+        "max": [
+          0.054999999701976776,
+          18.88249969482422,
+          3.3324999809265137
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_TierWindow1_Gasket_Rubber",
+      "module": "Lecture",
+      "part": "TierWindow1_Gasket",
+      "material": "LW_Rubber",
+      "collision": false,
+      "vertices": 2688,
+      "polygons": 2592,
+      "bounds_m": {
+        "min": [
+          0.007499999832361937,
+          16.332000732421875,
+          1.6775000095367432
+        ],
+        "max": [
+          0.032499998807907104,
+          18.81800079345703,
+          3.2725000381469727
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_TierWindow1_Glass_Glass",
+      "module": "Lecture",
+      "part": "TierWindow1_Glass",
+      "material": "LW_Glass",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 72,
+      "bounds_m": {
+        "min": [
+          -0.0044999998062849045,
+          16.342500686645508,
+          1.6890000104904175
+        ],
+        "max": [
+          0.0044999998062849045,
+          18.8075008392334,
+          3.260999917984009
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_TierWindow1_Hardware_BlackMetal",
+      "module": "Lecture",
+      "part": "TierWindow1_Hardware",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 800,
+      "polygons": 712,
+      "bounds_m": {
+        "min": [
+          0.06400000303983688,
+          16.797500610351562,
+          2.140000104904175
+        ],
+        "max": [
+          0.1080000028014183,
+          18.790000915527344,
+          2.2200000286102295
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_TierWindow1_HopperLatches_BlackMetal",
+      "module": "Lecture",
+      "part": "TierWindow1_HopperLatches",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 288,
+      "polygons": 248,
+      "bounds_m": {
+        "min": [
+          0.06414978951215744,
+          16.61174964904785,
+          2.978604555130005
+        ],
+        "max": [
+          0.09585021436214447,
+          18.538249969482422,
+          3.041395425796509
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_TierWindow1_Sill_Plaster",
+      "module": "Lecture",
+      "part": "TierWindow1_Sill",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          -0.14000000059604645,
+          16.260000228881836,
+          1.5499999523162842
+        ],
+        "max": [
+          0.1599999964237213,
+          18.889999389648438,
+          1.6200000047683716
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_TierWindow1_BlindRoller_Plaster",
+      "module": "Lecture",
+      "part": "TierWindow1_BlindRoller",
+      "material": "LW_Plaster",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 82,
+      "bounds_m": {
+        "min": [
+          0.085999995470047,
+          16.329999923706055,
+          3.386000156402588
+        ],
+        "max": [
+          0.15399999916553497,
+          18.81999969482422,
+          3.4539999961853027
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_TierWindow1_BlindChain_WhiteMetal",
+      "module": "Lecture",
+      "part": "TierWindow1_BlindChain",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 170,
+      "polygons": 166,
+      "bounds_m": {
+        "min": [
+          0.10779670625925064,
+          18.785921096801758,
+          2.740000009536743
+        ],
+        "max": [
+          0.11220329254865646,
+          18.81407928466797,
+          3.4000000953674316
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_TierWindow2_Frame_BlackMetal",
+      "module": "Lecture",
+      "part": "TierWindow2_Frame",
+      "material": "LW_BlackMetal",
+      "collision": true,
+      "vertices": 504,
+      "polygons": 486,
+      "bounds_m": {
+        "min": [
+          -0.054999999701976776,
+          19.11750030517578,
+          1.6174999475479126
+        ],
+        "max": [
+          0.054999999701976776,
+          21.732500076293945,
+          3.3324999809265137
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_TierWindow2_Gasket_Rubber",
+      "module": "Lecture",
+      "part": "TierWindow2_Gasket",
+      "material": "LW_Rubber",
+      "collision": false,
+      "vertices": 2688,
+      "polygons": 2592,
+      "bounds_m": {
+        "min": [
+          0.007499999832361937,
+          19.18199920654297,
+          1.6775000095367432
+        ],
+        "max": [
+          0.032499998807907104,
+          21.667999267578125,
+          3.2725000381469727
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_TierWindow2_Glass_Glass",
+      "module": "Lecture",
+      "part": "TierWindow2_Glass",
+      "material": "LW_Glass",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 72,
+      "bounds_m": {
+        "min": [
+          -0.0044999998062849045,
+          19.1924991607666,
+          1.6890000104904175
+        ],
+        "max": [
+          0.0044999998062849045,
+          21.657499313354492,
+          3.260999917984009
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_TierWindow2_Hardware_BlackMetal",
+      "module": "Lecture",
+      "part": "TierWindow2_Hardware",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 800,
+      "polygons": 712,
+      "bounds_m": {
+        "min": [
+          0.06400000303983688,
+          19.647499084472656,
+          2.140000104904175
+        ],
+        "max": [
+          0.1080000028014183,
+          21.639999389648438,
+          2.2200000286102295
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_TierWindow2_HopperLatches_BlackMetal",
+      "module": "Lecture",
+      "part": "TierWindow2_HopperLatches",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 288,
+      "polygons": 248,
+      "bounds_m": {
+        "min": [
+          0.06414978951215744,
+          19.461750030517578,
+          2.978604555130005
+        ],
+        "max": [
+          0.09585021436214447,
+          21.38825035095215,
+          3.041395425796509
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_TierWindow2_Sill_Plaster",
+      "module": "Lecture",
+      "part": "TierWindow2_Sill",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          -0.14000000059604645,
+          19.110000610351562,
+          1.5499999523162842
+        ],
+        "max": [
+          0.1599999964237213,
+          21.739999771118164,
+          1.6200000047683716
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_TierWindow2_BlindRoller_Plaster",
+      "module": "Lecture",
+      "part": "TierWindow2_BlindRoller",
+      "material": "LW_Plaster",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 82,
+      "bounds_m": {
+        "min": [
+          0.085999995470047,
+          19.18000030517578,
+          3.386000156402588
+        ],
+        "max": [
+          0.15399999916553497,
+          21.670000076293945,
+          3.4539999961853027
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_TierWindow2_BlindChain_WhiteMetal",
+      "module": "Lecture",
+      "part": "TierWindow2_BlindChain",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 170,
+      "polygons": 166,
+      "bounds_m": {
+        "min": [
+          0.10779670625925064,
+          21.635921478271484,
+          2.740000009536743
+        ],
+        "max": [
+          0.11220329254865646,
+          21.664079666137695,
+          3.4000000953674316
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_ProjectionScreen_ScreenWhite",
+      "module": "Lecture",
+      "part": "ProjectionScreen",
+      "material": "LW_ScreenWhite",
+      "collision": false,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          7.796000003814697,
+          17.950000762939453,
+          1.5299999713897705
+        ],
+        "max": [
+          7.823999881744385,
+          20.049999237060547,
+          2.7100000381469727
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_ProjectionScreenEdge_BlackMetal",
+      "module": "Lecture",
+      "part": "ProjectionScreenEdge",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 224,
+      "polygons": 216,
+      "bounds_m": {
+        "min": [
+          7.78249979019165,
+          17.924999237060547,
+          1.496500015258789
+        ],
+        "max": [
+          7.817500114440918,
+          20.075000762939453,
+          2.753499984741211
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_ProjectionScreenRoller_WhiteMetal",
+      "module": "Lecture",
+      "part": "ProjectionScreenRoller",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 120,
+      "polygons": 102,
+      "bounds_m": {
+        "min": [
+          7.755000114440918,
+          17.850000381469727,
+          2.744999885559082
+        ],
+        "max": [
+          7.845000267028809,
+          20.149999618530273,
+          2.8350000381469727
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_CeilingLightWoodFrame_PaleOak",
+      "module": "Lecture",
+      "part": "CeilingLightWoodFrame",
+      "material": "LW_PaleOak",
+      "collision": false,
+      "vertices": 224,
+      "polygons": 216,
+      "bounds_m": {
+        "min": [
+          2.0950000286102295,
+          16.895000457763672,
+          3.059999942779541
+        ],
+        "max": [
+          5.90500020980835,
+          21.104999542236328,
+          3.180000066757202
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_CeilingLightPanel_Light",
+      "module": "Lecture",
+      "part": "CeilingLightPanel",
+      "material": "LW_Light",
+      "collision": false,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          2.200000047683716,
+          17.010000228881836,
+          3.122499942779541
+        ],
+        "max": [
+          5.800000190734863,
+          20.989999771118164,
+          3.1675000190734863
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_CeilingLightSuspension_WhiteMetal",
+      "module": "Lecture",
+      "part": "CeilingLightSuspension",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 320,
+      "polygons": 296,
+      "bounds_m": {
+        "min": [
+          2.194999933242798,
+          16.9950008392334,
+          3.1500000953674316
+        ],
+        "max": [
+          5.805000305175781,
+          21.0049991607666,
+          3.799999952316284
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_CeilingCassetteCasing_WhiteMetal",
+      "module": "Lecture",
+      "part": "CeilingCassetteCasing",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 112,
+      "polygons": 108,
+      "bounds_m": {
+        "min": [
+          5.599999904632568,
+          18.479999542236328,
+          3.247499942779541
+        ],
+        "max": [
+          6.800000190734863,
+          19.520000457763672,
+          3.569999933242798
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_CassetteIntakeRecess_Rubber",
+      "module": "Lecture",
+      "part": "CassetteIntakeRecess",
+      "material": "LW_Rubber",
+      "collision": false,
+      "vertices": 168,
+      "polygons": 162,
+      "bounds_m": {
+        "min": [
+          5.710000038146973,
+          18.507999420166016,
+          3.2295000553131104
+        ],
+        "max": [
+          6.690000057220459,
+          19.492000579833984,
+          3.257499933242798
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_CassetteGrilleSlats_WhiteMetal",
+      "module": "Lecture",
+      "part": "CassetteGrilleSlats",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 1624,
+      "polygons": 1566,
+      "bounds_m": {
+        "min": [
+          5.724999904632568,
+          18.52050018310547,
+          3.2105000019073486
+        ],
+        "max": [
+          6.675000190734863,
+          19.47949981689453,
+          3.2309999465942383
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_CassetteFixings_WhiteMetal",
+      "module": "Lecture",
+      "part": "CassetteFixings",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 240,
+      "polygons": 208,
+      "bounds_m": {
+        "min": [
+          5.683342456817627,
+          18.562999725341797,
+          3.2160000801086426
+        ],
+        "max": [
+          6.716657638549805,
+          19.437000274658203,
+          3.2300000190734863
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_CassetteStatus_ExitGreen",
+      "module": "Lecture",
+      "part": "CassetteStatus",
+      "material": "LW_ExitGreen",
+      "collision": false,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          6.671000003814697,
+          19.377500534057617,
+          3.2195000648498535
+        ],
+        "max": [
+          6.689000129699707,
+          19.40250015258789,
+          3.2244999408721924
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_CassetteServicePipe_WhiteMetal",
+      "module": "Lecture",
+      "part": "CassetteServicePipe",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 288,
+      "polygons": 258,
+      "bounds_m": {
+        "min": [
+          6.739999771118164,
+          18.969999313354492,
+          3.440000057220459
+        ],
+        "max": [
+          7.050000190734863,
+          19.5,
+          3.7100000381469727
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_WallSpeakers_BlackMetal",
+      "module": "Lecture",
+      "part": "WallSpeakers",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 112,
+      "polygons": 108,
+      "bounds_m": {
+        "min": [
+          7.695000171661377,
+          16.670000076293945,
+          3.0250000953674316
+        ],
+        "max": [
+          7.864999771118164,
+          21.329999923706055,
+          3.4149999618530273
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Lecture_SpeakerGrille_Rubber",
+      "module": "Lecture",
+      "part": "SpeakerGrille",
+      "material": "LW_Rubber",
+      "collision": false,
+      "vertices": 864,
+      "polygons": 732,
+      "bounds_m": {
+        "min": [
+          7.65500020980835,
+          16.732999801635742,
+          3.0329999923706055
+        ],
+        "max": [
+          7.670000076293945,
+          21.267000198364258,
+          3.376999855041504
+        ]
+      },
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Culture_Floor_FloorOak",
+      "module": "Culture",
+      "part": "Floor",
+      "material": "LW_FloorOak",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          20.0,
+          16.0,
+          -0.10999999940395355
+        ],
+        "max": [
+          26.0,
+          21.0,
+          0.0
+        ]
+      },
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Culture_CeilingSlab_Plaster",
+      "module": "Culture",
+      "part": "CeilingSlab",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          20.0,
+          16.0,
+          3.799999952316284
+        ],
+        "max": [
+          26.0,
+          21.0,
+          4.0
+        ]
+      },
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Culture_ExposedBeams_Plaster",
+      "module": "Culture",
+      "part": "ExposedBeams",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 112,
+      "polygons": 108,
+      "bounds_m": {
+        "min": [
+          20.030000686645508,
+          16.0,
+          3.4800000190734863
+        ],
+        "max": [
+          25.969999313354492,
+          21.0,
+          3.799999952316284
+        ]
+      },
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Culture_ExposedWhiteServices_WhiteMetal",
+      "module": "Culture",
+      "part": "ExposedWhiteServices",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 1056,
+      "polygons": 954,
+      "bounds_m": {
+        "min": [
+          20.1200008392334,
+          16.5575008392334,
+          3.3935999870300293
+        ],
+        "max": [
+          25.858999252319336,
+          20.392499923706055,
+          3.6263999938964844
+        ]
+      },
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Culture_ConduitSupports_WhiteMetal",
+      "module": "Culture",
+      "part": "ConduitSupports",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 608,
+      "polygons": 544,
+      "bounds_m": {
+        "min": [
+          20.142000198364258,
+          16.530000686645508,
+          3.4120001792907715
+        ],
+        "max": [
+          25.857999801635742,
+          20.420000076293945,
+          3.7899999618530273
+        ]
+      },
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Culture_CornerWalls_Plaster",
+      "module": "Culture",
+      "part": "CornerWalls",
+      "material": "LW_Plaster",
+      "collision": true,
+      "vertices": 112,
+      "polygons": 108,
+      "bounds_m": {
+        "min": [
+          20.0,
+          16.0,
+          0.0
+        ],
+        "max": [
+          26.100000381469727,
+          21.100000381469727,
+          3.799999952316284
+        ]
+      },
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Culture_CeilingCassetteCasing_WhiteMetal",
+      "module": "Culture",
+      "part": "CeilingCassetteCasing",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 112,
+      "polygons": 108,
+      "bounds_m": {
+        "min": [
+          22.399999618530273,
+          17.979999542236328,
+          3.247499942779541
+        ],
+        "max": [
+          23.600000381469727,
+          19.020000457763672,
+          3.569999933242798
+        ]
+      },
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Culture_CassetteIntakeRecess_Rubber",
+      "module": "Culture",
+      "part": "CassetteIntakeRecess",
+      "material": "LW_Rubber",
+      "collision": false,
+      "vertices": 168,
+      "polygons": 162,
+      "bounds_m": {
+        "min": [
+          22.510000228881836,
+          18.007999420166016,
+          3.2295000553131104
+        ],
+        "max": [
+          23.489999771118164,
+          18.992000579833984,
+          3.257499933242798
+        ]
+      },
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Culture_CassetteGrilleSlats_WhiteMetal",
+      "module": "Culture",
+      "part": "CassetteGrilleSlats",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 1624,
+      "polygons": 1566,
+      "bounds_m": {
+        "min": [
+          22.524999618530273,
+          18.02050018310547,
+          3.2105000019073486
+        ],
+        "max": [
+          23.475000381469727,
+          18.97949981689453,
+          3.2309999465942383
+        ]
+      },
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Culture_CassetteFixings_WhiteMetal",
+      "module": "Culture",
+      "part": "CassetteFixings",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 240,
+      "polygons": 208,
+      "bounds_m": {
+        "min": [
+          22.48334312438965,
+          18.062999725341797,
+          3.2160000801086426
+        ],
+        "max": [
+          23.51665687561035,
+          18.937000274658203,
+          3.2300000190734863
+        ]
+      },
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Culture_CassetteStatus_ExitGreen",
+      "module": "Culture",
+      "part": "CassetteStatus",
+      "material": "LW_ExitGreen",
+      "collision": false,
+      "vertices": 56,
+      "polygons": 54,
+      "bounds_m": {
+        "min": [
+          23.47100067138672,
+          18.877500534057617,
+          3.2195000648498535
+        ],
+        "max": [
+          23.48900032043457,
+          18.90250015258789,
+          3.2244999408721924
+        ]
+      },
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Culture_CassetteServicePipe_WhiteMetal",
+      "module": "Culture",
+      "part": "CassetteServicePipe",
+      "material": "LW_WhiteMetal",
+      "collision": false,
+      "vertices": 288,
+      "polygons": 258,
+      "bounds_m": {
+        "min": [
+          23.540000915527344,
+          18.469999313354492,
+          3.440000057220459
+        ],
+        "max": [
+          23.850000381469727,
+          19.0,
+          3.7100000381469727
+        ]
+      },
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Culture_WickerPendantCords_BlackMetal",
+      "module": "Culture",
+      "part": "WickerPendantCords",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 160,
+      "polygons": 148,
+      "bounds_m": {
+        "min": [
+          21.79599952697754,
+          18.246000289916992,
+          3.2899999618530273
+        ],
+        "max": [
+          24.40399932861328,
+          18.253999710083008,
+          3.799999952316284
+        ]
+      },
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Culture_WickerPendantWeave_Wicker",
+      "module": "Culture",
+      "part": "WickerPendantWeave",
+      "material": "LW_Wicker",
+      "collision": false,
+      "vertices": 19932,
+      "polygons": 19424,
+      "bounds_m": {
+        "min": [
+          21.451200485229492,
+          17.901201248168945,
+          3.016709089279175
+        ],
+        "max": [
+          24.748798370361328,
+          18.598798751831055,
+          3.302777051925659
+        ]
+      },
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Culture_WickerPendantBulb_Light",
+      "module": "Culture",
+      "part": "WickerPendantBulb",
+      "material": "LW_Light",
+      "collision": false,
+      "vertices": 288,
+      "polygons": 244,
+      "bounds_m": {
+        "min": [
+          21.744998931884766,
+          18.19499969482422,
+          3.069999933242798
+        ],
+        "max": [
+          24.454999923706055,
+          18.30500030517578,
+          3.200000047683716
+        ]
+      },
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_A_Culture_WickerPendantSocket_BlackMetal",
+      "module": "Culture",
+      "part": "WickerPendantSocket",
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "vertices": 192,
+      "polygons": 164,
+      "bounds_m": {
+        "min": [
+          21.772998809814453,
+          18.222999572753906,
+          3.190000057220459
+        ],
+        "max": [
+          24.427000045776367,
+          18.277000427246094,
+          3.2799999713897705
+        ]
+      },
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    }
+  ],
+  "summary": {
+    "mesh_count": 222,
+    "vertices": 152228,
+    "polygons": 144256
+  },
+  "modules": {
+    "Main": {
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        14,
+        8,
+        3.8
+      ]
+    },
+    "Step": {
+      "origin": [
+        20,
+        0,
+        0
+      ],
+      "size": [
+        9,
+        6,
+        3.8
+      ]
+    },
+    "Lecture": {
+      "origin": [
+        0,
+        16,
+        0
+      ],
+      "size": [
+        8,
+        6,
+        3.8
+      ]
+    },
+    "Culture": {
+      "origin": [
+        20,
+        16,
+        0
+      ],
+      "size": [
+        6,
+        5,
+        3.8
+      ]
+    }
+  }
+}

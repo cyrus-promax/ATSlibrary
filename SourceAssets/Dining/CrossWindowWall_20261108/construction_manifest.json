@@ -1,0 +1,202 @@
+{
+  "window_count": 2,
+  "window_centres_campus_m": [
+    [
+      0.205,
+      16.49944733735314,
+      2.025
+    ],
+    [
+      0.205,
+      19.949447337353142,
+      2.025
+    ]
+  ],
+  "window_openings_v_h": [
+    [
+      15.74944733735314,
+      17.24944733735314,
+      0.9,
+      3.15
+    ],
+    [
+      19.199447337353142,
+      20.699447337353142,
+      0.9,
+      3.15
+    ]
+  ],
+  "window_width_m": 1.5,
+  "window_height_m": 2.25,
+  "row_height_ratios_bottom_to_top": [
+    0.43,
+    0.27,
+    0.3
+  ],
+  "cross_campus_m": [
+    0.278,
+    17.59944733735314,
+    2.62
+  ],
+  "cross_dimensions_m": [
+    0.045,
+    0.35,
+    0.6
+  ],
+  "photo_based": [
+    "Two tall window bays bracketing the cross",
+    "Two columns and three main glazing levels per bay",
+    "Upper-left window air conditioners",
+    "Dark cross biased toward the left window",
+    "Cross is above the dark dado border"
+  ],
+  "user_confirmed": [
+    "This is the main dining hall",
+    "The west blank wall is the cross-window wall",
+    "The centre of the archived user view identifies the cross location"
+  ],
+  "interpretation_disclosed": "The user view establishes the horizontal position. Its raw ray height is below the dado, conflicting with the photograph. Hanging height follows the photographed above-dado relationship and is explicitly an estimate, not a confirmed measured 3D point.",
+  "numeric_dimensions_and_spacing_are_photo_estimates": true,
+  "raw_user_view_ray_h": 1.673314044555612,
+  "meshes": [
+    {
+      "name": "SM_DiningCross_Shell",
+      "role": "Shell",
+      "materials": [
+        "M_Interior_ShanghaiRender"
+      ],
+      "faces": 108
+    },
+    {
+      "name": "SM_DiningCross_Walls",
+      "role": "Walls",
+      "materials": [
+        "M_DiningBuild_Paint"
+      ],
+      "faces": 360
+    },
+    {
+      "name": "SM_DiningCross_Tiles",
+      "role": "Tiles",
+      "materials": [
+        "M_Dining_Hall_DarkTerrazzoSkirting",
+        "M_Dining_Hall_CharcoalCap",
+        "M_Dining_Hall_BasketMosaic"
+      ],
+      "faces": 336
+    },
+    {
+      "name": "SM_DiningCross_Frames",
+      "role": "Frames",
+      "materials": [
+        "M_DiningBuild_Frame"
+      ],
+      "faces": 1568
+    },
+    {
+      "name": "SM_DiningCross_Glass",
+      "role": "Glass",
+      "materials": [
+        "M_DiningBuild_Glass"
+      ],
+      "faces": 72
+    },
+    {
+      "name": "SM_DiningCross_Aircon",
+      "role": "Aircon",
+      "materials": [
+        "M_Dining_OffWhitePaint_Matte",
+        "M_DiningBuild_Black",
+        "M_DiningBuild_Frame"
+      ],
+      "faces": 2156
+    },
+    {
+      "name": "SM_DiningCross_Cross",
+      "role": "Cross",
+      "materials": [
+        "M_DiningCross_DarkWood"
+      ],
+      "faces": 196
+    }
+  ],
+  "patches": [
+    {
+      "role": "Shell",
+      "original_faces": 36,
+      "untouched_original_faces": 30,
+      "original_wall_faces_replaced": 6,
+      "preserved_uvs": true,
+      "apertures_campus_v_h": [
+        [
+          15.74944733735314,
+          17.24944733735314,
+          0.9,
+          3.15
+        ],
+        [
+          19.199447337353142,
+          20.699447337353142,
+          0.9,
+          3.15
+        ]
+      ]
+    },
+    {
+      "role": "Walls",
+      "original_faces": 288,
+      "untouched_original_faces": 282,
+      "original_wall_faces_replaced": 6,
+      "preserved_uvs": true,
+      "apertures_campus_v_h": [
+        [
+          15.74944733735314,
+          17.24944733735314,
+          0.9,
+          3.15
+        ],
+        [
+          19.199447337353142,
+          20.699447337353142,
+          0.9,
+          3.15
+        ]
+      ]
+    },
+    {
+      "role": "Tiles",
+      "original_faces": 282,
+      "untouched_original_faces": 270,
+      "replaced_faces": {
+        "mosaic": 6,
+        "cap": 6
+      },
+      "skirting_preserved": true
+    }
+  ],
+  "source_integrity": [
+    {
+      "path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Walkthrough\\ATS_Walkthrough.blend",
+      "before": "0b1fe69043159fa3131a232ba4358a74068450ae930b909d15dfd8374fc3ce4e",
+      "after": "0b1fe69043159fa3131a232ba4358a74068450ae930b909d15dfd8374fc3ce4e"
+    },
+    {
+      "path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Dining\\FullGroundFloor_20261108\\ATS_Dining_Built.blend",
+      "before": "d77c819e9dedc02c1cf3dfb4190bc121dfd965585e1bfcd9107bf494642c86f3",
+      "after": "d77c819e9dedc02c1cf3dfb4190bc121dfd965585e1bfcd9107bf494642c86f3"
+    },
+    {
+      "path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Dining\\StructuralSurfaces_20261108\\ATS_Dining_HallSurfaces.blend",
+      "before": "cfa9a718ed5782c389f2eafab6c49ad451a40cc54aeec93bc159957890e3f33a",
+      "after": "cfa9a718ed5782c389f2eafab6c49ad451a40cc54aeec93bc159957890e3f33a"
+    }
+  ],
+  "not_changed": [
+    "Other exterior faces and upper floors",
+    "Courtyard shutter opening and rear shutter openings",
+    "Dining ceiling and unregistered beam grid",
+    "Existing exterior retaining/boundary proxy behind this wall"
+  ],
+  "subsequent_boundary_visibility_correction": "BoundaryProxyCorrection/boundary_manifest.json",
+  "latest_delivery_report": "dining_cross_windows_final.json"
+}

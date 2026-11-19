@@ -1,0 +1,8 @@
+{
+  "paint_srgb": [
+    231,
+    230,
+    225
+  ],
+  "reason": "Neutralized the yellow cast seen in the actual UE preview; photo-informed visual tuning, not measured site albedo."
+}

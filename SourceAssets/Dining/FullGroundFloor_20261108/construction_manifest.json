@@ -1,0 +1,662 @@
+{
+  "scope": "Physical G-floor restaurant constructed from the user-confirmed plan, occupying the entire west-wing ground floor, a larger user-facing tuck shop, washbasin, drinking fountain and three automatic roller shutters.",
+  "room_campus_bounds": [
+    0.23,
+    19.68,
+    3.67,
+    30.4
+  ],
+  "ceiling_underside_m": 3.96,
+  "height_basis": "Fitted to existing 4.2 m G/1F model storey; not a site measurement.",
+  "door_width_m": 2.2,
+  "door_height_m": 2.8,
+  "doors": [
+    {
+      "id": "RightUpper",
+      "center": [
+        3.775,
+        30.4,
+        0.02
+      ],
+      "axis": "u",
+      "width": 2.2,
+      "height": 2.8,
+      "hinge": [
+        2.675,
+        30.4,
+        0.02
+      ],
+      "yaw": -20,
+      "opening_type": "vertical_roller_shutter",
+      "origin_campus_m": [
+        2.675,
+        30.4,
+        0.02
+      ]
+    },
+    {
+      "id": "RightLower",
+      "center": [
+        11.805,
+        30.4,
+        0.02
+      ],
+      "axis": "u",
+      "width": 2.2,
+      "height": 2.8,
+      "hinge": [
+        10.705,
+        30.4,
+        0.02
+      ],
+      "yaw": -20,
+      "opening_type": "vertical_roller_shutter",
+      "origin_campus_m": [
+        10.705,
+        30.4,
+        0.02
+      ]
+    },
+    {
+      "id": "CourtyardSide",
+      "center": [
+        19.8,
+        13.64613555,
+        0.02
+      ],
+      "axis": "v",
+      "width": 2.2,
+      "height": 2.8,
+      "hinge": [
+        19.8,
+        12.54613555,
+        0.02
+      ],
+      "yaw": -110,
+      "opening_type": "vertical_roller_shutter",
+      "origin_campus_m": [
+        19.8,
+        12.54613555,
+        0.02
+      ]
+    }
+  ],
+  "lights": [
+    {
+      "campus_m": [
+        3.0,
+        6.4,
+        3.79
+      ],
+      "lumens": 6000,
+      "width_cm": 16,
+      "height_cm": 118
+    },
+    {
+      "campus_m": [
+        3.0,
+        11.4,
+        3.79
+      ],
+      "lumens": 6000,
+      "width_cm": 16,
+      "height_cm": 118
+    },
+    {
+      "campus_m": [
+        3.0,
+        16.4,
+        3.79
+      ],
+      "lumens": 6000,
+      "width_cm": 16,
+      "height_cm": 118
+    },
+    {
+      "campus_m": [
+        3.0,
+        21.4,
+        3.79
+      ],
+      "lumens": 6000,
+      "width_cm": 16,
+      "height_cm": 118
+    },
+    {
+      "campus_m": [
+        3.0,
+        26.4,
+        3.79
+      ],
+      "lumens": 6000,
+      "width_cm": 16,
+      "height_cm": 118
+    },
+    {
+      "campus_m": [
+        7.6,
+        6.4,
+        3.79
+      ],
+      "lumens": 6000,
+      "width_cm": 16,
+      "height_cm": 118
+    },
+    {
+      "campus_m": [
+        7.6,
+        11.4,
+        3.79
+      ],
+      "lumens": 6000,
+      "width_cm": 16,
+      "height_cm": 118
+    },
+    {
+      "campus_m": [
+        7.6,
+        16.4,
+        3.79
+      ],
+      "lumens": 6000,
+      "width_cm": 16,
+      "height_cm": 118
+    },
+    {
+      "campus_m": [
+        7.6,
+        21.4,
+        3.79
+      ],
+      "lumens": 6000,
+      "width_cm": 16,
+      "height_cm": 118
+    },
+    {
+      "campus_m": [
+        7.6,
+        26.4,
+        3.79
+      ],
+      "lumens": 6000,
+      "width_cm": 16,
+      "height_cm": 118
+    },
+    {
+      "campus_m": [
+        12.2,
+        6.4,
+        3.79
+      ],
+      "lumens": 6000,
+      "width_cm": 16,
+      "height_cm": 118
+    },
+    {
+      "campus_m": [
+        12.2,
+        11.4,
+        3.79
+      ],
+      "lumens": 6000,
+      "width_cm": 16,
+      "height_cm": 118
+    },
+    {
+      "campus_m": [
+        12.2,
+        16.4,
+        3.79
+      ],
+      "lumens": 6000,
+      "width_cm": 16,
+      "height_cm": 118
+    },
+    {
+      "campus_m": [
+        12.2,
+        21.4,
+        3.79
+      ],
+      "lumens": 6000,
+      "width_cm": 16,
+      "height_cm": 118
+    },
+    {
+      "campus_m": [
+        12.2,
+        26.4,
+        3.79
+      ],
+      "lumens": 6000,
+      "width_cm": 16,
+      "height_cm": 118
+    },
+    {
+      "campus_m": [
+        16.8,
+        6.4,
+        3.79
+      ],
+      "lumens": 6000,
+      "width_cm": 16,
+      "height_cm": 118
+    },
+    {
+      "campus_m": [
+        16.8,
+        11.4,
+        3.79
+      ],
+      "lumens": 6000,
+      "width_cm": 16,
+      "height_cm": 118
+    },
+    {
+      "campus_m": [
+        16.8,
+        16.4,
+        3.79
+      ],
+      "lumens": 6000,
+      "width_cm": 16,
+      "height_cm": 118
+    },
+    {
+      "campus_m": [
+        16.8,
+        21.4,
+        3.79
+      ],
+      "lumens": 6000,
+      "width_cm": 16,
+      "height_cm": 118
+    },
+    {
+      "campus_m": [
+        16.8,
+        26.4,
+        3.79
+      ],
+      "lumens": 6000,
+      "width_cm": 16,
+      "height_cm": 118
+    },
+    {
+      "campus_m": [
+        14.9,
+        6.635,
+        3.79
+      ],
+      "lumens": 2200,
+      "width_cm": 16,
+      "height_cm": 80
+    }
+  ],
+  "meshes": [
+    {
+      "name": "SM_DiningBuilt_Walls",
+      "group": "Walls",
+      "collision": true,
+      "materials": [
+        "M_DiningBuild_Paint"
+      ]
+    },
+    {
+      "name": "SM_DiningBuilt_Floor",
+      "group": "Floor",
+      "collision": true,
+      "materials": [
+        "M_DiningBuild_Terrazzo"
+      ]
+    },
+    {
+      "name": "SM_DiningBuilt_OutdoorFloor",
+      "group": "OutdoorFloor",
+      "collision": true,
+      "materials": [
+        "M_DiningBuild_Concrete"
+      ]
+    },
+    {
+      "name": "SM_DiningBuilt_Ceiling",
+      "group": "Ceiling",
+      "collision": true,
+      "materials": [
+        "M_DiningBuild_Ceiling"
+      ]
+    },
+    {
+      "name": "SM_DiningBuilt_Tiles",
+      "group": "Tiles",
+      "collision": false,
+      "materials": [
+        "M_DiningBuild_PinkTile1",
+        "M_DiningBuild_PinkTile2",
+        "M_DiningBuild_PinkTile0",
+        "M_DiningBuild_DarkBorder",
+        "M_DiningBuild_CreamTile2",
+        "M_DiningBuild_CreamTile0",
+        "M_DiningBuild_CreamTile1"
+      ]
+    },
+    {
+      "name": "SM_DiningBuilt_DoorFrames",
+      "group": "DoorFrames",
+      "collision": true,
+      "materials": [
+        "M_DiningBuild_Frame",
+        "M_DiningBuild_DarkBorder"
+      ]
+    },
+    {
+      "name": "SM_DiningBuilt_Thresholds",
+      "group": "Thresholds",
+      "collision": true,
+      "materials": [
+        "M_DiningBuild_Terrazzo"
+      ]
+    },
+    {
+      "name": "SM_DiningBuilt_Kiosk",
+      "group": "Kiosk",
+      "collision": true,
+      "materials": [
+        "M_DiningBuild_Steel",
+        "M_DiningBuild_Frame",
+        "M_DiningBuild_KioskAccent"
+      ]
+    },
+    {
+      "name": "SM_DiningBuilt_Sign",
+      "group": "Sign",
+      "collision": false,
+      "materials": [
+        "M_DiningBuild_Ceiling"
+      ]
+    },
+    {
+      "name": "SM_DiningBuilt_Washbasin",
+      "group": "Washbasin",
+      "collision": true,
+      "materials": [
+        "M_DiningBuild_Steel",
+        "M_DiningBuild_Black"
+      ]
+    },
+    {
+      "name": "SM_DiningBuilt_Fountain",
+      "group": "Fountain",
+      "collision": true,
+      "materials": [
+        "M_DiningBuild_Steel",
+        "M_DiningBuild_Black"
+      ]
+    },
+    {
+      "name": "SM_DiningBuilt_Lighting",
+      "group": "Lighting",
+      "collision": false,
+      "materials": [
+        "M_DiningBuild_Frame",
+        "M_DiningBuild_Lamp"
+      ]
+    }
+  ],
+  "patches": [
+    {
+      "source_object": "SM_Walk_HistoricWestWing_FacadeWhite",
+      "new_object": "SM_DiningPatch_OldWall",
+      "original_faces": 366,
+      "unaltered_original_faces": 360,
+      "removed_original_faces": 6,
+      "replacement_boxes": 3
+    }
+  ],
+  "materials": {
+    "Paint": {
+      "colour_linear": [
+        0.74,
+        0.75,
+        0.7
+      ],
+      "roughness": 0.86,
+      "metallic": 0
+    },
+    "Ceiling": {
+      "colour_linear": [
+        0.82,
+        0.82,
+        0.77
+      ],
+      "roughness": 0.9,
+      "metallic": 0
+    },
+    "PinkTile": {
+      "colour_linear": [
+        0.62,
+        0.48,
+        0.45
+      ],
+      "roughness": 0.28,
+      "metallic": 0
+    },
+    "CreamTile": {
+      "colour_linear": [
+        0.64,
+        0.62,
+        0.53
+      ],
+      "roughness": 0.3,
+      "metallic": 0
+    },
+    "Grout": {
+      "colour_linear": [
+        0.36,
+        0.36,
+        0.32
+      ],
+      "roughness": 0.9,
+      "metallic": 0
+    },
+    "DarkBorder": {
+      "colour_linear": [
+        0.045,
+        0.075,
+        0.062
+      ],
+      "roughness": 0.28,
+      "metallic": 0
+    },
+    "Frame": {
+      "colour_linear": [
+        0.57,
+        0.6,
+        0.57
+      ],
+      "roughness": 0.34,
+      "metallic": 0.55
+    },
+    "Glass": {
+      "colour_linear": [
+        0.1,
+        0.18,
+        0.16
+      ],
+      "roughness": 0.12,
+      "metallic": 0.2
+    },
+    "Steel": {
+      "colour_linear": [
+        0.54,
+        0.57,
+        0.56
+      ],
+      "roughness": 0.25,
+      "metallic": 1
+    },
+    "WoodPaint": {
+      "colour_linear": [
+        0.24,
+        0.1,
+        0.034
+      ],
+      "roughness": 0.45,
+      "metallic": 0
+    },
+    "Black": {
+      "colour_linear": [
+        0.014,
+        0.018,
+        0.019
+      ],
+      "roughness": 0.65,
+      "metallic": 0
+    },
+    "Terrazzo": {
+      "colour_linear": [
+        0.59,
+        0.6,
+        0.53
+      ],
+      "roughness": 0.52,
+      "metallic": 0
+    },
+    "Concrete": {
+      "colour_linear": [
+        0.42,
+        0.43,
+        0.39
+      ],
+      "roughness": 0.85,
+      "metallic": 0
+    },
+    "Lamp": {
+      "colour_linear": [
+        0.95,
+        0.95,
+        0.89
+      ],
+      "roughness": 0.3,
+      "metallic": 0
+    },
+    "KioskAccent": {
+      "colour_linear": [
+        0.22,
+        0.4,
+        0.32
+      ],
+      "roughness": 0.48,
+      "metallic": 0
+    },
+    "PinkTile0": {
+      "colour_linear": [
+        0.5828,
+        0.45119999999999993,
+        0.423
+      ],
+      "roughness": 0.28,
+      "metallic": 0
+    },
+    "PinkTile1": {
+      "colour_linear": [
+        0.6076,
+        0.4704,
+        0.441
+      ],
+      "roughness": 0.28,
+      "metallic": 0
+    },
+    "PinkTile2": {
+      "colour_linear": [
+        0.6386000000000001,
+        0.4944,
+        0.4635
+      ],
+      "roughness": 0.28,
+      "metallic": 0
+    },
+    "CreamTile0": {
+      "colour_linear": [
+        0.6016,
+        0.5828,
+        0.4982
+      ],
+      "roughness": 0.3,
+      "metallic": 0
+    },
+    "CreamTile1": {
+      "colour_linear": [
+        0.6272,
+        0.6076,
+        0.5194
+      ],
+      "roughness": 0.3,
+      "metallic": 0
+    },
+    "CreamTile2": {
+      "colour_linear": [
+        0.6592,
+        0.6386000000000001,
+        0.5459
+      ],
+      "roughness": 0.3,
+      "metallic": 0
+    }
+  },
+  "full_G_floor": {
+    "previous_bounds": [
+      0.23,
+      19.68,
+      3.67,
+      19.15909631
+    ],
+    "new_model_area_m2": 519.8984999999999,
+    "basis": "User confirms the restaurant occupies the entire G floor of HistoricWestWing. Interior fitted to existing outer shell u=.23..19.68,v=3.67..30.4, excluding the existing open veranda. Not a measured survey.",
+    "old_internal_boundary_v_removed": 19.15909631,
+    "kiosk_bounds": [
+      13.4,
+      19.68,
+      3.67,
+      9.6
+    ],
+    "kiosk_front_normal_campus": [
+      0,
+      1,
+      0
+    ],
+    "user_camera_campus": [
+      16.245872397,
+      24.443050813,
+      3.835660076
+    ],
+    "shutter_type": "User-confirmed vertically rolling restaurant shutters; exact finish, width and height remain model estimates.",
+    "no_new_seat_count_or_column_grid_invented": true
+  },
+  "user_confirmed": [
+    "The two unlabelled rectangles are the two courtyards",
+    "Build real geometry following the plan, not location markers",
+    "Vita area is a tuck shop with a serving window",
+    "Restaurant occupies this whole building G floor",
+    "Vita shop is larger and faces the user camera",
+    "Restaurant doors are roller shutters"
+  ],
+  "photo_based_appearance": [
+    "Pale pink / cream small mosaic tile, dark borders, white upper wall",
+    "White ceiling and linear light fittings",
+    "Grey metal window frames",
+    "Roller-shutter door type confirmed by user; finish not yet identifiable in school photographs"
+  ],
+  "implementation_estimates": [
+    "Full-floor extent confirmed by user; absolute dimensions still estimated from existing west-wing shell",
+    "Shutter widths and heights, larger shop window size, ceiling height",
+    "Five windows reused from existing facade; light count/spacing are provisional implementation values",
+    "Generic stainless washbasin and drinking-fountain geometry; exact product model unknown"
+  ],
+  "not_added": [
+    "Unconfirmed table and chair arrangement",
+    "Unconfirmed rooms beyond the three doors",
+    "Kitchen equipment or stock inside the tuck shop",
+    "Unverified full column/beam grid"
+  ]
+}

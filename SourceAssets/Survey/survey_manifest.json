@@ -1,0 +1,517 @@
+[
+  {
+    "name": "SM_Survey_000",
+    "materials": [
+      {
+        "name": "M_Survey_000_0",
+        "texture": "T_Survey_000_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_001",
+    "materials": [
+      {
+        "name": "M_Survey_001_0",
+        "texture": "T_Survey_001_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_002",
+    "materials": [
+      {
+        "name": "M_Survey_002_0",
+        "texture": "T_Survey_002_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_003",
+    "materials": [
+      {
+        "name": "M_Survey_003_0",
+        "texture": "T_Survey_003_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_004",
+    "materials": [
+      {
+        "name": "M_Survey_004_0",
+        "texture": "T_Survey_004_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_005",
+    "materials": [
+      {
+        "name": "M_Survey_005_0",
+        "texture": "T_Survey_005_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_006",
+    "materials": [
+      {
+        "name": "M_Survey_006_0",
+        "texture": "T_Survey_006_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_007",
+    "materials": [
+      {
+        "name": "M_Survey_007_0",
+        "texture": "T_Survey_007_0.png"
+      },
+      {
+        "name": "M_Survey_007_1",
+        "texture": "T_Survey_007_1.png"
+      },
+      {
+        "name": "M_Survey_007_2",
+        "texture": "T_Survey_007_2.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_008",
+    "materials": [
+      {
+        "name": "M_Survey_008_0",
+        "texture": "T_Survey_008_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_009",
+    "materials": [
+      {
+        "name": "M_Survey_009_0",
+        "texture": "T_Survey_009_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_010",
+    "materials": [
+      {
+        "name": "M_Survey_010_0",
+        "texture": "T_Survey_010_0.png"
+      },
+      {
+        "name": "M_Survey_010_1",
+        "texture": "T_Survey_010_1.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_011",
+    "materials": [
+      {
+        "name": "M_Survey_011_0",
+        "texture": "T_Survey_011_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_012",
+    "materials": [
+      {
+        "name": "M_Survey_012_0",
+        "texture": "T_Survey_012_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_013",
+    "materials": [
+      {
+        "name": "M_Survey_013_0",
+        "texture": "T_Survey_013_0.png"
+      },
+      {
+        "name": "M_Survey_013_1",
+        "texture": "T_Survey_013_1.png"
+      },
+      {
+        "name": "M_Survey_013_2",
+        "texture": "T_Survey_013_2.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_014",
+    "materials": [
+      {
+        "name": "M_Survey_014_0",
+        "texture": "T_Survey_014_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_015",
+    "materials": [
+      {
+        "name": "M_Survey_015_0",
+        "texture": "T_Survey_015_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_016",
+    "materials": [
+      {
+        "name": "M_Survey_016_0",
+        "texture": "T_Survey_016_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_017",
+    "materials": [
+      {
+        "name": "M_Survey_017_0",
+        "texture": "T_Survey_017_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_018",
+    "materials": [
+      {
+        "name": "M_Survey_018_0",
+        "texture": "T_Survey_018_0.png"
+      },
+      {
+        "name": "M_Survey_018_1",
+        "texture": "T_Survey_018_1.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_019",
+    "materials": [
+      {
+        "name": "M_Survey_019_0",
+        "texture": "T_Survey_019_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_020",
+    "materials": [
+      {
+        "name": "M_Survey_020_0",
+        "texture": "T_Survey_020_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_021",
+    "materials": [
+      {
+        "name": "M_Survey_021_0",
+        "texture": "T_Survey_021_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_022",
+    "materials": [
+      {
+        "name": "M_Survey_022_0",
+        "texture": "T_Survey_022_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_023",
+    "materials": [
+      {
+        "name": "M_Survey_023_0",
+        "texture": "T_Survey_023_0.png"
+      },
+      {
+        "name": "M_Survey_023_1",
+        "texture": "T_Survey_023_1.png"
+      },
+      {
+        "name": "M_Survey_023_2",
+        "texture": "T_Survey_023_2.png"
+      },
+      {
+        "name": "M_Survey_023_3",
+        "texture": "T_Survey_023_3.png"
+      },
+      {
+        "name": "M_Survey_023_4",
+        "texture": "T_Survey_023_4.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_024",
+    "materials": [
+      {
+        "name": "M_Survey_024_0",
+        "texture": "T_Survey_024_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_025",
+    "materials": [
+      {
+        "name": "M_Survey_025_0",
+        "texture": "T_Survey_025_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_026",
+    "materials": [
+      {
+        "name": "M_Survey_026_0",
+        "texture": "T_Survey_026_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_027",
+    "materials": [
+      {
+        "name": "M_Survey_027_0",
+        "texture": "T_Survey_027_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_028",
+    "materials": [
+      {
+        "name": "M_Survey_028_0",
+        "texture": "T_Survey_028_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_029",
+    "materials": [
+      {
+        "name": "M_Survey_029_0",
+        "texture": "T_Survey_029_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_030",
+    "materials": [
+      {
+        "name": "M_Survey_030_0",
+        "texture": "T_Survey_030_0.png"
+      },
+      {
+        "name": "M_Survey_030_1",
+        "texture": "T_Survey_030_1.png"
+      },
+      {
+        "name": "M_Survey_030_2",
+        "texture": "T_Survey_030_2.png"
+      },
+      {
+        "name": "M_Survey_030_3",
+        "texture": "T_Survey_030_3.png"
+      },
+      {
+        "name": "M_Survey_030_4",
+        "texture": "T_Survey_030_4.png"
+      },
+      {
+        "name": "M_Survey_030_5",
+        "texture": "T_Survey_030_5.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_031",
+    "materials": [
+      {
+        "name": "M_Survey_031_0",
+        "texture": "T_Survey_031_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_032",
+    "materials": [
+      {
+        "name": "M_Survey_032_0",
+        "texture": "T_Survey_032_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_033",
+    "materials": [
+      {
+        "name": "M_Survey_033_0",
+        "texture": "T_Survey_033_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_034",
+    "materials": [
+      {
+        "name": "M_Survey_034_0",
+        "texture": "T_Survey_034_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_035",
+    "materials": [
+      {
+        "name": "M_Survey_035_0",
+        "texture": "T_Survey_035_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_036",
+    "materials": [
+      {
+        "name": "M_Survey_036_0",
+        "texture": "T_Survey_036_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_037",
+    "materials": [
+      {
+        "name": "M_Survey_037_0",
+        "texture": "T_Survey_037_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_038",
+    "materials": [
+      {
+        "name": "M_Survey_038_0",
+        "texture": "T_Survey_038_0.png"
+      },
+      {
+        "name": "M_Survey_038_1",
+        "texture": "T_Survey_038_1.png"
+      },
+      {
+        "name": "M_Survey_038_2",
+        "texture": "T_Survey_038_2.png"
+      },
+      {
+        "name": "M_Survey_038_3",
+        "texture": "T_Survey_038_3.png"
+      },
+      {
+        "name": "M_Survey_038_4",
+        "texture": "T_Survey_038_4.png"
+      },
+      {
+        "name": "M_Survey_038_5",
+        "texture": "T_Survey_038_5.png"
+      },
+      {
+        "name": "M_Survey_038_6",
+        "texture": "T_Survey_038_6.png"
+      },
+      {
+        "name": "M_Survey_038_7",
+        "texture": "T_Survey_038_7.png"
+      },
+      {
+        "name": "M_Survey_038_8",
+        "texture": "T_Survey_038_8.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_039",
+    "materials": [
+      {
+        "name": "M_Survey_039_0",
+        "texture": "T_Survey_039_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_040",
+    "materials": [
+      {
+        "name": "M_Survey_040_0",
+        "texture": "T_Survey_040_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_041",
+    "materials": [
+      {
+        "name": "M_Survey_041_0",
+        "texture": "T_Survey_041_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_042",
+    "materials": [
+      {
+        "name": "M_Survey_042_0",
+        "texture": "T_Survey_042_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_043",
+    "materials": [
+      {
+        "name": "M_Survey_043_0",
+        "texture": "T_Survey_043_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_044",
+    "materials": [
+      {
+        "name": "M_Survey_044_0",
+        "texture": "T_Survey_044_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_045",
+    "materials": [
+      {
+        "name": "M_Survey_045_0",
+        "texture": "T_Survey_045_0.png"
+      }
+    ]
+  },
+  {
+    "name": "SM_Survey_046",
+    "materials": [
+      {
+        "name": "M_Survey_046_0",
+        "texture": "T_Survey_046_0.png"
+      }
+    ]
+  }
+]

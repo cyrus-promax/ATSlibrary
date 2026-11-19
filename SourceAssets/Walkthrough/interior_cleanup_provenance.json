@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-07",
+  "classrooms": "Retained unchanged by explicit user instruction, including 25 desk/chair sets per room. Arrangement and exact furnishings remain provisional.",
+  "removed": [
+    "Library reconstruction and assigned location",
+    "Gallery reconstruction and assigned location",
+    "HallGallery seating and guessed internal mezzanine",
+    "Lobby proxy memorial fittings and invented inscriptions",
+    "Hall ATS lettering, guessed floor markings and fan placement",
+    "Unverified non-classroom wayfinding",
+    "Unverified non-classroom decorative lights except photo-supported hall fixtures",
+    "Unverified corridor pipe runs",
+    "Guessed historic upper-room and northwest passage partitions"
+  ],
+  "retained": "Photo/video-supported architectural features and circulation; all classroom meshes unchanged. Functional illumination retained.",
+  "accuracy": "Not a measured 1:1 replica; dimensions, some connections and classroom arrangement remain estimated. No new substitute furnishings added."
+}

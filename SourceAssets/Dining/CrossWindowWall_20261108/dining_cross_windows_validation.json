@@ -1,0 +1,2052 @@
+{
+  "status": "passed",
+  "actor_count": 901,
+  "all_other_original_actors_unchanged": 892,
+  "modified_fields": [
+    {
+      "actor": "StaticMeshActor_187",
+      "fields": [
+        "mesh"
+      ]
+    },
+    {
+      "actor": "StaticMeshActor_51",
+      "fields": [
+        "mesh"
+      ]
+    },
+    {
+      "actor": "StaticMeshActor_619",
+      "fields": [
+        "mesh",
+        "materials"
+      ]
+    },
+    {
+      "actor": "StaticMeshActor_620",
+      "fields": [
+        "mesh"
+      ]
+    }
+  ],
+  "new_window_checks": [
+    {
+      "name": "all wall layers open bay0 offset-0.32 h1.3",
+      "passed": true,
+      "expected_blocking": false,
+      "hit_actor": null,
+      "from": [
+        0.55,
+        16.17944733735314,
+        1.3
+      ],
+      "to": [
+        -0.2,
+        16.17944733735314,
+        1.3
+      ]
+    },
+    {
+      "name": "glass blocks inside bay0 offset-0.32 h1.3",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_628",
+      "from": [
+        0.55,
+        16.17944733735314,
+        1.3
+      ],
+      "to": [
+        -0.2,
+        16.17944733735314,
+        1.3
+      ]
+    },
+    {
+      "name": "glass blocks outside bay0 offset-0.32 h1.3",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_628",
+      "from": [
+        -0.2,
+        16.17944733735314,
+        1.3
+      ],
+      "to": [
+        0.55,
+        16.17944733735314,
+        1.3
+      ]
+    },
+    {
+      "name": "all wall layers open bay0 offset-0.32 h2.2",
+      "passed": true,
+      "expected_blocking": false,
+      "hit_actor": null,
+      "from": [
+        0.55,
+        16.17944733735314,
+        2.2
+      ],
+      "to": [
+        -0.2,
+        16.17944733735314,
+        2.2
+      ]
+    },
+    {
+      "name": "glass blocks inside bay0 offset-0.32 h2.2",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_628",
+      "from": [
+        0.55,
+        16.17944733735314,
+        2.2
+      ],
+      "to": [
+        -0.2,
+        16.17944733735314,
+        2.2
+      ]
+    },
+    {
+      "name": "glass blocks outside bay0 offset-0.32 h2.2",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_628",
+      "from": [
+        -0.2,
+        16.17944733735314,
+        2.2
+      ],
+      "to": [
+        0.55,
+        16.17944733735314,
+        2.2
+      ]
+    },
+    {
+      "name": "all wall layers open bay0 offset0.32 h1.3",
+      "passed": true,
+      "expected_blocking": false,
+      "hit_actor": null,
+      "from": [
+        0.55,
+        16.81944733735314,
+        1.3
+      ],
+      "to": [
+        -0.2,
+        16.81944733735314,
+        1.3
+      ]
+    },
+    {
+      "name": "glass blocks inside bay0 offset0.32 h1.3",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_628",
+      "from": [
+        0.55,
+        16.81944733735314,
+        1.3
+      ],
+      "to": [
+        -0.2,
+        16.81944733735314,
+        1.3
+      ]
+    },
+    {
+      "name": "glass blocks outside bay0 offset0.32 h1.3",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_628",
+      "from": [
+        -0.2,
+        16.81944733735314,
+        1.3
+      ],
+      "to": [
+        0.55,
+        16.81944733735314,
+        1.3
+      ]
+    },
+    {
+      "name": "all wall layers open bay0 offset0.32 h2.2",
+      "passed": true,
+      "expected_blocking": false,
+      "hit_actor": null,
+      "from": [
+        0.55,
+        16.81944733735314,
+        2.2
+      ],
+      "to": [
+        -0.2,
+        16.81944733735314,
+        2.2
+      ]
+    },
+    {
+      "name": "glass blocks inside bay0 offset0.32 h2.2",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_628",
+      "from": [
+        0.55,
+        16.81944733735314,
+        2.2
+      ],
+      "to": [
+        -0.2,
+        16.81944733735314,
+        2.2
+      ]
+    },
+    {
+      "name": "glass blocks outside bay0 offset0.32 h2.2",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_628",
+      "from": [
+        -0.2,
+        16.81944733735314,
+        2.2
+      ],
+      "to": [
+        0.55,
+        16.81944733735314,
+        2.2
+      ]
+    },
+    {
+      "name": "wall above/below opening bay0 h0.5",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_620",
+      "from": [
+        0.55,
+        16.49944733735314,
+        0.5
+      ],
+      "to": [
+        -0.2,
+        16.49944733735314,
+        0.5
+      ]
+    },
+    {
+      "name": "wall above/below opening bay0 h3.5",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_620",
+      "from": [
+        0.55,
+        16.49944733735314,
+        3.5
+      ],
+      "to": [
+        -0.2,
+        16.49944733735314,
+        3.5
+      ]
+    },
+    {
+      "name": "wall above/below opening bay0 h4.8",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_51",
+      "from": [
+        0.55,
+        16.49944733735314,
+        4.8
+      ],
+      "to": [
+        -0.2,
+        16.49944733735314,
+        4.8
+      ]
+    },
+    {
+      "name": "wall above/below opening bay0 h9.0",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_51",
+      "from": [
+        0.55,
+        16.49944733735314,
+        9.0
+      ],
+      "to": [
+        -0.2,
+        16.49944733735314,
+        9.0
+      ]
+    },
+    {
+      "name": "solid jamb bay0 offset-0.9",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_620",
+      "from": [
+        0.55,
+        15.599447337353139,
+        2.2
+      ],
+      "to": [
+        -0.2,
+        15.599447337353139,
+        2.2
+      ]
+    },
+    {
+      "name": "solid jamb bay0 offset0.9",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_620",
+      "from": [
+        0.55,
+        17.399447337353138,
+        2.2
+      ],
+      "to": [
+        -0.2,
+        17.399447337353138,
+        2.2
+      ]
+    },
+    {
+      "name": "all wall layers open bay1 offset-0.32 h1.3",
+      "passed": true,
+      "expected_blocking": false,
+      "hit_actor": null,
+      "from": [
+        0.55,
+        19.62944733735314,
+        1.3
+      ],
+      "to": [
+        -0.2,
+        19.62944733735314,
+        1.3
+      ]
+    },
+    {
+      "name": "glass blocks inside bay1 offset-0.32 h1.3",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_628",
+      "from": [
+        0.55,
+        19.62944733735314,
+        1.3
+      ],
+      "to": [
+        -0.2,
+        19.62944733735314,
+        1.3
+      ]
+    },
+    {
+      "name": "glass blocks outside bay1 offset-0.32 h1.3",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_628",
+      "from": [
+        -0.2,
+        19.62944733735314,
+        1.3
+      ],
+      "to": [
+        0.55,
+        19.62944733735314,
+        1.3
+      ]
+    },
+    {
+      "name": "all wall layers open bay1 offset-0.32 h2.2",
+      "passed": true,
+      "expected_blocking": false,
+      "hit_actor": null,
+      "from": [
+        0.55,
+        19.62944733735314,
+        2.2
+      ],
+      "to": [
+        -0.2,
+        19.62944733735314,
+        2.2
+      ]
+    },
+    {
+      "name": "glass blocks inside bay1 offset-0.32 h2.2",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_628",
+      "from": [
+        0.55,
+        19.62944733735314,
+        2.2
+      ],
+      "to": [
+        -0.2,
+        19.62944733735314,
+        2.2
+      ]
+    },
+    {
+      "name": "glass blocks outside bay1 offset-0.32 h2.2",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_628",
+      "from": [
+        -0.2,
+        19.62944733735314,
+        2.2
+      ],
+      "to": [
+        0.55,
+        19.62944733735314,
+        2.2
+      ]
+    },
+    {
+      "name": "all wall layers open bay1 offset0.32 h1.3",
+      "passed": true,
+      "expected_blocking": false,
+      "hit_actor": null,
+      "from": [
+        0.55,
+        20.269447337353142,
+        1.3
+      ],
+      "to": [
+        -0.2,
+        20.269447337353142,
+        1.3
+      ]
+    },
+    {
+      "name": "glass blocks inside bay1 offset0.32 h1.3",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_628",
+      "from": [
+        0.55,
+        20.269447337353142,
+        1.3
+      ],
+      "to": [
+        -0.2,
+        20.269447337353142,
+        1.3
+      ]
+    },
+    {
+      "name": "glass blocks outside bay1 offset0.32 h1.3",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_628",
+      "from": [
+        -0.2,
+        20.269447337353142,
+        1.3
+      ],
+      "to": [
+        0.55,
+        20.269447337353142,
+        1.3
+      ]
+    },
+    {
+      "name": "all wall layers open bay1 offset0.32 h2.2",
+      "passed": true,
+      "expected_blocking": false,
+      "hit_actor": null,
+      "from": [
+        0.55,
+        20.269447337353142,
+        2.2
+      ],
+      "to": [
+        -0.2,
+        20.269447337353142,
+        2.2
+      ]
+    },
+    {
+      "name": "glass blocks inside bay1 offset0.32 h2.2",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_628",
+      "from": [
+        0.55,
+        20.269447337353142,
+        2.2
+      ],
+      "to": [
+        -0.2,
+        20.269447337353142,
+        2.2
+      ]
+    },
+    {
+      "name": "glass blocks outside bay1 offset0.32 h2.2",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_628",
+      "from": [
+        -0.2,
+        20.269447337353142,
+        2.2
+      ],
+      "to": [
+        0.55,
+        20.269447337353142,
+        2.2
+      ]
+    },
+    {
+      "name": "wall above/below opening bay1 h0.5",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_620",
+      "from": [
+        0.55,
+        19.949447337353142,
+        0.5
+      ],
+      "to": [
+        -0.2,
+        19.949447337353142,
+        0.5
+      ]
+    },
+    {
+      "name": "wall above/below opening bay1 h3.5",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_620",
+      "from": [
+        0.55,
+        19.949447337353142,
+        3.5
+      ],
+      "to": [
+        -0.2,
+        19.949447337353142,
+        3.5
+      ]
+    },
+    {
+      "name": "wall above/below opening bay1 h4.8",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_51",
+      "from": [
+        0.55,
+        19.949447337353142,
+        4.8
+      ],
+      "to": [
+        -0.2,
+        19.949447337353142,
+        4.8
+      ]
+    },
+    {
+      "name": "wall above/below opening bay1 h9.0",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_51",
+      "from": [
+        0.55,
+        19.949447337353142,
+        9.0
+      ],
+      "to": [
+        -0.2,
+        19.949447337353142,
+        9.0
+      ]
+    },
+    {
+      "name": "solid jamb bay1 offset-0.9",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_620",
+      "from": [
+        0.55,
+        19.049447337353143,
+        2.2
+      ],
+      "to": [
+        -0.2,
+        19.049447337353143,
+        2.2
+      ]
+    },
+    {
+      "name": "solid jamb bay1 offset0.9",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_620",
+      "from": [
+        0.55,
+        20.84944733735314,
+        2.2
+      ],
+      "to": [
+        -0.2,
+        20.84944733735314,
+        2.2
+      ]
+    },
+    {
+      "name": "solid wall between bays",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_620",
+      "from": [
+        0.6,
+        17.59944733735314,
+        2.0
+      ],
+      "to": [
+        -0.2,
+        17.59944733735314,
+        2.0
+      ]
+    },
+    {
+      "name": "cross at confirmed horizontal location",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_626",
+      "from": [
+        0.65,
+        17.59944733735314,
+        2.62
+      ],
+      "to": [
+        0.26,
+        17.59944733735314,
+        2.62
+      ]
+    },
+    {
+      "name": "nonvisual west boundary retained v1",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_629",
+      "from": [
+        -0.4,
+        1,
+        2
+      ],
+      "to": [
+        -1.5,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "nonvisual west boundary retained v16.2",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_629",
+      "from": [
+        -0.4,
+        16.2,
+        2
+      ],
+      "to": [
+        -1.5,
+        16.2,
+        2
+      ]
+    },
+    {
+      "name": "nonvisual west boundary retained v20.2",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_629",
+      "from": [
+        -0.4,
+        20.2,
+        2
+      ],
+      "to": [
+        -1.5,
+        20.2,
+        2
+      ]
+    },
+    {
+      "name": "nonvisual west boundary retained v40",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_629",
+      "from": [
+        -0.4,
+        40,
+        2
+      ],
+      "to": [
+        -1.5,
+        40,
+        2
+      ]
+    },
+    {
+      "name": "other rear boundary retained",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_187",
+      "from": [
+        73,
+        43.8,
+        7
+      ],
+      "to": [
+        73,
+        45,
+        7
+      ]
+    },
+    {
+      "name": "other east boundary retained",
+      "passed": true,
+      "expected_blocking": true,
+      "hit_actor": "StaticMeshActor_187",
+      "from": [
+        121.3,
+        22,
+        2
+      ],
+      "to": [
+        122.7,
+        22,
+        2
+      ]
+    }
+  ],
+  "existing_static_checks": [
+    {
+      "name": "RightUpper open structural aperture 0.2",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        3.775,
+        29.599999999999998,
+        0.2
+      ],
+      "to_campus": [
+        3.775,
+        31.2,
+        0.2
+      ],
+      "hit": null
+    },
+    {
+      "name": "RightUpper open structural aperture 0.9",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        3.775,
+        29.599999999999998,
+        0.9
+      ],
+      "to_campus": [
+        3.775,
+        31.2,
+        0.9
+      ],
+      "hit": null
+    },
+    {
+      "name": "RightUpper open structural aperture 1.75",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        3.775,
+        29.599999999999998,
+        1.75
+      ],
+      "to_campus": [
+        3.775,
+        31.2,
+        1.75
+      ],
+      "hit": null
+    },
+    {
+      "name": "RightUpper open structural aperture 2.5",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        3.775,
+        29.599999999999998,
+        2.5
+      ],
+      "to_campus": [
+        3.775,
+        31.2,
+        2.5
+      ],
+      "hit": null
+    },
+    {
+      "name": "RightUpper closed curtain blocks",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        3.775,
+        29.7,
+        1.4
+      ],
+      "to_campus": [
+        3.775,
+        31.099999999999998,
+        1.4
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "ATSRollerShutter_0",
+        "label": "餐廳捲閘｜RightUpper",
+        "point": [
+          3.7750000000000012,
+          30.369999980926515,
+          1.4000000000000021
+        ]
+      }
+    },
+    {
+      "name": "RightUpper saved closed shutter state",
+      "passed": true,
+      "expected_slat_count": 38
+    },
+    {
+      "name": "RightLower open structural aperture 0.2",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        11.805,
+        29.599999999999998,
+        0.2
+      ],
+      "to_campus": [
+        11.805,
+        31.2,
+        0.2
+      ],
+      "hit": null
+    },
+    {
+      "name": "RightLower open structural aperture 0.9",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        11.805,
+        29.599999999999998,
+        0.9
+      ],
+      "to_campus": [
+        11.805,
+        31.2,
+        0.9
+      ],
+      "hit": null
+    },
+    {
+      "name": "RightLower open structural aperture 1.75",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        11.805,
+        29.599999999999998,
+        1.75
+      ],
+      "to_campus": [
+        11.805,
+        31.2,
+        1.75
+      ],
+      "hit": null
+    },
+    {
+      "name": "RightLower open structural aperture 2.5",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        11.805,
+        29.599999999999998,
+        2.5
+      ],
+      "to_campus": [
+        11.805,
+        31.2,
+        2.5
+      ],
+      "hit": null
+    },
+    {
+      "name": "RightLower closed curtain blocks",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        11.805,
+        29.7,
+        1.4
+      ],
+      "to_campus": [
+        11.805,
+        31.099999999999998,
+        1.4
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "ATSRollerShutter_1",
+        "label": "餐廳捲閘｜RightLower",
+        "point": [
+          11.805,
+          30.36999998092651,
+          1.4000000000000021
+        ]
+      }
+    },
+    {
+      "name": "RightLower saved closed shutter state",
+      "passed": true,
+      "expected_slat_count": 38
+    },
+    {
+      "name": "CourtyardSide open structural aperture 0.2",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        19.0,
+        13.64613555,
+        0.2
+      ],
+      "to_campus": [
+        20.6,
+        13.64613555,
+        0.2
+      ],
+      "hit": null
+    },
+    {
+      "name": "CourtyardSide open structural aperture 0.9",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        19.0,
+        13.64613555,
+        0.9
+      ],
+      "to_campus": [
+        20.6,
+        13.64613555,
+        0.9
+      ],
+      "hit": null
+    },
+    {
+      "name": "CourtyardSide open structural aperture 1.75",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        19.0,
+        13.64613555,
+        1.75
+      ],
+      "to_campus": [
+        20.6,
+        13.64613555,
+        1.75
+      ],
+      "hit": null
+    },
+    {
+      "name": "CourtyardSide open structural aperture 2.5",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        19.0,
+        13.64613555,
+        2.5
+      ],
+      "to_campus": [
+        20.6,
+        13.64613555,
+        2.5
+      ],
+      "hit": null
+    },
+    {
+      "name": "CourtyardSide closed curtain blocks",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        19.1,
+        13.64613555,
+        1.4
+      ],
+      "to_campus": [
+        20.5,
+        13.64613555,
+        1.4
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "ATSRollerShutter_2",
+        "label": "餐廳捲閘｜CourtyardSide",
+        "point": [
+          19.769999980926517,
+          13.646135550000004,
+          1.4000000000000021
+        ]
+      }
+    },
+    {
+      "name": "CourtyardSide saved closed shutter state",
+      "passed": true,
+      "expected_slat_count": 38
+    },
+    {
+      "name": "Former v19.159 internal room wall removed",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        10,
+        18.5,
+        1.4
+      ],
+      "to_campus": [
+        10,
+        20,
+        1.4
+      ],
+      "hit": null
+    },
+    {
+      "name": "Former kiosk front u16.98 removed at solid-wall height",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        16.4,
+        5.2,
+        0.65
+      ],
+      "to_campus": [
+        17.5,
+        5.2,
+        0.65
+      ],
+      "hit": null
+    },
+    {
+      "name": "Former kiosk side v6.506 removed",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        18,
+        5.9,
+        1.5
+      ],
+      "to_campus": [
+        18,
+        7.1,
+        1.5
+      ],
+      "hit": null
+    },
+    {
+      "name": "New kiosk serving opening faces positive v",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        16.25,
+        10.2,
+        1.7
+      ],
+      "to_campus": [
+        16.25,
+        9.0,
+        1.7
+      ],
+      "hit": null
+    },
+    {
+      "name": "New kiosk serving counter",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        16.25,
+        10.2,
+        1.04
+      ],
+      "to_campus": [
+        16.25,
+        9.0,
+        1.04
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_603",
+        "label": "餐廳實體｜Kiosk",
+        "point": [
+          16.25,
+          9.939996242523193,
+          1.0399999999999991
+        ]
+      }
+    },
+    {
+      "name": "Enlarged kiosk side wall",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        12.8,
+        6.0,
+        1.5
+      ],
+      "to_campus": [
+        14.0,
+        6.0,
+        1.5
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_620",
+        "label": "餐廳實體｜Walls",
+        "point": [
+          13.309998762607577,
+          6.0,
+          1.5
+        ]
+      }
+    },
+    {
+      "name": "Existing west exterior wall",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        1.0,
+        20,
+        1.4
+      ],
+      "to_campus": [
+        -0.5,
+        20,
+        1.4
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_628",
+        "label": "餐廳十字架窗牆｜Glass",
+        "point": [
+          0.20099845528602778,
+          20.000000000000004,
+          1.4000000000000021
+        ]
+      }
+    },
+    {
+      "name": "Rear boundary remains between two shutters",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        7.5,
+        29.7,
+        1.4
+      ],
+      "to_campus": [
+        7.5,
+        31.2,
+        1.4
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_148",
+        "label": "Unmodeled Area Boundary | Rear wing unmodeled interior",
+        "point": [
+          7.499999999999998,
+          30.449996557831767,
+          1.4000000000000021
+        ]
+      }
+    },
+    {
+      "name": "Original upper courtyard wall retained",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        19.1,
+        13.646,
+        5
+      ],
+      "to_campus": [
+        20.5,
+        13.646,
+        5
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_49",
+        "label": "HistoricWestWing | M_Interior_FacadeWhite",
+        "point": [
+          19.679998880624773,
+          13.646,
+          5.0
+        ]
+      }
+    },
+    {
+      "name": "Original G window blocks 5.5",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        5.5,
+        4.25,
+        1.75
+      ],
+      "to_campus": [
+        5.5,
+        2.85,
+        1.75
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_47",
+        "label": "HistoricWestWing | M_Interior_FacadeGlass",
+        "point": [
+          5.5,
+          3.5489961385726936,
+          1.75
+        ]
+      }
+    },
+    {
+      "name": "Original G window blocks 8.7",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        8.7,
+        4.25,
+        1.75
+      ],
+      "to_campus": [
+        8.7,
+        2.85,
+        1.75
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_47",
+        "label": "HistoricWestWing | M_Interior_FacadeGlass",
+        "point": [
+          8.7,
+          3.5489961385726936,
+          1.75
+        ]
+      }
+    },
+    {
+      "name": "Original G window blocks 11.9",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        11.9,
+        4.25,
+        1.75
+      ],
+      "to_campus": [
+        11.9,
+        2.85,
+        1.75
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_47",
+        "label": "HistoricWestWing | M_Interior_FacadeGlass",
+        "point": [
+          11.9,
+          3.548997056484224,
+          1.75
+        ]
+      }
+    },
+    {
+      "name": "Original G window blocks 15.1",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        15.1,
+        4.25,
+        1.75
+      ],
+      "to_campus": [
+        15.1,
+        2.85,
+        1.75
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_47",
+        "label": "HistoricWestWing | M_Interior_FacadeGlass",
+        "point": [
+          15.100000000000001,
+          3.5489963889122027,
+          1.75
+        ]
+      }
+    },
+    {
+      "name": "Original G window blocks 18.3",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        18.3,
+        4.25,
+        1.75
+      ],
+      "to_campus": [
+        18.3,
+        2.85,
+        1.75
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_47",
+        "label": "HistoricWestWing | M_Interior_FacadeGlass",
+        "point": [
+          18.300000000000004,
+          3.548996388912199,
+          1.75
+        ]
+      }
+    },
+    {
+      "name": "Retained rear G column 6",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        5.4,
+        28.25,
+        1.5
+      ],
+      "to_campus": [
+        6.6,
+        28.25,
+        1.5
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_25",
+        "label": "NorthwestRearWing | M_Interior_White",
+        "point": [
+          5.869998478889466,
+          28.250000000000004,
+          1.5
+        ]
+      }
+    },
+    {
+      "name": "Retained rear G column 12",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        11.4,
+        28.25,
+        1.5
+      ],
+      "to_campus": [
+        12.6,
+        28.25,
+        1.5
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_25",
+        "label": "NorthwestRearWing | M_Interior_White",
+        "point": [
+          11.86999855041504,
+          28.25,
+          1.5
+        ]
+      }
+    },
+    {
+      "name": "Retained rear G column 18",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        17.4,
+        28.25,
+        1.5
+      ],
+      "to_campus": [
+        18.6,
+        28.25,
+        1.5
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_25",
+        "label": "NorthwestRearWing | M_Interior_White",
+        "point": [
+          17.869999623298646,
+          28.25,
+          1.5
+        ]
+      }
+    },
+    {
+      "name": "Whole-floor ceiling (2, 8)",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        2,
+        8,
+        2.8
+      ],
+      "to_campus": [
+        2,
+        8,
+        4.6
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_598",
+        "label": "餐廳實體｜Ceiling",
+        "point": [
+          2.0,
+          8.000000000000002,
+          3.9600020766258233
+        ]
+      }
+    },
+    {
+      "name": "Whole-floor ceiling (10, 12)",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        10,
+        12,
+        2.8
+      ],
+      "to_campus": [
+        10,
+        12,
+        4.6
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_598",
+        "label": "餐廳實體｜Ceiling",
+        "point": [
+          10.0,
+          11.999999999999998,
+          3.9600016474723816
+        ]
+      }
+    },
+    {
+      "name": "Whole-floor ceiling (10, 23)",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        10,
+        23,
+        2.8
+      ],
+      "to_campus": [
+        10,
+        23,
+        4.6
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_598",
+        "label": "餐廳實體｜Ceiling",
+        "point": [
+          10.0,
+          23.0,
+          3.960000145435334
+        ]
+      }
+    },
+    {
+      "name": "Whole-floor ceiling (16, 26)",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        16,
+        26,
+        2.8
+      ],
+      "to_campus": [
+        16,
+        26,
+        4.6
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_598",
+        "label": "餐廳實體｜Ceiling",
+        "point": [
+          16.0,
+          26.0,
+          3.9599988579750054
+        ]
+      }
+    },
+    {
+      "name": "Existing first-floor veranda slab retained",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        17.3,
+        1.9,
+        3.0
+      ],
+      "to_campus": [
+        17.3,
+        1.9,
+        5.0
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_52",
+        "label": "HistoricWestWing | M_Interior_TerrazzoHall",
+        "point": [
+          17.300000000000004,
+          1.9000000000000021,
+          3.9600024223327637
+        ]
+      }
+    },
+    {
+      "name": "Walkable floor (1.5, 5)",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        1.5,
+        5,
+        0.5
+      ],
+      "to_campus": [
+        1.5,
+        5,
+        -0.5
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_600",
+        "label": "餐廳實體｜Floor",
+        "point": [
+          1.4999999999999996,
+          5.000000000000001,
+          0.02000221610069275
+        ]
+      }
+    },
+    {
+      "name": "Walkable floor (10, 12)",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        10,
+        12,
+        0.5
+      ],
+      "to_campus": [
+        10,
+        12,
+        -0.5
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_600",
+        "label": "餐廳實體｜Floor",
+        "point": [
+          10.0,
+          11.999999999999998,
+          0.02000090479850769
+        ]
+      }
+    },
+    {
+      "name": "Walkable floor (10, 21)",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        10,
+        21,
+        0.5
+      ],
+      "to_campus": [
+        10,
+        21,
+        -0.5
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_600",
+        "label": "餐廳實體｜Floor",
+        "point": [
+          10.0,
+          21.0,
+          0.019999265670776367
+        ]
+      }
+    },
+    {
+      "name": "Walkable floor (16.25, 10.7)",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        16.25,
+        10.7,
+        0.5
+      ],
+      "to_campus": [
+        16.25,
+        10.7,
+        -0.5
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_600",
+        "label": "餐廳實體｜Floor",
+        "point": [
+          16.25,
+          10.7,
+          0.020001143217086792
+        ]
+      }
+    },
+    {
+      "name": "Walkable floor (18.2, 26.55)",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        18.2,
+        26.55,
+        0.5
+      ],
+      "to_campus": [
+        18.2,
+        26.55,
+        -0.5
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_600",
+        "label": "餐廳實體｜Floor",
+        "point": [
+          18.2,
+          26.55,
+          0.019998252391815186
+        ]
+      }
+    },
+    {
+      "name": "Walkable floor (17.1, 29.3)",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        17.1,
+        29.3,
+        0.5
+      ],
+      "to_campus": [
+        17.1,
+        29.3,
+        -0.5
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_600",
+        "label": "餐廳實體｜Floor",
+        "point": [
+          17.1,
+          29.300000000000004,
+          0.019997745752334595
+        ]
+      }
+    },
+    {
+      "name": "Walkable floor (3.775, 31.3)",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        3.775,
+        31.3,
+        0.5
+      ],
+      "to_campus": [
+        3.775,
+        31.3,
+        -0.5
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_589",
+        "label": "Site | M_Interior_GreyTile",
+        "point": [
+          3.775000000000003,
+          31.300000000000004,
+          -4.76837158203125e-07
+        ]
+      }
+    },
+    {
+      "name": "Walkable floor (11.805, 31.3)",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        11.805,
+        31.3,
+        0.5
+      ],
+      "to_campus": [
+        11.805,
+        31.3,
+        -0.5
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_589",
+        "label": "Site | M_Interior_GreyTile",
+        "point": [
+          11.805,
+          31.300000000000004,
+          -9.5367431640625e-07
+        ]
+      }
+    },
+    {
+      "name": "Walkable floor (20.3, 13.646)",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        20.3,
+        13.646,
+        0.5
+      ],
+      "to_campus": [
+        20.3,
+        13.646,
+        -0.5
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_589",
+        "label": "Site | M_Interior_GreyTile",
+        "point": [
+          20.3,
+          13.646000000000004,
+          1.1920928955078125e-06
+        ]
+      }
+    },
+    {
+      "name": "Walkable floor (17.3, 1.9)",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        17.3,
+        1.9,
+        0.5
+      ],
+      "to_campus": [
+        17.3,
+        1.9,
+        -0.5
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_610",
+        "label": "餐廳實體｜OutdoorFloor",
+        "point": [
+          17.300000000000004,
+          1.9000000000000021,
+          0.016002506017684937
+        ]
+      }
+    },
+    {
+      "name": "Long sink front rim 23.6",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        18.031611261270683,
+        16.85162564064946,
+        0.84
+      ],
+      "to_campus": [
+        18.731611261270682,
+        16.85162564064946,
+        0.84
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_621",
+        "label": "餐廳實體｜Washbasin",
+        "point": [
+          18.28410996844594,
+          16.85162564064946,
+          0.8399999999999999
+        ]
+      }
+    },
+    {
+      "name": "Long sink approach clear 23.6",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        16.931611261270685,
+        16.85162564064946,
+        1.0
+      ],
+      "to_campus": [
+        17.831611261270684,
+        16.85162564064946,
+        1.0
+      ],
+      "hit": null
+    },
+    {
+      "name": "Long sink front rim 24.7",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        18.031611261270683,
+        17.951625640649457,
+        0.84
+      ],
+      "to_campus": [
+        18.731611261270682,
+        17.951625640649457,
+        0.84
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_621",
+        "label": "餐廳實體｜Washbasin",
+        "point": [
+          18.284109905861065,
+          17.951625640649457,
+          0.8399999999999999
+        ]
+      }
+    },
+    {
+      "name": "Long sink approach clear 24.7",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        16.931611261270685,
+        17.951625640649457,
+        1.0
+      ],
+      "to_campus": [
+        17.831611261270684,
+        17.951625640649457,
+        1.0
+      ],
+      "hit": null
+    },
+    {
+      "name": "Long sink front rim 26.0",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        18.031611261270683,
+        19.251625640649458,
+        0.84
+      ],
+      "to_campus": [
+        18.731611261270682,
+        19.251625640649458,
+        0.84
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_621",
+        "label": "餐廳實體｜Washbasin",
+        "point": [
+          18.28410982241456,
+          19.251625640649458,
+          0.8399999999999999
+        ]
+      }
+    },
+    {
+      "name": "Long sink approach clear 26.0",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        16.931611261270685,
+        19.251625640649458,
+        1.0
+      ],
+      "to_campus": [
+        17.831611261270684,
+        19.251625640649458,
+        1.0
+      ],
+      "hit": null
+    },
+    {
+      "name": "Long sink front rim 27.8",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        18.031611261270683,
+        21.05162564064946,
+        0.84
+      ],
+      "to_campus": [
+        18.731611261270682,
+        21.05162564064946,
+        0.84
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_621",
+        "label": "餐廳實體｜Washbasin",
+        "point": [
+          18.28410978069131,
+          21.051625640649462,
+          0.8399999999999999
+        ]
+      }
+    },
+    {
+      "name": "Long sink approach clear 27.8",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        16.931611261270685,
+        21.05162564064946,
+        1.0
+      ],
+      "to_campus": [
+        17.831611261270684,
+        21.05162564064946,
+        1.0
+      ],
+      "hit": null
+    },
+    {
+      "name": "Gap between sink and fountain",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        18.4,
+        28.8,
+        1.0
+      ],
+      "to_campus": [
+        19.5,
+        28.8,
+        1.0
+      ],
+      "hit": null
+    },
+    {
+      "name": "Furniture tabletop blocks (8.0, 19.8)",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        8.0,
+        19.8,
+        1.1
+      ],
+      "to_campus": [
+        8.0,
+        19.8,
+        0.5
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_591",
+        "label": "餐廳桌椅｜中央｜白枱 01",
+        "point": [
+          8.0,
+          19.800000000000004,
+          0.7699999928474419
+        ]
+      }
+    },
+    {
+      "name": "Furniture tabletop blocks (8.7, 5.9)",
+      "passed": true,
+      "expected_blocking": true,
+      "from_campus": [
+        8.7,
+        5.9,
+        1.1
+      ],
+      "to_campus": [
+        8.7,
+        5.9,
+        0.5
+      ],
+      "hit": {
+        "blocking": true,
+        "actor": "StaticMeshActor_597",
+        "label": "餐廳桌椅｜靠窗｜白枱 06",
+        "point": [
+          8.7,
+          5.9,
+          0.7699999928474419
+        ]
+      }
+    },
+    {
+      "name": "Window wall rear chair aisle",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        7.0,
+        4.25,
+        1.0
+      ],
+      "to_campus": [
+        10.4,
+        4.25,
+        1.0
+      ],
+      "hit": null
+    },
+    {
+      "name": "Central table adjacent main aisle",
+      "passed": true,
+      "expected_blocking": false,
+      "from_campus": [
+        10,
+        17.5,
+        1.0
+      ],
+      "to_campus": [
+        10,
+        22,
+        1.0
+      ],
+      "hit": null
+    }
+  ],
+  "user_sink_transform_preserved": true,
+  "material_slot_names_match": true,
+  "glass_collision_enabled": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+  "unverified_west_boundary_proxy_now_nonvisual": true
+}

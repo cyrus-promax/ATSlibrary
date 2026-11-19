@@ -1,0 +1,53 @@
+{
+  "user_plan": {
+    "path": "餐廳結構圖.png",
+    "sha256": "0ce4c07068569252036ceaabbf35e00da29ded2c5474d1726338ff3d64564057",
+    "clarification": "有售賣窗口的小賣部"
+  },
+  "photo_references": [
+    {
+      "url": "http://www.ats.edu.hk/images/doc/2627_School_News_1.pdf",
+      "pdf_page": 16,
+      "purpose": "Pale pink mosaic wall and brown door appearance; no full layout claim."
+    },
+    {
+      "url": "http://www.ats.edu.hk/images/doc/2324_School_News_1.pdf",
+      "pdf_page": 12,
+      "purpose": "White ceiling, linear lighting, pale tiles and dark trim; flood-cleaning furniture layout not used."
+    },
+    {
+      "url": "https://media.goodschool.hk/storage/upload/ebook/2021-11-02-175925-108203.pdf",
+      "pdf_page": 15,
+      "purpose": "Window framing and small pale mosaic tiles; furniture obscured by group photo."
+    }
+  ],
+  "observations_and_limits": "../EvidenceReview_20261107/research_findings.json",
+  "user_plan_world_alignment": "../UserAlignment_20261107/alignment.json",
+  "scope": "Correct the wrongly small room using existing exterior envelope and user-confirmed relative layout. No measured dining plan was found.",
+  "scale_basis": {
+    "previous_bounds": [
+      12.59555556,
+      19.68,
+      9.43971463,
+      19.15909631
+    ],
+    "new_model_area_m2": 301.26292322949996,
+    "basis": "Existing exterior wall inner face u=.23; courtyard wall inner face u=19.68; existing five-bay window wall inner face v=3.67. Right boundary v=19.159 remains provisional from relative user layout. This is NOT a surveyed restaurant footprint.",
+    "old_false_window_wall_removed": true,
+    "original_roof_restored_in_editor": true,
+    "existing_window_centers_u": [
+      5.5,
+      8.7,
+      11.9,
+      15.1,
+      18.3
+    ],
+    "front_blank_wall_gap_provisionally_closed": [
+      0.23,
+      4.25
+    ],
+    "fittings_not_scaled": true,
+    "no_new_seat_count_or_column_grid_invented": true
+  },
+  "photo_limit": "Photographs establish appearance and a multi-bay interior, not metric room dimensions or the number and coordinates of all columns."
+}

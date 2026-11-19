@@ -1,0 +1,17 @@
+{
+  "map": "/Game/ATS/Maps/ATS_Library_Workshop",
+  "active_source_mesh_count": 276,
+  "native_4k_maps": 12,
+  "walk_checks_passed": 20,
+  "preview_sha256": {
+    "01_Main.png": "b62c1e3718604245bb52933253b108d31af57c91f7245bcd2cac501aaa7eb3b4",
+    "02_Step.png": "d97140749782da4469a8f44c45dc389045b1b37e1426ca7604c2acab32aeb785",
+    "03_Lecture.png": "18c682d9a24d3e2e01d52481099154424a872fb69f14263e6b9b59845347e09c",
+    "04_Culture.png": "4afecdb0bec3b47691a7ecadd5edca0c61a70d00b52eb792569d52fefef015f0"
+  },
+  "main_school_unchanged": true,
+  "saved_at": "2026-11-08T19:25:10.716515",
+  "workshop_map_sha256": "eb49bac8056732ebb231d19d0d3c24fcf101fe9dc78be5283dcf7290b9ba97bc",
+  "current_editor_map": "ATS_Library_Workshop",
+  "play_in_editor_running": false
+}

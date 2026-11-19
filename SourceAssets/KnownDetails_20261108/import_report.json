@@ -1,0 +1,340 @@
+{
+  "timestamp": "2026-11-08T17:01:08.281314",
+  "status": "imported_saved",
+  "targets": [
+    "StaticMeshActor_199",
+    "StaticMeshActor_211",
+    "StaticMeshActor_223",
+    "StaticMeshActor_235",
+    "StaticMeshActor_247",
+    "StaticMeshActor_259",
+    "StaticMeshActor_271",
+    "StaticMeshActor_283",
+    "StaticMeshActor_295",
+    "StaticMeshActor_307",
+    "StaticMeshActor_319",
+    "StaticMeshActor_331",
+    "StaticMeshActor_343",
+    "StaticMeshActor_355",
+    "StaticMeshActor_367",
+    "StaticMeshActor_379",
+    "StaticMeshActor_391",
+    "StaticMeshActor_403",
+    "StaticMeshActor_415",
+    "StaticMeshActor_427",
+    "StaticMeshActor_439",
+    "StaticMeshActor_451",
+    "StaticMeshActor_463",
+    "StaticMeshActor_475",
+    "StaticMeshActor_2",
+    "StaticMeshActor_14",
+    "StaticMeshActor_17",
+    "StaticMeshActor_153",
+    "StaticMeshActor_156",
+    "StaticMeshActor_159",
+    "StaticMeshActor_552",
+    "StaticMeshActor_625"
+  ],
+  "materials": [
+    "/Game/ATS/KnownDetails_20261108/Materials/M_ATS_Window_OffWhitePaint.M_ATS_Window_OffWhitePaint",
+    "/Game/ATS/KnownDetails_20261108/Materials/M_DiningAC_PaleIntake.M_DiningAC_PaleIntake",
+    "/Game/ATS/KnownDetails_20261108/Materials/M_DiningAC_DarkOutlet.M_DiningAC_DarkOutlet",
+    "/Game/ATS/KnownDetails_20261108/Materials/M_DiningAC_ControlPatch.M_DiningAC_ControlPatch",
+    "/Game/ATS/KnownDetails_20261108/Materials/M_ATS_Corridor_DarkSquareMosaic.M_ATS_Corridor_DarkSquareMosaic"
+  ],
+  "replacements": [
+    {
+      "actor": "StaticMeshActor_199",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_1_1_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_1_1_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_1_1_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_1_1_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_211",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_1_2_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_1_2_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_1_2_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_1_2_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_223",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_1_3_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_1_3_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_1_3_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_1_3_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_235",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_1_4_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_1_4_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_1_4_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_1_4_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_247",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_2_1_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_2_1_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_2_1_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_2_1_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_259",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_2_2_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_2_2_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_2_2_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_2_2_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_271",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_2_3_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_2_3_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_2_3_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_2_3_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_283",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_2_4_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_2_4_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_2_4_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_2_4_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_295",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_3_1_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_3_1_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_3_1_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_3_1_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_307",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_3_2_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_3_2_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_3_2_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_3_2_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_319",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_3_3_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_3_3_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_3_3_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_3_3_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_331",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_3_4_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_3_4_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_3_4_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_3_4_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_343",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_4_1_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_4_1_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_4_1_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_4_1_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_355",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_4_2_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_4_2_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_4_2_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_4_2_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_367",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_4_3_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_4_3_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_4_3_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_4_3_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_379",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_4_4_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_4_4_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_4_4_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_4_4_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_391",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_5_1_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_5_1_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_5_1_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_5_1_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_403",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_5_2_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_5_2_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_5_2_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_5_2_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_415",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_5_3_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_5_3_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_5_3_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_5_3_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_427",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_5_4_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_5_4_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_5_4_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_5_4_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_439",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_6_1_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_6_1_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_6_1_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_6_1_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_451",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_6_2_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_6_2_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_6_2_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_6_2_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_463",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_6_3_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_6_3_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_6_3_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_6_3_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_475",
+      "old_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_6_4_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_6_4_YellowFrame",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/TeachingFrames/ATS_Teaching_FrameFinishes_SM_Known_Class_6_4_FrameFinish.ATS_Teaching_FrameFinishes_SM_Known_Class_6_4_FrameFinish",
+      "slots": [
+        "M_ATS_Window_OffWhitePaint",
+        "M_Interior_YellowFrame"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_552",
+      "old_mesh": "/Game/ATS/Revision8/Architecture/ATS_FacadeRevision_SM_Walk_Hall_Black.ATS_FacadeRevision_SM_Walk_Hall_Black",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/HallSign/ATS_HallSign_ReadingOrder.ATS_HallSign_ReadingOrder",
+      "slots": [
+        "M_Interior_Black"
+      ],
+      "bounds_max_delta_cm": 0.0,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    },
+    {
+      "actor": "StaticMeshActor_625",
+      "old_mesh": "/Game/ATS/Dining/CrossWindowWall_20261108/Meshes/ATS_Dining_CrossWindows_SM_DiningCross_Aircon.ATS_Dining_CrossWindows_SM_DiningCross_Aircon",
+      "new_mesh": "/Game/ATS/KnownDetails_20261108/Meshes/DiningAC/ATS_Dining_AC_PhotoFronts.ATS_Dining_AC_PhotoFronts",
+      "slots": [
+        "M_Dining_OffWhitePaint_Matte",
+        "M_DiningAC_PaleIntake",
+        "M_DiningAC_DarkOutlet",
+        "M_DiningAC_ControlPatch"
+      ],
+      "bounds_max_delta_cm": 1.08056640625,
+      "collision_trace_flag": "<CollisionTraceFlag.CTF_USE_COMPLEX_AS_SIMPLE: 3>"
+    }
+  ],
+  "limits": [
+    "Existing classroom geometry and fixture sizes retained; no new architecture or measured full-campus 1:1 claim.",
+    "Mosaic pitch retains existing model convention, not newly measured tile size.",
+    "AC front colour zones only; unresolved grille count and labels not invented."
+  ],
+  "actor_count": 901
+}

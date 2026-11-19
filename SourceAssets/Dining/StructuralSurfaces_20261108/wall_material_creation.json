@@ -1,0 +1,29 @@
+{
+  "material_paths": {
+    "mosaic": "/Game/ATS/Dining/StructuralSurfaces_20261108/Materials/M_Dining_Hall_BasketMosaic.M_Dining_Hall_BasketMosaic",
+    "border": "/Game/ATS/Dining/StructuralSurfaces_20261108/Materials/M_Dining_Hall_CharcoalCap.M_Dining_Hall_CharcoalCap",
+    "skirting": "/Game/ATS/Dining/StructuralSurfaces_20261108/Materials/M_Dining_Hall_DarkTerrazzoSkirting.M_Dining_Hall_DarkTerrazzoSkirting"
+  },
+  "created": [
+    "/Game/ATS/Dining/StructuralSurfaces_20261108/Materials/M_Dining_Hall_BasketMosaic.M_Dining_Hall_BasketMosaic",
+    "/Game/ATS/Dining/StructuralSurfaces_20261108/Materials/M_Dining_Hall_CharcoalCap.M_Dining_Hall_CharcoalCap",
+    "/Game/ATS/Dining/StructuralSurfaces_20261108/Materials/M_Dining_Hall_DarkTerrazzoSkirting.M_Dining_Hall_DarkTerrazzoSkirting"
+  ],
+  "reused_untouched": [],
+  "compile_requested": [
+    "/Game/ATS/Dining/StructuralSurfaces_20261108/Materials/M_Dining_Hall_BasketMosaic.M_Dining_Hall_BasketMosaic",
+    "/Game/ATS/Dining/StructuralSurfaces_20261108/Materials/M_Dining_Hall_CharcoalCap.M_Dining_Hall_CharcoalCap",
+    "/Game/ATS/Dining/StructuralSurfaces_20261108/Materials/M_Dining_Hall_DarkTerrazzoSkirting.M_Dining_Hall_DarkTerrazzoSkirting"
+  ],
+  "scene_modified": false,
+  "evidence": "User confirms the HK01 main hall. Pale alternating rectangular mosaic and charcoal tile cap are visible in 2021/2023 photos.",
+  "unmeasured_settings": {
+    "strips_per_block": 3,
+    "block_cm": 3.6,
+    "joint_cm": 0.08,
+    "border_tile_cm": 2.4,
+    "skirting_grain_pitch_cm": 0.7
+  },
+  "limits": "Two-versus-three strip grouping is not decisive in original pixels. Dimensions, phase, colour swatches and roughness are visual estimates. No normal/displacement or invented special wall zones.",
+  "validation": "Caller must verify new shader compilation logs and actual near/far rendering. RecompileMaterial returning None is not success proof."
+}

@@ -1,0 +1,2073 @@
+{
+  "source_tiles": 933,
+  "meshes": [
+    {
+      "name": "SM_Fine_000",
+      "atlases": [
+        0
+      ],
+      "materials": [
+        "M_SurveyFine_000"
+      ],
+      "triangles": 8475,
+      "spatial_group": [
+        -3,
+        -2
+      ]
+    },
+    {
+      "name": "SM_Fine_001",
+      "atlases": [
+        0
+      ],
+      "materials": [
+        "M_SurveyFine_000"
+      ],
+      "triangles": 9100,
+      "spatial_group": [
+        -3,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_002",
+      "atlases": [
+        0
+      ],
+      "materials": [
+        "M_SurveyFine_000"
+      ],
+      "triangles": 4407,
+      "spatial_group": [
+        -2,
+        -2
+      ]
+    },
+    {
+      "name": "SM_Fine_003",
+      "atlases": [
+        0
+      ],
+      "materials": [
+        "M_SurveyFine_000"
+      ],
+      "triangles": 1331,
+      "spatial_group": [
+        -2,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_004",
+      "atlases": [
+        1
+      ],
+      "materials": [
+        "M_SurveyFine_001"
+      ],
+      "triangles": 9042,
+      "spatial_group": [
+        -3,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_005",
+      "atlases": [
+        1
+      ],
+      "materials": [
+        "M_SurveyFine_001"
+      ],
+      "triangles": 688,
+      "spatial_group": [
+        -2,
+        -2
+      ]
+    },
+    {
+      "name": "SM_Fine_006",
+      "atlases": [
+        1
+      ],
+      "materials": [
+        "M_SurveyFine_001"
+      ],
+      "triangles": 929,
+      "spatial_group": [
+        -2,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_007",
+      "atlases": [
+        2
+      ],
+      "materials": [
+        "M_SurveyFine_002"
+      ],
+      "triangles": 7843,
+      "spatial_group": [
+        -3,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_008",
+      "atlases": [
+        2
+      ],
+      "materials": [
+        "M_SurveyFine_002"
+      ],
+      "triangles": 303,
+      "spatial_group": [
+        -3,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_009",
+      "atlases": [
+        2
+      ],
+      "materials": [
+        "M_SurveyFine_002"
+      ],
+      "triangles": 5627,
+      "spatial_group": [
+        -2,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_010",
+      "atlases": [
+        3
+      ],
+      "materials": [
+        "M_SurveyFine_003"
+      ],
+      "triangles": 4739,
+      "spatial_group": [
+        -3,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_011",
+      "atlases": [
+        3
+      ],
+      "materials": [
+        "M_SurveyFine_003"
+      ],
+      "triangles": 3288,
+      "spatial_group": [
+        -3,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_012",
+      "atlases": [
+        3
+      ],
+      "materials": [
+        "M_SurveyFine_003"
+      ],
+      "triangles": 1578,
+      "spatial_group": [
+        -2,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_013",
+      "atlases": [
+        3
+      ],
+      "materials": [
+        "M_SurveyFine_003"
+      ],
+      "triangles": 1572,
+      "spatial_group": [
+        -2,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_014",
+      "atlases": [
+        3,
+        4,
+        5
+      ],
+      "materials": [
+        "M_SurveyFine_003",
+        "M_SurveyFine_004",
+        "M_SurveyFine_005"
+      ],
+      "triangles": 179,
+      "spatial_group": [
+        -3,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_015",
+      "atlases": [
+        4
+      ],
+      "materials": [
+        "M_SurveyFine_004"
+      ],
+      "triangles": 2357,
+      "spatial_group": [
+        -3,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_016",
+      "atlases": [
+        4
+      ],
+      "materials": [
+        "M_SurveyFine_004"
+      ],
+      "triangles": 10215,
+      "spatial_group": [
+        -2,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_017",
+      "atlases": [
+        4
+      ],
+      "materials": [
+        "M_SurveyFine_004"
+      ],
+      "triangles": 5104,
+      "spatial_group": [
+        -2,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_018",
+      "atlases": [
+        5
+      ],
+      "materials": [
+        "M_SurveyFine_005"
+      ],
+      "triangles": 2000,
+      "spatial_group": [
+        -3,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_019",
+      "atlases": [
+        5
+      ],
+      "materials": [
+        "M_SurveyFine_005"
+      ],
+      "triangles": 9930,
+      "spatial_group": [
+        -3,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_020",
+      "atlases": [
+        5
+      ],
+      "materials": [
+        "M_SurveyFine_005"
+      ],
+      "triangles": 4455,
+      "spatial_group": [
+        -2,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_021",
+      "atlases": [
+        5
+      ],
+      "materials": [
+        "M_SurveyFine_005"
+      ],
+      "triangles": 53382,
+      "spatial_group": [
+        -2,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_022",
+      "atlases": [
+        6
+      ],
+      "materials": [
+        "M_SurveyFine_006"
+      ],
+      "triangles": 1147,
+      "spatial_group": [
+        -2,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_023",
+      "atlases": [
+        6
+      ],
+      "materials": [
+        "M_SurveyFine_006"
+      ],
+      "triangles": 43204,
+      "spatial_group": [
+        -2,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_024",
+      "atlases": [
+        6
+      ],
+      "materials": [
+        "M_SurveyFine_006"
+      ],
+      "triangles": 62218,
+      "spatial_group": [
+        -2,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_025",
+      "atlases": [
+        6
+      ],
+      "materials": [
+        "M_SurveyFine_006"
+      ],
+      "triangles": 394,
+      "spatial_group": [
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "SM_Fine_026",
+      "atlases": [
+        6
+      ],
+      "materials": [
+        "M_SurveyFine_006"
+      ],
+      "triangles": 17257,
+      "spatial_group": [
+        -1,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_027",
+      "atlases": [
+        6
+      ],
+      "materials": [
+        "M_SurveyFine_006"
+      ],
+      "triangles": 311,
+      "spatial_group": [
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "SM_Fine_028",
+      "atlases": [
+        7
+      ],
+      "materials": [
+        "M_SurveyFine_007"
+      ],
+      "triangles": 70329,
+      "spatial_group": [
+        -2,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_029",
+      "atlases": [
+        7
+      ],
+      "materials": [
+        "M_SurveyFine_007"
+      ],
+      "triangles": 16993,
+      "spatial_group": [
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "SM_Fine_030",
+      "atlases": [
+        7
+      ],
+      "materials": [
+        "M_SurveyFine_007"
+      ],
+      "triangles": 6787,
+      "spatial_group": [
+        -1,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_031",
+      "atlases": [
+        7
+      ],
+      "materials": [
+        "M_SurveyFine_007"
+      ],
+      "triangles": 2008,
+      "spatial_group": [
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "SM_Fine_032",
+      "atlases": [
+        8
+      ],
+      "materials": [
+        "M_SurveyFine_008"
+      ],
+      "triangles": 5173,
+      "spatial_group": [
+        -2,
+        -2
+      ]
+    },
+    {
+      "name": "SM_Fine_033",
+      "atlases": [
+        8
+      ],
+      "materials": [
+        "M_SurveyFine_008"
+      ],
+      "triangles": 4045,
+      "spatial_group": [
+        -2,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_034",
+      "atlases": [
+        8
+      ],
+      "materials": [
+        "M_SurveyFine_008"
+      ],
+      "triangles": 5727,
+      "spatial_group": [
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "SM_Fine_035",
+      "atlases": [
+        8
+      ],
+      "materials": [
+        "M_SurveyFine_008"
+      ],
+      "triangles": 19276,
+      "spatial_group": [
+        -1,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_036",
+      "atlases": [
+        8
+      ],
+      "materials": [
+        "M_SurveyFine_008"
+      ],
+      "triangles": 28511,
+      "spatial_group": [
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "SM_Fine_037",
+      "atlases": [
+        9
+      ],
+      "materials": [
+        "M_SurveyFine_009"
+      ],
+      "triangles": 37906,
+      "spatial_group": [
+        -2,
+        -2
+      ]
+    },
+    {
+      "name": "SM_Fine_038",
+      "atlases": [
+        9
+      ],
+      "materials": [
+        "M_SurveyFine_009"
+      ],
+      "triangles": 1692,
+      "spatial_group": [
+        -2,
+        2
+      ]
+    },
+    {
+      "name": "SM_Fine_039",
+      "atlases": [
+        9
+      ],
+      "materials": [
+        "M_SurveyFine_009"
+      ],
+      "triangles": 4884,
+      "spatial_group": [
+        -1,
+        -2
+      ]
+    },
+    {
+      "name": "SM_Fine_040",
+      "atlases": [
+        9
+      ],
+      "materials": [
+        "M_SurveyFine_009"
+      ],
+      "triangles": 7436,
+      "spatial_group": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_041",
+      "atlases": [
+        9
+      ],
+      "materials": [
+        "M_SurveyFine_009"
+      ],
+      "triangles": 32735,
+      "spatial_group": [
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "SM_Fine_042",
+      "atlases": [
+        10
+      ],
+      "materials": [
+        "M_SurveyFine_010"
+      ],
+      "triangles": 62839,
+      "spatial_group": [
+        -2,
+        -2
+      ]
+    },
+    {
+      "name": "SM_Fine_043",
+      "atlases": [
+        10
+      ],
+      "materials": [
+        "M_SurveyFine_010"
+      ],
+      "triangles": 46838,
+      "spatial_group": [
+        -2,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_044",
+      "atlases": [
+        10
+      ],
+      "materials": [
+        "M_SurveyFine_010"
+      ],
+      "triangles": 638,
+      "spatial_group": [
+        -2,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_045",
+      "atlases": [
+        10
+      ],
+      "materials": [
+        "M_SurveyFine_010"
+      ],
+      "triangles": 152350,
+      "spatial_group": [
+        -1,
+        -2
+      ]
+    },
+    {
+      "name": "SM_Fine_046",
+      "atlases": [
+        10
+      ],
+      "materials": [
+        "M_SurveyFine_010"
+      ],
+      "triangles": 149768,
+      "spatial_group": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_047",
+      "atlases": [
+        11
+      ],
+      "materials": [
+        "M_SurveyFine_011"
+      ],
+      "triangles": 8853,
+      "spatial_group": [
+        -2,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_048",
+      "atlases": [
+        11
+      ],
+      "materials": [
+        "M_SurveyFine_011"
+      ],
+      "triangles": 32233,
+      "spatial_group": [
+        -2,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_049",
+      "atlases": [
+        11
+      ],
+      "materials": [
+        "M_SurveyFine_011"
+      ],
+      "triangles": 70810,
+      "spatial_group": [
+        -1,
+        -2
+      ]
+    },
+    {
+      "name": "SM_Fine_050",
+      "atlases": [
+        11
+      ],
+      "materials": [
+        "M_SurveyFine_011"
+      ],
+      "triangles": 49090,
+      "spatial_group": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_051",
+      "atlases": [
+        11
+      ],
+      "materials": [
+        "M_SurveyFine_011"
+      ],
+      "triangles": 52870,
+      "spatial_group": [
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_052",
+      "atlases": [
+        11
+      ],
+      "materials": [
+        "M_SurveyFine_011"
+      ],
+      "triangles": 12033,
+      "spatial_group": [
+        -1,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_053",
+      "atlases": [
+        11
+      ],
+      "materials": [
+        "M_SurveyFine_011"
+      ],
+      "triangles": 33320,
+      "spatial_group": [
+        0,
+        -2
+      ]
+    },
+    {
+      "name": "SM_Fine_054",
+      "atlases": [
+        11
+      ],
+      "materials": [
+        "M_SurveyFine_011"
+      ],
+      "triangles": 12496,
+      "spatial_group": [
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_055",
+      "atlases": [
+        12
+      ],
+      "materials": [
+        "M_SurveyFine_012"
+      ],
+      "triangles": 11661,
+      "spatial_group": [
+        -2,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_056",
+      "atlases": [
+        12
+      ],
+      "materials": [
+        "M_SurveyFine_012"
+      ],
+      "triangles": 7452,
+      "spatial_group": [
+        -2,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_057",
+      "atlases": [
+        12
+      ],
+      "materials": [
+        "M_SurveyFine_012"
+      ],
+      "triangles": 62658,
+      "spatial_group": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_058",
+      "atlases": [
+        12
+      ],
+      "materials": [
+        "M_SurveyFine_012"
+      ],
+      "triangles": 132666,
+      "spatial_group": [
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_059",
+      "atlases": [
+        12
+      ],
+      "materials": [
+        "M_SurveyFine_012"
+      ],
+      "triangles": 84199,
+      "spatial_group": [
+        -1,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_060",
+      "atlases": [
+        12
+      ],
+      "materials": [
+        "M_SurveyFine_012"
+      ],
+      "triangles": 7202,
+      "spatial_group": [
+        0,
+        -2
+      ]
+    },
+    {
+      "name": "SM_Fine_061",
+      "atlases": [
+        12
+      ],
+      "materials": [
+        "M_SurveyFine_012"
+      ],
+      "triangles": 16787,
+      "spatial_group": [
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_062",
+      "atlases": [
+        13
+      ],
+      "materials": [
+        "M_SurveyFine_013"
+      ],
+      "triangles": 18740,
+      "spatial_group": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_063",
+      "atlases": [
+        13
+      ],
+      "materials": [
+        "M_SurveyFine_013"
+      ],
+      "triangles": 127093,
+      "spatial_group": [
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_064",
+      "atlases": [
+        13
+      ],
+      "materials": [
+        "M_SurveyFine_013"
+      ],
+      "triangles": 99416,
+      "spatial_group": [
+        -1,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_065",
+      "atlases": [
+        13
+      ],
+      "materials": [
+        "M_SurveyFine_013"
+      ],
+      "triangles": 3824,
+      "spatial_group": [
+        0,
+        -3
+      ]
+    },
+    {
+      "name": "SM_Fine_066",
+      "atlases": [
+        13
+      ],
+      "materials": [
+        "M_SurveyFine_013"
+      ],
+      "triangles": 16599,
+      "spatial_group": [
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_067",
+      "atlases": [
+        13
+      ],
+      "materials": [
+        "M_SurveyFine_013"
+      ],
+      "triangles": 9908,
+      "spatial_group": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_068",
+      "atlases": [
+        13
+      ],
+      "materials": [
+        "M_SurveyFine_013"
+      ],
+      "triangles": 19369,
+      "spatial_group": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_069",
+      "atlases": [
+        14
+      ],
+      "materials": [
+        "M_SurveyFine_014"
+      ],
+      "triangles": 7040,
+      "spatial_group": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_070",
+      "atlases": [
+        14
+      ],
+      "materials": [
+        "M_SurveyFine_014"
+      ],
+      "triangles": 18903,
+      "spatial_group": [
+        -1,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_071",
+      "atlases": [
+        14
+      ],
+      "materials": [
+        "M_SurveyFine_014"
+      ],
+      "triangles": 55549,
+      "spatial_group": [
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_072",
+      "atlases": [
+        14
+      ],
+      "materials": [
+        "M_SurveyFine_014"
+      ],
+      "triangles": 117818,
+      "spatial_group": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_073",
+      "atlases": [
+        14
+      ],
+      "materials": [
+        "M_SurveyFine_014"
+      ],
+      "triangles": 34260,
+      "spatial_group": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_074",
+      "atlases": [
+        15
+      ],
+      "materials": [
+        "M_SurveyFine_015"
+      ],
+      "triangles": 42231,
+      "spatial_group": [
+        0,
+        -3
+      ]
+    },
+    {
+      "name": "SM_Fine_075",
+      "atlases": [
+        15
+      ],
+      "materials": [
+        "M_SurveyFine_015"
+      ],
+      "triangles": 56944,
+      "spatial_group": [
+        0,
+        -2
+      ]
+    },
+    {
+      "name": "SM_Fine_076",
+      "atlases": [
+        15
+      ],
+      "materials": [
+        "M_SurveyFine_015"
+      ],
+      "triangles": 2612,
+      "spatial_group": [
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_077",
+      "atlases": [
+        15
+      ],
+      "materials": [
+        "M_SurveyFine_015"
+      ],
+      "triangles": 90656,
+      "spatial_group": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_078",
+      "atlases": [
+        15
+      ],
+      "materials": [
+        "M_SurveyFine_015"
+      ],
+      "triangles": 34843,
+      "spatial_group": [
+        1,
+        -3
+      ]
+    },
+    {
+      "name": "SM_Fine_079",
+      "atlases": [
+        15
+      ],
+      "materials": [
+        "M_SurveyFine_015"
+      ],
+      "triangles": 2136,
+      "spatial_group": [
+        1,
+        -2
+      ]
+    },
+    {
+      "name": "SM_Fine_080",
+      "atlases": [
+        15
+      ],
+      "materials": [
+        "M_SurveyFine_015"
+      ],
+      "triangles": 3485,
+      "spatial_group": [
+        1,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_081",
+      "atlases": [
+        16
+      ],
+      "materials": [
+        "M_SurveyFine_016"
+      ],
+      "triangles": 22334,
+      "spatial_group": [
+        0,
+        -2
+      ]
+    },
+    {
+      "name": "SM_Fine_082",
+      "atlases": [
+        16
+      ],
+      "materials": [
+        "M_SurveyFine_016"
+      ],
+      "triangles": 7042,
+      "spatial_group": [
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_083",
+      "atlases": [
+        16
+      ],
+      "materials": [
+        "M_SurveyFine_016"
+      ],
+      "triangles": 8956,
+      "spatial_group": [
+        1,
+        -3
+      ]
+    },
+    {
+      "name": "SM_Fine_084",
+      "atlases": [
+        16
+      ],
+      "materials": [
+        "M_SurveyFine_016"
+      ],
+      "triangles": 76891,
+      "spatial_group": [
+        1,
+        -2
+      ]
+    },
+    {
+      "name": "SM_Fine_085",
+      "atlases": [
+        17
+      ],
+      "materials": [
+        "M_SurveyFine_017"
+      ],
+      "triangles": 10893,
+      "spatial_group": [
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_086",
+      "atlases": [
+        17
+      ],
+      "materials": [
+        "M_SurveyFine_017"
+      ],
+      "triangles": 10979,
+      "spatial_group": [
+        1,
+        -2
+      ]
+    },
+    {
+      "name": "SM_Fine_087",
+      "atlases": [
+        17
+      ],
+      "materials": [
+        "M_SurveyFine_017"
+      ],
+      "triangles": 24268,
+      "spatial_group": [
+        1,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_088",
+      "atlases": [
+        18
+      ],
+      "materials": [
+        "M_SurveyFine_018"
+      ],
+      "triangles": 799,
+      "spatial_group": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_089",
+      "atlases": [
+        18
+      ],
+      "materials": [
+        "M_SurveyFine_018"
+      ],
+      "triangles": 36004,
+      "spatial_group": [
+        1,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_090",
+      "atlases": [
+        18
+      ],
+      "materials": [
+        "M_SurveyFine_018"
+      ],
+      "triangles": 54027,
+      "spatial_group": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_091",
+      "atlases": [
+        18
+      ],
+      "materials": [
+        "M_SurveyFine_018"
+      ],
+      "triangles": 6632,
+      "spatial_group": [
+        2,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_092",
+      "atlases": [
+        18
+      ],
+      "materials": [
+        "M_SurveyFine_018"
+      ],
+      "triangles": 5743,
+      "spatial_group": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_093",
+      "atlases": [
+        19
+      ],
+      "materials": [
+        "M_SurveyFine_019"
+      ],
+      "triangles": 13914,
+      "spatial_group": [
+        1,
+        -2
+      ]
+    },
+    {
+      "name": "SM_Fine_094",
+      "atlases": [
+        19
+      ],
+      "materials": [
+        "M_SurveyFine_019"
+      ],
+      "triangles": 54323,
+      "spatial_group": [
+        1,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_095",
+      "atlases": [
+        19
+      ],
+      "materials": [
+        "M_SurveyFine_019"
+      ],
+      "triangles": 86359,
+      "spatial_group": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_096",
+      "atlases": [
+        19
+      ],
+      "materials": [
+        "M_SurveyFine_019"
+      ],
+      "triangles": 5707,
+      "spatial_group": [
+        2,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_097",
+      "atlases": [
+        19
+      ],
+      "materials": [
+        "M_SurveyFine_019"
+      ],
+      "triangles": 7374,
+      "spatial_group": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_098",
+      "atlases": [
+        20
+      ],
+      "materials": [
+        "M_SurveyFine_020"
+      ],
+      "triangles": 22628,
+      "spatial_group": [
+        -1,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_099",
+      "atlases": [
+        20
+      ],
+      "materials": [
+        "M_SurveyFine_020"
+      ],
+      "triangles": 36258,
+      "spatial_group": [
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "SM_Fine_100",
+      "atlases": [
+        20
+      ],
+      "materials": [
+        "M_SurveyFine_020"
+      ],
+      "triangles": 11733,
+      "spatial_group": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_101",
+      "atlases": [
+        20
+      ],
+      "materials": [
+        "M_SurveyFine_020"
+      ],
+      "triangles": 32928,
+      "spatial_group": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "SM_Fine_102",
+      "atlases": [
+        20
+      ],
+      "materials": [
+        "M_SurveyFine_020"
+      ],
+      "triangles": 24150,
+      "spatial_group": [
+        1,
+        -2
+      ]
+    },
+    {
+      "name": "SM_Fine_103",
+      "atlases": [
+        20
+      ],
+      "materials": [
+        "M_SurveyFine_020"
+      ],
+      "triangles": 18091,
+      "spatial_group": [
+        1,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_104",
+      "atlases": [
+        20
+      ],
+      "materials": [
+        "M_SurveyFine_020"
+      ],
+      "triangles": 51318,
+      "spatial_group": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_105",
+      "atlases": [
+        20
+      ],
+      "materials": [
+        "M_SurveyFine_020"
+      ],
+      "triangles": 6332,
+      "spatial_group": [
+        2,
+        -2
+      ]
+    },
+    {
+      "name": "SM_Fine_106",
+      "atlases": [
+        20
+      ],
+      "materials": [
+        "M_SurveyFine_020"
+      ],
+      "triangles": 24499,
+      "spatial_group": [
+        2,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_107",
+      "atlases": [
+        20
+      ],
+      "materials": [
+        "M_SurveyFine_020"
+      ],
+      "triangles": 33855,
+      "spatial_group": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_108",
+      "atlases": [
+        21
+      ],
+      "materials": [
+        "M_SurveyFine_021"
+      ],
+      "triangles": 80363,
+      "spatial_group": [
+        -1,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_109",
+      "atlases": [
+        21
+      ],
+      "materials": [
+        "M_SurveyFine_021"
+      ],
+      "triangles": 94696,
+      "spatial_group": [
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "SM_Fine_110",
+      "atlases": [
+        21
+      ],
+      "materials": [
+        "M_SurveyFine_021"
+      ],
+      "triangles": 92629,
+      "spatial_group": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_111",
+      "atlases": [
+        21
+      ],
+      "materials": [
+        "M_SurveyFine_021"
+      ],
+      "triangles": 23093,
+      "spatial_group": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "SM_Fine_112",
+      "atlases": [
+        21
+      ],
+      "materials": [
+        "M_SurveyFine_021"
+      ],
+      "triangles": 12226,
+      "spatial_group": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_113",
+      "atlases": [
+        21
+      ],
+      "materials": [
+        "M_SurveyFine_021"
+      ],
+      "triangles": 25453,
+      "spatial_group": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_114",
+      "atlases": [
+        21
+      ],
+      "materials": [
+        "M_SurveyFine_021"
+      ],
+      "triangles": 11904,
+      "spatial_group": [
+        2,
+        -1
+      ]
+    },
+    {
+      "name": "SM_Fine_115",
+      "atlases": [
+        21
+      ],
+      "materials": [
+        "M_SurveyFine_021"
+      ],
+      "triangles": 29747,
+      "spatial_group": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_116",
+      "atlases": [
+        22
+      ],
+      "materials": [
+        "M_SurveyFine_022"
+      ],
+      "triangles": 10928,
+      "spatial_group": [
+        -1,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_117",
+      "atlases": [
+        22
+      ],
+      "materials": [
+        "M_SurveyFine_022"
+      ],
+      "triangles": 33756,
+      "spatial_group": [
+        -1,
+        2
+      ]
+    },
+    {
+      "name": "SM_Fine_118",
+      "atlases": [
+        22
+      ],
+      "materials": [
+        "M_SurveyFine_022"
+      ],
+      "triangles": 314656,
+      "spatial_group": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_119",
+      "atlases": [
+        22
+      ],
+      "materials": [
+        "M_SurveyFine_022"
+      ],
+      "triangles": 84046,
+      "spatial_group": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "SM_Fine_120",
+      "atlases": [
+        22
+      ],
+      "materials": [
+        "M_SurveyFine_022"
+      ],
+      "triangles": 83890,
+      "spatial_group": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_121",
+      "atlases": [
+        22
+      ],
+      "materials": [
+        "M_SurveyFine_022"
+      ],
+      "triangles": 2167,
+      "spatial_group": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "SM_Fine_122",
+      "atlases": [
+        22
+      ],
+      "materials": [
+        "M_SurveyFine_022"
+      ],
+      "triangles": 417,
+      "spatial_group": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_123",
+      "atlases": [
+        23
+      ],
+      "materials": [
+        "M_SurveyFine_023"
+      ],
+      "triangles": 70315,
+      "spatial_group": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "SM_Fine_124",
+      "atlases": [
+        23
+      ],
+      "materials": [
+        "M_SurveyFine_023"
+      ],
+      "triangles": 79145,
+      "spatial_group": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_125",
+      "atlases": [
+        23
+      ],
+      "materials": [
+        "M_SurveyFine_023"
+      ],
+      "triangles": 270364,
+      "spatial_group": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_126",
+      "atlases": [
+        23
+      ],
+      "materials": [
+        "M_SurveyFine_023"
+      ],
+      "triangles": 67457,
+      "spatial_group": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "SM_Fine_127",
+      "atlases": [
+        23
+      ],
+      "materials": [
+        "M_SurveyFine_023"
+      ],
+      "triangles": 14028,
+      "spatial_group": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_128",
+      "atlases": [
+        24
+      ],
+      "materials": [
+        "M_SurveyFine_024"
+      ],
+      "triangles": 118217,
+      "spatial_group": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_129",
+      "atlases": [
+        24
+      ],
+      "materials": [
+        "M_SurveyFine_024"
+      ],
+      "triangles": 62894,
+      "spatial_group": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_130",
+      "atlases": [
+        24
+      ],
+      "materials": [
+        "M_SurveyFine_024"
+      ],
+      "triangles": 114024,
+      "spatial_group": [
+        2,
+        1
+      ]
+    },
+    {
+      "name": "SM_Fine_131",
+      "atlases": [
+        25
+      ],
+      "materials": [
+        "M_SurveyFine_025"
+      ],
+      "triangles": 48644,
+      "spatial_group": [
+        2,
+        0
+      ]
+    },
+    {
+      "name": "SM_Fine_132",
+      "atlases": [
+        25
+      ],
+      "materials": [
+        "M_SurveyFine_025"
+      ],
+      "triangles": 71022,
+      "spatial_group": [
+        2,
+        1
+      ]
+    }
+  ],
+  "atlases": [
+    {
+      "used_w": 8176,
+      "used_h": 7216,
+      "file": "SurveyFine_Atlas_000.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 8024,
+      "used_h": 7200,
+      "file": "SurveyFine_Atlas_001.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 7760,
+      "used_h": 7200,
+      "file": "SurveyFine_Atlas_002.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 8128,
+      "used_h": 7200,
+      "file": "SurveyFine_Atlas_003.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 7736,
+      "used_h": 7200,
+      "file": "SurveyFine_Atlas_004.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 8032,
+      "used_h": 7200,
+      "file": "SurveyFine_Atlas_005.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 7744,
+      "used_h": 7208,
+      "file": "SurveyFine_Atlas_006.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 8008,
+      "used_h": 7200,
+      "file": "SurveyFine_Atlas_007.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 7744,
+      "used_h": 7200,
+      "file": "SurveyFine_Atlas_008.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 7728,
+      "used_h": 7200,
+      "file": "SurveyFine_Atlas_009.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 8144,
+      "used_h": 7224,
+      "file": "SurveyFine_Atlas_010.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 8008,
+      "used_h": 7200,
+      "file": "SurveyFine_Atlas_011.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 8008,
+      "used_h": 7208,
+      "file": "SurveyFine_Atlas_012.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 8144,
+      "used_h": 7736,
+      "file": "SurveyFine_Atlas_013.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 7744,
+      "used_h": 7720,
+      "file": "SurveyFine_Atlas_014.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 8144,
+      "used_h": 7216,
+      "file": "SurveyFine_Atlas_015.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 7744,
+      "used_h": 7216,
+      "file": "SurveyFine_Atlas_016.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 7728,
+      "used_h": 7200,
+      "file": "SurveyFine_Atlas_017.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 8008,
+      "used_h": 7208,
+      "file": "SurveyFine_Atlas_018.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 8144,
+      "used_h": 7208,
+      "file": "SurveyFine_Atlas_019.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 8008,
+      "used_h": 7208,
+      "file": "SurveyFine_Atlas_020.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 7728,
+      "used_h": 7744,
+      "file": "SurveyFine_Atlas_021.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 8008,
+      "used_h": 7744,
+      "file": "SurveyFine_Atlas_022.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 7752,
+      "used_h": 7752,
+      "file": "SurveyFine_Atlas_023.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 7744,
+      "used_h": 7760,
+      "file": "SurveyFine_Atlas_024.jpg",
+      "width": 8192,
+      "height": 8192
+    },
+    {
+      "used_w": 7216,
+      "used_h": 7224,
+      "file": "SurveyFine_Atlas_025.jpg",
+      "width": 8192,
+      "height": 8192
+    }
+  ],
+  "source_faces": 4924019,
+  "remaining_faces": 4779393,
+  "removed_school_faces": 163906,
+  "max_selected_geometric_error_m": 0.5,
+  "original_max_selected_geometric_error_m": 2.5,
+  "downloaded_on": "2026-11-07",
+  "limitations": "Aerial source data, not ground-level photography. Higher LOD does not restore details absent from the source.",
+  "entrance_fragment_cleanup": [
+    {
+      "name": "SM_Fine_061",
+      "removed_faces": 15
+    },
+    {
+      "name": "SM_Fine_071",
+      "removed_faces": 363
+    }
+  ],
+  "triangles_after_gate_cleanup": 4792884
+}

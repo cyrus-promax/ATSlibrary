@@ -1,0 +1,117 @@
+{
+  "project": "../../../../../../Cyrus/OneDrive/文件/香港仔工業學校/ATS/",
+  "world": "ATS_StudentCampus",
+  "game": false,
+  "camera_world": [
+    57.62263724530226,
+    805.8308010963179,
+    -2189.595221846996
+  ],
+  "camera_campus": [
+    13.511396415327642,
+    12.04704815183997,
+    2.654047781530039
+  ],
+  "rotation": {
+    "pitch": 3.2001005709171295,
+    "yaw": -130.8000003099442,
+    "roll": 0.0
+  },
+  "forward": [
+    -0.6524017072435446,
+    -0.7558146441438122,
+    0.05582325754979676
+  ],
+  "centre_hit": {
+    "blocking": true,
+    "distance_cm": 1954.5291748046875,
+    "location_campus": [
+      6.581549562451777,
+      30.28999845070947,
+      3.745129698422339
+    ],
+    "actor": "NorthwestRearWing | M_Interior_White"
+  },
+  "forward_floor_samples": [
+    {
+      "distance_cm": 100,
+      "floor": {
+        "blocking": true,
+        "distance_cm": 765.4046020507812,
+        "location_campus": [
+          13.156289447862523,
+          12.981873826315015,
+          1.5142589973038412e-06
+        ],
+        "actor": "Site | M_Interior_GreyTile"
+      }
+    },
+    {
+      "distance_cm": 200,
+      "floor": {
+        "blocking": true,
+        "distance_cm": 765.4046020507812,
+        "location_campus": [
+          12.801182480397403,
+          13.916699500790063,
+          1.5142589973038412e-06
+        ],
+        "actor": "Site | M_Interior_GreyTile"
+      }
+    },
+    {
+      "distance_cm": 300,
+      "floor": {
+        "blocking": true,
+        "distance_cm": 765.4046630859375,
+        "location_campus": [
+          12.446075512932282,
+          14.851525175265113,
+          1.5142589973038412e-06
+        ],
+        "actor": "Site | M_Interior_GreyTile"
+      }
+    },
+    {
+      "distance_cm": 500,
+      "floor": {
+        "blocking": true,
+        "distance_cm": 765.4046630859375,
+        "location_campus": [
+          11.73586157800204,
+          16.721176524215203,
+          1.5142589973038412e-06
+        ],
+        "actor": "Site | M_Interior_GreyTile"
+      }
+    },
+    {
+      "distance_cm": 800,
+      "floor": {
+        "blocking": true,
+        "distance_cm": 765.4046630859375,
+        "location_campus": [
+          10.67054067560668,
+          19.525653547640346,
+          1.5142589973038412e-06
+        ],
+        "actor": "Site | M_Interior_GreyTile"
+      }
+    },
+    {
+      "distance_cm": 1200,
+      "floor": {
+        "blocking": true,
+        "distance_cm": 765.4047241210938,
+        "location_campus": [
+          9.250112805746197,
+          23.264956245540528,
+          6.946951316422201e-07
+        ],
+        "actor": "Site | M_Interior_GreyTile"
+      }
+    }
+  ],
+  "selected": [],
+  "dirty_maps": []
+}

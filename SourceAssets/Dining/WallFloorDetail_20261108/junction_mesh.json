@@ -1,0 +1,10 @@
+{
+  "source": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Dining\\CrossWindowWall_20261108\\ATS_Dining_CrossWindows.blend",
+  "source_sha256_unchanged": "efadc7ff3150602c315ed9c4fdc4c8c37621367db422e4936ef639cd55d6703b",
+  "modified_vertices": 260,
+  "change": "Extend existing pale mosaic panels down from h=.15 to the existing black skirting top h=.13, removing a continuous 20mm bare-paint sliver left by the old tile generator.",
+  "no_floor_or_dado_height_change": true,
+  "black_skirting_cap_window_and_door_positions_unchanged": true,
+  "render_only_no_collision": true,
+  "new_partitions_or_floor_strips_added": false
+}

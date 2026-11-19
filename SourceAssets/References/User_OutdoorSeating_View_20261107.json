@@ -1,0 +1,117 @@
+{
+  "project": "../../../../../../Cyrus/OneDrive/文件/香港仔工業學校/ATS/",
+  "world": "ATS_StudentCampus",
+  "game": false,
+  "camera_world": [
+    1155.4977660990512,
+    1460.104837704935,
+    -2286.356432804432
+  ],
+  "camera_campus": [
+    21.590298988858674,
+    2.1439292208682392,
+    1.6864356719556781
+  ],
+  "rotation": {
+    "pitch": -2.399899512529373,
+    "yaw": -204.0000014007092,
+    "roll": 0.0
+  },
+  "forward": [
+    -0.9127441802212563,
+    0.4063799181200154,
+    -0.04187390143032901
+  ],
+  "centre_hit": {
+    "blocking": true,
+    "distance_cm": 1724.740478515625,
+    "location_campus": [
+      4.399998342881535,
+      0.9418658780385938,
+      0.964219523511975
+    ],
+    "actor": "HistoricWestTower | M_Interior_ShanghaiRender"
+  },
+  "forward_floor_samples": [
+    {
+      "distance_cm": 100,
+      "floor": {
+        "blocking": true,
+        "distance_cm": 248.64337158203125,
+        "location_campus": [
+          20.59273494030419,
+          2.0741727227366757,
+          4.200002043009135
+        ],
+        "actor": "HistoricWestWing | M_Interior_TerrazzoHall"
+      }
+    },
+    {
+      "distance_cm": 200,
+      "floor": {
+        "blocking": true,
+        "distance_cm": 248.64337158203125,
+        "location_campus": [
+          19.5951708917497,
+          2.0044162246051167,
+          4.200002043009135
+        ],
+        "actor": "HistoricWestWing | M_Interior_TerrazzoHall"
+      }
+    },
+    {
+      "distance_cm": 300,
+      "floor": {
+        "blocking": true,
+        "distance_cm": 248.6433563232422,
+        "location_campus": [
+          18.59760684319521,
+          1.9346597264735532,
+          4.200002043009135
+        ],
+        "actor": "HistoricWestWing | M_Interior_TerrazzoHall"
+      }
+    },
+    {
+      "distance_cm": 500,
+      "floor": {
+        "blocking": true,
+        "distance_cm": 248.64334106445312,
+        "location_campus": [
+          16.602478746086234,
+          1.7951467302104334,
+          4.200002247900102
+        ],
+        "actor": "HistoricWestWing | M_Interior_TerrazzoHall"
+      }
+    },
+    {
+      "distance_cm": 800,
+      "floor": {
+        "blocking": true,
+        "distance_cm": 248.643310546875,
+        "location_campus": [
+          13.609786600422769,
+          1.5858772358157474,
+          4.200002657682035
+        ],
+        "actor": "HistoricWestWing | M_Interior_TerrazzoHall"
+      }
+    },
+    {
+      "distance_cm": 1200,
+      "floor": {
+        "blocking": true,
+        "distance_cm": 248.64328002929688,
+        "location_campus": [
+          9.619530406204818,
+          1.3068512432895045,
+          4.200002862573001
+        ],
+        "actor": "HistoricWestWing | M_Interior_TerrazzoHall"
+      }
+    }
+  ],
+  "selected": [],
+  "dirty_maps": []
+}

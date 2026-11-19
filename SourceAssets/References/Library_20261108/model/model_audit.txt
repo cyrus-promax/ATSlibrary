@@ -1,0 +1,88 @@
+ATS library / EastBlock model audit — 2026-11-08
+Scope: read-only current probe and source Blender geometry. No Unreal bridge calls, map changes, asset imports, source saves, camera changes, or changes outside this report directory.
+
+Conclusion
+The current project contains an exterior proxy for EastBlock and floor-use metadata naming the library on 1/F. It has no library floor slab, ceiling, room envelope, furnishings, or confirmed library entrance. An invisible collision box blocks the entire EastBlock interior. The retained facade dimensions and repeated six model storeys are scripted approximations, not a measured library plan.
+
+Evidence and coordinate registration
+Project: D:/Cyrus/OneDrive/文件/香港仔工業學校/ATS
+Read-only live snapshot: ../current_probe.json, timestamp 2026-11-08T18:29:56.191540, 901 actors, no game world.
+Map SHA256 in snapshot: d85aa90bfdd991b91c6f60904b15db120beceb53ab2e9209d6f44aa0edf68cc5
+Source: SourceAssets/Walkthrough/ATS_Walkthrough.blend
+Source SHA256 before and after read-only inspection: 0b1fe69043159fa3131a232ba4358a74068450ae930b909d15dfd8374fc3ce4e
+Used polygon vertices were inspected; unused vertices left behind by deleted walls were excluded.
+Source bounds converted into UE centimetres agree with all four live mesh bounds to within 0.000565 cm. This supports the source geometry corresponding to the current four live mesh assets.
+Blender warned that the source was written by a newer minor binary (502.45). The source was never saved and its hash did not change.
+
+Campus coordinates (u,v,h), metres:
+Blender x = cos(20deg)*u - sin(20deg)*v - 8
+Blender y = sin(20deg)*u + cos(20deg)*v - 24
+Blender z = h - 24.55
+Unreal world = (100*Blender x, -100*Blender y, 100*Blender z)
+Nominal EastBlock bounds from the user-layout registration are u94..120, v0..14. Its first model floor band is h3.5..7.0. These are model coordinates, not surveyed real-world dimensions.
+
+User-confirmed provenance
+SourceAssets/References/user_layout_evidence.json assigns the library to 1/F of the right-side block, teachers' room to 2/F, and rear entrance / factory / youth centre to G/F.
+The rough annotated image confirms floor uses and block identity. It does not establish a measured room perimeter, entrance location, number of windows, actual first-floor elevation, or six storeys for this block.
+The tour point at h4.42 is marked ATS.FloorUseOnly. It is metadata, not a physical floor or verified route.
+
+Current actors (identity transforms; meshes include all model storeys)
+StaticMeshActor_476 | EastBlock | M_Interior_Glass
+  /Game/ATS/Revision2/Architecture/ATS_Walkthrough_SM_Walk_EastBlock_Glass
+StaticMeshActor_478 | EastBlock | M_Interior_Metal
+  /Game/ATS/Revision9/StructureRemoval/ATS_StructureRemoval_SM_Walk_EastBlock_Metal
+StaticMeshActor_479 | EastBlock | M_Interior_MintTile
+  /Game/ATS/Revision2/JunctionFix/ATS_GalleryJunction_SM_Walk_EastBlock_MintTile
+StaticMeshActor_480 | EastBlock | M_Interior_White
+  /Game/ATS/Revision9/StructureRemoval/ATS_StructureRemoval_SM_Walk_EastBlock_White
+Materials are corresponding /Game/ATS/Campus/Materials/M_Interior_* assets.
+All four have tags ATS.Area.east_block and ATS.UserLayout20261107.
+Actor/component collision flags are enabled/query-and-physics/BlockAll in the probe. This does not prove effective collision for every glass triangle; asset body setup was not interrogated.
+
+Geometry physically present in model first-floor band h3.5..7.0
+White mesh, 18 separate components in this band:
+- One east end wall u119.875..120.125, v0..14, h3.5..6.9.
+- One lower street wall u94..120, v-0.025..0.225, h3.5..4.6.
+- Nine street-side piers centred at u95,98,101,104,107,110,113,116,119; each 0.3m wide, v-0.025..0.225, h4.55..6.85.
+- Seven court-side columns centred at u94,98,102,106,110,114,118; each 0.25m wide, v13.875..14.125, h3.5..6.9.
+Glass mesh, nine panes:
+- Centres u96.5,99.5,102.5,105.5,108.5,111.5,114.5,117.5,120.5.
+- Each 2.7m wide, v0.0925..0.1075, h4.7..6.5.
+- Overall span u95.15..121.85, extending 1.85m beyond nominal east end wall u120. This mismatch is further evidence that the repeated facade is a coarse proxy, not a reliable measured library shell.
+Metal mesh, eleven components:
+- Nine thin vertical central mullions corresponding to the glass centres, width0.04m, depth0.08m, h4.7..6.5.
+- Two circular court-side rails, spans u94..96.7 and100.3..120, centred v14,h4.66, radius0.03m.
+MintTile mesh, two components:
+- Low parapets on u94..96.7 and100.3..120, v13.92..14.08, h3.5..4.5.
+- The 3.6m gap between these segments is a legacy modeled opening; it is not evidence of a real library doorway.
+Absent:
+- No west end wall at u94.
+- No first-floor slab at h3.5.
+- No ceiling or next-floor slab at h7.
+- No interior walls, library room shell, confirmed first-floor access, furniture, or library-specific fit-out.
+Only slab-like EastBlock component is the exterior roof h20.8..21.0 across nominal26x14m footprint.
+
+Hidden boundary
+StaticMeshActor_147 | Unmodeled Area Boundary | East block unmodeled interior
+Mesh /Engine/BasicShapes/Cube; centre campus(107,7,10.4); size(25.6,13.6,20.8)m.
+Occupied range: u94.2..119.8, v0.2..13.8, h0..20.8.
+UE translation(9015.296942,-1917.400368,-1415), yaw-20deg, scale(25.6,13.6,20.8).
+Hidden in game, component visible false, casts no shadow; collision true/query-and-physics/BlockAll.
+Do not delete this whole boundary to expose the library: all unmodeled floors and the missing slab would become accessible.
+
+Authoritative local script trail
+work/build_walkthrough.py lines106-108: library room plan unknown; library_objects empty.
+work/build_walkthrough.py lines203-223: six repeated exterior levels at3.5m; roof only on last level; street windows/piers, court parapets/columns; west wall faces explicitly removed.
+work/build_structure_removal.py: regenerates from build_walkthrough and asserts absence of EastBlock GreyTile floor mesh.
+work/import_structure_removal.py line53: creates the full-height EastBlock unmodeled-interior boundary.
+work/build_library.py is retired guessed reconstruction; do not restore it. It estimated a10.6x22.2m room, furniture placement, windows, and ceiling. Its own tour text explicitly acknowledges estimated room length/width and furniture placement.
+
+Safe implementation interfaces and blockers
+1. The four material meshes each span every model floor. A whole-actor replacement/material change affects other floors. Any justified 1/F work should use isolated assets and retain unrelated exterior geometry unless separately confirmed wrong.
+2. Keep the full-height boundary until the verified room has a real walkable floor, registered perimeter, and evidence-backed entrance. If later exposing only1/F, retain collision coverage for all other unknown volumes; do not create a fall-through opening.
+3. Existing exterior window spacing and block bounds cannot be treated as real room dimensions. Do not anchor supposedly exact new interior features to the facade's repeated panes without registration evidence.
+4. A proposed total floor area, cabinet specification, or photo with a few visible walls cannot alone establish room aspect ratio/perimeter or which exterior face is shown. Treat proposals separately from as-built photos.
+5. Required before integrated exact construction: sufficient photo/layout correspondence to register the room to EastBlock, real perimeter/scale or defensible measured control points, first-floor surface height, and entry location. Disconnected interior props at guessed locations do not satisfy the user's request.
+6. If this evidence remains unavailable, preserve the unmodeled interior and report that the exact structure could not be established. The user explicitly asked not to build uncertain structure.
+
+Detailed component bounds are in eastblock_source_geometry.json; inspection code is inspect_eastblock.py. No source or project assets were modified.

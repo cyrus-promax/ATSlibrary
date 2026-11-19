@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-08",
+  "scope": "Independent photo review only. No UE or project model changes.",
+  "sources": [
+    {
+      "url": "https://www.hk01.com/article/939149",
+      "local": "work/research/dining_shutters/hk01_flood_06.jpg",
+      "resolution": [1824,1368],
+      "visually_inspected_original_pixels": true,
+      "context": "School-supplied September 2023 cleanup photograph. Use architecture, not moved furniture layout."
+    },
+    {
+      "url": "https://media.goodschool.hk/storage/upload/ebook/2021-11-02-175925-108203.pdf",
+      "pdf_page": 15,
+      "local": "work/research/dining_layout/goodschool_2021_p15_image26.png",
+      "resolution": [823,550],
+      "visually_inspected_original_pixels": true,
+      "context": "Earlier dry activity view. The same cross/window wall is at the left; the cross is wholly above the dark mosaic cap."
+    }
+  ],
+  "user_anchor": {
+    "reply": "正中央就是十字架位置",
+    "inherited_view_ray_intersection_campus_m": [0.23,17.59944733735314,1.673314044555612],
+    "wall": "u=.23",
+    "status": "User confirmed the viewport centre. Do not silently rewrite this as confirmation of only a horizontal coordinate or silently move the anchor."
+  },
+  "visible_architecture": {
+    "cross": [
+      "A small dark brown/black Latin crucifix silhouette between two tall windows, on the painted upper wall.",
+      "Its horizontal arm is near the upper quarter of its total height, not at the vertical centre.",
+      "The image is insufficient for a faithful carved/sculpted figure or fine fixing details; do not invent those details.",
+      "It is closer to the left window than to the right window in the 2023 view, not at the midpoint of the gap."
+    ],
+    "windows": [
+      "At least two complete tall window bays are visible, one on either side of the cross.",
+      "Each has approximately two primary columns and three primary horizontal zones.",
+      "The lower zone is taller than the middle or upper zone; equal thirds would not closely follow the visible outer frames.",
+      "Each upper-left portion contains a window air-conditioner with horizontal grille. The other upper part is translucent/clear glazing with fine vertical bars.",
+      "Middle and lower portions contain additional thinner glazing bars. Details and opening operation cannot be recovered reliably from this image.",
+      "A partly occluded additional window fragment to the left does not establish the whole W-wall bay count."
+    ]
+  },
+  "approximate_image_measurements_not_rectified": {
+    "notice": "Hand-read native-image coordinates, approximately several pixels uncertainty. These are image-plane ratios, not metric measurements or a camera-calibrated reconstruction.",
+    "left_window_bounds_xyxy_px": [1127,432,1257,647],
+    "right_window_bounds_xyxy_px": [1439,420,1594,640],
+    "cross_bounds_xyxy_px": [1279,454,1312,511],
+    "cross_centre_px": [1295.5,482.5],
+    "dark_dado_cap_at_cross_y_px": 543,
+    "floor_wall_junction_near_cross_y_px_approx": [735,742],
+    "cross_height_over_left_window_height": 0.265,
+    "cross_width_over_left_window_width": 0.254,
+    "cross_centre_below_window_top_over_window_height": 0.235,
+    "cross_centre_above_dado_cap_over_window_height": 0.281,
+    "cross_fraction_from_left_edge_of_window_gap": 0.212,
+    "primary_window_zone_heights_from_bottom_approx": [0.43,0.27,0.30],
+    "perspective_limit": "The right window appears wider than the left; direct horizontal ratios should not be treated as rectified world distances."
+  },
+  "height_conflict": {
+    "model_existing_cap_m": [1.8,1.85],
+    "user_confirmed_ray_height_m": 1.673314044555612,
+    "conflict": "The confirmed ray falls within/below the model mosaic band, whereas both source photographs place the complete cross above the cap.",
+    "additional_geometric_check": "If a roughly 2.2 m tall window is used with the observed cross/window vertical ratio, putting its cross centre at h1.673 would make the window top about h2.19 and its bottom approximately h-0.01. This is inconsistent with the photographed raised window sill.",
+    "not_safe": [
+      "Do not silently move the cross up and label its full 3D point user-confirmed.",
+      "Do not lower the whole dado or shrink the two tall windows just to force them around the low ray.",
+      "Do not claim simultaneous exact correspondence to the user ray and the photo proportions."
+    ]
+  },
+  "implementation_choices": {
+    "strict_full_anchor": "Retain the full confirmed point. If placing a cross there, explicitly document the photo-height conflict and do not call the paired-window reconstruction photo-accurate. A reversible local asset can be prepared without adjusting the existing wall cap.",
+    "photo_height_interpretation": "If the primary agent decides the user's goal and conversational intent support treating centre as a horizontal placement cue, state that interpretation clearly to the user before applying it; retain v17.599447 and derive vertical placement above the cap from the photo. This is an inference, not explicit confirmation of the adjusted 3D point.",
+    "illustrative_photo_proportions_only": {
+      "warning": "The following is a rendering starting point only, not a verified site window schedule or placement instruction.",
+      "window_width_m": 1.5,
+      "window_height_m": 2.25,
+      "sill_height_m": 0.9,
+      "left_window_centre_v_relative_to_cross_m": -1.1,
+      "right_window_centre_v_relative_to_cross_m": 2.35,
+      "cross_total_height_m": 0.60,
+      "cross_total_width_m": 0.35,
+      "cross_photo_based_centre_height_m": 2.62,
+      "basis": "Fits the observed local ratios and keeps the cross above the current cap. Absolute metric sizes and precise v offsets remain unmeasured."
+    }
+  },
+  "ceiling_and_floor_boundary": "This user anchor and the two windows do not determine interior column positions, beam spans, black floor-band widths or the rest of the window wall. Do not derive a full structural grid from this local group."
+}

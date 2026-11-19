@@ -1,0 +1,29 @@
+{
+  "Cream": {
+    "source_vertices": 488,
+    "live_vertices": 488,
+    "source_faces": 366,
+    "live_faces": 366,
+    "source_only_component_bounds": [],
+    "live_only_component_bounds": [],
+    "max_nearest_vertex_distance_m": 6.877043295791605e-06
+  },
+  "Metal": {
+    "source_vertices": 2208,
+    "live_vertices": 2208,
+    "source_faces": 1624,
+    "live_faces": 1624,
+    "source_only_component_bounds": [],
+    "live_only_component_bounds": [],
+    "max_nearest_vertex_distance_m": 5.3947966093944364e-06
+  },
+  "WindowShade": {
+    "source_vertices": 352,
+    "live_vertices": 352,
+    "source_faces": 264,
+    "live_faces": 264,
+    "source_only_component_bounds": [],
+    "live_only_component_bounds": [],
+    "max_nearest_vertex_distance_m": 5.3947966093944364e-06
+  }
+}

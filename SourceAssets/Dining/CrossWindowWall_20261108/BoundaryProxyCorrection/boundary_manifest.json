@@ -1,0 +1,24 @@
+{
+  "source": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Walkthrough\\ATS_Walkthrough.blend",
+  "source_sha256_unchanged": "0b1fe69043159fa3131a232ba4358a74068450ae930b909d15dfd8374fc3ce4e",
+  "west_box_campus_bounds": [
+    [
+      -1.25,
+      -0.75
+    ],
+    [
+      -0.5,
+      44.5
+    ],
+    [
+      0,
+      6
+    ]
+  ],
+  "removed_visible_faces": 6,
+  "preserved_other_boundary_faces_and_uv": 12,
+  "nonvisual_collision_retained": true,
+  "reason": "Early generator explicitly describes the box as a mask for removed photogrammetric geometry. No source establishes a real six-metre stone wall immediately behind the dining windows. Remove unsupported appearance, not create matching false window tunnels.",
+  "no_new_exterior_scenery_created": true,
+  "other_boundary_sections_retained_without_claiming_their_accuracy": true
+}

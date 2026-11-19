@@ -1,0 +1,127 @@
+{
+  "source_photo": "http://www.ats.edu.hk/images/PostImage/boarding_intro_10.jpg",
+  "source_leaflet": "http://www.ats.edu.hk/images/doc/20261102.pdf",
+  "source_leaflet_pdf_page": 2,
+  "confirmed_appearance": [
+    "White rectangular dining tables",
+    "Blue moulded chairs with lower-back opening",
+    "Metal furniture frames"
+  ],
+  "uncertainties": [
+    "Exact furniture dimensions",
+    "Frame details hidden in photographs",
+    "Number and arrangement of dining sets",
+    "Room boundaries and ceiling height"
+  ],
+  "model_dimensions_are_estimates": true,
+  "table_dimensions_m": [
+    1.8,
+    0.8,
+    0.75
+  ],
+  "chair_dimensions_m": [
+    0.45,
+    0.54,
+    0.85
+  ],
+  "chair_seat_height_m": 0.447,
+  "materials": {
+    "WhiteLaminate": {
+      "colour_linear": [
+        0.73,
+        0.73,
+        0.7
+      ],
+      "roughness": 0.33,
+      "metallic": 0
+    },
+    "BluePolypropylene": {
+      "colour_linear": [
+        0.009,
+        0.029,
+        0.38
+      ],
+      "roughness": 0.33,
+      "metallic": 0
+    },
+    "BrushedSteel": {
+      "colour_linear": [
+        0.43,
+        0.46,
+        0.48
+      ],
+      "roughness": 0.29,
+      "metallic": 1
+    },
+    "GreyEdge": {
+      "colour_linear": [
+        0.13,
+        0.14,
+        0.14
+      ],
+      "roughness": 0.46,
+      "metallic": 0
+    },
+    "Rubber": {
+      "colour_linear": [
+        0.012,
+        0.014,
+        0.016
+      ],
+      "roughness": 0.82,
+      "metallic": 0
+    }
+  },
+  "meshes": [
+    {
+      "name": "SM_Dining_WhiteTable",
+      "vertices": 1344,
+      "faces": 1372,
+      "materials": [
+        "M_Dining_WhiteLaminate",
+        "M_Dining_GreyEdge",
+        "M_Dining_BrushedSteel",
+        "M_Dining_Rubber"
+      ]
+    },
+    {
+      "name": "SM_Dining_BlueChair",
+      "vertices": 6136,
+      "faces": 5742,
+      "materials": [
+        "M_Dining_BluePolypropylene",
+        "M_Dining_BrushedSteel",
+        "M_Dining_Rubber"
+      ]
+    }
+  ],
+  "placement_status": "partial_dining_furniture_saved_and_tested",
+  "placement_report": "dining_placement.json",
+  "location_confirmation": {
+    "confirmed_at": "2026-11-07T22:02:30.754546+08:00",
+    "question": "你現在停在的這片空地，是餐廳內部，還是餐廳門外？",
+    "user_answer": "這裡就是餐廳內部",
+    "status": "user_confirmed_inside_dining_room",
+    "reference_view": "SourceAssets/Dining/User_Dining_Location_20261107.json",
+    "camera_campus_m_at_original_question": [
+      13.511396415327642,
+      12.04704815183997,
+      2.654047781530039
+    ],
+    "confirmed_scope": "The area containing the captured camera position is inside the dining room.",
+    "not_confirmed_by_this_answer": [
+      "Exact room extent, partitions, doors, windows or ceiling height",
+      "Kitchen location or layout",
+      "Furniture dimensions, total count or exact arrangement"
+    ],
+    "geometry_changes": 0
+  },
+  "evidence_review_20261107": {
+    "status": "reference_only_excluded_from_walkthrough",
+    "evidence_review": "SourceAssets/Dining/EvidenceReview_20261107/research_findings.json",
+    "exact_layout_verified": false,
+    "active_in_walkthrough": false,
+    "assets_retained": true,
+    "reviewed_at": "2026-11-07T22:36:47.240009+08:00"
+  }
+}

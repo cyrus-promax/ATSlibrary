@@ -1,0 +1,16 @@
+[
+  {
+    "actor": "PostProcessVolume_0",
+    "label": "PostProcessVolume",
+    "override_white_temp": "False",
+    "white_temp": "6500.0",
+    "override_white_tint": "False",
+    "white_tint": "0.0",
+    "override_color_saturation": "False",
+    "color_saturation": "<Struct 'Vector4' (0x000001F782028310) {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}>",
+    "override_color_gain": "False",
+    "color_gain": "<Struct 'Vector4' (0x000001F782028370) {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}>",
+    "override_auto_exposure_bias": "True",
+    "auto_exposure_bias": "0.550000011920929"
+  }
+]

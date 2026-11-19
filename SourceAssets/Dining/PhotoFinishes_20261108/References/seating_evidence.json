@@ -1,0 +1,197 @@
+{
+  "review_date": "2026-11-08",
+  "task": "Evidence-only seating research; no UE or project model edits",
+  "conclusion": "白色長方枱與獨立藍／湖水藍椅款式、長邊對坐用膳有多張非水浸照片支持；尚沒有證據把某組家具固定到現有 UE 場景的門／窗／小賣部位置。",
+  "minimum_supported_local_asset_group": {
+    "table": "one white rectangular dining table",
+    "chairs": "blue/aqua independent plastic chairs facing each other along both long sides; at least two visible positions per long side in boarding/CCC views",
+    "exact_dimensions": null,
+    "exact_total_chairs": null,
+    "room_coordinates": null,
+    "world_orientation": null,
+    "placement_status": "款式及局部相對排列可製成家具組件；禁止把任意世界坐標稱為核實位置。"
+  },
+  "placement_recommendation": "可改好現有桌椅資產；若要求確定位置才放，現階段不能據這批照片批量鋪滿餐廳，也不能聲稱一個猜測角落是準確位置。",
+  "sources": [
+    {
+      "id": "school_boarding_normal_meal",
+      "new_source": false,
+      "source_url": "http://www.ats.edu.hk/index.php/2018-12-05-07-42-24/2018-12-18-01-49-38",
+      "image_url": "http://www.ats.edu.hk/images/PostImage/boarding_intro_10.jpg",
+      "local_file": "work/research/dining_shutters/school_boarding_07.jpg",
+      "date": "Undated school-hosted boarding introduction image",
+      "visually_inspected": true,
+      "observed": [
+        "正常用膳照片，前景白色長方枱，學生分坐長邊兩側。",
+        "藍色及湖水藍獨立塑膠座背椅，深色金屬腳。",
+        "多張同款白枱在背景；最右上方可見局部窗。"
+      ],
+      "reliable_anchors": [
+        "背景局部窗；只證明家具在有窗的餐廳內，不能定位是哪一面窗牆。"
+      ],
+      "limitations": [
+        "350×233 像素，沒有全廳四邊。",
+        "未見維他天地、洗手池或可辨識的三扇卷閘同框。",
+        "枱與窗的精確距離、枱數、排數、現行排列均未確定。"
+      ],
+      "resolution": [
+        350,
+        233
+      ]
+    },
+    {
+      "id": "school_2627_meal_closeup",
+      "new_source": false,
+      "source_url": "http://www.ats.edu.hk/images/doc/2627_School_News_1.pdf",
+      "pdf_page": 16,
+      "local_file": "work/research/dining_layout/2627_School_News_1_p16_image13.png",
+      "date": "2026–27 publication; image capture date unspecified",
+      "visually_inspected": true,
+      "observed": [
+        "白色長方枱近景，兩名學生在左側、一名在右側用膳。",
+        "藍及湖水藍獨立塑膠椅。",
+        "背景粉紅小磚牆、棕色門一部分、堆疊餐盤及黃膠箱。"
+      ],
+      "reliable_anchors": [
+        "粉紅小磚牆與部分棕色門只能作局部背景識別。"
+      ],
+      "limitations": [
+        "門僅局部且未證明是結構圖三扇卷閘之一。",
+        "不能建立這組家具與模型世界坐標的關係。",
+        "三名可見用餐者不等於這張枱只設三個座位。"
+      ],
+      "resolution": [
+        805,
+        604
+      ]
+    },
+    {
+      "id": "ccc2018_normal_dinner",
+      "new_source": false,
+      "source_url": "https://cgf-cccosa.com.hk/download/Booklet/CCC2019.pdf",
+      "pdf_page": 19,
+      "local_file": "work/research/dining_layout/ccc2019_p19_image00.png",
+      "date": "2018-10-24 dinner reported by CCC2019 booklet",
+      "visually_inspected": true,
+      "observed": [
+        "校友訪校晚餐，相片可見白長方枱配獨立藍椅，兩個長邊都坐有數人。",
+        "前景可見一張短邊方向的空藍椅；照片不是完整配椅示意。",
+        "背景有多組平行枱、後牆高窗、柱及風扇。"
+      ],
+      "reliable_anchors": [
+        "後牆高窗、柱；但不能對到用戶平面圖哪一面。"
+      ],
+      "limitations": [
+        "269×202 像素，小圖不能量度桌長、間距或判斷有無拼枱。",
+        "訪客晚餐未證明現時學生固定座位排列。",
+        "不能將可見人數當全廳容量，不能用寄宿床位數填餐廳。"
+      ],
+      "resolution": [
+        269,
+        202
+      ]
+    },
+    {
+      "id": "goodschool2020_serving",
+      "new_source": false,
+      "source_url": "https://www.goodschool.hk/blog/3ca6df60-33c0-11eb-95a2-21cd6b992bff",
+      "image_url": "https://media.goodschool.hk/upload/2020/12/ISSUE_32_750x430284308d30d5334377312cbdda72200218d.jpg",
+      "local_file": "work/research/dining_layout/goodschool_2020_02.jpg",
+      "date": "2020 article, capture date unspecified",
+      "visually_inspected": true,
+      "observed": [
+        "正常用膳，白枱、藍塑膠座背、深色金屬椅腳。",
+        "數組枱沿同一長軸排列，可見一組臨大型青藍門板／櫃面一側。",
+        "背景粉紅細磚牆。"
+      ],
+      "reliable_anchors": [
+        "青藍門板／櫃面尚未能確定用途或對上用戶草圖。"
+      ],
+      "limitations": [
+        "同圖重用於後來刊物，並非獨立相機角度。",
+        "不能把青藍背景推定為現有維他天地、窗或卷閘。",
+        "畫面裁切與人群遮擋，不能復原完整排位。"
+      ],
+      "resolution": [
+        750,
+        430
+      ]
+    },
+    {
+      "id": "goodschool2025_washing",
+      "new_source": true,
+      "source_url": "https://www.hkgoodschool.cn/news/1004/學業品德相輔相成　多元機會發光發亮",
+      "image_url": "https://media.goodschool.hk/storage/upload/校園直擊/2025-10-21-182402-569168.jpeg",
+      "local_file": "work/research/dining_finish_20261108/goodschool2025_12.jpg",
+      "date": "2025-10-21 media upload; image capture date unspecified",
+      "visually_inspected": true,
+      "observed": [
+        "學生在長金屬工作枱兩邊，紅色可移動膠盆內洗碗。",
+        "粉紅細磚下牆、米白上牆、灰色踢腳；右側可見灰方磚地面。",
+        "遠端高窄窗有欄，右側棕色平開門；靠左高窗。"
+      ],
+      "reliable_anchors": [
+        "洗碗工作區的牆、窗、棕色門；未能對到用戶平面圖。"
+      ],
+      "limitations": [
+        "不含用餐枱椅，不能支持用餐排列。",
+        "未見內嵌固定水槽或龍頭；不能用作固定洗手池外形。",
+        "未證明這是主用餐區同一地板；不能把方磚全面套用餐廳。"
+      ],
+      "resolution": [
+        1280,
+        800
+      ]
+    },
+    {
+      "id": "hk01_2023_furniture_shape_only",
+      "new_source": false,
+      "source_url": "https://www.hk01.com/article/939149",
+      "local_file": "work/research/dining_shutters/hk01_flood_06.jpg",
+      "resolution": [
+        1824,
+        1368
+      ],
+      "visually_inspected": true,
+      "permitted_use": [
+        "家具造型、材質及腳架細節"
+      ],
+      "prohibited_use": [
+        "水浸清理正在搬移翻轉枱椅，所有枱椅坐標、密度、排法不能當平日依據。"
+      ]
+    }
+  ],
+  "new_search_review": {
+    "new_goodschool_2025_images_downloaded": 24,
+    "contact_sheet": "work/research/dining_finish_20261108/goodschool2025_contact.jpg",
+    "visually_inspected_all_contact_tiles": true,
+    "finding": "24 圖有一張洗碗工作區清晰相；圓白桌、米色椅的是閱讀／桌遊空間，不能換作飯堂。沒有新增可定位的正常用餐遠景。",
+    "fetch_manifest": "work/research/dining_finish_20261108/new_seating_image_fetches.json"
+  },
+  "excluded": [
+    "2023 水浸搬移／堆枱椅相不得用於正常排位。",
+    "其他學校、供應商未標校名圖不得用作 ATS。",
+    "GoodSchool 2025 閱讀桌遊室圓白桌米色椅不得冒充飯堂。"
+  ],
+  "access_limits": [
+    "HKET 2023 / 2024 訪校全文回應 403，未宣稱已看其內容圖片。",
+    "SDB 2017 PDF 可被網搜發現但本機下載 403、web 截圖超時，未作視覺依據。"
+  ],
+  "asset_shape_notes": {
+    "table": [
+      "白至灰白／略灰綠長方桌面；薄板、窄包邊、角位微圓。",
+      "金屬腳架；2023 翻枱照片可見彎管／折疊式腳架，但未證明每張枱同款。"
+    ],
+    "chair": [
+      "深藍與湖水藍塑膠座背，獨立椅。",
+      "座背寬、圓角、座面略凹；部分清楚可見下背橫向開口。",
+      "深色四支金屬腳向外張；可堆疊。"
+    ],
+    "measurement_warning": "不能從無標尺透視照片斷言桌長寬或座高米數；可作視覺比例參考。"
+  },
+  "later_user_confirmation": {
+    "text": "中央和靠窗都有，可以參考網上圖片，但一定要確認了再做",
+    "meaning": "The central and window-side zones are confirmed by the user. Exact row counts, total seats and dimensions are not confirmed.",
+    "implemented": "One minimal white-table/blue-chair group in each confirmed zone; two opposite seats on each long side reflect the visible partial arrangement. This is not the school's verified total layout."
+  }
+}

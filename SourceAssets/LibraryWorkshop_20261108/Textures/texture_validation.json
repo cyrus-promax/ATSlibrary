@@ -1,0 +1,131 @@
+{
+  "sets": 3,
+  "maps": 12,
+  "all_maps_original_4096_square": true,
+  "all_files_fully_decoded": true,
+  "all_sha256_verified": true,
+  "normal_convention": "OpenGL",
+  "normal_ue_flip_green_channel": true,
+  "details": [
+    {
+      "asset": "oak_veneer_02",
+      "role": "base_color",
+      "file": "oak_veneer_02\\oak_veneer_02_diff_4k.jpg",
+      "size": [
+        4096,
+        4096
+      ],
+      "mode": "RGB"
+    },
+    {
+      "asset": "oak_veneer_02",
+      "role": "normal_gl",
+      "file": "oak_veneer_02\\oak_veneer_02_nor_gl_4k.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "mode": "RGB"
+    },
+    {
+      "asset": "oak_veneer_02",
+      "role": "roughness",
+      "file": "oak_veneer_02\\oak_veneer_02_rough_4k.jpg",
+      "size": [
+        4096,
+        4096
+      ],
+      "mode": "L"
+    },
+    {
+      "asset": "oak_veneer_02",
+      "role": "ambient_occlusion",
+      "file": "oak_veneer_02\\oak_veneer_02_ao_4k.jpg",
+      "size": [
+        4096,
+        4096
+      ],
+      "mode": "L"
+    },
+    {
+      "asset": "white_plaster_02",
+      "role": "base_color",
+      "file": "white_plaster_02\\white_plaster_02_diff_4k.jpg",
+      "size": [
+        4096,
+        4096
+      ],
+      "mode": "RGB"
+    },
+    {
+      "asset": "white_plaster_02",
+      "role": "normal_gl",
+      "file": "white_plaster_02\\white_plaster_02_nor_gl_4k.jpg",
+      "size": [
+        4096,
+        4096
+      ],
+      "mode": "RGB"
+    },
+    {
+      "asset": "white_plaster_02",
+      "role": "roughness",
+      "file": "white_plaster_02\\white_plaster_02_rough_4k.jpg",
+      "size": [
+        4096,
+        4096
+      ],
+      "mode": "L"
+    },
+    {
+      "asset": "white_plaster_02",
+      "role": "ambient_occlusion",
+      "file": "white_plaster_02\\white_plaster_02_ao_4k.jpg",
+      "size": [
+        4096,
+        4096
+      ],
+      "mode": "L"
+    },
+    {
+      "asset": "WoodFloor051",
+      "role": "base_color",
+      "file": "WoodFloor051\\WoodFloor051_4K-JPG_Color.jpg",
+      "size": [
+        4096,
+        4096
+      ],
+      "mode": "RGB"
+    },
+    {
+      "asset": "WoodFloor051",
+      "role": "normal_gl",
+      "file": "WoodFloor051\\WoodFloor051_4K-JPG_NormalGL.jpg",
+      "size": [
+        4096,
+        4096
+      ],
+      "mode": "RGB"
+    },
+    {
+      "asset": "WoodFloor051",
+      "role": "roughness",
+      "file": "WoodFloor051\\WoodFloor051_4K-JPG_Roughness.jpg",
+      "size": [
+        4096,
+        4096
+      ],
+      "mode": "L"
+    },
+    {
+      "asset": "WoodFloor051",
+      "role": "ambient_occlusion",
+      "file": "WoodFloor051\\WoodFloor051_4K-JPG_AmbientOcclusion.jpg",
+      "size": [
+        4096,
+        4096
+      ],
+      "mode": "L"
+    }
+  ]
+}

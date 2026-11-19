@@ -1,0 +1,61 @@
+{
+  "status": "saved_pending_validation",
+  "changes": [
+    {
+      "actor": "StaticMeshActor_51",
+      "role": "Shell",
+      "before": "/Game/ATS/Revision8/Architecture/ATS_FacadeRevision_SM_Walk_HistoricWestWing_ShanghaiRender.ATS_FacadeRevision_SM_Walk_HistoricWestWing_ShanghaiRender",
+      "after": "/Game/ATS/Dining/CrossWindowWall_20261108/Meshes/ATS_Dining_CrossWindows_SM_DiningCross_Shell.ATS_Dining_CrossWindows_SM_DiningCross_Shell"
+    },
+    {
+      "actor": "StaticMeshActor_619",
+      "role": "Tiles",
+      "before": "/Game/ATS/Dining/StructuralSurfaces_20261108/Meshes/SM_Dining_HallSurfacePanels.SM_Dining_HallSurfacePanels",
+      "after": "/Game/ATS/Dining/CrossWindowWall_20261108/Meshes/ATS_Dining_CrossWindows_SM_DiningCross_Tiles.ATS_Dining_CrossWindows_SM_DiningCross_Tiles"
+    },
+    {
+      "actor": "StaticMeshActor_620",
+      "role": "Walls",
+      "before": "/Game/ATS/Dining/FullGroundFloor_20261108/Meshes/ATS_Dining_Built_SM_DiningBuilt_Walls.ATS_Dining_Built_SM_DiningBuilt_Walls",
+      "after": "/Game/ATS/Dining/CrossWindowWall_20261108/Meshes/ATS_Dining_CrossWindows_SM_DiningCross_Walls.ATS_Dining_CrossWindows_SM_DiningCross_Walls"
+    },
+    {
+      "actor": "StaticMeshActor_187",
+      "role": "BoundaryRetained",
+      "before": "/Game/ATS/Revision6/Northwest/ATS_Northwest_Addition_SM_Walk_Boundary_Stone.ATS_Northwest_Addition_SM_Walk_Boundary_Stone",
+      "after": "/Game/ATS/Dining/CrossWindowWall_20261108/BoundaryProxyCorrection/ATS_Dining_BoundaryVisibility_SM_DiningBoundary_RetainedOtherSections.ATS_Dining_BoundaryVisibility_SM_DiningBoundary_RetainedOtherSections"
+    }
+  ],
+  "added": [
+    {
+      "actor": "StaticMeshActor_625",
+      "role": "Aircon",
+      "mesh": "/Game/ATS/Dining/CrossWindowWall_20261108/Meshes/ATS_Dining_CrossWindows_SM_DiningCross_Aircon.ATS_Dining_CrossWindows_SM_DiningCross_Aircon"
+    },
+    {
+      "actor": "StaticMeshActor_626",
+      "role": "Cross",
+      "mesh": "/Game/ATS/Dining/CrossWindowWall_20261108/Meshes/ATS_Dining_CrossWindows_SM_DiningCross_Cross.ATS_Dining_CrossWindows_SM_DiningCross_Cross"
+    },
+    {
+      "actor": "StaticMeshActor_627",
+      "role": "Frames",
+      "mesh": "/Game/ATS/Dining/CrossWindowWall_20261108/Meshes/ATS_Dining_CrossWindows_SM_DiningCross_Frames.ATS_Dining_CrossWindows_SM_DiningCross_Frames"
+    },
+    {
+      "actor": "StaticMeshActor_628",
+      "role": "Glass",
+      "mesh": "/Game/ATS/Dining/CrossWindowWall_20261108/Meshes/ATS_Dining_CrossWindows_SM_DiningCross_Glass.ATS_Dining_CrossWindows_SM_DiningCross_Glass"
+    },
+    {
+      "actor": "StaticMeshActor_629",
+      "role": "BoundaryCollision",
+      "mesh": "/Game/ATS/Dining/CrossWindowWall_20261108/BoundaryProxyCorrection/ATS_Dining_BoundaryVisibility_SM_DiningBoundary_NonVisualWestCollision.ATS_Dining_BoundaryVisibility_SM_DiningBoundary_NonVisualWestCollision"
+    }
+  ],
+  "material_slots_remapped_by_name": true,
+  "actor_count": 901,
+  "material_suffix_import_error_resolved": true,
+  "unverified_west_stone_proxy_removed_visually": true,
+  "original_west_boundary_collision_preserved": true
+}

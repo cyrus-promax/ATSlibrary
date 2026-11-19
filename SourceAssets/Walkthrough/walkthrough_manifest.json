@@ -1,0 +1,6148 @@
+{
+  "meshes": [
+    {
+      "name": "SM_Walk_Hall_TerrazzoHall",
+      "room": "Hall",
+      "material": "M_Interior_TerrazzoHall",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Hall_White",
+      "room": "Hall",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Hall_Cream",
+      "room": "Hall",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Hall_Stone",
+      "room": "Hall",
+      "material": "M_Interior_Stone",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Hall_TerrazzoGreen",
+      "room": "Hall",
+      "material": "M_Interior_TerrazzoGreen",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Hall_Glass",
+      "room": "Hall",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Hall_Black",
+      "room": "Hall",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Hall_DarkWood",
+      "room": "Hall",
+      "material": "M_Interior_DarkWood",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Hall_Oak",
+      "room": "Hall",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Hall_Velvet",
+      "room": "Hall",
+      "material": "M_Interior_Velvet",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Hall_Glow",
+      "room": "Hall",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Lobby_TerrazzoGreen",
+      "room": "Lobby",
+      "material": "M_Interior_TerrazzoGreen",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Lobby_TerrazzoCream",
+      "room": "Lobby",
+      "material": "M_Interior_TerrazzoCream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Lobby_Cream",
+      "room": "Lobby",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Lobby_White",
+      "room": "Lobby",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Lobby_Stone",
+      "room": "Lobby",
+      "material": "M_Interior_Stone",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Lobby_Oak",
+      "room": "Lobby",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Site_GreyTile",
+      "room": "Site",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Site_Stone",
+      "room": "Site",
+      "material": "M_Interior_Stone",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricFrontWing_ShanghaiRender",
+      "room": "HistoricFrontWing",
+      "material": "M_Interior_ShanghaiRender",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricFrontWing_FacadeWhite",
+      "room": "HistoricFrontWing",
+      "material": "M_Interior_FacadeWhite",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricFrontWing_FacadeGlass",
+      "room": "HistoricFrontWing",
+      "material": "M_Interior_FacadeGlass",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricFrontWing_FacadeMetal",
+      "room": "HistoricFrontWing",
+      "material": "M_Interior_FacadeMetal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricCentralVeranda_ShanghaiRender",
+      "room": "HistoricCentralVeranda",
+      "material": "M_Interior_ShanghaiRender",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricCentralVeranda_TerrazzoHall",
+      "room": "HistoricCentralVeranda",
+      "material": "M_Interior_TerrazzoHall",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricCentralVeranda_FacadeWhite",
+      "room": "HistoricCentralVeranda",
+      "material": "M_Interior_FacadeWhite",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricCentralVeranda_FacadeGlass",
+      "room": "HistoricCentralVeranda",
+      "material": "M_Interior_FacadeGlass",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricCentralVeranda_FacadeMetal",
+      "room": "HistoricCentralVeranda",
+      "material": "M_Interior_FacadeMetal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricRoof_RoofConcrete",
+      "room": "HistoricRoof",
+      "material": "M_Interior_RoofConcrete",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricRoof_FacadeWhite",
+      "room": "HistoricRoof",
+      "material": "M_Interior_FacadeWhite",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricRoof_ShanghaiRender",
+      "room": "HistoricRoof",
+      "material": "M_Interior_ShanghaiRender",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricWestWing_ShanghaiRender",
+      "room": "HistoricWestWing",
+      "material": "M_Interior_ShanghaiRender",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricWestWing_FacadeWhite",
+      "room": "HistoricWestWing",
+      "material": "M_Interior_FacadeWhite",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricWestWing_TerrazzoHall",
+      "room": "HistoricWestWing",
+      "material": "M_Interior_TerrazzoHall",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricWestWing_FacadeGlass",
+      "room": "HistoricWestWing",
+      "material": "M_Interior_FacadeGlass",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricWestWing_FacadeMetal",
+      "room": "HistoricWestWing",
+      "material": "M_Interior_FacadeMetal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricWestWing_RoofConcrete",
+      "room": "HistoricWestWing",
+      "material": "M_Interior_RoofConcrete",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricEntranceTower_ShanghaiRender",
+      "room": "HistoricEntranceTower",
+      "material": "M_Interior_ShanghaiRender",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricEntranceTower_RoofConcrete",
+      "room": "HistoricEntranceTower",
+      "material": "M_Interior_RoofConcrete",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricEntranceTower_Stone",
+      "room": "HistoricEntranceTower",
+      "material": "M_Interior_Stone",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricEntranceTower_FacadeGlass",
+      "room": "HistoricEntranceTower",
+      "material": "M_Interior_FacadeGlass",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricEntranceTower_FacadeMetal",
+      "room": "HistoricEntranceTower",
+      "material": "M_Interior_FacadeMetal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricEntranceTower_Joint",
+      "room": "HistoricEntranceTower",
+      "material": "M_Interior_Joint",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricEntranceTower_FacadeWhite",
+      "room": "HistoricEntranceTower",
+      "material": "M_Interior_FacadeWhite",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricWestTower_ShanghaiRender",
+      "room": "HistoricWestTower",
+      "material": "M_Interior_ShanghaiRender",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricWestTower_RoofConcrete",
+      "room": "HistoricWestTower",
+      "material": "M_Interior_RoofConcrete",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricWestTower_FacadeGlass",
+      "room": "HistoricWestTower",
+      "material": "M_Interior_FacadeGlass",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricWestTower_FacadeMetal",
+      "room": "HistoricWestTower",
+      "material": "M_Interior_FacadeMetal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_0_GreyTile",
+      "room": "GreenCorridor_0",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_0_White",
+      "room": "GreenCorridor_0",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_0_MintTile",
+      "room": "GreenCorridor_0",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_0_Metal",
+      "room": "GreenCorridor_0",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_1_GreyTile",
+      "room": "Class_1_1",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_1_White",
+      "room": "Class_1_1",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_1_MintTile",
+      "room": "Class_1_1",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_1_YellowFrame",
+      "room": "Class_1_1",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_1_Glass",
+      "room": "Class_1_1",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_1_1_Black",
+      "room": "Class_1_1",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_1_Board",
+      "room": "Class_1_1",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_1_Metal",
+      "room": "Class_1_1",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_1_Desk",
+      "room": "Class_1_1",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_1_Oak",
+      "room": "Class_1_1",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_1_Cream",
+      "room": "Class_1_1",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_1_Glow",
+      "room": "Class_1_1",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_1_2_GreyTile",
+      "room": "Class_1_2",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_2_White",
+      "room": "Class_1_2",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_2_MintTile",
+      "room": "Class_1_2",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_2_YellowFrame",
+      "room": "Class_1_2",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_2_Glass",
+      "room": "Class_1_2",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_1_2_Black",
+      "room": "Class_1_2",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_2_Board",
+      "room": "Class_1_2",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_2_Metal",
+      "room": "Class_1_2",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_2_Desk",
+      "room": "Class_1_2",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_2_Oak",
+      "room": "Class_1_2",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_2_Cream",
+      "room": "Class_1_2",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_2_Glow",
+      "room": "Class_1_2",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_1_3_GreyTile",
+      "room": "Class_1_3",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_3_White",
+      "room": "Class_1_3",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_3_MintTile",
+      "room": "Class_1_3",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_3_YellowFrame",
+      "room": "Class_1_3",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_3_Glass",
+      "room": "Class_1_3",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_1_3_Black",
+      "room": "Class_1_3",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_3_Board",
+      "room": "Class_1_3",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_3_Metal",
+      "room": "Class_1_3",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_3_Desk",
+      "room": "Class_1_3",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_3_Oak",
+      "room": "Class_1_3",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_3_Cream",
+      "room": "Class_1_3",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_3_Glow",
+      "room": "Class_1_3",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_1_4_GreyTile",
+      "room": "Class_1_4",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_4_White",
+      "room": "Class_1_4",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_4_MintTile",
+      "room": "Class_1_4",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_4_YellowFrame",
+      "room": "Class_1_4",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_4_Glass",
+      "room": "Class_1_4",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_1_4_Black",
+      "room": "Class_1_4",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_4_Board",
+      "room": "Class_1_4",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_4_Metal",
+      "room": "Class_1_4",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_4_Desk",
+      "room": "Class_1_4",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_4_Oak",
+      "room": "Class_1_4",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_4_Cream",
+      "room": "Class_1_4",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_1_4_Glow",
+      "room": "Class_1_4",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_1_GreyTile",
+      "room": "GreenCorridor_1",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_1_White",
+      "room": "GreenCorridor_1",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_1_MintTile",
+      "room": "GreenCorridor_1",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_1_Metal",
+      "room": "GreenCorridor_1",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_1_GreyTile",
+      "room": "Class_2_1",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_1_White",
+      "room": "Class_2_1",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_1_MintTile",
+      "room": "Class_2_1",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_1_YellowFrame",
+      "room": "Class_2_1",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_1_Glass",
+      "room": "Class_2_1",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_2_1_Black",
+      "room": "Class_2_1",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_1_Board",
+      "room": "Class_2_1",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_1_Metal",
+      "room": "Class_2_1",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_1_Desk",
+      "room": "Class_2_1",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_1_Oak",
+      "room": "Class_2_1",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_1_Cream",
+      "room": "Class_2_1",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_1_Glow",
+      "room": "Class_2_1",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_2_2_GreyTile",
+      "room": "Class_2_2",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_2_White",
+      "room": "Class_2_2",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_2_MintTile",
+      "room": "Class_2_2",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_2_YellowFrame",
+      "room": "Class_2_2",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_2_Glass",
+      "room": "Class_2_2",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_2_2_Black",
+      "room": "Class_2_2",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_2_Board",
+      "room": "Class_2_2",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_2_Metal",
+      "room": "Class_2_2",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_2_Desk",
+      "room": "Class_2_2",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_2_Oak",
+      "room": "Class_2_2",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_2_Cream",
+      "room": "Class_2_2",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_2_Glow",
+      "room": "Class_2_2",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_2_3_GreyTile",
+      "room": "Class_2_3",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_3_White",
+      "room": "Class_2_3",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_3_MintTile",
+      "room": "Class_2_3",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_3_YellowFrame",
+      "room": "Class_2_3",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_3_Glass",
+      "room": "Class_2_3",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_2_3_Black",
+      "room": "Class_2_3",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_3_Board",
+      "room": "Class_2_3",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_3_Metal",
+      "room": "Class_2_3",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_3_Desk",
+      "room": "Class_2_3",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_3_Oak",
+      "room": "Class_2_3",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_3_Cream",
+      "room": "Class_2_3",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_3_Glow",
+      "room": "Class_2_3",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_2_4_GreyTile",
+      "room": "Class_2_4",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_4_White",
+      "room": "Class_2_4",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_4_MintTile",
+      "room": "Class_2_4",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_4_YellowFrame",
+      "room": "Class_2_4",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_4_Glass",
+      "room": "Class_2_4",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_2_4_Black",
+      "room": "Class_2_4",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_4_Board",
+      "room": "Class_2_4",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_4_Metal",
+      "room": "Class_2_4",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_4_Desk",
+      "room": "Class_2_4",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_4_Oak",
+      "room": "Class_2_4",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_4_Cream",
+      "room": "Class_2_4",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_2_4_Glow",
+      "room": "Class_2_4",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_2_GreyTile",
+      "room": "GreenCorridor_2",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_2_White",
+      "room": "GreenCorridor_2",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_2_MintTile",
+      "room": "GreenCorridor_2",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_2_Metal",
+      "room": "GreenCorridor_2",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_1_GreyTile",
+      "room": "Class_3_1",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_1_White",
+      "room": "Class_3_1",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_1_MintTile",
+      "room": "Class_3_1",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_1_YellowFrame",
+      "room": "Class_3_1",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_1_Glass",
+      "room": "Class_3_1",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_3_1_Black",
+      "room": "Class_3_1",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_1_Board",
+      "room": "Class_3_1",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_1_Metal",
+      "room": "Class_3_1",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_1_Desk",
+      "room": "Class_3_1",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_1_Oak",
+      "room": "Class_3_1",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_1_Cream",
+      "room": "Class_3_1",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_1_Glow",
+      "room": "Class_3_1",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_3_2_GreyTile",
+      "room": "Class_3_2",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_2_White",
+      "room": "Class_3_2",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_2_MintTile",
+      "room": "Class_3_2",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_2_YellowFrame",
+      "room": "Class_3_2",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_2_Glass",
+      "room": "Class_3_2",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_3_2_Black",
+      "room": "Class_3_2",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_2_Board",
+      "room": "Class_3_2",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_2_Metal",
+      "room": "Class_3_2",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_2_Desk",
+      "room": "Class_3_2",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_2_Oak",
+      "room": "Class_3_2",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_2_Cream",
+      "room": "Class_3_2",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_2_Glow",
+      "room": "Class_3_2",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_3_3_GreyTile",
+      "room": "Class_3_3",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_3_White",
+      "room": "Class_3_3",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_3_MintTile",
+      "room": "Class_3_3",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_3_YellowFrame",
+      "room": "Class_3_3",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_3_Glass",
+      "room": "Class_3_3",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_3_3_Black",
+      "room": "Class_3_3",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_3_Board",
+      "room": "Class_3_3",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_3_Metal",
+      "room": "Class_3_3",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_3_Desk",
+      "room": "Class_3_3",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_3_Oak",
+      "room": "Class_3_3",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_3_Cream",
+      "room": "Class_3_3",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_3_Glow",
+      "room": "Class_3_3",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_3_4_GreyTile",
+      "room": "Class_3_4",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_4_White",
+      "room": "Class_3_4",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_4_MintTile",
+      "room": "Class_3_4",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_4_YellowFrame",
+      "room": "Class_3_4",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_4_Glass",
+      "room": "Class_3_4",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_3_4_Black",
+      "room": "Class_3_4",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_4_Board",
+      "room": "Class_3_4",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_4_Metal",
+      "room": "Class_3_4",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_4_Desk",
+      "room": "Class_3_4",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_4_Oak",
+      "room": "Class_3_4",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_4_Cream",
+      "room": "Class_3_4",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_3_4_Glow",
+      "room": "Class_3_4",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_3_GreyTile",
+      "room": "GreenCorridor_3",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_3_White",
+      "room": "GreenCorridor_3",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_3_MintTile",
+      "room": "GreenCorridor_3",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_3_Metal",
+      "room": "GreenCorridor_3",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_1_GreyTile",
+      "room": "Class_4_1",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_1_White",
+      "room": "Class_4_1",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_1_MintTile",
+      "room": "Class_4_1",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_1_YellowFrame",
+      "room": "Class_4_1",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_1_Glass",
+      "room": "Class_4_1",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_4_1_Black",
+      "room": "Class_4_1",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_1_Board",
+      "room": "Class_4_1",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_1_Metal",
+      "room": "Class_4_1",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_1_Desk",
+      "room": "Class_4_1",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_1_Oak",
+      "room": "Class_4_1",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_1_Cream",
+      "room": "Class_4_1",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_1_Glow",
+      "room": "Class_4_1",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_4_2_GreyTile",
+      "room": "Class_4_2",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_2_White",
+      "room": "Class_4_2",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_2_MintTile",
+      "room": "Class_4_2",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_2_YellowFrame",
+      "room": "Class_4_2",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_2_Glass",
+      "room": "Class_4_2",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_4_2_Black",
+      "room": "Class_4_2",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_2_Board",
+      "room": "Class_4_2",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_2_Metal",
+      "room": "Class_4_2",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_2_Desk",
+      "room": "Class_4_2",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_2_Oak",
+      "room": "Class_4_2",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_2_Cream",
+      "room": "Class_4_2",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_2_Glow",
+      "room": "Class_4_2",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_4_3_GreyTile",
+      "room": "Class_4_3",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_3_White",
+      "room": "Class_4_3",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_3_MintTile",
+      "room": "Class_4_3",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_3_YellowFrame",
+      "room": "Class_4_3",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_3_Glass",
+      "room": "Class_4_3",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_4_3_Black",
+      "room": "Class_4_3",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_3_Board",
+      "room": "Class_4_3",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_3_Metal",
+      "room": "Class_4_3",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_3_Desk",
+      "room": "Class_4_3",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_3_Oak",
+      "room": "Class_4_3",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_3_Cream",
+      "room": "Class_4_3",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_3_Glow",
+      "room": "Class_4_3",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_4_4_GreyTile",
+      "room": "Class_4_4",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_4_White",
+      "room": "Class_4_4",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_4_MintTile",
+      "room": "Class_4_4",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_4_YellowFrame",
+      "room": "Class_4_4",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_4_Glass",
+      "room": "Class_4_4",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_4_4_Black",
+      "room": "Class_4_4",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_4_Board",
+      "room": "Class_4_4",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_4_Metal",
+      "room": "Class_4_4",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_4_Desk",
+      "room": "Class_4_4",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_4_Oak",
+      "room": "Class_4_4",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_4_Cream",
+      "room": "Class_4_4",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_4_4_Glow",
+      "room": "Class_4_4",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_4_GreyTile",
+      "room": "GreenCorridor_4",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_4_White",
+      "room": "GreenCorridor_4",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_4_MintTile",
+      "room": "GreenCorridor_4",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_4_Metal",
+      "room": "GreenCorridor_4",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_1_GreyTile",
+      "room": "Class_5_1",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_1_White",
+      "room": "Class_5_1",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_1_MintTile",
+      "room": "Class_5_1",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_1_YellowFrame",
+      "room": "Class_5_1",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_1_Glass",
+      "room": "Class_5_1",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_5_1_Black",
+      "room": "Class_5_1",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_1_Board",
+      "room": "Class_5_1",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_1_Metal",
+      "room": "Class_5_1",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_1_Desk",
+      "room": "Class_5_1",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_1_Oak",
+      "room": "Class_5_1",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_1_Cream",
+      "room": "Class_5_1",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_1_Glow",
+      "room": "Class_5_1",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_5_2_GreyTile",
+      "room": "Class_5_2",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_2_White",
+      "room": "Class_5_2",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_2_MintTile",
+      "room": "Class_5_2",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_2_YellowFrame",
+      "room": "Class_5_2",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_2_Glass",
+      "room": "Class_5_2",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_5_2_Black",
+      "room": "Class_5_2",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_2_Board",
+      "room": "Class_5_2",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_2_Metal",
+      "room": "Class_5_2",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_2_Desk",
+      "room": "Class_5_2",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_2_Oak",
+      "room": "Class_5_2",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_2_Cream",
+      "room": "Class_5_2",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_2_Glow",
+      "room": "Class_5_2",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_5_3_GreyTile",
+      "room": "Class_5_3",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_3_White",
+      "room": "Class_5_3",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_3_MintTile",
+      "room": "Class_5_3",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_3_YellowFrame",
+      "room": "Class_5_3",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_3_Glass",
+      "room": "Class_5_3",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_5_3_Black",
+      "room": "Class_5_3",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_3_Board",
+      "room": "Class_5_3",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_3_Metal",
+      "room": "Class_5_3",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_3_Desk",
+      "room": "Class_5_3",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_3_Oak",
+      "room": "Class_5_3",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_3_Cream",
+      "room": "Class_5_3",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_3_Glow",
+      "room": "Class_5_3",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_5_4_GreyTile",
+      "room": "Class_5_4",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_4_White",
+      "room": "Class_5_4",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_4_MintTile",
+      "room": "Class_5_4",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_4_YellowFrame",
+      "room": "Class_5_4",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_4_Glass",
+      "room": "Class_5_4",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_5_4_Black",
+      "room": "Class_5_4",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_4_Board",
+      "room": "Class_5_4",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_4_Metal",
+      "room": "Class_5_4",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_4_Desk",
+      "room": "Class_5_4",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_4_Oak",
+      "room": "Class_5_4",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_4_Cream",
+      "room": "Class_5_4",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_5_4_Glow",
+      "room": "Class_5_4",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_5_GreyTile",
+      "room": "GreenCorridor_5",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_5_White",
+      "room": "GreenCorridor_5",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_5_MintTile",
+      "room": "GreenCorridor_5",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_5_Metal",
+      "room": "GreenCorridor_5",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_1_GreyTile",
+      "room": "Class_6_1",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_1_White",
+      "room": "Class_6_1",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_1_MintTile",
+      "room": "Class_6_1",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_1_YellowFrame",
+      "room": "Class_6_1",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_1_Glass",
+      "room": "Class_6_1",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_6_1_Black",
+      "room": "Class_6_1",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_1_Board",
+      "room": "Class_6_1",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_1_Metal",
+      "room": "Class_6_1",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_1_Desk",
+      "room": "Class_6_1",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_1_Oak",
+      "room": "Class_6_1",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_1_Cream",
+      "room": "Class_6_1",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_1_Glow",
+      "room": "Class_6_1",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_6_2_GreyTile",
+      "room": "Class_6_2",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_2_White",
+      "room": "Class_6_2",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_2_MintTile",
+      "room": "Class_6_2",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_2_YellowFrame",
+      "room": "Class_6_2",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_2_Glass",
+      "room": "Class_6_2",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_6_2_Black",
+      "room": "Class_6_2",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_2_Board",
+      "room": "Class_6_2",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_2_Metal",
+      "room": "Class_6_2",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_2_Desk",
+      "room": "Class_6_2",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_2_Oak",
+      "room": "Class_6_2",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_2_Cream",
+      "room": "Class_6_2",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_2_Glow",
+      "room": "Class_6_2",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_6_3_GreyTile",
+      "room": "Class_6_3",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_3_White",
+      "room": "Class_6_3",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_3_MintTile",
+      "room": "Class_6_3",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_3_YellowFrame",
+      "room": "Class_6_3",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_3_Glass",
+      "room": "Class_6_3",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_6_3_Black",
+      "room": "Class_6_3",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_3_Board",
+      "room": "Class_6_3",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_3_Metal",
+      "room": "Class_6_3",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_3_Desk",
+      "room": "Class_6_3",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_3_Oak",
+      "room": "Class_6_3",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_3_Cream",
+      "room": "Class_6_3",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_3_Glow",
+      "room": "Class_6_3",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_6_4_GreyTile",
+      "room": "Class_6_4",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_4_White",
+      "room": "Class_6_4",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_4_MintTile",
+      "room": "Class_6_4",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_4_YellowFrame",
+      "room": "Class_6_4",
+      "material": "M_Interior_YellowFrame",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_4_Glass",
+      "room": "Class_6_4",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_Class_6_4_Black",
+      "room": "Class_6_4",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_4_Board",
+      "room": "Class_6_4",
+      "material": "M_Interior_Board",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_4_Metal",
+      "room": "Class_6_4",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_4_Desk",
+      "room": "Class_6_4",
+      "material": "M_Interior_Desk",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_4_Oak",
+      "room": "Class_6_4",
+      "material": "M_Interior_Oak",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_4_Cream",
+      "room": "Class_6_4",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Class_6_4_Glow",
+      "room": "Class_6_4",
+      "material": "M_Interior_Glow",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_6_GreyTile",
+      "room": "GreenCorridor_6",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_6_White",
+      "room": "GreenCorridor_6",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_6_MintTile",
+      "room": "GreenCorridor_6",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenCorridor_6_Metal",
+      "room": "GreenCorridor_6",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_TeachingDetail_1_MintTile",
+      "room": "TeachingDetail_1",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_TeachingDetail_1_Black",
+      "room": "TeachingDetail_1",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_TeachingDetail_1_Metal",
+      "room": "TeachingDetail_1",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_TeachingDetail_2_MintTile",
+      "room": "TeachingDetail_2",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_TeachingDetail_2_Black",
+      "room": "TeachingDetail_2",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_TeachingDetail_2_Metal",
+      "room": "TeachingDetail_2",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_TeachingDetail_3_MintTile",
+      "room": "TeachingDetail_3",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_TeachingDetail_3_Black",
+      "room": "TeachingDetail_3",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_TeachingDetail_3_Metal",
+      "room": "TeachingDetail_3",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_TeachingDetail_4_MintTile",
+      "room": "TeachingDetail_4",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_TeachingDetail_4_Black",
+      "room": "TeachingDetail_4",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_TeachingDetail_4_Metal",
+      "room": "TeachingDetail_4",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_TeachingDetail_5_MintTile",
+      "room": "TeachingDetail_5",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_TeachingDetail_5_Black",
+      "room": "TeachingDetail_5",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_TeachingDetail_5_Metal",
+      "room": "TeachingDetail_5",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_TeachingDetail_6_MintTile",
+      "room": "TeachingDetail_6",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_TeachingDetail_6_Black",
+      "room": "TeachingDetail_6",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_TeachingDetail_6_Metal",
+      "room": "TeachingDetail_6",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenStair_White",
+      "room": "GreenStair",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenStair_MintTile",
+      "room": "GreenStair",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_GreenStair_Glass",
+      "room": "GreenStair",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_GreenStair_Metal",
+      "room": "GreenStair",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_WestStair_White",
+      "room": "WestStair",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_WestStair_MintTile",
+      "room": "WestStair",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_WestStair_Glass",
+      "room": "WestStair",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_WestStair_Metal",
+      "room": "WestStair",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_TeachingGround_GreyTile",
+      "room": "TeachingGround",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_TeachingGround_White",
+      "room": "TeachingGround",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_TeachingFacade_White",
+      "room": "TeachingFacade",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_EastBlock_White",
+      "room": "EastBlock",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_EastBlock_Glass",
+      "room": "EastBlock",
+      "material": "M_Interior_Glass",
+      "collision": false
+    },
+    {
+      "name": "SM_Walk_EastBlock_Metal",
+      "room": "EastBlock",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_EastBlock_MintTile",
+      "room": "EastBlock",
+      "material": "M_Interior_MintTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_Boundary_Stone",
+      "room": "Boundary",
+      "material": "M_Interior_Stone",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_NorthwestAnnex_Stone",
+      "room": "NorthwestAnnex",
+      "material": "M_Interior_Stone",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_NorthwestAnnex_AnnexPlaster",
+      "room": "NorthwestAnnex",
+      "material": "M_Interior_AnnexPlaster",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_NorthwestAnnex_WindowShade",
+      "room": "NorthwestAnnex",
+      "material": "M_Interior_WindowShade",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_NorthwestAnnex_White",
+      "room": "NorthwestAnnex",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_NorthwestAnnex_Cream",
+      "room": "NorthwestAnnex",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_NorthwestAnnex_WeatheredRoof",
+      "room": "NorthwestAnnex",
+      "material": "M_Interior_WeatheredRoof",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_NorthwestAnnex_Black",
+      "room": "NorthwestAnnex",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_NorthwestRearWing_TerrazzoRose",
+      "room": "NorthwestRearWing",
+      "material": "M_Interior_TerrazzoRose",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_NorthwestRearWing_White",
+      "room": "NorthwestRearWing",
+      "material": "M_Interior_White",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_NorthwestRearWing_AnnexPlaster",
+      "room": "NorthwestRearWing",
+      "material": "M_Interior_AnnexPlaster",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_NorthwestRearWing_Cream",
+      "room": "NorthwestRearWing",
+      "material": "M_Interior_Cream",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_NorthwestRearWing_WindowShade",
+      "room": "NorthwestRearWing",
+      "material": "M_Interior_WindowShade",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_NorthwestRearWing_Metal",
+      "room": "NorthwestRearWing",
+      "material": "M_Interior_Metal",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_NorthwestRearWing_PinkTile",
+      "room": "NorthwestRearWing",
+      "material": "M_Interior_PinkTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_NorthwestRearWing_WeatheredRoof",
+      "room": "NorthwestRearWing",
+      "material": "M_Interior_WeatheredRoof",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_NorthwestForecourt_GreyTile",
+      "room": "NorthwestForecourt",
+      "material": "M_Interior_GreyTile",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_HistoricEntranceTower_Black",
+      "room": "HistoricEntranceTower",
+      "material": "M_Interior_Black",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_LobbyLeftDoor_DarkWood",
+      "room": "LobbyLeftDoor",
+      "material": "M_Interior_DarkWood",
+      "collision": true
+    },
+    {
+      "name": "SM_Walk_LobbyLeftDoor_TerrazzoHall",
+      "room": "LobbyLeftDoor",
+      "material": "M_Interior_TerrazzoHall",
+      "collision": true
+    }
+  ],
+  "materials": {
+    "Cream": {
+      "color": [
+        0.73,
+        0.7,
+        0.6
+      ],
+      "roughness": 0.72,
+      "metallic": 0,
+      "texture": null
+    },
+    "White": {
+      "color": [
+        0.88,
+        0.88,
+        0.84
+      ],
+      "roughness": 0.65,
+      "metallic": 0,
+      "texture": null
+    },
+    "TerrazzoRose": {
+      "color": [
+        0.58,
+        0.32,
+        0.29
+      ],
+      "roughness": 0.29,
+      "metallic": 0,
+      "texture": "terrazzo_tiles"
+    },
+    "TerrazzoCream": {
+      "color": [
+        0.84,
+        0.75,
+        0.53
+      ],
+      "roughness": 0.27,
+      "metallic": 0,
+      "texture": "terrazzo_tiles"
+    },
+    "TerrazzoGreen": {
+      "color": [
+        0.065,
+        0.125,
+        0.105
+      ],
+      "roughness": 0.26,
+      "metallic": 0,
+      "texture": "terrazzo_tiles"
+    },
+    "TerrazzoHall": {
+      "color": [
+        0.72,
+        0.68,
+        0.55
+      ],
+      "roughness": 0.32,
+      "metallic": 0,
+      "texture": "terrazzo_tiles"
+    },
+    "Oak": {
+      "color": [
+        0.7,
+        0.47,
+        0.22
+      ],
+      "roughness": 0.38,
+      "metallic": 0,
+      "texture": "wood_floor"
+    },
+    "LightOak": {
+      "color": [
+        0.88,
+        0.76,
+        0.5
+      ],
+      "roughness": 0.43,
+      "metallic": 0,
+      "texture": "wood_floor"
+    },
+    "DarkWood": {
+      "color": [
+        0.17,
+        0.075,
+        0.027
+      ],
+      "roughness": 0.35,
+      "metallic": 0,
+      "texture": "wood_floor"
+    },
+    "Black": {
+      "color": [
+        0.025,
+        0.029,
+        0.03
+      ],
+      "roughness": 0.45,
+      "metallic": 0.35,
+      "texture": null
+    },
+    "Brass": {
+      "color": [
+        0.39,
+        0.27,
+        0.1
+      ],
+      "roughness": 0.35,
+      "metallic": 0.85,
+      "texture": null
+    },
+    "Bronze": {
+      "color": [
+        0.13,
+        0.16,
+        0.11
+      ],
+      "roughness": 0.47,
+      "metallic": 0.75,
+      "texture": null
+    },
+    "Stone": {
+      "color": [
+        0.68,
+        0.66,
+        0.58
+      ],
+      "roughness": 0.38,
+      "metallic": 0,
+      "texture": "terrazzo_tiles"
+    },
+    "Velvet": {
+      "color": [
+        0.1,
+        0.009,
+        0.016
+      ],
+      "roughness": 0.95,
+      "metallic": 0,
+      "texture": null
+    },
+    "Glass": {
+      "color": [
+        0.63,
+        0.76,
+        0.8
+      ],
+      "roughness": 0.12,
+      "metallic": 0,
+      "texture": null
+    },
+    "Glow": {
+      "color": [
+        0.92,
+        0.94,
+        0.86
+      ],
+      "roughness": 0.3,
+      "metallic": 0,
+      "texture": null
+    },
+    "Paper": {
+      "color": [
+        0.86,
+        0.83,
+        0.7
+      ],
+      "roughness": 0.8,
+      "metallic": 0,
+      "texture": null
+    },
+    "MintTile": {
+      "color": [
+        0.45,
+        0.55,
+        0.36
+      ],
+      "roughness": 0.4,
+      "metallic": 0,
+      "texture": null
+    },
+    "PinkTile": {
+      "color": [
+        0.56,
+        0.37,
+        0.33
+      ],
+      "roughness": 0.35,
+      "metallic": 0,
+      "texture": null
+    },
+    "GreyTile": {
+      "color": [
+        0.39,
+        0.4,
+        0.37
+      ],
+      "roughness": 0.55,
+      "metallic": 0,
+      "texture": null
+    },
+    "YellowFrame": {
+      "color": [
+        0.63,
+        0.42,
+        0.08
+      ],
+      "roughness": 0.32,
+      "metallic": 0.25,
+      "texture": null
+    },
+    "Desk": {
+      "color": [
+        0.64,
+        0.3,
+        0.085
+      ],
+      "roughness": 0.4,
+      "metallic": 0,
+      "texture": null
+    },
+    "CourtRed": {
+      "color": [
+        0.32,
+        0.075,
+        0.06
+      ],
+      "roughness": 0.85,
+      "metallic": 0,
+      "texture": null
+    },
+    "CourtGreen": {
+      "color": [
+        0.1,
+        0.25,
+        0.18
+      ],
+      "roughness": 0.8,
+      "metallic": 0,
+      "texture": null
+    },
+    "Metal": {
+      "color": [
+        0.38,
+        0.4,
+        0.39
+      ],
+      "roughness": 0.3,
+      "metallic": 0.8,
+      "texture": null
+    },
+    "Board": {
+      "color": [
+        0.04,
+        0.13,
+        0.1
+      ],
+      "roughness": 0.9,
+      "metallic": 0,
+      "texture": null
+    },
+    "FireRed": {
+      "color": [
+        0.55,
+        0.015,
+        0.012
+      ],
+      "roughness": 0.38,
+      "metallic": 0,
+      "texture": null
+    },
+    "ShanghaiRender": {
+      "color": [
+        0.49,
+        0.485,
+        0.45
+      ],
+      "roughness": 0.9,
+      "metallic": 0,
+      "texture": "concrete_wall_003"
+    },
+    "FacadeWhite": {
+      "color": [
+        0.69,
+        0.7,
+        0.67
+      ],
+      "roughness": 0.9,
+      "metallic": 0,
+      "texture": "concrete_wall_003"
+    },
+    "FacadeMetal": {
+      "color": [
+        0.4,
+        0.43,
+        0.42
+      ],
+      "roughness": 0.36,
+      "metallic": 0.7,
+      "texture": null
+    },
+    "FacadeGlass": {
+      "color": [
+        0.032,
+        0.055,
+        0.058
+      ],
+      "roughness": 0.22,
+      "metallic": 0.15,
+      "texture": null
+    },
+    "RoofConcrete": {
+      "color": [
+        0.29,
+        0.3,
+        0.28
+      ],
+      "roughness": 0.95,
+      "metallic": 0,
+      "texture": "concrete_wall_003"
+    },
+    "Joint": {
+      "color": [
+        0.21,
+        0.22,
+        0.2
+      ],
+      "roughness": 0.95,
+      "metallic": 0,
+      "texture": null
+    },
+    "AnnexPlaster": {
+      "color": [
+        0.73,
+        0.74,
+        0.69
+      ],
+      "roughness": 0.88,
+      "metallic": 0,
+      "texture": null
+    },
+    "WeatheredRoof": {
+      "color": [
+        0.25,
+        0.26,
+        0.24
+      ],
+      "roughness": 0.94,
+      "metallic": 0,
+      "texture": null
+    },
+    "WindowShade": {
+      "color": [
+        0.045,
+        0.068,
+        0.072
+      ],
+      "roughness": 0.28,
+      "metallic": 0.15,
+      "texture": null
+    }
+  },
+  "doors": [
+    {
+      "location": [
+        18.43569400537187,
+        -18.741323127026398,
+        -24.55
+      ],
+      "yaw": 20,
+      "type": "Gate"
+    },
+    {
+      "location": [
+        20.61578088559512,
+        -17.94783639451087,
+        -24.55
+      ],
+      "yaw": 200,
+      "type": "Gate"
+    },
+    {
+      "location": [
+        19.326746375000184,
+        -9.90358440750203,
+        -24.55
+      ],
+      "yaw": 110,
+      "type": "Wood"
+    },
+    {
+      "location": [
+        18.574302059683713,
+        -7.836260641773032,
+        -24.55
+      ],
+      "yaw": -70,
+      "type": "Wood"
+    },
+    {
+      "location": [
+        44.08964879495602,
+        26.699245004403547,
+        -21.05
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        53.08108278919272,
+        26.306670518115517,
+        -21.05
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        62.07251678342945,
+        25.91409603182749,
+        -21.05
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        71.06395077766616,
+        25.52152154553947,
+        -21.05
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        44.08964879495602,
+        26.699245004403547,
+        -17.55
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        53.08108278919272,
+        26.306670518115517,
+        -17.55
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        62.07251678342945,
+        25.91409603182749,
+        -17.55
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        71.06395077766616,
+        25.52152154553947,
+        -17.55
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        44.08964879495602,
+        26.699245004403547,
+        -14.05
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        53.08108278919272,
+        26.306670518115517,
+        -14.05
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        62.07251678342945,
+        25.91409603182749,
+        -14.05
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        71.06395077766616,
+        25.52152154553947,
+        -14.05
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        44.08964879495602,
+        26.699245004403547,
+        -10.55
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        53.08108278919272,
+        26.306670518115517,
+        -10.55
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        62.07251678342945,
+        25.91409603182749,
+        -10.55
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        71.06395077766616,
+        25.52152154553947,
+        -10.55
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        44.08964879495602,
+        26.699245004403547,
+        -7.050000000000001
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        53.08108278919272,
+        26.306670518115517,
+        -7.050000000000001
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        62.07251678342945,
+        25.91409603182749,
+        -7.050000000000001
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        71.06395077766616,
+        25.52152154553947,
+        -7.050000000000001
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        44.08964879495602,
+        26.699245004403547,
+        -3.5500000000000007
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        53.08108278919272,
+        26.306670518115517,
+        -3.5500000000000007
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        62.07251678342945,
+        25.91409603182749,
+        -3.5500000000000007
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    },
+    {
+      "location": [
+        71.06395077766616,
+        25.52152154553947,
+        -3.5500000000000007
+      ],
+      "yaw": -2.5,
+      "type": "Yellow",
+      "wing": true
+    }
+  ],
+  "lights": [
+    {
+      "location": [
+        15.687855496692388,
+        -12.185792368177188,
+        -20.85
+      ],
+      "lumens": 2520.0,
+      "size": 0.65,
+      "zone": "Lobby"
+    },
+    {
+      "location": [
+        14.388178952054847,
+        -8.614960409190736,
+        -20.85
+      ],
+      "lumens": 2520.0,
+      "size": 0.65,
+      "zone": "Lobby"
+    },
+    {
+      "location": [
+        18.50693335905011,
+        -11.159731938200181,
+        -20.85
+      ],
+      "lumens": 2520.0,
+      "size": 0.65,
+      "zone": "Lobby"
+    },
+    {
+      "location": [
+        17.20725681441257,
+        -7.588899979213729,
+        -20.85
+      ],
+      "lumens": 2520.0,
+      "size": 0.65,
+      "zone": "Lobby"
+    },
+    {
+      "location": [
+        20.215308528959138,
+        -10.005845341155874,
+        -20.05
+      ],
+      "lumens": 909.9999999999999,
+      "size": 0.4,
+      "zone": "Hall"
+    },
+    {
+      "location": [
+        31.115742930075594,
+        -6.038411678578148,
+        -20.05
+      ],
+      "lumens": 909.9999999999999,
+      "size": 0.4,
+      "zone": "Hall"
+    },
+    {
+      "location": [
+        25.665525729517366,
+        -8.022128509867011,
+        -16.450000000000003
+      ],
+      "lumens": 8400.0,
+      "size": 3,
+      "zone": "Hall"
+    },
+    {
+      "location": [
+        18.505207812330795,
+        -5.3073822372263315,
+        -20.05
+      ],
+      "lumens": 909.9999999999999,
+      "size": 0.4,
+      "zone": "Hall"
+    },
+    {
+      "location": [
+        29.40564221344725,
+        -1.3399485746486057,
+        -20.05
+      ],
+      "lumens": 909.9999999999999,
+      "size": 0.4,
+      "zone": "Hall"
+    },
+    {
+      "location": [
+        23.955425012889023,
+        -3.3236654059374686,
+        -16.450000000000003
+      ],
+      "lumens": 8400.0,
+      "size": 3,
+      "zone": "Hall"
+    },
+    {
+      "location": [
+        16.79510709570245,
+        -0.6089191332967889,
+        -20.05
+      ],
+      "lumens": 909.9999999999999,
+      "size": 0.4,
+      "zone": "Hall"
+    },
+    {
+      "location": [
+        27.695541496818905,
+        3.358514529280937,
+        -20.05
+      ],
+      "lumens": 909.9999999999999,
+      "size": 0.4,
+      "zone": "Hall"
+    },
+    {
+      "location": [
+        22.245324296260677,
+        1.374797697992074,
+        -16.450000000000003
+      ],
+      "lumens": 8400.0,
+      "size": 3,
+      "zone": "Hall"
+    },
+    {
+      "location": [
+        15.085006379074105,
+        4.089543970632752,
+        -20.05
+      ],
+      "lumens": 909.9999999999999,
+      "size": 0.4,
+      "zone": "Hall"
+    },
+    {
+      "location": [
+        25.98544078019056,
+        8.056977633210478,
+        -20.05
+      ],
+      "lumens": 909.9999999999999,
+      "size": 0.4,
+      "zone": "Hall"
+    },
+    {
+      "location": [
+        20.535223579632333,
+        6.073260801921615,
+        -16.450000000000003
+      ],
+      "lumens": 8400.0,
+      "size": 3,
+      "zone": "Hall"
+    },
+    {
+      "location": [
+        39.82568397377871,
+        25.78436577534522,
+        -21.5
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_0"
+    },
+    {
+      "location": [
+        48.81711796801543,
+        25.391791289057196,
+        -21.5
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_0"
+    },
+    {
+      "location": [
+        57.808551962252146,
+        24.99921680276917,
+        -21.5
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_0"
+    },
+    {
+      "location": [
+        66.79998595648887,
+        24.60664231648115,
+        -21.5
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_0"
+    },
+    {
+      "location": [
+        75.79141995072558,
+        24.214067830193123,
+        -21.5
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_0"
+    },
+    {
+      "location": [
+        39.48318965750299,
+        29.402749066722578,
+        -18.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_1_1"
+    },
+    {
+      "location": [
+        39.657667206964334,
+        33.39894195305001,
+        -18.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_1_1"
+    },
+    {
+      "location": [
+        43.479382543830425,
+        29.228271517261238,
+        -18.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_1_1"
+    },
+    {
+      "location": [
+        43.65386009329177,
+        33.22446440358866,
+        -18.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_1_1"
+    },
+    {
+      "location": [
+        48.474623651739705,
+        29.010174580434555,
+        -18.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_1_2"
+    },
+    {
+      "location": [
+        48.64910120120105,
+        33.00636746676198,
+        -18.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_1_2"
+    },
+    {
+      "location": [
+        52.47081653806714,
+        28.83569703097321,
+        -18.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_1_2"
+    },
+    {
+      "location": [
+        52.64529408752847,
+        32.831889917300636,
+        -18.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_1_2"
+    },
+    {
+      "location": [
+        57.46605764597642,
+        28.617600094146535,
+        -18.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_1_3"
+    },
+    {
+      "location": [
+        57.640535195437764,
+        32.61379298047396,
+        -18.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_1_3"
+    },
+    {
+      "location": [
+        61.46225053230387,
+        28.44312254468519,
+        -18.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_1_3"
+    },
+    {
+      "location": [
+        61.63672808176521,
+        32.439315431012616,
+        -18.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_1_3"
+    },
+    {
+      "location": [
+        66.45749164021315,
+        28.225025607858502,
+        -18.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_1_4"
+    },
+    {
+      "location": [
+        66.63196918967448,
+        32.22121849418593,
+        -18.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_1_4"
+    },
+    {
+      "location": [
+        70.45368452654058,
+        28.050548058397162,
+        -18.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_1_4"
+    },
+    {
+      "location": [
+        70.62816207600191,
+        32.04674094472459,
+        -18.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_1_4"
+    },
+    {
+      "location": [
+        39.82568397377871,
+        25.78436577534522,
+        -18.0
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_1"
+    },
+    {
+      "location": [
+        48.81711796801543,
+        25.391791289057196,
+        -18.0
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_1"
+    },
+    {
+      "location": [
+        57.808551962252146,
+        24.99921680276917,
+        -18.0
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_1"
+    },
+    {
+      "location": [
+        66.79998595648887,
+        24.60664231648115,
+        -18.0
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_1"
+    },
+    {
+      "location": [
+        75.79141995072558,
+        24.214067830193123,
+        -18.0
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_1"
+    },
+    {
+      "location": [
+        39.48318965750299,
+        29.402749066722578,
+        -14.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_2_1"
+    },
+    {
+      "location": [
+        39.657667206964334,
+        33.39894195305001,
+        -14.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_2_1"
+    },
+    {
+      "location": [
+        43.479382543830425,
+        29.228271517261238,
+        -14.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_2_1"
+    },
+    {
+      "location": [
+        43.65386009329177,
+        33.22446440358866,
+        -14.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_2_1"
+    },
+    {
+      "location": [
+        48.474623651739705,
+        29.010174580434555,
+        -14.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_2_2"
+    },
+    {
+      "location": [
+        48.64910120120105,
+        33.00636746676198,
+        -14.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_2_2"
+    },
+    {
+      "location": [
+        52.47081653806714,
+        28.83569703097321,
+        -14.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_2_2"
+    },
+    {
+      "location": [
+        52.64529408752847,
+        32.831889917300636,
+        -14.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_2_2"
+    },
+    {
+      "location": [
+        57.46605764597642,
+        28.617600094146535,
+        -14.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_2_3"
+    },
+    {
+      "location": [
+        57.640535195437764,
+        32.61379298047396,
+        -14.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_2_3"
+    },
+    {
+      "location": [
+        61.46225053230387,
+        28.44312254468519,
+        -14.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_2_3"
+    },
+    {
+      "location": [
+        61.63672808176521,
+        32.439315431012616,
+        -14.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_2_3"
+    },
+    {
+      "location": [
+        66.45749164021315,
+        28.225025607858502,
+        -14.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_2_4"
+    },
+    {
+      "location": [
+        66.63196918967448,
+        32.22121849418593,
+        -14.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_2_4"
+    },
+    {
+      "location": [
+        70.45368452654058,
+        28.050548058397162,
+        -14.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_2_4"
+    },
+    {
+      "location": [
+        70.62816207600191,
+        32.04674094472459,
+        -14.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_2_4"
+    },
+    {
+      "location": [
+        39.82568397377871,
+        25.78436577534522,
+        -14.5
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_2"
+    },
+    {
+      "location": [
+        48.81711796801543,
+        25.391791289057196,
+        -14.5
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_2"
+    },
+    {
+      "location": [
+        57.808551962252146,
+        24.99921680276917,
+        -14.5
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_2"
+    },
+    {
+      "location": [
+        66.79998595648887,
+        24.60664231648115,
+        -14.5
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_2"
+    },
+    {
+      "location": [
+        75.79141995072558,
+        24.214067830193123,
+        -14.5
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_2"
+    },
+    {
+      "location": [
+        39.48318965750299,
+        29.402749066722578,
+        -11.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_3_1"
+    },
+    {
+      "location": [
+        39.657667206964334,
+        33.39894195305001,
+        -11.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_3_1"
+    },
+    {
+      "location": [
+        43.479382543830425,
+        29.228271517261238,
+        -11.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_3_1"
+    },
+    {
+      "location": [
+        43.65386009329177,
+        33.22446440358866,
+        -11.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_3_1"
+    },
+    {
+      "location": [
+        48.474623651739705,
+        29.010174580434555,
+        -11.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_3_2"
+    },
+    {
+      "location": [
+        48.64910120120105,
+        33.00636746676198,
+        -11.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_3_2"
+    },
+    {
+      "location": [
+        52.47081653806714,
+        28.83569703097321,
+        -11.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_3_2"
+    },
+    {
+      "location": [
+        52.64529408752847,
+        32.831889917300636,
+        -11.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_3_2"
+    },
+    {
+      "location": [
+        57.46605764597642,
+        28.617600094146535,
+        -11.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_3_3"
+    },
+    {
+      "location": [
+        57.640535195437764,
+        32.61379298047396,
+        -11.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_3_3"
+    },
+    {
+      "location": [
+        61.46225053230387,
+        28.44312254468519,
+        -11.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_3_3"
+    },
+    {
+      "location": [
+        61.63672808176521,
+        32.439315431012616,
+        -11.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_3_3"
+    },
+    {
+      "location": [
+        66.45749164021315,
+        28.225025607858502,
+        -11.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_3_4"
+    },
+    {
+      "location": [
+        66.63196918967448,
+        32.22121849418593,
+        -11.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_3_4"
+    },
+    {
+      "location": [
+        70.45368452654058,
+        28.050548058397162,
+        -11.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_3_4"
+    },
+    {
+      "location": [
+        70.62816207600191,
+        32.04674094472459,
+        -11.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_3_4"
+    },
+    {
+      "location": [
+        39.82568397377871,
+        25.78436577534522,
+        -11.0
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_3"
+    },
+    {
+      "location": [
+        48.81711796801543,
+        25.391791289057196,
+        -11.0
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_3"
+    },
+    {
+      "location": [
+        57.808551962252146,
+        24.99921680276917,
+        -11.0
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_3"
+    },
+    {
+      "location": [
+        66.79998595648887,
+        24.60664231648115,
+        -11.0
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_3"
+    },
+    {
+      "location": [
+        75.79141995072558,
+        24.214067830193123,
+        -11.0
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_3"
+    },
+    {
+      "location": [
+        39.48318965750299,
+        29.402749066722578,
+        -7.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_4_1"
+    },
+    {
+      "location": [
+        39.657667206964334,
+        33.39894195305001,
+        -7.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_4_1"
+    },
+    {
+      "location": [
+        43.479382543830425,
+        29.228271517261238,
+        -7.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_4_1"
+    },
+    {
+      "location": [
+        43.65386009329177,
+        33.22446440358866,
+        -7.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_4_1"
+    },
+    {
+      "location": [
+        48.474623651739705,
+        29.010174580434555,
+        -7.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_4_2"
+    },
+    {
+      "location": [
+        48.64910120120105,
+        33.00636746676198,
+        -7.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_4_2"
+    },
+    {
+      "location": [
+        52.47081653806714,
+        28.83569703097321,
+        -7.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_4_2"
+    },
+    {
+      "location": [
+        52.64529408752847,
+        32.831889917300636,
+        -7.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_4_2"
+    },
+    {
+      "location": [
+        57.46605764597642,
+        28.617600094146535,
+        -7.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_4_3"
+    },
+    {
+      "location": [
+        57.640535195437764,
+        32.61379298047396,
+        -7.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_4_3"
+    },
+    {
+      "location": [
+        61.46225053230387,
+        28.44312254468519,
+        -7.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_4_3"
+    },
+    {
+      "location": [
+        61.63672808176521,
+        32.439315431012616,
+        -7.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_4_3"
+    },
+    {
+      "location": [
+        66.45749164021315,
+        28.225025607858502,
+        -7.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_4_4"
+    },
+    {
+      "location": [
+        66.63196918967448,
+        32.22121849418593,
+        -7.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_4_4"
+    },
+    {
+      "location": [
+        70.45368452654058,
+        28.050548058397162,
+        -7.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_4_4"
+    },
+    {
+      "location": [
+        70.62816207600191,
+        32.04674094472459,
+        -7.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_4_4"
+    },
+    {
+      "location": [
+        39.82568397377871,
+        25.78436577534522,
+        -7.5
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_4"
+    },
+    {
+      "location": [
+        48.81711796801543,
+        25.391791289057196,
+        -7.5
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_4"
+    },
+    {
+      "location": [
+        57.808551962252146,
+        24.99921680276917,
+        -7.5
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_4"
+    },
+    {
+      "location": [
+        66.79998595648887,
+        24.60664231648115,
+        -7.5
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_4"
+    },
+    {
+      "location": [
+        75.79141995072558,
+        24.214067830193123,
+        -7.5
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_4"
+    },
+    {
+      "location": [
+        39.48318965750299,
+        29.402749066722578,
+        -4.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_5_1"
+    },
+    {
+      "location": [
+        39.657667206964334,
+        33.39894195305001,
+        -4.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_5_1"
+    },
+    {
+      "location": [
+        43.479382543830425,
+        29.228271517261238,
+        -4.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_5_1"
+    },
+    {
+      "location": [
+        43.65386009329177,
+        33.22446440358866,
+        -4.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_5_1"
+    },
+    {
+      "location": [
+        48.474623651739705,
+        29.010174580434555,
+        -4.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_5_2"
+    },
+    {
+      "location": [
+        48.64910120120105,
+        33.00636746676198,
+        -4.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_5_2"
+    },
+    {
+      "location": [
+        52.47081653806714,
+        28.83569703097321,
+        -4.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_5_2"
+    },
+    {
+      "location": [
+        52.64529408752847,
+        32.831889917300636,
+        -4.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_5_2"
+    },
+    {
+      "location": [
+        57.46605764597642,
+        28.617600094146535,
+        -4.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_5_3"
+    },
+    {
+      "location": [
+        57.640535195437764,
+        32.61379298047396,
+        -4.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_5_3"
+    },
+    {
+      "location": [
+        61.46225053230387,
+        28.44312254468519,
+        -4.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_5_3"
+    },
+    {
+      "location": [
+        61.63672808176521,
+        32.439315431012616,
+        -4.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_5_3"
+    },
+    {
+      "location": [
+        66.45749164021315,
+        28.225025607858502,
+        -4.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_5_4"
+    },
+    {
+      "location": [
+        66.63196918967448,
+        32.22121849418593,
+        -4.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_5_4"
+    },
+    {
+      "location": [
+        70.45368452654058,
+        28.050548058397162,
+        -4.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_5_4"
+    },
+    {
+      "location": [
+        70.62816207600191,
+        32.04674094472459,
+        -4.0
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_5_4"
+    },
+    {
+      "location": [
+        39.82568397377871,
+        25.78436577534522,
+        -4.0
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_5"
+    },
+    {
+      "location": [
+        48.81711796801543,
+        25.391791289057196,
+        -4.0
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_5"
+    },
+    {
+      "location": [
+        57.808551962252146,
+        24.99921680276917,
+        -4.0
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_5"
+    },
+    {
+      "location": [
+        66.79998595648887,
+        24.60664231648115,
+        -4.0
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_5"
+    },
+    {
+      "location": [
+        75.79141995072558,
+        24.214067830193123,
+        -4.0
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_5"
+    },
+    {
+      "location": [
+        39.48318965750299,
+        29.402749066722578,
+        -0.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_6_1"
+    },
+    {
+      "location": [
+        39.657667206964334,
+        33.39894195305001,
+        -0.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_6_1"
+    },
+    {
+      "location": [
+        43.479382543830425,
+        29.228271517261238,
+        -0.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_6_1"
+    },
+    {
+      "location": [
+        43.65386009329177,
+        33.22446440358866,
+        -0.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_6_1"
+    },
+    {
+      "location": [
+        48.474623651739705,
+        29.010174580434555,
+        -0.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_6_2"
+    },
+    {
+      "location": [
+        48.64910120120105,
+        33.00636746676198,
+        -0.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_6_2"
+    },
+    {
+      "location": [
+        52.47081653806714,
+        28.83569703097321,
+        -0.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_6_2"
+    },
+    {
+      "location": [
+        52.64529408752847,
+        32.831889917300636,
+        -0.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_6_2"
+    },
+    {
+      "location": [
+        57.46605764597642,
+        28.617600094146535,
+        -0.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_6_3"
+    },
+    {
+      "location": [
+        57.640535195437764,
+        32.61379298047396,
+        -0.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_6_3"
+    },
+    {
+      "location": [
+        61.46225053230387,
+        28.44312254468519,
+        -0.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_6_3"
+    },
+    {
+      "location": [
+        61.63672808176521,
+        32.439315431012616,
+        -0.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_6_3"
+    },
+    {
+      "location": [
+        66.45749164021315,
+        28.225025607858502,
+        -0.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_6_4"
+    },
+    {
+      "location": [
+        66.63196918967448,
+        32.22121849418593,
+        -0.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_6_4"
+    },
+    {
+      "location": [
+        70.45368452654058,
+        28.050548058397162,
+        -0.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_6_4"
+    },
+    {
+      "location": [
+        70.62816207600191,
+        32.04674094472459,
+        -0.5
+      ],
+      "lumens": 3000,
+      "size": 1.1,
+      "zone": "Class_6_4"
+    },
+    {
+      "location": [
+        39.82568397377871,
+        25.78436577534522,
+        -0.5
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_6"
+    },
+    {
+      "location": [
+        48.81711796801543,
+        25.391791289057196,
+        -0.5
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_6"
+    },
+    {
+      "location": [
+        57.808551962252146,
+        24.99921680276917,
+        -0.5
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_6"
+    },
+    {
+      "location": [
+        66.79998595648887,
+        24.60664231648115,
+        -0.5
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_6"
+    },
+    {
+      "location": [
+        75.79141995072558,
+        24.214067830193123,
+        -0.5
+      ],
+      "lumens": 1600,
+      "size": 1.2,
+      "zone": "GreenCorridor_6"
+    },
+    {
+      "location": [
+        41.46820028445711,
+        29.015795825517355,
+        -21.5
+      ],
+      "lumens": 2000,
+      "size": 1.2,
+      "zone": "TeachingGround"
+    },
+    {
+      "location": [
+        41.651401711391514,
+        33.211798356161154,
+        -21.5
+      ],
+      "lumens": 2000,
+      "size": 1.2,
+      "zone": "TeachingGround"
+    },
+    {
+      "location": [
+        50.459634278693834,
+        28.62322133922933,
+        -21.5
+      ],
+      "lumens": 2000,
+      "size": 1.2,
+      "zone": "TeachingGround"
+    },
+    {
+      "location": [
+        50.64283570562823,
+        32.81922386987313,
+        -21.5
+      ],
+      "lumens": 2000,
+      "size": 1.2,
+      "zone": "TeachingGround"
+    },
+    {
+      "location": [
+        59.451068272930534,
+        28.2306468529413,
+        -21.5
+      ],
+      "lumens": 2000,
+      "size": 1.2,
+      "zone": "TeachingGround"
+    },
+    {
+      "location": [
+        59.634269699864944,
+        32.426649383585094,
+        -21.5
+      ],
+      "lumens": 2000,
+      "size": 1.2,
+      "zone": "TeachingGround"
+    },
+    {
+      "location": [
+        68.44250226716727,
+        27.83807236665328,
+        -21.5
+      ],
+      "lumens": 2000,
+      "size": 1.2,
+      "zone": "TeachingGround"
+    },
+    {
+      "location": [
+        68.62570369410166,
+        32.034074897297074,
+        -21.5
+      ],
+      "lumens": 2000,
+      "size": 1.2,
+      "zone": "TeachingGround"
+    },
+    {
+      "location": [
+        -15.202112337084369,
+        4.559054219004125,
+        -20.85
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        -9.563956612368917,
+        6.611175078958134,
+        -20.85
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        -3.925800887653468,
+        8.66329593891215,
+        -20.85
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        1.7123548370619819,
+        10.715416798866158,
+        -20.85
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        7.350510561777435,
+        12.767537658820173,
+        -20.85
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        12.988666286492885,
+        14.819658518774185,
+        -20.85
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        18.626822011208333,
+        16.8717793787282,
+        -20.85
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        24.264977735923786,
+        18.923900238682208,
+        -20.85
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        29.903133460639232,
+        20.97602109863622,
+        -20.85
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        -15.202112337084369,
+        4.559054219004125,
+        -16.65
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        -9.563956612368917,
+        6.611175078958134,
+        -16.65
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        -3.925800887653468,
+        8.66329593891215,
+        -16.65
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        1.7123548370619819,
+        10.715416798866158,
+        -16.65
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        7.350510561777435,
+        12.767537658820173,
+        -16.65
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        12.988666286492885,
+        14.819658518774185,
+        -16.65
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        18.626822011208333,
+        16.8717793787282,
+        -16.65
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        24.264977735923786,
+        18.923900238682208,
+        -16.65
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        29.903133460639232,
+        20.97602109863622,
+        -16.65
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        -15.202112337084369,
+        4.559054219004125,
+        -12.45
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        -9.563956612368917,
+        6.611175078958134,
+        -12.45
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        -3.925800887653468,
+        8.66329593891215,
+        -12.45
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        1.7123548370619819,
+        10.715416798866158,
+        -12.45
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        7.350510561777435,
+        12.767537658820173,
+        -12.45
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        12.988666286492885,
+        14.819658518774185,
+        -12.45
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        18.626822011208333,
+        16.8717793787282,
+        -12.45
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        24.264977735923786,
+        18.923900238682208,
+        -12.45
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    },
+    {
+      "location": [
+        29.903133460639232,
+        20.97602109863622,
+        -12.45
+      ],
+      "lumens": 1700,
+      "size": 1.2,
+      "zone": "NorthwestRearWing"
+    }
+  ],
+  "stops": [
+    {
+      "number": 1,
+      "title": "校門",
+      "description": "保留有依據的可見特徵；未知室內及上樓接駁暫未開放。尺寸非實測。",
+      "location": [
+        20.517595861127937,
+        -21.069688361047767,
+        -23.63
+      ],
+      "yaw": -110
+    },
+    {
+      "number": 2,
+      "title": "入口大堂",
+      "description": "保留有依據的可見特徵；未知室內及上樓接駁暫未開放。尺寸非實測。",
+      "location": [
+        16.413354141219912,
+        -9.793376911616868,
+        -23.63
+      ],
+      "yaw": -110
+    },
+    {
+      "number": 4,
+      "title": "夏理德堂",
+      "description": "保留有依據的可見特徵；未知室內及上樓接駁暫未開放。尺寸非實測。",
+      "location": [
+        22.587344439586346,
+        0.4351050772061651,
+        -23.63
+      ],
+      "yaw": -110
+    },
+    {
+      "number": 7,
+      "title": "操場",
+      "description": "保留有依據的可見特徵；未知室內及上樓接駁暫未開放。尺寸非實測。",
+      "location": [
+        35.47461070340891,
+        17.363730781773583,
+        -23.63
+      ],
+      "yaw": -110
+    },
+    {
+      "number": 8,
+      "title": "教學樓 G/F",
+      "description": "G 樓沒有課室。教學樓右端為樓梯；內部梯級與接駁仍待資料核對。",
+      "location": [
+        58.80760018383401,
+        24.955597415403833,
+        -23.63
+      ],
+      "yaw": -110
+    },
+    {
+      "number": 11,
+      "title": "教學樓 1/F｜中1",
+      "description": "課室按要求保留；未確認的上樓接駁已移除。",
+      "location": [
+        58.80760018383401,
+        24.955597415403833,
+        -20.130000000000003
+      ],
+      "yaw": -20
+    },
+    {
+      "number": 12,
+      "title": "教學樓 2/F｜中2",
+      "description": "課室按要求保留；未確認的上樓接駁已移除。",
+      "location": [
+        58.80760018383401,
+        24.955597415403833,
+        -16.630000000000003
+      ],
+      "yaw": -20
+    },
+    {
+      "number": 13,
+      "title": "教學樓 3/F｜中3",
+      "description": "課室按要求保留；未確認的上樓接駁已移除。",
+      "location": [
+        58.80760018383401,
+        24.955597415403833,
+        -13.13
+      ],
+      "yaw": -20
+    },
+    {
+      "number": 14,
+      "title": "教學樓 4/F｜中4",
+      "description": "課室按要求保留；未確認的上樓接駁已移除。",
+      "location": [
+        58.80760018383401,
+        24.955597415403833,
+        -9.63
+      ],
+      "yaw": -20
+    },
+    {
+      "number": 15,
+      "title": "教學樓 5/F｜中5",
+      "description": "課室按要求保留；未確認的上樓接駁已移除。",
+      "location": [
+        58.80760018383401,
+        24.955597415403833,
+        -6.129999999999999
+      ],
+      "yaw": -20
+    },
+    {
+      "number": 16,
+      "title": "教學樓 6/F｜中6",
+      "description": "課室按要求保留；未確認的上樓接駁已移除。",
+      "location": [
+        58.80760018383401,
+        24.955597415403833,
+        -2.629999999999999
+      ],
+      "yaw": -20
+    },
+    {
+      "number": 21,
+      "title": "右側樓 G/F｜後門、工廠／青年中心",
+      "description": "右側樓 G 樓為後門和工廠／青年中心；1 樓圖書館、2 樓教員室。室內尚未還原。",
+      "location": [
+        87.51941431720486,
+        26.409636861399406,
+        -23.63
+      ],
+      "yaw": -110,
+      "evidence": "user_layout_20261107",
+      "anchor_height": "existing model estimate, not a measured floor level"
+    },
+    {
+      "number": 22,
+      "title": "右側樓 1/F｜圖書館",
+      "description": "圖書館所在大樓及樓層已按用戶標圖定位。室內間隔、書架與出入口尚未確認。",
+      "location": [
+        90.15296942081251,
+        19.174003681347912,
+        -20.130000000000003
+      ],
+      "yaw": -110,
+      "evidence": "user_layout_20261107",
+      "anchor_height": "existing model estimate, not a measured floor level"
+    },
+    {
+      "number": 23,
+      "title": "右側樓 2/F｜教員室",
+      "description": "教員室所在大樓及樓層已按用戶標圖定位。室內間隔與配置尚未確認。",
+      "location": [
+        90.15296942081251,
+        19.174003681347912,
+        -16.630000000000003
+      ],
+      "yaw": -110,
+      "evidence": "user_layout_20261107",
+      "anchor_height": "existing model estimate, not a measured floor level"
+    },
+    {
+      "number": 24,
+      "title": "前方長樓 2/F｜寄宿部維豪堂",
+      "description": "依用戶標圖：前方長樓 2 樓為寄宿部維豪堂。圖示只確認大致區域，未新增房間間隔或家具。",
+      "location": [
+        55.00086395053205,
+        3.1871503009519397,
+        -15.23
+      ],
+      "yaw": -110,
+      "evidence": "user_layout_20261107",
+      "anchor_height": "existing model estimate, not a measured floor level"
+    },
+    {
+      "number": 25,
+      "title": "左側橫翼 2/F｜考試室",
+      "description": "依用戶標圖：天井旁橫翼 2 樓為考試室。確切房間邊界、門位與座位配置仍未確認。",
+      "location": [
+        17.980089722984413,
+        8.122965896468521,
+        -15.23
+      ],
+      "yaw": -110,
+      "evidence": "user_layout_20261107",
+      "anchor_height": "existing model estimate, not a measured floor level"
+    }
+  ],
+  "classrooms": {
+    "floors": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "per_floor": 4,
+    "seats_per_room": 25,
+    "total_rooms": 24,
+    "blackboard": "right wall on entry, desks face right",
+    "ground_floor_classrooms": 0,
+    "door_side": "right end of corridor-facing wall, viewed from corridor; user correction"
+  },
+  "teaching_wing": {
+    "relative_angle_degrees": -22.5,
+    "pivot_input": [
+      94,
+      31.9
+    ],
+    "pivot_output": [
+      98,
+      15.5
+    ],
+    "angle_basis": "LandsD overhead roof edge compared with frontage; approximate"
+  },
+  "frame": {
+    "origin": [
+      -8.0,
+      -24.0,
+      -24.55
+    ],
+    "degrees": 20
+  },
+  "limitations": [
+    "Retained classroom dimensions and layout remain approximate; existing exterior and hall dimensions are not a measured 1:1 survey.",
+    "Right teaching-stair location, upper-floor entrances and listed room uses are user confirmed. No measured stair flights or full interior plan."
+  ],
+  "hall_orientation": {
+    "entry": "long side",
+    "stage_on_entry": "left",
+    "confirmed_by_user": true,
+    "side_door_campus_m": [
+      30.5,
+      5,
+      0
+    ],
+    "hall_centre_campus_m": [
+      37.1,
+      12.5,
+      0
+    ],
+    "hall_angle_to_campus_degrees": 0
+  },
+  "lighting_revision": {
+    "classroom_fixture_lumens": 3000,
+    "corridor_fixture_lumens": 1600,
+    "actual_lights_added_to_left_stair": 0,
+    "actual_lights_added_to_teaching_corridors": 35,
+    "ground_lobby_lights": 8,
+    "total_lights": 182
+  },
+  "northwest_addition": {
+    "annex": {
+      "floors": 3,
+      "footprint_before_rotation_campus_m": [
+        -0.2,
+        18.6,
+        39.6,
+        56.0
+      ],
+      "relative_angle_degrees": 2.3,
+      "roof_height_m": 12.88,
+      "canopy_height_m": 15.78,
+      "interior": "not reconstructed: no verified room plan"
+    },
+    "rear_wing": {
+      "floors": 3,
+      "floor_levels_m": [
+        0,
+        4.2,
+        8.4
+      ],
+      "body_campus_m": [
+        0,
+        54,
+        30.4,
+        37.4
+      ],
+      "roof_height_m": 12.86,
+      "verandah_campus_m": [
+        0,
+        54,
+        28.2,
+        30.4
+      ],
+      "connection": "Unverified cross-building connections removed. Exterior verandah retained; enclosed interiors not accessible.",
+      "interior": "Enclosed floor plates and ceilings removed; no room uses or furniture reconstructed."
+    },
+    "survey_basis": "LandsD f2 textured mesh downloaded 2026-11-06; footprint and roof samples in northwest_survey_evidence.json",
+    "limitations": [
+      "Source mesh geometric error up to 2.5 m; this is not a measured floor plan.",
+      "Rear-wing end and court adapted to current confirmed hall and stair routes; exact joins and court size remain estimated."
+    ]
+  },
+  "interior_cleanup": {
+    "date": "2026-11-07",
+    "classrooms": "Retained unchanged by explicit user instruction, including 25 desk/chair sets per room. Arrangement and exact furnishings remain provisional.",
+    "removed": [
+      "Library reconstruction and assigned location",
+      "Gallery reconstruction and assigned location",
+      "HallGallery seating and guessed internal mezzanine",
+      "Lobby proxy memorial fittings and invented inscriptions",
+      "Hall ATS lettering, guessed floor markings and fan placement",
+      "Unverified non-classroom wayfinding",
+      "Unverified non-classroom decorative lights except photo-supported hall fixtures",
+      "Unverified corridor pipe runs",
+      "Guessed historic upper-room and northwest passage partitions"
+    ],
+    "retained": "Photo/video-supported architectural features and circulation; all classroom meshes unchanged. Functional illumination retained.",
+    "accuracy": "Not a measured 1:1 replica; dimensions, some connections and classroom arrangement remain estimated. No new substitute furnishings added."
+  },
+  "structure_removal": {
+    "date": "2026-11-07",
+    "rule": "A photo of a feature does not verify its site position or repeated floor layout. Do not construct missing connections to make a route work.",
+    "removed": [
+      "Unlocated pink staircase and associated enclosures",
+      "Guessed interior ring galleries, columns and upper platforms",
+      "Repeated teaching-block stair flights and landing layouts",
+      "East-block interior floor plates, intermediate ceilings and cross-building bridges",
+      "Northwest annex enclosed floor plates",
+      "Rear-wing enclosed floor plates and ceilings",
+      "Guessed northwest links, roof bridge and ground bypass",
+      "Unconfirmed alternative hall doorways"
+    ],
+    "retained": [
+      "All 24 classrooms by explicit user exception",
+      "User-confirmed entrance-right-turn-hall and stage-left relationship with visible photo-supported hall features",
+      "Existing exterior envelope, exposed verandahs and exterior ground surfaces"
+    ],
+    "access": "Unverified interior areas and upper-floor routes are not open for walking. Access boundaries are non-rendering game collision, not modeled physical walls.",
+    "limitations": "Retained classroom dimensions and layout remain approximate; existing exterior and hall dimensions are not a measured 1:1 survey.",
+    "new_evidence": "2026-11-07 user sketch identifies right teaching stair, entrances on 1–6/F but none on G/F, and block/floor uses. Removed conjectural interior geometry is not reinstated from labels alone."
+  },
+  "user_layout": {
+    "reference": "../References/user_layout_evidence.json",
+    "image": "../References/User_Layout_20261107.png",
+    "areas": [
+      {
+        "id": "east_block",
+        "label": "右側樓｜圖書館／教員室",
+        "raw_annotation": "1樓圖書館，2樓教員室，G樓後門和工廠/青年中心",
+        "scope": "building and floor use",
+        "mesh_rooms": [
+          "EastBlock"
+        ],
+        "anchor_campus_m": [
+          107,
+          7,
+          20.9
+        ],
+        "plan_bounds_campus_m": [
+          94,
+          120,
+          0,
+          14
+        ],
+        "floors": {
+          "G": "後門和工廠／青年中心",
+          "1": "圖書館",
+          "2": "教員室"
+        },
+        "total_storeys_confirmed": false,
+        "internal_partitions_confirmed": false
+      },
+      {
+        "id": "street_wing_2f",
+        "label": "前方長樓 2/F｜寄宿部維豪堂",
+        "raw_annotation": "2樓寄宿部維豪堂",
+        "scope": "approximate area and floor use",
+        "mesh_rooms": [
+          "HistoricFrontWing"
+        ],
+        "anchor_campus_m": [
+          68.5,
+          4,
+          12.95
+        ],
+        "floors": {
+          "2": "寄宿部維豪堂"
+        },
+        "internal_partitions_confirmed": false
+      },
+      {
+        "id": "cross_wing_2f",
+        "label": "左側橫翼 2/F｜考試室",
+        "raw_annotation": "2樓考試室",
+        "scope": "approximate area and floor use",
+        "mesh_rooms": [],
+        "shared_roof_room": "HistoricRoof",
+        "anchor_campus_m": [
+          35.4,
+          21.3,
+          12.95
+        ],
+        "floors": {
+          "2": "考試室"
+        },
+        "internal_partitions_confirmed": false,
+        "mapping_note": "The annotation lies on the cross-wing beside the light well, not the far-west wing. Shared HistoricRoof mesh is not assigned entirely to the exam room."
+      },
+      {
+        "id": "right_stair",
+        "label": "教學樓右端｜樓梯位置",
+        "raw_annotation": "樓梯",
+        "scope": "right-end stairwell location",
+        "mesh_rooms": [
+          "GreenStair"
+        ],
+        "anchor_campus_m": [
+          100.33436893742704,
+          21.13566514831885,
+          24.5
+        ],
+        "stair_flights_and_landings_confirmed": false,
+        "video_identity_confirmed": false
+      },
+      {
+        "id": "circled_door",
+        "label": "右端樓梯旁｜1–6/F 每層有門，G/F 無門",
+        "raw_annotation": "門",
+        "scope": "approximate stair entrance at each upper teaching floor",
+        "mesh_rooms": [],
+        "anchor_campus_m": [
+          98.4209517756016,
+          16.516267485762416,
+          21
+        ],
+        "floors": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ground_floor_door": false,
+        "floor_confirmation": "User follow-up: 除了G層每層都有",
+        "door_anchors_campus_m": [
+          [
+            98.4209517756016,
+            16.516267485762416,
+            3.5
+          ],
+          [
+            98.4209517756016,
+            16.516267485762416,
+            7.0
+          ],
+          [
+            98.4209517756016,
+            16.516267485762416,
+            10.5
+          ],
+          [
+            98.4209517756016,
+            16.516267485762416,
+            14.0
+          ],
+          [
+            98.4209517756016,
+            16.516267485762416,
+            17.5
+          ],
+          [
+            98.4209517756016,
+            16.516267485762416,
+            21.0
+          ]
+        ],
+        "anchor_z_is_existing_model_estimate": true,
+        "door_dimensions_material_and_swing_confirmed": false,
+        "cross_building_connection_path_confirmed": false
+      }
+    ],
+    "confidence": "Floor use, approximate right-stair position and entrances on every upper teaching floor (none on G) confirmed by user. Interior geometry and measured dimensions remain unconfirmed."
+  },
+  "corridor_detail_revision": {
+    "date": "2026-11-07",
+    "evidence": [
+      "User video 74a8a07b375743ab1a07dd216743f29c.mp4 at 0.8s: tiled parapet coping, elevated metal handrail and supports, floor tiles, dark base.",
+      "User video f9e358389130cc624ba5992c0660d28b.mp4 at 6s: classroom-front green mosaic, grey square corridor floor tiles, dark skirting and glazed window panels."
+    ],
+    "added": [
+      "Tiled coping to existing 1–6/F corridor parapets",
+      "Handrail support stems and base plates on the existing rails",
+      "Dark skirting at the inner parapet base"
+    ],
+    "corrected": [
+      "Removed the incorrect full-width louvre strip from the 24 classroom fronts; filled the existing window opening with the retained glazed-panel style. Exact isolated vent positions were not invented."
+    ],
+    "material_detail": {
+      "mint_tile_m": [
+        0.048,
+        0.048
+      ],
+      "mint_grout_m": 0.0015,
+      "floor_tile_m": [
+        0.4,
+        0.4
+      ],
+      "floor_grout_m": 0.002,
+      "method": "Procedural tile/grout masks with edge normals and per-tile variation, with derivative filtering in UE; no enlarged source bitmap.",
+      "measurements": "Visual estimates from the supplied video; not measured on site."
+    },
+    "unchanged": [
+      "Classroom desks, boards, floor plan, doors and door positions",
+      "Right stair entrance locations on 1–6/F, none on G/F",
+      "No added staircase flights, landing floors, connectors or room partitions",
+      "East-block height and its unconfirmed upper floor uses"
+    ]
+  },
+  "runtime_material_overrides": {
+    "SM_Walk_GreenCorridor_0_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_GreenCorridor_0_White": "/Game/ATS/Revision10/Materials/M_CorridorPaintDetail",
+    "SM_Walk_GreenCorridor_0_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_GreenCorridor_0_Metal": "/Game/ATS/Revision10/Materials/M_HandrailDetail",
+    "SM_Walk_Class_1_1_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_1_1_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_Class_1_2_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_1_2_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_Class_1_3_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_1_3_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_Class_1_4_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_1_4_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_GreenCorridor_1_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_GreenCorridor_1_White": "/Game/ATS/Revision10/Materials/M_CorridorPaintDetail",
+    "SM_Walk_GreenCorridor_1_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_GreenCorridor_1_Metal": "/Game/ATS/Revision10/Materials/M_HandrailDetail",
+    "SM_Walk_Class_2_1_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_2_1_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_Class_2_2_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_2_2_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_Class_2_3_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_2_3_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_Class_2_4_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_2_4_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_GreenCorridor_2_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_GreenCorridor_2_White": "/Game/ATS/Revision10/Materials/M_CorridorPaintDetail",
+    "SM_Walk_GreenCorridor_2_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_GreenCorridor_2_Metal": "/Game/ATS/Revision10/Materials/M_HandrailDetail",
+    "SM_Walk_Class_3_1_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_3_1_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_Class_3_2_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_3_2_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_Class_3_3_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_3_3_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_Class_3_4_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_3_4_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_GreenCorridor_3_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_GreenCorridor_3_White": "/Game/ATS/Revision10/Materials/M_CorridorPaintDetail",
+    "SM_Walk_GreenCorridor_3_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_GreenCorridor_3_Metal": "/Game/ATS/Revision10/Materials/M_HandrailDetail",
+    "SM_Walk_Class_4_1_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_4_1_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_Class_4_2_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_4_2_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_Class_4_3_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_4_3_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_Class_4_4_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_4_4_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_GreenCorridor_4_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_GreenCorridor_4_White": "/Game/ATS/Revision10/Materials/M_CorridorPaintDetail",
+    "SM_Walk_GreenCorridor_4_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_GreenCorridor_4_Metal": "/Game/ATS/Revision10/Materials/M_HandrailDetail",
+    "SM_Walk_Class_5_1_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_5_1_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_Class_5_2_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_5_2_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_Class_5_3_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_5_3_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_Class_5_4_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_5_4_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_GreenCorridor_5_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_GreenCorridor_5_White": "/Game/ATS/Revision10/Materials/M_CorridorPaintDetail",
+    "SM_Walk_GreenCorridor_5_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_GreenCorridor_5_Metal": "/Game/ATS/Revision10/Materials/M_HandrailDetail",
+    "SM_Walk_Class_6_1_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_6_1_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_Class_6_2_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_6_2_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_Class_6_3_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_6_3_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_Class_6_4_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_Class_6_4_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_GreenCorridor_6_GreyTile": "/Game/ATS/Revision10/Materials/M_FloorTileDetail",
+    "SM_Walk_GreenCorridor_6_White": "/Game/ATS/Revision10/Materials/M_CorridorPaintDetail",
+    "SM_Walk_GreenCorridor_6_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_GreenCorridor_6_Metal": "/Game/ATS/Revision10/Materials/M_HandrailDetail",
+    "SM_Walk_TeachingDetail_1_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_TeachingDetail_1_Metal": "/Game/ATS/Revision10/Materials/M_HandrailDetail",
+    "SM_Walk_TeachingDetail_2_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_TeachingDetail_2_Metal": "/Game/ATS/Revision10/Materials/M_HandrailDetail",
+    "SM_Walk_TeachingDetail_3_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_TeachingDetail_3_Metal": "/Game/ATS/Revision10/Materials/M_HandrailDetail",
+    "SM_Walk_TeachingDetail_4_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_TeachingDetail_4_Metal": "/Game/ATS/Revision10/Materials/M_HandrailDetail",
+    "SM_Walk_TeachingDetail_5_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_TeachingDetail_5_Metal": "/Game/ATS/Revision10/Materials/M_HandrailDetail",
+    "SM_Walk_TeachingDetail_6_MintTile": "/Game/ATS/Revision10/Materials/M_MosaicDetail",
+    "SM_Walk_TeachingDetail_6_Metal": "/Game/ATS/Revision10/Materials/M_HandrailDetail"
+  },
+  "front_facade_revision": {
+    "entrance_campus_m": [
+      27.8,
+      -4.1,
+      0
+    ],
+    "lobby_campus_m": [
+      27.8,
+      5,
+      0
+    ],
+    "hall_centre_campus_m": [
+      37.1,
+      12.5,
+      0
+    ],
+    "hall_side_gallery_u": null,
+    "source": "LandsD f2 roof/front ray sampling plus street photographs dated 2021 and page visits through 2025-11-22",
+    "retained_classroom_meshes": 288,
+    "removed": [
+      "Guessed street colonnade and misplaced school lettering",
+      "Incorrect separated roof boxes",
+      "Unverified court markings and hoop locations"
+    ],
+    "limitations": "Facade dimensions and window spacing are reference-based approximations, not an as-built measured plan. Hall-side entry and stage-left relationship retained; classroom geometry unchanged."
+  },
+  "lobby_left_door_revision": {
+    "evidence": "User confirmed a left entrance-lobby doorway matching the current right-hand doorway, 2026-11-07.",
+    "left_frame_centre_campus_m": [
+      25.1,
+      5,
+      0
+    ],
+    "right_reference_frame_campus_m": [
+      30.5,
+      5,
+      0
+    ],
+    "clear_width_m": 2.26,
+    "clear_height_m": 2.7,
+    "door_leaves_added": 0,
+    "unconfirmed_interior_added": false,
+    "modified_meshes": [
+      "SM_Walk_Lobby_Cream",
+      "SM_Walk_Lobby_Stone",
+      "SM_Walk_Lobby_TerrazzoGreen"
+    ],
+    "added_meshes": [
+      "SM_Walk_LobbyLeftDoor_DarkWood",
+      "SM_Walk_LobbyLeftDoor_TerrazzoHall"
+    ],
+    "unchanged_meshes": 416,
+    "saved_scene_existing_door_removals_preserved": [
+      "Walk Door 03",
+      "Walk Door 04"
+    ]
+  },
+  "ground_floor_approximate_sketch": {
+    "evidence": "../References/user_ground_floor_approximate_evidence.json",
+    "image": "../References/User_GroundFloor_Approximate_20261107.png",
+    "confidence": "Approximate user sketch, explicitly uncertain; not a measured or verified floor plan.",
+    "relationships": [
+      {
+        "subject": "禮堂",
+        "relation": "大門右側",
+        "confidence": "Consistent with earlier user confirmation"
+      },
+      {
+        "subject": "餐廳外的露天桌椅區",
+        "relation": "依新圖，在餐廳左側縱向延伸；方位以兩個天井對位。",
+        "confidence": "User-confirmed relative plan; precise extent and furniture remain unverified."
+      },
+      {
+        "subject": "餐廳",
+        "relation": "露天區再往內、圖中左側",
+        "confidence": "User explicitly confirmed the originally captured position is inside the dining room; extent and layout remain unverified."
+      },
+      {
+        "subject": "往寄宿部的樓梯",
+        "relation": "餐廳與禮堂之間偏左的區域",
+        "confidence": "Approximate label location only"
+      }
+    ],
+    "unresolved": [
+      "Dimensions and scale",
+      "Exact room boundaries and connecting openings",
+      "Meaning of the two unlabelled rectangles",
+      "Stair location, flights, direction, landings and level connections",
+      "Outdoor table/chair design, count and arrangement"
+    ],
+    "physical_geometry_added": 0,
+    "outdoor_seating_user_pointed_location": {
+      "user_statement": "桌椅在我面前的位置",
+      "location_basis": "Live UE editor camera captured immediately after the user pointed out the position.",
+      "camera_campus_m": [
+        21.590298988858674,
+        2.1439292208682392,
+        1.6864356719556781
+      ],
+      "camera_rotation": {
+        "pitch": -2.399899512529373,
+        "yaw": -204.0000014007092,
+        "roll": 0.0
+      },
+      "marker_campus_m": [
+        18.59760684319521,
+        1.9346597264735532,
+        0.15000320306453574
+      ],
+      "ground_campus_m": [
+        18.59760684319521,
+        1.9346597264735532,
+        3.203064533607858e-06
+      ],
+      "ground_actor": "HistoricWestWing | M_Interior_TerrazzoHall",
+      "marker_interpretation": "Reference for the general area three metres ahead of the captured view; not a measured furniture placement.",
+      "area_description": "大堂左門外，使用者目前面向的靠窗長廊區域。",
+      "confirmed": "General location of the dining-area outdoor tables and chairs",
+      "unconfirmed": [
+        "Furniture design",
+        "Count",
+        "Dimensions",
+        "Exact arrangement",
+        "Extent of the seating area",
+        "Whether the current model roof/canopy matches reality"
+      ],
+      "editor_only": true,
+      "physical_furniture_added": 0,
+      "marker_label": "G/F 餐廳外桌椅區｜用戶指認位置，配置待核實",
+      "backup": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\Saved\\Backups\\OutdoorSeatingLocation_20261107_213735",
+      "status": "historical_point_superseded_by_new_user_plan",
+      "superseded_by": "SourceAssets/Dining/UserAlignment_20261107/alignment.json"
+    },
+    "outdoor_seating_research": {
+      "status": "researched_target_furniture_still_unverified",
+      "report": "SourceAssets/References/OutdoorSeatingResearch_20261107/research_findings.json",
+      "physical_furniture_added": 0,
+      "conclusion": "Inspected sources do not yet verify the outdoor furniture at the user-pointed location. No guessed furniture built."
+    },
+    "indoor_dining_location_confirmation": {
+      "confirmed_at": "2026-11-07T22:02:30.754546+08:00",
+      "question": "你現在停在的這片空地，是餐廳內部，還是餐廳門外？",
+      "user_answer": "這裡就是餐廳內部",
+      "status": "user_confirmed_inside_dining_room",
+      "reference_view": "SourceAssets/Dining/User_Dining_Location_20261107.json",
+      "camera_campus_m_at_original_question": [
+        13.511396415327642,
+        12.04704815183997,
+        2.654047781530039
+      ],
+      "confirmed_scope": "The area containing the captured camera position is inside the dining room.",
+      "not_confirmed_by_this_answer": [
+        "Exact room extent, partitions, doors, windows or ceiling height",
+        "Kitchen location or layout",
+        "Furniture dimensions, total count or exact arrangement"
+      ],
+      "geometry_changes": 0
+    },
+    "outdoor_seating_current_plan_reference": {
+      "status": "new_user_diagram_relative_location",
+      "campus_marker_m": [
+        16.313333333333333,
+        8.643043995243755,
+        0.15
+      ],
+      "position_is_approximate": true,
+      "basis": "餐廳左側的縱向露天區；以用戶確認的兩個天井定位。",
+      "evidence": "SourceAssets/Dining/UserAlignment_20261107/alignment.json",
+      "physical_area_now_built": "SourceAssets/Dining/ScaleCorrection_20261108/construction_manifest.json"
+    }
+  },
+  "dining_photo_based_partial": {
+    "status": "reference_only_excluded_from_walkthrough",
+    "scope": "Three partial dining sets based on visible white tables and blue chairs. Not a verified complete room layout.",
+    "tables_added": 3,
+    "chairs_added": 18,
+    "exact_arrangement_and_total_count_verified": false,
+    "new_partitions_ceiling_kitchen_or_doors": 0,
+    "sources_and_assets": "SourceAssets/Dining",
+    "not_verified": [
+      "Exact furniture dimensions and hidden construction details",
+      "Actual number, spacing and orientation of all tables",
+      "Dining room extent, partitions, kitchen, ceiling and door/window layout"
+    ],
+    "location_confirmation": {
+      "confirmed_at": "2026-11-07T22:02:30.754546+08:00",
+      "question": "你現在停在的這片空地，是餐廳內部，還是餐廳門外？",
+      "user_answer": "這裡就是餐廳內部",
+      "status": "user_confirmed_inside_dining_room",
+      "reference_view": "SourceAssets/Dining/User_Dining_Location_20261107.json",
+      "camera_campus_m_at_original_question": [
+        13.511396415327642,
+        12.04704815183997,
+        2.654047781530039
+      ],
+      "confirmed_scope": "The area containing the captured camera position is inside the dining room.",
+      "not_confirmed_by_this_answer": [
+        "Exact room extent, partitions, doors, windows or ceiling height",
+        "Kitchen location or layout",
+        "Furniture dimensions, total count or exact arrangement"
+      ],
+      "geometry_changes": 0
+    },
+    "above_field_scope": "Furniture-only phase. See dining_envelope_photo_based_partial for the later ceiling/finish additions.",
+    "previous_status_before_evidence_review": "partial_photo_based_dining_furniture_saved",
+    "evidence_review": "SourceAssets/Dining/EvidenceReview_20261107/research_findings.json",
+    "exact_layout_verified": false,
+    "active_in_walkthrough": false,
+    "assets_retained": true,
+    "reviewed_at": "2026-11-07T22:36:47.240009+08:00",
+    "historical_addition_counts_are_not_active_counts": true
+  },
+  "dining_envelope_photo_based_partial": {
+    "status": "reference_only_excluded_from_walkthrough",
+    "sources_and_assets": "SourceAssets/Dining/Envelope",
+    "source_evidence": "SourceAssets/Dining/Envelope/photo_evidence.json",
+    "finish_appearance_photo_based": true,
+    "precise_dimensions_and_orientation_verified": false,
+    "new_room_partitions": 0,
+    "new_door_window_openings": 0,
+    "added_mesh_actors": 5,
+    "added_rect_lights": 4,
+    "preexisting_actors_preserved": 841,
+    "actor_count_now": 850,
+    "surface_collision_checks": 31,
+    "walk_checks": 7,
+    "full_room_verified": false,
+    "not_verified": [
+      "Exact dining room extent and orientation",
+      "Absolute location of the photographed wall in the campus",
+      "Exact ceiling, beam and wall-cladding dimensions",
+      "Exact light and fan spacing/count across the full room",
+      "Door and window positions",
+      "Kitchen and service-area layout"
+    ],
+    "coverage_edges_are_not_room_boundaries": true,
+    "validation_reports": [
+      "dining_envelope_validation.json",
+      "dining_envelope_walk_verification.json"
+    ],
+    "previews": [
+      "Previews/C10_Dining_Photo_Details.png",
+      "Previews/C11_Dining_Ceiling_Detail.png"
+    ],
+    "previous_status_before_evidence_review": "partial_photo_details_saved_and_tested",
+    "evidence_review": "SourceAssets/Dining/EvidenceReview_20261107/research_findings.json",
+    "exact_layout_verified": false,
+    "active_in_walkthrough": false,
+    "assets_retained": true,
+    "reviewed_at": "2026-11-07T22:36:47.240009+08:00",
+    "historical_addition_counts_are_not_active_counts": true,
+    "superseded_by_physical_construction": "SourceAssets/Dining/BuiltFromUserPlan/construction_manifest.json"
+  },
+  "dining_evidence_review": {
+    "status": "reference_only_excluded_from_walkthrough",
+    "evidence_review": "SourceAssets/Dining/EvidenceReview_20261107/research_findings.json",
+    "exact_layout_verified": false,
+    "active_in_walkthrough": false,
+    "assets_retained": true,
+    "reviewed_at": "2026-11-07T22:36:47.240009+08:00",
+    "reference_only_actors": 30,
+    "remaining_actors_unchanged": 820,
+    "new_door_connections": 0,
+    "user_plan_constraints": "SourceAssets/Dining/EvidenceReview_20261107/user_plan_constraints.json",
+    "runtime_validation": "dining_evidence_review_runtime.json",
+    "backup": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\Saved\\Backups\\DiningEvidenceReview_20261107_223403",
+    "later_orientation_update": "SourceAssets/Dining/UserAlignment_20261107/alignment.json",
+    "orientation_now_resolved_by_user_courtyard_confirmation": true,
+    "later_physical_construction": "SourceAssets/Dining/BuiltFromUserPlan/construction_manifest.json"
+  },
+  "dining_user_plan_alignment": {
+    "status": "reference_projection_removed_and_replaced_by_physical_construction",
+    "evidence": "SourceAssets/Dining/UserAlignment_20261107/alignment.json",
+    "source_image": "SourceAssets/Dining/UserAlignment_20261107/餐廳結構圖_更新原圖.png",
+    "preview": "Previews/C12_Dining_User_Aligned_Plan.png",
+    "anchor_confirmation": "用戶確認新圖下方兩個空方框就是目前 UE 視角的兩個天井。",
+    "orientation_verified_by_user": true,
+    "relative_adjacency_confirmed_by_user": true,
+    "precise_dimensions_verified": false,
+    "door_destinations_verified": false,
+    "physical_partitions_or_equipment_added": 0,
+    "reference_overlay_meshes": 0,
+    "ground_reference_markers": 0,
+    "furniture_reactivated": false,
+    "reference_folder": "References/Dining_Aligned_User_Plan",
+    "backup": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\Saved\\Backups\\DiningUserAlignment_20261107_224435",
+    "superseded_by": "SourceAssets/Dining/BuiltFromUserPlan/construction_manifest.json",
+    "extent_from_pixels_is_not_authoritative": true
+  },
+  "dining_physical_construction": {
+    "status": "superseded_by_scale_correction",
+    "source_assets": "SourceAssets/Dining/BuiltFromUserPlan",
+    "source_plan": "SourceAssets/Dining/BuiltFromUserPlan/餐廳結構圖.png",
+    "manifest": "SourceAssets/Dining/BuiltFromUserPlan/construction_manifest.json",
+    "physical_mesh_actors": 14,
+    "automatic_doors": 3,
+    "lights": 5,
+    "removed_projection_actors": 14,
+    "room_bounds_campus_m": [
+      12.59555556,
+      19.68,
+      9.43971463,
+      19.15909631
+    ],
+    "ceiling_height_m": 3.96,
+    "dimensions_are_model_fit_not_survey": true,
+    "tuck_shop": "User confirmed a tuck shop with a serving window; built enclosure, window, counter and supplied place-name sign.",
+    "washbasin_and_water_dispenser": "Physical generic stainless fixtures in user-indicated positions; exact product models unverified.",
+    "open_air_strip": "Physical floor and opening in the earlier blockout roof above the user-drawn open-air strip.",
+    "door_exterior_destinations": "No invented rooms or labelled destinations outside the three openings.",
+    "furniture_arrangement": "Not restored: the drawing does not establish table/chair positions.",
+    "validation": "dining_construction_validation.json",
+    "static_checks_passed": 24,
+    "walk_waypoints_passed": 19,
+    "actual_walk_from_school_entrance": true,
+    "all_three_doors_opened_and_closed": true,
+    "previews": [
+      "Previews/C13_Dining_Built_Interior.png",
+      "Previews/C14_Dining_Built_Washbasin.png",
+      "Previews/C15_Dining_Built_Plan.png"
+    ],
+    "backup": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\Saved\\Backups\\DiningConstruction_20261107_225613",
+    "superseded_by": "SourceAssets/Dining/ScaleCorrection_20261108/construction_manifest.json"
+  },
+  "dining_scale_correction": {
+    "status": "superseded_by_user_confirmed_entire_G_floor",
+    "source_assets": "SourceAssets/Dining/ScaleCorrection_20261108",
+    "manifest": "SourceAssets/Dining/ScaleCorrection_20261108/construction_manifest.json",
+    "room_bounds_campus_m": [
+      0.23,
+      19.68,
+      3.67,
+      19.15909631
+    ],
+    "room_dimensions_m": [
+      19.45,
+      15.48909631
+    ],
+    "model_area_m2": 301.26292322949996,
+    "dimensions_are_model_fit_not_survey": true,
+    "room_right_boundary_provisional": true,
+    "geometry_basis": "Existing exterior wall inner face u=.23; courtyard wall inner face u=19.68; existing five-bay window wall inner face v=3.67. Right boundary v=19.159 remains provisional from relative user layout. This is NOT a surveyed restaurant footprint.",
+    "physical_mesh_actors": 12,
+    "automatic_doors": 3,
+    "lights": 13,
+    "original_facade_windows_reused": 5,
+    "false_internal_windows_removed": 3,
+    "old_wrong_roof_cut_restored": true,
+    "fittings_not_scaled": true,
+    "furniture_arrangement": "No invented table/chair layout or new seat-count assumption. Photo-based furniture assets retained but unplaced.",
+    "validation": "dining_scale_validation.json",
+    "static_checks_passed": 36,
+    "walk_waypoints_passed": 29,
+    "all_three_doors_opened_and_closed": true,
+    "previews": [
+      "Previews/C16_Dining_Expanded_Interior.png",
+      "Previews/C17_Dining_Expanded_WindowSide.png"
+    ],
+    "backup": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\Saved\\Backups\\DiningScale_20261108_102828",
+    "ground_floor_glass_material_corrected": {
+      "status": "ground_floor_window_material_corrected",
+      "actor": "StaticMeshActor_47",
+      "old_mesh": "/Game/ATS/Revision8/Architecture/ATS_FacadeRevision_SM_Walk_HistoricWestWing_FacadeGlass.ATS_FacadeRevision_SM_Walk_HistoricWestWing_FacadeGlass",
+      "new_mesh": "/Game/ATS/Dining/ScaleCorrection_20261108/WindowCorrection/ATS_Dining_WindowGlass.ATS_Dining_WindowGlass",
+      "bounds_unchanged_within_cm": 0.2,
+      "upper_storey_material_preserved": true,
+      "new_material_only_for_five_G_windows": true,
+      "post_import_window_collision_checks": [
+        {
+          "window_center_u": 5.5,
+          "blocking_glass_preserved": true
+        },
+        {
+          "window_center_u": 8.7,
+          "blocking_glass_preserved": true
+        },
+        {
+          "window_center_u": 11.9,
+          "blocking_glass_preserved": true
+        },
+        {
+          "window_center_u": 15.1,
+          "blocking_glass_preserved": true
+        },
+        {
+          "window_center_u": 18.3,
+          "blocking_glass_preserved": true
+        }
+      ],
+      "unaffected_scene_actors_rechecked": 848
+    },
+    "superseded_by": "SourceAssets/Dining/FullGroundFloor_20261108/construction_manifest.json"
+  },
+  "dining_full_ground_floor": {
+    "status": "whole_G_floor_dining_with_larger_front_facing_shop_and_roller_shutters",
+    "source_assets": "SourceAssets/Dining/FullGroundFloor_20261108",
+    "manifest": "SourceAssets/Dining/FullGroundFloor_20261108/construction_manifest.json",
+    "user_confirmed": [
+      "The two unlabelled rectangles are the two courtyards",
+      "Build real geometry following the plan, not location markers",
+      "Vita area is a tuck shop with a serving window",
+      "Restaurant occupies this whole building G floor",
+      "Vita shop is larger and faces the user camera",
+      "Restaurant doors are roller shutters"
+    ],
+    "room_bounds_campus_m": [
+      0.23,
+      19.68,
+      3.67,
+      30.4
+    ],
+    "room_dimensions_model_m": [
+      19.45,
+      26.73
+    ],
+    "model_floor_area_m2": 519.8985,
+    "absolute_dimensions_are_estimates": true,
+    "kiosk_bounds_campus_m": [
+      13.4,
+      19.68,
+      3.67,
+      9.6
+    ],
+    "kiosk_front_normal_campus": [
+      0,
+      1,
+      0
+    ],
+    "kiosk_model_dimensions_m": [
+      6.28,
+      5.93
+    ],
+    "shutters": 3,
+    "shutter_model_opening_m": [
+      2.2,
+      2.8
+    ],
+    "shutter_runtime_class": "/Script/ATS.ATSRollerShutter",
+    "shutter_animation": "Individual slats translate upward at fixed pitch and disappear into the header; shrinking curtain collision remains until fully open. User proximity keeps the shutter open.",
+    "original_gate_and_character_unchanged": true,
+    "rear_columns_retained": [
+      6,
+      12,
+      18
+    ],
+    "rear_unknown_interiors": "Not built; only 1.65m threshold clearance beyond the two shutters. Other boundaries are preserved.",
+    "validation": "dining_full_floor_validation.json",
+    "static_checks_passed": 50,
+    "walk_waypoints_passed": 40,
+    "hold_under_shutter_checks": 3,
+    "map_reload_persistence_verified": true,
+    "previews": [
+      "Previews/C18_Dining_Full_G_Frontage.png",
+      "Previews/C19_Dining_Roller_Shutters.png",
+      "Previews/C20_Dining_Larger_Vita.png"
+    ],
+    "backup": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\Saved\\Backups\\DiningFullGroundFloor_20261108_130154"
+  },
+  "dining_photo_finishes_20261108": {
+    "status": "saved_walk_and_reload_verified",
+    "sink_length_model_m": 4.5,
+    "tables_added": 2,
+    "chairs_added": 8,
+    "partial_furniture_only": true,
+    "exact_layout_and_dimensions_verified": false,
+    "floor": "Photo-informed dry warm beige fine-aggregate terrazzo; native world-space shader, approximate grain size, no invented full-room dark band grid.",
+    "upper_walls_and_ceiling": "Low-gloss off-white paint on existing geometry.",
+    "lower_wall_limit": "Sources show both pale rectangular basket mosaic and pink square-grid areas. Location correspondence remains unresolved; existing lower-wall finish has not been certified or extended.",
+    "ceiling_limit": "Photos show exposed white structural beams, but an exact beam/column grid is not known and has not been added.",
+    "validation": {
+      "static_passed": 63,
+      "static_total": 63,
+      "walk_waypoints": 49,
+      "shutter_hold_checks": 3,
+      "report": "dining_photo_finishes_validation.json"
+    },
+    "backup": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\Saved\\Backups\\DiningPhotoFinishes_20261108_132809",
+    "source_assets": "SourceAssets/Dining/PhotoFinishes_20261108",
+    "surface_followup": "dining_structural_surfaces_20261108"
+  },
+  "dining_structural_surfaces_20261108": {
+    "status": "surfaces_saved_geometry_registration_incomplete",
+    "changes": [
+      "Main-hall pale interwoven rectangular mosaic appearance replaces generic square tiles",
+      "Charcoal tile cap and speckled dark skirting",
+      "Dry terrazzo grain contrast and distant mean colour improved; thresholds match floor"
+    ],
+    "room_identity_user_confirmed": true,
+    "cross_wall_direction_user_confirmed": "u=.23 (currently blank wall directly ahead in captured user view)",
+    "cross_exact_position_confirmed": false,
+    "full_reconstruction_complete": false,
+    "not_added_without_coordinates": [
+      "Full floor black-band layout",
+      "Interior beam/column grid",
+      "Unregistered reflective-wall zones",
+      "Unknown whole-wall window count and spacing"
+    ],
+    "ceiling_status": "Existing off-white painted ceiling retained. Exposed beams are photo-confirmed but their positions and spans are not yet established.",
+    "sources": "SourceAssets/Dining/StructuralSurfaces_20261108/References",
+    "backup": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\Saved\\Backups\\DiningStructuralSurfaces_20261108_134647",
+    "static_checks_passed": 63,
+    "cross_wall_followup": "dining_cross_windows_20261108"
+  },
+  "dining_cross_windows_20261108": {
+    "status": "saved_static_runtime_and_reload_verified",
+    "timestamp": "2026-11-08T14:30:57.325988",
+    "actor_count": 901,
+    "reload_matched_actor_snapshots": 901,
+    "all_other_original_actors_unchanged": 892,
+    "new_static_checks": 44,
+    "existing_static_checks": 63,
+    "runtime_walk_waypoints": 2,
+    "runtime_jump_into_window_blocked": true,
+    "original_three_roller_shutters_restored_closed": true,
+    "user_camera_restored": true,
+    "sink_transform_preserved": true,
+    "backup": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\Saved\\Backups\\DiningCrossWindows_20261108_141337",
+    "user_confirmation": "正中央就是十字架位置",
+    "cross_horizontal_campus_v": 17.59944733735314,
+    "cross_height_model_estimate_m": 2.62,
+    "vertical_interpretation_disclosed_to_user": true,
+    "photo_visible_windows_added": 2,
+    "whole_wall_window_count_not_established": true,
+    "cross_dimensions_window_dimensions_and_spacing_are_unmeasured_estimates": true,
+    "unverified_west_boundary_visible_proxy_removed": true,
+    "west_boundary_collision_remains_nonvisual": true,
+    "other_two_boundary_sections_retained": true,
+    "full_reconstruction_complete": false,
+    "remaining_unconfirmed": [
+      "Ceiling beam and interior column positions/spans",
+      "Floor black-band widths and registered layout",
+      "Reflective wall-zone coordinates",
+      "Full seating count and layout",
+      "Exact outside view through this wall; existing exterior scene retained"
+    ],
+    "previews": [
+      "Previews/C26_Dining_CrossWall_UserView.png",
+      "Previews/C27_Dining_CrossWall_Detail.png"
+    ],
+    "sources": [
+      "https://www.hk01.com/article/939149",
+      "https://media.goodschool.hk/storage/upload/ebook/2021-11-02-175925-108203.pdf"
+    ]
+  },
+  "dining_wall_floor_detail_20261108": {
+    "status": "saved_visual_static_and_reload_verified",
+    "timestamp": "2026-11-08T14:57:13.486601",
+    "actor_count": 901,
+    "reloaded_actor_snapshots_matched": 901,
+    "all_other_actors_unchanged": 877,
+    "static_checks_passed": 107,
+    "changes": [
+      "More legible pale basket-mosaic with multi-scale colour filtering and fine recessed joint highlight response; original model tile-module size retained",
+      "Dry light terrazzo with more distinct dark/grey/ivory aggregate, reduced yellow cast, smooth surface without displacement",
+      "More legible aggregate in the dark terrazzo skirting",
+      "Close the old 20mm bare-paint gap between mosaic lower edge and black skirting",
+      "Dining lights adjusted from 5300K to 6000K for rendering appearance; intensity, placement and lamp models unchanged"
+    ],
+    "lighting_temperature_is_rendering_choice_not_verified_lamp_spec": true,
+    "backup": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\Saved\\Backups\\DiningWallFloor_20261108_144545",
+    "user_camera_restored": true,
+    "actor_transforms_collision_and_door_logic_unchanged": true,
+    "runtime_not_repeated": "Only surface materials, non-colliding lower wall-panel edge and light colour temperature changed; all collision-bearing geometry, movement and shutter logic unchanged.",
+    "new_partition_or_floor_band_geometry_added": false,
+    "full_reconstruction_complete": false,
+    "not_yet_located": [
+      "Complete dark floor-band graph and widths",
+      "Floor slab-joint layout",
+      "Reflective wall panel bounds",
+      "Interior structural beam and column grid"
+    ],
+    "surface_colours_grain_sizes_roughness_are_visual_estimates": true,
+    "previews": [
+      "Previews/C28_Dining_Refined_Wall_Floor.png",
+      "Previews/C29_Dining_Mosaic_Terrazzo_Close.png"
+    ],
+    "visual_limits": "Static rendered views checked; temporal shimmer during camera motion was not independently measured."
+  }
+}

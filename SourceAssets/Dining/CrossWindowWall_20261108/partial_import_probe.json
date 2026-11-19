@@ -1,0 +1,43 @@
+{
+  "count": 900,
+  "changes": [
+    {
+      "actor": "StaticMeshActor_51",
+      "role": "Shell",
+      "before": "/Game/ATS/Revision8/Architecture/ATS_FacadeRevision_SM_Walk_HistoricWestWing_ShanghaiRender.ATS_FacadeRevision_SM_Walk_HistoricWestWing_ShanghaiRender",
+      "after": "/Game/ATS/Dining/CrossWindowWall_20261108/Meshes/ATS_Dining_CrossWindows_SM_DiningCross_Shell.ATS_Dining_CrossWindows_SM_DiningCross_Shell"
+    }
+  ],
+  "added": [
+    {
+      "actor": "StaticMeshActor_625",
+      "role": "Aircon",
+      "mesh": "/Game/ATS/Dining/CrossWindowWall_20261108/Meshes/ATS_Dining_CrossWindows_SM_DiningCross_Aircon.ATS_Dining_CrossWindows_SM_DiningCross_Aircon"
+    },
+    {
+      "actor": "StaticMeshActor_626",
+      "role": "Cross",
+      "mesh": "/Game/ATS/Dining/CrossWindowWall_20261108/Meshes/ATS_Dining_CrossWindows_SM_DiningCross_Cross.ATS_Dining_CrossWindows_SM_DiningCross_Cross"
+    },
+    {
+      "actor": "StaticMeshActor_627",
+      "role": "Frames",
+      "mesh": "/Game/ATS/Dining/CrossWindowWall_20261108/Meshes/ATS_Dining_CrossWindows_SM_DiningCross_Frames.ATS_Dining_CrossWindows_SM_DiningCross_Frames"
+    },
+    {
+      "actor": "StaticMeshActor_628",
+      "role": "Glass",
+      "mesh": "/Game/ATS/Dining/CrossWindowWall_20261108/Meshes/ATS_Dining_CrossWindows_SM_DiningCross_Glass.ATS_Dining_CrossWindows_SM_DiningCross_Glass"
+    }
+  ],
+  "meshes": {
+    "Aircon": "/Game/ATS/Dining/CrossWindowWall_20261108/Meshes/ATS_Dining_CrossWindows_SM_DiningCross_Aircon.ATS_Dining_CrossWindows_SM_DiningCross_Aircon",
+    "Cross": "/Game/ATS/Dining/CrossWindowWall_20261108/Meshes/ATS_Dining_CrossWindows_SM_DiningCross_Cross.ATS_Dining_CrossWindows_SM_DiningCross_Cross",
+    "Frames": "/Game/ATS/Dining/CrossWindowWall_20261108/Meshes/ATS_Dining_CrossWindows_SM_DiningCross_Frames.ATS_Dining_CrossWindows_SM_DiningCross_Frames",
+    "Glass": "/Game/ATS/Dining/CrossWindowWall_20261108/Meshes/ATS_Dining_CrossWindows_SM_DiningCross_Glass.ATS_Dining_CrossWindows_SM_DiningCross_Glass",
+    "Shell": "/Game/ATS/Dining/CrossWindowWall_20261108/Meshes/ATS_Dining_CrossWindows_SM_DiningCross_Shell.ATS_Dining_CrossWindows_SM_DiningCross_Shell",
+    "Tiles": "/Game/ATS/Dining/CrossWindowWall_20261108/Meshes/ATS_Dining_CrossWindows_SM_DiningCross_Tiles.ATS_Dining_CrossWindows_SM_DiningCross_Tiles",
+    "Walls": "/Game/ATS/Dining/CrossWindowWall_20261108/Meshes/ATS_Dining_CrossWindows_SM_DiningCross_Walls.ATS_Dining_CrossWindows_SM_DiningCross_Walls"
+  },
+  "current_role": "Tiles"
+}

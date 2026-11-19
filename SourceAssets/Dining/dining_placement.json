@@ -1,0 +1,328 @@
+{
+  "status": "reference_only_excluded_from_walkthrough",
+  "user_request": "那麽把室内餐廳做上，我現在就在",
+  "location_basis": "User explicitly confirmed that the originally captured position is inside the dining room: 這裡就是餐廳內部.",
+  "captured_camera_campus_m": [
+    13.511396415327642,
+    12.04704815183997,
+    2.654047781530039
+  ],
+  "furniture_style_source": "http://www.ats.edu.hk/images/PostImage/boarding_intro_10.jpg",
+  "chair_detail_source": "http://www.ats.edu.hk/images/doc/20261102.pdf (PDF page 2)",
+  "scope": "Three partial dining sets based on visible white tables and blue chairs. Not a verified complete room layout.",
+  "tables_added": 3,
+  "chairs_added": 18,
+  "exact_arrangement_and_total_count_verified": false,
+  "dimensions_are_estimates": true,
+  "new_partitions_ceiling_kitchen_or_doors": 0,
+  "existing_actors_preserved": 820,
+  "actors_now": 841,
+  "placements": [
+    {
+      "kind": "table",
+      "group": 1,
+      "campus_m": [
+        9.6,
+        16.2,
+        0.004
+      ],
+      "yaw": -20,
+      "actor_name": "StaticMeshActor_164",
+      "actor_label": "Dining | Set 01 | White Table"
+    },
+    {
+      "kind": "chair",
+      "group": 1,
+      "seat": 1,
+      "campus_m": [
+        9.03,
+        15.44,
+        0.004
+      ],
+      "yaw": 160,
+      "actor_name": "StaticMeshActor_165",
+      "actor_label": "Dining | Set 01 | Blue Chair 1"
+    },
+    {
+      "kind": "chair",
+      "group": 1,
+      "seat": 2,
+      "campus_m": [
+        9.6,
+        15.44,
+        0.004
+      ],
+      "yaw": 160,
+      "actor_name": "StaticMeshActor_166",
+      "actor_label": "Dining | Set 01 | Blue Chair 2"
+    },
+    {
+      "kind": "chair",
+      "group": 1,
+      "seat": 3,
+      "campus_m": [
+        10.17,
+        15.44,
+        0.004
+      ],
+      "yaw": 160,
+      "actor_name": "StaticMeshActor_167",
+      "actor_label": "Dining | Set 01 | Blue Chair 3"
+    },
+    {
+      "kind": "chair",
+      "group": 1,
+      "seat": 4,
+      "campus_m": [
+        9.03,
+        16.96,
+        0.004
+      ],
+      "yaw": -20,
+      "actor_name": "StaticMeshActor_168",
+      "actor_label": "Dining | Set 01 | Blue Chair 4"
+    },
+    {
+      "kind": "chair",
+      "group": 1,
+      "seat": 5,
+      "campus_m": [
+        9.6,
+        16.96,
+        0.004
+      ],
+      "yaw": -20,
+      "actor_name": "StaticMeshActor_169",
+      "actor_label": "Dining | Set 01 | Blue Chair 5"
+    },
+    {
+      "kind": "chair",
+      "group": 1,
+      "seat": 6,
+      "campus_m": [
+        10.17,
+        16.96,
+        0.004
+      ],
+      "yaw": -20,
+      "actor_name": "StaticMeshActor_170",
+      "actor_label": "Dining | Set 01 | Blue Chair 6"
+    },
+    {
+      "kind": "table",
+      "group": 2,
+      "campus_m": [
+        13.3,
+        16.2,
+        0.004
+      ],
+      "yaw": -20,
+      "actor_name": "StaticMeshActor_477",
+      "actor_label": "Dining | Set 02 | White Table"
+    },
+    {
+      "kind": "chair",
+      "group": 2,
+      "seat": 1,
+      "campus_m": [
+        12.73,
+        15.44,
+        0.004
+      ],
+      "yaw": 160,
+      "actor_name": "StaticMeshActor_540",
+      "actor_label": "Dining | Set 02 | Blue Chair 1"
+    },
+    {
+      "kind": "chair",
+      "group": 2,
+      "seat": 2,
+      "campus_m": [
+        13.3,
+        15.44,
+        0.004
+      ],
+      "yaw": 160,
+      "actor_name": "StaticMeshActor_542",
+      "actor_label": "Dining | Set 02 | Blue Chair 2"
+    },
+    {
+      "kind": "chair",
+      "group": 2,
+      "seat": 3,
+      "campus_m": [
+        13.870000000000001,
+        15.44,
+        0.004
+      ],
+      "yaw": 160,
+      "actor_name": "StaticMeshActor_545",
+      "actor_label": "Dining | Set 02 | Blue Chair 3"
+    },
+    {
+      "kind": "chair",
+      "group": 2,
+      "seat": 4,
+      "campus_m": [
+        12.73,
+        16.96,
+        0.004
+      ],
+      "yaw": -20,
+      "actor_name": "StaticMeshActor_564",
+      "actor_label": "Dining | Set 02 | Blue Chair 4"
+    },
+    {
+      "kind": "chair",
+      "group": 2,
+      "seat": 5,
+      "campus_m": [
+        13.3,
+        16.96,
+        0.004
+      ],
+      "yaw": -20,
+      "actor_name": "StaticMeshActor_565",
+      "actor_label": "Dining | Set 02 | Blue Chair 5"
+    },
+    {
+      "kind": "chair",
+      "group": 2,
+      "seat": 6,
+      "campus_m": [
+        13.870000000000001,
+        16.96,
+        0.004
+      ],
+      "yaw": -20,
+      "actor_name": "StaticMeshActor_566",
+      "actor_label": "Dining | Set 02 | Blue Chair 6"
+    },
+    {
+      "kind": "table",
+      "group": 3,
+      "campus_m": [
+        9.6,
+        19.7,
+        0.004
+      ],
+      "yaw": -20,
+      "actor_name": "StaticMeshActor_567",
+      "actor_label": "Dining | Set 03 | White Table"
+    },
+    {
+      "kind": "chair",
+      "group": 3,
+      "seat": 1,
+      "campus_m": [
+        9.03,
+        18.939999999999998,
+        0.004
+      ],
+      "yaw": 160,
+      "actor_name": "StaticMeshActor_568",
+      "actor_label": "Dining | Set 03 | Blue Chair 1"
+    },
+    {
+      "kind": "chair",
+      "group": 3,
+      "seat": 2,
+      "campus_m": [
+        9.6,
+        18.939999999999998,
+        0.004
+      ],
+      "yaw": 160,
+      "actor_name": "StaticMeshActor_569",
+      "actor_label": "Dining | Set 03 | Blue Chair 2"
+    },
+    {
+      "kind": "chair",
+      "group": 3,
+      "seat": 3,
+      "campus_m": [
+        10.17,
+        18.939999999999998,
+        0.004
+      ],
+      "yaw": 160,
+      "actor_name": "StaticMeshActor_570",
+      "actor_label": "Dining | Set 03 | Blue Chair 3"
+    },
+    {
+      "kind": "chair",
+      "group": 3,
+      "seat": 4,
+      "campus_m": [
+        9.03,
+        20.46,
+        0.004
+      ],
+      "yaw": -20,
+      "actor_name": "StaticMeshActor_571",
+      "actor_label": "Dining | Set 03 | Blue Chair 4"
+    },
+    {
+      "kind": "chair",
+      "group": 3,
+      "seat": 5,
+      "campus_m": [
+        9.6,
+        20.46,
+        0.004
+      ],
+      "yaw": -20,
+      "actor_name": "StaticMeshActor_572",
+      "actor_label": "Dining | Set 03 | Blue Chair 5"
+    },
+    {
+      "kind": "chair",
+      "group": 3,
+      "seat": 6,
+      "campus_m": [
+        10.17,
+        20.46,
+        0.004
+      ],
+      "yaw": -20,
+      "actor_name": "StaticMeshActor_577",
+      "actor_label": "Dining | Set 03 | Blue Chair 6"
+    }
+  ],
+  "backup": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\Saved\\Backups\\DiningFurniture_20261107_215645",
+  "sources_and_assets": "SourceAssets/Dining",
+  "not_verified": [
+    "Exact furniture dimensions and hidden construction details",
+    "Actual number, spacing and orientation of all tables",
+    "Dining room extent, partitions, kitchen, ceiling and door/window layout"
+  ],
+  "location_basis_before_confirmation": "Current editor camera captured immediately after the request, interpreted as inside the dining area from the user statement. The optional inside/outside question had no reply at placement time.",
+  "location_confirmation": {
+    "confirmed_at": "2026-11-07T22:02:30.754546+08:00",
+    "question": "你現在停在的這片空地，是餐廳內部，還是餐廳門外？",
+    "user_answer": "這裡就是餐廳內部",
+    "status": "user_confirmed_inside_dining_room",
+    "reference_view": "SourceAssets/Dining/User_Dining_Location_20261107.json",
+    "camera_campus_m_at_original_question": [
+      13.511396415327642,
+      12.04704815183997,
+      2.654047781530039
+    ],
+    "confirmed_scope": "The area containing the captured camera position is inside the dining room.",
+    "not_confirmed_by_this_answer": [
+      "Exact room extent, partitions, doors, windows or ceiling height",
+      "Kitchen location or layout",
+      "Furniture dimensions, total count or exact arrangement"
+    ],
+    "geometry_changes": 0
+  },
+  "evidence_review_20261107": {
+    "status": "reference_only_excluded_from_walkthrough",
+    "evidence_review": "SourceAssets/Dining/EvidenceReview_20261107/research_findings.json",
+    "exact_layout_verified": false,
+    "active_in_walkthrough": false,
+    "assets_retained": true,
+    "reviewed_at": "2026-11-07T22:36:47.240009+08:00"
+  },
+  "previous_status_before_evidence_review": "partial_photo_based_dining_furniture_saved"
+}

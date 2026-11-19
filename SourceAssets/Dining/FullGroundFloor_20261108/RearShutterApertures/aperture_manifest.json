@@ -1,0 +1,1210 @@
+{
+  "status": "passed",
+  "source_blend": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Walkthrough\\ATS_Walkthrough.blend",
+  "source_sha256": "0b1fe69043159fa3131a232ba4358a74068450ae930b909d15dfd8374fc3ce4e",
+  "source_unchanged": true,
+  "cuts_campus_m": [
+    {
+      "u": [
+        2.675,
+        4.875
+      ],
+      "v": "full local facade thickness between 30.2 and 30.6",
+      "h": [
+        0.0,
+        2.8
+      ]
+    },
+    {
+      "u": [
+        10.705,
+        12.905
+      ],
+      "v": "full local facade thickness between 30.2 and 30.6",
+      "h": [
+        0.0,
+        2.8
+      ]
+    }
+  ],
+  "live_source_verification": {
+    "Cream": {
+      "actor": "StaticMeshActor_19",
+      "live_mesh": "/Game/ATS/Revision7/InteriorCleanup/ATS_InteriorCleanup_SM_Walk_NorthwestRearWing_Cream.ATS_InteriorCleanup_SM_Walk_NorthwestRearWing_Cream",
+      "reference_fbx": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\ATS_before_facade_detail\\Walkthrough\\ATS_InteriorCleanup.fbx",
+      "reference_sha256": "840591e5c942bde522ffdd83efe6bd0ba3bcb43c9f1df3a260c02f64531927f3",
+      "source_surface_sha256_at_1mm": "d74936c58c7af6b5b2c1485237e6fb01069f536cad40d96ffa6e847605d64510",
+      "reference_surface_sha256_at_1mm": "d74936c58c7af6b5b2c1485237e6fb01069f536cad40d96ffa6e847605d64510",
+      "verification": "equal vertex and face counts; every vertex within tolerance; all mapped polygon surfaces equal",
+      "tolerance_m": 2e-05,
+      "maximum_vertex_distance_m": 6.877043295791605e-06,
+      "matches_live_import_source": true
+    },
+    "Metal": {
+      "actor": "StaticMeshActor_21",
+      "live_mesh": "/Game/ATS/Revision8/Architecture/ATS_FacadeRevision_SM_Walk_NorthwestRearWing_Metal.ATS_FacadeRevision_SM_Walk_NorthwestRearWing_Metal",
+      "reference_fbx": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\ATS_before_structure_removal\\Walkthrough\\ATS_FacadeRevision.fbx",
+      "reference_sha256": "262c7392606c679c4ab8d90f4a62d45695e8947733e9e326419da4d7f33158b1",
+      "source_surface_sha256_at_1mm": "292e90d582feb0a3be59c7a4d8aa027eff48ca26d8de75ec0281ac5bce5459db",
+      "reference_surface_sha256_at_1mm": "23472b2d54e7954f74fca9acfce4a1dfaa49b249bcf58f936daca1b515b5874e",
+      "verification": "equal vertex and face counts; every vertex within tolerance; all mapped polygon surfaces equal",
+      "tolerance_m": 2e-05,
+      "maximum_vertex_distance_m": 5.3947966093944364e-06,
+      "matches_live_import_source": true
+    },
+    "WindowShade": {
+      "actor": "StaticMeshActor_26",
+      "live_mesh": "/Game/ATS/Revision6/Northwest/ATS_Northwest_Addition_SM_Walk_NorthwestRearWing_WindowShade.ATS_Northwest_Addition_SM_Walk_NorthwestRearWing_WindowShade",
+      "reference_fbx": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\ATS_before_unverified_interior_removal\\SourceAssets\\Walkthrough\\ATS_Northwest_Addition.fbx",
+      "reference_sha256": "ac000f972a23b32fabd8c19d8f723d977802dcedd4aab927bf7347eb3c8e7f00",
+      "source_surface_sha256_at_1mm": "2962c60d6f4c2c19d6bc20b93b074df93616de560181d7bfb9a37cde22eb1a08",
+      "reference_surface_sha256_at_1mm": "2962c60d6f4c2c19d6bc20b93b074df93616de560181d7bfb9a37cde22eb1a08",
+      "verification": "equal vertex and face counts; every vertex within tolerance; all mapped polygon surfaces equal",
+      "tolerance_m": 2e-05,
+      "maximum_vertex_distance_m": 5.3947966093944364e-06,
+      "matches_live_import_source": true
+    }
+  },
+  "patches": [
+    {
+      "suffix": "Cream",
+      "actor_name": "StaticMeshActor_19",
+      "actor_label": "NorthwestRearWing | M_Interior_Cream",
+      "original_live_mesh": "/Game/ATS/Revision7/InteriorCleanup/ATS_InteriorCleanup_SM_Walk_NorthwestRearWing_Cream.ATS_InteriorCleanup_SM_Walk_NorthwestRearWing_Cream",
+      "original_material_paths": [
+        "/Game/ATS/Campus/Materials/M_Interior_Cream.M_Interior_Cream"
+      ],
+      "original_actor_transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "replacement_object": "SM_DiningRearAperture_Cream",
+      "original_vertices": 488,
+      "original_faces": 366,
+      "unchanged_original_vertices": 464,
+      "unchanged_original_faces": 348,
+      "patched_components": [
+        {
+          "original_vertex_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "original_face_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "original_bounds_campus_m": [
+            [
+              0.0,
+              25.7
+            ],
+            [
+              30.29,
+              30.51
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "replacement_boxes_campus_m": [
+            [
+              [
+                0.0,
+                2.675
+              ],
+              [
+                30.29,
+                30.51
+              ],
+              [
+                0.0,
+                1.0
+              ]
+            ],
+            [
+              [
+                4.875,
+                10.705
+              ],
+              [
+                30.29,
+                30.51
+              ],
+              [
+                0.0,
+                1.0
+              ]
+            ],
+            [
+              [
+                12.905,
+                25.7
+              ],
+              [
+                30.29,
+                30.51
+              ],
+              [
+                0.0,
+                1.0
+              ]
+            ]
+          ]
+        },
+        {
+          "original_vertex_indices": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "original_face_indices": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "original_bounds_campus_m": [
+            [
+              3.88,
+              4.12
+            ],
+            [
+              30.275,
+              30.525
+            ],
+            [
+              1.0,
+              3.3
+            ]
+          ],
+          "replacement_boxes_campus_m": [
+            [
+              [
+                3.88,
+                4.12
+              ],
+              [
+                30.275,
+                30.525
+              ],
+              [
+                2.8,
+                3.3
+              ]
+            ]
+          ]
+        },
+        {
+          "original_vertex_indices": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "original_face_indices": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "original_bounds_campus_m": [
+            [
+              11.88,
+              12.12
+            ],
+            [
+              30.275,
+              30.525
+            ],
+            [
+              1.0,
+              3.3
+            ]
+          ],
+          "replacement_boxes_campus_m": [
+            [
+              [
+                11.88,
+                12.12
+              ],
+              [
+                30.275,
+                30.525
+              ],
+              [
+                2.8,
+                3.3
+              ]
+            ]
+          ]
+        }
+      ],
+      "new_vertices": 504,
+      "new_faces": 378,
+      "materials": [
+        "M_Interior_Cream"
+      ],
+      "untouched_geometry_and_uv_exact": true
+    },
+    {
+      "suffix": "Metal",
+      "actor_name": "StaticMeshActor_21",
+      "actor_label": "NorthwestRearWing | M_Interior_Metal",
+      "original_live_mesh": "/Game/ATS/Revision8/Architecture/ATS_FacadeRevision_SM_Walk_NorthwestRearWing_Metal.ATS_FacadeRevision_SM_Walk_NorthwestRearWing_Metal",
+      "original_material_paths": [
+        "/Game/ATS/Campus/Materials/M_Interior_Metal.M_Interior_Metal"
+      ],
+      "original_actor_transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "replacement_object": "SM_DiningRearAperture_Metal",
+      "original_vertices": 2208,
+      "original_faces": 1624,
+      "unchanged_original_vertices": 2112,
+      "unchanged_original_faces": 1552,
+      "patched_components": [
+        {
+          "original_vertex_indices": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "original_face_indices": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "original_bounds_campus_m": [
+            [
+              3.7775,
+              3.8225
+            ],
+            [
+              30.265,
+              30.335
+            ],
+            [
+              1.01,
+              3.25
+            ]
+          ],
+          "replacement_boxes_campus_m": [
+            [
+              [
+                3.7775,
+                3.8225
+              ],
+              [
+                30.265,
+                30.335
+              ],
+              [
+                2.8,
+                3.25
+              ]
+            ]
+          ]
+        },
+        {
+          "original_vertex_indices": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "original_face_indices": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "original_bounds_campus_m": [
+            [
+              0.2,
+              3.8
+            ],
+            [
+              30.265,
+              30.335
+            ],
+            [
+              1.0075,
+              1.0525
+            ]
+          ],
+          "replacement_boxes_campus_m": [
+            [
+              [
+                0.2,
+                2.675
+              ],
+              [
+                30.265,
+                30.335
+              ],
+              [
+                1.0075,
+                1.0525
+              ]
+            ]
+          ]
+        },
+        {
+          "original_vertex_indices": [
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "original_face_indices": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "original_bounds_campus_m": [
+            [
+              0.2,
+              3.8
+            ],
+            [
+              30.265,
+              30.335
+            ],
+            [
+              2.1075,
+              2.1525
+            ]
+          ],
+          "replacement_boxes_campus_m": [
+            [
+              [
+                0.2,
+                2.675
+              ],
+              [
+                30.265,
+                30.335
+              ],
+              [
+                2.1075,
+                2.1525
+              ]
+            ]
+          ]
+        },
+        {
+          "original_vertex_indices": [
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+          ],
+          "original_face_indices": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "original_bounds_campus_m": [
+            [
+              4.1775,
+              4.2225
+            ],
+            [
+              30.265,
+              30.335
+            ],
+            [
+              1.01,
+              3.25
+            ]
+          ],
+          "replacement_boxes_campus_m": [
+            [
+              [
+                4.1775,
+                4.2225
+              ],
+              [
+                30.265,
+                30.335
+              ],
+              [
+                2.8,
+                3.25
+              ]
+            ]
+          ]
+        },
+        {
+          "original_vertex_indices": [
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "original_face_indices": [
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ],
+          "original_bounds_campus_m": [
+            [
+              4.2,
+              7.8
+            ],
+            [
+              30.265,
+              30.335
+            ],
+            [
+              1.0075,
+              1.0525
+            ]
+          ],
+          "replacement_boxes_campus_m": [
+            [
+              [
+                4.875,
+                7.8
+              ],
+              [
+                30.265,
+                30.335
+              ],
+              [
+                1.0075,
+                1.0525
+              ]
+            ]
+          ]
+        },
+        {
+          "original_vertex_indices": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87
+          ],
+          "original_face_indices": [
+            60,
+            61,
+            62,
+            63,
+            64,
+            65
+          ],
+          "original_bounds_campus_m": [
+            [
+              4.2,
+              7.8
+            ],
+            [
+              30.265,
+              30.335
+            ],
+            [
+              2.1075,
+              2.1525
+            ]
+          ],
+          "replacement_boxes_campus_m": [
+            [
+              [
+                4.875,
+                7.8
+              ],
+              [
+                30.265,
+                30.335
+              ],
+              [
+                2.1075,
+                2.1525
+              ]
+            ]
+          ]
+        },
+        {
+          "original_vertex_indices": [
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119
+          ],
+          "original_face_indices": [
+            84,
+            85,
+            86,
+            87,
+            88,
+            89
+          ],
+          "original_bounds_campus_m": [
+            [
+              11.7775,
+              11.8225
+            ],
+            [
+              30.265,
+              30.335
+            ],
+            [
+              1.01,
+              3.25
+            ]
+          ],
+          "replacement_boxes_campus_m": [
+            [
+              [
+                11.7775,
+                11.8225
+              ],
+              [
+                30.265,
+                30.335
+              ],
+              [
+                2.8,
+                3.25
+              ]
+            ]
+          ]
+        },
+        {
+          "original_vertex_indices": [
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127
+          ],
+          "original_face_indices": [
+            90,
+            91,
+            92,
+            93,
+            94,
+            95
+          ],
+          "original_bounds_campus_m": [
+            [
+              8.2,
+              11.8
+            ],
+            [
+              30.265,
+              30.335
+            ],
+            [
+              1.0075,
+              1.0525
+            ]
+          ],
+          "replacement_boxes_campus_m": [
+            [
+              [
+                8.2,
+                10.705
+              ],
+              [
+                30.265,
+                30.335
+              ],
+              [
+                1.0075,
+                1.0525
+              ]
+            ]
+          ]
+        },
+        {
+          "original_vertex_indices": [
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135
+          ],
+          "original_face_indices": [
+            96,
+            97,
+            98,
+            99,
+            100,
+            101
+          ],
+          "original_bounds_campus_m": [
+            [
+              8.2,
+              11.8
+            ],
+            [
+              30.265,
+              30.335
+            ],
+            [
+              2.1075,
+              2.1525
+            ]
+          ],
+          "replacement_boxes_campus_m": [
+            [
+              [
+                8.2,
+                10.705
+              ],
+              [
+                30.265,
+                30.335
+              ],
+              [
+                2.1075,
+                2.1525
+              ]
+            ]
+          ]
+        },
+        {
+          "original_vertex_indices": [
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151
+          ],
+          "original_face_indices": [
+            108,
+            109,
+            110,
+            111,
+            112,
+            113
+          ],
+          "original_bounds_campus_m": [
+            [
+              12.1775,
+              12.2225
+            ],
+            [
+              30.265,
+              30.335
+            ],
+            [
+              1.01,
+              3.25
+            ]
+          ],
+          "replacement_boxes_campus_m": [
+            [
+              [
+                12.1775,
+                12.2225
+              ],
+              [
+                30.265,
+                30.335
+              ],
+              [
+                2.8,
+                3.25
+              ]
+            ]
+          ]
+        },
+        {
+          "original_vertex_indices": [
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175
+          ],
+          "original_face_indices": [
+            126,
+            127,
+            128,
+            129,
+            130,
+            131
+          ],
+          "original_bounds_campus_m": [
+            [
+              12.2,
+              15.8
+            ],
+            [
+              30.265,
+              30.335
+            ],
+            [
+              1.0075,
+              1.0525
+            ]
+          ],
+          "replacement_boxes_campus_m": [
+            [
+              [
+                12.905,
+                15.8
+              ],
+              [
+                30.265,
+                30.335
+              ],
+              [
+                1.0075,
+                1.0525
+              ]
+            ]
+          ]
+        },
+        {
+          "original_vertex_indices": [
+            176,
+            177,
+            178,
+            179,
+            180,
+            181,
+            182,
+            183
+          ],
+          "original_face_indices": [
+            132,
+            133,
+            134,
+            135,
+            136,
+            137
+          ],
+          "original_bounds_campus_m": [
+            [
+              12.2,
+              15.8
+            ],
+            [
+              30.265,
+              30.335
+            ],
+            [
+              2.1075,
+              2.1525
+            ]
+          ],
+          "replacement_boxes_campus_m": [
+            [
+              [
+                12.905,
+                15.8
+              ],
+              [
+                30.265,
+                30.335
+              ],
+              [
+                2.1075,
+                2.1525
+              ]
+            ]
+          ]
+        }
+      ],
+      "new_vertices": 2208,
+      "new_faces": 1624,
+      "materials": [
+        "M_Interior_Metal"
+      ],
+      "untouched_geometry_and_uv_exact": true
+    },
+    {
+      "suffix": "WindowShade",
+      "actor_name": "StaticMeshActor_26",
+      "actor_label": "NorthwestRearWing | M_Interior_WindowShade",
+      "original_live_mesh": "/Game/ATS/Revision6/Northwest/ATS_Northwest_Addition_SM_Walk_NorthwestRearWing_WindowShade.ATS_Northwest_Addition_SM_Walk_NorthwestRearWing_WindowShade",
+      "original_material_paths": [
+        "/Game/ATS/Campus/Materials/M_Interior_WindowShade.M_Interior_WindowShade"
+      ],
+      "original_actor_transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "replacement_object": "SM_DiningRearAperture_WindowShade",
+      "original_vertices": 352,
+      "original_faces": 264,
+      "unchanged_original_vertices": 320,
+      "unchanged_original_faces": 240,
+      "patched_components": [
+        {
+          "original_vertex_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "original_face_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "original_bounds_campus_m": [
+            [
+              0.2,
+              3.8
+            ],
+            [
+              30.5275,
+              30.5525
+            ],
+            [
+              1.03,
+              3.23
+            ]
+          ],
+          "replacement_boxes_campus_m": [
+            [
+              [
+                0.2,
+                2.675
+              ],
+              [
+                30.5275,
+                30.5525
+              ],
+              [
+                1.03,
+                3.23
+              ]
+            ],
+            [
+              [
+                2.675,
+                3.8
+              ],
+              [
+                30.5275,
+                30.5525
+              ],
+              [
+                2.8,
+                3.23
+              ]
+            ]
+          ]
+        },
+        {
+          "original_vertex_indices": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "original_face_indices": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "original_bounds_campus_m": [
+            [
+              4.2,
+              7.8
+            ],
+            [
+              30.5275,
+              30.5525
+            ],
+            [
+              1.03,
+              3.23
+            ]
+          ],
+          "replacement_boxes_campus_m": [
+            [
+              [
+                4.875,
+                7.8
+              ],
+              [
+                30.5275,
+                30.5525
+              ],
+              [
+                1.03,
+                3.23
+              ]
+            ],
+            [
+              [
+                4.2,
+                4.875
+              ],
+              [
+                30.5275,
+                30.5525
+              ],
+              [
+                2.8,
+                3.23
+              ]
+            ]
+          ]
+        },
+        {
+          "original_vertex_indices": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "original_face_indices": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "original_bounds_campus_m": [
+            [
+              8.2,
+              11.8
+            ],
+            [
+              30.5275,
+              30.5525
+            ],
+            [
+              1.03,
+              3.23
+            ]
+          ],
+          "replacement_boxes_campus_m": [
+            [
+              [
+                8.2,
+                10.705
+              ],
+              [
+                30.5275,
+                30.5525
+              ],
+              [
+                1.03,
+                3.23
+              ]
+            ],
+            [
+              [
+                10.705,
+                11.8
+              ],
+              [
+                30.5275,
+                30.5525
+              ],
+              [
+                2.8,
+                3.23
+              ]
+            ]
+          ]
+        },
+        {
+          "original_vertex_indices": [
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31
+          ],
+          "original_face_indices": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "original_bounds_campus_m": [
+            [
+              12.2,
+              15.8
+            ],
+            [
+              30.5275,
+              30.5525
+            ],
+            [
+              1.03,
+              3.23
+            ]
+          ],
+          "replacement_boxes_campus_m": [
+            [
+              [
+                12.905,
+                15.8
+              ],
+              [
+                30.5275,
+                30.5525
+              ],
+              [
+                1.03,
+                3.23
+              ]
+            ],
+            [
+              [
+                12.2,
+                12.905
+              ],
+              [
+                30.5275,
+                30.5525
+              ],
+              [
+                2.8,
+                3.23
+              ]
+            ]
+          ]
+        }
+      ],
+      "new_vertices": 384,
+      "new_faces": 288,
+      "materials": [
+        "M_Interior_WindowShade"
+      ],
+      "untouched_geometry_and_uv_exact": true
+    }
+  ],
+  "untouched_groups": [
+    "White including G columns at u6/12/18,v28.25",
+    "TerrazzoRose floor slabs",
+    "PinkTile",
+    "AnnexPlaster",
+    "WeatheredRoof"
+  ],
+  "upper_floors_unchanged": true,
+  "original_other_ground_floor_geometry_preserved": true,
+  "fbx_roundtrip_verification": {
+    "SM_DiningRearAperture_Cream": {
+      "maximum_vertex_distance_m": 6.877043295791605e-06,
+      "polygon_surfaces_match": true
+    },
+    "SM_DiningRearAperture_Metal": {
+      "maximum_vertex_distance_m": 5.3947966093944364e-06,
+      "polygon_surfaces_match": true
+    },
+    "SM_DiningRearAperture_WindowShade": {
+      "maximum_vertex_distance_m": 5.3947966093944364e-06,
+      "polygon_surfaces_match": true
+    }
+  },
+  "aperture_ray_verification": {
+    "tested": 2378,
+    "obstructions": 0,
+    "plane_v_m": [
+      30.0,
+      30.8
+    ],
+    "coverage": "41 columns by 29 heights per aperture, 20 mm inside opening borders"
+  },
+  "outputs": {
+    "fbx": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Dining\\FullGroundFloor_20261108\\RearShutterApertures\\ATS_DiningRearApertures.fbx",
+    "blend": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Dining\\FullGroundFloor_20261108\\RearShutterApertures\\ATS_DiningRearApertures.blend"
+  },
+  "warning": "Existing hidden UE rear-wing access boundary begins v30.45; it is not part of these meshes and is not modified here."
+}

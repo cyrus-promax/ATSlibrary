@@ -1,0 +1,79 @@
+{
+  "checked_at": "2026-11-08",
+  "school": "香港仔工業學校 / Aberdeen Technical School, 1 Wong Chuk Hang Road, Hong Kong",
+  "decision": "No verified floor plan, as-built drawing or dimensioned library layout found in the official sources checked. Do not build or restore guessed library geometry.",
+  "world_registration_missing": ["verified room perimeter", "window and doorway positions with dimensions", "internal partition coordinates", "connection of library rooms to known campus coordinates", "floor elevation and ceiling height"],
+  "sources": [
+    {
+      "title": "QEF project 2020/0355: 「悅」讀‧愈讀",
+      "url": "https://qcrc.qef.org.hk/tc/search/projectdetails.php?id=11287",
+      "date": "2023-03-01 to 2024-04-30 project period",
+      "finding": "Confirms ATS project. Detail page offers only the proposal link; no final report or plans were linked when checked."
+    },
+    {
+      "title": "QEF revised proposal 2020/0355",
+      "url": "https://qcrc.qef.org.hk/Publish/project_information/202309/2020_0355_proposal.pdf",
+      "local_file": "2020_0355_proposal.pdf",
+      "inspection": "All 13 pages rendered and visually checked; text extracted.",
+      "finding": "No floor-plan drawing. Pages 10-11 contain procurement and works estimates, including roughly 2,500 sq ft of vinyl flooring, 8 individual reading seats and associated glass doors, two replacement library doors, and low/tall/full-height book cabinets. Borrowing, self-study and lecture areas are mentioned. These are proposal specifications, not verified as-built quantities or placements. No room dimensions, orientation or window/door coordinates."
+    },
+    {
+      "title": "Official 2026/27 school prospectus",
+      "url": "http://www.ats.edu.hk/images/doc/2627_school_intro_index.pdf",
+      "local_file": "2627_school_intro_index.pdf",
+      "inspection": "Complete 40,282,231-byte PDF downloaded with verified ranges; 19 PDF pages/spreads rendered and visually checked.",
+      "finding": "School history, courses, activities, general facilities/photos and street access map. No library floor plan or dimensioned room drawing. Small reading-activity photographs do not register the library into campus coordinates."
+    },
+    {
+      "title": "2023/24 annual report",
+      "url": "http://www.ats.edu.hk/images/doc/2324/schreport2324.pdf",
+      "local_file": "schreport2324.pdf",
+      "inspection": "53-page text reviewed for library/layout terms; relevant page 17 visually checked.",
+      "finding": "No usable plan found. PDF page 17 (printed 16) contains a close photograph of a Chinese-script exhibition with dark window frames and pale wood low cabinets, probably library but caption alone does not establish room identity. It cannot establish dimensions or orientation.",
+      "photo": "report2324_p17_image2_Image103.jpg"
+    },
+    {
+      "title": "2024/25 annual report",
+      "url": "http://www.ats.edu.hk/images/doc/2425/schreport2425.pdf",
+      "local_file": "schreport2425.pdf",
+      "inspection": "64-page text reviewed for library/layout terms; relevant pages 21 and 23 rendered and visually checked.",
+      "finding": "No usable plan found. PDF page 23 (printed 22) has two low-resolution cultural-reading activity photographs: shelves, a wood-framed door, exit sign, and television on wood panel are visible. Shared with visual-research agent for comparison with HKLA photographs. They provide local appearance only.",
+      "photos": ["report2425_p23_image2_Image127.jpg", "report2425_p23_image3_Image128.jpg"]
+    },
+    {
+      "title": "2025/26 annual report",
+      "url": "http://www.ats.edu.hk/images/doc/2526/schreport2526.pdf",
+      "local_file": "schreport2526.pdf",
+      "inspection": "73-page text reviewed for library/layout terms; page 22 rendered and visually checked.",
+      "finding": "No usable plan found. Reading activity photograph on page 22 is a classroom, not the renovated library; excluded as a library modeling reference."
+    },
+    {
+      "title": "2026-2028 fire-system maintenance tender invitation",
+      "url": "http://www.ats.edu.hk/images/doc/260414_ATS_2026-2028.pdf",
+      "local_file": "260414_ATS_2026-2028.pdf",
+      "finding": "Public file has one invitation page only; no floor plans or evacuation diagrams attached."
+    },
+    {
+      "title": "2025-2026 campus system works tender invitation",
+      "url": "http://www.ats.edu.hk/images/doc/tender/20251104_1.pdf",
+      "local_file": "20251104_1.pdf",
+      "finding": "Public file has one invitation page only; no building or library drawings attached."
+    },
+    {
+      "title": "2021 guided-tour leaflet",
+      "url": "http://www.ats.edu.hk/images/doc/20211114_GuidedTour.pdf",
+      "local_file": "20211114_GuidedTour.pdf",
+      "finding": "School promotional leaflet, predates the library renovation; no library plan found."
+    },
+    {
+      "title": "School current document, annual-report, admission and tender pages",
+      "urls": ["http://www.ats.edu.hk/index.php/intro/schdoc", "http://www.ats.edu.hk/index.php/intro/school-document", "http://www.ats.edu.hk/index.php/2018-11-26-06-17-11/f1admission/2019-02-02-06-46-59", "http://www.ats.edu.hk/index.php/2018-12-05-06-47-43/tender"],
+      "finding": "Checked published links. No library drawing or final renovation report found. Current tender list does not expose the 2023 library renovation drawings."
+    }
+  ],
+  "false_positive_rejected": {
+    "url": "https://www.s2designhk.com/school",
+    "finding": "The library shown belongs to 佛教茂峰法師紀念中學. The ATS entry is an audio-visual room, not its library."
+  },
+  "scope_limit": "This is a bounded search of public documents, not proof that a plan does not exist privately or elsewhere. A floor-area estimate alone cannot fix perimeter, aspect ratio or room placement."
+}

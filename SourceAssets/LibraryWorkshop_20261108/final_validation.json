@@ -1,0 +1,147 @@
+{
+  "timestamp": "2026-11-08T19:21:04.468156",
+  "map": "/Game/ATS/Maps/ATS_Library_Workshop",
+  "status": "passed",
+  "source_mesh_asset_count": 277,
+  "active_source_mesh_count": 276,
+  "actor_count": 304,
+  "textures_4k": [
+    {
+      "asset": "/Game/ATS/LibraryWorkshop_20261108/Textures/T_LW_oak_veneer_02_base_color.T_LW_oak_veneer_02_base_color",
+      "size": [
+        4096,
+        4096
+      ],
+      "settings_verified": true
+    },
+    {
+      "asset": "/Game/ATS/LibraryWorkshop_20261108/Textures/T_LW_oak_veneer_02_normal_gl.T_LW_oak_veneer_02_normal_gl",
+      "size": [
+        4096,
+        4096
+      ],
+      "settings_verified": true
+    },
+    {
+      "asset": "/Game/ATS/LibraryWorkshop_20261108/Textures/T_LW_oak_veneer_02_roughness.T_LW_oak_veneer_02_roughness",
+      "size": [
+        4096,
+        4096
+      ],
+      "settings_verified": true
+    },
+    {
+      "asset": "/Game/ATS/LibraryWorkshop_20261108/Textures/T_LW_oak_veneer_02_ambient_occlusion.T_LW_oak_veneer_02_ambient_occlusion",
+      "size": [
+        4096,
+        4096
+      ],
+      "settings_verified": true
+    },
+    {
+      "asset": "/Game/ATS/LibraryWorkshop_20261108/Textures/T_LW_white_plaster_02_base_color.T_LW_white_plaster_02_base_color",
+      "size": [
+        4096,
+        4096
+      ],
+      "settings_verified": true
+    },
+    {
+      "asset": "/Game/ATS/LibraryWorkshop_20261108/Textures/T_LW_white_plaster_02_normal_gl.T_LW_white_plaster_02_normal_gl",
+      "size": [
+        4096,
+        4096
+      ],
+      "settings_verified": true
+    },
+    {
+      "asset": "/Game/ATS/LibraryWorkshop_20261108/Textures/T_LW_white_plaster_02_roughness.T_LW_white_plaster_02_roughness",
+      "size": [
+        4096,
+        4096
+      ],
+      "settings_verified": true
+    },
+    {
+      "asset": "/Game/ATS/LibraryWorkshop_20261108/Textures/T_LW_white_plaster_02_ambient_occlusion.T_LW_white_plaster_02_ambient_occlusion",
+      "size": [
+        4096,
+        4096
+      ],
+      "settings_verified": true
+    },
+    {
+      "asset": "/Game/ATS/LibraryWorkshop_20261108/Textures/T_LW_WoodFloor051_base_color.T_LW_WoodFloor051_base_color",
+      "size": [
+        4096,
+        4096
+      ],
+      "settings_verified": true
+    },
+    {
+      "asset": "/Game/ATS/LibraryWorkshop_20261108/Textures/T_LW_WoodFloor051_normal_gl.T_LW_WoodFloor051_normal_gl",
+      "size": [
+        4096,
+        4096
+      ],
+      "settings_verified": true
+    },
+    {
+      "asset": "/Game/ATS/LibraryWorkshop_20261108/Textures/T_LW_WoodFloor051_roughness.T_LW_WoodFloor051_roughness",
+      "size": [
+        4096,
+        4096
+      ],
+      "settings_verified": true
+    },
+    {
+      "asset": "/Game/ATS/LibraryWorkshop_20261108/Textures/T_LW_WoodFloor051_ambient_occlusion.T_LW_WoodFloor051_ambient_occlusion",
+      "size": [
+        4096,
+        4096
+      ],
+      "settings_verified": true
+    }
+  ],
+  "groups": [
+    {
+      "module": "Main",
+      "root": "TargetPoint_2",
+      "attached_child_moves_and_restores": true
+    },
+    {
+      "module": "Step",
+      "root": "TargetPoint_3",
+      "attached_child_moves_and_restores": true
+    },
+    {
+      "module": "Lecture",
+      "root": "TargetPoint_4",
+      "attached_child_moves_and_restores": true
+    },
+    {
+      "module": "Culture",
+      "root": "TargetPoint_5",
+      "attached_child_moves_and_restores": true
+    }
+  ],
+  "walk_status": "passed",
+  "walk_check_count": 20,
+  "character": "/Script/ATS.ATSTourCharacter",
+  "school_map_unchanged": true,
+  "school_map_sha256": "d85aa90bfdd991b91c6f60904b15db120beceb53ab2e9209d6f44aa0edf68cc5",
+  "book_count": 2298,
+  "source_and_shader_precision_verified": true,
+  "visual_checks": [
+    "Main table/reception overlap artefacts repaired",
+    "Photographic hanging fern detail replaces coarse triangles",
+    "Culture plaque Chinese glyphs present and facing front",
+    "4K texture dimensions checked on UE assets"
+  ],
+  "limitations": [
+    "Independent study modules: display dimensions and arrangement are provisional, not an as-built floorplan.",
+    "Photographic finish match does not identify school original material products.",
+    "Door closer mechanical linkage is not animated.",
+    "Runtime validation covers the workshop, not a new route into the school."
+  ]
+}

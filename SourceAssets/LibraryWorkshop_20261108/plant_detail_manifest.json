@@ -1,0 +1,142 @@
+{
+  "replace_mesh": "SM_LW_Step_Plants_Plant",
+  "meshes": [
+    {
+      "name": "SM_LW_Step_PlantDetail_PlantDark",
+      "module": "Step",
+      "category": "PlantDetail",
+      "material": "LW_PlantDark",
+      "materials": [
+        "LW_PlantDark"
+      ],
+      "collision": false,
+      "vertices": 13905,
+      "triangles": 19650,
+      "bounds_min": [
+        20.796669006347656,
+        4.985601902008057,
+        2.1975622177124023
+      ],
+      "bounds_max": [
+        27.181062698364258,
+        5.9867329597473145,
+        2.838268756866455
+      ]
+    },
+    {
+      "name": "SM_LW_Step_PlantDetail_PlantLight",
+      "module": "Step",
+      "category": "PlantDetail",
+      "material": "LW_PlantLight",
+      "materials": [
+        "LW_PlantLight"
+      ],
+      "collision": false,
+      "vertices": 20214,
+      "triangles": 30188,
+      "bounds_min": [
+        20.798547744750977,
+        4.987618446350098,
+        2.27284836769104
+      ],
+      "bounds_max": [
+        27.202146530151367,
+        5.986827850341797,
+        2.8406267166137695
+      ]
+    },
+    {
+      "name": "SM_LW_Step_PlantDetail_Plant",
+      "module": "Step",
+      "category": "PlantDetail",
+      "material": "LW_Plant",
+      "materials": [
+        "LW_Plant"
+      ],
+      "collision": false,
+      "vertices": 23904,
+      "triangles": 26896,
+      "bounds_min": [
+        20.82857894897461,
+        4.989062309265137,
+        2.275871515274048
+      ],
+      "bounds_max": [
+        27.203657150268555,
+        5.988986968994141,
+        2.839676856994629
+      ]
+    }
+  ],
+  "mesh_count": 3,
+  "counts": {
+    "fern_fronds": 63,
+    "fern_leaflets": 1890,
+    "broad_lanceolate_leaves": 42,
+    "leaf_veins": 1932
+  },
+  "triangles": 76734,
+  "coordinate_system": "Original Furniture global Blender metres, z up, identity object transforms; no actor offset required.",
+  "existing_frame_centers": [
+    [
+      21.65,
+      5.505,
+      2.77
+    ],
+    [
+      24.15,
+      5.505,
+      2.77
+    ],
+    [
+      26.4,
+      5.505,
+      2.77
+    ]
+  ],
+  "materials": {
+    "LW_Plant": {
+      "base_color": [
+        0.055,
+        0.18,
+        0.026
+      ],
+      "roughness": 0.6,
+      "two_sided": true,
+      "note": "Opaque geometric curved leaflets; no alpha card texture required."
+    },
+    "LW_PlantDark": {
+      "base_color": [
+        0.025,
+        0.095,
+        0.018
+      ],
+      "roughness": 0.6,
+      "two_sided": true,
+      "note": "Opaque geometric curved leaflets; no alpha card texture required."
+    },
+    "LW_PlantLight": {
+      "base_color": [
+        0.15,
+        0.31,
+        0.045
+      ],
+      "roughness": 0.6,
+      "two_sided": true,
+      "note": "Opaque geometric curved leaflets; no alpha card texture required."
+    }
+  },
+  "sources": [
+    "20240831_095910.jpg",
+    "20240831_102535.jpg",
+    "20240831_100049.jpg"
+  ],
+  "status": "Photo-based denser fern-like and lanceolate foliage; exact species, branch counts and specimen dimensions are display estimates.",
+  "original_furniture_sha256_unchanged": {
+    "Furniture.fbx": "b5a3544bffc2476d46f4700bad78ca2e872c7cf3d718ded9bfeea86fd3299c62",
+    "Furniture.blend": "c97b132ba6eff06e20b942129fc6b053a7aed011cefc71a2723b6c6a6cbee4a8",
+    "furniture_manifest.json": "be6c57f2fc7c6bcea563b9e67afdf7d333822a1edc60743351f419d0a957b3fd"
+  },
+  "collision": false,
+  "no_ue_changes": true
+}

@@ -1,0 +1,23 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "Architecture",
+  "Description": "Aberdeen Technical School campus tour with surveyed exterior and photo-based interiors",
+  "Plugins": [
+    {
+      "Name": "PythonScriptPlugin",
+      "Enabled": true
+    },
+    {
+      "Name": "EditorScriptingUtilities",
+      "Enabled": true
+    }
+  ],
+  "Modules": [
+    {
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "Name": "ATS"
+    }
+  ]
+}

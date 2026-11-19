@@ -1,0 +1,100 @@
+{
+  "actor": "StaticMeshActor_148",
+  "original_bounds_campus": [
+    0.2,
+    53.8,
+    30.45,
+    37.35,
+    0,
+    12.5
+  ],
+  "clearance_pockets": [
+    {
+      "u": [
+        2.675,
+        4.875
+      ],
+      "v": [
+        30.45,
+        32.1
+      ],
+      "h": [
+        0,
+        2.8
+      ]
+    },
+    {
+      "u": [
+        10.705,
+        12.905
+      ],
+      "v": [
+        30.45,
+        32.1
+      ],
+      "h": [
+        0,
+        2.8
+      ]
+    }
+  ],
+  "remaining_boxes": [
+    [
+      0.2,
+      2.675,
+      30.45,
+      37.35,
+      0,
+      12.5
+    ],
+    [
+      2.675,
+      4.875,
+      30.45,
+      37.35,
+      2.8,
+      12.5
+    ],
+    [
+      2.675,
+      4.875,
+      32.1,
+      37.35,
+      0,
+      2.8
+    ],
+    [
+      4.875,
+      10.705,
+      30.45,
+      37.35,
+      0,
+      12.5
+    ],
+    [
+      10.705,
+      12.905,
+      30.45,
+      37.35,
+      2.8,
+      12.5
+    ],
+    [
+      10.705,
+      12.905,
+      32.1,
+      37.35,
+      0,
+      2.8
+    ],
+    [
+      12.905,
+      53.8,
+      30.45,
+      37.35,
+      0,
+      12.5
+    ]
+  ],
+  "purpose": "Only allow crossing each confirmed shutter threshold onto existing ground. Unconfirmed spaces beyond 32.1 and between the two thresholds remain inaccessible. No room walls, destinations or corridor beyond the restaurant are invented."
+}

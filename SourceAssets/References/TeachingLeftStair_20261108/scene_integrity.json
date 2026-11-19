@@ -1,0 +1,7 @@
+{
+  "actors_before": 901,
+  "actors_after": 901,
+  "unchanged": true,
+  "changed_actor_names": [],
+  "scope": "Actor mesh, material, transform, visibility, collision, bounds and tags. Evidence files only added; no scene modification issued."
+}

@@ -1,0 +1,188 @@
+{
+  "timestamp": "2026-11-08T17:01:44.559468",
+  "status": "passed",
+  "before_count": 901,
+  "after_count": 901,
+  "changed_actors": 32,
+  "untouched_actors": 869,
+  "all_transforms_collisions_visibility_lighting_labels_unchanged": true,
+  "replacement_checks": [
+    {
+      "actor": "StaticMeshActor_199",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_211",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_223",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_235",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_247",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_259",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_271",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_283",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_295",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_307",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_319",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_331",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_343",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_355",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_367",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_379",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_391",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_403",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_415",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_427",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_439",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_451",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_463",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_475",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_552",
+      "bounds_max_delta_cm": 0.0,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    },
+    {
+      "actor": "StaticMeshActor_625",
+      "bounds_max_delta_cm": 1.08056640625,
+      "collision_mode_unchanged": true,
+      "lod_count": 1
+    }
+  ],
+  "source_hashes": [
+    {
+      "source": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Walkthrough\\ATS_Walkthrough.blend",
+      "sha256": "0b1fe69043159fa3131a232ba4358a74068450ae930b909d15dfd8374fc3ce4e",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Walkthrough\\ATS_Walkthrough.blend",
+      "sha256": "0b1fe69043159fa3131a232ba4358a74068450ae930b909d15dfd8374fc3ce4e",
+      "unchanged": true
+    },
+    {
+      "source": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Dining\\CrossWindowWall_20261108\\ATS_Dining_CrossWindows.blend",
+      "sha256": "efadc7ff3150602c315ed9c4fdc4c8c37621367db422e4936ef639cd55d6703b",
+      "unchanged": true
+    }
+  ],
+  "map_sha256": "d85aa90bfdd991b91c6f60904b15db120beceb53ab2e9209d6f44aa0edf68cc5",
+  "reload_passed": true,
+  "camera_restored": true,
+  "door_runtime": "passed"
+}

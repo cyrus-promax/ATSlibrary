@@ -1,0 +1,96 @@
+{
+  "review_date": "2026-11-08",
+  "scope": "Read-only research: distinguish dining-room wall finishes and find a photo-to-model registration. No UE or project edits.",
+  "conclusion": "The parent has now relayed the user's confirmation that the current whole-floor restaurant is the HK01 crucifix/basket-mosaic/black-terrazzo-band main hall. This supports correcting its existing generic 5 cm square finish toward the pale rectangular basket-mosaic material visible in that hall. Individual walls, reflective panels and special service zones are still not positively registered to UE coordinates; the evidence does not establish a complete finish-zoning survey.",
+  "later_user_confirmation": {
+    "provenance": "Relayed by parent agent during this research task, 2026-11-08",
+    "confirmed": "The currently modelled whole-floor restaurant is the main hall shown in the HK01 school-supplied cleanup photograph, identifiable by crucifix, pale mosaic columns and black floor bands.",
+    "not_confirmed": "The corresponding plan side of the crucifix/window wall; exact dimensions and special reflective/service-wall boundaries."
+  },
+  "subsequent_cross_wall_direction_confirmation": {
+    "provenance": "Parent relayed user confirmation after capturing the current UE view",
+    "user_statement_summary": "The crucifix/window wall is directly in front of the current view.",
+    "captured_view": "work/dining_cross_wall_user_view.png",
+    "parent_world_mapping": "W wall, campus u=.23; L is v3.67 and R is v30.4",
+    "confirmed_photo_local_topology": "At least one clearly visible complete tall window bay on each side of the crucifix. Both complete bays show approximately two main columns by three main tiers; upper left sections contain window air conditioners, and finer internal bars are present.",
+    "important_asymmetry": "In the HK01 image, the crucifix is on the solid wall between the two complete bays, visibly closer to the left bay. Do not assume it is centered on the gap or on the whole W wall.",
+    "occluded_window_limit": "Further window fragments occur to the left behind foreground columns, but perspective/occlusion prevents reliably assigning all of them to the same W wall or counting every bay.",
+    "still_unresolved": "Exact crucifix center-v, bay widths/heights/spacing, and all other W-wall windows. 'Directly in front' identifies the wall side; it does not state that the crucifix is exactly under the camera's center ray."
+  },
+  "safe_new_world_geometry_or_material_assignment": ["Correct the already accepted main-hall lower-wall generic square-tile appearance to a pale rectangular alternating-direction basket-mosaic appearance. This follows the user-confirmed room identity and the 2021/2023 photographs, not a measured complete finish survey."],
+  "cross_photo_anchors": [
+    {
+      "sources": ["goodschool_2021_dry_activity", "hk01_cleanup_2023"],
+      "shared_identifiers": ["A dark crucifix on a tall-window wall", "Pale basket-pattern mosaic on wall/column lower sections", "Dark narrow cap above mosaic", "Blue wall fans", "White exposed beams and tall rectangular window frames"],
+      "observation": "The crucifix/window wall appears at the left of the 2021 activity photo and toward the back of the 2023 cleanup view. These provide different views of a matching room portion, not proof of the room's campus orientation.",
+      "allowed_inference": "Relative correspondence between photographed wall portions is plausible and supports the material family.",
+      "not_established": ["Which user-plan wall the crucifix wall corresponds to", "Location of the tuck shop and roller-shutter entrances relative to that wall", "Measured lengths, window bays, dado height or tile dimensions"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "hk01_cleanup_2023",
+      "url": "https://www.hk01.com/article/939149",
+      "local_image": "work/research/dining_shutters/hk01_flood_06.jpg",
+      "date": "2023-09-09 publication, school-supplied rainstorm-cleanup photograph",
+      "observed": "Main hall lower walls and column wraps use pale rectangular alternating-direction mosaic, with narrow dark cap and dark skirting. Upper parts are off-white. Many tables/chairs are being moved; this is not daily seating evidence.",
+      "registration_limit": "No identified tuck-shop frontage, plan-matched shutter or dimensioned floorplan in the same view."
+    },
+    {
+      "id": "goodschool_2021_dry_activity",
+      "url": "https://media.goodschool.hk/storage/upload/ebook/2021-11-02-175925-108203.pdf",
+      "pdf_page": 15,
+      "local_image": "work/research/dining_layout/goodschool_2021_p15_image26.png",
+      "date": "2021 publication; capture date unspecified",
+      "observed": "Clear pale basket-pattern mosaic on the right foreground column, narrow dark cap, crucifix/window wall on the left, high smaller windows and banners on the back wall. Dry-looking beige/black terrazzo. The model-car group activity uses white tables but is not a complete normal dining layout.",
+      "registration_limit": "Room corner can be described in photo-local terms only; no reliable model/world orientation recovered."
+    },
+    {
+      "id": "newsletter_pink_meal",
+      "url": "http://www.ats.edu.hk/images/doc/2627_School_News_1.pdf",
+      "pdf_page": 16,
+      "local_image": "work/research/dining_layout/2627_School_News_1_p16_image13.png",
+      "observed": "White rectangular tables, blue/aqua plastic chairs, pink fine-grid wall surface and a partial timber door.",
+      "date_limit": "A 2026/27 publication label does not establish the photograph's capture date. The crop does not show the full upper edge of the dado, so absence of a dark top cap cannot be proved from this image.",
+      "registration_limit": "No shared plan anchor; do not replace all main-hall basket mosaic with pink square tiles on this basis."
+    },
+    {
+      "id": "goodschool_2025_washing_area",
+      "url": "https://www.hkgoodschool.cn/news/1004/學業品德相輔相成　多元機會發光發亮",
+      "publication": "2025-10, verified on article page",
+      "local_image": "work/research/dining_finish_20261108/goodschool2025_12.jpg",
+      "observed": "Students wash with red plastic basins on a long stainless worktable. The visible wall is pale pink below, off-white above, with dark skirting. A high barred small window and a dark timber door are on this wall; floor has large grey square joints.",
+      "interpretation": "Its window, floor and washing use differ from the photographed main dining hall. A separate washing/service area is plausible, but the source does not label its exact room or position.",
+      "registration_limit": "Do not identify this worktable as the user's fixed washbasin, or assign its pink walls/grey floor to the entire restaurant."
+    },
+    {
+      "id": "catholicway_documentary",
+      "url": "https://www.youtube.com/watch?v=vefRqyBVdcE",
+      "title": "《築蹟足跡》第十集：香港仔工業學校",
+      "publisher": "公教頻道 Catholic Way",
+      "publication_date": "2026-07-03",
+      "acknowledgements": ["鮑思高慈幼會", "香港仔工業學校"],
+      "source_index": "work/research/outdoor_seating/youtube_storyboard_index.json",
+      "reviewed_contact_sheets": ["work/research/outdoor_seating/yt_contact_0.jpg", "work/research/outdoor_seating/yt_contact_1.jpg", "work/research/outdoor_seating/yt_contact_2.jpg", "work/research/outdoor_seating/yt_contact_3.jpg", "work/research/outdoor_seating/yt_contact_4.jpg"],
+      "method": "Visually re-inspected previously downloaded public storyboard thumbnails at approximately 10-second intervals. This is not a new download or complete playback; brief scenes between frames can be missed.",
+      "dining_time_seconds_approx": 770,
+      "dining_native_sheet": "work/research/outdoor_seating/yt_story_08.jpg",
+      "dining_cell": "row 2, column 3; each native cell approximately 320 x 180 pixels",
+      "dining_observation": "A white rectangular dining table with people beside a white-framed multi-pane window. Pale fine-pattern wall tiles are visible. The frame credits ATS Channel, indicating reused material rather than proof of a 2026 capture date.",
+      "registration_limit": "No tuck-shop frontage, shutter, full room corner, ceiling layout or floor bands visible in the dining thumbnail. It corroborates a window-side dining setting but cannot register a wall to the UE plan.",
+      "excluded_scenes": ["5:20–6:10 is the assembly hall with stage and arched upper wall/ceiling details, not the dining hall", "6:50–7:40 shows workshops", "13:40–15:10 chiefly shows chapels", "Interview glass display cases belong to a school-history/display area, not proof of dining-room wall treatment"],
+      "current_access_limit": "This turn's direct watch page returned HTTP 429 and web open reported throttling. No full video was retrieved or claimed watched."
+    }
+  ],
+  "other_searches": {
+    "queries": ["香港仔工業學校 飯堂 全景", "香港仔工業學校 校園導覽 餐廳", "香港仔工業學校 飯堂 修葺", "香港仔工業學校 飯堂 翻新", "香港仔工業學校 餐廳 維他天地"],
+    "result": "No publicly indexed labelled dining refurbishment survey or plan-linked panorama found in this bounded search.",
+    "alumni_source": "https://linktr.ee/atssoba",
+    "alumni_limit": "ATS90 photo-sharing link is a WhatsApp community requiring joining, not a directly readable public photo album. No group joined or person contacted."
+  },
+  "implementation_boundary": {
+    "can_prepare": ["Native pale rectangular basket-mosaic matching the 2021/2023 visible pattern, now suitable for correcting the accepted main-hall generic lower-wall finish after the user confirmed room identity", "Separate pink fine-square material study for the meal/washing images; not mapped to the confirmed main hall", "Neutral low-gloss white paint on already accepted upper surfaces"],
+    "cannot_assign_yet": ["Whole-room lower-wall material zoning", "A complete new tile height/cap path around every wall", "Cross-wall location or crucifix placement", "Hall-style arched ceiling or chapel decorative treatments"],
+    "minimum_missing_anchor": "A photo or user confirmation identifying which side of the provided restaurant plan contains the crucifix between tall windows, or a photo connecting that wall to the tuck-shop/roller-shutter entrance."
+  }
+}

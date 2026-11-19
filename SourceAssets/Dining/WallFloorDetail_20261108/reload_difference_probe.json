@@ -1,0 +1,3954 @@
+[
+  {
+    "actor": "DirectionalLight_0",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "30000.0",
+          "light_color": "<Struct 'Color' (0x000001F7D8F8CFB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "False",
+          "temperature": "6500.0"
+        },
+        "after": {
+          "intensity": "30000.0",
+          "light_color": "<Struct 'Color' (0x000001F76A75C5B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "False",
+          "temperature": "6500.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_373",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "2520.0",
+          "light_color": "<Struct 'Color' (0x000001F81A7F84B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        },
+        "after": {
+          "intensity": "2520.0",
+          "light_color": "<Struct 'Color' (0x000001F75F86CFB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_374",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "2520.0",
+          "light_color": "<Struct 'Color' (0x000001F81A7F3EB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        },
+        "after": {
+          "intensity": "2520.0",
+          "light_color": "<Struct 'Color' (0x000001F75F86B1B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_375",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "2520.0",
+          "light_color": "<Struct 'Color' (0x000001F81A7FEDB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        },
+        "after": {
+          "intensity": "2520.0",
+          "light_color": "<Struct 'Color' (0x000001F75F86EDB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_376",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "2520.0",
+          "light_color": "<Struct 'Color' (0x000001F81A7F02B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        },
+        "after": {
+          "intensity": "2520.0",
+          "light_color": "<Struct 'Color' (0x000001F75F86F2B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_381",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "910.0",
+          "light_color": "<Struct 'Color' (0x000001F81A7F16B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        },
+        "after": {
+          "intensity": "910.0",
+          "light_color": "<Struct 'Color' (0x000001F75F865CB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_382",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "910.0",
+          "light_color": "<Struct 'Color' (0x000001F81A7F2FB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        },
+        "after": {
+          "intensity": "910.0",
+          "light_color": "<Struct 'Color' (0x000001F7549ED4B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_383",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "8400.0",
+          "light_color": "<Struct 'Color' (0x000001F81A7FA2B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        },
+        "after": {
+          "intensity": "8400.0",
+          "light_color": "<Struct 'Color' (0x000001F7549EE8B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_384",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "910.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB134B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        },
+        "after": {
+          "intensity": "910.0",
+          "light_color": "<Struct 'Color' (0x000001F7549EC5B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_385",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "910.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB111B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        },
+        "after": {
+          "intensity": "910.0",
+          "light_color": "<Struct 'Color' (0x000001F7549EBBB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_386",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "8400.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB116B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        },
+        "after": {
+          "intensity": "8400.0",
+          "light_color": "<Struct 'Color' (0x000001F7549EEDB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_387",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "910.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB11BB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        },
+        "after": {
+          "intensity": "910.0",
+          "light_color": "<Struct 'Color' (0x000001F7549EE3B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_388",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "910.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB1F7B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        },
+        "after": {
+          "intensity": "910.0",
+          "light_color": "<Struct 'Color' (0x000001F7549ECAB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_389",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "8400.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB12FB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        },
+        "after": {
+          "intensity": "8400.0",
+          "light_color": "<Struct 'Color' (0x000001F7549EB6B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_390",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "910.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB1D9B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        },
+        "after": {
+          "intensity": "910.0",
+          "light_color": "<Struct 'Color' (0x000001F6723320B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_391",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "910.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB1F2B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        },
+        "after": {
+          "intensity": "910.0",
+          "light_color": "<Struct 'Color' (0x000001F67233E8B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_392",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "8400.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB1EDB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        },
+        "after": {
+          "intensity": "8400.0",
+          "light_color": "<Struct 'Color' (0x000001F672337FB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4700.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_456",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB15CB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F6723370B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_457",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB170B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F67233FCB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_458",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB175B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F6723352B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_459",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB152B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7D8F8CFB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_460",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB198B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7D8F8ACB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_461",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB1CAB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7D8F820B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_462",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB1B6B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7D8F811B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_463",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB1C0B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7D8F843B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_464",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB1CFB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7D8F8FCB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_465",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB1A7B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7D8F82AB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_466",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB1FCB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7D8F802B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_467",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB161B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7D8F816B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_468",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB18EB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7D8F8B1B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_469",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB17FB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7D8F8CAB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_470",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F86BB36BB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7D8F8A2B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_471",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F86BB32FB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7D8F8D4B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_472",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F86BB3CAB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7D8F889B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_473",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F86BB393B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7D8F8EDB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_474",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F86BB30CB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75B88D4B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_475",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F86BB366B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75B880CB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_476",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F86BB389B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75B8807B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_477",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F86BB398B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F75B887FB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_478",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F86BB3F2B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F75B8811B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_479",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F86BB3E8B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F75B8839B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_480",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F86BB39DB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F75B882AB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_481",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F86BB3C5B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F75B883EB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_482",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F86BB361B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75B8884B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_483",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F86BB3D4B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75B8875B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_484",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76F90D4B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75B882FB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_485",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76F9089B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75B885CB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_486",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76F908EB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75B88EDB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_487",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76F90B6B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75B886BB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_488",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76F909DB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75B8852B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_489",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76F9093B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75B88C5B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_490",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76F90BBB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75B88CAB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_491",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76F90FCB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75B8857B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_492",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76F90B1B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75B88ACB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_493",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76F907FB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75B88FCB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_494",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76F90EDB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75B88B1B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_495",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7DA2D02B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7823FBBB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_496",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7DA2D25B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7823FC0B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_497",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7DA2D07B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7823F7FB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_498",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7DA2DF7B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7823FFCB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_499",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7DA2D16B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7823F84B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_500",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F75FBB98B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F699052FB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_501",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F75FBB8EB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F6990502B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_502",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7649C3EB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F699054DB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_503",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7649C39B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F6722FD4B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_504",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7649C48B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F6722F7AB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_505",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7649C52B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F6722F34B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_506",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7649C61B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F6722FDEB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_507",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7649C4DB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F6722F84B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_508",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7649C20B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F6722F3EB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_509",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7649C0CB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F6722FE3B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_510",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76A4CD9B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F6722FEDB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_511",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76A4C61B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F6722FF7B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_512",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76A4CCAB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F6722FCFB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_513",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76A4CDEB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F6722FBBB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_514",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76A4C48B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F6722FC5B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_515",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76A4CC5B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F6722F66B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_516",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76A4CF2B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F6722F70B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_517",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76A4C57B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F6722F75B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_518",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76A4CB6B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F6722F48B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_519",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F76A4CFCB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F6722F52B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_520",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F76A4C98B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F6722F39B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_521",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F76A4C89B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F6722F8EB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_522",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F76A4C7AB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F6722F7FB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_523",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F76A4C8EB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F6722F20B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_524",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76A4C5CB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F6722F11B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_525",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F76A4C93B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F6722FACB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_526",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F780E225B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F68BE4FCB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_527",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F780E202B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F68BE4DEB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_528",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F780E220B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F68BE4D4B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_529",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F780E21BB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F68BE46BB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_530",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F5239339B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FCCEDB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_531",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F754E01BB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FCCB6B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_532",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F754E00CB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FCCE8B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_533",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F754E034B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FCC3EB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_534",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F754E048B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FCC5CB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_535",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F754E05CB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FCC8EB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_536",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F754E052B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FCCF7B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_537",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F754E04DB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FCC84B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_538",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F754E020B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FCC66B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_539",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F754E066B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FCC48B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_540",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F754E007B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F75FCCDEB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_541",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F78105FCB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F75FCCFCB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_542",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F78105A7B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F75FCCD4B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_543",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F78105A2B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F75FCCBBB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_544",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F78105F2B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F75FCCC0B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_545",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F78105EDB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F78092C0B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_546",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F78105C0B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F78092C5B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_547",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F78105CFB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7809289B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_548",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F78105E8B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F78092B1B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_549",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7810DE3B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7809275B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_550",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7810DD9B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F780923EB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_551",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7810DDEB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F78092E3B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_552",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7810DC5B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7809257B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_553",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7810DBBB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F78092D4B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_554",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7810D57B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F78092CAB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_555",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7810DEDB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F780927FB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_556",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7810DF7B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F78092FCB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_557",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7810DACB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7809248B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_558",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7810DB1B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F780922FB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_559",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7810D4DB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7809239B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_560",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7810D39B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7809202B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_561",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7810D02B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7809220B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_562",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7810D16B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F780926BB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_563",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7810DC0B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7809266B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_564",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7810D2FB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F780929DB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_565",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7810D34B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F78092A7B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_566",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7810D6BB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7809270B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_567",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7810DFCB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7809284B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_568",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7810D7FB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F78092CFB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_569",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7810D93B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF22CAB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_570",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7810D84B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF2284B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_571",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7810D8EB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF22B1B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_572",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7810D9DB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF22CFB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_573",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FB139B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF22BBB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_574",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FB18EB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF2289B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_575",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FB189B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF2248B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_576",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FB1C0B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF22A2B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_577",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FB16BB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF22E8B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_578",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FB170B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF22A7B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_579",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FB12FB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF223EB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_580",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FB107B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF2293B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_581",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FB111B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "3000.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF22D4B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_582",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F75FB15CB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF226BB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_583",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F75FB1CFB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF22DEB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_584",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F75FB1D9B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF2239B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_585",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F75FB14DB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F76F9A16B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_586",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F75FB11BB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "1600.0",
+          "light_color": "<Struct 'Color' (0x000001F76F9A07B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_613",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "2000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FB1C5B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "2000.0",
+          "light_color": "<Struct 'Color' (0x000001F76F9A20B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_614",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "2000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FB19DB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "2000.0",
+          "light_color": "<Struct 'Color' (0x000001F782ADEDB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_615",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "2000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FB10CB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "2000.0",
+          "light_color": "<Struct 'Color' (0x000001F782AD93B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_616",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "2000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FB1B6B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "2000.0",
+          "light_color": "<Struct 'Color' (0x000001F782AD39B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_617",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "2000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FB152B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "2000.0",
+          "light_color": "<Struct 'Color' (0x000001F782ADD4B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_618",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "2000.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF860CB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "2000.0",
+          "light_color": "<Struct 'Color' (0x000001F782AD61B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_619",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "2000.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF862FB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "2000.0",
+          "light_color": "<Struct 'Color' (0x000001F782AD57B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_620",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "2000.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF8611B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        },
+        "after": {
+          "intensity": "2000.0",
+          "light_color": "<Struct 'Color' (0x000001F782ADC5B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "5100.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_621",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF8625B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F782AD1BB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_622",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF8634B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F782ADF2B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_623",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF8620B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F782AD70B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_624",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F7CF863EB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F782AD2FB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_625",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F75BD911B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F782AD52B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_626",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F75BD920B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F782AD34B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_627",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F75BD916B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F782ADCFB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_628",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F75BD98EB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F782AD7AB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_629",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F75BD952B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F782ADB1B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_630",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F75BD939B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F782ADDEB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_631",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F75BD948B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F782ADC0B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_632",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F75BD95CB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F782AD25B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_633",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F75BD984B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F782ADD9B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_634",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F75BD975B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F782AD66B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_635",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F75BD96BB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F69A7F4DB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_636",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F75BD993B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F66CFE52B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_637",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F75BD9A7B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F7CFB598B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_638",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F75BD99DB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F7CFB507B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_639",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F75BD9B6B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F7CFB5C0B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_640",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F75BD907B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F7CFB5CAB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_641",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F75BD9C0B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F7CFB557B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_642",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F75BD9CAB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F7CFB54DB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_643",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F75BD934B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F7CFB520B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_644",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F76F70DEB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F7CFB511B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_645",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F76F702AB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F7CFB516B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_646",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F76F70CFB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F7CFB50CB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_647",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F76F7011B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        },
+        "after": {
+          "intensity": "1700.0",
+          "light_color": "<Struct 'Color' (0x000001F7CFB53EB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4900.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_0",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "4000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FE84DB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4500.0"
+        },
+        "after": {
+          "intensity": "4000.0",
+          "light_color": "<Struct 'Color' (0x000001F76565F7B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4500.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_1",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "4000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FE87FB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4500.0"
+        },
+        "after": {
+          "intensity": "4000.0",
+          "light_color": "<Struct 'Color' (0x000001F76565CFB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4500.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_2",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "4000.0",
+          "light_color": "<Struct 'Color' (0x000001F81A7F34B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4500.0"
+        },
+        "after": {
+          "intensity": "4000.0",
+          "light_color": "<Struct 'Color' (0x000001F75F8693B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4500.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_3",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "4000.0",
+          "light_color": "<Struct 'Color' (0x000001F81A7F57B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4500.0"
+        },
+        "after": {
+          "intensity": "4000.0",
+          "light_color": "<Struct 'Color' (0x000001F75F8657B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "4500.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_4",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F7FDB102B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        },
+        "after": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F67233D4B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_5",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F7DA2DE3B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        },
+        "after": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F6990557B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_6",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FB1BBB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        },
+        "after": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F76F9A02B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_7",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F76F7066B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        },
+        "after": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F7CFB52FB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_8",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F76F7034B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        },
+        "after": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F7CFB525B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_9",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F76F70D9B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        },
+        "after": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F7CFB566B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_10",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FE898B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        },
+        "after": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F76565CAB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_11",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FE889B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        },
+        "after": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75F86E3B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_12",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FE884B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        },
+        "after": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75F8648B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_13",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FE843B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        },
+        "after": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75F862FB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_14",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FE825B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        },
+        "after": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75F86DEB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_15",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FE8E3B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        },
+        "after": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75F86D4B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_16",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FE80CB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        },
+        "after": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75F86D9B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_17",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FE85CB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        },
+        "after": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75F86E8B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_18",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FE8A7B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        },
+        "after": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75F8684B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_19",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75FE8E8B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        },
+        "after": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75F8666B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_20",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F81A7F52B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        },
+        "after": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75F8689B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_21",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F81A7FB6B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        },
+        "after": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75F866BB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_22",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F81A7F20B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        },
+        "after": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75F86A2B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_23",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F81A7FF2B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        },
+        "after": {
+          "intensity": "6000.0",
+          "light_color": "<Struct 'Color' (0x000001F75F869DB8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        }
+      }
+    }
+  },
+  {
+    "actor": "RectLight_24",
+    "fields": {
+      "light": {
+        "before": {
+          "intensity": "2200.0",
+          "light_color": "<Struct 'Color' (0x000001F81A7F98B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        },
+        "after": {
+          "intensity": "2200.0",
+          "light_color": "<Struct 'Color' (0x000001F75F8698B8) {b: 255, g: 255, r: 255, a: 255}>",
+          "use_temperature": "True",
+          "temperature": "6000.0"
+        }
+      }
+    }
+  }
+]

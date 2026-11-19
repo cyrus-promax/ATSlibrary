@@ -1,0 +1,403 @@
+[
+  {
+    "name": "facilities",
+    "url": "http://www.ats.edu.hk/index.php/intro/2018-11-26-06-47-13",
+    "images": [
+      {
+        "class": "logo hidden-xs hidden-sm img-responsive ",
+        "alt": "慈幼會 香港仔工業學校 | 寄宿部",
+        "src": "http://www.ats.edu.hk/templates/jsn_epic2_pro/images/logo.png"
+      },
+      {
+        "class": "logo hidden-lg hidden-md img-responsive ",
+        "alt": "慈幼會 香港仔工業學校 | 寄宿部",
+        "src": "http://www.ats.edu.hk/templates/jsn_epic2_pro/images/logo.png"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/school_facilities_01.jpg",
+        "width": "280",
+        "height": "187"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/school_facilities_13.jpg",
+        "width": "280",
+        "height": "187"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/school_facilities_04.jpg",
+        "width": "280",
+        "height": "187"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/school_facilities_14.jpg",
+        "width": "280",
+        "height": "187"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/school_facilities_15.jpg",
+        "width": "280",
+        "height": "187"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/school_facilities_16.jpg",
+        "width": "280",
+        "height": "187"
+      },
+      {
+        "src": "/images/PostImage/school_facilities_17.jpg",
+        "width": "280",
+        "height": "187"
+      },
+      {
+        "src": "/images/PostImage/school_facilities_18.jpg",
+        "width": "280",
+        "height": "187"
+      },
+      {
+        "src": "/images/PostImage/school_facilities_19.jpg",
+        "width": "280",
+        "height": "187"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/school_facilities_03.jpg",
+        "width": "280",
+        "height": "187"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/school_facilities_20.jpg",
+        "width": "280",
+        "height": "187"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/school_facilities_21.jpg",
+        "width": "280",
+        "height": "187"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/school_facilities_22.jpg",
+        "width": "280",
+        "height": "187"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/school_facilities_23.jpg",
+        "width": "280",
+        "height": "187"
+      },
+      {
+        "src": "/images/PostImage/pad3.jpg",
+        "width": "280",
+        "height": "187"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/school_facilities_09.jpg",
+        "width": "280",
+        "height": "187"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/school_facilities_08.jpg",
+        "width": "280",
+        "height": "187"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/school_facilities_05.jpg",
+        "width": "280",
+        "height": "187"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/school_facilities_06.jpg",
+        "width": "280",
+        "height": "187"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/school_facilities_07.jpg",
+        "width": "280",
+        "height": "187"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/school_facilities_10.jpg",
+        "width": "280",
+        "height": "187"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/school_building.jpg",
+        "width": "90%",
+        "height": "170"
+      },
+      {
+        "src": "/images/index_banners/FB_icon_2022_2.jpg",
+        "width": "30",
+        "height": "30"
+      },
+      {
+        "src": "/images/index_banners/YT_icon.jpg",
+        "width": "30",
+        "height": "30"
+      }
+    ],
+    "media_links": [
+      "http://www.ats.edu.hk/images/doc/boarding_aid_form.pdf",
+      "http://www.ats.edu.hk/images/doc/f1admission.pdf",
+      "http://www.ats.edu.hk/images/doc/BSAppForm.pdf",
+      "https://www.youtube.com/user/ATSVideoGroup"
+    ]
+  },
+  {
+    "name": "boarding",
+    "url": "http://www.ats.edu.hk/index.php/2018-12-05-07-42-24/2019-02-25-03-01-00",
+    "images": [
+      {
+        "class": "logo hidden-xs hidden-sm img-responsive ",
+        "alt": "慈幼會 香港仔工業學校 | 寄宿部",
+        "src": "http://www.ats.edu.hk/templates/jsn_epic2_pro/images/logo.png"
+      },
+      {
+        "class": "logo hidden-lg hidden-md img-responsive ",
+        "alt": "慈幼會 香港仔工業學校 | 寄宿部",
+        "src": "http://www.ats.edu.hk/templates/jsn_epic2_pro/images/logo.png"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/boarding_intro.jpg",
+        "width": "850",
+        "height": "557"
+      },
+      {
+        "src": "/images/PostImage/boarding_intro_01.jpg",
+        "width": "300",
+        "height": "200"
+      },
+      {
+        "src": "/images/PostImage/boarding_intro_05.jpg",
+        "width": "300",
+        "height": "200"
+      },
+      {
+        "src": "/images/PostImage/boarding_intro_03.jpg",
+        "width": "300",
+        "height": "200"
+      },
+      {
+        "src": "/images/PostImage/boarding_intro_04.jpg",
+        "width": "300",
+        "height": "200"
+      },
+      {
+        "src": "/images/PostImage/boarding_intro_19.jpg",
+        "width": "300",
+        "height": "200"
+      },
+      {
+        "src": "/images/PostImage/boarding_intro_06.jpg",
+        "width": "300",
+        "height": "200"
+      },
+      {
+        "src": "/images/PostImage/boarding_intro_07.jpg",
+        "width": "300",
+        "height": "200"
+      },
+      {
+        "src": "/images/PostImage/boarding_intro_08.jpg",
+        "width": "300",
+        "height": "200"
+      },
+      {
+        "src": "/images/PostImage/boarding_intro_09.jpg",
+        "width": "300",
+        "height": "200"
+      },
+      {
+        "src": "/images/PostImage/boarding_intro_10.jpg",
+        "width": "300",
+        "height": "200"
+      },
+      {
+        "src": "/images/PostImage/boarding_intro_11.jpg",
+        "width": "300",
+        "height": "200"
+      },
+      {
+        "src": "/images/PostImage/boarding_intro_12.jpg",
+        "width": "300",
+        "height": "200"
+      },
+      {
+        "src": "/images/PostImage/boarding_intro_13.jpg",
+        "width": "300",
+        "height": "200"
+      },
+      {
+        "src": "/images/PostImage/boarding_intro_14.jpg",
+        "width": "300",
+        "height": "200"
+      },
+      {
+        "src": "/images/PostImage/boarding_intro_15.jpg",
+        "width": "300",
+        "height": "200"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/school_building.jpg",
+        "width": "90%",
+        "height": "170"
+      },
+      {
+        "src": "/images/index_banners/FB_icon_2022_2.jpg",
+        "width": "30",
+        "height": "30"
+      },
+      {
+        "src": "/images/index_banners/YT_icon.jpg",
+        "width": "30",
+        "height": "30"
+      }
+    ],
+    "media_links": [
+      "http://www.ats.edu.hk/images/doc/boarding_aid_form.pdf",
+      "http://www.ats.edu.hk/images/doc/f1admission.pdf",
+      "http://www.ats.edu.hk/images/doc/BSAppForm.pdf",
+      "https://www.youtube.com/user/ATSVideoGroup"
+    ]
+  },
+  {
+    "name": "boarding_publications",
+    "url": "http://www.ats.edu.hk/index.php/2018-12-05-07-42-24/boardingpublication",
+    "images": [
+      {
+        "class": "logo hidden-xs hidden-sm img-responsive ",
+        "alt": "慈幼會 香港仔工業學校 | 寄宿部",
+        "src": "http://www.ats.edu.hk/templates/jsn_epic2_pro/images/logo.png"
+      },
+      {
+        "class": "logo hidden-lg hidden-md img-responsive ",
+        "alt": "慈幼會 香港仔工業學校 | 寄宿部",
+        "src": "http://www.ats.edu.hk/templates/jsn_epic2_pro/images/logo.png"
+      },
+      {
+        "src": "/images/PostImage/20261102 090127.jpg",
+        "alt": "",
+        "width": "609",
+        "height": "861"
+      },
+      {
+        "src": "/images/PostImage/ATS_happy_boarding_live_preview.jpg",
+        "width": "500"
+      },
+      {
+        "src": "/images/PostImage/Dorm_10_Anniversary_Journal_s.jpg",
+        "width": "500",
+        "height": "355"
+      },
+      {
+        "src": "/images/PostImage/ATS_boarding_comics_preview.jpg",
+        "width": "500"
+      },
+      {
+        "src": "/images/PostImage/boarding_magazine.jpg",
+        "width": "500"
+      },
+      {
+        "src": "/images/PostImage/ATS_boarding_letter_preview.jpg",
+        "width": "500"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/school_building.jpg",
+        "width": "90%",
+        "height": "170"
+      },
+      {
+        "src": "/images/index_banners/FB_icon_2022_2.jpg",
+        "width": "30",
+        "height": "30"
+      },
+      {
+        "src": "/images/index_banners/YT_icon.jpg",
+        "width": "30",
+        "height": "30"
+      }
+    ],
+    "media_links": [
+      "http://www.ats.edu.hk/images/doc/boarding_aid_form.pdf",
+      "http://www.ats.edu.hk/images/doc/f1admission.pdf",
+      "http://www.ats.edu.hk/images/doc/BSAppForm.pdf",
+      "http://www.ats.edu.hk/images/doc/20261102.pdf",
+      "http://www.ats.edu.hk/images/doc/20261102.pdf",
+      "http://www.ats.edu.hk/images/doc/ATS_happy_boarding_live.pdf",
+      "http://www.ats.edu.hk/images/doc/ATS_happy_boarding_live.pdf",
+      "http://www.ats.edu.hk/images/doc/Dorm_10_Anniversary_Journal.pdf",
+      "http://www.ats.edu.hk/images/doc/Dorm_10_Anniversary_Journal.pdf",
+      "http://www.ats.edu.hk/images/doc/ATS_Boarding_Leaflet.pdf",
+      "http://www.ats.edu.hk/images/doc/ATS_Boarding_Leaflet.pdf",
+      "http://www.ats.edu.hk/images/doc/ATS_boarding_magazine.pdf",
+      "http://www.ats.edu.hk/images/doc/ATS_boarding_magazine.pdf",
+      "http://www.ats.edu.hk/images/doc/Boarding_NewsLetter.pdf",
+      "http://www.ats.edu.hk/images/doc/Boarding_NewsLetter.pdf",
+      "https://www.youtube.com/user/ATSVideoGroup"
+    ]
+  },
+  {
+    "name": "school_intro_video",
+    "url": "http://www.ats.edu.hk/index.php/2018-11-26-06-17-11/f1admission/intro-video",
+    "images": [
+      {
+        "class": "logo hidden-xs hidden-sm img-responsive ",
+        "alt": "慈幼會 香港仔工業學校 | 寄宿部",
+        "src": "http://www.ats.edu.hk/templates/jsn_epic2_pro/images/logo.png"
+      },
+      {
+        "class": "logo hidden-lg hidden-md img-responsive ",
+        "alt": "慈幼會 香港仔工業學校 | 寄宿部",
+        "src": "http://www.ats.edu.hk/templates/jsn_epic2_pro/images/logo.png"
+      },
+      {
+        "style": "display: block; margin-left: auto; margin-right: auto;",
+        "src": "/images/PostImage/school_building.jpg",
+        "width": "90%",
+        "height": "170"
+      },
+      {
+        "src": "/images/index_banners/FB_icon_2022_2.jpg",
+        "width": "30",
+        "height": "30"
+      },
+      {
+        "src": "/images/index_banners/YT_icon.jpg",
+        "width": "30",
+        "height": "30"
+      }
+    ],
+    "media_links": [
+      "http://www.ats.edu.hk/images/doc/boarding_aid_form.pdf",
+      "http://www.ats.edu.hk/images/doc/f1admission.pdf",
+      "http://www.ats.edu.hk/images/doc/BSAppForm.pdf",
+      "http://www.youtube.com/embed/9_VQ__vri18",
+      "http://www.youtube.com/embed/WPYeCzpoORk",
+      "http://www.youtube.com/embed/1Jfs6xI0UCU",
+      "http://www.youtube.com/embed/ndrEmpPKyJY",
+      "http://www.youtube.com/embed/8kA9DavPEDc",
+      "http://www.youtube.com/embed/jAAo1rgDbyw",
+      "http://www.youtube.com/embed/JrZGGgkGTEE",
+      "https://www.youtube.com/user/ATSVideoGroup"
+    ]
+  }
+]

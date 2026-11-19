@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "kind": "photo_visible_culture_plaque",
+  "not_as_built": true,
+  "materials": {
+    "LW_DarkOak": {
+      "color": [
+        0.21,
+        0.105,
+        0.045
+      ],
+      "roughness": 0.48,
+      "metallic": 0
+    },
+    "LW_SignGold": {
+      "color": [
+        0.72,
+        0.49,
+        0.14
+      ],
+      "roughness": 0.35,
+      "metallic": 0.35
+    }
+  },
+  "meshes": [
+    {
+      "name": "SM_LW_Add_Culture_Plaque_DarkOak",
+      "module": "Culture",
+      "part": "CulturePlaque",
+      "material": "LW_DarkOak",
+      "collision": false,
+      "vertices": 96,
+      "polygons": 98,
+      "bounds_m": {
+        "min": [
+          22.375,
+          20.76500129699707,
+          2.490000009536743
+        ],
+        "max": [
+          24.025001525878906,
+          20.815000534057617,
+          2.870000123977661
+        ]
+      },
+      "source_photos": [
+        "20240831_100320.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    },
+    {
+      "name": "SM_LW_Add_Culture_PlaqueLettering_SignGold",
+      "module": "Culture",
+      "part": "CulturePlaqueLettering",
+      "material": "LW_SignGold",
+      "collision": false,
+      "vertices": 5304,
+      "polygons": 4621,
+      "bounds_m": {
+        "min": [
+          22.717124938964844,
+          20.76034927368164,
+          2.5675063133239746
+        ],
+        "max": [
+          23.68714141845703,
+          20.763648986816406,
+          2.7489161491394043
+        ]
+      },
+      "source_photos": [
+        "20240831_100320.jpg"
+      ],
+      "dimensions_status": "provisional_display_dimensions"
+    }
+  ],
+  "validation": {
+    "font": "C:\\Windows\\Fonts\\msjh.ttc",
+    "text": "中華文化閣",
+    "glyphs": [
+      {
+        "character": "中",
+        "codepoint": "0x4e2d",
+        "vertices": 80,
+        "shape_sha256": "be15edf13c68272ee31eacaa5d3c9e3ca0e79b2505e836c30d55a30308ba4a07"
+      },
+      {
+        "character": "華",
+        "codepoint": "0x83ef",
+        "vertices": 288,
+        "shape_sha256": "8f750eaa604211f8cedc0430233a0246c6fd4bd477c56ae9e4e8a3c4b330c48e"
+      },
+      {
+        "character": "文",
+        "codepoint": "0x6587",
+        "vertices": 520,
+        "shape_sha256": "b3d221b8de32d58d931a142dc6fbabee60ad3ba00728baebf2b283488ff3981d"
+      },
+      {
+        "character": "化",
+        "codepoint": "0x5316",
+        "vertices": 728,
+        "shape_sha256": "730cd41a98a286e1f35c7790cc2adf721e6d09818802a1bb5d30bde4ec523f55"
+      },
+      {
+        "character": "閣",
+        "codepoint": "0x95a3",
+        "vertices": 1036,
+        "shape_sha256": "f2f300e0228cc58f8c2639f4f99fdc1f4b14ba052cebbab38c04ddaff48d7ffe"
+      }
+    ],
+    "orientation": "front normal -Y, reading direction +X, upright +Z",
+    "world_baked_identity": true,
+    "text_fits_board": true,
+    "text_in_front_of_board": true,
+    "no_render_required": true
+  },
+  "source": "https://hkla.org/wp-content/uploads/gallery/2024-aberdeen-technical-school-visit/20240831_100320.jpg",
+  "notes": [
+    "Plaque wording and visual design are photo supported. Display position and dimensions remain provisional."
+  ]
+}

@@ -1,0 +1,1365 @@
+{
+  "count": 272,
+  "meshes": [
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Culture_CassetteFixings_WhiteMetal.Architecture_SM_LW_A_Culture_CassetteFixings_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Culture_CassetteGrilleSlats_WhiteMetal.Architecture_SM_LW_A_Culture_CassetteGrilleSlats_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Culture_CassetteIntakeRecess_Rubber.Architecture_SM_LW_A_Culture_CassetteIntakeRecess_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Culture_CassetteServicePipe_WhiteMetal.Architecture_SM_LW_A_Culture_CassetteServicePipe_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Culture_CassetteStatus_ExitGreen.Architecture_SM_LW_A_Culture_CassetteStatus_ExitGreen",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Culture_CeilingCassetteCasing_WhiteMetal.Architecture_SM_LW_A_Culture_CeilingCassetteCasing_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Culture_CeilingSlab_Plaster.Architecture_SM_LW_A_Culture_CeilingSlab_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Culture_ConduitSupports_WhiteMetal.Architecture_SM_LW_A_Culture_ConduitSupports_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Culture_CornerWalls_Plaster.Architecture_SM_LW_A_Culture_CornerWalls_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Culture_ExposedBeams_Plaster.Architecture_SM_LW_A_Culture_ExposedBeams_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Culture_ExposedWhiteServices_WhiteMetal.Architecture_SM_LW_A_Culture_ExposedWhiteServices_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Culture_Floor_FloorOak.Architecture_SM_LW_A_Culture_Floor_FloorOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Culture_WickerPendantBulb_Light.Architecture_SM_LW_A_Culture_WickerPendantBulb_Light",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Culture_WickerPendantCords_BlackMetal.Architecture_SM_LW_A_Culture_WickerPendantCords_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Culture_WickerPendantSocket_BlackMetal.Architecture_SM_LW_A_Culture_WickerPendantSocket_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Culture_WickerPendantWeave_Wicker.Architecture_SM_LW_A_Culture_WickerPendantWeave_Wicker",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_CassetteFixings_WhiteMetal.Architecture_SM_LW_A_Lecture_CassetteFixings_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_CassetteGrilleSlats_WhiteMetal.Architecture_SM_LW_A_Lecture_CassetteGrilleSlats_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_CassetteIntakeRecess_Rubber.Architecture_SM_LW_A_Lecture_CassetteIntakeRecess_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_CassetteServicePipe_WhiteMetal.Architecture_SM_LW_A_Lecture_CassetteServicePipe_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_CassetteStatus_ExitGreen.Architecture_SM_LW_A_Lecture_CassetteStatus_ExitGreen",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_CeilingCassetteCasing_WhiteMetal.Architecture_SM_LW_A_Lecture_CeilingCassetteCasing_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_CeilingLightPanel_Light.Architecture_SM_LW_A_Lecture_CeilingLightPanel_Light",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_CeilingLightSuspension_WhiteMetal.Architecture_SM_LW_A_Lecture_CeilingLightSuspension_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_CeilingLightWoodFrame_PaleOak.Architecture_SM_LW_A_Lecture_CeilingLightWoodFrame_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_CeilingSlab_Plaster.Architecture_SM_LW_A_Lecture_CeilingSlab_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_ConduitSupports_WhiteMetal.Architecture_SM_LW_A_Lecture_ConduitSupports_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_ExposedBeams_Plaster.Architecture_SM_LW_A_Lecture_ExposedBeams_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_ExposedWhiteServices_WhiteMetal.Architecture_SM_LW_A_Lecture_ExposedWhiteServices_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_Floor_FloorOak.Architecture_SM_LW_A_Lecture_Floor_FloorOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_ProjectionScreenEdge_BlackMetal.Architecture_SM_LW_A_Lecture_ProjectionScreenEdge_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_ProjectionScreenRoller_WhiteMetal.Architecture_SM_LW_A_Lecture_ProjectionScreenRoller_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_ProjectionScreen_ScreenWhite.Architecture_SM_LW_A_Lecture_ProjectionScreen_ScreenWhite",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_SpeakerGrille_Rubber.Architecture_SM_LW_A_Lecture_SpeakerGrille_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit1_ExitBox_WhiteMetal.Architecture_SM_LW_A_Lecture_StageExit1_ExitBox_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit1_ExitFace_Light.Architecture_SM_LW_A_Lecture_StageExit1_ExitFace_Light",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit1_ExitLettering_ExitGreen.Architecture_SM_LW_A_Lecture_StageExit1_ExitLettering_ExitGreen",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit1_Frame_PaleOak.Architecture_SM_LW_A_Lecture_StageExit1_Frame_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit1_Leaf_1_Closer_WhiteMetal.Architecture_SM_LW_A_Lecture_StageExit1_Leaf_1_Closer_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit1_Leaf_1_Glass_Glass.Architecture_SM_LW_A_Lecture_StageExit1_Leaf_1_Glass_Glass",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit1_Leaf_1_GlazingBead_WhiteMetal.Architecture_SM_LW_A_Lecture_StageExit1_Leaf_1_GlazingBead_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit1_Leaf_1_Handle_WhiteMetal.Architecture_SM_LW_A_Lecture_StageExit1_Leaf_1_Handle_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit1_Leaf_1_Hinges_WhiteMetal.Architecture_SM_LW_A_Lecture_StageExit1_Leaf_1_Hinges_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit1_Leaf_1_PaleOak.Architecture_SM_LW_A_Lecture_StageExit1_Leaf_1_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit1_Seal_Rubber.Architecture_SM_LW_A_Lecture_StageExit1_Seal_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit1_Stop_PaleOak.Architecture_SM_LW_A_Lecture_StageExit1_Stop_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit2_ExitBox_WhiteMetal.Architecture_SM_LW_A_Lecture_StageExit2_ExitBox_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit2_ExitFace_Light.Architecture_SM_LW_A_Lecture_StageExit2_ExitFace_Light",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit2_ExitLettering_ExitGreen.Architecture_SM_LW_A_Lecture_StageExit2_ExitLettering_ExitGreen",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit2_Frame_PaleOak.Architecture_SM_LW_A_Lecture_StageExit2_Frame_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit2_Leaf_1_Closer_WhiteMetal.Architecture_SM_LW_A_Lecture_StageExit2_Leaf_1_Closer_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit2_Leaf_1_Glass_Glass.Architecture_SM_LW_A_Lecture_StageExit2_Leaf_1_Glass_Glass",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit2_Leaf_1_GlazingBead_WhiteMetal.Architecture_SM_LW_A_Lecture_StageExit2_Leaf_1_GlazingBead_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit2_Leaf_1_Handle_WhiteMetal.Architecture_SM_LW_A_Lecture_StageExit2_Leaf_1_Handle_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit2_Leaf_1_Hinges_WhiteMetal.Architecture_SM_LW_A_Lecture_StageExit2_Leaf_1_Hinges_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit2_Leaf_1_PaleOak.Architecture_SM_LW_A_Lecture_StageExit2_Leaf_1_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit2_Seal_Rubber.Architecture_SM_LW_A_Lecture_StageExit2_Seal_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageExit2_Stop_PaleOak.Architecture_SM_LW_A_Lecture_StageExit2_Stop_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageWallSegments_Plaster.Architecture_SM_LW_A_Lecture_StageWallSegments_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageWindow_BlindChain_WhiteMetal.Architecture_SM_LW_A_Lecture_StageWindow_BlindChain_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageWindow_BlindRoller_Plaster.Architecture_SM_LW_A_Lecture_StageWindow_BlindRoller_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageWindow_Frame_BlackMetal.Architecture_SM_LW_A_Lecture_StageWindow_Frame_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageWindow_Gasket_Rubber.Architecture_SM_LW_A_Lecture_StageWindow_Gasket_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageWindow_Glass_Glass.Architecture_SM_LW_A_Lecture_StageWindow_Glass_Glass",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageWindow_Hardware_BlackMetal.Architecture_SM_LW_A_Lecture_StageWindow_Hardware_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageWindow_HopperLatches_BlackMetal.Architecture_SM_LW_A_Lecture_StageWindow_HopperLatches_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_StageWindow_Sill_Plaster.Architecture_SM_LW_A_Lecture_StageWindow_Sill_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_TierWindow1_BlindChain_WhiteMetal.Architecture_SM_LW_A_Lecture_TierWindow1_BlindChain_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_TierWindow1_BlindRoller_Plaster.Architecture_SM_LW_A_Lecture_TierWindow1_BlindRoller_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_TierWindow1_Frame_BlackMetal.Architecture_SM_LW_A_Lecture_TierWindow1_Frame_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_TierWindow1_Gasket_Rubber.Architecture_SM_LW_A_Lecture_TierWindow1_Gasket_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_TierWindow1_Glass_Glass.Architecture_SM_LW_A_Lecture_TierWindow1_Glass_Glass",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_TierWindow1_Hardware_BlackMetal.Architecture_SM_LW_A_Lecture_TierWindow1_Hardware_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_TierWindow1_HopperLatches_BlackMetal.Architecture_SM_LW_A_Lecture_TierWindow1_HopperLatches_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_TierWindow1_Sill_Plaster.Architecture_SM_LW_A_Lecture_TierWindow1_Sill_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_TierWindow2_BlindChain_WhiteMetal.Architecture_SM_LW_A_Lecture_TierWindow2_BlindChain_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_TierWindow2_BlindRoller_Plaster.Architecture_SM_LW_A_Lecture_TierWindow2_BlindRoller_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_TierWindow2_Frame_BlackMetal.Architecture_SM_LW_A_Lecture_TierWindow2_Frame_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_TierWindow2_Gasket_Rubber.Architecture_SM_LW_A_Lecture_TierWindow2_Gasket_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_TierWindow2_Glass_Glass.Architecture_SM_LW_A_Lecture_TierWindow2_Glass_Glass",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_TierWindow2_Hardware_BlackMetal.Architecture_SM_LW_A_Lecture_TierWindow2_Hardware_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_TierWindow2_HopperLatches_BlackMetal.Architecture_SM_LW_A_Lecture_TierWindow2_HopperLatches_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_TierWindow2_Sill_Plaster.Architecture_SM_LW_A_Lecture_TierWindow2_Sill_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_TierWindowWall_Plaster.Architecture_SM_LW_A_Lecture_TierWindowWall_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Lecture_WallSpeakers_BlackMetal.Architecture_SM_LW_A_Lecture_WallSpeakers_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_CassetteFixings_WhiteMetal.Architecture_SM_LW_A_Main_CassetteFixings_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_CassetteGrilleSlats_WhiteMetal.Architecture_SM_LW_A_Main_CassetteGrilleSlats_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_CassetteIntakeRecess_Rubber.Architecture_SM_LW_A_Main_CassetteIntakeRecess_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_CassetteServicePipe_WhiteMetal.Architecture_SM_LW_A_Main_CassetteServicePipe_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_CassetteStatus_ExitGreen.Architecture_SM_LW_A_Main_CassetteStatus_ExitGreen",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_CeilingCassetteCasing_WhiteMetal.Architecture_SM_LW_A_Main_CeilingCassetteCasing_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_CeilingSlab_Plaster.Architecture_SM_LW_A_Main_CeilingSlab_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_ConduitSupports_WhiteMetal.Architecture_SM_LW_A_Main_ConduitSupports_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_CrossPendantBody_Orange.Architecture_SM_LW_A_Main_CrossPendantBody_Orange",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_CrossPendantDiffuser_Light.Architecture_SM_LW_A_Main_CrossPendantDiffuser_Light",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_ExposedBeams_Plaster.Architecture_SM_LW_A_Main_ExposedBeams_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_ExposedWhiteServices_WhiteMetal.Architecture_SM_LW_A_Main_ExposedWhiteServices_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_Floor_FloorOak.Architecture_SM_LW_A_Main_Floor_FloorOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_FlowingLEDDiffuser_Light.Architecture_SM_LW_A_Main_FlowingLEDDiffuser_Light",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_FlowingLEDHousing_WhiteMetal.Architecture_SM_LW_A_Main_FlowingLEDHousing_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_FlowingLEDSuspension_BlackMetal.Architecture_SM_LW_A_Main_FlowingLEDSuspension_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_PendantSuspension_BlackMetal.Architecture_SM_LW_A_Main_PendantSuspension_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_Skirting_Plaster.Architecture_SM_LW_A_Main_Skirting_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WallCross_DarkOak.Architecture_SM_LW_A_Main_WallCross_DarkOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_1_BlindChain_WhiteMetal.Architecture_SM_LW_A_Main_WindowBay_A_1_BlindChain_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_1_BlindRoller_Plaster.Architecture_SM_LW_A_Main_WindowBay_A_1_BlindRoller_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_1_Frame_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_A_1_Frame_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_1_Gasket_Rubber.Architecture_SM_LW_A_Main_WindowBay_A_1_Gasket_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_1_Glass_Glass.Architecture_SM_LW_A_Main_WindowBay_A_1_Glass_Glass",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_1_Hardware_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_A_1_Hardware_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_1_HopperLatches_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_A_1_HopperLatches_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_1_Sill_Plaster.Architecture_SM_LW_A_Main_WindowBay_A_1_Sill_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_2_BlindChain_WhiteMetal.Architecture_SM_LW_A_Main_WindowBay_A_2_BlindChain_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_2_BlindRoller_Plaster.Architecture_SM_LW_A_Main_WindowBay_A_2_BlindRoller_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_2_Frame_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_A_2_Frame_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_2_Gasket_Rubber.Architecture_SM_LW_A_Main_WindowBay_A_2_Gasket_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_2_Glass_Glass.Architecture_SM_LW_A_Main_WindowBay_A_2_Glass_Glass",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_2_Hardware_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_A_2_Hardware_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_2_HopperLatches_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_A_2_HopperLatches_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_2_Sill_Plaster.Architecture_SM_LW_A_Main_WindowBay_A_2_Sill_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_3_BlindChain_WhiteMetal.Architecture_SM_LW_A_Main_WindowBay_A_3_BlindChain_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_3_BlindRoller_Plaster.Architecture_SM_LW_A_Main_WindowBay_A_3_BlindRoller_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_3_Frame_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_A_3_Frame_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_3_Gasket_Rubber.Architecture_SM_LW_A_Main_WindowBay_A_3_Gasket_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_3_Glass_Glass.Architecture_SM_LW_A_Main_WindowBay_A_3_Glass_Glass",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_3_Hardware_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_A_3_Hardware_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_3_HopperLatches_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_A_3_HopperLatches_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_3_Sill_Plaster.Architecture_SM_LW_A_Main_WindowBay_A_3_Sill_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_4_BlindChain_WhiteMetal.Architecture_SM_LW_A_Main_WindowBay_A_4_BlindChain_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_4_BlindRoller_Plaster.Architecture_SM_LW_A_Main_WindowBay_A_4_BlindRoller_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_4_Frame_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_A_4_Frame_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_4_Gasket_Rubber.Architecture_SM_LW_A_Main_WindowBay_A_4_Gasket_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_4_Glass_Glass.Architecture_SM_LW_A_Main_WindowBay_A_4_Glass_Glass",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_4_Hardware_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_A_4_Hardware_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_4_HopperLatches_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_A_4_HopperLatches_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_A_4_Sill_Plaster.Architecture_SM_LW_A_Main_WindowBay_A_4_Sill_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_1_BlindChain_WhiteMetal.Architecture_SM_LW_A_Main_WindowBay_B_1_BlindChain_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_1_BlindRoller_Plaster.Architecture_SM_LW_A_Main_WindowBay_B_1_BlindRoller_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_1_Frame_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_B_1_Frame_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_1_Gasket_Rubber.Architecture_SM_LW_A_Main_WindowBay_B_1_Gasket_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_1_Glass_Glass.Architecture_SM_LW_A_Main_WindowBay_B_1_Glass_Glass",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_1_Hardware_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_B_1_Hardware_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_1_HopperLatches_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_B_1_HopperLatches_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_1_Sill_Plaster.Architecture_SM_LW_A_Main_WindowBay_B_1_Sill_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_2_BlindChain_WhiteMetal.Architecture_SM_LW_A_Main_WindowBay_B_2_BlindChain_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_2_BlindRoller_Plaster.Architecture_SM_LW_A_Main_WindowBay_B_2_BlindRoller_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_2_Frame_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_B_2_Frame_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_2_Gasket_Rubber.Architecture_SM_LW_A_Main_WindowBay_B_2_Gasket_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_2_Glass_Glass.Architecture_SM_LW_A_Main_WindowBay_B_2_Glass_Glass",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_2_Hardware_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_B_2_Hardware_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_2_HopperLatches_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_B_2_HopperLatches_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_2_Sill_Plaster.Architecture_SM_LW_A_Main_WindowBay_B_2_Sill_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_3_BlindChain_WhiteMetal.Architecture_SM_LW_A_Main_WindowBay_B_3_BlindChain_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_3_BlindRoller_Plaster.Architecture_SM_LW_A_Main_WindowBay_B_3_BlindRoller_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_3_Frame_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_B_3_Frame_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_3_Gasket_Rubber.Architecture_SM_LW_A_Main_WindowBay_B_3_Gasket_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_3_Glass_Glass.Architecture_SM_LW_A_Main_WindowBay_B_3_Glass_Glass",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_3_Hardware_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_B_3_Hardware_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_3_HopperLatches_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_B_3_HopperLatches_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_3_Sill_Plaster.Architecture_SM_LW_A_Main_WindowBay_B_3_Sill_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_4_BlindChain_WhiteMetal.Architecture_SM_LW_A_Main_WindowBay_B_4_BlindChain_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_4_BlindRoller_Plaster.Architecture_SM_LW_A_Main_WindowBay_B_4_BlindRoller_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_4_Frame_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_B_4_Frame_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_4_Gasket_Rubber.Architecture_SM_LW_A_Main_WindowBay_B_4_Gasket_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_4_Glass_Glass.Architecture_SM_LW_A_Main_WindowBay_B_4_Glass_Glass",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_4_Hardware_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_B_4_Hardware_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_4_HopperLatches_BlackMetal.Architecture_SM_LW_A_Main_WindowBay_B_4_HopperLatches_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowBay_B_4_Sill_Plaster.Architecture_SM_LW_A_Main_WindowBay_B_4_Sill_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Main_WindowWallPanels_Plaster.Architecture_SM_LW_A_Main_WindowWallPanels_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_CassetteFixings_WhiteMetal.Architecture_SM_LW_A_Step_CassetteFixings_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_CassetteGrilleSlats_WhiteMetal.Architecture_SM_LW_A_Step_CassetteGrilleSlats_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_CassetteIntakeRecess_Rubber.Architecture_SM_LW_A_Step_CassetteIntakeRecess_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_CassetteServicePipe_WhiteMetal.Architecture_SM_LW_A_Step_CassetteServicePipe_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_CassetteStatus_ExitGreen.Architecture_SM_LW_A_Step_CassetteStatus_ExitGreen",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_CeilingCassetteCasing_WhiteMetal.Architecture_SM_LW_A_Step_CeilingCassetteCasing_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_CeilingSlab_Plaster.Architecture_SM_LW_A_Step_CeilingSlab_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_ConduitSupports_WhiteMetal.Architecture_SM_LW_A_Step_ConduitSupports_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_DoorWallAbove_Plaster.Architecture_SM_LW_A_Step_DoorWallAbove_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_DoubleExit_ExitBox_WhiteMetal.Architecture_SM_LW_A_Step_DoubleExit_ExitBox_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_DoubleExit_ExitFace_Light.Architecture_SM_LW_A_Step_DoubleExit_ExitFace_Light",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_DoubleExit_ExitLettering_ExitGreen.Architecture_SM_LW_A_Step_DoubleExit_ExitLettering_ExitGreen",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_DoubleExit_Frame_PaleOak.Architecture_SM_LW_A_Step_DoubleExit_Frame_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_DoubleExit_Leaf_1_Closer_WhiteMetal.Architecture_SM_LW_A_Step_DoubleExit_Leaf_1_Closer_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_DoubleExit_Leaf_1_Glass_Glass.Architecture_SM_LW_A_Step_DoubleExit_Leaf_1_Glass_Glass",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_DoubleExit_Leaf_1_GlazingBead_WhiteMetal.Architecture_SM_LW_A_Step_DoubleExit_Leaf_1_GlazingBead_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_DoubleExit_Leaf_1_Handle_WhiteMetal.Architecture_SM_LW_A_Step_DoubleExit_Leaf_1_Handle_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_DoubleExit_Leaf_1_Hinges_WhiteMetal.Architecture_SM_LW_A_Step_DoubleExit_Leaf_1_Hinges_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_DoubleExit_Leaf_1_PaleOak.Architecture_SM_LW_A_Step_DoubleExit_Leaf_1_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_DoubleExit_Leaf_2_Closer_WhiteMetal.Architecture_SM_LW_A_Step_DoubleExit_Leaf_2_Closer_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_DoubleExit_Leaf_2_Glass_Glass.Architecture_SM_LW_A_Step_DoubleExit_Leaf_2_Glass_Glass",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_DoubleExit_Leaf_2_GlazingBead_WhiteMetal.Architecture_SM_LW_A_Step_DoubleExit_Leaf_2_GlazingBead_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_DoubleExit_Leaf_2_Handle_WhiteMetal.Architecture_SM_LW_A_Step_DoubleExit_Leaf_2_Handle_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_DoubleExit_Leaf_2_Hinges_WhiteMetal.Architecture_SM_LW_A_Step_DoubleExit_Leaf_2_Hinges_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_DoubleExit_Leaf_2_PaleOak.Architecture_SM_LW_A_Step_DoubleExit_Leaf_2_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_DoubleExit_Seal_Rubber.Architecture_SM_LW_A_Step_DoubleExit_Seal_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_DoubleExit_Stop_PaleOak.Architecture_SM_LW_A_Step_DoubleExit_Stop_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_EndDoorFrame_WhiteMetal.Architecture_SM_LW_A_Step_EndDoorFrame_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_EndWall_Plaster.Architecture_SM_LW_A_Step_EndWall_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_ExposedBeams_Plaster.Architecture_SM_LW_A_Step_ExposedBeams_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_ExposedWhiteServices_WhiteMetal.Architecture_SM_LW_A_Step_ExposedWhiteServices_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_Floor_FloorOak.Architecture_SM_LW_A_Step_Floor_FloorOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_PendantSuspension_BlackMetal.Architecture_SM_LW_A_Step_PendantSuspension_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_RingPendantBody_PaleOak.Architecture_SM_LW_A_Step_RingPendantBody_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_RingPendantDiffuser_Light.Architecture_SM_LW_A_Step_RingPendantDiffuser_Light",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_Skirting_Plaster.Architecture_SM_LW_A_Step_Skirting_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_WindowBay_A_1_BlindChain_WhiteMetal.Architecture_SM_LW_A_Step_WindowBay_A_1_BlindChain_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_WindowBay_A_1_BlindRoller_Plaster.Architecture_SM_LW_A_Step_WindowBay_A_1_BlindRoller_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_WindowBay_A_1_Frame_BlackMetal.Architecture_SM_LW_A_Step_WindowBay_A_1_Frame_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_WindowBay_A_1_Gasket_Rubber.Architecture_SM_LW_A_Step_WindowBay_A_1_Gasket_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_WindowBay_A_1_Glass_Glass.Architecture_SM_LW_A_Step_WindowBay_A_1_Glass_Glass",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_WindowBay_A_1_Hardware_BlackMetal.Architecture_SM_LW_A_Step_WindowBay_A_1_Hardware_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_WindowBay_A_1_HopperLatches_BlackMetal.Architecture_SM_LW_A_Step_WindowBay_A_1_HopperLatches_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_WindowBay_A_1_Sill_Plaster.Architecture_SM_LW_A_Step_WindowBay_A_1_Sill_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_WindowBay_A_2_BlindChain_WhiteMetal.Architecture_SM_LW_A_Step_WindowBay_A_2_BlindChain_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_WindowBay_A_2_BlindRoller_Plaster.Architecture_SM_LW_A_Step_WindowBay_A_2_BlindRoller_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_WindowBay_A_2_Frame_BlackMetal.Architecture_SM_LW_A_Step_WindowBay_A_2_Frame_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_WindowBay_A_2_Gasket_Rubber.Architecture_SM_LW_A_Step_WindowBay_A_2_Gasket_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_WindowBay_A_2_Glass_Glass.Architecture_SM_LW_A_Step_WindowBay_A_2_Glass_Glass",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_WindowBay_A_2_Hardware_BlackMetal.Architecture_SM_LW_A_Step_WindowBay_A_2_Hardware_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_WindowBay_A_2_HopperLatches_BlackMetal.Architecture_SM_LW_A_Step_WindowBay_A_2_HopperLatches_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_WindowBay_A_2_Sill_Plaster.Architecture_SM_LW_A_Step_WindowBay_A_2_Sill_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Architecture/Architecture_SM_LW_A_Step_WindowWallPanels_Plaster.Architecture_SM_LW_A_Step_WindowWallPanels_Plaster",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Culture_Books_BookBlue.Furniture_SM_LW_Culture_Books_BookBlue",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Culture_Books_BookGreen.Furniture_SM_LW_Culture_Books_BookGreen",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Culture_Books_BookGrey.Furniture_SM_LW_Culture_Books_BookGrey",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Culture_Books_BookRed.Furniture_SM_LW_Culture_Books_BookRed",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Culture_Books_BookTan.Furniture_SM_LW_Culture_Books_BookTan",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Culture_Books_Paper.Furniture_SM_LW_Culture_Books_Paper",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Culture_CultureChairs_DarkOak.Furniture_SM_LW_Culture_CultureChairs_DarkOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Culture_CultureChairs_Fabric.Furniture_SM_LW_Culture_CultureChairs_Fabric",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Culture_CultureChairs_Paper.Furniture_SM_LW_Culture_CultureChairs_Paper",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Culture_CultureTable_DarkOak.Furniture_SM_LW_Culture_CultureTable_DarkOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Culture_Hardware_BlackMetal.Furniture_SM_LW_Culture_Hardware_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Culture_Shelving_DarkOak.Furniture_SM_LW_Culture_Shelving_DarkOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Lecture_LectureSeating_Fabric.Furniture_SM_LW_Lecture_LectureSeating_Fabric",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Lecture_LectureSeating_PaleOak.Furniture_SM_LW_Lecture_LectureSeating_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Lecture_StageCabinet_PaleOak.Furniture_SM_LW_Lecture_StageCabinet_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Lecture_Stage_PaleOak.Furniture_SM_LW_Lecture_Stage_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Main_Books_BookBlue.Furniture_SM_LW_Main_Books_BookBlue",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Main_Books_BookGreen.Furniture_SM_LW_Main_Books_BookGreen",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Main_Books_BookGrey.Furniture_SM_LW_Main_Books_BookGrey",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Main_Books_BookRed.Furniture_SM_LW_Main_Books_BookRed",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Main_Books_BookTan.Furniture_SM_LW_Main_Books_BookTan",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Main_Books_Paper.Furniture_SM_LW_Main_Books_Paper",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Main_ClearChairs_BlackMetal.Furniture_SM_LW_Main_ClearChairs_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Main_ClearChairs_Glass.Furniture_SM_LW_Main_ClearChairs_Glass",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Main_ClearChairs_PaleOak.Furniture_SM_LW_Main_ClearChairs_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Main_ClearChairs_Rubber.Furniture_SM_LW_Main_ClearChairs_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Main_Hardware_BlackMetal.Furniture_SM_LW_Main_Hardware_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Main_ReadingTables_PaleOak.Furniture_SM_LW_Main_ReadingTables_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Main_ReadingTables_Rubber.Furniture_SM_LW_Main_ReadingTables_Rubber",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Main_ReadingTables_WhiteMetal.Furniture_SM_LW_Main_ReadingTables_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Main_ReceptionDetails_BlackMetal.Furniture_SM_LW_Main_ReceptionDetails_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Main_ReceptionDetails_BookGrey.Furniture_SM_LW_Main_ReceptionDetails_BookGrey",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Main_Reception_BlackMetal.Furniture_SM_LW_Main_Reception_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Main_Reception_PaleOak.Furniture_SM_LW_Main_Reception_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Main_Reception_WhiteMetal.Furniture_SM_LW_Main_Reception_WhiteMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Main_Shelving_PaleOak.Furniture_SM_LW_Main_Shelving_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Step_Books_BookBlue.Furniture_SM_LW_Step_Books_BookBlue",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Step_Books_BookGreen.Furniture_SM_LW_Step_Books_BookGreen",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Step_Books_BookGrey.Furniture_SM_LW_Step_Books_BookGrey",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Step_Books_BookRed.Furniture_SM_LW_Step_Books_BookRed",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Step_Books_BookTan.Furniture_SM_LW_Step_Books_BookTan",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Step_Books_Paper.Furniture_SM_LW_Step_Books_Paper",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Step_Hardware_BlackMetal.Furniture_SM_LW_Step_Hardware_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Step_PlanterFrame_BlackMetal.Furniture_SM_LW_Step_PlanterFrame_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Step_PlanterFrame_PaleOak.Furniture_SM_LW_Step_PlanterFrame_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Step_Plants_Plant.Furniture_SM_LW_Step_Plants_Plant",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Step_Shelving_PaleOak.Furniture_SM_LW_Step_Shelving_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Step_TierHardware_BlackMetal.Furniture_SM_LW_Step_TierHardware_BlackMetal",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Step_TierHardware_Paper.Furniture_SM_LW_Step_TierHardware_Paper",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    },
+    {
+      "mesh": "/Game/ATS/LibraryWorkshop_20261108/Meshes/Furniture/Furniture_SM_LW_Step_TierSeating_PaleOak.Furniture_SM_LW_Step_TierSeating_PaleOak",
+      "full_precision_uv": true,
+      "high_precision_tangents": true
+    }
+  ]
+}

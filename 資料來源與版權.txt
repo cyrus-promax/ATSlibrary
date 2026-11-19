@@ -1,0 +1,115 @@
+2026-11-07 走廊細節依據
+新增模型主要依據用戶影片 74a8a07b375743ab1a07dd216743f29c.mp4 的 0.8 秒，以及 f9e358389130cc624ba5992c0660d28b.mp4 的 6 秒：牆頂、扶手及支柱、深色牆腳、綠色小磚、方形地磚和黃色框玻璃窗。
+磚面採用可縮放的程序材質，並非學校現場掃描；漆面細紋沿用已有 Poly Haven CC0 表面資料。沒有使用生成圖片填補實景。
+小通風口的逐間數量／位置、樓梯梯級與跨樓連接仍未確認，沒有複製推測結構。
+最新狀態以使用說明.txt 和 corridor_final_validation.json 為準。以下保留前版定位、來源與研究歷史。
+────────────────────────
+2026-11-07 最新定位依據：用戶標註的校園大概結構圖。
+原圖已保存至 SourceAssets/References/User_Layout_20261107.png；逐項證據與限制見 user_layout_evidence.json。
+用戶確認右側樓 G/1/2 樓用途、前方長樓 2 樓寄宿部維豪堂、天井旁橫翼 2 樓考試室、教學樓右端樓梯，以及該樓梯旁 1–6 樓有門、G 樓無門。
+此資料更新「用途與大致位置」的確認狀態；未確認梯級、房間分隔、門款或跨樓通道，未恢復舊版猜測結構。
+目前狀態以「使用說明.txt」與 user_layout_scene_validation.json 為準；以下為前版研究及修改紀錄。
+────────────────────────
+﻿2026-11-07 最新狀態：未確認內部結構已移除。
+影片中樓梯的存在與外觀，不構成其在全校的位置、樓層次序或複製到另一端的依據。
+撤下估放樓梯、內部樓板、臆測走廊／橋接及未確認出口，不以推測補齊動線。課室按用戶指示保留；入口右轉進禮堂和舞台在左的關係保留。
+以前記錄中的「已走通」「85 個檢查點」只描述之前模型的遊戲通行測試，不能證明現實路線，亦不適用於本次刪除後的上樓動線。
+目前狀態以「使用說明.txt」及 structure_final_validation.json 為準。以下來源及前版紀錄僅作研究歷史。
+────────────────────────
+2026-11-07 外牆與材質細節更新
+地政總署 f2 官方三維實景：由上一版 47 個較粗瓦片，改為 933 個較細瓦片；所選瓦片 geometricError 不超過 0.5 米（此數值不是模型實測誤差保證）。合併為 133 組模型與 26 張原像素圖集，未使用生成圖片補造實景。
+https://www.landsd.gov.hk/tc/survey-mapping/mapping/3d-mapping.html
+https://tools.csdi.gov.hk/csdi-webpage/apidoc/3d-visualisation-map-api
+Map and 3D data © Lands Department, HKSAR Government.
+
+舊翼外觀參考：古蹟天行樂頁面及街面照片，頁面列有 2021、2025 年到訪日期；照片只作外觀觀察，沒有作為交付材質。
+https://skywalker.autozine.org/Heritage/1HK/12_Aberdeen/HK12_04.html
+https://skywalker.autozine.org/Place/1660_Peak/25.jpg
+https://skywalker.autozine.org/Place/1660_Peak/26.jpg
+屋頂、入口位置及高度結合地政總署網格取樣；未取得實測平面圖，窗距和部分接駁仍屬估算。
+
+Poly Haven CC0 原生 4K 底色／DirectX 法線／粗糙度材質：
+https://polyhaven.com/a/concrete_wall_003
+https://polyhaven.com/a/terrazzo_tiles
+https://polyhaven.com/a/wood_floor
+https://polyhaven.com/license
+材質代表同類材料的表面質感，並非在本校現場掃描。
+既有木紋和水磨石 UE 資產名稱保留舊 2k 後綴以保持引用；實際匯入來源與解析度已更新為 4096。
+
+以下為先前版本的歷史研究紀錄；以以上更新及「使用說明.txt」為目前版本狀態。
+────────────────────────
+2026-11-07 目前版本狀態：按用戶要求保留課室，撤下未核實的圖書館／校史館配置、禮堂座位及夾層等內飾。以下資料來源是歷次研究紀錄；提到的參考場所不代表仍在目前場景中。照片可支持可見特徵，不能證明完整平面配置、現時家具擺位或實測尺寸。
+
+ATS 資料來源與製作判斷
+資料查閱／下載日期：2026-11-06
+
+1. 校園與周邊三維實景
+來源：地政總署 Open3Dhk / CSDI 三維視覺化地圖 API，f2 紋理三維瓦片。
+Map and 3D data © Lands Department, HKSAR Government.
+地圖及三維資料版權屬香港特別行政區政府地政總署所有。
+https://www.landsd.gov.hk/tc/survey-mapping/mapping/3d-mapping.html
+https://3d.map.gov.hk/mapviewer/app/
+https://portal.csdi.gov.hk/csdi-webpage/apidoc/3d-visualisation-map-api
+校址位置由地政總署 Location Search API 核對：HK1980 X=834607、Y=812221。
+轉換中心：經度114.1607608209、緯度22.2487526570，ENU 參考高度30米。
+本次取47個瓦片；幾何誤差上限2.5米或所選葉節點。下載日期不是航攝日期。
+解碼 KTX2 圖片以保留原始實景紋理；外觀沒有用生成圖片代替。
+
+2. 歷史建築結構及材料
+古物諮詢委員會主樓評估：1935年建成的主樓，開放外廊及裝飾藝術特徵；室外上海批盪、室內水磨石是材料判斷依據。
+https://www.aab.gov.hk/filemanager/aab/common/historicbuilding/en/915_Appraisal_En.pdf
+本文件不提供全校房間平面圖。
+
+3. 入口、樓梯、禮堂、校史館
+2021-12-31 開放日報道與現場照片，攝影：鄺嘉仕。
+https://hk.epochtimes.com/news/2021-12-31/52565832
+照片作建模觀察參考，沒有將報道照片作為可散佈的模型貼圖或展品。
+重建元素：入口綠米棋盤地面、木條牆及碑框；粉紅水磨石樓梯與高窗；禮堂拱角樑、舞台紅幕與球場線；校史館玻璃展示櫃、木地板及格柵天花。
+尺寸、門位、樓梯級數和未拍攝方向均非實測；碑文、銅像及館藏未補造。
+
+4. 圖書館
+2023-12-18《從桌遊到閱讀 香港仔工業學校讓學生在任務中成長》，翻新後室內照片。
+https://www.thinkhk.com/article/2023-12/18/61624.html
+建模依據：淺木色書架、黑框長窗、藍／綠／橙座椅、透明椅、外露白色天花設備及吊燈。
+優質教育基金「悅」讀•愈讀計劃 2020/0355 修訂申請，第10頁列出約1000W×350D×1000H、1700H、2400H書櫃。
+https://qcrc.qef.org.hk/Publish/project_information/202309/2020_0355_proposal.pdf
+此為申請計劃資料，不能當作消防圖或竣工平面圖；本模型使用可核對的家具類型及截面，房間形狀及排列仍屬估算。
+
+5. 學校設施存在性
+2025/2026 中學概覽的校方資料列有24間課室、圖書館、科學及科技設施、宿舍等。
+https://www.chsc.hk/ssp2025/sch_detail.php?lang_id=2&sch_id=394
+名錄只用於確認設施存在；沒有據此虛構所有房間位置。
+
+6. 材質
+Poly Haven 的 CC0 素材，2K 底色、DirectX 法線、粗糙度貼圖；色調按室內照片調整。
+Terrazzo Tiles — Amal Kumar：https://polyhaven.com/a/terrazzo_tiles
+Wood Floor — Dimitrios Savva：https://polyhaven.com/a/wood_floor
+授權：https://polyhaven.com/license
+
+7. 角色與互動
+Man 人物與三個動作來自用戶本機 BluePlanet 項目；未另行宣稱其資產為 CC0。
+ATS 原生互動程式保存在 Source/ATS。主樓原始 Blender 模型及其來源檔均保留。
+
+8. 消防圖搜尋紀錄
+檢索了校名配合「消防」、「逃生」、「走火」、「平面圖」及英文 floor plan / evacuation plan。
+未取得能確認屬於本校的公開消防逃生圖；搜尋中的其他學校、展覽場地圖並未採用。
+此結論限於本次可取得的公開資料，並不表示學校沒有消防圖。
+
+
+本次步行版補充
+用戶提供的 7 段校園影片僅作建築與材質參考，沒有將影片中的人物身份、聲音或完整影片放入導覽。
+新建綠色／粉紅色小磚和灰色地磚為程序生成材質；木地板、水磨石沿用已註明來源的 Poly Haven 材質。
+影片可確認部分相鄰空間；沒有可驗證的全校消防逃生圖。房間位置、樓高和完整動線仍有估算，詳見 SourceAssets/Walkthrough/video_reference_evidence.json。
+
+
+2026-11-07 西北角補樓
+用戶確認：山邊獨立三層附屬樓、前方長條低樓兩處均補上。
+使用原始地政總署 f2 三維實景的同坐標俯視與斜視核對輪廓，並以網格取樣核對屋頂高度；下載日期 2026-11-06 並非航攝日期。三維瓦片的幾何誤差上限約 2.5 米。
+https://3d.map.gov.hk/mapviewer/app/
+古物諮詢委員會評估第 915 號記述附屬樓三層、平屋頂、粉刷外牆、規律金屬窗、窗台和簷線，並記述其神父宿舍用途；不能據此推定現時內部房間配置。
+https://www.aab.gov.hk/filemanager/aab/common/historicbuilding/en/915_Appraisal_En.pdf
+古蹟天行樂的附屬樓照片用於核對淺色外牆、金屬窗格與簷線，未將照片作為模型貼圖或交付圖片。
+https://skywalker.autozine.org/Heritage/1HK/12_Aberdeen/HK12_04.html
+附屬樓室內未建；長條低樓只重建外觀與可行走外廊，不指定未核實的房間用途。接駁口、未拍攝立面的窗距及球場尺寸仍有估算。
+取樣與判斷詳見 SourceAssets/Walkthrough/northwest_survey_evidence.json。
+Map and 3D data © Lands Department, HKSAR Government.

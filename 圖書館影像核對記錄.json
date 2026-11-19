@@ -1,0 +1,14 @@
+{
+  "status": "saved",
+  "evidence": "HKLA photos 20240831_095817, 102535 and 103010. User-supplied Street View shows campus rather than library interior.",
+  "map": "/Game/ATS/Maps/ATS_Library_EggHunt_Complete_PhotoRefined",
+  "changes": [
+    "move cross to the same side as mirrored reception desk",
+    "add white-framed glass connecting door and handle at Step end-wall opening"
+  ],
+  "limits": [
+    "Library connection door size and hinge are estimates, not measured.",
+    "Street View provided shows campus and courtyard; library interior references are 2024 HKLA visit images.",
+    "PhotoRefined map has not been gameplay tested as requested."
+  ]
+}

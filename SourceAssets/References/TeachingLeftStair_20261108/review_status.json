@@ -1,0 +1,501 @@
+{
+  "review_date": "2026-11-08",
+  "user_constraint": "僅依實景證據補建教學樓左梯；不確定的部分不做。",
+  "scene_status": {
+    "scene_geometry_changes": 0,
+    "material_changes": 0,
+    "collision_changes": 0,
+    "map_saved_by_this_followup": false,
+    "research_evidence_only": true,
+    "reason": "User explicitly forbids uncertain construction. A verified local shape is not enough to invent its dimensions and numbered-floor placement."
+  },
+  "confirmed": [
+    "Left endpoint is strongly supported by Video03 geometry and cross-video views.",
+    "One upper rising flight contains11 risers.",
+    "Facing inside: rising left, descending right."
+  ],
+  "unknown": [
+    "Unambiguous floor assignment of the counted11-riser flight.",
+    "Complete counts of the four descended flights.",
+    "Measured staircase width, going, rise and platform footprint.",
+    "G-to-6 layout and any repetitions outside the filmed sequence."
+  ],
+  "pending_question": null,
+  "needed_to_build_without_invention": "A clear continuous record of the entire left staircase flight and both platforms, with readable floor identification and dimension references, or a measured stair plan.",
+  "do_not_reinstate": "Old WestStair was copied 45m from GreenStair and included guessed connections and duplicate platforms; not independently verified.",
+  "no_claim_of_completion": true,
+  "source_video_locations": [
+    "D:/Cyrus/OneDrive/Videos/35f9b3403f977418523125aeb4dff5ce.mp4",
+    "D:/Cyrus/OneDrive/Videos/74a8a07b375743ab1a07dd216743f29c.mp4"
+  ],
+  "portability": "Copied timestamped frames are under Frames; detailed reports also retain original local paths for provenance.",
+  "files": [
+    {
+      "file": "video03_evidence.json",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_evidence.json",
+      "bytes": 23368,
+      "sha256": "48ad5fffe17cfb23b96d348242f899b10deaaf62bca0520ba5466e045dd87e2e"
+    },
+    {
+      "file": "context_evidence.json",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\context_evidence.json",
+      "bytes": 22173,
+      "sha256": "1da00f8b1b7ac7d3d72de8fef4b6c7983227c57d20dcc5ec9f2a16bae7efcbf0"
+    },
+    {
+      "file": "model_audit.json",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\model_audit.json",
+      "bytes": 130516,
+      "sha256": "ec010e4e11d348e7a88ba0e9f7e10a5c2acd1e179b66d05a59e321cfef0b511d"
+    },
+    {
+      "file": "current_user_view.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\current_user_view.png",
+      "bytes": 2364357,
+      "sha256": "8b4f54b165861a7c963f0ee206dc2c2708d10c46597acd9308c5633934b7ac05"
+    },
+    {
+      "file": "video02_evidence.json",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_evidence.json",
+      "bytes": 24681,
+      "sha256": "2db1e09e0e168d5c20375715fcc7a1cc1337dbd82eef9216ff6d306a3c3a8f98"
+    },
+    {
+      "file": "Frames/Video03/v03_00.80s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_00.80s.png",
+      "bytes": 265168,
+      "sha256": "7c466fdd00c7fdc5d7a915379c53e8cc12f89051c9345e28f2d9cf3ca3da20a5"
+    },
+    {
+      "file": "Frames/Video03/v03_01.20s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_01.20s.png",
+      "bytes": 171936,
+      "sha256": "dacd56a456f79b316cee28955d67f8db5fa5bfe916aae080160e6503776b794c"
+    },
+    {
+      "file": "Frames/Video03/v03_01.50s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_01.50s.png",
+      "bytes": 172463,
+      "sha256": "954921027cfb520d0bd7451ffac4148d2245280e43e29f7023a0fc1380d24fdb"
+    },
+    {
+      "file": "Frames/Video03/v03_01.80s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_01.80s.png",
+      "bytes": 223231,
+      "sha256": "13e25b9c9df4f6fbf41a74008dd55c3420f21576c25f9d620fce3848de12eac0"
+    },
+    {
+      "file": "Frames/Video03/v03_02.20s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_02.20s.png",
+      "bytes": 232336,
+      "sha256": "ba2b26bbca94e7f3189d3d04e86e886b26e010b12860c72fef7195525a958d71"
+    },
+    {
+      "file": "Frames/Video03/v03_03.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_03.00s.png",
+      "bytes": 313537,
+      "sha256": "c91567fba57f3f45e3e2dd846dad3a3dc37d7bdd8bec042fa13290a91fd544c3"
+    },
+    {
+      "file": "Frames/Video03/v03_03.60s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_03.60s.png",
+      "bytes": 243544,
+      "sha256": "34449728b5cb666c6daf7b06761bdbd92afd48cc9b78b481b7c7bfc85491330f"
+    },
+    {
+      "file": "Frames/Video03/v03_04.20s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_04.20s.png",
+      "bytes": 352695,
+      "sha256": "025b8857bf0c863dc9330acc1bba5264514e9527d16e2827722ba240327bd1e5"
+    },
+    {
+      "file": "Frames/Video03/v03_05.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_05.00s.png",
+      "bytes": 336781,
+      "sha256": "2fbe2ff84056af67153547a556d8e162712c78fbf7bfab9854a59a102ae0d49e"
+    },
+    {
+      "file": "Frames/Video03/v03_06.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_06.00s.png",
+      "bytes": 353199,
+      "sha256": "23e3c05a7c2a6c015dba5cfd1899b3cbcce2e48e8878c2d695c1bd9bb4cba7f6"
+    },
+    {
+      "file": "Frames/Video03/v03_07.20s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_07.20s.png",
+      "bytes": 300182,
+      "sha256": "34cc43f643fe4c2937c03461b83a1f0f070108818713176fbe26b0eebfcf5c96"
+    },
+    {
+      "file": "Frames/Video03/v03_08.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_08.00s.png",
+      "bytes": 296537,
+      "sha256": "5bbbf0a4aa22a50eb5daa96c9b84dc5a15cd2119bdae8f24147c73395a980a77"
+    },
+    {
+      "file": "Frames/Video03/v03_08.60s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_08.60s.png",
+      "bytes": 259705,
+      "sha256": "48902feee6141ddffda39d4834e13a4f4ba82ce2374b26e5161bb235c11769a6"
+    },
+    {
+      "file": "Frames/Video03/v03_09.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_09.00s.png",
+      "bytes": 261811,
+      "sha256": "69790efa4b8adb70c4ec0dbd2b60dcc42c1972e592e0729e4fed3f9d4e504ed9"
+    },
+    {
+      "file": "Frames/Video03/v03_09.40s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_09.40s.png",
+      "bytes": 234672,
+      "sha256": "8eed75863ae3e02630418c1f7487690a6bea5d7e20206f71023438d63eabaa34"
+    },
+    {
+      "file": "Frames/Video03/v03_10.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_10.00s.png",
+      "bytes": 349652,
+      "sha256": "4718670ce90bb770956c0ea4b4a0f597eb5094963cfd2df2a9e7ea4aab129d4a"
+    },
+    {
+      "file": "Frames/Video03/v03_11.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_11.00s.png",
+      "bytes": 325058,
+      "sha256": "012d2663f6a4f3b121de4eead1cb141a8337b52832646e2f080cec5664f0fc81"
+    },
+    {
+      "file": "Frames/Video03/v03_12.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_12.00s.png",
+      "bytes": 360323,
+      "sha256": "5d73fdf888b186001d780b7ef8495ff5e5e965e3113e172a1814184d4e2ee05a"
+    },
+    {
+      "file": "Frames/Video03/v03_12.50s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_12.50s.png",
+      "bytes": 383474,
+      "sha256": "db602ee6131fe8af444abb52c7787607da8ca597f45a056c0f1a338f1046ec80"
+    },
+    {
+      "file": "Frames/Video03/v03_13.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_13.00s.png",
+      "bytes": 427583,
+      "sha256": "8b8896e194f1fbbd12479fb5a33d8a23cc168209f3347e62aef59c5259048aaa"
+    },
+    {
+      "file": "Frames/Video03/v03_13.50s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_13.50s.png",
+      "bytes": 300945,
+      "sha256": "b4be4eb72a04d4e1d84f56043524984484b42b96a65e64882a8549e1c7a71b9e"
+    },
+    {
+      "file": "Frames/Video03/v03_14.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_14.00s.png",
+      "bytes": 326317,
+      "sha256": "1e966ba7755bc7dcd3f52d218753ecf2388dd33863e7936f89eea04641eee1da"
+    },
+    {
+      "file": "Frames/Video03/v03_14.50s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_14.50s.png",
+      "bytes": 480430,
+      "sha256": "39d8280a1d36d843035fb55f1314d793042c8214b705a26a3f1f2b3c8b0f9c46"
+    },
+    {
+      "file": "Frames/Video03/v03_15.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_15.00s.png",
+      "bytes": 247010,
+      "sha256": "b184bee3e8bb84fdc20e213f1a2a75bd87bca7efe19c0937aa5452f1d64266a1"
+    },
+    {
+      "file": "Frames/Video03/v03_16.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_16.00s.png",
+      "bytes": 424576,
+      "sha256": "97256a4602c50aee378342cdbda480ae1ea84db167cda623e07246192e1138ca"
+    },
+    {
+      "file": "Frames/Video03/v03_17.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_17.00s.png",
+      "bytes": 346521,
+      "sha256": "af998635a66f8b559f24930cf14d71fb88c86df05c07b68887b8f0dda24f6236"
+    },
+    {
+      "file": "Frames/Video03/v03_18.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_18.00s.png",
+      "bytes": 277778,
+      "sha256": "b0feeffc6452a03780c3fd9c6b2760642b6cd4ee33cce356f907236828362007"
+    },
+    {
+      "file": "Frames/Video03/v03_19.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_19.00s.png",
+      "bytes": 322398,
+      "sha256": "a8d5adb0c390f09815f2ce0384ebeecf3551b69bf305dab282397d0a875270bc"
+    },
+    {
+      "file": "Frames/Video03/v03_20.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_20.00s.png",
+      "bytes": 236109,
+      "sha256": "1f019779ecfd3699a8ef77597dd1260baa2503f78ff723d5e0c415558191dc0e"
+    },
+    {
+      "file": "Frames/Video03/v03_21.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_21.00s.png",
+      "bytes": 270279,
+      "sha256": "daef119352969d22c4e453914f10967a80bddd23fdf0da47cd65374ab96235bc"
+    },
+    {
+      "file": "Frames/Video03/v03_21.50s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_21.50s.png",
+      "bytes": 288172,
+      "sha256": "4ff6b79bb1f24f952257533fdd41fb84843e1d4dc6ca30209da213e56329493b"
+    },
+    {
+      "file": "Frames/Video03/v03_22.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_22.00s.png",
+      "bytes": 332226,
+      "sha256": "cd88f999c05930921d3f68bb11bfbf4496f5a1a4e767f815a9f353e743168801"
+    },
+    {
+      "file": "Frames/Video03/v03_22.50s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_22.50s.png",
+      "bytes": 432532,
+      "sha256": "843a17053326dc2a598c9d2ff490642ed8db50ad87d6be0e8b9509f4cfad7067"
+    },
+    {
+      "file": "Frames/Video03/v03_23.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_23.00s.png",
+      "bytes": 261208,
+      "sha256": "3ea1a99e3cd0b9691d0d53f09c008f99e773a079cc92491000b0bcd994184d3e"
+    },
+    {
+      "file": "Frames/Video03/v03_23.50s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_23.50s.png",
+      "bytes": 391725,
+      "sha256": "b58385bbd5341b59b7020a15b23fbb402714d44d79f80214fec63f6e0b31971d"
+    },
+    {
+      "file": "Frames/Video03/v03_24.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_24.00s.png",
+      "bytes": 421781,
+      "sha256": "56460df2190f244728a3ead99891b424d2e411c6c6face75cf5f713878ea705b"
+    },
+    {
+      "file": "Frames/Video03/v03_24.50s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_24.50s.png",
+      "bytes": 471536,
+      "sha256": "c16d2a939a2fb1a99c94a8f6686cfb18ed00154917d38dd32a0eaaaa74481bb2"
+    },
+    {
+      "file": "Frames/Video03/v03_25.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_25.00s.png",
+      "bytes": 445760,
+      "sha256": "88659af4e4182c40d54d246abefc4ffa7af28c47af01db59fbf5c99c3688f853"
+    },
+    {
+      "file": "Frames/Video03/v03_26.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_26.00s.png",
+      "bytes": 347022,
+      "sha256": "fdb0842187e0a42a3d8d02df4d97f32f5ca56d383af314f24f99ffa553cc5ba7"
+    },
+    {
+      "file": "Frames/Video03/v03_27.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_27.00s.png",
+      "bytes": 318473,
+      "sha256": "a466bbaef26970ec4716f615237e8910f4e3415ba30584b9a66258a7f2aab675"
+    },
+    {
+      "file": "Frames/Video03/v03_28.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_28.00s.png",
+      "bytes": 353073,
+      "sha256": "6b10524b7dcda2b705e255b0fc9b05b75861b172224773375ccbdee5dc562295"
+    },
+    {
+      "file": "Frames/Video03/v03_29.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_29.00s.png",
+      "bytes": 330282,
+      "sha256": "fd85c5b6987fb17d585982214b7940c746d802156000711ea9cc8ddc6c5ce54b"
+    },
+    {
+      "file": "Frames/Video03/v03_30.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_30.00s.png",
+      "bytes": 221590,
+      "sha256": "e2f710ed209f4f8ada7c390c6e188814725dd458809b3a1c14babc253befa1a5"
+    },
+    {
+      "file": "Frames/Video03/v03_31.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_31.00s.png",
+      "bytes": 265540,
+      "sha256": "42c7a50dee55698f6a2b423f2901f7deaf604dc30cef2c451a70894eca0e18d8"
+    },
+    {
+      "file": "Frames/Video03/v03_32.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_32.00s.png",
+      "bytes": 308382,
+      "sha256": "81c2dfe9163a0b41ff0e9804e0a8f7769671efd919098478add0c04ba758f199"
+    },
+    {
+      "file": "Frames/Video03/v03_33.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_33.00s.png",
+      "bytes": 238373,
+      "sha256": "77620c0fa64e0f3d2611696bccbb0703267955afe972be70240e91db1394a2f0"
+    },
+    {
+      "file": "Frames/Video02/detail_2_13.jpg",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\video_reference\\detail_2_13.jpg",
+      "bytes": 72651,
+      "sha256": "fdb422589a76fcccda6df63b2370a0a230589e253174e9fc952f8be10ebbbea1"
+    },
+    {
+      "file": "Frames/Video02/detail_2_17.jpg",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\video_reference\\detail_2_17.jpg",
+      "bytes": 116645,
+      "sha256": "2a142ece28f285783d06d667695296010993af27c7815a9e196fc41e1591993b"
+    },
+    {
+      "file": "Frames/Video02/detail_2_22.jpg",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\video_reference\\detail_2_22.jpg",
+      "bytes": 66511,
+      "sha256": "fc2f2994a3d88ce406300762a32268f6a6a0003ef6da749d49a7fd7c019fd252"
+    },
+    {
+      "file": "Frames/Video02/detail_2_25.jpg",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\video_reference\\detail_2_25.jpg",
+      "bytes": 83433,
+      "sha256": "59dee04ac8794c78d9928090511b2926d5bd671ee96ebb0f506b332c46ac117b"
+    },
+    {
+      "file": "Frames/Video02/detail_2_59.jpg",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\video_reference\\detail_2_59.jpg",
+      "bytes": 97387,
+      "sha256": "c0152b25ba85ce6a89cf50df4b574f2de98c31b7c7ccd797733b4f7ba486dbe6"
+    },
+    {
+      "file": "Frames/Video02/detail_2_62.jpg",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\video_reference\\detail_2_62.jpg",
+      "bytes": 74531,
+      "sha256": "43954bca96433c7381f779917393e63ab028237e92e0eae482b02a455653cc05"
+    },
+    {
+      "file": "Frames/Video02/detail_2_68.jpg",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\video_reference\\detail_2_68.jpg",
+      "bytes": 49772,
+      "sha256": "7bab6b098a468958cbc81f4c4ce6505a9dae0f8c67b8c3d079a01aa582271645"
+    },
+    {
+      "file": "Frames/Context/video02_3.20s.jpg",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\context_frames\\video02_3.20s.jpg",
+      "bytes": 74352,
+      "sha256": "d7c3dc8c8ba441f34a5dd61f80624c65dff3a0ef17ad4e7da5ad7ad728a8fcc8"
+    },
+    {
+      "file": "Frames/Context/video02_3.60s.jpg",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\context_frames\\video02_3.60s.jpg",
+      "bytes": 145023,
+      "sha256": "2d60c63a5cffed0158f0580f411c30afdb294647d274c113004dec670fb45d79"
+    },
+    {
+      "file": "Frames/Context/video05_56.00s.jpg",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\context_frames\\video05_56.00s.jpg",
+      "bytes": 135274,
+      "sha256": "b8d4ffcba87ec40e6e773c3c94ee01800fc60d29bba42f7ced5d5d138e9560c0"
+    },
+    {
+      "file": "Frames/Context/video05_56.50s.jpg",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\context_frames\\video05_56.50s.jpg",
+      "bytes": 127074,
+      "sha256": "ace71df7e6e75fadc66b661b7f84913399b98ffbb203c60c542c768df4da4489"
+    },
+    {
+      "file": "Frames/Video02/v02_15.50s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_15.50s.png",
+      "bytes": 240652,
+      "sha256": "b62029fdcd0d705db1df69bb80efae55c32b8f6217373fc41e0803881e2a8162"
+    },
+    {
+      "file": "Frames/Video02/v02_59.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_59.00s.png",
+      "bytes": 335782,
+      "sha256": "268b7bb038aa7b8ac47260eb7c14fcdd5447396d16408f58890e70df4a4a2aec"
+    },
+    {
+      "file": "Frames/Video02/v02_59.50s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_59.50s.png",
+      "bytes": 294679,
+      "sha256": "9f71176d82125c310453a105883867ee4b392d74960e651de57fc3d97e26b3a4"
+    },
+    {
+      "file": "Frames/Video02/v02_64.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_64.00s.png",
+      "bytes": 174867,
+      "sha256": "c9867fba440e6b0f9ee5ec14a4965a272d32e314051887e84dbdbc2c7bb58dab"
+    },
+    {
+      "file": "Frames/Video02/v02_64.50s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_64.50s.png",
+      "bytes": 229772,
+      "sha256": "0e38770d1547db11dc0dadb7c1d99fe920a0e1fa3bd65688056603d4fcced1c4"
+    },
+    {
+      "file": "Frames/Video02/v02_67.00s.png",
+      "source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_frames\\v02_67.00s.png",
+      "bytes": 133950,
+      "sha256": "7e5e5d298703770fb9941b044d34abc9cfe8c12d47dc95c6fb5be42c424e9f08"
+    }
+  ],
+  "latest_authoritative_findings": "latest_findings.json",
+  "question_answer": "User forgot. Resolved source selection from videos; do not ask the same recollection question again.",
+  "followup_files": [
+    {
+      "file": "route_continuity_review.json",
+      "bytes": 13272,
+      "sha256": "b959b2a15ec973350349093a63b766aa8a69056d85964bb248d62cb7a6187350"
+    },
+    {
+      "file": "video03_left_registration_independent.json",
+      "bytes": 9201,
+      "sha256": "289b8f7ff148566d625317757a56086328eeb69af9435b3e0a34c4c0d46779d4"
+    },
+    {
+      "file": "video03_step_tracking.json",
+      "bytes": 8715,
+      "sha256": "bdced2aa54699eb72888f2f2d60aca72f4190fa56ada01a5a50cab604adf6008"
+    },
+    {
+      "file": "video02_step_tracking.json",
+      "bytes": 2663,
+      "sha256": "fb6cb19566bbc69203a1541a7f2a663f58749fceadd6a063056a33fef0dffeb4"
+    },
+    {
+      "file": "minimal_left_stair_integration.json",
+      "bytes": 16295,
+      "sha256": "7f6941a57b47acfbd06cad29ecfa6a0af50f101c2a836cd27743651cd457578b"
+    },
+    {
+      "file": "latest_findings.json",
+      "bytes": 4456,
+      "sha256": "fc5190ef3ac0b1c4f57781888f35fd05fc813c6436d524cbb0c67819637a6560"
+    },
+    {
+      "file": "Frames/Followup/left_endpoint_0.8s.png",
+      "bytes": 265168,
+      "sha256": "7c466fdd00c7fdc5d7a915379c53e8cc12f89051c9345e28f2d9cf3ca3da20a5"
+    },
+    {
+      "file": "Frames/Followup/left_return_corridor_29s.png",
+      "bytes": 330282,
+      "sha256": "fd85c5b6987fb17d585982214b7940c746d802156000711ea9cc8ddc6c5ce54b"
+    },
+    {
+      "file": "Frames/Followup/eleven_risers_original_1.900s.png",
+      "bytes": 235920,
+      "sha256": "4e6a527eabcb9b324071bf9b0c9c6a87f977d93f804c68e05b91a32cca6b1c7a"
+    },
+    {
+      "file": "Frames/Followup/eleven_risers_annotated_1.900s.png",
+      "bytes": 237144,
+      "sha256": "1486fbf623849967c22964846edb3f0dbff7fbc0d7b9af13e3894dcbdcc79231"
+    },
+    {
+      "file": "Frames/Followup/floor_plate_comparison.png",
+      "bytes": 129182,
+      "sha256": "5c9a53c5f7c17284d0401528014e204d33c88fdb29f480712b81bb8b358dd50b"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "review_date": "2026-11-08",
+  "scope": "Read-only research after the cross-window wall was identified. No Unreal operation, project modification or geometry placement was performed by this agent.",
+  "decision": "No new photograph reliably locates the floor bands in model coordinates. Keep the material improvements; do not place black strips or extend the reflective-wall layout from the current evidence.",
+  "new_registered_source_found": false,
+  "current_evidence_read": [
+    "D:/Cyrus/OneDrive/文件/香港仔工業學校/ATS/SourceAssets/Dining/CrossWindowWall_20261108/anchor_confirmation.json",
+    "D:/Cyrus/OneDrive/文件/香港仔工業學校/ATS/SourceAssets/Dining/CrossWindowWall_20261108/construction_manifest.json",
+    "work/research/dining_structure_20261108/floor_registration.json"
+  ],
+  "what_the_cross_anchor_resolves": {
+    "room_identity": "The user confirmed the photographed hall is this dining hall.",
+    "photo_wall_orientation": {
+      "cross_window_wall": "u = 0.23",
+      "image_left_continuous_window_direction": "v = 3.67",
+      "image_right_reflective_wall_direction": "v = 30.4"
+    },
+    "confirmed_cross_horizontal_position_campus_m": 17.59944733735314,
+    "vertical_limit": "The raw user-view centre intersects the wall at h = 1.6733140446 m, below the dado. The built cross height h = 2.62 m is a disclosed photographic estimate following the visible above-dado relationship, not an independent height measurement.",
+    "interpretation": "This anchors wall identity, left/right orientation and one horizontal landmark. It does not register the original photograph's floor plane."
+  },
+  "why_floor_band_placement_remains_unresolved": [
+    "The archived UE user camera is not the HK01 camera. Its pose and field of view cannot be substituted for the source photograph's camera calibration.",
+    "The two built windows are 1.5 m wide and 2.25 m high with photo-estimated spacing. These numbers are reconstruction choices, not surveyed rulers. Fitting the photograph to those windows would propagate those choices into apparently precise but unsupported floor coordinates.",
+    "The cross supplies one horizontal location on a vertical wall. Even a fitted homography on that wall does not transfer floor points on a different plane without additional camera or floor constraints.",
+    "The photographed columns and black strips have not been matched to independently confirmed floor positions. No measured distance, uniquely identified floor corner or band-to-door junction ties the visible strips to the user's plan.",
+    "Vanishing directions may suggest strip orientation, but they do not by themselves fix strip width, room depth offsets or all column positions at a defensible metric scale.",
+    "People, tables, column occlusion, muddy water and crop boundaries hide strip junctions and ends. The visible segments do not establish a complete regular grid, equal spacing, repetition count or perimeter border.",
+    "The model's room extent and ceiling height are estimated. They cannot be used as independent evidence to resolve the photographic scale."
+  ],
+  "bounded_observations_safe_to_retain": [
+    {
+      "source": "2023 school-supplied HK01 cleanup photograph",
+      "local_file": "work/research/dining_shutters/hk01_flood_06.jpg",
+      "url": "https://www.hk01.com/article/939149",
+      "visible_relationship": "Broad charcoal terrazzo bands cross portions of the pale field and connect around the visible column-base zone; at least two transverse portions and a connecting portion are visible.",
+      "limits": "This is image-local topology, not a solved model-coordinate graph. Some apparent connections and endpoints are obscured. No world-space points or strip widths are supplied."
+    },
+    {
+      "source": "2021 GoodSchool prospectus, PDF page 15",
+      "local_file": "work/research/dining_layout/goodschool_2021_p15_image26.png",
+      "url": "https://media.goodschool.hk/storage/upload/ebook/2021-11-02-175925-108203.pdf",
+      "visible_relationship": "A broad dark speckled strip crosses the foreground in front of the group and reaches the right visible column-base area.",
+      "limits": "People hide much of the strip. Matching this column to the 2023 view is not a calibrated multi-view reconstruction."
+    }
+  ],
+  "reflective_wall_limits": [
+    "The user-confirmed right-hand direction identifies which side of the room the photographed reflective surface belongs toward; it does not identify both ends or the full extent of that surface.",
+    "The current evidence does not recover reliable panel widths, panel counts, door relationships or the positions of changes in finish along that wall.",
+    "Reflected windows, beams or furniture are virtual images. Their screen positions cannot be copied into room geometry as extra real objects or used as direct floor correspondences without a solved reflecting plane.",
+    "The wet floor photograph also reflects the room. Those floor reflections must not be mistaken for physical strips, openings or the normal dry floor's gloss."
+  ],
+  "new_source_search_result": {
+    "candidate": "Salesians of Don Bosco China Province newsletter, January-February 2021",
+    "url": "https://www.sdb.org.hk/wp-content/uploads/2022/06/2021-0102.pdf",
+    "local_fetch_record": "work/research/dining_wall_floor_20261108/new_source_fetch.json",
+    "local_download_status": 403,
+    "local_response_bytes": 146,
+    "web_text_status": "Text was accessible through web browsing; visual access to the relevant pages was not successfully completed in this research turn.",
+    "provenance_problem": "The ATS-headed pages also discuss visits to students' families and activities at Shau Kei Wan's Salesian seminary. A dining photograph on such a page cannot be assigned to the ATS dining hall from the page heading alone.",
+    "used_for_geometry": false,
+    "conclusion": "No new registered floor panorama was obtained. Search stopped as requested; no access restriction was bypassed."
+  },
+  "safe_current_work": [
+    "Retain the parent agent's completed wall and dry-terrazzo material improvements, subject to its rendered verification.",
+    "Keep the light floor's distinct angular dark/grey/pale aggregate and stable average appearance at distance, without introducing a guessed geometric strip grid.",
+    "Use a dry low-to-moderate sheen; the 2023 flood water is not a reference for normal mirror gloss.",
+    "A separate dark speckled terrazzo material can be prepared for later confirmed strips, but material availability does not justify arbitrary placement."
+  ],
+  "not_proposed": [
+    "No black-band world coordinates, widths, repeat interval or full-room grid",
+    "No inferred additional reflective panels or whole-wall mirror covering",
+    "No unmeasured slab-joint module or wear/scratch pattern",
+    "No duplicate change to materials already completed by the parent"
+  ],
+  "minimal_evidence_that_would_change_the_decision": "An unobstructed view tying visible band junctions or column feet to the confirmed cross wall and a second independent floor landmark, plus one real measured distance or a dimensioned floor plan. A photo alone can support bounded estimates only if the corresponding floor controls and projection are actually recoverable.",
+  "completion_status": "Research report complete. No UE execution or scene validation claimed."
+}

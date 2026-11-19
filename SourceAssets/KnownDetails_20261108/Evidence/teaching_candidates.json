@@ -1,0 +1,312 @@
+{
+  "date": "2026-11-08",
+  "task": "Find evidence-backed teaching-building finish corrections with no new guessed layout.",
+  "reviewed_primary_frames": [
+    "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\video_reference\\01\\04_1.67.jpg",
+    "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\video_reference\\01\\05_2.07.jpg",
+    "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\video_reference\\01\\08_3.27.jpg",
+    "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\video_reference\\04\\17_4.31.jpg",
+    "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\video_reference\\detail_7_6.jpg",
+    "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\context_frames\\video02_3.60s.jpg"
+  ],
+  "reviewed_model_sources": [
+    "work/build_walkthrough.py",
+    "work/build_corridor_detail.py",
+    "work/import_corridor_detail.py",
+    "work/finish_corridor_detail.py",
+    "work/build_interiors.py",
+    "work/import_campus.py",
+    "work/teaching_stair_scene_current.json"
+  ],
+  "candidates": [
+    {
+      "id": "window_profile_finish_separation",
+      "priority": 1,
+      "observed": "Video01 close profiles are neutral white/off-white. Video02 daylight confirms pale glazing profiles contrasted with yellow/orange lower vents. Video07 sunset warms the pale frames, but saturated yellow doorway trim remains distinguishable.",
+      "current_mismatch": "Each Class_* YellowFrame mesh uses one yellow material for both all window profiles and door trim.",
+      "safe_change": "Retain all vertices/faces/UVs/matrices. Split existing polygons into pale window-profile finish and unchanged yellow door trim.",
+      "geometry_scope": "For each existing mesh,3 door-trim boxes=18 faces retained YellowFrame;10 existing window-profile boxes=60 faces get off-white finish. No window, mullion, vent, door or opening added.",
+      "prepared_assets": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\KnownDetails_20261108\\TeachingFrames",
+      "prepared_manifest": "frame_finish_manifest.json",
+      "status": "24 isolated Blender/FBX meshes prepared; no UE changes by this agent.",
+      "targets": [
+        {
+          "actor_name": "StaticMeshActor_199",
+          "actor_label": "Class_1_1 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_1_1_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_1_1_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_211",
+          "actor_label": "Class_1_2 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_1_2_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_1_2_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_223",
+          "actor_label": "Class_1_3 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_1_3_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_1_3_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_235",
+          "actor_label": "Class_1_4 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_1_4_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_1_4_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_247",
+          "actor_label": "Class_2_1 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_2_1_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_2_1_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_259",
+          "actor_label": "Class_2_2 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_2_2_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_2_2_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_271",
+          "actor_label": "Class_2_3 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_2_3_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_2_3_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_283",
+          "actor_label": "Class_2_4 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_2_4_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_2_4_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_295",
+          "actor_label": "Class_3_1 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_3_1_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_3_1_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_307",
+          "actor_label": "Class_3_2 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_3_2_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_3_2_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_319",
+          "actor_label": "Class_3_3 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_3_3_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_3_3_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_331",
+          "actor_label": "Class_3_4 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_3_4_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_3_4_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_343",
+          "actor_label": "Class_4_1 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_4_1_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_4_1_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_355",
+          "actor_label": "Class_4_2 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_4_2_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_4_2_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_367",
+          "actor_label": "Class_4_3 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_4_3_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_4_3_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_379",
+          "actor_label": "Class_4_4 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_4_4_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_4_4_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_391",
+          "actor_label": "Class_5_1 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_5_1_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_5_1_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_403",
+          "actor_label": "Class_5_2 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_5_2_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_5_2_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_415",
+          "actor_label": "Class_5_3 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_5_3_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_5_3_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_427",
+          "actor_label": "Class_5_4 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_5_4_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_5_4_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_439",
+          "actor_label": "Class_6_1 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_6_1_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_6_1_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_451",
+          "actor_label": "Class_6_2 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_6_2_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_6_2_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_463",
+          "actor_label": "Class_6_3 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_6_3_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_6_3_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_475",
+          "actor_label": "Class_6_4 | M_Interior_YellowFrame",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_6_4_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_6_4_YellowFrame",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+          ]
+        }
+      ],
+      "limitations": [
+        "Shared material correction on the retained classroom family. No claim that each real room and every profile was separately surveyed.",
+        "Existing frame shape and dimensions remain the previously retained approximate model.",
+        "White finish numerical shader values are visual choices, not measured colour calibration."
+      ]
+    },
+    {
+      "id": "dark_mosaic_skirting_finish",
+      "priority": 2,
+      "observed": "Video04 around4.31s directly shows dark small square tiles with pale grout at the foot of green corridor walls. Video07 6s shows the dark base continuing along the corridor/parapet. Square tiling is visible, unlike a plain metal strip.",
+      "current_mismatch": "The six pure parapet-base strips use generic M_Interior_Black, defined as flat colour with metallic0.35. There are no tile joints.",
+      "safe_change": "Assign a new dedicated non-metallic dark square-mosaic shader to the six pure TeachingDetail_* Black strip actors only. Preserve geometry and existing positioning.",
+      "targets": [
+        {
+          "actor_name": "StaticMeshActor_2",
+          "actor_label": "TeachingDetail_1 | M_Interior_Black",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_TeachingDetail_1_Black.ATS_CorridorDetail_SM_Walk_TeachingDetail_1_Black",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_Black.M_Interior_Black"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_14",
+          "actor_label": "TeachingDetail_2 | M_Interior_Black",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_TeachingDetail_2_Black.ATS_CorridorDetail_SM_Walk_TeachingDetail_2_Black",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_Black.M_Interior_Black"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_17",
+          "actor_label": "TeachingDetail_3 | M_Interior_Black",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_TeachingDetail_3_Black.ATS_CorridorDetail_SM_Walk_TeachingDetail_3_Black",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_Black.M_Interior_Black"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_153",
+          "actor_label": "TeachingDetail_4 | M_Interior_Black",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_TeachingDetail_4_Black.ATS_CorridorDetail_SM_Walk_TeachingDetail_4_Black",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_Black.M_Interior_Black"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_156",
+          "actor_label": "TeachingDetail_5 | M_Interior_Black",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_TeachingDetail_5_Black.ATS_CorridorDetail_SM_Walk_TeachingDetail_5_Black",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_Black.M_Interior_Black"
+          ]
+        },
+        {
+          "actor_name": "StaticMeshActor_159",
+          "actor_label": "TeachingDetail_6 | M_Interior_Black",
+          "mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_TeachingDetail_6_Black.ATS_CorridorDetail_SM_Walk_TeachingDetail_6_Black",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_Black.M_Interior_Black"
+          ]
+        }
+      ],
+      "do_not_blanket_replace": "Class_* | M_Interior_Black also contains extruded classroom text at about door-head height. Whole-actor mosaic override would texture lettering. Leave those unchanged unless low base-strip polygons are separately split.",
+      "scale_limit": "Existing retained strip height is0.13m and existing green tile shader scale0.048m are model values. Do not claim exact real tile size/row count. A material-only refinement does not survey those dimensions.",
+      "status": "Target list prepared; parent owns UE material creation and assignment."
+    }
+  ],
+  "rejected_or_deferred": [
+    {
+      "detail": "Isolated yellow/orange lower louvred vents",
+      "reason": "The videos clearly show them, but current retained model has none and does not identify exact vent-to-room/floor assignments. Do not repeat guessed openings across24rooms."
+    },
+    {
+      "detail": "Door hardware, hose reels, alarm boxes and unregistered classroom signs",
+      "reason": "Visible in footage but every position/floor/count is not established. Do not invent repeated placement."
+    },
+    {
+      "detail": "Change green-mosaic absolute tile size from4.8cm to another assumed standard",
+      "reason": "Video proportions are not a calibrated ruler. Existing scale is estimated; this review does not establish a replacement metric value."
+    },
+    {
+      "detail": "New stair flights or floor connections",
+      "reason": "Outside this other-known-parts task; retain earlier no-uncertain-stair policy."
+    }
+  ],
+  "implementation_integrity": "Only new isolated frame assets, scripts and this report written. Original source blend unchanged; no UE control requests issued by this agent."
+}

@@ -1,0 +1,228 @@
+{
+  "reviewed_on": "2026-11-08",
+  "scope": "Research only: identify photographed dining-room ceiling/columns and check whether they can be registered to existing ATS geometry. No UE bridge, project assets or model changed.",
+  "conclusion": "The photographs support a white-painted exposed beam-and-slab ceiling with substantial internal columns, suspended linear luminaires, fans and exposed conduits. They do not establish an exact beam/column grid or a mapping to the current restaurant world coordinates. The existing three rear-edge columns are an earlier exterior-verandah reconstruction and must not be treated as measured dining-room columns.",
+  "same_room_visual_correspondence": {
+    "confidence": "High visual correspondence between the 2021 dry group photograph, 2023 flood-cleanup view and two small school dining photographs; this is visual inference, not a labelled architectural plan.",
+    "anchors": [
+      "Tall metal-framed windows and a crucifix between window groups recur in the 2021 and 2023 images.",
+      "Pale small rectangular alternating-direction mosaic on substantial columns, a thin dark cap, white upper columns and blue wall fans recur.",
+      "White downstand beams, ceiling fans and suspended linear lamps recur in the same architectural language.",
+      "The 2023 flood view and school anniversary dining photo share a large reflective side wall and a blue hanging recycling sign; the school leaflet selfie shows a reverse-facing reflective-wall side."
+    ],
+    "unresolved": [
+      "User direction now maps the crucifix window wall to u=.23, with the photo left/right sides mapping to v3.67/v30.4. Exact point registration remains unavailable.",
+      "Pink square-grid washing/dining photographs may depict a separate zone/date; their specific wall correspondence remains unresolved."
+    ]
+  },
+  "photo_sources": [
+    {
+      "id": "hk01_2023_cleanup",
+      "page_url": "https://www.hk01.com/article/939149",
+      "local_file": "work/research/dining_shutters/hk01_flood_06.jpg",
+      "resolution": [
+        1824,
+        1368
+      ],
+      "visually_inspected": true,
+      "observations": [
+        "Two especially clear substantial interior columns are near image x610 and x895, with additional perimeter/support portions visible; this is not a whole-room count.",
+        "Beams run in more than one direction, visibly drop below the slab, and meet the columns. The ceiling is not one uniformly flat interior finish plane.",
+        "Linear fittings are suspended on thin supports below the soffit, with ceiling fans and visible conduit. Their full count and coordinates are unknown."
+      ],
+      "limit": "Cleanup state cannot establish ordinary furniture placement; no dimensions, known camera pose or world-coordinate references are provided."
+    },
+    {
+      "id": "goodschool_2021_group",
+      "page_url": "https://media.goodschool.hk/storage/upload/ebook/2021-11-02-175925-108203.pdf",
+      "pdf_page": 15,
+      "local_file": "work/research/dining_layout/goodschool_2021_p15_image26.png",
+      "resolution": [
+        823,
+        550
+      ],
+      "visually_inspected": true,
+      "observations": [
+        "Crucifix between tall windows is at image left; a mosaic-clad column is at image right.",
+        "Opposite upper wall has opaque panels, louvred/air-conditioning portions and a religious banner, not a uniformly repeated bank of tall windows.",
+        "Ceiling has substantial white beams, ceiling fans, suspended white linear luminaires and conduits."
+      ],
+      "limit": "People obscure the lower walls and floor; metric spans and exact photo-to-model registration are unavailable."
+    },
+    {
+      "id": "school_anniversary_meal",
+      "page_url": "http://www.ats.edu.hk/images/doc/Dorm_10_Anniversary_Journal.pdf",
+      "pdf_page": 30,
+      "local_file": "work/research/dining_envelope/anniversary_p30_image02.png",
+      "resolution": [
+        290,
+        202
+      ],
+      "visually_inspected": true,
+      "observations": [
+        "White beams, suspended lights, fans, a reflective wall and the blue hanging recycling sign visually link this dining photograph to the 2023 hall."
+      ],
+      "limit": "Low resolution and uncalibrated view do not locate columns or beam spans."
+    },
+    {
+      "id": "school_leaflet_selfie",
+      "page_url": "http://www.ats.edu.hk/images/doc/20261102.pdf",
+      "pdf_page": 2,
+      "local_file": "work/research/dining_envelope/leaflet_p02_image02.png",
+      "resolution": [
+        376,
+        282
+      ],
+      "visually_inspected": true,
+      "observations": [
+        "White beams, fans, suspended lights and reflective-wall side are visible from the dining tables."
+      ],
+      "limit": "Small photograph with most anchors obscured by people; no whole-room layout."
+    }
+  ],
+  "existing_geometry_audit": {
+    "script": "work/build_northwest_addition.py",
+    "important_lines": {
+      "exterior_verandah_floor": 58,
+      "column_generation": 77
+    },
+    "column_code": "for x in [0,6,12,18,24,30,36,42,48,54]: box('White',(x,28.25,z+2.0),(.26,.26,4.0))",
+    "current_dining_intersection": "The restaurant overlaps the old rear-verandah strip. This leaves the u6, u12 and u18 columns at v28.25 inside the current room boundary.",
+    "origin": "Earlier procedural reconstruction of the northwest rear wing exterior/verandah, not a measured dining interior or a registered photograph.",
+    "source_evidence_script": "work/write_northwest_evidence.py",
+    "source_limits": [
+      "The evidence file cites Lands Department textured 3D survey for footprint, roof and canopy position; it explicitly says geometric error can reach 2.5 m and does not establish an as-built measured plan.",
+      "Three storeys at 0, 4.2 and 8.4 m are model choices; the source does not establish exact dining-room soffit height or beam depth.",
+      "The script calls the 2.2 m-deep strip an observed exterior verandah and leaves room interiors unassigned.",
+      "The 0.26 m square repeated exterior columns are not proven to be the large mosaic-covered internal columns visible in dining photographs."
+    ],
+    "implementation_warning": "Do not build a dining beam grid by connecting the retained u6/u12/u18 exterior columns, and do not infer six-metre internal spans from their procedural spacing."
+  },
+  "new_source_search": [
+    {
+      "url": "https://www.youtube.com/watch?v=JrZGGgkGTEE",
+      "title": "香港仔工業學校 寄宿部簡介",
+      "publisher": "ATS Channel",
+      "published": "2014-12-28",
+      "result": "Search verified the public title/channel. Current web fetch was throttled; previous local school_video_results.json also records HTTP429. No footage from this video was visually inspected or used as evidence."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=vefRqyBVdcE",
+      "title": "《築蹟足跡》第十集：香港仔工業學校",
+      "result": "Existing full-length public storyboards already available under work/research/outdoor_seating/yt_contact_*.jpg and youtube_storyboard_index.json. Informed wall-registration agent to use these rather than duplicate downloads. That agent owns visual findings for this source."
+    },
+    {
+      "url": "https://linktr.ee/atssoba",
+      "result": "School alumni Linktree lists ATS90 activity photo sharing, but it is a WhatsApp community join link, not a publicly readable photo gallery. No joining or messaging was attempted."
+    },
+    {
+      "url": "https://www.aab.gov.hk/filemanager/aab/common/historicbuilding/en/915_Appraisal_En.pdf",
+      "publisher": "Antiquities Advisory Board",
+      "result": "Primary-source appraisal describes the International Modern main building, external pilotis/verandahs, terrazzo interiors and the separate rear annex. Search-accessible text supplies no dining-room ceiling plan or metric column grid; direct open timed out."
+    },
+    {
+      "url": "https://www.amo.gov.hk/filemanager/amo/common/form/2022_AMO_Summit-CN.pdf",
+      "publisher": "Antiquities and Monuments Office",
+      "result": "Search identifies a 1995 school exterior photograph and historical account. It is not a measured dining interior and was not used to derive ceiling geometry."
+    }
+  ],
+  "safe_next_actions": [
+    "Retain evidence-backed white low-gloss paint, but explicitly distinguish material appearance from a completed structural ceiling reconstruction.",
+    "The user now confirms the photographic hall is the modelled restaurant; material scope is supported. Exact beam/column coordinates still require registration.",
+    "Wall direction is now known. Obtain a point anchor for the crucifix/pair of windows; do not use that direction alone to invent internal column coordinates.",
+    "A beam/column detail asset can be prepared without world placement; exact dimensions and placement must remain unverified unless a plan, known scale or further view establishes them."
+  ],
+  "not_justified": [
+    "A uniform new beam grid over the full 520-square-metre model footprint.",
+    "Connecting existing rear exterior columns and labelling that the real dining ceiling.",
+    "Inventing complete lamp/fan counts or equal spacing from the partial photograph.",
+    "Treating satellite/3D exterior survey as an indoor structural plan."
+  ],
+  "later_user_confirmation": {
+    "reported_by_parent": "User confirmed the HK01 hall with crucifix, white mosaic columns and dark floor bands is the current whole-floor restaurant.",
+    "resolves": "Room identity and material-scope ambiguity.",
+    "still_pending": "The direction is now confirmed. Exact crucifix centre is being checked by the parent; column spans, wall offsets, ceiling height and beam sections remain unmeasured."
+  },
+  "local_ceiling_topology": {
+    "reference": "hk01_flood_06.jpg at 1824x1368, visually inspected at full native resolution",
+    "wall_names": {
+      "W": "far wall containing the crucifix between tall windows",
+      "L": "continuous tall-window side at image left, adjacent to W",
+      "R": "reflective-panel side at image right, adjacent to W"
+    },
+    "nodes": [
+      {
+        "id": "C1",
+        "observation": "Clear near freestanding column, centred around image x600, with white painted upper portion and pale rectangular mosaic lower portion.",
+        "position_world": null
+      },
+      {
+        "id": "C2",
+        "observation": "Clear farther freestanding column, centred around image x885, similarly finished, with blue fan at the upper/lower finish transition.",
+        "position_world": null
+      }
+    ],
+    "edges_and_directions": [
+      "C1 and C2 appear aligned in the direction receding toward W. A visible downstand beam follows that line and meets their heads.",
+      "At these column heads, another family of downstand beams crosses the receding beam family, extending sideways toward the L/R sides.",
+      "The two families form a visually rectangular/approximately orthogonal structural layout; a calibrated 90-degree angle has not been measured from this image.",
+      "The slab remains above the dropped beams. Linear lamps hang below the slab/beam level on thin supports, and ceiling fans also hang into the room."
+    ],
+    "do_not_infer": [
+      "The partially seen narrow supports near W are not sufficient to establish a third free-standing column or the end of a complete row.",
+      "No supported total row count, transverse column row, equal spacing, wall offset or metric dimensions follows from this topology.",
+      "The full transverse beam endpoints are partly obscured; do not assert a complete uninterrupted wall-to-wall span without additional views.",
+      "Do not use the earlier rear-exterior-verandah columns as C1/C2 world anchors."
+    ]
+  },
+  "user_direction_anchor": {
+    "user_answer": "現在視角正前方",
+    "captured_camera_file": "ATS/SourceAssets/Dining/StructuralSurfaces_20261108/user_cross_wall_camera.json",
+    "captured_camera_campus_m": [
+      16.3058967735847,
+      18.486432669580264,
+      3.082350502188735
+    ],
+    "captured_rotation_degrees": {
+      "yaw": 156.84191554844864,
+      "pitch": -5.001548774455898
+    },
+    "resolved_walls": {
+      "W": "u=.23, currently the blank wall directly ahead",
+      "L": "v=3.67, screen-left existing window wall",
+      "R": "v=30.4, screen-right rear side"
+    },
+    "what_this_establishes": "Room identity and wall orientation relative to the current model.",
+    "what_this_does_not_establish": "The user camera is not a recovered pose/focal length of the HK01 photograph. It does not supply a metric photo-to-world transform."
+  },
+  "geometric_estimation_audit": {
+    "jpeg_metadata": {
+      "file": "work/research/dining_shutters/hk01_flood_06.jpg",
+      "resolution": [
+        1824,
+        1368
+      ],
+      "EXIF_present": false,
+      "method": "Pillow Image.getexif() returned an empty mapping."
+    },
+    "common_features_reviewed": [
+      "Crucifix and paired tall-window area",
+      "Two clear mosaic-covered freestanding columns",
+      "Ceiling beam intersections at those columns",
+      "2021 dry photograph showing the same crucifix wall from another direction"
+    ],
+    "metric_registration_solved": false,
+    "objective_placeable_column_coordinates": null,
+    "objective_column_spacing_or_wall_offsets": null,
+    "objective_beam_cross_sections": null,
+    "reason": [
+      "Wall identity/orientation is now fixed, but the photograph camera intrinsics and pose remain unknown.",
+      "Complete floor-wall corners, some column-foot contacts and a shared full-height/known-length object are obscured or absent.",
+      "The 2021 view is largely occupied by people, preventing a robust second-view floor/column correspondence set.",
+      "Pre-existing room dimensions and 3.96m ceiling height are model estimates, so using them to scale image features would produce model-fitting guesses rather than verified measurements.",
+      "Extending the visible pair of windows over the entire 26.73m model wall without recovered wall extent would risk severe proportional distortion."
+    ],
+    "usable_result": "Only wall orientation and local structural relationships are supported. Two clear substantial columns connect to downstand beams with a crossing beam family. Full grid, metric positions, total count and section dimensions remain unresolved.",
+    "recommendation": "Proceed with the locally anchored crucifix/two-window part once its centre is confirmed. Do not invent column placements or a whole-ceiling beam grid to fill the room."
+  }
+}

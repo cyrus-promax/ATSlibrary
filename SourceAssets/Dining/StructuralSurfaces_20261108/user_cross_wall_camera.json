@@ -1,0 +1,23 @@
+{
+  "world": "/Game/ATS/Maps/ATS_StudentCampus.ATS_StudentCampus",
+  "game_world": null,
+  "camera_world": [
+    99.97985222041274,
+    105.1490484184888,
+    -2146.7649497811267
+  ],
+  "camera_campus": [
+    16.3058967735847,
+    18.486432669580264,
+    3.082350502188735
+  ],
+  "rotation": {
+    "pitch": -5.001548774455898,
+    "yaw": 156.84191554844864,
+    "roll": 2.0627521279417462e-08
+  },
+  "pawn_campus": null,
+  "selected": [],
+  "actors": 896,
+  "project_dir": "../../../../../../Cyrus/OneDrive/文件/香港仔工業學校/ATS/"
+}

@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "method": "One placement on existing first-floor corridor; actual CharacterMovement through existing Class_1_1 door and back.",
+  "initial_placements": 1,
+  "steps": [
+    {
+      "name": "enter_classroom",
+      "passed": true,
+      "horizontal_error_cm": 8.840831868543093,
+      "height_error_cm": 2.850289638090544,
+      "world_position": [
+        4471.104080350799,
+        -2763.462221883688,
+        -2012.8502896380908
+      ]
+    },
+    {
+      "name": "return_corridor",
+      "passed": true,
+      "horizontal_error_cm": 7.333181129755123,
+      "height_error_cm": 2.850291173466303,
+      "world_position": [
+        4461.9952187318295,
+        -2554.8349909495614,
+        -2012.8502911734665
+      ]
+    }
+  ],
+  "seconds": 6.69,
+  "editor_restored": true
+}

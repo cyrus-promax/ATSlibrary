@@ -1,0 +1,18 @@
+﻿圖書館獨立場景 4K 材質
+
+所有貼圖均為原生 4096×4096 公開 CC0 下載，沒有把低解像度照片放大。
+圖案依學校實景外觀選擇，並非已核實的原裝品牌或產品。
+
+oak_veneer_02：淺木色書櫃、桌面、階梯座席等，1m一個貼圖循環。
+white_plaster_02：白色牆壁與天花細紋，1m一個貼圖循環。
+WoodFloor051：淺木紋交錯地板，1.8m一個貼圖循環。
+
+Unreal 匯入：BaseColor啟用sRGB；Normal/Roughness/AO關閉sRGB。
+Normal為OpenGL方向，Unreal須啟用Flip Green Channel並用Normalmap壓縮。
+保留4096最大尺寸及正常mipmap；LOD Bias設0，不把整幅紋理拉滿整個房間。
+白牆法線先用約0.05、木面約0.25、地板約0.35的強度再在實際光照中校對。
+白牆原色圖較灰及粗，必須以白漆為主色，只混入約8%貼圖微變化，不原樣套用。
+以上材質強度是製作建議，不是學校材料的測量數值。
+
+來源、CC0授權網址、SHA256、原始檔尺寸及建議參數見texture_manifest.json。
+所有圖片均完整解碼驗證；結果見texture_validation.json。

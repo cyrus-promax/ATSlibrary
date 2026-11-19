@@ -1,0 +1,185 @@
+{
+  "created_at": "2026-11-08T18:39:14.258236",
+  "task": "圖書館實景核對；查不到的結構不製作",
+  "photo_date": "2024-08-31",
+  "album": "https://hkla.org/welcome/photo-gallery/nggallery/album/2024-Aberdeen-Technical-School-Visit",
+  "library_interior_photo_count": 18,
+  "unregistered_corridor_photo_count": 2,
+  "scope": "Research references only. No scene geometry or UE assets created or modified.",
+  "construction_blockers": [
+    "未取得落成平面圖或可讀消防圖",
+    "房間外輪廓、尺寸及樓板標高未確認",
+    "照片中的門洞無法對準校園模型",
+    "現有EastBlock外殼為粗模，不能當量度基準"
+  ],
+  "local_connection_supported_by_images": {
+    "connection": "主館階梯座席端牆的門洞連接帶小舞台的房間",
+    "images": [
+      "20240831_102535.jpg",
+      "20240831_103010.jpg"
+    ],
+    "basis": "同組電掣、黃色留言板、窄桌及白板櫃相吻合。這只確認局部相鄰關係。"
+  },
+  "photos": [
+    {
+      "file": "photos/20240831_095817.jpg",
+      "source_url": "https://hkla.org/wp-content/uploads/gallery/2024-aberdeen-technical-school-visit/20240831_095817.jpg",
+      "sha256": "7c741e241ae5191877709b6810abeb9bffac168a595c71cf0e121805405a19ae",
+      "title": "主閱讀區",
+      "observation": "兩邊窗下矮書櫃、淺木紋地面、白色外露天花及曲線燈。完整尺寸、窗數及平面方位未確認。",
+      "classification": "library_visit_interior"
+    },
+    {
+      "file": "photos/20240831_095825.jpg",
+      "source_url": "https://hkla.org/wp-content/uploads/gallery/2024-aberdeen-technical-school-visit/20240831_095825.jpg",
+      "sha256": "2b1d99fd8ce6327327e887d55830a585a95fc1bd844e8c5376656f65bcb8a019",
+      "title": "中華文化閣",
+      "observation": "轉角高書櫃及長桌。沒有拍齊四周邊界。",
+      "classification": "library_visit_interior"
+    },
+    {
+      "file": "photos/20240831_095910.jpg",
+      "source_url": "https://hkla.org/wp-content/uploads/gallery/2024-aberdeen-technical-school-visit/20240831_095910.jpg",
+      "sha256": "b624a4b41cae9c0ec15c408d2d483c368d1e9f9ea2d8bb64da4c514fa732d007",
+      "title": "階梯座席與書櫃",
+      "observation": "淺木色座席、後方高書櫃及上方綠植。尺寸未知。",
+      "classification": "library_visit_interior"
+    },
+    {
+      "file": "photos/20240831_100004.jpg",
+      "source_url": "https://hkla.org/wp-content/uploads/gallery/2024-aberdeen-technical-school-visit/20240831_100004.jpg",
+      "sha256": "b7866200040677ed9cd02f6a1b740d31e2adbe33223f7df7af94466a8cbb119d",
+      "title": "相連房間的小舞台",
+      "observation": "三層踏步、投影幕、窗及左右兩處門。不是主閱讀區的階梯座席。",
+      "classification": "library_visit_interior"
+    },
+    {
+      "file": "photos/20240831_100023.jpg",
+      "source_url": "https://hkla.org/wp-content/uploads/gallery/2024-aberdeen-technical-school-visit/20240831_100023.jpg",
+      "sha256": "01004393d84a5ab74f9da2cfe47e4169668b45b0d4ee2ccb7814b88f3d19a404",
+      "title": "相連房間的座席",
+      "observation": "靠窗階梯座席及外露樑。房間完整尺寸未知。",
+      "classification": "library_visit_interior"
+    },
+    {
+      "file": "photos/20240831_100049.jpg",
+      "source_url": "https://hkla.org/wp-content/uploads/gallery/2024-aberdeen-technical-school-visit/20240831_100049.jpg",
+      "sha256": "e888d248d7122a082b8fafdd5a84feebace31c8427665527645e0ad3b4c77d14",
+      "title": "主館書櫃",
+      "observation": "高書櫃與淺木色圓邊桌；視線未涵蓋全館。",
+      "classification": "library_visit_interior"
+    },
+    {
+      "file": "photos/20240831_100320.jpg",
+      "source_url": "https://hkla.org/wp-content/uploads/gallery/2024-aberdeen-technical-school-visit/20240831_100320.jpg",
+      "sha256": "7b1d013480504f782c14e0b61990da50f1ff8927d7578c0703f1e06d3c0c09af",
+      "title": "中華文化閣",
+      "observation": "轉角書櫃、木色長桌及圓弧椅背。",
+      "classification": "library_visit_interior"
+    },
+    {
+      "file": "photos/20240831_101142.jpg",
+      "source_url": "https://hkla.org/wp-content/uploads/gallery/2024-aberdeen-technical-school-visit/20240831_101142.jpg",
+      "sha256": "f3b5527987c9c206da640dbc4c801c06019e6d37735ff4dc263d81a3fc290db4",
+      "title": "主閱讀區窗牆",
+      "observation": "黑框窗、窗下矮書櫃及曲線吊燈。活動中的桌椅擺位不能當永久配置。",
+      "classification": "library_visit_interior"
+    },
+    {
+      "file": "photos/20240831_101145.jpg",
+      "source_url": "https://hkla.org/wp-content/uploads/gallery/2024-aberdeen-technical-school-visit/20240831_101145.jpg",
+      "sha256": "5bd7f6fa425cbedf029657c63bd965d5b03e09f94027f2e16350a65226415b77",
+      "title": "主閱讀區窗牆",
+      "observation": "與前圖相近角度，用於對照固定構件。",
+      "classification": "library_visit_interior"
+    },
+    {
+      "file": "photos/20240831_101230.jpg",
+      "source_url": "https://hkla.org/wp-content/uploads/gallery/2024-aberdeen-technical-school-visit/20240831_101230.jpg",
+      "sha256": "689afebe330624c6ea84c80f734a9e74ec0116ef4f587a3a5aa49abef6cd0e8b",
+      "title": "主閱讀區另一側",
+      "observation": "窗牆、十字架、低櫃及吊燈；不能定位至校園外牆。",
+      "classification": "library_visit_interior"
+    },
+    {
+      "file": "photos/20240831_101837.jpg",
+      "source_url": "https://hkla.org/wp-content/uploads/gallery/2024-aberdeen-technical-school-visit/20240831_101837.jpg",
+      "sha256": "6e25817e9d916a480af0fe60c5fe03a8bbca88ba7c0c5de2a943cfeaaf78067e",
+      "title": "主閱讀區縱深",
+      "observation": "兩側窗牆及遠端閱讀區。人群遮擋部分地面和家具。",
+      "classification": "library_visit_interior"
+    },
+    {
+      "file": "photos/20240831_101839.jpg",
+      "source_url": "https://hkla.org/wp-content/uploads/gallery/2024-aberdeen-technical-school-visit/20240831_101839.jpg",
+      "sha256": "a6e09e5b493b15bdb2338c23ce2be0c8610d1ed125727b2675e3ee08f2d1fc27",
+      "title": "主閱讀區縱深",
+      "observation": "與前圖交叉核對天花及兩側窗牆。",
+      "classification": "library_visit_interior"
+    },
+    {
+      "file": "photos/20240831_102511.jpg",
+      "source_url": "https://hkla.org/wp-content/uploads/gallery/2024-aberdeen-technical-school-visit/20240831_102511.jpg",
+      "sha256": "77d924c514788f1e0dda2f8b0bc22238a5ae1ca942ef02156db2aa38c6845b0a",
+      "title": "階梯區與端牆",
+      "observation": "端牆有真正門洞；旁邊黑底白格物件是帶輪展示板，並非門。",
+      "classification": "library_visit_interior"
+    },
+    {
+      "file": "photos/20240831_102535.jpg",
+      "source_url": "https://hkla.org/wp-content/uploads/gallery/2024-aberdeen-technical-school-visit/20240831_102535.jpg",
+      "sha256": "25fb1208dfe32bdfb82c707f742afb30d7ae3aa52c626f5419103d635d3292c5",
+      "title": "雙扇門與相鄰房間",
+      "observation": "近窗長邊有雙扇淺木色玻璃門。端牆門洞內的電掣、黃色留言板與白板櫃可和103010互認。",
+      "classification": "library_visit_interior"
+    },
+    {
+      "file": "photos/20240831_102702.jpg",
+      "source_url": "https://hkla.org/wp-content/uploads/gallery/2024-aberdeen-technical-school-visit/20240831_102702.jpg",
+      "sha256": "a792bbd196238032fe76476ba94c56b5d31e644ab7716d9b1958b3f6ab1d4e15",
+      "title": "主館階梯座席",
+      "observation": "座席背後高書櫃，上方木圈燈、空調及綠植。",
+      "classification": "library_visit_interior"
+    },
+    {
+      "file": "photos/20240831_102703.jpg",
+      "source_url": "https://hkla.org/wp-content/uploads/gallery/2024-aberdeen-technical-school-visit/20240831_102703.jpg",
+      "sha256": "eae60bf6a0410e572525f9c64bad4322799aa52795eb22e2922afa297768164e",
+      "title": "主館階梯座席",
+      "observation": "與前圖同區；人群遮擋，不能準確量度座席尺寸。",
+      "classification": "library_visit_interior"
+    },
+    {
+      "file": "photos/20240831_103010.jpg",
+      "source_url": "https://hkla.org/wp-content/uploads/gallery/2024-aberdeen-technical-school-visit/20240831_103010.jpg",
+      "sha256": "8e06e370461be3f57c429c68c970b21421896994bb8dda0bb5f67a2402814a1a",
+      "title": "相連房間的側牆",
+      "observation": "電掣、黃色留言板、窄桌及三片白板櫃，與102535門洞內景吻合。黃色留言板不是逃生平面圖。",
+      "classification": "library_visit_interior"
+    },
+    {
+      "file": "photos/20240831_103316.jpg",
+      "source_url": "https://hkla.org/wp-content/uploads/gallery/2024-aberdeen-technical-school-visit/20240831_103316.jpg",
+      "sha256": "635a735f241ac116f0a017b58d43fa09efde2f52b02b6282330ee2f9ad97b4cd",
+      "title": "中華文化閣補充角度",
+      "observation": "書櫃轉角和長桌；入口的校園方位未確認。",
+      "classification": "library_visit_interior"
+    },
+    {
+      "file": "photos/20240831_103347.jpg",
+      "source_url": "https://hkla.org/wp-content/uploads/gallery/2024-aberdeen-technical-school-visit/20240831_103347.jpg",
+      "sha256": "4567d46f2792601d386382a9d5de3a9423379749d0d182c499b8be8cc149236c",
+      "title": "走廊，圖書館入口關係未確認",
+      "observation": "世界地圖牆及開放走廊。拍攝時間相鄰不足以證明是哪個圖書館入口。",
+      "classification": "unregistered_corridor"
+    },
+    {
+      "file": "photos/20240831_103352.jpg",
+      "source_url": "https://hkla.org/wp-content/uploads/gallery/2024-aberdeen-technical-school-visit/20240831_103352.jpg",
+      "sha256": "bc02a29536131e80dddcbc1367eda76a637eae250b3765be8c17a04aacce5fed",
+      "title": "走廊，圖書館入口關係未確認",
+      "observation": "同一走廊補充角度；不據此新增連接。",
+      "classification": "unregistered_corridor"
+    }
+  ]
+}

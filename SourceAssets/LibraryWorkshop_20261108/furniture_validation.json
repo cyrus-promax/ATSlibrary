@@ -1,0 +1,862 @@
+{
+  "mesh_count_expected": 50,
+  "mesh_count_imported": 50,
+  "checks": [
+    {
+      "mesh": "SM_LW_Main_Shelving_PaleOak",
+      "materials": [
+        "LW_PaleOak"
+      ],
+      "bounds_min": [
+        0.10999999940395355,
+        0.1799999624490738,
+        -1.2735509926642408e-06
+      ],
+      "bounds_max": [
+        13.289999961853027,
+        7.820000171661377,
+        0.9799999594688416
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Main_Books_Paper",
+      "materials": [
+        "LW_Paper"
+      ],
+      "bounds_min": [
+        0.29338058829307556,
+        0.27902957797050476,
+        0.063998743891716
+      ],
+      "bounds_max": [
+        13.146944046020508,
+        7.720846176147461,
+        0.9503325819969177
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Main_Books_BookGrey",
+      "materials": [
+        "LW_BookGrey"
+      ],
+      "bounds_min": [
+        0.29738056659698486,
+        0.27562960982322693,
+        0.063998743891716
+      ],
+      "bounds_max": [
+        13.145943641662598,
+        7.724399566650391,
+        0.9489250779151917
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Main_Books_BookTan",
+      "materials": [
+        "LW_BookTan"
+      ],
+      "bounds_min": [
+        0.3343221843242645,
+        0.27905920147895813,
+        0.063998743891716
+      ],
+      "bounds_max": [
+        13.149944305419922,
+        7.720561981201172,
+        0.9493028521537781
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Main_Books_BookGreen",
+      "materials": [
+        "LW_BookGreen"
+      ],
+      "bounds_min": [
+        0.382331907749176,
+        0.2794666886329651,
+        0.063998743891716
+      ],
+      "bounds_max": [
+        12.820246696472168,
+        7.72008752822876,
+        0.9499934315681458
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Main_Books_BookRed",
+      "materials": [
+        "LW_BookRed"
+      ],
+      "bounds_min": [
+        0.42242300510406494,
+        0.2791256010532379,
+        0.063998743891716
+      ],
+      "bounds_max": [
+        13.127640724182129,
+        7.72030782699585,
+        0.9498609900474548
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Main_Books_BookBlue",
+      "materials": [
+        "LW_BookBlue"
+      ],
+      "bounds_min": [
+        0.37854647636413574,
+        0.2792319655418396,
+        0.063998743891716
+      ],
+      "bounds_max": [
+        13.103103637695312,
+        7.720608711242676,
+        0.949801504611969
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Main_Hardware_BlackMetal",
+      "materials": [
+        "LW_BlackMetal"
+      ],
+      "bounds_min": [
+        0.1339999884366989,
+        0.24740001559257507,
+        0.3243320882320404
+      ],
+      "bounds_max": [
+        13.265999794006348,
+        7.752599716186523,
+        0.6236666440963745
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Main_ReadingTables_PaleOak",
+      "materials": [
+        "LW_PaleOak"
+      ],
+      "bounds_min": [
+        2.0399999618530273,
+        2.3600003719329834,
+        0.7259992957115173
+      ],
+      "bounds_max": [
+        12.65999984741211,
+        4.639999866485596,
+        0.7639995813369751
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Main_ReadingTables_WhiteMetal",
+      "materials": [
+        "LW_WhiteMetal"
+      ],
+      "bounds_min": [
+        2.3940000534057617,
+        2.74399995803833,
+        0.024999307468533516
+      ],
+      "bounds_max": [
+        12.305999755859375,
+        4.25600004196167,
+        0.7269995212554932
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Main_ReadingTables_Rubber",
+      "materials": [
+        "LW_Rubber"
+      ],
+      "bounds_min": [
+        2.3917269706726074,
+        2.740999937057495,
+        0.005999306216835976
+      ],
+      "bounds_max": [
+        12.308272361755371,
+        4.258999824523926,
+        0.028999552130699158
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Main_ClearChairs_Glass",
+      "materials": [
+        "LW_Glass"
+      ],
+      "bounds_min": [
+        1.415000081062317,
+        1.9150002002716064,
+        0.45299920439720154
+      ],
+      "bounds_max": [
+        13.28499984741211,
+        5.085000038146973,
+        0.8699997067451477
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Main_ClearChairs_PaleOak",
+      "materials": [
+        "LW_PaleOak"
+      ],
+      "bounds_min": [
+        1.4633030891418457,
+        1.9633030891418457,
+        0.01788809336721897
+      ],
+      "bounds_max": [
+        13.23669719696045,
+        5.0366973876953125,
+        0.4460453987121582
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Main_ClearChairs_Rubber",
+      "materials": [
+        "LW_Rubber"
+      ],
+      "bounds_min": [
+        1.4610328674316406,
+        1.9610328674316406,
+        0.006477002520114183
+      ],
+      "bounds_max": [
+        13.238966941833496,
+        5.038967609405518,
+        0.02652186155319214
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Main_ClearChairs_BlackMetal",
+      "materials": [
+        "LW_BlackMetal"
+      ],
+      "bounds_min": [
+        1.5530000925064087,
+        2.052999973297119,
+        0.38334178924560547
+      ],
+      "bounds_max": [
+        13.147000312805176,
+        4.947000026702881,
+        0.3966570496559143
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Main_Reception_PaleOak",
+      "materials": [
+        "LW_PaleOak"
+      ],
+      "bounds_min": [
+        2.049999952316284,
+        6.514500141143799,
+        -1.2283496744203148e-06
+      ],
+      "bounds_max": [
+        8.050000190734863,
+        7.539999961853027,
+        1.1099989414215088
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Main_Reception_WhiteMetal",
+      "materials": [
+        "LW_WhiteMetal"
+      ],
+      "bounds_min": [
+        2.015000104904175,
+        6.505000114440918,
+        1.1144988536834717
+      ],
+      "bounds_max": [
+        8.085000038146973,
+        7.574999809265137,
+        1.1694989204406738
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Main_Reception_BlackMetal",
+      "materials": [
+        "LW_BlackMetal"
+      ],
+      "bounds_min": [
+        2.619999885559082,
+        6.610000133514404,
+        -1.214736585097853e-06
+      ],
+      "bounds_max": [
+        7.940000057220459,
+        7.46999979019165,
+        0.12999892234802246
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Main_ReceptionDetails_BlackMetal",
+      "materials": [
+        "LW_BlackMetal"
+      ],
+      "bounds_min": [
+        6.679999828338623,
+        6.769999980926514,
+        1.1674989461898804
+      ],
+      "bounds_max": [
+        7.21999979019165,
+        7.195000171661377,
+        1.6099988222122192
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Main_ReceptionDetails_BookGrey",
+      "materials": [
+        "LW_BookGrey"
+      ],
+      "bounds_min": [
+        6.704999923706055,
+        6.7769999504089355,
+        1.187498927116394
+      ],
+      "bounds_max": [
+        7.195000171661377,
+        7.079500675201416,
+        1.5829987525939941
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Step_TierSeating_PaleOak",
+      "materials": [
+        "LW_PaleOak"
+      ],
+      "bounds_min": [
+        19.985000610351562,
+        3.450000047683716,
+        -9.309288202530297e-07
+      ],
+      "bounds_max": [
+        27.329999923706055,
+        5.737500190734863,
+        0.7919992804527283
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Step_TierHardware_BlackMetal",
+      "materials": [
+        "LW_BlackMetal"
+      ],
+      "bounds_min": [
+        21.07200050354004,
+        3.4779999256134033,
+        0.25060001015663147
+      ],
+      "bounds_max": [
+        27.20800018310547,
+        4.301000118255615,
+        0.5245987176895142
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Step_TierHardware_Paper",
+      "materials": [
+        "LW_Paper"
+      ],
+      "bounds_min": [
+        21.07900047302246,
+        3.4749999046325684,
+        0.25439944863319397
+      ],
+      "bounds_max": [
+        27.201000213623047,
+        4.2870001792907715,
+        0.5207992792129517
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Step_Shelving_PaleOak",
+      "materials": [
+        "LW_PaleOak"
+      ],
+      "bounds_min": [
+        20.53499984741211,
+        5.360000133514404,
+        0.8199990391731262
+      ],
+      "bounds_max": [
+        26.924999237060547,
+        5.740000247955322,
+        2.3699989318847656
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Step_Books_Paper",
+      "materials": [
+        "LW_Paper"
+      ],
+      "bounds_min": [
+        20.60256576538086,
+        5.3612236976623535,
+        0.8839991092681885
+      ],
+      "bounds_max": [
+        26.798860549926758,
+        5.580911636352539,
+        2.264103651046753
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Step_Books_BookBlue",
+      "materials": [
+        "LW_BookBlue"
+      ],
+      "bounds_min": [
+        20.599565505981445,
+        5.362821578979492,
+        0.8839991092681885
+      ],
+      "bounds_max": [
+        26.51462173461914,
+        5.580877780914307,
+        2.2690703868865967
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Step_Books_BookGrey",
+      "materials": [
+        "LW_BookGrey"
+      ],
+      "bounds_min": [
+        20.603565216064453,
+        5.362544536590576,
+        0.8839991092681885
+      ],
+      "bounds_max": [
+        26.797861099243164,
+        5.584311485290527,
+        2.2642204761505127
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Step_Books_BookRed",
+      "materials": [
+        "LW_BookRed"
+      ],
+      "bounds_min": [
+        20.610652923583984,
+        5.3630194664001465,
+        0.8839991092681885
+      ],
+      "bounds_max": [
+        26.760326385498047,
+        5.579721927642822,
+        2.2660131454467773
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Step_Books_BookGreen",
+      "materials": [
+        "LW_BookGreen"
+      ],
+      "bounds_min": [
+        20.6646785736084,
+        5.362552165985107,
+        0.8839991092681885
+      ],
+      "bounds_max": [
+        26.801860809326172,
+        5.579705715179443,
+        2.2576422691345215
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Step_Books_BookTan",
+      "materials": [
+        "LW_BookTan"
+      ],
+      "bounds_min": [
+        20.798131942749023,
+        5.362523555755615,
+        0.8839991092681885
+      ],
+      "bounds_max": [
+        26.57115936279297,
+        5.580495834350586,
+        2.250807762145996
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Step_Hardware_BlackMetal",
+      "materials": [
+        "LW_BlackMetal"
+      ],
+      "bounds_min": [
+        20.55900001525879,
+        5.440600395202637,
+        1.2134990692138672
+      ],
+      "bounds_max": [
+        26.900999069213867,
+        5.659400463104248,
+        1.944499135017395
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Step_PlanterFrame_PaleOak",
+      "materials": [
+        "LW_PaleOak"
+      ],
+      "bounds_min": [
+        20.727500915527344,
+        5.157500267028809,
+        2.7474989891052246
+      ],
+      "bounds_max": [
+        27.322500228881836,
+        5.8525004386901855,
+        2.79249906539917
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Step_PlanterFrame_BlackMetal",
+      "materials": [
+        "LW_BlackMetal"
+      ],
+      "bounds_min": [
+        20.92780113220215,
+        5.502800464630127,
+        2.789999008178711
+      ],
+      "bounds_max": [
+        27.12220001220703,
+        5.507200717926025,
+        3.7499990463256836
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Step_Plants_Plant",
+      "materials": [
+        "LW_Plant"
+      ],
+      "bounds_min": [
+        20.770000457763672,
+        5.193478107452393,
+        2.4993481636047363
+      ],
+      "bounds_max": [
+        27.264999389648438,
+        5.633758068084717,
+        2.7706499099731445
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Lecture_Stage_PaleOak",
+      "materials": [
+        "LW_PaleOak"
+      ],
+      "bounds_min": [
+        6.75,
+        17.375,
+        -3.354862656124169e-06
+      ],
+      "bounds_max": [
+        7.860000133514404,
+        20.625,
+        0.4499971270561218
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Lecture_StageCabinet_PaleOak",
+      "materials": [
+        "LW_PaleOak"
+      ],
+      "bounds_min": [
+        7.61299991607666,
+        17.694000244140625,
+        0.449996680021286
+      ],
+      "bounds_max": [
+        7.880000114440918,
+        20.285999298095703,
+        1.4299970865249634
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Lecture_LectureSeating_PaleOak",
+      "materials": [
+        "LW_PaleOak"
+      ],
+      "bounds_min": [
+        0.33500000834465027,
+        16.325000762939453,
+        -3.530817139107967e-06
+      ],
+      "bounds_max": [
+        2.010999917984009,
+        21.674999237060547,
+        1.1079972982406616
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Lecture_LectureSeating_Fabric",
+      "materials": [
+        "LW_Fabric"
+      ],
+      "bounds_min": [
+        0.39500001072883606,
+        16.93000030517578,
+        0.3749965727329254
+      ],
+      "bounds_max": [
+        1.9850000143051147,
+        21.09000015258789,
+        1.1549972295761108
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Culture_Shelving_DarkOak",
+      "materials": [
+        "LW_DarkOak"
+      ],
+      "bounds_min": [
+        20.084999084472656,
+        16.094999313354492,
+        -3.409441205803887e-06
+      ],
+      "bounds_max": [
+        25.93000030517578,
+        20.93000030517578,
+        2.3999974727630615
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Culture_Books_Paper",
+      "materials": [
+        "LW_Paper"
+      ],
+      "bounds_min": [
+        20.148441314697266,
+        16.181339263916016,
+        0.06399661302566528
+      ],
+      "bounds_max": [
+        25.790782928466797,
+        20.790943145751953,
+        2.2794032096862793
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Culture_Books_BookTan",
+      "materials": [
+        "LW_BookTan"
+      ],
+      "bounds_min": [
+        20.15785026550293,
+        16.178340911865234,
+        0.06399661302566528
+      ],
+      "bounds_max": [
+        25.790855407714844,
+        20.790822982788086,
+        2.273571014404297
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Culture_Books_BookGrey",
+      "materials": [
+        "LW_BookGrey"
+      ],
+      "bounds_min": [
+        20.14544105529785,
+        16.182340621948242,
+        0.06399661302566528
+      ],
+      "bounds_max": [
+        25.794374465942383,
+        20.79434585571289,
+        2.274862766265869
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Culture_Books_BookBlue",
+      "materials": [
+        "LW_BookBlue"
+      ],
+      "bounds_min": [
+        20.24187469482422,
+        16.203716278076172,
+        0.06399661302566528
+      ],
+      "bounds_max": [
+        25.79084014892578,
+        20.79049301147461,
+        2.279712677001953
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Culture_Books_BookRed",
+      "materials": [
+        "LW_BookRed"
+      ],
+      "bounds_min": [
+        20.16390609741211,
+        16.235309600830078,
+        0.06399661302566528
+      ],
+      "bounds_max": [
+        25.790884017944336,
+        20.790945053100586,
+        2.275526523590088
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Culture_Books_BookGreen",
+      "materials": [
+        "LW_BookGreen"
+      ],
+      "bounds_min": [
+        20.238309860229492,
+        16.31277847290039,
+        0.06399661302566528
+      ],
+      "bounds_max": [
+        25.790943145751953,
+        20.790836334228516,
+        2.2686893939971924
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Culture_Hardware_BlackMetal",
+      "materials": [
+        "LW_BlackMetal"
+      ],
+      "bounds_min": [
+        20.108999252319336,
+        16.118999481201172,
+        0.4143299460411072
+      ],
+      "bounds_max": [
+        25.85379981994629,
+        20.85379981994629,
+        1.9536640644073486
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Culture_CultureTable_DarkOak",
+      "materials": [
+        "LW_DarkOak"
+      ],
+      "bounds_min": [
+        20.969999313354492,
+        18.030000686645508,
+        0.017996909096837044
+      ],
+      "bounds_max": [
+        24.8700008392334,
+        19.06999969482422,
+        0.8024970889091492
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Culture_CultureChairs_Fabric",
+      "materials": [
+        "LW_Fabric"
+      ],
+      "bounds_min": [
+        21.385000228881836,
+        17.475000381469727,
+        0.43699681758880615
+      ],
+      "bounds_max": [
+        24.415000915527344,
+        19.625,
+        0.47299712896347046
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Culture_CultureChairs_DarkOak",
+      "materials": [
+        "LW_DarkOak"
+      ],
+      "bounds_min": [
+        21.294057846069336,
+        17.409000396728516,
+        0.01930294744670391
+      ],
+      "bounds_max": [
+        24.505943298339844,
+        19.69099998474121,
+        0.8009971380233765
+      ],
+      "uv_channels": 1
+    },
+    {
+      "mesh": "SM_LW_Culture_CultureChairs_Paper",
+      "materials": [
+        "LW_Paper"
+      ],
+      "bounds_min": [
+        21.420000076293945,
+        17.519001007080078,
+        0.4731307923793793
+      ],
+      "bounds_max": [
+        24.380001068115234,
+        19.58099937438965,
+        0.4748631715774536
+      ],
+      "uv_channels": 1
+    }
+  ],
+  "sha256": {
+    "Furniture.fbx": "b5a3544bffc2476d46f4700bad78ca2e872c7cf3d718ded9bfeea86fd3299c62",
+    "Furniture.blend": "c97b132ba6eff06e20b942129fc6b053a7aed011cefc71a2723b6c6a6cbee4a8",
+    "furniture_manifest.json": "be6c57f2fc7c6bcea563b9e67afdf7d333822a1edc60743351f419d0a957b3fd"
+  },
+  "all_passed": true
+}

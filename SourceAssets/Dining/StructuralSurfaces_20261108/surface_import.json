@@ -1,0 +1,28 @@
+{
+  "status": "saved_pending_visual_validation",
+  "changes": [
+    {
+      "actor": "StaticMeshActor_619",
+      "kind": "mesh",
+      "before": "/Game/ATS/Dining/FullGroundFloor_20261108/Meshes/ATS_Dining_Built_SM_DiningBuilt_Tiles.ATS_Dining_Built_SM_DiningBuilt_Tiles",
+      "after": "/Game/ATS/Dining/StructuralSurfaces_20261108/Meshes/SM_Dining_HallSurfacePanels.SM_Dining_HallSurfacePanels"
+    },
+    {
+      "actor": "StaticMeshActor_600",
+      "kind": "material",
+      "slot": 0,
+      "before": "/Game/ATS/Dining/PhotoFinishes_20261108/Materials/M_Dining_BeigeFineTerrazzo_Dry.M_Dining_BeigeFineTerrazzo_Dry",
+      "after": "/Game/ATS/Dining/StructuralSurfaces_20261108/Materials/M_Dining_DryTerrazzo_StableGrain.M_Dining_DryTerrazzo_StableGrain"
+    },
+    {
+      "actor": "StaticMeshActor_618",
+      "kind": "material",
+      "slot": 0,
+      "before": "/Game/ATS/Dining/BuiltFromUserPlan/Materials/M_DiningBuild_Terrazzo.M_DiningBuild_Terrazzo",
+      "after": "/Game/ATS/Dining/StructuralSurfaces_20261108/Materials/M_Dining_DryTerrazzo_StableGrain.M_Dining_DryTerrazzo_StableGrain"
+    }
+  ],
+  "room_identity_confirmed_by_user": "是，就是這個大廳",
+  "floor_grid_not_invented": true,
+  "ceiling_beam_geometry_pending_registration": true
+}

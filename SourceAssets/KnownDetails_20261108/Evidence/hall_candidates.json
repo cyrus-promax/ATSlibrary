@@ -1,0 +1,42 @@
+{
+  "scope": "Hall exact visible corrections only; no guessed structure, dimensions or object placement.",
+  "date": "2026-11-08",
+  "approved_candidates": [
+    {
+      "id": "hall_sign_reading_order",
+      "target_actor": "StaticMeshActor_552",
+      "target_label": "Hall | M_Interior_Black",
+      "existing_asset": "/Game/ATS/Revision8/Architecture/ATS_FacadeRevision_SM_Walk_Hall_Black",
+      "evidence_images": [
+        "work/research/photos/HK-Aberdeen-Technical-School-03@1200x1200.JPG",
+        "work/research/photos/HK-Aberdeen-Technical-School-08@1200x1200.JPG"
+      ],
+      "observation": "Both photographs show the four physical characters left-to-right as 堂 德 理 夏; the sign reads 夏理德堂 from right to left.",
+      "existing_mismatch": "Current source uses 夏 理 德 堂 physically left-to-right.",
+      "action": "Rigidly translate existing glyph geometry into reversed positions, preserving each glyph shape and sign total bounds.",
+      "new_fbx": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\KnownDetails_20261108\\HallSign\\ATS_HallSign_ReadingOrder.fbx",
+      "manifest": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\KnownDetails_20261108\\HallSign\\hall_sign_patch_manifest.json",
+      "status": "Isolated asset prepared and visually verified; not imported into UE.",
+      "preservation": {
+        "original_blend_sha256_unchanged": true,
+        "non_text_vertices_unchanged": 512,
+        "text_vertices_translated": 2852,
+        "topology_unchanged": true,
+        "uvs_unchanged": true,
+        "material_unchanged": true,
+        "sign_total_width_and_baseline_unchanged": true
+      }
+    }
+  ],
+  "deferred": [
+    {
+      "item": "Hall window-frame recolouring",
+      "reason": "Combined HallBlack mesh includes both sign and frames; exact photo colour under lighting is insufficient for a global material change. No change made."
+    },
+    {
+      "item": "Additional windows, lights or stage fixtures",
+      "reason": "Position, scale and registration to present hall cannot be certified from available photos. No geometry created."
+    }
+  ],
+  "ue_changes": 0
+}

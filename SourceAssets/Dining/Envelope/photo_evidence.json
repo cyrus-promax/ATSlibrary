@@ -1,0 +1,118 @@
+{
+  "recorded_at": "2026-11-07T22:18:40.232965+08:00",
+  "sources": [
+    {
+      "id": "school_leaflet",
+      "title": "校方寄宿教育計劃簡介",
+      "url": "http://www.ats.edu.hk/images/doc/20261102.pdf",
+      "pdf_page": 2,
+      "image": "leaflet_p02_image02.png",
+      "publication_in_project": "SourceAssets/References/OutdoorSeatingResearch_20261107/boarding_latest_20261102.pdf",
+      "observations": [
+        "白色長桌、藍色膠椅",
+        "灰色反光的長方形牆面",
+        "白色天花及橫樑",
+        "長條燈具與白色吊扇"
+      ],
+      "limits": [
+        "原始照片只有 376 × 282，細節不可由放大補出",
+        "照片不能確定整間餐廳的尺寸及在校園中的朝向"
+      ],
+      "native_image_pixels": [
+        376,
+        282
+      ],
+      "image_sha256": "88a9b1e70915cf870088380d73b3f73750715603f1aafb7bdd1196500c15cc57",
+      "publication_sha256": "358301e7618602ba3016afd54800f01bc3983dcbc873501fb5bf0d3b5259c5ef"
+    },
+    {
+      "id": "school_anniversary",
+      "title": "寄宿部十周年特刊",
+      "url": "http://www.ats.edu.hk/images/doc/Dorm_10_Anniversary_Journal.pdf",
+      "pdf_page": 30,
+      "image": "anniversary_p30_image02.png",
+      "publication_in_project": "SourceAssets/Dining/Envelope/References/Dorm_10_Anniversary_Journal.pdf",
+      "observations": [
+        "用餐活動照片可見相同白桌及藍椅",
+        "灰色反光下半牆與淺色上半牆",
+        "白色橫樑、中央一列白色吊扇、兩側長條燈"
+      ],
+      "limits": [
+        "原始照片只有 290 × 202",
+        "同頁其他照片有投影機、十字架及不同天花，未當成飯堂依據",
+        "照片不能確定全部燈具、吊扇數量和位置"
+      ],
+      "native_image_pixels": [
+        290,
+        202
+      ],
+      "image_sha256": "e622421bbe95c82cb59038e85721d824861a2f249fb5e1d253fc020282dd3777",
+      "publication_sha256": "5b3238edfbbaca4ac920d66090e7fd1dc03ddd191c21cb4001edb3437851cd83"
+    },
+    {
+      "id": "edb_presentation",
+      "title": "教育局網站刊載的校方 STEAM 分享簡報",
+      "url": "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/technology-edu/resources/STEAM_Coordinator_Workshop/SD/ATS.pdf",
+      "pdf_page": 3,
+      "image": "edb_p03_image10.png",
+      "publication_in_project": "SourceAssets/Dining/Envelope/References/EDB_ATS_presentation.pdf",
+      "observations": [
+        "較清楚地確認白桌、藍色椅背和金屬椅腳"
+      ],
+      "limits": [
+        "照片沒有顯示天花",
+        "後方青綠色櫃或面板位置不明，因此沒有補造",
+        "使用出版文件內已模糊人臉的版本；不把人物照片用作場景材質"
+      ],
+      "native_image_pixels": [
+        595,
+        397
+      ],
+      "image_sha256": "bdb8f588cc987f60ece0fcad58fc7b6ad629103bb65e7c1ebc42363e0b48a027",
+      "publication_sha256": "dccbf91804f2d538ace2dcef27597df05e1c239031d9472562b652bc7faf0b80"
+    }
+  ],
+  "implementation": {
+    "photo_supported_appearance": [
+      "灰色長方形反光牆面及淺色牆漆",
+      "白色天花橫樑",
+      "長條燈",
+      "白色三葉吊扇"
+    ],
+    "partial_coverage_only": true,
+    "wall_treatment": "在現有牆面加局部薄飾面；沒有建立新的房間分隔或門窗。照片中的牆面尚未定位至校園的絕對朝向。",
+    "ceiling_treatment": "只覆蓋已確認飯堂位置附近的一段；開放邊緣表示製作範圍，不是現實房間邊界。",
+    "estimated_dimensions": [
+      "天花高 3.96 米，依現有模型 4.2 米樓距暫配，非實測",
+      "樑底 3.63 米、灰色牆飾面高 1.8 米、磚距 0.6 × 0.3 米為視覺估算",
+      "兩把吊扇與四盞長條燈只用於本段，數量和間距並未核實全房配置"
+    ],
+    "not_added": [
+      "餐廳完整邊界",
+      "未確認的門窗、廚房和內部分隔",
+      "照片可見但位置不明的牆扇、海報及櫃子",
+      "其他活動室的天花裝飾"
+    ],
+    "existing_furniture_preserved": true,
+    "full_room_verified": false,
+    "current_implementation_is_historical": true
+  },
+  "rejected_as_material_reference": [
+    {
+      "url": "http://www.ats.edu.hk/images/doc/ATS_boarding_magazine.pdf",
+      "reason": "照片經漫畫效果處理，不能可靠判定材質及顏色。"
+    },
+    {
+      "url": "http://www.ats.edu.hk/images/doc/Boarding_NewsLetter.pdf",
+      "reason": "未提供足夠的飯堂牆壁或天花影像。"
+    }
+  ],
+  "current_scene_status": {
+    "status": "reference_only_excluded_from_walkthrough",
+    "evidence_review": "SourceAssets/Dining/EvidenceReview_20261107/research_findings.json",
+    "exact_layout_verified": false,
+    "active_in_walkthrough": false,
+    "assets_retained": true,
+    "reviewed_at": "2026-11-07T22:36:47.240009+08:00"
+  }
+}

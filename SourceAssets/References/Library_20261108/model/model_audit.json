@@ -1,0 +1,581 @@
+{
+  "status": "read_only_no_asset_changes",
+  "recommendation": "Do not construct a guessed library shell. Existing exterior is an unmeasured proxy and lacks library slab, ceiling, enclosing room walls, or registered entrance.",
+  "project": "D:/Cyrus/OneDrive/文件/香港仔工業學校/ATS",
+  "snapshot_timestamp": "2026-11-08T18:29:56.191540",
+  "map_sha256_at_snapshot": "d85aa90bfdd991b91c6f60904b15db120beceb53ab2e9209d6f44aa0edf68cc5",
+  "source": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Walkthrough\\ATS_Walkthrough.blend",
+  "source_sha256_before": "0b1fe69043159fa3131a232ba4358a74068450ae930b909d15dfd8374fc3ce4e",
+  "source_sha256_after": "0b1fe69043159fa3131a232ba4358a74068450ae930b909d15dfd8374fc3ce4e",
+  "source_unchanged": true,
+  "source_bounds_match_live_max_difference_cm": 0.0005645751953125,
+  "coordinate_registration": {
+    "units": "campus metres; Unreal centimetres",
+    "campus_to_blender": [
+      "x=cos(20deg)*u-sin(20deg)*v-8",
+      "y=sin(20deg)*u+cos(20deg)*v-24",
+      "z=h-24.55"
+    ],
+    "blender_to_ue": [
+      "X=100*x",
+      "Y=-100*y",
+      "Z=100*z"
+    ],
+    "nominal_eastblock_bounds_uv": [
+      94,
+      120,
+      0,
+      14
+    ],
+    "model_first_floor_band_h": [
+      3.5,
+      7
+    ],
+    "caution": "These are scripted model coordinates, not measured real building dimensions."
+  },
+  "user_confirmed": {
+    "source": "SourceAssets/References/user_layout_evidence.json",
+    "block": "east_block",
+    "floor_uses": {
+      "G": "後門和工廠／青年中心",
+      "1": "圖書館",
+      "2": "教員室"
+    },
+    "authority": "rough user annotated image; block identity and floor use only",
+    "not_established": [
+      "room perimeter",
+      "actual floor elevation",
+      "door location and width",
+      "window layout",
+      "six storeys for EastBlock"
+    ]
+  },
+  "first_floor_geometry": {
+    "floor_slab": null,
+    "ceiling": null,
+    "west_end_wall": null,
+    "east_end_wall_bounds_uvh": [
+      [
+        119.875,
+        0,
+        3.5
+      ],
+      [
+        120.125,
+        14,
+        6.9
+      ]
+    ],
+    "street_lower_wall_bounds_uvh": [
+      [
+        94,
+        -0.025,
+        3.5
+      ],
+      [
+        120,
+        0.225,
+        4.6
+      ]
+    ],
+    "street_pier_centres_u": [
+      95,
+      98,
+      101,
+      104,
+      107,
+      110,
+      113,
+      116,
+      119
+    ],
+    "court_column_centres_u": [
+      94,
+      98,
+      102,
+      106,
+      110,
+      114,
+      118
+    ],
+    "street_glass": {
+      "pane_count": 9,
+      "centres_u": [
+        96.5,
+        99.5,
+        102.5,
+        105.5,
+        108.5,
+        111.5,
+        114.5,
+        117.5,
+        120.5
+      ],
+      "each_width_m": 2.7,
+      "v_range": [
+        0.0925,
+        0.1075
+      ],
+      "h_range": [
+        4.7,
+        6.5
+      ],
+      "overall_u_range": [
+        95.15,
+        121.85
+      ],
+      "warning": "Last pane extends1.85m beyond nominal end wallu120. Scripted proxy, not reliable as real window dimensions."
+    },
+    "court_parapets": {
+      "u_spans": [
+        [
+          94,
+          96.7
+        ],
+        [
+          100.3,
+          120
+        ]
+      ],
+      "v_range": [
+        13.92,
+        14.08
+      ],
+      "h_range": [
+        3.5,
+        4.5
+      ]
+    },
+    "court_rails": {
+      "u_spans": [
+        [
+          94,
+          96.7
+        ],
+        [
+          100.3,
+          120
+        ]
+      ],
+      "v": 14,
+      "h_centre": 4.66,
+      "radius_m": 0.03
+    },
+    "court_gap_warning": "3.6m modeled gap is not evidence of a real library entrance.",
+    "only_horizontal_roof_h_range": [
+      20.8,
+      21.0
+    ],
+    "interior_fitout": null,
+    "confirmed_access_route": null
+  },
+  "hidden_collision_boundary": {
+    "actor": "StaticMeshActor_147",
+    "label": "Unmodeled Area Boundary | East block unmodeled interior",
+    "centre_uvh": [
+      107,
+      7,
+      10.4
+    ],
+    "size_m": [
+      25.6,
+      13.6,
+      20.8
+    ],
+    "occupied_bounds_uvh": [
+      [
+        94.2,
+        0.2,
+        0
+      ],
+      [
+        119.8,
+        13.8,
+        20.8
+      ]
+    ],
+    "hidden": true,
+    "component_visible": false,
+    "collision_enabled": true,
+    "profile": "BlockAll",
+    "warning": "Do not remove the whole boundary. It blocks all unmodeled floors including the absent first-floor slab."
+  },
+  "source_scripts": [
+    {
+      "path": "work/build_walkthrough.py",
+      "lines": "106-108;203-223",
+      "role": "explicitly leaves library unknown; repeated exterior only; no floor slabs; west wall removed"
+    },
+    {
+      "path": "work/build_structure_removal.py",
+      "role": "regenerates current exterior; asserts no EastBlock GreyTile floor mesh"
+    },
+    {
+      "path": "work/import_structure_removal.py",
+      "line": 53,
+      "role": "creates full-height unmodeled-interior collision boundary"
+    },
+    {
+      "path": "work/build_library.py",
+      "status": "retired_guessed",
+      "role": "not evidence; estimated room10.6x22.2m, furniture placement, window rows and ceiling"
+    }
+  ],
+  "construction_interfaces_and_blockers": [
+    "All four facade material meshes combine every model floor. Do not replace or recolour whole actors for one floor.",
+    "Keep unknown-volume collision until a supported room floor and verified entry are registered; preserve remaining unknown floors if future collision is split.",
+    "Do not use legacy facade dimensions/window repetitions as surveyed library control points.",
+    "Need evidence-backed perimeter/scale, floor elevation, external orientation and entrance registration before integrated exact construction.",
+    "Proposed floor area/cabinet dimensions and incomplete photos do not define a measured room perimeter."
+  ],
+  "actors_from_snapshot": [
+    {
+      "name": "StaticMeshActor_476",
+      "label": "EastBlock | M_Interior_Glass",
+      "class": "StaticMeshActor",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [
+        "ATS.Area.east_block",
+        "ATS.UserLayout20261107"
+      ],
+      "folder": "None",
+      "hidden": false,
+      "editor_hidden": false,
+      "collision": true,
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/ATS/Revision2/Architecture/ATS_Walkthrough_SM_Walk_EastBlock_Glass.ATS_Walkthrough_SM_Walk_EastBlock_Glass",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_Glass.M_Interior_Glass"
+          ],
+          "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+          "profile": "BlockAll",
+          "visible": true,
+          "shadow": true,
+          "relative_transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        }
+      ],
+      "bounds_world": {
+        "center": [
+          9392.244873046875,
+          -1320.3152770996094,
+          -1370.0001983642578
+        ],
+        "extent": [
+          1254.746337890625,
+          457.3017883300781,
+          965.0000457763672
+        ]
+      },
+      "center_campus": [
+        108.5000006073544,
+        0.09999760597780494,
+        10.849998016357423
+      ],
+      "mesh_bounds": {
+        "min": [
+          8137.49853515625,
+          -1777.6170654296875,
+          -2335.000244140625
+        ],
+        "max": [
+          10646.9912109375,
+          -863.0134887695312,
+          -405.0001525878906
+        ]
+      }
+    },
+    {
+      "name": "StaticMeshActor_478",
+      "label": "EastBlock | M_Interior_Metal",
+      "class": "StaticMeshActor",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [
+        "ATS.Area.east_block",
+        "ATS.UserLayout20261107"
+      ],
+      "folder": "None",
+      "hidden": false,
+      "editor_hidden": false,
+      "collision": true,
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/ATS/Revision9/StructureRemoval/ATS_StructureRemoval_SM_Walk_EastBlock_Metal.ATS_StructureRemoval_SM_Walk_EastBlock_Metal",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_Metal.M_Interior_Metal"
+          ],
+          "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+          "profile": "BlockAll",
+          "visible": true,
+          "shadow": true,
+          "relative_transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        }
+      ],
+      "bounds_world": {
+        "center": [
+          9038.702880859375,
+          -1962.6297912597656,
+          -1370.0001983642578
+        ],
+        "extent": [
+          1485.446533203125,
+          1060.0005798339844,
+          965.0000457763672
+        ]
+      },
+      "center_campus": [
+        107.3746376173211,
+        7.344964526173769,
+        10.849998016357423
+      ],
+      "mesh_bounds": {
+        "min": [
+          7553.25634765625,
+          -3022.63037109375,
+          -2335.000244140625
+        ],
+        "max": [
+          10524.1494140625,
+          -902.6292114257812,
+          -405.0001525878906
+        ]
+      }
+    },
+    {
+      "name": "StaticMeshActor_479",
+      "label": "EastBlock | M_Interior_MintTile",
+      "class": "StaticMeshActor",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [
+        "ATS.Area.east_block",
+        "ATS.UserLayout20261107"
+      ],
+      "folder": "None",
+      "hidden": false,
+      "editor_hidden": false,
+      "collision": true,
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/ATS/Revision2/JunctionFix/ATS_GalleryJunction_SM_Walk_EastBlock_MintTile.ATS_GalleryJunction_SM_Walk_EastBlock_MintTile",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_MintTile.M_Interior_MintTile"
+          ],
+          "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+          "profile": "BlockAll",
+          "visible": true,
+          "shadow": true,
+          "relative_transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        }
+      ],
+      "bounds_world": {
+        "center": [
+          8775.883056640625,
+          -2575.18505859375,
+          -1355.0004272460938
+        ],
+        "extent": [
+          1224.336669921875,
+          452.143798828125,
+          750.0000610351562
+        ]
+      },
+      "center_campus": [
+        107.00000152645964,
+        13.999997911027855,
+        10.999995727539064
+      ],
+      "mesh_bounds": {
+        "min": [
+          7551.54638671875,
+          -3027.328857421875,
+          -2105.00048828125
+        ],
+        "max": [
+          10000.2197265625,
+          -2123.041259765625,
+          -605.0003662109375
+        ]
+      }
+    },
+    {
+      "name": "StaticMeshActor_480",
+      "label": "EastBlock | M_Interior_White",
+      "class": "StaticMeshActor",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [
+        "ATS.Area.east_block",
+        "ATS.UserLayout20261107"
+      ],
+      "folder": "None",
+      "hidden": false,
+      "editor_hidden": false,
+      "collision": true,
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Game/ATS/Revision9/StructureRemoval/ATS_StructureRemoval_SM_Walk_EastBlock_White.ATS_StructureRemoval_SM_Walk_EastBlock_White",
+          "materials": [
+            "/Game/ATS/Campus/Materials/M_Interior_White.M_Interior_White"
+          ],
+          "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+          "profile": "BlockAll",
+          "visible": true,
+          "shadow": true,
+          "relative_transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>"
+        }
+      ],
+      "bounds_world": {
+        "center": [
+          9013.1591796875,
+          -1918.3630676269531,
+          -1405.0003051757812
+        ],
+        "extent": [
+          1474.8984375,
+          1105.7233581542969,
+          1050.0001831054688
+        ]
+      },
+      "center_campus": [
+        106.98320423071887,
+        7.0163579940912655,
+        10.499996948242188
+      ],
+      "mesh_bounds": {
+        "min": [
+          7538.2607421875,
+          -3024.08642578125,
+          -2455.00048828125
+        ],
+        "max": [
+          10488.0576171875,
+          -812.6397094726562,
+          -355.0001220703125
+        ]
+      }
+    },
+    {
+      "name": "StaticMeshActor_147",
+      "label": "Unmodeled Area Boundary | East block unmodeled interior",
+      "class": "StaticMeshActor",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: -0.000000, y: 0.000000, z: -0.173648, w: 0.984808}, translation: {x: 9015.296942, y: -1917.400368, z: -1415.000000}, scale3d: {x: 25.600000, y: 13.600000, z: 20.800000}}>",
+      "tags": [],
+      "folder": "None",
+      "hidden": true,
+      "editor_hidden": false,
+      "collision": true,
+      "components": [
+        {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "materials": [
+            "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+          ],
+          "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+          "profile": "BlockAll",
+          "visible": false,
+          "shadow": false,
+          "relative_transform": "<Struct 'Transform' (ADDR) {rotation: {x: -0.000000, y: 0.000000, z: -0.173648, w: 0.984808}, translation: {x: 9015.296942, y: -1917.400368, z: -1415.000000}, scale3d: {x: 25.600000, y: 13.600000, z: 20.800000}}>"
+        }
+      ],
+      "bounds_world": {
+        "center": [
+          9015.296942081251,
+          -1917.4003681347913,
+          -1415.0
+        ],
+        "extent": [
+          1435.380252067418,
+          1076.776765591274,
+          1040.0
+        ]
+      },
+      "center_campus": [
+        107.0,
+        7.0,
+        10.4
+      ],
+      "mesh_bounds": {
+        "min": [
+          -50.0,
+          -50.0,
+          -50.0
+        ],
+        "max": [
+          50.0,
+          50.0,
+          50.0
+        ]
+      }
+    },
+    {
+      "name": "ATSTourPoint_2",
+      "label": "Walk Zone 22 右側樓 1/F｜圖書館",
+      "class": "ATSTourPoint",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: -0.000000, y: 0.000000, z: -0.819152, w: 0.573576}, translation: {x: 9015.296942, y: -1917.400368, z: -2013.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [
+        "ATS.UserLayout20261107",
+        "ATS.FloorUseOnly"
+      ],
+      "folder": "Campus/Confirmed Floor Uses",
+      "hidden": false,
+      "editor_hidden": false,
+      "collision": true,
+      "components": [],
+      "bounds_world": {
+        "center": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "extent": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "center_campus": [
+        15.726024406103317,
+        19.81646175225645,
+        24.55
+      ]
+    },
+    {
+      "name": "TargetPoint_0",
+      "label": "Layout Reference | 右側樓｜圖書館／教員室",
+      "class": "TargetPoint",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 9015.296942, y: -1917.400368, z: -365.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [
+        "ATS.UserLayout20261107",
+        "ATS.ReferenceOnly",
+        "ATS.Area.east_block"
+      ],
+      "folder": "Campus/User Layout 20261107",
+      "hidden": true,
+      "editor_hidden": false,
+      "collision": false,
+      "components": [],
+      "bounds_world": {
+        "center": [
+          9015.296942081251,
+          -1917.4003681347913,
+          -365.0000000000002
+        ],
+        "extent": [
+          128.0,
+          128.0,
+          128.0
+        ]
+      },
+      "center_campus": [
+        107.0,
+        7.0,
+        20.9
+      ]
+    }
+  ],
+  "component_geometry_file": "eastblock_source_geometry.json"
+}

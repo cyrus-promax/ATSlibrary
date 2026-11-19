@@ -1,0 +1,132 @@
+{
+  "timestamp": "2026-11-08T18:58:57.846128",
+  "map": "/Game/ATS/Maps/ATS_Library_Workshop",
+  "status": "built_saved",
+  "mesh_count": 272,
+  "actor_count": 300,
+  "module_roots": {
+    "Main": "TargetPoint_2",
+    "Step": "TargetPoint_3",
+    "Lecture": "TargetPoint_4",
+    "Culture": "TargetPoint_5"
+  },
+  "master_root": "TargetPoint_1",
+  "doors": [
+    {
+      "actor": "ATSAutoDoor_0",
+      "label": "LW_DOOR_Step_DoubleExit_Leaf_1",
+      "source": "Step_DoubleExit_Leaf_1",
+      "hinge_world_cm": [
+        2700.6,
+        0.0,
+        0.0
+      ],
+      "yaw": 0.0,
+      "open_angle": -90
+    },
+    {
+      "actor": "ATSAutoDoor_1",
+      "label": "LW_DOOR_Step_DoubleExit_Leaf_2",
+      "source": "Step_DoubleExit_Leaf_2",
+      "hinge_world_cm": [
+        2839.3999999999996,
+        0.0,
+        0.0
+      ],
+      "yaw": 180.0,
+      "open_angle": 90
+    },
+    {
+      "actor": "ATSAutoDoor_2",
+      "label": "LW_DOOR_Lecture_StageExit1_Leaf_1",
+      "source": "Lecture_StageExit1_Leaf_1",
+      "hinge_world_cm": [
+        800.0,
+        -1618.6,
+        0.0
+      ],
+      "yaw": -90.0,
+      "open_angle": -90
+    },
+    {
+      "actor": "ATSAutoDoor_3",
+      "label": "LW_DOOR_Lecture_StageExit2_Leaf_1",
+      "source": "Lecture_StageExit2_Leaf_1",
+      "hinge_world_cm": [
+        800.0,
+        -2078.6000000000004,
+        0.0
+      ],
+      "yaw": -90.0,
+      "open_angle": -90
+    }
+  ],
+  "rect_lights": 13,
+  "views": {
+    "Main": [
+      [
+        0.7,
+        4.0,
+        1.65
+      ],
+      [
+        12.8,
+        4.0,
+        1.6
+      ]
+    ],
+    "Step": [
+      [
+        20.7,
+        0.9,
+        1.65
+      ],
+      [
+        26.0,
+        4.4,
+        1.45
+      ]
+    ],
+    "Lecture": [
+      [
+        2.6,
+        18.8,
+        1.65
+      ],
+      [
+        7.7,
+        19.0,
+        1.45
+      ]
+    ],
+    "Culture": [
+      [
+        20.2,
+        16.2,
+        1.65
+      ],
+      [
+        24.4,
+        20.0,
+        1.45
+      ]
+    ]
+  },
+  "textures_4k": 12,
+  "furniture_counts": {
+    "books": 2298,
+    "clear_chairs": 12,
+    "culture_chairs": 6,
+    "reading_tables": 3,
+    "shelf_bays": 36
+  },
+  "source_polygons_architecture": 144256,
+  "source_triangles_furniture": 1557104,
+  "main_school_sha256_unchanged": true,
+  "limits": [
+    "Display dimensions and arrangement remain provisional. No complete as-built plan claimed.",
+    "Four modules can move independently; no school connection or original campus placement changed.",
+    "Book titles are unlabelled generic detail; counts are not a real library inventory.",
+    "Door closer bodies/arms are visual detail; articulated closer linkage is not simulated."
+  ]
+}

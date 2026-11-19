@@ -1,0 +1,150 @@
+{
+  "status": "minimal_furniture_groups_saved_in_user_confirmed_zones",
+  "tables_added": 2,
+  "chairs_added": 8,
+  "placements": [
+    {
+      "kind": "table",
+      "zone": "中央",
+      "campus_m": [
+        8.0,
+        19.8,
+        0.02
+      ],
+      "yaw": -20,
+      "actor": "StaticMeshActor_591",
+      "label": "餐廳桌椅｜中央｜白枱 01",
+      "mesh": "/Game/ATS/Dining/Meshes/SM_Dining_WhiteTable.SM_Dining_WhiteTable"
+    },
+    {
+      "kind": "chair",
+      "zone": "中央",
+      "campus_m": [
+        7.52,
+        19.04,
+        0.02
+      ],
+      "yaw": 160,
+      "actor": "StaticMeshActor_593",
+      "label": "餐廳桌椅｜中央｜藍椅 02",
+      "mesh": "/Game/ATS/Dining/Meshes/SM_Dining_BlueChair.SM_Dining_BlueChair"
+    },
+    {
+      "kind": "chair",
+      "zone": "中央",
+      "campus_m": [
+        8.48,
+        19.04,
+        0.02
+      ],
+      "yaw": 160,
+      "actor": "StaticMeshActor_594",
+      "label": "餐廳桌椅｜中央｜藍椅 03",
+      "mesh": "/Game/ATS/Dining/Meshes/SM_Dining_BlueChair.SM_Dining_BlueChair"
+    },
+    {
+      "kind": "chair",
+      "zone": "中央",
+      "campus_m": [
+        7.52,
+        20.560000000000002,
+        0.02
+      ],
+      "yaw": -20,
+      "actor": "StaticMeshActor_595",
+      "label": "餐廳桌椅｜中央｜藍椅 04",
+      "mesh": "/Game/ATS/Dining/Meshes/SM_Dining_BlueChair.SM_Dining_BlueChair"
+    },
+    {
+      "kind": "chair",
+      "zone": "中央",
+      "campus_m": [
+        8.48,
+        20.560000000000002,
+        0.02
+      ],
+      "yaw": -20,
+      "actor": "StaticMeshActor_596",
+      "label": "餐廳桌椅｜中央｜藍椅 05",
+      "mesh": "/Game/ATS/Dining/Meshes/SM_Dining_BlueChair.SM_Dining_BlueChair"
+    },
+    {
+      "kind": "table",
+      "zone": "靠窗",
+      "campus_m": [
+        8.7,
+        5.8999999999999995,
+        0.02
+      ],
+      "yaw": -20,
+      "actor": "StaticMeshActor_597",
+      "label": "餐廳桌椅｜靠窗｜白枱 06",
+      "mesh": "/Game/ATS/Dining/Meshes/SM_Dining_WhiteTable.SM_Dining_WhiteTable"
+    },
+    {
+      "kind": "chair",
+      "zone": "靠窗",
+      "campus_m": [
+        8.219999999999999,
+        5.14,
+        0.02
+      ],
+      "yaw": 160,
+      "actor": "StaticMeshActor_602",
+      "label": "餐廳桌椅｜靠窗｜藍椅 07",
+      "mesh": "/Game/ATS/Dining/Meshes/SM_Dining_BlueChair.SM_Dining_BlueChair"
+    },
+    {
+      "kind": "chair",
+      "zone": "靠窗",
+      "campus_m": [
+        9.18,
+        5.14,
+        0.02
+      ],
+      "yaw": 160,
+      "actor": "StaticMeshActor_622",
+      "label": "餐廳桌椅｜靠窗｜藍椅 08",
+      "mesh": "/Game/ATS/Dining/Meshes/SM_Dining_BlueChair.SM_Dining_BlueChair"
+    },
+    {
+      "kind": "chair",
+      "zone": "靠窗",
+      "campus_m": [
+        8.219999999999999,
+        6.659999999999999,
+        0.02
+      ],
+      "yaw": -20,
+      "actor": "StaticMeshActor_623",
+      "label": "餐廳桌椅｜靠窗｜藍椅 09",
+      "mesh": "/Game/ATS/Dining/Meshes/SM_Dining_BlueChair.SM_Dining_BlueChair"
+    },
+    {
+      "kind": "chair",
+      "zone": "靠窗",
+      "campus_m": [
+        9.18,
+        6.659999999999999,
+        0.02
+      ],
+      "yaw": -20,
+      "actor": "StaticMeshActor_624",
+      "label": "餐廳桌椅｜靠窗｜藍椅 10",
+      "mesh": "/Game/ATS/Dining/Meshes/SM_Dining_BlueChair.SM_Dining_BlueChair"
+    }
+  ],
+  "user_confirmation": "中央和靠窗都有，可以參考網上圖片，但一定要確認了再做",
+  "photo_confirmation": "White rectangular tables, independent blue moulded chairs, dark frames and at least two opposite seats along each long side.",
+  "sources": [
+    "http://www.ats.edu.hk/images/PostImage/boarding_intro_10.jpg",
+    "http://www.ats.edu.hk/images/doc/2627_School_News_1.pdf"
+  ],
+  "limitations": [
+    "Only central and window-side zones are user-confirmed. Exact coordinates and orientation are model-fitting estimates.",
+    "Two tables and eight chairs are a minimal partial reconstruction, not a verified whole-room count or standard per-table capacity.",
+    "Furniture dimensions remain visual modelling estimates."
+  ],
+  "preserved_clearances": "Window wall and serving frontage kept clear; central walking path at u10 retained; washbasin and shutter approaches unobstructed.",
+  "window_wall_to_chair_back_clearance_m": 1.2
+}

@@ -1,0 +1,145 @@
+{
+  "schema": "ats_original_video_route_continuity_v1",
+  "review_date": "2026-11-08",
+  "source": "D:/Cyrus/OneDrive/Videos/35f9b3403f977418523125aeb4dff5ce.mp4",
+  "requested_scope_seconds": [2.5, 13.5],
+  "purpose": "Resolve whether the apparent changes from classroom corridor to blue toilet doorway and terrazzo stair are cuts or ordinary camera turns, using only the original user video.",
+  "new_external_sources_used": false,
+  "project_or_scene_modified": false,
+  "extraction": {
+    "directory": "work/research/teaching_left_stair_20261108/route_continuity_frames",
+    "frame_index": "work/research/teaching_left_stair_20261108/route_continuity_frames/frame_index.json",
+    "frame_count": 63,
+    "sampling": "2.5-3.3 seconds every 0.2 seconds; 3.4-5.3 seconds every 0.1 seconds; 5.5-11.0 seconds every 0.5 seconds; 11.0-13.5 seconds every 0.1 seconds.",
+    "frame_processing": "Decoded original frames saved losslessly as PNG. Contact-sheet thumbnails only; no generated or reconstructed image content.",
+    "contact_sheets_independently_viewed": [
+      "A_corridor_turn_1.jpg",
+      "A_corridor_turn_2.jpg",
+      "A_corridor_turn_3.jpg",
+      "B_toilet_1.jpg",
+      "C_stair_turn_1.jpg",
+      "C_stair_turn_2.jpg",
+      "C_stair_turn_3.jpg"
+    ]
+  },
+  "conclusion": {
+    "camera_cut_found_in_reviewed_turns": false,
+    "camera_cut_confidence": "No cut is indicated by the dense visual samples. The changes are explained by continuous camera pans across shared physical anchors; this is not a forensic guarantee against an invisible edit.",
+    "blue_toilet_door_to_terrazzo_stair_continuity": "confirmed_by_continuous_visual_pan",
+    "purple_lab_door_to_near_yellow_portal_to_blue_toilet_continuity": "confirmed_by_continuous_visual_pan",
+    "walk_to_distant_corridor_stair_shown": false,
+    "critical_distinction": "At 3.6 seconds the camera looks down the corridor toward a stair at its far end. It then turns right across the nearby classroom windows and purple laboratory door, passes the adjoining white pier and yellow portal, and views the blue toilet door. It does not walk along the corridor to the far-end stair. The later close-up terrazzo staircase is reached through this nearby portal. Thus continuous footage confirms the local near-door/toilet/stair relationship but does not make the distant stair and the nearby close-up staircase the same stair.",
+    "correction_to_previous_review": "Previous references to a possible edit/cut around 4-5 seconds were unsupported by sparse samples and are withdrawn. The remaining registration issue is near-versus-far stair identity, not a presumed cut."
+  },
+  "observed_sequence": [
+    {
+      "seconds": [2.5, 2.7, 2.9, 3.1, 3.3, 3.4, 3.5, 3.6],
+      "anchors": ["Purple graphic laboratory doorway near camera", "Yellow/orange lower louvres", "Green mosaic classroom wall", "Grey corridor tiles", "Red hose reel on classroom facade", "Distant ascending stair beside old cross-wing"],
+      "motion": "The view swings from the nearby purple doorway to look along the open corridor. The far stair remains at the corridor endpoint; the camera is not shown traversing the corridor.",
+      "confidence": "direct_visual"
+    },
+    {
+      "seconds": [3.6, 3.7, 3.8, 3.9, 4.0, 4.1, 4.2],
+      "anchors": ["The same red hose reel and repeated windows/louvres shift left across the view", "Nearby purple door with metal knob and blue trim enters from the right", "Lab door window reflects the opposite old-wing facade"],
+      "motion": "A continuous rightward pan returns from the long corridor sightline to the nearby purple laboratory doorway. Shared window/louvre edges persist between samples.",
+      "confidence": "direct_visual"
+    },
+    {
+      "seconds": [4.2, 4.3, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 5.0, 5.1, 5.2, 5.3],
+      "anchors": ["Purple printed door/wall and blue trim", "White switch on purple panel", "Purple-to-white wall edge", "White pier", "Yellow/orange door jamb", "Green mosaic lower wall inside", "White conduits and switches beside blue toilet doorway", "White pedestal sink visible through blue door"],
+      "motion": "The same rightward pan crosses the purple wall, adjoining white pier and yellow portal into a compact tiled vestibule/stair area. Each apparent view change has intermediate frames showing adjacent edges; it is not evidence of a jump to another recorded location.",
+      "confidence": "direct_visual"
+    },
+    {
+      "seconds": [5.5, 6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0],
+      "anchors": ["Blue door and hinges", "Two switches/conduits outside door", "Pedestal sink", "Cream-tiled partitions", "Low white rear pipe", "White item on dark grey floor", "Two horizontal rows of rear windows and upper exhaust unit"],
+      "motion": "The camera leans/pans to inspect the same toilet interior. Fixed partitions, window/exhaust arrangement, floor item and rear pipe provide continuity.",
+      "confidence": "direct_visual"
+    },
+    {
+      "seconds": [11.0, 11.1, 11.2, 11.3, 11.4, 11.5, 11.6, 11.7, 11.8, 11.9, 12.0, 12.1, 12.2],
+      "anchors": ["Same cream toilet partitions and rear window/exhaust stack", "Blue door jamb and hinges", "Adjacent white wall pier", "Continuous pale-green mosaic lower wall", "White service bracket on wall", "Black wall-mounted handrail entering from right"],
+      "motion": "A continuous rightward pan moves out of the toilet sightline across its blue jamb and the immediately adjacent green-tiled corner to the stair handrail. The blue jamb remains visible while the adjacent stair wall first enters, directly establishing adjacency.",
+      "confidence": "direct_visual"
+    },
+    {
+      "seconds": [12.2, 12.3, 12.4, 12.5, 12.6, 12.7, 12.8, 12.9],
+      "anchors": ["Black wall rail on sloping green mosaic wall", "Descending grey/pink terrazzo flight", "Red vertical pipe at lower landing", "High horizontal frosted window", "Three framed posters below window", "Central dark metal return railing", "Adjacent ascending grey-tread/pink-terrazzo-riser flight"],
+      "motion": "The same pan first exposes the down flight and its half-landing wall, then crosses the central railing to the adjacent up flight. The common central balustrade and landing remain continuous between frames.",
+      "confidence": "direct_visual"
+    },
+    {
+      "seconds": [12.9, 13.0, 13.1, 13.2, 13.3, 13.4, 13.5],
+      "anchors": ["Same up flight and black wall rail", "Stepped dark mosaic skirting", "Green-tiled wall return at stair foot", "Yellow door with narrow glass pane, push plate and metal kick plate", "Continuous grey landing tiles"],
+      "motion": "The pan continues past the stair foot to a yellow door beside the landing. Its colour and portal relationship are consistent with the yellow entry passed at 4.7-4.8 seconds, but the earlier fragment does not show every door detail needed for a unique one-to-one hardware match.",
+      "confidence": "direct_visual_with_qualified_portal_match"
+    }
+  ],
+  "spatial_relationships_supported": [
+    "A purple laboratory doorway and a nearby yellow portal adjoin the same green-mosaic teaching corridor.",
+    "The nearby yellow portal leads visually into the blue-door toilet/stair vestibule sequence.",
+    "The blue toilet doorway directly adjoins a green-mosaic wall corner with a descending stair handrail.",
+    "That staircase has adjacent up and down terrazzo flights separated by a metal balustrade.",
+    "There is also a stair visible at the far end of the corridor while looking away from the near laboratory/portal area."
+  ],
+  "endpoint_cross_clip_followup": {
+    "additional_frames_directory": "work/research/teaching_left_stair_20261108/endpoint_match_frames",
+    "additional_review": [
+      "Video 2 at 0.0-2.4 seconds every 0.2 seconds",
+      "Video 3 at 0.2, 0.5, 0.8, 1.2, 1.5, 26.0, 26.5, 27.0, 27.5, 28.0, 28.5, 29.0 seconds",
+      "Video 4 at 0.5, 1.5, 2.3, 2.7, 3.5, 4.2 seconds",
+      "Video 7 at 3.5, 5.0, 6.0, 7.5, 12.5, 13.5 seconds",
+      "Existing video 6 detail sheet at 1.0, 2.6, 3.7 seconds",
+      "Existing full-size video 3 frames at 26.0-30.0 and 33.0 seconds"
+    ],
+    "observations": [
+      {
+        "source": "Video 2, 0.0-4.0 seconds",
+        "finding": "The beginning remains at the same nearby purple laboratory door; the later corridor view is a pan from that position, followed by a pan back. There is no walk down the visible corridor before entering the nearby yellow portal.",
+        "confidence": "direct_visual"
+      },
+      {
+        "source": "Video 3, 0.2-1.5 seconds",
+        "finding": "The camera reaches the corridor end: the long parapet turns into a short end parapet against the building wall, with the old roof and skyline beyond. A rightward pan immediately reveals the open stairwell wall, framed pictures and a rising flight. This is a corridor endpoint, not merely a mid-corridor doorway.",
+        "confidence": "direct_visual"
+      },
+      {
+        "source": "Video 3, 26.0-29.0 seconds",
+        "finding": "After descending the small-square-tiled stair, the camera faces the open landing and long historic frontage beyond. It then turns back along the classroom corridor: classroom wall/windows lie on the left and outer parapet on the right; a yellow door is visible toward the far end.",
+        "confidence": "direct_visual"
+      },
+      {
+        "source": "Video 2, 3.6 seconds; video 7, 5.0-7.5 seconds",
+        "finding": "The corresponding long-corridor sightline has classroom wall/windows on the right and outer parapet on the left. Video 2 shows the old cross-wing beside the far stair; video 7 sees the long historic flat roof and skyline when looking along the same corridor direction. This is opposite to the corridor direction seen behind the student at video 3's final landing.",
+        "confidence": "cross_clip_geometric_comparison"
+      },
+      {
+        "source": "Video 3, 0.8 seconds; video 6, 3.7 seconds; video 7, 5.0-7.5 and 13.5 seconds",
+        "finding": "The end-of-corridor view in video 3 is consistent with the far endpoint seen in videos 6 and 7: short return parapet, old flat-roof edge beyond, same direction toward the clustered tall apartment towers and bright low sun. The conclusion uses roof/skyline relationship and endpoint topology; sun colour alone is not a location marker.",
+        "confidence": "supporting_geometric_comparison"
+      },
+      {
+        "source": "Video 4, 2.3-4.2 seconds; video 2, 1.0-2.4 and 4.0-4.8 seconds",
+        "finding": "Purple circuit-board graphics, blue door frame, metallic threshold, adjacent green mosaic and nearby yellow trim match the same laboratory-door treatment. This supports the local near-portal feature family, but the cropped graphics do not independently identify a numbered floor or prove a unique doorway instance.",
+        "confidence": "material_and_feature_match_with_identity_limit"
+      }
+    ],
+    "relative_side_assessment": {
+      "best_supported_assignment": "Video 3's open small-square-tiled stair is the teaching corridor's left/end-cross-wing stair; video 2's nearby yellow-portal/blue-toilet/terrazzo stair is at the other end or another near-side position away from that distant endpoint.",
+      "confidence_video3_left": "strong_geometric_inference_from_endpoint_topology_and_opposite_corridor_direction",
+      "confidence_video2_opposite_right": "probable; the continuous near-door route clearly differs from the distant left endpoint, but the footage is not a measured full-length corridor survey",
+      "can_measure_total_corridor_length_by_visible_bays": false,
+      "why_not_measure": "Oblique perspective, partial occlusion and uncertain bay widths prevent translating the visible window/louvre groups into the complete corridor length. Some openings may belong to a larger laboratory room.",
+      "not_unique_identification": "The yellow door behind the student in video 3 is consistent with a portal at the other end; its distant appearance is insufficient for a unique hardware match to video 2.",
+      "withdrawn_earlier_inference": "The earlier suggestion that video 3 might be the right stair merely because the opposite historic windows occupy a large portion of the view is withdrawn. Aperture cropping made that distance inference unreliable."
+    }
+  },
+  "modelling_implications": {
+    "can_use_terrazzo_finish_for_this_near_stair": true,
+    "can_assign_terrazzo_to_distant_stair_from_this_pan_alone": false,
+    "can_assume_distant_and_near_stairs_are_same": false,
+    "can_use_blur_as_cut_evidence": false,
+    "side_registration": "The additional endpoint/return-corridor comparison supports video 3 as the left open stair and video 2's close-up terrazzo stair as the opposite/near-portal stair. Keep the directly observed local geometry and the inferred side assignment distinct. Do not transfer the far-left endpoint's registration to video 2's nearby portal simply because both appear in one continuous clip.",
+    "not_solved_by_continuity": ["Measured stair dimensions", "Exact hidden flight counts during later long camera occlusion", "Full repeated layout across all floors", "The near staircase's campus-side assignment without a separate camera-location registration"]
+  }
+}

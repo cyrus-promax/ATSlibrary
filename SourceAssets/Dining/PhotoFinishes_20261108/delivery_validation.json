@@ -1,0 +1,10 @@
+{
+  "post_creation_shader_errors": [],
+  "previews": [
+    "Previews/C21_Dining_Photo_Finishes.png",
+    "Previews/C22_Dining_Longer_Washbasin.png",
+    "Previews/C23_Dining_Table_and_Floor.png"
+  ],
+  "evidence": "References/surface_evidence.json, seating_evidence.json, sink_evidence.json",
+  "limits": "Photographic appearance and user-confirmed zones, not a complete measured replica."
+}

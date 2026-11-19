@@ -1,0 +1,1036 @@
+{
+  "asset": "Library Workshop Furniture",
+  "created_for": "Isolated photo study modules, not final school placement",
+  "coordinate_system": "Blender metres, Z up; all objects identity transforms; world positions in module coordinates",
+  "module_bounds_m": {
+    "Main": [
+      0,
+      14,
+      0,
+      8
+    ],
+    "Step": [
+      20,
+      29,
+      0,
+      6
+    ],
+    "Lecture": [
+      0,
+      8,
+      16,
+      22
+    ],
+    "Culture": [
+      20,
+      26,
+      16,
+      21
+    ]
+  },
+  "dimension_status": "Provisional photo-scaled dimensions. No measured floorplan. Module display arrangement is not the actual library plan.",
+  "counts": {
+    "books": 2298,
+    "clear_chairs": 12,
+    "culture_chairs": 6,
+    "reading_tables": 3,
+    "shelf_bays": 36
+  },
+  "meshes": [
+    {
+      "name": "SM_LW_Main_Shelving_PaleOak",
+      "module": "Main",
+      "category": "Shelving",
+      "materials": [
+        "LW_PaleOak"
+      ],
+      "material": "LW_PaleOak",
+      "collision": true,
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_100049.jpg",
+        "20240831_101230.jpg",
+        "20240831_101839.jpg"
+      ],
+      "vertices": 5520,
+      "triangles": 10560,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Main_Books_Paper",
+      "module": "Main",
+      "category": "Books",
+      "materials": [
+        "LW_Paper"
+      ],
+      "material": "LW_Paper",
+      "collision": false,
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_100049.jpg",
+        "20240831_101230.jpg",
+        "20240831_101839.jpg"
+      ],
+      "vertices": 149680,
+      "triangles": 281316,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Main_Books_BookGrey",
+      "module": "Main",
+      "category": "Books",
+      "materials": [
+        "LW_BookGrey"
+      ],
+      "material": "LW_BookGrey",
+      "collision": false,
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_100049.jpg",
+        "20240831_101230.jpg",
+        "20240831_101839.jpg"
+      ],
+      "vertices": 95712,
+      "triangles": 179664,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Main_Books_BookTan",
+      "module": "Main",
+      "category": "Books",
+      "materials": [
+        "LW_BookTan"
+      ],
+      "material": "LW_BookTan",
+      "collision": false,
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_100049.jpg",
+        "20240831_101230.jpg",
+        "20240831_101839.jpg"
+      ],
+      "vertices": 12544,
+      "triangles": 23744,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Main_Books_BookGreen",
+      "module": "Main",
+      "category": "Books",
+      "materials": [
+        "LW_BookGreen"
+      ],
+      "material": "LW_BookGreen",
+      "collision": false,
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_100049.jpg",
+        "20240831_101230.jpg",
+        "20240831_101839.jpg"
+      ],
+      "vertices": 11984,
+      "triangles": 22684,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Main_Books_BookRed",
+      "module": "Main",
+      "category": "Books",
+      "materials": [
+        "LW_BookRed"
+      ],
+      "material": "LW_BookRed",
+      "collision": false,
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_100049.jpg",
+        "20240831_101230.jpg",
+        "20240831_101839.jpg"
+      ],
+      "vertices": 12432,
+      "triangles": 23532,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Main_Books_BookBlue",
+      "module": "Main",
+      "category": "Books",
+      "materials": [
+        "LW_BookBlue"
+      ],
+      "material": "LW_BookBlue",
+      "collision": false,
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_100049.jpg",
+        "20240831_101230.jpg",
+        "20240831_101839.jpg"
+      ],
+      "vertices": 12656,
+      "triangles": 23956,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Main_Hardware_BlackMetal",
+      "module": "Main",
+      "category": "Hardware",
+      "materials": [
+        "LW_BlackMetal"
+      ],
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_100049.jpg",
+        "20240831_101230.jpg",
+        "20240831_101839.jpg"
+      ],
+      "vertices": 1920,
+      "triangles": 3360,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Main_ReadingTables_PaleOak",
+      "module": "Main",
+      "category": "ReadingTables",
+      "materials": [
+        "LW_PaleOak"
+      ],
+      "material": "LW_PaleOak",
+      "collision": true,
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_100049.jpg",
+        "20240831_101230.jpg",
+        "20240831_101839.jpg"
+      ],
+      "vertices": 1216,
+      "triangles": 2420,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Main_ReadingTables_WhiteMetal",
+      "module": "Main",
+      "category": "ReadingTables",
+      "materials": [
+        "LW_WhiteMetal"
+      ],
+      "material": "LW_WhiteMetal",
+      "collision": true,
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_100049.jpg",
+        "20240831_101230.jpg",
+        "20240831_101839.jpg"
+      ],
+      "vertices": 624,
+      "triangles": 1176,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Main_ReadingTables_Rubber",
+      "module": "Main",
+      "category": "ReadingTables",
+      "materials": [
+        "LW_Rubber"
+      ],
+      "material": "LW_Rubber",
+      "collision": true,
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_100049.jpg",
+        "20240831_101230.jpg",
+        "20240831_101839.jpg"
+      ],
+      "vertices": 336,
+      "triangles": 624,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Main_ClearChairs_Glass",
+      "module": "Main",
+      "category": "ClearChairs",
+      "materials": [
+        "LW_Glass"
+      ],
+      "material": "LW_Glass",
+      "collision": true,
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_100049.jpg",
+        "20240831_101230.jpg",
+        "20240831_101839.jpg"
+      ],
+      "vertices": 8904,
+      "triangles": 17712,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Main_ClearChairs_PaleOak",
+      "module": "Main",
+      "category": "ClearChairs",
+      "materials": [
+        "LW_PaleOak"
+      ],
+      "material": "LW_PaleOak",
+      "collision": true,
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_100049.jpg",
+        "20240831_101230.jpg",
+        "20240831_101839.jpg"
+      ],
+      "vertices": 1344,
+      "triangles": 2496,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Main_ClearChairs_Rubber",
+      "module": "Main",
+      "category": "ClearChairs",
+      "materials": [
+        "LW_Rubber"
+      ],
+      "material": "LW_Rubber",
+      "collision": true,
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_100049.jpg",
+        "20240831_101230.jpg",
+        "20240831_101839.jpg"
+      ],
+      "vertices": 1152,
+      "triangles": 2112,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Main_ClearChairs_BlackMetal",
+      "module": "Main",
+      "category": "ClearChairs",
+      "materials": [
+        "LW_BlackMetal"
+      ],
+      "material": "LW_BlackMetal",
+      "collision": true,
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_100049.jpg",
+        "20240831_101230.jpg",
+        "20240831_101839.jpg"
+      ],
+      "vertices": 480,
+      "triangles": 864,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Main_Reception_PaleOak",
+      "module": "Main",
+      "category": "Reception",
+      "materials": [
+        "LW_PaleOak"
+      ],
+      "material": "LW_PaleOak",
+      "collision": true,
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_100049.jpg",
+        "20240831_101230.jpg",
+        "20240831_101839.jpg"
+      ],
+      "vertices": 604,
+      "triangles": 1176,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Main_Reception_WhiteMetal",
+      "module": "Main",
+      "category": "Reception",
+      "materials": [
+        "LW_WhiteMetal"
+      ],
+      "material": "LW_WhiteMetal",
+      "collision": true,
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_100049.jpg",
+        "20240831_101230.jpg",
+        "20240831_101839.jpg"
+      ],
+      "vertices": 268,
+      "triangles": 532,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Main_Reception_BlackMetal",
+      "module": "Main",
+      "category": "Reception",
+      "materials": [
+        "LW_BlackMetal"
+      ],
+      "material": "LW_BlackMetal",
+      "collision": true,
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_100049.jpg",
+        "20240831_101230.jpg",
+        "20240831_101839.jpg"
+      ],
+      "vertices": 80,
+      "triangles": 156,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Main_ReceptionDetails_BlackMetal",
+      "module": "Main",
+      "category": "ReceptionDetails",
+      "materials": [
+        "LW_BlackMetal"
+      ],
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_100049.jpg",
+        "20240831_101230.jpg",
+        "20240831_101839.jpg"
+      ],
+      "vertices": 288,
+      "triangles": 560,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Main_ReceptionDetails_BookGrey",
+      "module": "Main",
+      "category": "ReceptionDetails",
+      "materials": [
+        "LW_BookGrey"
+      ],
+      "material": "LW_BookGrey",
+      "collision": false,
+      "source_photos": [
+        "20240831_095817.jpg",
+        "20240831_100049.jpg",
+        "20240831_101230.jpg",
+        "20240831_101839.jpg"
+      ],
+      "vertices": 1232,
+      "triangles": 2316,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Step_TierSeating_PaleOak",
+      "module": "Step",
+      "category": "TierSeating",
+      "materials": [
+        "LW_PaleOak"
+      ],
+      "material": "LW_PaleOak",
+      "collision": true,
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg"
+      ],
+      "vertices": 1472,
+      "triangles": 2832,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Step_TierHardware_BlackMetal",
+      "module": "Step",
+      "category": "TierHardware",
+      "materials": [
+        "LW_BlackMetal"
+      ],
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg"
+      ],
+      "vertices": 560,
+      "triangles": 1040,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Step_TierHardware_Paper",
+      "module": "Step",
+      "category": "TierHardware",
+      "materials": [
+        "LW_Paper"
+      ],
+      "material": "LW_Paper",
+      "collision": false,
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg"
+      ],
+      "vertices": 640,
+      "triangles": 1200,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Step_Shelving_PaleOak",
+      "module": "Step",
+      "category": "Shelving",
+      "materials": [
+        "LW_PaleOak"
+      ],
+      "material": "LW_PaleOak",
+      "collision": true,
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg"
+      ],
+      "vertices": 3328,
+      "triangles": 6368,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Step_Books_Paper",
+      "module": "Step",
+      "category": "Books",
+      "materials": [
+        "LW_Paper"
+      ],
+      "material": "LW_Paper",
+      "collision": false,
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg"
+      ],
+      "vertices": 74032,
+      "triangles": 139124,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Step_Books_BookBlue",
+      "module": "Step",
+      "category": "Books",
+      "materials": [
+        "LW_BookBlue"
+      ],
+      "material": "LW_BookBlue",
+      "collision": false,
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg"
+      ],
+      "vertices": 6608,
+      "triangles": 12508,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Step_Books_BookGrey",
+      "module": "Step",
+      "category": "Books",
+      "materials": [
+        "LW_BookGrey"
+      ],
+      "material": "LW_BookGrey",
+      "collision": false,
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg"
+      ],
+      "vertices": 47712,
+      "triangles": 89556,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Step_Books_BookRed",
+      "module": "Step",
+      "category": "Books",
+      "materials": [
+        "LW_BookRed"
+      ],
+      "material": "LW_BookRed",
+      "collision": false,
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg"
+      ],
+      "vertices": 6944,
+      "triangles": 13144,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Step_Books_BookGreen",
+      "module": "Step",
+      "category": "Books",
+      "materials": [
+        "LW_BookGreen"
+      ],
+      "material": "LW_BookGreen",
+      "collision": false,
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg"
+      ],
+      "vertices": 7392,
+      "triangles": 13992,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Step_Books_BookTan",
+      "module": "Step",
+      "category": "Books",
+      "materials": [
+        "LW_BookTan"
+      ],
+      "material": "LW_BookTan",
+      "collision": false,
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg"
+      ],
+      "vertices": 5488,
+      "triangles": 10388,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Step_Hardware_BlackMetal",
+      "module": "Step",
+      "category": "Hardware",
+      "materials": [
+        "LW_BlackMetal"
+      ],
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg"
+      ],
+      "vertices": 1536,
+      "triangles": 2688,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Step_PlanterFrame_PaleOak",
+      "module": "Step",
+      "category": "PlanterFrame",
+      "materials": [
+        "LW_PaleOak"
+      ],
+      "material": "LW_PaleOak",
+      "collision": false,
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg"
+      ],
+      "vertices": 768,
+      "triangles": 1488,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Step_PlanterFrame_BlackMetal",
+      "module": "Step",
+      "category": "PlanterFrame",
+      "materials": [
+        "LW_BlackMetal"
+      ],
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg"
+      ],
+      "vertices": 96,
+      "triangles": 168,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Step_Plants_Plant",
+      "module": "Step",
+      "category": "Plants",
+      "materials": [
+        "LW_Plant"
+      ],
+      "material": "LW_Plant",
+      "collision": false,
+      "source_photos": [
+        "20240831_095910.jpg",
+        "20240831_102511.jpg",
+        "20240831_102535.jpg"
+      ],
+      "vertices": 972,
+      "triangles": 1152,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Lecture_Stage_PaleOak",
+      "module": "Lecture",
+      "category": "Stage",
+      "materials": [
+        "LW_PaleOak"
+      ],
+      "material": "LW_PaleOak",
+      "collision": true,
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "vertices": 288,
+      "triangles": 564,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Lecture_StageCabinet_PaleOak",
+      "module": "Lecture",
+      "category": "StageCabinet",
+      "materials": [
+        "LW_PaleOak"
+      ],
+      "material": "LW_PaleOak",
+      "collision": true,
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "vertices": 560,
+      "triangles": 1080,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Lecture_LectureSeating_PaleOak",
+      "module": "Lecture",
+      "category": "LectureSeating",
+      "materials": [
+        "LW_PaleOak"
+      ],
+      "material": "LW_PaleOak",
+      "collision": true,
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "vertices": 1920,
+      "triangles": 3708,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Lecture_LectureSeating_Fabric",
+      "module": "Lecture",
+      "category": "LectureSeating",
+      "materials": [
+        "LW_Fabric"
+      ],
+      "material": "LW_Fabric",
+      "collision": true,
+      "source_photos": [
+        "20240831_100004.jpg",
+        "20240831_100023.jpg",
+        "20240831_103010.jpg"
+      ],
+      "vertices": 1680,
+      "triangles": 3300,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Culture_Shelving_DarkOak",
+      "module": "Culture",
+      "category": "Shelving",
+      "materials": [
+        "LW_DarkOak"
+      ],
+      "material": "LW_DarkOak",
+      "collision": true,
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "vertices": 6720,
+      "triangles": 12864,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Culture_Books_Paper",
+      "module": "Culture",
+      "category": "Books",
+      "materials": [
+        "LW_Paper"
+      ],
+      "material": "LW_Paper",
+      "collision": false,
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "vertices": 166528,
+      "triangles": 312976,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Culture_Books_BookTan",
+      "module": "Culture",
+      "category": "Books",
+      "materials": [
+        "LW_BookTan"
+      ],
+      "material": "LW_BookTan",
+      "collision": false,
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "vertices": 13776,
+      "triangles": 26076,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Culture_Books_BookGrey",
+      "module": "Culture",
+      "category": "Books",
+      "materials": [
+        "LW_BookGrey"
+      ],
+      "material": "LW_BookGrey",
+      "collision": false,
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "vertices": 107200,
+      "triangles": 201236,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Culture_Books_BookBlue",
+      "module": "Culture",
+      "category": "Books",
+      "materials": [
+        "LW_BookBlue"
+      ],
+      "material": "LW_BookBlue",
+      "collision": false,
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "vertices": 15680,
+      "triangles": 29680,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Culture_Books_BookRed",
+      "module": "Culture",
+      "category": "Books",
+      "materials": [
+        "LW_BookRed"
+      ],
+      "material": "LW_BookRed",
+      "collision": false,
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "vertices": 14000,
+      "triangles": 26500,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Culture_Books_BookGreen",
+      "module": "Culture",
+      "category": "Books",
+      "materials": [
+        "LW_BookGreen"
+      ],
+      "material": "LW_BookGreen",
+      "collision": false,
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "vertices": 11760,
+      "triangles": 22260,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Culture_Hardware_BlackMetal",
+      "module": "Culture",
+      "category": "Hardware",
+      "materials": [
+        "LW_BlackMetal"
+      ],
+      "material": "LW_BlackMetal",
+      "collision": false,
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "vertices": 4160,
+      "triangles": 7280,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Culture_CultureTable_DarkOak",
+      "module": "Culture",
+      "category": "CultureTable",
+      "materials": [
+        "LW_DarkOak"
+      ],
+      "material": "LW_DarkOak",
+      "collision": true,
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "vertices": 464,
+      "triangles": 900,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Culture_CultureChairs_Fabric",
+      "module": "Culture",
+      "category": "CultureChairs",
+      "materials": [
+        "LW_Fabric"
+      ],
+      "material": "LW_Fabric",
+      "collision": true,
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "vertices": 1152,
+      "triangles": 2280,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Culture_CultureChairs_DarkOak",
+      "module": "Culture",
+      "category": "CultureChairs",
+      "materials": [
+        "LW_DarkOak"
+      ],
+      "material": "LW_DarkOak",
+      "collision": true,
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "vertices": 4512,
+      "triangles": 8712,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    },
+    {
+      "name": "SM_LW_Culture_CultureChairs_Paper",
+      "module": "Culture",
+      "category": "CultureChairs",
+      "materials": [
+        "LW_Paper"
+      ],
+      "material": "LW_Paper",
+      "collision": true,
+      "source_photos": [
+        "20240831_095825.jpg",
+        "20240831_100320.jpg",
+        "20240831_103316.jpg"
+      ],
+      "vertices": 648,
+      "triangles": 1080,
+      "uv_tile_scale_m": 1.0,
+      "provisional_dimensions": true
+    }
+  ],
+  "mesh_count": 50,
+  "total_vertices": 827572,
+  "total_triangles": 1557104,
+  "materials": [
+    "LW_PaleOak",
+    "LW_DarkOak",
+    "LW_WhiteMetal",
+    "LW_BlackMetal",
+    "LW_Glass",
+    "LW_Fabric",
+    "LW_Paper",
+    "LW_BookRed",
+    "LW_BookBlue",
+    "LW_BookGreen",
+    "LW_BookTan",
+    "LW_BookGrey",
+    "LW_Plant",
+    "LW_Rubber"
+  ],
+  "collision_note": "Use complex as simple for fixed static shelving and furniture; books/details/glazing have no collision.",
+  "limitations": [
+    "Book spines are generic unlabelled visual detail, not an inventory of real titles.",
+    "Furniture counts and temporary specimen spacing are provisional; activity photos do not establish permanent layout.",
+    "No unseen internal cabinet fittings or unknown room connections added."
+  ]
+}

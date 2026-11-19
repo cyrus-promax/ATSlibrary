@@ -1,0 +1,34 @@
+{
+  "world": "/Game/ATS/Maps/ATS_StudentCampus.ATS_StudentCampus",
+  "game_world": null,
+  "camera_world": [
+    -109.38893326910282,
+    -452.53700843179183,
+    -2071.433992418823
+  ],
+  "camera_campus": [
+    16.245872397057244,
+    24.44305081316471,
+    3.83566007581177
+  ],
+  "rotation": {
+    "pitch": -6.885538149011609,
+    "yaw": 791.7865473072653,
+    "roll": 0.0
+  },
+  "pawn_campus": null,
+  "selected": [
+    {
+      "name": "StaticMeshActor_51",
+      "label": "HistoricWestWing | M_Interior_ShanghaiRender"
+    }
+  ],
+  "actors": 878,
+  "project_dir": "../../../../../../Cyrus/OneDrive/文件/香港仔工業學校/ATS/",
+  "backup": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\Saved\\Backups\\DiningFullGroundFloor_20261108_130154",
+  "user_confirmed": [
+    "Restaurant occupies this whole building G floor",
+    "Vita tuck shop is larger and its serving frontage faces the current user camera",
+    "Restaurant entrance doors are roller shutters"
+  ]
+}

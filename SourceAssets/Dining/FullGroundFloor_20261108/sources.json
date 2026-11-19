@@ -1,0 +1,16 @@
+{
+  "user_confirmation": [
+    "The two unlabelled rectangles are the two courtyards",
+    "Build real geometry following the plan, not location markers",
+    "Vita area is a tuck shop with a serving window",
+    "Restaurant occupies this whole building G floor",
+    "Vita shop is larger and faces the user camera",
+    "Restaurant doors are roller shutters"
+  ],
+  "updated_reference": {
+    "page": "https://www.hk01.com/article/939149",
+    "local": "References/hk01_flood_06.jpg",
+    "attribution": "School-supplied photograph in 2023 flood-cleaning report; high-resolution version of a previously reviewed photograph, not a new view."
+  },
+  "limits": "Room use and shutter type confirmed by user; exact dimensions, kiosk detail and shutter finish unmeasured. No inferred seat count, new column grid or unknown rooms."
+}

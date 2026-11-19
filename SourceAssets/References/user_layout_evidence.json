@@ -1,0 +1,159 @@
+{
+  "revision": "user_layout_20261107",
+  "source": "User_Layout_20261107.png",
+  "sha256": "2926be4e2b64a74e5786a2ea609caaf61f4811e8f28cf09873976ae4c3de6e38",
+  "authority": "User annotated rough layout. Labels confirm block/floor uses and approximate adjacency, not measured dimensions or complete room plans.",
+  "areas": [
+    {
+      "id": "east_block",
+      "label": "右側樓｜圖書館／教員室",
+      "raw_annotation": "1樓圖書館，2樓教員室，G樓後門和工廠/青年中心",
+      "scope": "building and floor use",
+      "mesh_rooms": [
+        "EastBlock"
+      ],
+      "anchor_campus_m": [
+        107,
+        7,
+        20.9
+      ],
+      "plan_bounds_campus_m": [
+        94,
+        120,
+        0,
+        14
+      ],
+      "floors": {
+        "G": "後門和工廠／青年中心",
+        "1": "圖書館",
+        "2": "教員室"
+      },
+      "total_storeys_confirmed": false,
+      "internal_partitions_confirmed": false
+    },
+    {
+      "id": "street_wing_2f",
+      "label": "前方長樓 2/F｜寄宿部維豪堂",
+      "raw_annotation": "2樓寄宿部維豪堂",
+      "scope": "approximate area and floor use",
+      "mesh_rooms": [
+        "HistoricFrontWing"
+      ],
+      "anchor_campus_m": [
+        68.5,
+        4,
+        12.95
+      ],
+      "floors": {
+        "2": "寄宿部維豪堂"
+      },
+      "internal_partitions_confirmed": false
+    },
+    {
+      "id": "cross_wing_2f",
+      "label": "左側橫翼 2/F｜考試室",
+      "raw_annotation": "2樓考試室",
+      "scope": "approximate area and floor use",
+      "mesh_rooms": [],
+      "shared_roof_room": "HistoricRoof",
+      "anchor_campus_m": [
+        35.4,
+        21.3,
+        12.95
+      ],
+      "floors": {
+        "2": "考試室"
+      },
+      "internal_partitions_confirmed": false,
+      "mapping_note": "The annotation lies on the cross-wing beside the light well, not the far-west wing. Shared HistoricRoof mesh is not assigned entirely to the exam room."
+    },
+    {
+      "id": "right_stair",
+      "label": "教學樓右端｜樓梯位置",
+      "raw_annotation": "樓梯",
+      "scope": "right-end stairwell location",
+      "mesh_rooms": [
+        "GreenStair"
+      ],
+      "anchor_campus_m": [
+        100.33436893742704,
+        21.13566514831885,
+        24.5
+      ],
+      "stair_flights_and_landings_confirmed": false,
+      "video_identity_confirmed": false
+    },
+    {
+      "id": "circled_door",
+      "label": "右端樓梯旁｜1–6/F 每層有門，G/F 無門",
+      "raw_annotation": "門",
+      "scope": "approximate stair entrance at each upper teaching floor",
+      "mesh_rooms": [],
+      "anchor_campus_m": [
+        98.4209517756016,
+        16.516267485762416,
+        21
+      ],
+      "floors": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "ground_floor_door": false,
+      "floor_confirmation": "User follow-up: 除了G層每層都有",
+      "door_anchors_campus_m": [
+        [
+          98.4209517756016,
+          16.516267485762416,
+          3.5
+        ],
+        [
+          98.4209517756016,
+          16.516267485762416,
+          7.0
+        ],
+        [
+          98.4209517756016,
+          16.516267485762416,
+          10.5
+        ],
+        [
+          98.4209517756016,
+          16.516267485762416,
+          14.0
+        ],
+        [
+          98.4209517756016,
+          16.516267485762416,
+          17.5
+        ],
+        [
+          98.4209517756016,
+          16.516267485762416,
+          21.0
+        ]
+      ],
+      "anchor_z_is_existing_model_estimate": true,
+      "door_dimensions_material_and_swing_confirmed": false,
+      "cross_building_connection_path_confirmed": false
+    }
+  ],
+  "preserve": {
+    "classrooms": 24,
+    "desks_per_classroom": 25,
+    "existing_physical_geometry": true,
+    "existing_4k_materials": true
+  },
+  "not_inferred": [
+    "Room subdivisions, furniture and equipment",
+    "A copy of stair flights on every floor",
+    "Cross-building bridges or upper-floor routes",
+    "Door swing, size or material; physical metre elevation",
+    "Total storey count from a partial list of floor uses",
+    "Physical roof signs from the screenshot labels"
+  ],
+  "anchor_note": "Editor anchors locate labels on existing model surfaces; they are not surveyed room centres or new physical floor heights."
+}

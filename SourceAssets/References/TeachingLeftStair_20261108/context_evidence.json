@@ -1,0 +1,369 @@
+{
+  "schema": "ats_video_context_audit_v1",
+  "review_date": "2026-11-08",
+  "scope": "Read-only independent visual review of the seven user-supplied videos for teaching-building left-stair registration. No Unreal scene or project assets changed.",
+  "request_constraints": {
+    "latest_user_statement": "教學樓左邊的樓梯少了，根據我發給視頻製作，必須和現實完全一樣，不確定就別做",
+    "left_stair_existence": "User-confirmed. Exact location, geometry and identity among recorded staircases are not automatically confirmed by that statement.",
+    "do_not_repeat_question": "The user previously could not identify the staircase building/floors. Do not ask the same floor-identification question again."
+  },
+  "method": {
+    "metadata": "C:/Users/Cyrus/Documents/Codex/2026-11-06/dao/work/video_reference/metadata.json",
+    "contact_sheets_viewed": [
+      "work/video_reference/video_01_contact.jpg",
+      "work/video_reference/video_02_contact.jpg",
+      "work/video_reference/video_03_contact.jpg",
+      "work/video_reference/video_04_contact.jpg",
+      "work/video_reference/video_05_contact.jpg",
+      "work/video_reference/video_06_contact.jpg",
+      "work/video_reference/video_07_contact.jpg"
+    ],
+    "detail_sheets_viewed": [
+      "work/video_reference/detail_sheet_2.jpg",
+      "work/video_reference/detail_sheet_5.jpg"
+    ],
+    "individual_frames_viewed": [
+      "work/video_reference/detail_2_25.jpg",
+      "work/video_reference/detail_2_59.jpg",
+      "work/video_reference/detail_2_68.jpg",
+      "work/video_reference/02/03_12.44.jpg",
+      "work/video_reference/02/16_63.76.jpg",
+      "work/video_reference/02/17_67.70.jpg",
+      "work/video_reference/detail_5_12.jpg",
+      "work/video_reference/detail_5_26.jpg",
+      "work/video_reference/detail_5_51.jpg",
+      "work/video_reference/detail_5_55.jpg",
+      "work/video_reference/detail_5_61.jpg",
+      "work/video_reference/detail_7_6.jpg",
+      "work/research/teaching_left_stair_20261108/video02_frames/v02_67.00s.png"
+    ],
+    "limitations": [
+      "Review used already-extracted timestamped samples and detail frames, not every frame of every video.",
+      "No audio transcription was performed.",
+      "No camera calibration, site measurement or full 3D reconstruction was available.",
+      "Original 544x960 portrait video resolution and motion blur limit signage reading. No guessed OCR readings are treated as evidence."
+    ],
+    "historical_record_consulted": "D:/Cyrus/OneDrive/文件/香港仔工業學校/ATS/SourceAssets/Walkthrough/video_reference_evidence.json",
+    "historical_record_policy": "Consulted after viewing primary contact sheets; its existing labels and mesh-to-stair assignments were not accepted as independent site evidence."
+  },
+  "sources": [
+    {
+      "index": 1,
+      "file": "D:/Cyrus/OneDrive/Videos/5cdef905360bb71e7543577ab5b244cc.mp4",
+      "duration_seconds": 9.633333333333333,
+      "observed": "Green mosaic classroom-front wall, yellow/orange lower louvres and trim, square corridor tiles, classroom furniture seen through windows.",
+      "registration_value": "Finish corroboration only. No staircase, readable floor plate or complete corridor endpoint appears in the inspected contact samples."
+    },
+    {
+      "index": 2,
+      "file": "D:/Cyrus/OneDrive/Videos/35f9b3403f977418523125aeb4dff5ce.mp4",
+      "duration_seconds": 94.7445,
+      "observations": [
+        {
+          "time_seconds": [
+            2.4
+          ],
+          "observation": "Purple graphic doorway includes partially visible English Laboratory text. Full room name is cropped; do not create a complete room label from this fragment.",
+          "confidence": "direct_visual_text_partial"
+        },
+        {
+          "time_seconds": [
+            2.8,
+            3,
+            3.2,
+            3.4,
+            3.6
+          ],
+          "observation": "Looking along the teaching corridor with classroom windows and lower louvres on the right, a stair rises toward the right at the far end. The old cross-wing across the left end has pink lower wall, a green-bordered people banner, narrow tall openings and a small square ventilation opening; its upper level has white wall and white doors/windows. These match the cross-wing and teaching-building left junction in video 5 at 56-56.5 seconds.",
+          "confidence": "direct_visual_plus_cross_clip_geometric_match"
+        },
+        {
+          "time_seconds": [
+            7,
+            10
+          ],
+          "observation": "Cream large-tile cubicles and turquoise/blue doorway trim. Room function is not labelled legibly in the reviewed frames.",
+          "confidence": "direct_visual"
+        },
+        {
+          "time_seconds": [
+            12.44
+          ],
+          "observation": "Stairwell landing has pale-green mosaic lower walls, white upper walls, high horizontal five-pane frosted window, dark metal handrail, framed posters and a red vertical pipe.",
+          "confidence": "direct_visual"
+        },
+        {
+          "time_seconds": [
+            13,
+            17,
+            22,
+            25
+          ],
+          "observation": "Ascending switchback-type stair sequence, green mosaic wainscot and dark stepped skirting. Pink/grey speckled terrazzo risers with darker grey treads; tread joints appear near the centre. Handrail along wall and inner metal railing visible.",
+          "confidence": "direct_visual"
+        },
+        {
+          "time_seconds": [
+            28.23,
+            32.17,
+            36.12,
+            40.07,
+            44.02,
+            47.96,
+            51.91,
+            55.86
+          ],
+          "observation": "Sampled frames are substantially or fully occluded/blurred by camera handling. Floor count or full path cannot be reconstructed through this section.",
+          "confidence": "direct_visual"
+        },
+        {
+          "time_seconds": [
+            59,
+            62
+          ],
+          "observation": "Further upward stair movement with the same green mosaic wainscot and speckled terrazzo riser finish.",
+          "confidence": "direct_visual"
+        },
+        {
+          "time_seconds": [
+            63.76
+          ],
+          "observation": "Yellow-framed pale yellow door with closer and dark kick plate at landing. No readable room number or floor sign in this frame.",
+          "confidence": "direct_visual"
+        },
+        {
+          "time_seconds": [
+            67
+          ],
+          "observation": "New independently inspected original frame shows a blue wall plaque beside the yellow door with a clearly readable large white numeral 4. It is a floor marker, supporting identification of this later landing as 4/F. Smaller text below the numeral is blurred and is not transcribed.",
+          "confidence": "direct_visual_text",
+          "frame": "work/research/teaching_left_stair_20261108/video02_frames/v02_67.00s.png"
+        },
+        {
+          "time_seconds": [
+            67.7,
+            68
+          ],
+          "observation": "Open turquoise/blue-framed doorway beside green mosaic wainscot, white upper wall and vertical services. No readable floor or classroom designation.",
+          "confidence": "direct_visual"
+        },
+        {
+          "time_seconds": [
+            71.65,
+            75.6,
+            79.55,
+            83.49,
+            87.44,
+            90
+          ],
+          "observation": "Large portions are again occluded, blurred or aimed at a blank close wall.",
+          "confidence": "direct_visual"
+        },
+        {
+          "time_seconds": [
+            91.39,
+            93
+          ],
+          "observation": "Overexposed classroom desks/chairs and yellow window-side finish. Continuous route from a specific stair landing to the classroom cannot be recovered through the preceding occlusion.",
+          "confidence": "direct_visual"
+        }
+      ],
+      "signage_result": "Initial sampled frames did not show a legible floor number, but additional frame v02_67.00s.png independently confirms a blue floor plaque with numeral 4. Thus the later landing is identifiable as 4/F. No classroom number, staircase designation or teaching-building name is read confidently.",
+      "registration_result": "New dense samples at 2.8-3.6 seconds establish a green-wall stair at the teaching corridor end beside the old west cross-wing, corresponding to the requested left end. Cross-wing window order, pink wainscot, green-bordered banner and upper white level match video 5 at 56-56.5 seconds. This relative location is strongly supported independently of a sign. The full close-view terrazzo flight sequence at 13-25 seconds remains a probable association rather than an uninterrupted surveyed path: the camera turns back toward a purple door at 4 seconds and the subsequent transitions are not fully visible. The later landing at 67 seconds is marked 4/F; exact footprint, starting numbered floor and hidden intermediate flight count remain unconfirmed.",
+      "relation_to_video_3": "Both have green mosaic walls, but step finishes differ visibly: video 2 has terrazzo risers/darker slab-like treads; video 3 has small beige-brown square tiles. They must not be merged into one confirmed staircase based on wall colour alone."
+    },
+    {
+      "index": 3,
+      "file": "D:/Cyrus/OneDrive/Videos/74a8a07b375743ab1a07dd216743f29c.mp4",
+      "duration_seconds": 33.4,
+      "observed": "Repeated descending flights in a green-mosaic stairwell with dark metal railings, tiled steps and open landing/corridor views. Other agent separately audits exact flight detail.",
+      "registration_value": "Contact samples show corridor adjacency and opposite low white building, but no uniquely verified left-end marker. Full geometry/step review belongs to sibling teaching_stair_video.",
+      "cross_review_message": "Sibling independently reports small beige-brown tiled treads and risers with silver anti-slip nosings; possible blue floor plate around 12.5 seconds is too blurred to read confidently."
+    },
+    {
+      "index": 4,
+      "file": "D:/Cyrus/OneDrive/Videos/393f835167177b7a405bf0becf36a8c4.mp4",
+      "duration_seconds": 6.033333333333333,
+      "observed": "Close view of green mosaic wall, yellow lower louvres, purple patterned door with blue trim and grey floor tiles.",
+      "registration_value": "No stair or location/floor label visible in the reviewed contact samples; door graphics do not establish room use."
+    },
+    {
+      "index": 5,
+      "file": "D:/Cyrus/OneDrive/Videos/39582559e8b99379485c726da74af71b.mp4",
+      "duration_seconds": 68.16666666666667,
+      "observations": [
+        {
+          "time_seconds": [
+            0.43,
+            1,
+            3.27
+          ],
+          "observation": "Room with many yellow/orange classroom-style chairs and tables seen through white-framed windows.",
+          "confidence": "direct_visual"
+        },
+        {
+          "time_seconds": [
+            12
+          ],
+          "observation": "Red door plaque clearly reads 浴室 C. This is a room label, not a floor number or staircase identifier.",
+          "confidence": "direct_visual_text"
+        },
+        {
+          "time_seconds": [
+            17.47,
+            18,
+            20.31,
+            23.15
+          ],
+          "observation": "Descending pink/rose terrazzo stair with solid pink wainscot, pale upper walls, dark base edging and high windows. It does not have the green mosaic wall finish of videos 2 and 3.",
+          "confidence": "direct_visual"
+        },
+        {
+          "time_seconds": [
+            26,
+            28.83,
+            29,
+            31.67,
+            34,
+            40,
+            43
+          ],
+          "observation": "Landing with yellow/cream door, red hose reel and ceiling pipes; metal grille and glazed doorway nearby; route proceeds onto a pink-tiled external corridor/parapet.",
+          "confidence": "direct_visual"
+        },
+        {
+          "time_seconds": [
+            51
+          ],
+          "observation": "View through high window into a hall with yellow chairs, dark linear floor pattern and curved upper gallery on opposite side.",
+          "confidence": "direct_visual"
+        },
+        {
+          "time_seconds": [
+            55
+          ],
+          "observation": "Across green basketball court with red perimeter is a pale multi-level teaching-wing facade with open walkways, glazed rooms and banners; junction with lower white building visible at left of image.",
+          "confidence": "direct_visual"
+        },
+        {
+          "time_seconds": [
+            55.5,
+            56,
+            56.5
+          ],
+          "observation": "Clear courtyard views show the entire teaching frontage converging toward a narrow right end, then pan to the teaching building's left junction with the old cross-wing. The cross-wing lower raised level has pink lower wall, a sequence of tall openings and a small square vent, plus green-bordered people banners; above is one white-walled old-wing level. This geometry matches video 2 at 3.2-3.6 seconds.",
+          "confidence": "direct_visual_plus_cross_clip_geometric_match"
+        },
+        {
+          "time_seconds": [
+            58,
+            61,
+            64,
+            67
+          ],
+          "observation": "Narrow external corridor with pink mosaic parapet, pink mosaic wall below windows, dark base stripe, and metal-framed glazed openings. A small label above a window at 61 seconds is not legible enough to identify a room.",
+          "confidence": "direct_visual"
+        }
+      ],
+      "registration_result": "The footage establishes a pink stair-to-hall-side-corridor sequence and view across the court toward the teaching wing. It does not show a continuous connection into the teaching building's green stair or establish that stair's left-end location.",
+      "prohibited_inference": "Do not transplant this pink staircase into the teaching building's missing left stair based on proximity to the courtyard or hall."
+    },
+    {
+      "index": 6,
+      "file": "D:/Cyrus/OneDrive/Videos/b46fa847fac6d4017adda37e3c2f1f7b.mp4",
+      "duration_seconds": 4.7,
+      "observed": "Open green-mosaic classroom corridor looking down over red/green basketball court toward a low white historic facade, then toward yellow-framed classroom front.",
+      "registration_value": "Supports classroom-wing-to-courtyard relationship. No stair endpoint or readable floor marker in the inspected samples."
+    },
+    {
+      "index": 7,
+      "file": "D:/Cyrus/OneDrive/Videos/f9e358389130cc624ba5992c0660d28b.mp4",
+      "duration_seconds": 16.666666666666668,
+      "observed": "Upper open classroom corridor overlooking broad flat historic roof and city; green mosaic wall, yellow trim/doors and small lower louvres, square floor tiles and raised metal rail above parapet.",
+      "registration_value": "Full-size 6-second view shows corridor extending toward an end wall/open corner, but no visible staircase or readable floor/room sign. Apparent height above roof is not a reliable numbered-floor label."
+    }
+  ],
+  "findings": {
+    "can_confirm_green_stair_left_end_registration": true,
+    "left_registration_scope": "Only the stair visible at the far corridor end in video 2 at 2.8-3.6 seconds, beside the matched old cross-wing. This does not by itself verify every close-view flight, measurements, landings or floor repetition.",
+    "can_confirm_numbered_floors_from_inspected_video_frames": true,
+    "numbered_floor_scope": "Video 2 at 67.00 seconds: blue floor plaque with a clearly readable numeral 4 establishes that later landing as 4/F. This does not independently determine the starting floor or unseen intermediate stair count.",
+    "can_confirm_full_repeated_g_to_6_stair_layout": false,
+    "can_confirm_classroom_corridor_finish_and_courtyard_relationship": true,
+    "different_stair_finishes_must_remain_separate": true,
+    "readable_sign": {
+      "text": "浴室 C",
+      "source_video": 5,
+      "time_seconds": 12,
+      "meaning_limited_to": "room label"
+    },
+    "overall": "Additional dense samples establish a left-end stair beside the old cross-wing in video 2 at 2.8-3.6 seconds by cross-clip exterior matching to video 5 at 56-56.5 seconds. A blue plaque at 67.00 seconds establishes the later landing as 4/F. Close-view terrazzo flights in video 2 are a probable association with the left stair, with occluded gaps retained as uncertainty. Video 3's small-tiled stair must not be substituted solely because both stairwells have green walls. Starting floor, footprint measurements, hidden landings and six-floor repeated layout remain unconfirmed."
+  },
+  "exterior_registration_followup": {
+    "why_done": "Parent requested exterior geometry comparison rather than relying only on absence of readable labels.",
+    "new_frames_directory": "work/research/teaching_left_stair_20261108/context_frames",
+    "strongest_frames": [
+      "video02_3.20s.jpg",
+      "video02_3.60s.jpg",
+      "video05_56.00s.jpg",
+      "video05_56.50s.jpg"
+    ],
+    "other_local_references_viewed": [
+      "work/research/facade/front_2025_25.jpg",
+      "work/research/facade/front_2025_26.jpg",
+      "work/research/facade/west_02.jpg",
+      "work/research/landsd/reference_front.png",
+      "work/research/landsd/reference_top.png",
+      "work/research/photos/HK-Aberdeen-Technical-School-01@1200x1200.JPG",
+      "work/research/photos/HK-Aberdeen-Technical-School-02@1200x1200.JPG",
+      "work/research/photos/HK-Aberdeen-Technical-School-03@1200x1200.JPG",
+      "work/research/photos/HK-Aberdeen-Technical-School-04@1200x1200.JPG",
+      "work/research/photos/HK-Aberdeen-Technical-School-08@1200x1200.JPG",
+      "work/research/photos/HK-Aberdeen-Technical-School-cover@1200x1200.JPG",
+      "work/video_reference/detail_3_12.jpg",
+      "work/video_reference/detail_3_21.jpg"
+    ],
+    "video_2_left_stair_match": {
+      "confidence": "high_for_relative_location",
+      "anchors": [
+        "Classroom windows/louvres are on the right when facing the corridor endpoint; the stair rises toward the right at that endpoint.",
+        "Old cross-wing on the endpoint's left has pink lower wall below white upper wall and green-bordered photo/people banners, unlike the blue/multicolour banners on the long teaching frontage.",
+        "The lower old-wing opening sequence is consistent between views: broad glazed opening, dark tall opening, narrow tall opening, small square ventilation opening, then another narrow opening near the teaching junction. Perspective and blur limit exact dimensions.",
+        "The old-wing level above has white wall and white doors/windows, with a continuous grey walkway slab between levels.",
+        "Video 5 at 56 seconds shows this same cross-wing physically meeting the left end of the oblique multi-storey teaching block."
+      ],
+      "not_established": [
+        "Stair's measured width/run/rise",
+        "Full hidden flight arrangement",
+        "Every floor's identical repetition",
+        "An uninterrupted walk from the 3.6-second distant stair to the 13-second close-up"
+      ]
+    },
+    "video_2_starting_floor": {
+      "direct_observation": "The starting corridor aligns with the green-banner/pink-wall level of the old cross-wing; one old-wing level remains above it.",
+      "qualified_inference": "If the user's earlier 2/F examination-room annotation identifies that upper white-walled old-cross-wing level, then the starting green-banner level is likely 1/F. This is a combined-source inference, not a floor number readable in the video.",
+      "use_as_measured_numbered_floor": false
+    },
+    "video_3_vista": {
+      "direct_observation": "At 21 seconds the stair landing faces a white historic facade with tall narrow windows, window-top air conditioners and a blue banner; at 12 seconds its roof parapet and pipes are visible nearby.",
+      "inference": "This is more consistent with looking toward the long historic frontage from the narrowing courtyard end than with the perpendicular pink-wall cross-wing seen beside the video 2 endpoint. It is supporting evidence against using video 3 as the left stair, but not a calibrated exact location.",
+      "caution": "A narrow visible aperture crops the exterior vista; window count in the frame alone cannot measure courtyard width."
+    }
+  },
+  "safe_next_action": [
+    "Use the cross-clip match to locate the video 2 distant stair at the teaching building's left end beside the old cross-wing; retain separate unknowns for its measured footprint, exact close-view flight identity and repeated floor geometry.",
+    "Compare current exterior/known openings to actual video exterior landmarks before choosing a stair variant. Do not let a historical mesh name such as GreenStair establish identity.",
+    "Do not copy one visible flight six times, invent landings/doors, or connect to the hall-side pink stair solely to make a traversable route.",
+    "Retain video-derived materials and independent source frames as reference; leave unregistered geometry unbuilt under the user's explicit uncertainty rule."
+  ],
+  "latest_followup": {
+    "read_first": "latest_findings.json",
+    "superseded_inferences": [
+      "Video03 narrow opposite-building vista by itself meant right end.",
+      "Video02 far left stair and nearby terrazzo stair were the same location.",
+      "Blur during the short Video02 turns proved an edit.",
+      "One11-riser visible count applied to all runs."
+    ],
+    "scope": "Historical observations retained; current endpoint, continuity and count conclusions are in the linked follow-up."
+  }
+}

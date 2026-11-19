@@ -1,0 +1,676 @@
+{
+  "checked_on": "2026-11-07",
+  "request": "Restore both the independent three-storey northwest annex and the long low wing in front of it; both confirmed by user.",
+  "sources": [
+    {
+      "url": "https://3d.map.gov.hk/mapviewer/app/",
+      "provider": "Lands Department, HKSAR Government",
+      "use": "f2 textured 3D survey: relative position, footprint, roof and canopy heights. Source tiles downloaded 2026-11-06; this is not the aerial acquisition date."
+    },
+    {
+      "url": "https://www.aab.gov.hk/filemanager/aab/common/historicbuilding/en/915_Appraisal_En.pdf",
+      "provider": "Antiquities Advisory Board",
+      "use": "Rear annex has three storeys, painted/rendered walls, flat roof, regular metal windows, moulded cills/string course/cornice. Assessment describes its use as a residence for the Fathers; no current room plan is supplied."
+    },
+    {
+      "url": "https://skywalker.autozine.org/Heritage/1HK/12_Aberdeen/HK12_04.html",
+      "use": "Annex facade reference: pale wall, gridded metal windows, moulded cills and courses; reference photos are not used as model textures."
+    }
+  ],
+  "survey_samples_campus_m": {
+    "columns_u": [
+      0,
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      27,
+      33,
+      39,
+      45,
+      51,
+      57
+    ],
+    "vertical_samples": [
+      {
+        "v": 25,
+        "heights": [
+          12.95,
+          12.95,
+          12.95,
+          12.95,
+          12.95,
+          12.95,
+          12.95,
+          -0.24,
+          12.79,
+          12.95,
+          12.95,
+          -0.23,
+          -0.22,
+          -0.22
+        ]
+      },
+      {
+        "v": 30,
+        "heights": [
+          12.95,
+          12.95,
+          12.95,
+          12.95,
+          12.95,
+          12.95,
+          12.95,
+          -0.24,
+          12.79,
+          12.95,
+          12.95,
+          13.92,
+          8.68,
+          8.68
+        ]
+      },
+      {
+        "v": 35,
+        "heights": [
+          14.6,
+          12.95,
+          12.95,
+          12.95,
+          12.95,
+          12.95,
+          12.95,
+          12.95,
+          12.95,
+          12.95,
+          12.95,
+          12.95,
+          12.95,
+          12.95
+        ]
+      },
+      {
+        "v": 38,
+        "heights": [
+          18.38,
+          -0.25,
+          -0.25,
+          -0.25,
+          -0.25,
+          11.39,
+          7.66,
+          7.14,
+          -0.24,
+          -0.24,
+          -0.24,
+          -0.24,
+          12.8,
+          12.79
+        ]
+      },
+      {
+        "v": 40,
+        "heights": [
+          19.95,
+          15.71,
+          12.88,
+          13.84,
+          13.84,
+          13.84,
+          13.84,
+          7.13,
+          -0.24,
+          -0.24,
+          -0.25,
+          3.57,
+          3.53,
+          3.06
+        ]
+      },
+      {
+        "v": 42,
+        "heights": [
+          21.07,
+          15.72,
+          12.88,
+          12.88,
+          12.88,
+          12.88,
+          12.88,
+          4.59,
+          -0.24,
+          -0.25,
+          4.94,
+          5.86,
+          11.96,
+          8.53
+        ]
+      },
+      {
+        "v": 45,
+        "heights": [
+          15.43,
+          15.73,
+          12.88,
+          12.88,
+          12.88,
+          14.52,
+          13.84,
+          -0.25,
+          7.25,
+          9.96,
+          10.41,
+          11.57,
+          15.86,
+          13.57
+        ]
+      },
+      {
+        "v": 48,
+        "heights": [
+          15.45,
+          15.74,
+          12.88,
+          12.88,
+          12.88,
+          12.88,
+          13.84,
+          -0.25,
+          10.39,
+          9.91,
+          13.18,
+          12.11,
+          14.7,
+          19.07
+        ]
+      },
+      {
+        "v": 51,
+        "heights": [
+          14.8,
+          15.77,
+          15.78,
+          15.8,
+          15.81,
+          15.82,
+          15.84,
+          7.28,
+          13.68,
+          13.51,
+          16.41,
+          12.81,
+          16.23,
+          19.66
+        ]
+      },
+      {
+        "v": 54,
+        "heights": [
+          14.2,
+          15.4,
+          15.41,
+          15.43,
+          15.44,
+          15.46,
+          12.88,
+          17.7,
+          13.82,
+          13.32,
+          17.49,
+          20.24,
+          18.59,
+          20.54
+        ]
+      },
+      {
+        "v": 57,
+        "heights": [
+          11.56,
+          11.19,
+          11.16,
+          13.58,
+          13.11,
+          19.87,
+          20.33,
+          19.99,
+          14.0,
+          18.44,
+          19.49,
+          20.98,
+          21.7,
+          22.03
+        ]
+      },
+      {
+        "v": 60,
+        "heights": [
+          12.66,
+          12.38,
+          10.77,
+          13.52,
+          14.44,
+          20.54,
+          20.81,
+          20.71,
+          17.56,
+          19.64,
+          21.13,
+          23.2,
+          20.64,
+          21.76
+        ]
+      }
+    ],
+    "annex_front_rays": [
+      {
+        "u": 0,
+        "z": 1,
+        "first_surface": [
+          -0.0,
+          39.32,
+          1.0
+        ]
+      },
+      {
+        "u": 4,
+        "z": 1,
+        "first_surface": [
+          4.0,
+          39.48,
+          1.0
+        ]
+      },
+      {
+        "u": 8,
+        "z": 1,
+        "first_surface": [
+          8.0,
+          39.65,
+          1.0
+        ]
+      },
+      {
+        "u": 12,
+        "z": 1,
+        "first_surface": [
+          12.0,
+          39.81,
+          1.0
+        ]
+      },
+      {
+        "u": 16,
+        "z": 1,
+        "first_surface": [
+          16.0,
+          36.11,
+          1.0
+        ]
+      },
+      {
+        "u": 20,
+        "z": 1,
+        "first_surface": [
+          20.0,
+          36.26,
+          1.0
+        ]
+      },
+      {
+        "u": 0,
+        "z": 4,
+        "first_surface": [
+          0.0,
+          39.32,
+          4.0
+        ]
+      },
+      {
+        "u": 4,
+        "z": 4,
+        "first_surface": [
+          4.0,
+          39.48,
+          4.0
+        ]
+      },
+      {
+        "u": 8,
+        "z": 4,
+        "first_surface": [
+          8.0,
+          39.64,
+          4.0
+        ]
+      },
+      {
+        "u": 12,
+        "z": 4,
+        "first_surface": [
+          12.0,
+          39.81,
+          4.0
+        ]
+      },
+      {
+        "u": 16,
+        "z": 4,
+        "first_surface": [
+          16.0,
+          36.09,
+          4.0
+        ]
+      },
+      {
+        "u": 20,
+        "z": 4,
+        "first_surface": [
+          20.0,
+          36.24,
+          4.0
+        ]
+      },
+      {
+        "u": 0,
+        "z": 7,
+        "first_surface": [
+          0.0,
+          39.32,
+          7.0
+        ]
+      },
+      {
+        "u": 4,
+        "z": 7,
+        "first_surface": [
+          4.0,
+          39.48,
+          7.0
+        ]
+      },
+      {
+        "u": 8,
+        "z": 7,
+        "first_surface": [
+          8.0,
+          39.64,
+          7.0
+        ]
+      },
+      {
+        "u": 12,
+        "z": 7,
+        "first_surface": [
+          12.0,
+          39.81,
+          7.0
+        ]
+      },
+      {
+        "u": 16,
+        "z": 7,
+        "first_surface": [
+          16.0,
+          36.09,
+          7.0
+        ]
+      },
+      {
+        "u": 20,
+        "z": 7,
+        "first_surface": [
+          20.0,
+          36.24,
+          7.0
+        ]
+      },
+      {
+        "u": 0,
+        "z": 10,
+        "first_surface": [
+          0.0,
+          39.32,
+          10.0
+        ]
+      },
+      {
+        "u": 4,
+        "z": 10,
+        "first_surface": [
+          4.0,
+          39.48,
+          10.0
+        ]
+      },
+      {
+        "u": 8,
+        "z": 10,
+        "first_surface": [
+          8.0,
+          39.63,
+          10.0
+        ]
+      },
+      {
+        "u": 12,
+        "z": 10,
+        "first_surface": [
+          12.0,
+          39.81,
+          10.0
+        ]
+      },
+      {
+        "u": 16,
+        "z": 10,
+        "first_surface": [
+          16.0,
+          36.09,
+          10.0
+        ]
+      },
+      {
+        "u": 20,
+        "z": 10,
+        "first_surface": [
+          20.0,
+          36.25,
+          10.0
+        ]
+      },
+      {
+        "u": 0,
+        "z": 13,
+        "first_surface": [
+          -0.0,
+          39.26,
+          13.0
+        ]
+      },
+      {
+        "u": 4,
+        "z": 13,
+        "first_surface": [
+          4.0,
+          39.43,
+          13.0
+        ]
+      },
+      {
+        "u": 8,
+        "z": 13,
+        "first_surface": [
+          8.0,
+          39.59,
+          13.0
+        ]
+      },
+      {
+        "u": 12,
+        "z": 13,
+        "first_surface": [
+          12.0,
+          39.75,
+          13.0
+        ]
+      },
+      {
+        "u": 16,
+        "z": 13,
+        "first_surface": [
+          16.0,
+          36.12,
+          13.0
+        ]
+      },
+      {
+        "u": 20,
+        "z": 13,
+        "first_surface": [
+          20.0,
+          36.27,
+          13.0
+        ]
+      },
+      {
+        "u": 0,
+        "z": 16,
+        "first_surface": [
+          0.0,
+          36.31,
+          16.0
+        ]
+      },
+      {
+        "u": 4,
+        "z": 16,
+        "first_surface": [
+          4.0,
+          48.72,
+          16.0
+        ]
+      },
+      {
+        "u": 8,
+        "z": 16,
+        "first_surface": [
+          8.0,
+          48.87,
+          16.0
+        ]
+      },
+      {
+        "u": 12,
+        "z": 16,
+        "first_surface": [
+          12.0,
+          49.02,
+          16.0
+        ]
+      },
+      {
+        "u": 16,
+        "z": 16,
+        "first_surface": [
+          16.0,
+          49.17,
+          16.0
+        ]
+      },
+      {
+        "u": 20,
+        "z": 16,
+        "first_surface": [
+          20.0,
+          53.85,
+          16.0
+        ]
+      },
+      {
+        "u": 0,
+        "z": 19,
+        "first_surface": [
+          0.0,
+          36.08,
+          19.0
+        ]
+      },
+      {
+        "u": 4,
+        "z": 19,
+        "first_surface": null
+      },
+      {
+        "u": 8,
+        "z": 19,
+        "first_surface": null
+      },
+      {
+        "u": 12,
+        "z": 19,
+        "first_surface": [
+          12.0,
+          68.99,
+          19.0
+        ]
+      },
+      {
+        "u": 16,
+        "z": 19,
+        "first_surface": [
+          16.0,
+          54.81,
+          19.0
+        ]
+      },
+      {
+        "u": 20,
+        "z": 19,
+        "first_surface": [
+          20.0,
+          55.16,
+          19.0
+        ]
+      }
+    ]
+  },
+  "model_choices": {
+    "annex_footprint_m": [
+      -0.2,
+      18.6,
+      39.6,
+      56.0
+    ],
+    "annex_rotation_degrees": 2.3,
+    "annex_roof_height_m": 12.88,
+    "annex_canopy_height_m": 15.78,
+    "rear_wing_floor_levels_m": [
+      0,
+      4.2,
+      8.4
+    ],
+    "rear_wing_reconstructed_body_m": [
+      0,
+      54,
+      30.4,
+      37.4
+    ],
+    "rear_wing_east_end": "Adjusted to existing oblique staircase; exact junction is estimated.",
+    "court": "Resized to fit recovered rear wing; dimensions and markings are an estimate, not a surveyed regulation court."
+  },
+  "reconstructed_scope": [
+    "Annex exterior, windows, roof canopy, parapets and service housings.",
+    "Long rear wing exterior and three covered verandahs.",
+    "Three-level link to hall-side galleries and ground passage to annex forecourt."
+  ],
+  "not_verified": [
+    "Exact window count/spacing on unphotographed elevations.",
+    "Internal annex room layout and current room use.",
+    "Rear-wing room assignments and exact corridor joins."
+  ],
+  "accuracy_note": "LandsD source tiles have geometric error up to 2.5 m. Survey sampling improves exterior correspondence but does not establish an as-built measured plan.",
+  "attribution": "Map and 3D data © Lands Department, HKSAR Government."
+}

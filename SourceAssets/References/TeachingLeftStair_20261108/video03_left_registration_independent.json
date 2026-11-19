@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-08",
+  "assessment": "Independent follow-up review of video03 end-of-corridor identity, entry chirality and first numbered landing.",
+  "primary_video": "D:/Cyrus/OneDrive/Videos/74a8a07b375743ab1a07dd216743f29c.mp4",
+  "method": {
+    "start_sampling": "Original decoded frames 0.0-4.0 seconds at 0.2s intervals, exact display rotation applied; also existing 0.8/1.2/1.5/1.8/2.2/3.0/3.6/4.2 frames.",
+    "plate_sampling": "Original frames 11.4-13.3 seconds at 0.1s intervals. Crops at 12.0-13.1 enlarged with nearest-neighbour only for comparison. No generative enhancement, OCR guess or added pixels.",
+    "frame_index": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_start_plate\\index.json",
+    "comparison_sheet": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_start_plate\\plate_comparison.png"
+  },
+  "other_primary_views": [
+    "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_frames\\v03_29.00s.png",
+    "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\video_reference\\detail_6_3.7.jpg",
+    "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\video_reference\\detail_7_6.jpg",
+    "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\context_frames\\video02_3.60s.jpg",
+    "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\landsd\\reference_top.png",
+    "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\landsd\\reference_front.png"
+  ],
+  "observed_start_sequence": [
+    {
+      "time": "0.0-0.6",
+      "fact": "Camera approaches a short terminating landing; the outer corridor parapet remains on its left. A projecting tiled column and continuous grey floor tiles are visible."
+    },
+    {
+      "time": "0.8",
+      "fact": "Outer left parapet meets a transverse parapet directly ahead, forming an L-shaped termination. Historic low roof/courtyard forms are outside and to the left; the interior wall edge is on the right."
+    },
+    {
+      "time": "1.0-1.8",
+      "fact": "The camera pans continuously right across the transverse parapet opening and a white/green-mosaic wall with framed pictures, revealing the same landing and paired stairs. No doorway leaf, passage farther ahead or visible cut interrupts this pan."
+    },
+    {
+      "time": "1.8-2.2",
+      "fact": "Facing into the stairwell, an ascending flight occupies image left; the descending opening and students occupy image right. Both are separated by a narrow central railing/void."
+    },
+    {
+      "time": "2.4-3.6",
+      "fact": "Camera briefly pans right across the adjoining wall with large printed panel and recycling bins; this is beside the same descending stair opening."
+    },
+    {
+      "time": "3.8-4.2",
+      "fact": "The camera enters the right descending flight toward the rear half-landing. The large printed panel remains on the wall at the top landing."
+    }
+  ],
+  "dead_end_assessment": {
+    "result": "End of corridor, not a mid-corridor stair inserted beside a continuing walkway.",
+    "confidence": "High from the terminating parapet geometry and continuous rightward pan; this does not require a sunlight inference."
+  },
+  "left_end_registration": {
+    "result": "Video03 is strongly supported as the teaching-block LEFT-end stair, corresponding to the current WestStair region.",
+    "confidence": "High for relative end identity, not measured XY registration.",
+    "basis": [
+      "The initial view ends at an L-shaped outer parapet with interior/stair wall to the right.",
+      "At video03 29s the camera looks from beside the stairs back down a long teaching corridor: classroom/window wall is on the left and open parapet on the right, with a yellow door at the far end.",
+      "Video07 6s and video02 3.6s look toward the opposite direction along the teaching corridor, with classroom windows on the right and parapet/courtyard on the left. The return view in video03 is consistent with leaving that left endpoint.",
+      "Video06 3.7s independently shows the same end-of-corridor exterior arrangement: outer rail bending toward the end, low historic flat roof/court on the left and projecting teaching stair/wall on the right.",
+      "LandsD top and front references show the historic roof/courtyard and old cross-wing on the front/left side of the teaching bar, consistent with these end views. No calibrated pixel-to-metre camera solve was performed."
+    ],
+    "not_used_as_proof": [
+      "Sun direction alone",
+      "Similarity of green mosaic walls alone",
+      "Historical mesh labels",
+      "Assumption that both ends have identical staircase geometry"
+    ],
+    "correction_to_earlier_inference": "The difference in tread finish between videos02 and03 does NOT establish that they depict different staircase ends. Different floors, refurbishment or a different stair elsewhere remain possibilities until the camera routes are resolved. The left-end geometry in video03 now outweighs the earlier finish-only suspicion of a right-end stair."
+  },
+  "first_numbered_landing_plate": {
+    "frames": [
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_start_plate\\v03_12.40s.png",
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_start_plate\\v03_12.50s.png",
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_start_plate\\v03_12.70s.png",
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_start_plate\\v03_12.90s.png",
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_start_plate\\v03_13.00s.png"
+    ],
+    "reading": "Probable 三樓 from the lower Chinese text; the large Arabic numeral is not legible.",
+    "reading_confidence": "Supporting/probable only. Across real frames 12.4, 12.7 and 12.9 the lower-left glyph has three horizontal strokes consistent with 三. This does not make the large Arabic numeral readable or establish an unequivocal floor label.",
+    "independent_reading_status": "Root independently reviewed the comparison and agreed the three horizontal strokes support 三, while the large numeral remains unreadable. Under the user strict no-unknown-building rule, this is not a sufficiently firm numbered-floor construction anchor.",
+    "visible_position": "Blue plaque on the green tiled column at the first reached full corridor landing around 12-13 seconds, adjacent to a vertical electrical conduit and grey box above.",
+    "no_fake_enhancement": true,
+    "probable_numbered_floor": 3,
+    "confirmed_numbered_floor": null,
+    "numbered_span_implication": "If the complete descent is verified as exactly two switchback pairs with no omitted floor, the start is 4/F and final full landing is 2/F. This report independently verifies the start segment and first plaque only; full four-flight continuity is audited by the video agent."
+  },
+  "factual_coordinate_relationship": {
+    "frame": "Current teaching-local u along classroom row toward the right/east end, v from corridor toward mountain/interior, h up.",
+    "approach_to_left_stair": "-u along corridor; then turn toward +v into stair.",
+    "corridor_join_model_anchor_only": {
+      "u": 51,
+      "v_range": [
+        30.8,
+        33
+      ],
+      "h": "3.5*f, existing model datum"
+    },
+    "facing_into_stair_plus_v": {
+      "image_left": "smaller u",
+      "image_right": "larger u"
+    },
+    "actual_visible_flight_handedness": {
+      "ascending_away_from_front_full_landing": "smaller-u flight toward +v",
+      "descending_away_from_front_full_landing": "larger-u flight toward +v",
+      "descending_return_from_back_half_landing": "smaller-u flight toward -v",
+      "ascending_return_from_back_half_landing": "larger-u flight toward -v"
+    },
+    "contradiction_with_retired_builder": "Old build_walkthrough.py put its first ascending +v flight on side=+1, i.e. larger u, and copied that to WestStair. Video03 shows the opposite handedness. Do not restore the old flight order.",
+    "still_not_metric_evidence": [
+      "The old centre u=49 and old lane offsets +/-1.4m are not video measurements.",
+      "Neither old blocker v=33.05 nor old first riser v=36.5 is a photographed coordinate.",
+      "The current 5.76m clear shell width must not dictate flight widths."
+    ]
+  },
+  "safe_build_scope": "Retain validated visible shape/direction as a research fragment. The probable plaque and unmeasured footprint do not justify constructing a site-positioned numbered-floor staircase under the user strict uncertainty rule. Do not extrapolate G..6 or copy the retired stairs.",
+  "mutations": "Only new research frames, crops, scripts and this JSON created. No UE/project model changes."
+}

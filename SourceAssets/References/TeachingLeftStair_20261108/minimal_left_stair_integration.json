@@ -1,0 +1,432 @@
+{
+  "date": "2026-11-08",
+  "purpose": "Determine minimal left stair integration after cross-clip location matching, separating established topology from unknown coordinates/dimensions.",
+  "scope": "Read-only. No UE calls; no source model/project edits. This report is not an assertion that the original school has the old 6m-wide tower dimensions.",
+  "basis": {
+    "primary_frames_viewed": [
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\context_frames\\video02_3.20s.jpg",
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\context_frames\\video02_3.60s.jpg",
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\context_frames\\video05_56.00s.jpg",
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\context_frames\\video05_56.50s.jpg"
+    ],
+    "source_videos": [
+      "D:/Cyrus/OneDrive/Videos/35f9b3403f977418523125aeb4dff5ce.mp4",
+      "D:/Cyrus/OneDrive/Videos/39582559e8b99379485c726da74af71b.mp4"
+    ],
+    "source_model": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Walkthrough\\ATS_Walkthrough.blend",
+    "live_snapshot": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\teaching_stair_scene_current.json",
+    "source_geometry_audit": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\blender_geometry_audit.json",
+    "other_agent_evidence": [
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\context_evidence.json",
+      "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video02_evidence.json"
+    ]
+  },
+  "established_corrections": [
+    {
+      "id": "left_end_location",
+      "basis": "Video 02 3.2/3.6 and video 05 56.0/56.5 share the old cross-wing with pink lower wall, tall openings, small square vent, green-bordered banners and one upper white-walled level.",
+      "conclusion": "The distant stair in the opening corridor sequence belongs to the teaching building left junction beside that cross-wing.",
+      "scope": "Relative building junction only; no surveyed position or numbered starting floor."
+    },
+    {
+      "id": "entry_topology",
+      "basis": "At 02@3.6 the classroom facade is on the viewer right and the parapet/court on the left; the visible stair is at the end, with rising treads toward image right.",
+      "conclusion": "In current teaching-local coordinates the approach runs along -u, then turns toward +v into the teaching interior.",
+      "scope": "Do not place a straight stair descending off the corridor end in -u, or use the opposite right stair by mirroring it blindly."
+    },
+    {
+      "id": "open_approach",
+      "basis": "The floor is visibly continuous toward the distant stair; no doorway leaf or fixed waist-high barrier is visible across that approach.",
+      "conclusion": "A finished reconstruction needs a continuous turning landing from the corridor end to the first tread.",
+      "scope": "The clip does not reveal exact landing perimeter, length, depth or left-edge protection. It does not authorize an invented doorway or guardrail."
+    },
+    {
+      "id": "separate_context",
+      "basis": "05@56 is a courtyard view of the junction; the pink staircase earlier in video 05 belongs to its own old-wing sequence.",
+      "conclusion": "Do not move the old pink staircase into the teaching stair position.",
+      "scope": "Exterior adjacency does not establish a traversable indoor connection between the two buildings."
+    }
+  ],
+  "current_model_attachment": {
+    "coordinate_units": "teaching-local metres before wing()/site(); UE values in centimetres",
+    "model_input_floor_heights_m": [
+      0,
+      3.5,
+      7,
+      10.5,
+      14,
+      17.5,
+      21
+    ],
+    "corridor_existing_floor_bounds_1f_m": [
+      [
+        51,
+        30.8,
+        3.3
+      ],
+      [
+        97,
+        33,
+        3.5
+      ]
+    ],
+    "corridor_end_attachment_edge": {
+      "u": 51,
+      "v_range": [
+        30.8,
+        33
+      ],
+      "h": "3.5*f",
+      "center_at_ground_m": [
+        51,
+        31.9,
+        0
+      ],
+      "center_at_ground_ue_cm": [
+        3582.9491087451274,
+        -2595.8843324806567,
+        -2455.0
+      ]
+    },
+    "landing_must_connect_to": "The vertical side face at u=51 of the existing floor mesh, with walking top at h=3.5*f. The actual floor patch can be a new asset; there is no need to modify the full 46m corridor mesh.",
+    "room_front_line_v_m": 33,
+    "leftmost_retained_classroom_u_start_m": 52,
+    "room_side_wall_bounds_m": [
+      [
+        51.91,
+        33,
+        3.5
+      ],
+      [
+        52.09,
+        42.2,
+        6.9
+      ]
+    ],
+    "left_shell_inner_sidewall_limits_u_m": [
+      46.12,
+      51.88
+    ],
+    "left_shell_outer_bounds_m": [
+      [
+        45.85,
+        33.35,
+        0.0
+      ],
+      [
+        52.15,
+        42.65,
+        24.625
+      ]
+    ],
+    "existing_ceiling_1f_components": [
+      {
+        "vertices": 8,
+        "teaching_local_bounds_m": [
+          [
+            51.0,
+            30.6825,
+            3.5
+          ],
+          [
+            93.0,
+            30.7175,
+            4.44
+          ]
+        ],
+        "size_m": [
+          42.0,
+          0.035,
+          0.94
+        ]
+      },
+      {
+        "vertices": 8,
+        "teaching_local_bounds_m": [
+          [
+            51.87,
+            30.67,
+            3.5
+          ],
+          [
+            52.13,
+            30.93,
+            7.0
+          ]
+        ],
+        "size_m": [
+          0.26,
+          0.26,
+          3.5
+        ]
+      },
+      {
+        "vertices": 8,
+        "teaching_local_bounds_m": [
+          [
+            60.87,
+            30.67,
+            3.5
+          ],
+          [
+            61.13,
+            30.93,
+            7.0
+          ]
+        ],
+        "size_m": [
+          0.26,
+          0.26,
+          3.5
+        ]
+      },
+      {
+        "vertices": 8,
+        "teaching_local_bounds_m": [
+          [
+            69.87,
+            30.67,
+            3.5
+          ],
+          [
+            70.13,
+            30.93,
+            7.0
+          ]
+        ],
+        "size_m": [
+          0.26,
+          0.26,
+          3.5
+        ]
+      },
+      {
+        "vertices": 8,
+        "teaching_local_bounds_m": [
+          [
+            78.87,
+            30.67,
+            3.5
+          ],
+          [
+            79.13,
+            30.93,
+            7.0
+          ]
+        ],
+        "size_m": [
+          0.26,
+          0.26,
+          3.5
+        ]
+      },
+      {
+        "vertices": 8,
+        "teaching_local_bounds_m": [
+          [
+            87.87,
+            30.67,
+            3.5
+          ],
+          [
+            88.13,
+            30.93,
+            7.0
+          ]
+        ],
+        "size_m": [
+          0.26,
+          0.26,
+          3.5
+        ]
+      },
+      {
+        "vertices": 8,
+        "teaching_local_bounds_m": [
+          [
+            96.87,
+            30.67,
+            3.5
+          ],
+          [
+            97.13,
+            30.93,
+            7.0
+          ]
+        ],
+        "size_m": [
+          0.26,
+          0.26,
+          3.5
+        ]
+      },
+      {
+        "vertices": 8,
+        "teaching_local_bounds_m": [
+          [
+            51.0,
+            30.8,
+            6.76
+          ],
+          [
+            97.0,
+            33.0,
+            6.8
+          ]
+        ],
+        "size_m": [
+          46.0,
+          2.2,
+          0.04
+        ]
+      }
+    ],
+    "approach_not_currently_covered": "At every upper floor the rectangular area u<51 and v=30.8..33 lies beyond the current corridor slab. There is no existing platform there in the audited source.",
+    "important_boundary_error_to_avoid": "Existing invisible gate at (49,33.05) is a policy blocker, not a measured entrance. The old shaft centre (49,38) also is not the entrance. Neither may be used as a photogrammetric alignment point.",
+    "existing_blocker_span_m": {
+      "u": [
+        45.8,
+        52.2
+      ],
+      "v": [
+        32.97,
+        33.13
+      ],
+      "h": "3.5*f .. 3.5*f+3.4"
+    },
+    "geometry_unoccupied_upper_shaft": "No internal floor slabs remain in the current shaft. Adding a limited confirmed segment therefore does not require deleting floors to create a stairwell void.",
+    "no_classroom_edits_required": "A staircase/landing staying on the left of u=51.88 does not require cutting the first retained classroom wall at u=51.91..52.09; observed evidence does not authorize classroom edits."
+  },
+  "actual_entrance_vs_old_shell_center": {
+    "actual_entrance_topology_confirmed": "At the left end of the teaching corridor, before turning right into the rising flight.",
+    "actual_entrance_metric_coordinates": null,
+    "source_attachment_anchor_m": [
+      51,
+      31.9
+    ],
+    "source_shell_center_m": [
+      49,
+      38
+    ],
+    "source_blocker_center_m": [
+      49,
+      33.05
+    ],
+    "old_first_riser_line_m": {
+      "v": 36.5,
+      "warning": "Deleted previous invented staircase, not video-derived."
+    },
+    "why_distinction_matters": "Placing a new flight at the old v=36.5 start leaves an unsupported approach gap. Filling that with the old 6x4m connector would quietly reuse unverified dimensions. Conversely centering a new door at (49,33.05) models a doorway that is not seen in the distant clip."
+  },
+  "unknowns_that_still_control_final_mesh": [
+    "Exact visible starting corridor floor (likely 1/F by exterior-level comparison, not a readable sign).",
+    "Direct continuity from the distant left-end stair at 3.6s to close-up terrazzo flights at 13-25s; root is inspecting intervening original frames.",
+    "The u coordinate of the far end wall and centre/width of each flight.",
+    "The v coordinate of the first tread, landing depth and total run.",
+    "Riser count and riser height for every hidden or occluded flight.",
+    "Extent and handedness of the repeated arrangement at G and upper levels.",
+    "Actual relationship between old cross-wing elevations and teaching levels; current model uses different 4.2m and 3.5m storey spacings."
+  ],
+  "minimal_partial_build_feasibility": {
+    "topology_ready": true,
+    "measured_or_uniquely_registered_mesh_ready": false,
+    "feasible_after_missing_registration": "A dedicated corridor-end turning platform and the observed +v ascending flight can be added as isolated assets, with only the matching left boundary altered. Add return flight only when its same-stair connection is demonstrated.",
+    "geometry_parameter_contract": {
+      "corridor_join_u": 51,
+      "corridor_join_v_range": [
+        30.8,
+        33
+      ],
+      "walking_height_h": "3.5*f (existing model datum, not real measurement)",
+      "landing_left_u": null,
+      "landing_far_v": null,
+      "flight_width_m": null,
+      "first_riser_v": null,
+      "flight_risers": null,
+      "flight_run_m": null,
+      "covered_floor_ids": null
+    },
+    "preserve_shell_caution": "Preserving the current shell is a scope constraint, not a demand to fill its full 5.76m clear width or 9m depth. If eventual video proportions contradict it, flag that conflict instead of stretching the observed stair to fit.",
+    "collision_scope": [
+      "Unmodeled Area Boundary | Teaching stair 49 floor 0",
+      "Unmodeled Area Boundary | Teaching stair 49 floor 1",
+      "Unmodeled Area Boundary | Teaching stair 49 floor 2",
+      "Unmodeled Area Boundary | Teaching stair 49 floor 3",
+      "Unmodeled Area Boundary | Teaching stair 49 floor 4",
+      "Unmodeled Area Boundary | Teaching stair 49 floor 5",
+      "Unmodeled Area Boundary | Teaching stair 49 floor 6"
+    ],
+    "open_only_matching_level": "Change only boundary portions crossing the verified reconstructed route. Leave all other seven-minus-confirmed left levels and every right boundary in place.",
+    "unsupported_continuation": "A partial segment cannot be presented as a completed G-to-6 walking route. Do not make an unverified landing/bridge merely to connect its end."
+  },
+  "original_user_model_inventory_review": {
+    "inventory": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\blend_inventory.json",
+    "original_user_file": "D:/Cyrus/OneDrive/文件/香港仔工業學校/香港仔工業學校_最高樓平面版.blend",
+    "source_note": "Reviewed extracted inventory only; original user .blend not opened or modified in this task.",
+    "observed_first_floor_stair_step_objects": 16,
+    "shape": "Sixteen aligned slab/box steps, each approx 3.05m wide and 0.34m run, with incremental height approx 0.2125m. This is a single straight flight in the user source inventory; it does not independently establish the video switchback geometry.",
+    "data_use": "No reuse of these dimensions or placement for the left stair; source coordinate registration and real-world measurement provenance are absent.",
+    "first_and_last": [
+      {
+        "name": "1樓_樓梯級_1",
+        "dimensions": [
+          3.049999237060547,
+          0.3400001525878906,
+          0.052500009536743164
+        ],
+        "bounds_blender_m": [
+          [
+            -29.01148223876953,
+            -0.30074915289878845,
+            3.558858633041382
+          ],
+          [
+            -26.206663131713867,
+            1.534202218055725,
+            3.6715760231018066
+          ]
+        ]
+      },
+      {
+        "name": "1樓_樓梯級_16",
+        "dimensions": [
+          3.049999237060547,
+          0.3400001525878906,
+          3.2400002479553223
+        ],
+        "bounds_blender_m": [
+          [
+            -31.586097717285156,
+            -4.69696569442749,
+            3.7925925254821777
+          ],
+          [
+            -28.747812271118164,
+            -2.7123401165008545,
+            7.089118480682373
+          ]
+        ]
+      }
+    ]
+  },
+  "source_integrity": {
+    "current": {
+      "path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Walkthrough\\ATS_Walkthrough.blend",
+      "sha256_before": "0b1fe69043159fa3131a232ba4358a74068450ae930b909d15dfd8374fc3ce4e",
+      "sha256_after": "0b1fe69043159fa3131a232ba4358a74068450ae930b909d15dfd8374fc3ce4e",
+      "unchanged": true
+    },
+    "before_structure_removal": {
+      "path": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\ATS_before_structure_removal\\Walkthrough\\ATS_Walkthrough.blend",
+      "sha256_before": "7ffae06a70afa2dca87f184753dc62e4cc17e6cf890f9bdeb2e07be679f3525f",
+      "sha256_after": "7ffae06a70afa2dca87f184753dc62e4cc17e6cf890f9bdeb2e07be679f3525f",
+      "unchanged": true
+    }
+  },
+  "untouched_actor_set_source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\model_audit.json",
+  "plan_diagram": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\minimal_left_stair_model_plan.svg",
+  "new_video03_followup": {
+    "report": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\video03_left_registration_independent.json",
+    "summary": "Video03 is now strongly registered to the left-end stair by end geometry and return corridor orientation. Its front ascending flight is on the smaller-u side, opposite the retired builder. First full-landing plaque probably says 三樓, but the large numeral is unreadable; parent independently agrees this is supporting evidence, not a confirmed floor anchor. No site-positioned stair build follows from these uncertain dimensions/floor labels."
+  }
+}

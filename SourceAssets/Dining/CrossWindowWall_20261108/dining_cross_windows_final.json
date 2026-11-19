@@ -1,0 +1,41 @@
+{
+  "status": "saved_static_runtime_and_reload_verified",
+  "timestamp": "2026-11-08T14:30:57.325988",
+  "actor_count": 901,
+  "reload_matched_actor_snapshots": 901,
+  "all_other_original_actors_unchanged": 892,
+  "new_static_checks": 44,
+  "existing_static_checks": 63,
+  "runtime_walk_waypoints": 2,
+  "runtime_jump_into_window_blocked": true,
+  "original_three_roller_shutters_restored_closed": true,
+  "user_camera_restored": true,
+  "sink_transform_preserved": true,
+  "backup": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\Saved\\Backups\\DiningCrossWindows_20261108_141337",
+  "user_confirmation": "正中央就是十字架位置",
+  "cross_horizontal_campus_v": 17.59944733735314,
+  "cross_height_model_estimate_m": 2.62,
+  "vertical_interpretation_disclosed_to_user": true,
+  "photo_visible_windows_added": 2,
+  "whole_wall_window_count_not_established": true,
+  "cross_dimensions_window_dimensions_and_spacing_are_unmeasured_estimates": true,
+  "unverified_west_boundary_visible_proxy_removed": true,
+  "west_boundary_collision_remains_nonvisual": true,
+  "other_two_boundary_sections_retained": true,
+  "full_reconstruction_complete": false,
+  "remaining_unconfirmed": [
+    "Ceiling beam and interior column positions/spans",
+    "Floor black-band widths and registered layout",
+    "Reflective wall-zone coordinates",
+    "Full seating count and layout",
+    "Exact outside view through this wall; existing exterior scene retained"
+  ],
+  "previews": [
+    "Previews/C26_Dining_CrossWall_UserView.png",
+    "Previews/C27_Dining_CrossWall_Detail.png"
+  ],
+  "sources": [
+    "https://www.hk01.com/article/939149",
+    "https://media.goodschool.hk/storage/upload/ebook/2021-11-02-175925-108203.pdf"
+  ]
+}

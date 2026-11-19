@@ -1,0 +1,4592 @@
+{
+  "date": "2026-11-08",
+  "task": "Read-only source and live-scene audit of missing teaching-left stairs",
+  "project": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS",
+  "map": "/Game/ATS/Maps/ATS_StudentCampus.ATS_StudentCampus",
+  "live_snapshot": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\teaching_stair_scene_current.json",
+  "scope": "No UE operations. No edits to .blend, .fbx, .uasset or map. Only audit scripts and JSON written under work/research/teaching_left_stair_20261108.",
+  "source_snapshots": {
+    "current_source": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Walkthrough\\ATS_Walkthrough.blend",
+    "before_structure_removal_source": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\ATS_before_structure_removal\\Walkthrough\\ATS_Walkthrough.blend",
+    "current_manifest": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Walkthrough\\walkthrough_manifest.json",
+    "live_snapshot": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\teaching_stair_scene_current.json",
+    "live_snapshot_sha256": "1df0180376a962a624af5b9ac8d9f6d14451f833cb852e5da6720bc3b6160332",
+    "removal_report": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\structure_geometry_verification.json",
+    "current_builder": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\build_walkthrough.py",
+    "old_builder": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\ATS_before_structure_removal\\build_walkthrough.py",
+    "removal_importer": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\import_structure_removal.py"
+  },
+  "source_integrity": {
+    "current": {
+      "path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Walkthrough\\ATS_Walkthrough.blend",
+      "sha256_before": "0b1fe69043159fa3131a232ba4358a74068450ae930b909d15dfd8374fc3ce4e",
+      "sha256_after": "0b1fe69043159fa3131a232ba4358a74068450ae930b909d15dfd8374fc3ce4e",
+      "unchanged": true
+    },
+    "before_structure_removal": {
+      "path": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\ATS_before_structure_removal\\Walkthrough\\ATS_Walkthrough.blend",
+      "sha256_before": "7ffae06a70afa2dca87f184753dc62e4cc17e6cf890f9bdeb2e07be679f3525f",
+      "sha256_after": "7ffae06a70afa2dca87f184753dc62e4cc17e6cf890f9bdeb2e07be679f3525f",
+      "unchanged": true
+    }
+  },
+  "conclusion": {
+    "cause": "The left stair was intentionally stripped during the 2026-11-07 unverified-structure removal. Current source and live scene both contain only its exterior shell. It is not a temporary visibility or loading failure.",
+    "source_lines": [
+      "work/build_walkthrough.py:179-191",
+      "work/import_structure_removal.py:47-55",
+      "work/ATS_before_structure_removal/build_walkthrough.py:234-238"
+    ],
+    "old_geometry_provenance": "The previous WestStair was a copy of GreenStair shifted 45 metres. It was not independently derived from left-stair photographs or measurements.",
+    "reality_limit": "Source dimensions and current storey elevations are model values, not real-world measurements. Video facts must independently establish stairs, direction, location, tread counts and floor coverage."
+  },
+  "live_state": {
+    "actors_total": 901,
+    "left_shell_actors": [
+      {
+        "name": "StaticMeshActor_609",
+        "label": "WestStair | M_Interior_Glass",
+        "class": "StaticMeshActor",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "campus": [
+          15.726024406103317,
+          19.81646175225645,
+          24.55
+        ],
+        "rotation": "<Struct 'Rotator' (0x000001A6EBACAF40) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hidden": false,
+        "temp_hidden": false,
+        "bounds_origin": [
+          3424.4033203125,
+          -3549.7078857421875,
+          -1200.0006713867188
+        ],
+        "bounds_extent": [
+          174.868408203125,
+          8.4327392578125,
+          935.0000610351562
+        ],
+        "tags": [],
+        "components": [
+          {
+            "name": "StaticMeshComponent0",
+            "mesh": "/Game/ATS/Revision2/Architecture/ATS_Walkthrough_SM_Walk_WestStair_Glass.ATS_Walkthrough_SM_Walk_WestStair_Glass",
+            "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+            "profile": "BlockAll",
+            "visible": true,
+            "materials": [
+              "/Game/ATS/Campus/Materials/M_Interior_Glass.M_Interior_Glass"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "StaticMeshActor_611",
+        "label": "WestStair | M_Interior_Metal",
+        "class": "StaticMeshActor",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "campus": [
+          15.726024406103317,
+          19.81646175225645,
+          24.55
+        ],
+        "rotation": "<Struct 'Rotator' (0x000001A6EBACB030) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hidden": false,
+        "temp_hidden": false,
+        "bounds_origin": [
+          3424.2288818359375,
+          -3545.7115478515625,
+          -1200.00048828125
+        ],
+        "bounds_extent": [
+          177.5057373046875,
+          11.7388916015625,
+          940.0
+        ],
+        "tags": [],
+        "components": [
+          {
+            "name": "StaticMeshComponent0",
+            "mesh": "/Game/ATS/Revision2/Architecture/ATS_Walkthrough_SM_Walk_WestStair_Metal.ATS_Walkthrough_SM_Walk_WestStair_Metal",
+            "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+            "profile": "BlockAll",
+            "visible": true,
+            "materials": [
+              "/Game/ATS/Campus/Materials/M_Interior_Metal.M_Interior_Metal"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "StaticMeshActor_612",
+        "label": "WestStair | M_Interior_MintTile",
+        "class": "StaticMeshActor",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "campus": [
+          15.726024406103317,
+          19.81646175225645,
+          24.55
+        ],
+        "rotation": "<Struct 'Rotator' (0x000001A6EBACB120) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hidden": false,
+        "temp_hidden": false,
+        "bounds_origin": [
+          3425.0140380859375,
+          -3563.6943359375,
+          -1345.000503540039
+        ],
+        "bounds_extent": [
+          300.1942138671875,
+          24.07568359375,
+          934.9999847412109
+        ],
+        "tags": [],
+        "components": [
+          {
+            "name": "StaticMeshComponent0",
+            "mesh": "/Game/ATS/Revision9/StructureRemoval/ATS_StructureRemoval_SM_Walk_WestStair_MintTile.ATS_StructureRemoval_SM_Walk_WestStair_MintTile",
+            "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+            "profile": "BlockAll",
+            "visible": true,
+            "materials": [
+              "/Game/ATS/Campus/Materials/M_Interior_MintTile.M_Interior_MintTile"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "StaticMeshActor_614",
+        "label": "WestStair | M_Interior_White",
+        "class": "StaticMeshActor",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "campus": [
+          15.726024406103317,
+          19.81646175225645,
+          24.55
+        ],
+        "rotation": "<Struct 'Rotator' (0x000001A6EBACB210) {pitch: 0.000000, yaw: 0.000000, roll: 0.000000}>",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hidden": false,
+        "temp_hidden": false,
+        "bounds_origin": [
+          3409.747314453125,
+          -3214.027587890625,
+          -1223.7504668235779
+        ],
+        "bounds_extent": [
+          334.9833984375,
+          478.297607421875,
+          1231.2500214576721
+        ],
+        "tags": [],
+        "components": [
+          {
+            "name": "StaticMeshComponent0",
+            "mesh": "/Game/ATS/Revision2/Architecture/ATS_Walkthrough_SM_Walk_WestStair_White.ATS_Walkthrough_SM_Walk_WestStair_White",
+            "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+            "profile": "BlockAll",
+            "visible": true,
+            "materials": [
+              "/Game/ATS/Campus/Materials/M_Interior_White.M_Interior_White"
+            ]
+          }
+        ]
+      }
+    ],
+    "left_stair_flight_meshes_present": false,
+    "left_floor_platform_meshes_present": false,
+    "left_stair_rail_meshes_present": false,
+    "left_shell_hidden": false,
+    "access_boundaries": [
+      {
+        "label": "Unmodeled Area Boundary | Teaching stair 49 floor 0",
+        "world_ue_cm": [
+          3388.15569397577,
+          -2719.4987554356376,
+          -2285.0
+        ],
+        "teaching_local_m": [
+          49.000000000000014,
+          33.050000000000004,
+          1.6999999999999993
+        ],
+        "scale": [
+          6.4,
+          0.16,
+          3.4
+        ],
+        "hidden": true,
+        "component": {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+          "profile": "BlockAll",
+          "visible": false,
+          "materials": [
+            "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+          ]
+        }
+      },
+      {
+        "label": "Unmodeled Area Boundary | Teaching stair 94 floor 0",
+        "world_ue_cm": [
+          7883.8726910941305,
+          -2523.2115122916252,
+          -2285.0
+        ],
+        "teaching_local_m": [
+          94.00000000000001,
+          33.050000000000004,
+          1.6999999999999993
+        ],
+        "scale": [
+          6.4,
+          0.16,
+          3.4
+        ],
+        "hidden": true,
+        "component": {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+          "profile": "BlockAll",
+          "visible": false,
+          "materials": [
+            "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+          ]
+        }
+      },
+      {
+        "label": "Unmodeled Area Boundary | Teaching stair 49 floor 1",
+        "world_ue_cm": [
+          3388.15569397577,
+          -2719.4987554356376,
+          -1935.0000000000002
+        ],
+        "teaching_local_m": [
+          49.000000000000014,
+          33.050000000000004,
+          5.199999999999999
+        ],
+        "scale": [
+          6.4,
+          0.16,
+          3.4
+        ],
+        "hidden": true,
+        "component": {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+          "profile": "BlockAll",
+          "visible": false,
+          "materials": [
+            "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+          ]
+        }
+      },
+      {
+        "label": "Unmodeled Area Boundary | Teaching stair 94 floor 1",
+        "world_ue_cm": [
+          7883.8726910941305,
+          -2523.2115122916252,
+          -1935.0000000000002
+        ],
+        "teaching_local_m": [
+          94.00000000000001,
+          33.050000000000004,
+          5.199999999999999
+        ],
+        "scale": [
+          6.4,
+          0.16,
+          3.4
+        ],
+        "hidden": true,
+        "component": {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+          "profile": "BlockAll",
+          "visible": false,
+          "materials": [
+            "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+          ]
+        }
+      },
+      {
+        "label": "Unmodeled Area Boundary | Teaching stair 49 floor 2",
+        "world_ue_cm": [
+          3388.15569397577,
+          -2719.4987554356376,
+          -1585.0000000000002
+        ],
+        "teaching_local_m": [
+          49.000000000000014,
+          33.050000000000004,
+          8.7
+        ],
+        "scale": [
+          6.4,
+          0.16,
+          3.4
+        ],
+        "hidden": true,
+        "component": {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+          "profile": "BlockAll",
+          "visible": false,
+          "materials": [
+            "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+          ]
+        }
+      },
+      {
+        "label": "Unmodeled Area Boundary | Teaching stair 94 floor 2",
+        "world_ue_cm": [
+          7883.8726910941305,
+          -2523.2115122916252,
+          -1585.0000000000002
+        ],
+        "teaching_local_m": [
+          94.00000000000001,
+          33.050000000000004,
+          8.7
+        ],
+        "scale": [
+          6.4,
+          0.16,
+          3.4
+        ],
+        "hidden": true,
+        "component": {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+          "profile": "BlockAll",
+          "visible": false,
+          "materials": [
+            "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+          ]
+        }
+      },
+      {
+        "label": "Unmodeled Area Boundary | Teaching stair 49 floor 3",
+        "world_ue_cm": [
+          3388.15569397577,
+          -2719.4987554356376,
+          -1235.0000000000002
+        ],
+        "teaching_local_m": [
+          49.000000000000014,
+          33.050000000000004,
+          12.2
+        ],
+        "scale": [
+          6.4,
+          0.16,
+          3.4
+        ],
+        "hidden": true,
+        "component": {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+          "profile": "BlockAll",
+          "visible": false,
+          "materials": [
+            "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+          ]
+        }
+      },
+      {
+        "label": "Unmodeled Area Boundary | Teaching stair 94 floor 3",
+        "world_ue_cm": [
+          7883.8726910941305,
+          -2523.2115122916252,
+          -1235.0000000000002
+        ],
+        "teaching_local_m": [
+          94.00000000000001,
+          33.050000000000004,
+          12.2
+        ],
+        "scale": [
+          6.4,
+          0.16,
+          3.4
+        ],
+        "hidden": true,
+        "component": {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+          "profile": "BlockAll",
+          "visible": false,
+          "materials": [
+            "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+          ]
+        }
+      },
+      {
+        "label": "Unmodeled Area Boundary | Teaching stair 49 floor 4",
+        "world_ue_cm": [
+          3388.15569397577,
+          -2719.4987554356376,
+          -885.0000000000001
+        ],
+        "teaching_local_m": [
+          49.000000000000014,
+          33.050000000000004,
+          15.7
+        ],
+        "scale": [
+          6.4,
+          0.16,
+          3.4
+        ],
+        "hidden": true,
+        "component": {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+          "profile": "BlockAll",
+          "visible": false,
+          "materials": [
+            "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+          ]
+        }
+      },
+      {
+        "label": "Unmodeled Area Boundary | Teaching stair 94 floor 4",
+        "world_ue_cm": [
+          7883.8726910941305,
+          -2523.2115122916252,
+          -885.0000000000001
+        ],
+        "teaching_local_m": [
+          94.00000000000001,
+          33.050000000000004,
+          15.7
+        ],
+        "scale": [
+          6.4,
+          0.16,
+          3.4
+        ],
+        "hidden": true,
+        "component": {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+          "profile": "BlockAll",
+          "visible": false,
+          "materials": [
+            "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+          ]
+        }
+      },
+      {
+        "label": "Unmodeled Area Boundary | Teaching stair 49 floor 5",
+        "world_ue_cm": [
+          3388.15569397577,
+          -2719.4987554356376,
+          -535.0000000000001
+        ],
+        "teaching_local_m": [
+          49.000000000000014,
+          33.050000000000004,
+          19.2
+        ],
+        "scale": [
+          6.4,
+          0.16,
+          3.4
+        ],
+        "hidden": true,
+        "component": {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+          "profile": "BlockAll",
+          "visible": false,
+          "materials": [
+            "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+          ]
+        }
+      },
+      {
+        "label": "Unmodeled Area Boundary | Teaching stair 94 floor 5",
+        "world_ue_cm": [
+          7883.8726910941305,
+          -2523.2115122916252,
+          -535.0000000000001
+        ],
+        "teaching_local_m": [
+          94.00000000000001,
+          33.050000000000004,
+          19.2
+        ],
+        "scale": [
+          6.4,
+          0.16,
+          3.4
+        ],
+        "hidden": true,
+        "component": {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+          "profile": "BlockAll",
+          "visible": false,
+          "materials": [
+            "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+          ]
+        }
+      },
+      {
+        "label": "Unmodeled Area Boundary | Teaching stair 49 floor 6",
+        "world_ue_cm": [
+          3388.15569397577,
+          -2719.4987554356376,
+          -185.00000000000014
+        ],
+        "teaching_local_m": [
+          49.000000000000014,
+          33.050000000000004,
+          22.7
+        ],
+        "scale": [
+          6.4,
+          0.16,
+          3.4
+        ],
+        "hidden": true,
+        "component": {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+          "profile": "BlockAll",
+          "visible": false,
+          "materials": [
+            "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+          ]
+        }
+      },
+      {
+        "label": "Unmodeled Area Boundary | Teaching stair 94 floor 6",
+        "world_ue_cm": [
+          7883.8726910941305,
+          -2523.2115122916252,
+          -185.00000000000014
+        ],
+        "teaching_local_m": [
+          94.00000000000001,
+          33.050000000000004,
+          22.7
+        ],
+        "scale": [
+          6.4,
+          0.16,
+          3.4
+        ],
+        "hidden": true,
+        "component": {
+          "name": "StaticMeshComponent0",
+          "mesh": "/Engine/BasicShapes/Cube.Cube",
+          "collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+          "profile": "BlockAll",
+          "visible": false,
+          "materials": [
+            "/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial"
+          ]
+        }
+      }
+    ],
+    "source_live_bounds_comparison": [
+      {
+        "source_object": "SM_Walk_Class_1_1_GreyTile",
+        "live_actor": "Class_1_1 | M_Interior_GreyTile",
+        "max_bounds_difference_cm": 0.00048828125,
+        "matches_within_0_01cm": true,
+        "live_mesh": "/Game/ATS/Revision2/Architecture/ATS_Walkthrough_SM_Walk_Class_1_1_GreyTile.ATS_Walkthrough_SM_Walk_Class_1_1_GreyTile"
+      },
+      {
+        "source_object": "SM_Walk_Class_1_1_White",
+        "live_actor": "Class_1_1 | M_Interior_White",
+        "max_bounds_difference_cm": 0.0005682812497980194,
+        "matches_within_0_01cm": true,
+        "live_mesh": "/Game/ATS/Revision5/DoorsGuards/ATS_RightDoors_Guards_SM_Walk_Class_1_1_White.ATS_RightDoors_Guards_SM_Walk_Class_1_1_White"
+      },
+      {
+        "source_object": "SM_Walk_GreenCorridor_0_GreyTile",
+        "live_actor": "GreenCorridor_0 | M_Interior_GreyTile",
+        "max_bounds_difference_cm": 0.00048828125,
+        "matches_within_0_01cm": true,
+        "live_mesh": "/Game/ATS/Revision9/StructureRemoval/ATS_StructureRemoval_SM_Walk_GreenCorridor_0_GreyTile.ATS_StructureRemoval_SM_Walk_GreenCorridor_0_GreyTile"
+      },
+      {
+        "source_object": "SM_Walk_GreenCorridor_1_GreyTile",
+        "live_actor": "GreenCorridor_1 | M_Interior_GreyTile",
+        "max_bounds_difference_cm": 0.00048828125,
+        "matches_within_0_01cm": true,
+        "live_mesh": "/Game/ATS/Revision9/StructureRemoval/ATS_StructureRemoval_SM_Walk_GreenCorridor_1_GreyTile.ATS_StructureRemoval_SM_Walk_GreenCorridor_1_GreyTile"
+      },
+      {
+        "source_object": "SM_Walk_GreenCorridor_1_White",
+        "live_actor": "GreenCorridor_1 | M_Interior_White",
+        "max_bounds_difference_cm": 0.0003531249999468855,
+        "matches_within_0_01cm": true,
+        "live_mesh": "/Game/ATS/Revision2/SurfaceFix/ATS_SurfaceFix_SM_Walk_GreenCorridor_1_White.ATS_SurfaceFix_SM_Walk_GreenCorridor_1_White"
+      },
+      {
+        "source_object": "SM_Walk_GreenStair_Glass",
+        "live_actor": "GreenStair | M_Interior_Glass",
+        "max_bounds_difference_cm": 0.0005498339843938993,
+        "matches_within_0_01cm": true,
+        "live_mesh": "/Game/ATS/Revision2/Architecture/ATS_Walkthrough_SM_Walk_GreenStair_Glass.ATS_Walkthrough_SM_Walk_GreenStair_Glass"
+      },
+      {
+        "source_object": "SM_Walk_GreenStair_Metal",
+        "live_actor": "GreenStair | M_Interior_Metal",
+        "max_bounds_difference_cm": 0.0005377636719003931,
+        "matches_within_0_01cm": true,
+        "live_mesh": "/Game/ATS/Revision2/Architecture/ATS_Walkthrough_SM_Walk_GreenStair_Metal.ATS_Walkthrough_SM_Walk_GreenStair_Metal"
+      },
+      {
+        "source_object": "SM_Walk_GreenStair_MintTile",
+        "live_actor": "GreenStair | M_Interior_MintTile",
+        "max_bounds_difference_cm": 0.0005682812497980194,
+        "matches_within_0_01cm": true,
+        "live_mesh": "/Game/ATS/Revision9/StructureRemoval/ATS_StructureRemoval_SM_Walk_GreenStair_MintTile.ATS_StructureRemoval_SM_Walk_GreenStair_MintTile"
+      },
+      {
+        "source_object": "SM_Walk_GreenStair_White",
+        "live_actor": "GreenStair | M_Interior_White",
+        "max_bounds_difference_cm": 0.0005682812497980194,
+        "matches_within_0_01cm": true,
+        "live_mesh": "/Game/ATS/Revision2/Architecture/ATS_Walkthrough_SM_Walk_GreenStair_White.ATS_Walkthrough_SM_Walk_GreenStair_White"
+      },
+      {
+        "source_object": "SM_Walk_TeachingGround_GreyTile",
+        "live_actor": "TeachingGround | M_Interior_GreyTile",
+        "max_bounds_difference_cm": 0.0006824218748988642,
+        "matches_within_0_01cm": true,
+        "live_mesh": "/Game/ATS/Revision2/SurfaceFix/ATS_SurfaceFix_SM_Walk_TeachingGround_GreyTile.ATS_SurfaceFix_SM_Walk_TeachingGround_GreyTile"
+      },
+      {
+        "source_object": "SM_Walk_WestStair_Glass",
+        "live_actor": "WestStair | M_Interior_Glass",
+        "max_bounds_difference_cm": 0.0006924218751009903,
+        "matches_within_0_01cm": true,
+        "live_mesh": "/Game/ATS/Revision2/Architecture/ATS_Walkthrough_SM_Walk_WestStair_Glass.ATS_Walkthrough_SM_Walk_WestStair_Glass"
+      },
+      {
+        "source_object": "SM_Walk_WestStair_Metal",
+        "live_actor": "WestStair | M_Interior_Metal",
+        "max_bounds_difference_cm": 0.0005682812500253931,
+        "matches_within_0_01cm": true,
+        "live_mesh": "/Game/ATS/Revision2/Architecture/ATS_Walkthrough_SM_Walk_WestStair_Metal.ATS_Walkthrough_SM_Walk_WestStair_Metal"
+      },
+      {
+        "source_object": "SM_Walk_WestStair_MintTile",
+        "live_actor": "WestStair | M_Interior_MintTile",
+        "max_bounds_difference_cm": 0.0005787988281440448,
+        "matches_within_0_01cm": true,
+        "live_mesh": "/Game/ATS/Revision9/StructureRemoval/ATS_StructureRemoval_SM_Walk_WestStair_MintTile.ATS_StructureRemoval_SM_Walk_WestStair_MintTile"
+      },
+      {
+        "source_object": "SM_Walk_WestStair_White",
+        "live_actor": "WestStair | M_Interior_White",
+        "max_bounds_difference_cm": 0.0005682812497980194,
+        "matches_within_0_01cm": true,
+        "live_mesh": "/Game/ATS/Revision2/Architecture/ATS_Walkthrough_SM_Walk_WestStair_White.ATS_Walkthrough_SM_Walk_WestStair_White"
+      }
+    ]
+  },
+  "which_end_is_left": {
+    "camera_world_cm": [
+      2824.066259059424,
+      4490.031842500346,
+      1283.1966517459252
+    ],
+    "camera_rotation": {
+      "pitch": -31.347593307495117,
+      "yaw": 628.7401123046875,
+      "roll": 0.0
+    },
+    "camera_right_world_unit": [
+      0.9997582475361441,
+      -0.021987416479841548,
+      0
+    ],
+    "screen_right_projection_cm": {
+      "WestStair": 754.931805929755,
+      "GreenStair": 5245.246103022573
+    },
+    "left_end": "WestStair",
+    "reason": "WestStair projects approximately 4,490 cm to the left of GreenStair in the saved current user viewpoint."
+  },
+  "coordinate_system": {
+    "input": "teaching-local metres from build_walkthrough.py, before wing() and site()",
+    "wing_to_campus": {
+      "angle_degrees": -22.5,
+      "input_pivot": [
+        94,
+        31.9,
+        0
+      ],
+      "output_pivot": [
+        98,
+        15.5,
+        0
+      ]
+    },
+    "campus_to_blender": {
+      "angle_degrees": 20,
+      "translation_m": [
+        -8,
+        -24,
+        -24.55
+      ]
+    },
+    "blender_to_ue": "(100*x,-100*y,100*z)",
+    "teaching_to_ue_origin_cm": [
+      -1651.3426670177687,
+      368.6206188022556,
+      -2455.0
+    ],
+    "teaching_u_unit_m_to_ue_cm": [
+      99.9048221581852,
+      4.361938736533602,
+      0.0
+    ],
+    "teaching_v_unit_m_to_ue_cm": [
+      4.361938736534057,
+      -99.90482215818588,
+      0.0
+    ],
+    "teaching_h_unit_m_to_ue_cm": [
+      0,
+      0,
+      100
+    ],
+    "mesh_actor_transform": "Relevant current mesh actors have identity location/rotation/scale because vertices are already in world coordinates.",
+    "ue_yaw_for_unbaked_local_primitive": 2.5,
+    "left_stair_center_ground_ue_cm": [
+      3409.7472907216115,
+      -3214.027625118657,
+      -2455.0
+    ],
+    "left_stair_front_threshold_center_ground_ue_cm": [
+      3388.15569397577,
+      -2719.4987554356376,
+      -2455.0
+    ],
+    "levels": [
+      {
+        "floor": 0,
+        "model_height_m": 0.0,
+        "ue_z_cm": -2455.0
+      },
+      {
+        "floor": 1,
+        "model_height_m": 3.5,
+        "ue_z_cm": -2105.0
+      },
+      {
+        "floor": 2,
+        "model_height_m": 7.0,
+        "ue_z_cm": -1755.0
+      },
+      {
+        "floor": 3,
+        "model_height_m": 10.5,
+        "ue_z_cm": -1405.0
+      },
+      {
+        "floor": 4,
+        "model_height_m": 14.0,
+        "ue_z_cm": -1055.0
+      },
+      {
+        "floor": 5,
+        "model_height_m": 17.5,
+        "ue_z_cm": -705.0000000000001
+      },
+      {
+        "floor": 6,
+        "model_height_m": 21.0,
+        "ue_z_cm": -355.00000000000006
+      }
+    ]
+  },
+  "geometry_and_openings": {
+    "left_shell_bounds_teaching_m": [
+      [
+        45.85,
+        33.35,
+        0
+      ],
+      [
+        52.15,
+        42.65,
+        24.625
+      ]
+    ],
+    "left_sidewall_bounds_teaching_m": [
+      [
+        [
+          45.88,
+          33.5,
+          0
+        ],
+        [
+          46.12,
+          42.5,
+          24.5
+        ]
+      ],
+      [
+        [
+          51.88,
+          33.5,
+          0
+        ],
+        [
+          52.12,
+          42.5,
+          24.5
+        ]
+      ]
+    ],
+    "inner_clear_width_m": 5.76,
+    "back_window_wall_y_m": [
+      41.39,
+      41.61
+    ],
+    "source_window_module": "Six repeated rear windows, still estimated exterior shell; model alone does not prove their real-world count/size.",
+    "corridor_floor_each_level": "x=51..97, y=30.8..33.0, z=3.5*f-0.2..3.5*f",
+    "classroom1_each_level": "x=52..61, y=33..42.2; nearest classroom wall is x=51.91..52.09.",
+    "no_internal_floorplates": "Current WestStair has no floor or landing plates at any level. No shaft floor cutting is required before adding a confirmed limited stair portion.",
+    "connection_gap": "Old full landing started at y=34.5; current corridor ends at y=33.0. At least 1.5 m of the old approach was covered by a separate conjectural connecting slab that was also removed.",
+    "removed_old_full_landing_bounds_m": [
+      [
+        46.1,
+        34.5
+      ],
+      [
+        51.9,
+        36.5
+      ]
+    ],
+    "removed_old_connection_bounds_m": [
+      [
+        46,
+        32
+      ],
+      [
+        52,
+        36
+      ]
+    ],
+    "removed_old_half_landing_bounds_m": [
+      [
+        46.1,
+        39.5
+      ],
+      [
+        51.9,
+        41.5
+      ]
+    ],
+    "removed_old_stairs": "Two flights of 10 risers, 0.175 m rise, 0.3 m run and 2.2 m width per storey, repeated six times. These are prior invented parameters, not recommended reconstruction dimensions.",
+    "old_duplicate_faces": "Old GreyTile landing mesh contains duplicated full landings at intermediate storeys (two identical disconnected boxes at each of 1..5/F). Direct old-asset restoration would reintroduce coincident faces.",
+    "existing_headroom_model_m": 3.26
+  },
+  "lowest_risk_work": [
+    {
+      "action": "Add only a separately authored video-confirmed stair portion, isolated from the old repeated assets.",
+      "condition": "Independent evidence must identify left-end location and the specific floor span. Match the retained model only where a connection is confirmed; document dimensions as estimates unless measured."
+    },
+    {
+      "action": "Open or resize only the matching left invisible boundary after a continuous floor/stair path has been built and tested.",
+      "condition": "Do not remove all 14 teaching stair boundaries globally. Left boundaries are Teaching stair 49 floor 0..6."
+    },
+    {
+      "action": "Test for falling off the existing corridor left edge before calling the access boundary safe.",
+      "condition": "Existing blocker is at y=33.05; corridor lateral edge is x=51,y=30.8..33. It does not itself guard that entire side. Use collision traces/live walk test to distinguish the actual current route from source geometry alone."
+    },
+    {
+      "action": "If an evidence-confirmed partial stair is added, keep the unsupported continuation inaccessible without adding visible invented physical barriers.",
+      "condition": "User specifically rejected unsupported interiors and previously said there is no guardrail near the left stairs."
+    }
+  ],
+  "potential_minimal_left_only_update": {
+    "precondition": "No mutation is recommended until video placement and covered floor interval are established. This is a scoping envelope, not a proposed wholesale restoration.",
+    "new_assets": "Create dedicated left-stair geometry assets; do not reimport full ATS_Walkthrough.fbx or overwrite shared/retired staircase assets.",
+    "existing_actors_potentially_adjustable": [
+      "Unmodeled Area Boundary | Teaching stair 49 floor 0",
+      "Unmodeled Area Boundary | Teaching stair 49 floor 1",
+      "Unmodeled Area Boundary | Teaching stair 49 floor 2",
+      "Unmodeled Area Boundary | Teaching stair 49 floor 3",
+      "Unmodeled Area Boundary | Teaching stair 49 floor 4",
+      "Unmodeled Area Boundary | Teaching stair 49 floor 5",
+      "Unmodeled Area Boundary | Teaching stair 49 floor 6"
+    ],
+    "adjustment_rule": "Only change collision of boundaries intersecting a confirmed continuous walkable reconstructed portion; retain all other boundary actors.",
+    "existing_shell_rule": "Keep four left shell actors unchanged unless independent evidence explicitly contradicts their geometry. Do not make changes merely to fit previously invented stair proportions.",
+    "untouched_actor_count": 894,
+    "untouched_actor_set": [
+      {
+        "name": "DirectionalLight_0",
+        "label": "Hong Kong Daylight"
+      },
+      {
+        "name": "SkyAtmosphere_0",
+        "label": "SkyAtmosphere"
+      },
+      {
+        "name": "SkyLight_0",
+        "label": "SkyLight"
+      },
+      {
+        "name": "ExponentialHeightFog_0",
+        "label": "ExponentialHeightFog"
+      },
+      {
+        "name": "PostProcessVolume_0",
+        "label": "PostProcessVolume"
+      },
+      {
+        "name": "StaticMeshActor_187",
+        "label": "Boundary | M_Interior_Stone"
+      },
+      {
+        "name": "StaticMeshActor_188",
+        "label": "Class_1_1 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_189",
+        "label": "Class_1_1 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_190",
+        "label": "Class_1_1 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_191",
+        "label": "Class_1_1 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_192",
+        "label": "Class_1_1 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_193",
+        "label": "Class_1_1 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_194",
+        "label": "Class_1_1 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_195",
+        "label": "Class_1_1 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_196",
+        "label": "Class_1_1 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_197",
+        "label": "Class_1_1 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_198",
+        "label": "Class_1_1 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_199",
+        "label": "Class_1_1 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_200",
+        "label": "Class_1_2 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_201",
+        "label": "Class_1_2 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_202",
+        "label": "Class_1_2 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_203",
+        "label": "Class_1_2 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_204",
+        "label": "Class_1_2 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_205",
+        "label": "Class_1_2 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_206",
+        "label": "Class_1_2 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_207",
+        "label": "Class_1_2 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_208",
+        "label": "Class_1_2 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_209",
+        "label": "Class_1_2 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_210",
+        "label": "Class_1_2 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_211",
+        "label": "Class_1_2 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_212",
+        "label": "Class_1_3 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_213",
+        "label": "Class_1_3 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_214",
+        "label": "Class_1_3 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_215",
+        "label": "Class_1_3 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_216",
+        "label": "Class_1_3 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_217",
+        "label": "Class_1_3 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_218",
+        "label": "Class_1_3 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_219",
+        "label": "Class_1_3 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_220",
+        "label": "Class_1_3 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_221",
+        "label": "Class_1_3 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_222",
+        "label": "Class_1_3 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_223",
+        "label": "Class_1_3 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_224",
+        "label": "Class_1_4 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_225",
+        "label": "Class_1_4 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_226",
+        "label": "Class_1_4 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_227",
+        "label": "Class_1_4 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_228",
+        "label": "Class_1_4 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_229",
+        "label": "Class_1_4 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_230",
+        "label": "Class_1_4 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_231",
+        "label": "Class_1_4 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_232",
+        "label": "Class_1_4 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_233",
+        "label": "Class_1_4 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_234",
+        "label": "Class_1_4 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_235",
+        "label": "Class_1_4 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_236",
+        "label": "Class_2_1 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_237",
+        "label": "Class_2_1 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_238",
+        "label": "Class_2_1 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_239",
+        "label": "Class_2_1 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_240",
+        "label": "Class_2_1 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_241",
+        "label": "Class_2_1 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_242",
+        "label": "Class_2_1 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_243",
+        "label": "Class_2_1 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_244",
+        "label": "Class_2_1 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_245",
+        "label": "Class_2_1 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_246",
+        "label": "Class_2_1 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_247",
+        "label": "Class_2_1 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_248",
+        "label": "Class_2_2 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_249",
+        "label": "Class_2_2 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_250",
+        "label": "Class_2_2 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_251",
+        "label": "Class_2_2 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_252",
+        "label": "Class_2_2 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_253",
+        "label": "Class_2_2 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_254",
+        "label": "Class_2_2 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_255",
+        "label": "Class_2_2 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_256",
+        "label": "Class_2_2 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_257",
+        "label": "Class_2_2 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_258",
+        "label": "Class_2_2 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_259",
+        "label": "Class_2_2 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_260",
+        "label": "Class_2_3 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_261",
+        "label": "Class_2_3 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_262",
+        "label": "Class_2_3 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_263",
+        "label": "Class_2_3 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_264",
+        "label": "Class_2_3 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_265",
+        "label": "Class_2_3 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_266",
+        "label": "Class_2_3 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_267",
+        "label": "Class_2_3 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_268",
+        "label": "Class_2_3 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_269",
+        "label": "Class_2_3 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_270",
+        "label": "Class_2_3 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_271",
+        "label": "Class_2_3 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_272",
+        "label": "Class_2_4 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_273",
+        "label": "Class_2_4 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_274",
+        "label": "Class_2_4 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_275",
+        "label": "Class_2_4 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_276",
+        "label": "Class_2_4 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_277",
+        "label": "Class_2_4 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_278",
+        "label": "Class_2_4 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_279",
+        "label": "Class_2_4 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_280",
+        "label": "Class_2_4 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_281",
+        "label": "Class_2_4 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_282",
+        "label": "Class_2_4 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_283",
+        "label": "Class_2_4 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_284",
+        "label": "Class_3_1 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_285",
+        "label": "Class_3_1 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_286",
+        "label": "Class_3_1 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_287",
+        "label": "Class_3_1 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_288",
+        "label": "Class_3_1 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_289",
+        "label": "Class_3_1 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_290",
+        "label": "Class_3_1 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_291",
+        "label": "Class_3_1 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_292",
+        "label": "Class_3_1 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_293",
+        "label": "Class_3_1 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_294",
+        "label": "Class_3_1 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_295",
+        "label": "Class_3_1 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_296",
+        "label": "Class_3_2 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_297",
+        "label": "Class_3_2 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_298",
+        "label": "Class_3_2 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_299",
+        "label": "Class_3_2 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_300",
+        "label": "Class_3_2 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_301",
+        "label": "Class_3_2 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_302",
+        "label": "Class_3_2 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_303",
+        "label": "Class_3_2 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_304",
+        "label": "Class_3_2 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_305",
+        "label": "Class_3_2 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_306",
+        "label": "Class_3_2 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_307",
+        "label": "Class_3_2 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_308",
+        "label": "Class_3_3 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_309",
+        "label": "Class_3_3 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_310",
+        "label": "Class_3_3 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_311",
+        "label": "Class_3_3 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_312",
+        "label": "Class_3_3 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_313",
+        "label": "Class_3_3 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_314",
+        "label": "Class_3_3 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_315",
+        "label": "Class_3_3 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_316",
+        "label": "Class_3_3 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_317",
+        "label": "Class_3_3 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_318",
+        "label": "Class_3_3 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_319",
+        "label": "Class_3_3 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_320",
+        "label": "Class_3_4 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_321",
+        "label": "Class_3_4 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_322",
+        "label": "Class_3_4 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_323",
+        "label": "Class_3_4 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_324",
+        "label": "Class_3_4 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_325",
+        "label": "Class_3_4 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_326",
+        "label": "Class_3_4 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_327",
+        "label": "Class_3_4 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_328",
+        "label": "Class_3_4 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_329",
+        "label": "Class_3_4 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_330",
+        "label": "Class_3_4 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_331",
+        "label": "Class_3_4 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_332",
+        "label": "Class_4_1 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_333",
+        "label": "Class_4_1 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_334",
+        "label": "Class_4_1 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_335",
+        "label": "Class_4_1 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_336",
+        "label": "Class_4_1 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_337",
+        "label": "Class_4_1 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_338",
+        "label": "Class_4_1 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_339",
+        "label": "Class_4_1 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_340",
+        "label": "Class_4_1 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_341",
+        "label": "Class_4_1 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_342",
+        "label": "Class_4_1 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_343",
+        "label": "Class_4_1 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_344",
+        "label": "Class_4_2 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_345",
+        "label": "Class_4_2 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_346",
+        "label": "Class_4_2 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_347",
+        "label": "Class_4_2 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_348",
+        "label": "Class_4_2 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_349",
+        "label": "Class_4_2 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_350",
+        "label": "Class_4_2 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_351",
+        "label": "Class_4_2 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_352",
+        "label": "Class_4_2 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_353",
+        "label": "Class_4_2 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_354",
+        "label": "Class_4_2 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_355",
+        "label": "Class_4_2 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_356",
+        "label": "Class_4_3 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_357",
+        "label": "Class_4_3 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_358",
+        "label": "Class_4_3 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_359",
+        "label": "Class_4_3 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_360",
+        "label": "Class_4_3 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_361",
+        "label": "Class_4_3 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_362",
+        "label": "Class_4_3 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_363",
+        "label": "Class_4_3 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_364",
+        "label": "Class_4_3 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_365",
+        "label": "Class_4_3 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_366",
+        "label": "Class_4_3 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_367",
+        "label": "Class_4_3 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_368",
+        "label": "Class_4_4 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_369",
+        "label": "Class_4_4 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_370",
+        "label": "Class_4_4 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_371",
+        "label": "Class_4_4 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_372",
+        "label": "Class_4_4 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_373",
+        "label": "Class_4_4 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_374",
+        "label": "Class_4_4 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_375",
+        "label": "Class_4_4 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_376",
+        "label": "Class_4_4 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_377",
+        "label": "Class_4_4 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_378",
+        "label": "Class_4_4 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_379",
+        "label": "Class_4_4 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_380",
+        "label": "Class_5_1 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_381",
+        "label": "Class_5_1 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_382",
+        "label": "Class_5_1 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_383",
+        "label": "Class_5_1 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_384",
+        "label": "Class_5_1 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_385",
+        "label": "Class_5_1 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_386",
+        "label": "Class_5_1 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_387",
+        "label": "Class_5_1 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_388",
+        "label": "Class_5_1 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_389",
+        "label": "Class_5_1 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_390",
+        "label": "Class_5_1 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_391",
+        "label": "Class_5_1 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_392",
+        "label": "Class_5_2 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_393",
+        "label": "Class_5_2 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_394",
+        "label": "Class_5_2 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_395",
+        "label": "Class_5_2 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_396",
+        "label": "Class_5_2 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_397",
+        "label": "Class_5_2 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_398",
+        "label": "Class_5_2 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_399",
+        "label": "Class_5_2 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_400",
+        "label": "Class_5_2 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_401",
+        "label": "Class_5_2 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_402",
+        "label": "Class_5_2 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_403",
+        "label": "Class_5_2 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_404",
+        "label": "Class_5_3 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_405",
+        "label": "Class_5_3 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_406",
+        "label": "Class_5_3 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_407",
+        "label": "Class_5_3 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_408",
+        "label": "Class_5_3 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_409",
+        "label": "Class_5_3 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_410",
+        "label": "Class_5_3 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_411",
+        "label": "Class_5_3 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_412",
+        "label": "Class_5_3 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_413",
+        "label": "Class_5_3 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_414",
+        "label": "Class_5_3 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_415",
+        "label": "Class_5_3 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_416",
+        "label": "Class_5_4 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_417",
+        "label": "Class_5_4 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_418",
+        "label": "Class_5_4 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_419",
+        "label": "Class_5_4 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_420",
+        "label": "Class_5_4 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_421",
+        "label": "Class_5_4 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_422",
+        "label": "Class_5_4 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_423",
+        "label": "Class_5_4 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_424",
+        "label": "Class_5_4 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_425",
+        "label": "Class_5_4 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_426",
+        "label": "Class_5_4 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_427",
+        "label": "Class_5_4 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_428",
+        "label": "Class_6_1 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_429",
+        "label": "Class_6_1 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_430",
+        "label": "Class_6_1 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_431",
+        "label": "Class_6_1 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_432",
+        "label": "Class_6_1 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_433",
+        "label": "Class_6_1 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_434",
+        "label": "Class_6_1 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_435",
+        "label": "Class_6_1 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_436",
+        "label": "Class_6_1 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_437",
+        "label": "Class_6_1 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_438",
+        "label": "Class_6_1 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_439",
+        "label": "Class_6_1 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_440",
+        "label": "Class_6_2 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_441",
+        "label": "Class_6_2 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_442",
+        "label": "Class_6_2 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_443",
+        "label": "Class_6_2 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_444",
+        "label": "Class_6_2 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_445",
+        "label": "Class_6_2 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_446",
+        "label": "Class_6_2 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_447",
+        "label": "Class_6_2 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_448",
+        "label": "Class_6_2 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_449",
+        "label": "Class_6_2 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_450",
+        "label": "Class_6_2 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_451",
+        "label": "Class_6_2 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_452",
+        "label": "Class_6_3 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_453",
+        "label": "Class_6_3 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_454",
+        "label": "Class_6_3 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_455",
+        "label": "Class_6_3 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_456",
+        "label": "Class_6_3 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_457",
+        "label": "Class_6_3 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_458",
+        "label": "Class_6_3 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_459",
+        "label": "Class_6_3 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_460",
+        "label": "Class_6_3 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_461",
+        "label": "Class_6_3 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_462",
+        "label": "Class_6_3 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_463",
+        "label": "Class_6_3 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_464",
+        "label": "Class_6_4 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_465",
+        "label": "Class_6_4 | M_Interior_Board"
+      },
+      {
+        "name": "StaticMeshActor_466",
+        "label": "Class_6_4 | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_467",
+        "label": "Class_6_4 | M_Interior_Desk"
+      },
+      {
+        "name": "StaticMeshActor_468",
+        "label": "Class_6_4 | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_469",
+        "label": "Class_6_4 | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_470",
+        "label": "Class_6_4 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_471",
+        "label": "Class_6_4 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_472",
+        "label": "Class_6_4 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_473",
+        "label": "Class_6_4 | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_474",
+        "label": "Class_6_4 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_475",
+        "label": "Class_6_4 | M_Interior_YellowFrame"
+      },
+      {
+        "name": "StaticMeshActor_476",
+        "label": "EastBlock | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_478",
+        "label": "EastBlock | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_479",
+        "label": "EastBlock | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_480",
+        "label": "EastBlock | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_494",
+        "label": "GreenCorridor_0 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_495",
+        "label": "GreenCorridor_0 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_496",
+        "label": "GreenCorridor_0 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_497",
+        "label": "GreenCorridor_0 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_501",
+        "label": "GreenCorridor_1 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_502",
+        "label": "GreenCorridor_1 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_503",
+        "label": "GreenCorridor_1 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_504",
+        "label": "GreenCorridor_1 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_508",
+        "label": "GreenCorridor_2 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_509",
+        "label": "GreenCorridor_2 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_510",
+        "label": "GreenCorridor_2 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_511",
+        "label": "GreenCorridor_2 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_515",
+        "label": "GreenCorridor_3 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_516",
+        "label": "GreenCorridor_3 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_517",
+        "label": "GreenCorridor_3 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_518",
+        "label": "GreenCorridor_3 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_522",
+        "label": "GreenCorridor_4 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_523",
+        "label": "GreenCorridor_4 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_524",
+        "label": "GreenCorridor_4 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_525",
+        "label": "GreenCorridor_4 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_529",
+        "label": "GreenCorridor_5 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_530",
+        "label": "GreenCorridor_5 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_531",
+        "label": "GreenCorridor_5 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_532",
+        "label": "GreenCorridor_5 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_536",
+        "label": "GreenCorridor_6 | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_537",
+        "label": "GreenCorridor_6 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_538",
+        "label": "GreenCorridor_6 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_539",
+        "label": "GreenCorridor_6 | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_541",
+        "label": "GreenStair | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_543",
+        "label": "GreenStair | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_544",
+        "label": "GreenStair | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_546",
+        "label": "GreenStair | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_552",
+        "label": "Hall | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_554",
+        "label": "Hall | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_555",
+        "label": "Hall | M_Interior_DarkWood"
+      },
+      {
+        "name": "StaticMeshActor_556",
+        "label": "Hall | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_557",
+        "label": "Hall | M_Interior_Glow"
+      },
+      {
+        "name": "StaticMeshActor_558",
+        "label": "Hall | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_559",
+        "label": "Hall | M_Interior_Stone"
+      },
+      {
+        "name": "StaticMeshActor_560",
+        "label": "Hall | M_Interior_TerrazzoGreen"
+      },
+      {
+        "name": "StaticMeshActor_561",
+        "label": "Hall | M_Interior_TerrazzoHall"
+      },
+      {
+        "name": "StaticMeshActor_562",
+        "label": "Hall | M_Interior_Velvet"
+      },
+      {
+        "name": "StaticMeshActor_563",
+        "label": "Hall | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_576",
+        "label": "Lobby | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_579",
+        "label": "Lobby | M_Interior_Oak"
+      },
+      {
+        "name": "StaticMeshActor_580",
+        "label": "Lobby | M_Interior_Stone"
+      },
+      {
+        "name": "StaticMeshActor_581",
+        "label": "Lobby | M_Interior_TerrazzoCream"
+      },
+      {
+        "name": "StaticMeshActor_582",
+        "label": "Lobby | M_Interior_TerrazzoGreen"
+      },
+      {
+        "name": "StaticMeshActor_583",
+        "label": "Lobby | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_589",
+        "label": "Site | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_592",
+        "label": "Site | M_Interior_Stone"
+      },
+      {
+        "name": "StaticMeshActor_604",
+        "label": "TeachingFacade | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_605",
+        "label": "TeachingGround | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_606",
+        "label": "TeachingGround | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_609",
+        "label": "WestStair | M_Interior_Glass"
+      },
+      {
+        "name": "StaticMeshActor_611",
+        "label": "WestStair | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_612",
+        "label": "WestStair | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_614",
+        "label": "WestStair | M_Interior_White"
+      },
+      {
+        "name": "ATSTourPoint_0",
+        "label": "Walk Zone 1 校門"
+      },
+      {
+        "name": "ATSTourPoint_7",
+        "label": "Walk Zone 2 入口大堂"
+      },
+      {
+        "name": "ATSTourPoint_9",
+        "label": "Walk Zone 4 夏理德堂"
+      },
+      {
+        "name": "ATSTourPoint_12",
+        "label": "Walk Zone 7 操場"
+      },
+      {
+        "name": "ATSTourPoint_13",
+        "label": "Walk Zone 8 教學樓 G/F"
+      },
+      {
+        "name": "ATSTourPoint_15",
+        "label": "Walk Zone 11 教學樓 1/F｜中1"
+      },
+      {
+        "name": "ATSTourPoint_16",
+        "label": "Walk Zone 12 教學樓 2/F｜中2"
+      },
+      {
+        "name": "ATSTourPoint_17",
+        "label": "Walk Zone 13 教學樓 3/F｜中3"
+      },
+      {
+        "name": "ATSTourPoint_18",
+        "label": "Walk Zone 14 教學樓 4/F｜中4"
+      },
+      {
+        "name": "ATSTourPoint_19",
+        "label": "Walk Zone 15 教學樓 5/F｜中5"
+      },
+      {
+        "name": "ATSTourPoint_29",
+        "label": "Walk Zone 16 教學樓 6/F｜中6"
+      },
+      {
+        "name": "PlayerStart_1",
+        "label": "Walk Start - Outside School Entrance"
+      },
+      {
+        "name": "CameraActor_1",
+        "label": "Walk Entrance Preview"
+      },
+      {
+        "name": "CameraActor_2",
+        "label": "Revised school overview"
+      },
+      {
+        "name": "ATSAutoDoor_0",
+        "label": "Walk Door 01"
+      },
+      {
+        "name": "ATSAutoDoor_1",
+        "label": "Walk Door 02"
+      },
+      {
+        "name": "ATSAutoDoor_68",
+        "label": "Walk Door 05"
+      },
+      {
+        "name": "ATSAutoDoor_69",
+        "label": "Walk Door 06"
+      },
+      {
+        "name": "ATSAutoDoor_70",
+        "label": "Walk Door 07"
+      },
+      {
+        "name": "ATSAutoDoor_71",
+        "label": "Walk Door 08"
+      },
+      {
+        "name": "ATSAutoDoor_72",
+        "label": "Walk Door 09"
+      },
+      {
+        "name": "ATSAutoDoor_73",
+        "label": "Walk Door 10"
+      },
+      {
+        "name": "ATSAutoDoor_74",
+        "label": "Walk Door 11"
+      },
+      {
+        "name": "ATSAutoDoor_75",
+        "label": "Walk Door 12"
+      },
+      {
+        "name": "ATSAutoDoor_76",
+        "label": "Walk Door 13"
+      },
+      {
+        "name": "ATSAutoDoor_77",
+        "label": "Walk Door 14"
+      },
+      {
+        "name": "ATSAutoDoor_78",
+        "label": "Walk Door 15"
+      },
+      {
+        "name": "ATSAutoDoor_79",
+        "label": "Walk Door 16"
+      },
+      {
+        "name": "ATSAutoDoor_80",
+        "label": "Walk Door 17"
+      },
+      {
+        "name": "ATSAutoDoor_81",
+        "label": "Walk Door 18"
+      },
+      {
+        "name": "ATSAutoDoor_82",
+        "label": "Walk Door 19"
+      },
+      {
+        "name": "ATSAutoDoor_83",
+        "label": "Walk Door 20"
+      },
+      {
+        "name": "ATSAutoDoor_84",
+        "label": "Walk Door 21"
+      },
+      {
+        "name": "ATSAutoDoor_85",
+        "label": "Walk Door 22"
+      },
+      {
+        "name": "ATSAutoDoor_86",
+        "label": "Walk Door 23"
+      },
+      {
+        "name": "ATSAutoDoor_87",
+        "label": "Walk Door 24"
+      },
+      {
+        "name": "ATSAutoDoor_88",
+        "label": "Walk Door 25"
+      },
+      {
+        "name": "ATSAutoDoor_89",
+        "label": "Walk Door 26"
+      },
+      {
+        "name": "ATSAutoDoor_90",
+        "label": "Walk Door 27"
+      },
+      {
+        "name": "ATSAutoDoor_91",
+        "label": "Walk Door 28"
+      },
+      {
+        "name": "RectLight_373",
+        "label": "Walk Light 000"
+      },
+      {
+        "name": "RectLight_374",
+        "label": "Walk Light 001"
+      },
+      {
+        "name": "RectLight_375",
+        "label": "Walk Light 002"
+      },
+      {
+        "name": "RectLight_376",
+        "label": "Walk Light 003"
+      },
+      {
+        "name": "RectLight_381",
+        "label": "Walk Light 004"
+      },
+      {
+        "name": "RectLight_382",
+        "label": "Walk Light 005"
+      },
+      {
+        "name": "RectLight_383",
+        "label": "Walk Light 006"
+      },
+      {
+        "name": "RectLight_384",
+        "label": "Walk Light 007"
+      },
+      {
+        "name": "RectLight_385",
+        "label": "Walk Light 008"
+      },
+      {
+        "name": "RectLight_386",
+        "label": "Walk Light 009"
+      },
+      {
+        "name": "RectLight_387",
+        "label": "Walk Light 010"
+      },
+      {
+        "name": "RectLight_388",
+        "label": "Walk Light 011"
+      },
+      {
+        "name": "RectLight_389",
+        "label": "Walk Light 012"
+      },
+      {
+        "name": "RectLight_390",
+        "label": "Walk Light 013"
+      },
+      {
+        "name": "RectLight_391",
+        "label": "Walk Light 014"
+      },
+      {
+        "name": "RectLight_392",
+        "label": "Walk Light 015"
+      },
+      {
+        "name": "RectLight_456",
+        "label": "Walk Light 016"
+      },
+      {
+        "name": "RectLight_457",
+        "label": "Walk Light 017"
+      },
+      {
+        "name": "RectLight_458",
+        "label": "Walk Light 018"
+      },
+      {
+        "name": "RectLight_459",
+        "label": "Walk Light 019"
+      },
+      {
+        "name": "RectLight_460",
+        "label": "Walk Light 020"
+      },
+      {
+        "name": "RectLight_461",
+        "label": "Walk Light 021"
+      },
+      {
+        "name": "RectLight_462",
+        "label": "Walk Light 022"
+      },
+      {
+        "name": "RectLight_463",
+        "label": "Walk Light 023"
+      },
+      {
+        "name": "RectLight_464",
+        "label": "Walk Light 024"
+      },
+      {
+        "name": "RectLight_465",
+        "label": "Walk Light 025"
+      },
+      {
+        "name": "RectLight_466",
+        "label": "Walk Light 026"
+      },
+      {
+        "name": "RectLight_467",
+        "label": "Walk Light 027"
+      },
+      {
+        "name": "RectLight_468",
+        "label": "Walk Light 028"
+      },
+      {
+        "name": "RectLight_469",
+        "label": "Walk Light 029"
+      },
+      {
+        "name": "RectLight_470",
+        "label": "Walk Light 030"
+      },
+      {
+        "name": "RectLight_471",
+        "label": "Walk Light 031"
+      },
+      {
+        "name": "RectLight_472",
+        "label": "Walk Light 032"
+      },
+      {
+        "name": "RectLight_473",
+        "label": "Walk Light 033"
+      },
+      {
+        "name": "RectLight_474",
+        "label": "Walk Light 034"
+      },
+      {
+        "name": "RectLight_475",
+        "label": "Walk Light 035"
+      },
+      {
+        "name": "RectLight_476",
+        "label": "Walk Light 036"
+      },
+      {
+        "name": "RectLight_477",
+        "label": "Walk Light 037"
+      },
+      {
+        "name": "RectLight_478",
+        "label": "Walk Light 038"
+      },
+      {
+        "name": "RectLight_479",
+        "label": "Walk Light 039"
+      },
+      {
+        "name": "RectLight_480",
+        "label": "Walk Light 040"
+      },
+      {
+        "name": "RectLight_481",
+        "label": "Walk Light 041"
+      },
+      {
+        "name": "RectLight_482",
+        "label": "Walk Light 042"
+      },
+      {
+        "name": "RectLight_483",
+        "label": "Walk Light 043"
+      },
+      {
+        "name": "RectLight_484",
+        "label": "Walk Light 044"
+      },
+      {
+        "name": "RectLight_485",
+        "label": "Walk Light 045"
+      },
+      {
+        "name": "RectLight_486",
+        "label": "Walk Light 046"
+      },
+      {
+        "name": "RectLight_487",
+        "label": "Walk Light 047"
+      },
+      {
+        "name": "RectLight_488",
+        "label": "Walk Light 048"
+      },
+      {
+        "name": "RectLight_489",
+        "label": "Walk Light 049"
+      },
+      {
+        "name": "RectLight_490",
+        "label": "Walk Light 050"
+      },
+      {
+        "name": "RectLight_491",
+        "label": "Walk Light 051"
+      },
+      {
+        "name": "RectLight_492",
+        "label": "Walk Light 052"
+      },
+      {
+        "name": "RectLight_493",
+        "label": "Walk Light 053"
+      },
+      {
+        "name": "RectLight_494",
+        "label": "Walk Light 054"
+      },
+      {
+        "name": "RectLight_495",
+        "label": "Walk Light 055"
+      },
+      {
+        "name": "RectLight_496",
+        "label": "Walk Light 056"
+      },
+      {
+        "name": "RectLight_497",
+        "label": "Walk Light 057"
+      },
+      {
+        "name": "RectLight_498",
+        "label": "Walk Light 058"
+      },
+      {
+        "name": "RectLight_499",
+        "label": "Walk Light 059"
+      },
+      {
+        "name": "RectLight_500",
+        "label": "Walk Light 060"
+      },
+      {
+        "name": "RectLight_501",
+        "label": "Walk Light 061"
+      },
+      {
+        "name": "RectLight_502",
+        "label": "Walk Light 062"
+      },
+      {
+        "name": "RectLight_503",
+        "label": "Walk Light 063"
+      },
+      {
+        "name": "RectLight_504",
+        "label": "Walk Light 064"
+      },
+      {
+        "name": "RectLight_505",
+        "label": "Walk Light 065"
+      },
+      {
+        "name": "RectLight_506",
+        "label": "Walk Light 066"
+      },
+      {
+        "name": "RectLight_507",
+        "label": "Walk Light 067"
+      },
+      {
+        "name": "RectLight_508",
+        "label": "Walk Light 068"
+      },
+      {
+        "name": "RectLight_509",
+        "label": "Walk Light 069"
+      },
+      {
+        "name": "RectLight_510",
+        "label": "Walk Light 070"
+      },
+      {
+        "name": "RectLight_511",
+        "label": "Walk Light 071"
+      },
+      {
+        "name": "RectLight_512",
+        "label": "Walk Light 072"
+      },
+      {
+        "name": "RectLight_513",
+        "label": "Walk Light 073"
+      },
+      {
+        "name": "RectLight_514",
+        "label": "Walk Light 074"
+      },
+      {
+        "name": "RectLight_515",
+        "label": "Walk Light 075"
+      },
+      {
+        "name": "RectLight_516",
+        "label": "Walk Light 076"
+      },
+      {
+        "name": "RectLight_517",
+        "label": "Walk Light 077"
+      },
+      {
+        "name": "RectLight_518",
+        "label": "Walk Light 078"
+      },
+      {
+        "name": "RectLight_519",
+        "label": "Walk Light 079"
+      },
+      {
+        "name": "RectLight_520",
+        "label": "Walk Light 080"
+      },
+      {
+        "name": "RectLight_521",
+        "label": "Walk Light 081"
+      },
+      {
+        "name": "RectLight_522",
+        "label": "Walk Light 082"
+      },
+      {
+        "name": "RectLight_523",
+        "label": "Walk Light 083"
+      },
+      {
+        "name": "RectLight_524",
+        "label": "Walk Light 084"
+      },
+      {
+        "name": "RectLight_525",
+        "label": "Walk Light 085"
+      },
+      {
+        "name": "RectLight_526",
+        "label": "Walk Light 086"
+      },
+      {
+        "name": "RectLight_527",
+        "label": "Walk Light 087"
+      },
+      {
+        "name": "RectLight_528",
+        "label": "Walk Light 088"
+      },
+      {
+        "name": "RectLight_529",
+        "label": "Walk Light 089"
+      },
+      {
+        "name": "RectLight_530",
+        "label": "Walk Light 090"
+      },
+      {
+        "name": "RectLight_531",
+        "label": "Walk Light 091"
+      },
+      {
+        "name": "RectLight_532",
+        "label": "Walk Light 092"
+      },
+      {
+        "name": "RectLight_533",
+        "label": "Walk Light 093"
+      },
+      {
+        "name": "RectLight_534",
+        "label": "Walk Light 094"
+      },
+      {
+        "name": "RectLight_535",
+        "label": "Walk Light 095"
+      },
+      {
+        "name": "RectLight_536",
+        "label": "Walk Light 096"
+      },
+      {
+        "name": "RectLight_537",
+        "label": "Walk Light 097"
+      },
+      {
+        "name": "RectLight_538",
+        "label": "Walk Light 098"
+      },
+      {
+        "name": "RectLight_539",
+        "label": "Walk Light 099"
+      },
+      {
+        "name": "RectLight_540",
+        "label": "Walk Light 100"
+      },
+      {
+        "name": "RectLight_541",
+        "label": "Walk Light 101"
+      },
+      {
+        "name": "RectLight_542",
+        "label": "Walk Light 102"
+      },
+      {
+        "name": "RectLight_543",
+        "label": "Walk Light 103"
+      },
+      {
+        "name": "RectLight_544",
+        "label": "Walk Light 104"
+      },
+      {
+        "name": "RectLight_545",
+        "label": "Walk Light 105"
+      },
+      {
+        "name": "RectLight_546",
+        "label": "Walk Light 106"
+      },
+      {
+        "name": "RectLight_547",
+        "label": "Walk Light 107"
+      },
+      {
+        "name": "RectLight_548",
+        "label": "Walk Light 108"
+      },
+      {
+        "name": "RectLight_549",
+        "label": "Walk Light 109"
+      },
+      {
+        "name": "RectLight_550",
+        "label": "Walk Light 110"
+      },
+      {
+        "name": "RectLight_551",
+        "label": "Walk Light 111"
+      },
+      {
+        "name": "RectLight_552",
+        "label": "Walk Light 112"
+      },
+      {
+        "name": "RectLight_553",
+        "label": "Walk Light 113"
+      },
+      {
+        "name": "RectLight_554",
+        "label": "Walk Light 114"
+      },
+      {
+        "name": "RectLight_555",
+        "label": "Walk Light 115"
+      },
+      {
+        "name": "RectLight_556",
+        "label": "Walk Light 116"
+      },
+      {
+        "name": "RectLight_557",
+        "label": "Walk Light 117"
+      },
+      {
+        "name": "RectLight_558",
+        "label": "Walk Light 118"
+      },
+      {
+        "name": "RectLight_559",
+        "label": "Walk Light 119"
+      },
+      {
+        "name": "RectLight_560",
+        "label": "Walk Light 120"
+      },
+      {
+        "name": "RectLight_561",
+        "label": "Walk Light 121"
+      },
+      {
+        "name": "RectLight_562",
+        "label": "Walk Light 122"
+      },
+      {
+        "name": "RectLight_563",
+        "label": "Walk Light 123"
+      },
+      {
+        "name": "RectLight_564",
+        "label": "Walk Light 124"
+      },
+      {
+        "name": "RectLight_565",
+        "label": "Walk Light 125"
+      },
+      {
+        "name": "RectLight_566",
+        "label": "Walk Light 126"
+      },
+      {
+        "name": "RectLight_567",
+        "label": "Walk Light 127"
+      },
+      {
+        "name": "RectLight_568",
+        "label": "Walk Light 128"
+      },
+      {
+        "name": "RectLight_569",
+        "label": "Walk Light 129"
+      },
+      {
+        "name": "RectLight_570",
+        "label": "Walk Light 130"
+      },
+      {
+        "name": "RectLight_571",
+        "label": "Walk Light 131"
+      },
+      {
+        "name": "RectLight_572",
+        "label": "Walk Light 132"
+      },
+      {
+        "name": "RectLight_573",
+        "label": "Walk Light 133"
+      },
+      {
+        "name": "RectLight_574",
+        "label": "Walk Light 134"
+      },
+      {
+        "name": "RectLight_575",
+        "label": "Walk Light 135"
+      },
+      {
+        "name": "RectLight_576",
+        "label": "Walk Light 136"
+      },
+      {
+        "name": "RectLight_577",
+        "label": "Walk Light 137"
+      },
+      {
+        "name": "RectLight_578",
+        "label": "Walk Light 138"
+      },
+      {
+        "name": "RectLight_579",
+        "label": "Walk Light 139"
+      },
+      {
+        "name": "RectLight_580",
+        "label": "Walk Light 140"
+      },
+      {
+        "name": "RectLight_581",
+        "label": "Walk Light 141"
+      },
+      {
+        "name": "RectLight_582",
+        "label": "Walk Light 142"
+      },
+      {
+        "name": "RectLight_583",
+        "label": "Walk Light 143"
+      },
+      {
+        "name": "RectLight_584",
+        "label": "Walk Light 144"
+      },
+      {
+        "name": "RectLight_585",
+        "label": "Walk Light 145"
+      },
+      {
+        "name": "RectLight_586",
+        "label": "Walk Light 146"
+      },
+      {
+        "name": "RectLight_613",
+        "label": "Walk Light 147"
+      },
+      {
+        "name": "RectLight_614",
+        "label": "Walk Light 148"
+      },
+      {
+        "name": "RectLight_615",
+        "label": "Walk Light 149"
+      },
+      {
+        "name": "RectLight_616",
+        "label": "Walk Light 150"
+      },
+      {
+        "name": "RectLight_617",
+        "label": "Walk Light 151"
+      },
+      {
+        "name": "RectLight_618",
+        "label": "Walk Light 152"
+      },
+      {
+        "name": "RectLight_619",
+        "label": "Walk Light 153"
+      },
+      {
+        "name": "RectLight_620",
+        "label": "Walk Light 154"
+      },
+      {
+        "name": "StaticMeshActor_4",
+        "label": "NorthwestAnnex | M_Interior_AnnexPlaster"
+      },
+      {
+        "name": "StaticMeshActor_5",
+        "label": "NorthwestAnnex | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_6",
+        "label": "NorthwestAnnex | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_8",
+        "label": "NorthwestAnnex | M_Interior_Stone"
+      },
+      {
+        "name": "StaticMeshActor_9",
+        "label": "NorthwestAnnex | M_Interior_WeatheredRoof"
+      },
+      {
+        "name": "StaticMeshActor_10",
+        "label": "NorthwestAnnex | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_11",
+        "label": "NorthwestAnnex | M_Interior_WindowShade"
+      },
+      {
+        "name": "StaticMeshActor_18",
+        "label": "NorthwestRearWing | M_Interior_AnnexPlaster"
+      },
+      {
+        "name": "StaticMeshActor_19",
+        "label": "NorthwestRearWing | M_Interior_Cream"
+      },
+      {
+        "name": "StaticMeshActor_21",
+        "label": "NorthwestRearWing | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_22",
+        "label": "NorthwestRearWing | M_Interior_PinkTile"
+      },
+      {
+        "name": "StaticMeshActor_23",
+        "label": "NorthwestRearWing | M_Interior_TerrazzoRose"
+      },
+      {
+        "name": "StaticMeshActor_24",
+        "label": "NorthwestRearWing | M_Interior_WeatheredRoof"
+      },
+      {
+        "name": "StaticMeshActor_25",
+        "label": "NorthwestRearWing | M_Interior_White"
+      },
+      {
+        "name": "StaticMeshActor_26",
+        "label": "NorthwestRearWing | M_Interior_WindowShade"
+      },
+      {
+        "name": "RectLight_621",
+        "label": "Walk Light 155"
+      },
+      {
+        "name": "RectLight_622",
+        "label": "Walk Light 156"
+      },
+      {
+        "name": "RectLight_623",
+        "label": "Walk Light 157"
+      },
+      {
+        "name": "RectLight_624",
+        "label": "Walk Light 158"
+      },
+      {
+        "name": "RectLight_625",
+        "label": "Walk Light 159"
+      },
+      {
+        "name": "RectLight_626",
+        "label": "Walk Light 160"
+      },
+      {
+        "name": "RectLight_627",
+        "label": "Walk Light 161"
+      },
+      {
+        "name": "RectLight_628",
+        "label": "Walk Light 162"
+      },
+      {
+        "name": "RectLight_629",
+        "label": "Walk Light 163"
+      },
+      {
+        "name": "RectLight_630",
+        "label": "Walk Light 164"
+      },
+      {
+        "name": "RectLight_631",
+        "label": "Walk Light 165"
+      },
+      {
+        "name": "RectLight_632",
+        "label": "Walk Light 166"
+      },
+      {
+        "name": "RectLight_633",
+        "label": "Walk Light 167"
+      },
+      {
+        "name": "RectLight_634",
+        "label": "Walk Light 168"
+      },
+      {
+        "name": "RectLight_635",
+        "label": "Walk Light 169"
+      },
+      {
+        "name": "RectLight_636",
+        "label": "Walk Light 170"
+      },
+      {
+        "name": "RectLight_637",
+        "label": "Walk Light 171"
+      },
+      {
+        "name": "RectLight_638",
+        "label": "Walk Light 172"
+      },
+      {
+        "name": "RectLight_639",
+        "label": "Walk Light 173"
+      },
+      {
+        "name": "RectLight_640",
+        "label": "Walk Light 174"
+      },
+      {
+        "name": "RectLight_641",
+        "label": "Walk Light 175"
+      },
+      {
+        "name": "RectLight_642",
+        "label": "Walk Light 176"
+      },
+      {
+        "name": "RectLight_643",
+        "label": "Walk Light 177"
+      },
+      {
+        "name": "RectLight_644",
+        "label": "Walk Light 178"
+      },
+      {
+        "name": "RectLight_645",
+        "label": "Walk Light 179"
+      },
+      {
+        "name": "RectLight_646",
+        "label": "Walk Light 180"
+      },
+      {
+        "name": "RectLight_647",
+        "label": "Walk Light 181"
+      },
+      {
+        "name": "StaticMeshActor_0",
+        "label": "HistoricCentralVeranda | M_Interior_FacadeGlass"
+      },
+      {
+        "name": "StaticMeshActor_1",
+        "label": "HistoricCentralVeranda | M_Interior_FacadeMetal"
+      },
+      {
+        "name": "StaticMeshActor_3",
+        "label": "HistoricCentralVeranda | M_Interior_FacadeWhite"
+      },
+      {
+        "name": "StaticMeshActor_12",
+        "label": "HistoricCentralVeranda | M_Interior_ShanghaiRender"
+      },
+      {
+        "name": "StaticMeshActor_20",
+        "label": "HistoricCentralVeranda | M_Interior_TerrazzoHall"
+      },
+      {
+        "name": "StaticMeshActor_28",
+        "label": "HistoricEntranceTower | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_29",
+        "label": "HistoricEntranceTower | M_Interior_FacadeGlass"
+      },
+      {
+        "name": "StaticMeshActor_30",
+        "label": "HistoricEntranceTower | M_Interior_FacadeMetal"
+      },
+      {
+        "name": "StaticMeshActor_31",
+        "label": "HistoricEntranceTower | M_Interior_FacadeWhite"
+      },
+      {
+        "name": "StaticMeshActor_32",
+        "label": "HistoricEntranceTower | M_Interior_Joint"
+      },
+      {
+        "name": "StaticMeshActor_33",
+        "label": "HistoricEntranceTower | M_Interior_RoofConcrete"
+      },
+      {
+        "name": "StaticMeshActor_34",
+        "label": "HistoricEntranceTower | M_Interior_ShanghaiRender"
+      },
+      {
+        "name": "StaticMeshActor_35",
+        "label": "HistoricEntranceTower | M_Interior_Stone"
+      },
+      {
+        "name": "StaticMeshActor_36",
+        "label": "HistoricFrontWing | M_Interior_FacadeGlass"
+      },
+      {
+        "name": "StaticMeshActor_37",
+        "label": "HistoricFrontWing | M_Interior_FacadeMetal"
+      },
+      {
+        "name": "StaticMeshActor_38",
+        "label": "HistoricFrontWing | M_Interior_FacadeWhite"
+      },
+      {
+        "name": "StaticMeshActor_39",
+        "label": "HistoricFrontWing | M_Interior_ShanghaiRender"
+      },
+      {
+        "name": "StaticMeshActor_40",
+        "label": "HistoricRoof | M_Interior_FacadeWhite"
+      },
+      {
+        "name": "StaticMeshActor_41",
+        "label": "HistoricRoof | M_Interior_RoofConcrete"
+      },
+      {
+        "name": "StaticMeshActor_42",
+        "label": "HistoricRoof | M_Interior_ShanghaiRender"
+      },
+      {
+        "name": "StaticMeshActor_43",
+        "label": "HistoricWestTower | M_Interior_FacadeGlass"
+      },
+      {
+        "name": "StaticMeshActor_44",
+        "label": "HistoricWestTower | M_Interior_FacadeMetal"
+      },
+      {
+        "name": "StaticMeshActor_45",
+        "label": "HistoricWestTower | M_Interior_RoofConcrete"
+      },
+      {
+        "name": "StaticMeshActor_46",
+        "label": "HistoricWestTower | M_Interior_ShanghaiRender"
+      },
+      {
+        "name": "StaticMeshActor_47",
+        "label": "HistoricWestWing | M_Interior_FacadeGlass"
+      },
+      {
+        "name": "StaticMeshActor_48",
+        "label": "HistoricWestWing | M_Interior_FacadeMetal"
+      },
+      {
+        "name": "StaticMeshActor_49",
+        "label": "HistoricWestWing | M_Interior_FacadeWhite"
+      },
+      {
+        "name": "StaticMeshActor_50",
+        "label": "HistoricWestWing | M_Interior_RoofConcrete"
+      },
+      {
+        "name": "StaticMeshActor_51",
+        "label": "HistoricWestWing | M_Interior_ShanghaiRender"
+      },
+      {
+        "name": "StaticMeshActor_52",
+        "label": "HistoricWestWing | M_Interior_TerrazzoHall"
+      },
+      {
+        "name": "StaticMeshActor_53",
+        "label": "Fine Surroundings | SM_Fine_000"
+      },
+      {
+        "name": "StaticMeshActor_54",
+        "label": "Fine Surroundings | SM_Fine_001"
+      },
+      {
+        "name": "StaticMeshActor_55",
+        "label": "Fine Surroundings | SM_Fine_002"
+      },
+      {
+        "name": "StaticMeshActor_56",
+        "label": "Fine Surroundings | SM_Fine_003"
+      },
+      {
+        "name": "StaticMeshActor_57",
+        "label": "Fine Surroundings | SM_Fine_004"
+      },
+      {
+        "name": "StaticMeshActor_58",
+        "label": "Fine Surroundings | SM_Fine_005"
+      },
+      {
+        "name": "StaticMeshActor_59",
+        "label": "Fine Surroundings | SM_Fine_006"
+      },
+      {
+        "name": "StaticMeshActor_60",
+        "label": "Fine Surroundings | SM_Fine_007"
+      },
+      {
+        "name": "StaticMeshActor_61",
+        "label": "Fine Surroundings | SM_Fine_008"
+      },
+      {
+        "name": "StaticMeshActor_62",
+        "label": "Fine Surroundings | SM_Fine_009"
+      },
+      {
+        "name": "StaticMeshActor_63",
+        "label": "Fine Surroundings | SM_Fine_010"
+      },
+      {
+        "name": "StaticMeshActor_64",
+        "label": "Fine Surroundings | SM_Fine_011"
+      },
+      {
+        "name": "StaticMeshActor_65",
+        "label": "Fine Surroundings | SM_Fine_012"
+      },
+      {
+        "name": "StaticMeshActor_66",
+        "label": "Fine Surroundings | SM_Fine_013"
+      },
+      {
+        "name": "StaticMeshActor_67",
+        "label": "Fine Surroundings | SM_Fine_014"
+      },
+      {
+        "name": "StaticMeshActor_68",
+        "label": "Fine Surroundings | SM_Fine_015"
+      },
+      {
+        "name": "StaticMeshActor_69",
+        "label": "Fine Surroundings | SM_Fine_016"
+      },
+      {
+        "name": "StaticMeshActor_70",
+        "label": "Fine Surroundings | SM_Fine_017"
+      },
+      {
+        "name": "StaticMeshActor_71",
+        "label": "Fine Surroundings | SM_Fine_018"
+      },
+      {
+        "name": "StaticMeshActor_72",
+        "label": "Fine Surroundings | SM_Fine_019"
+      },
+      {
+        "name": "StaticMeshActor_73",
+        "label": "Fine Surroundings | SM_Fine_020"
+      },
+      {
+        "name": "StaticMeshActor_74",
+        "label": "Fine Surroundings | SM_Fine_021"
+      },
+      {
+        "name": "StaticMeshActor_75",
+        "label": "Fine Surroundings | SM_Fine_022"
+      },
+      {
+        "name": "StaticMeshActor_76",
+        "label": "Fine Surroundings | SM_Fine_023"
+      },
+      {
+        "name": "StaticMeshActor_77",
+        "label": "Fine Surroundings | SM_Fine_024"
+      },
+      {
+        "name": "StaticMeshActor_78",
+        "label": "Fine Surroundings | SM_Fine_025"
+      },
+      {
+        "name": "StaticMeshActor_79",
+        "label": "Fine Surroundings | SM_Fine_026"
+      },
+      {
+        "name": "StaticMeshActor_80",
+        "label": "Fine Surroundings | SM_Fine_027"
+      },
+      {
+        "name": "StaticMeshActor_81",
+        "label": "Fine Surroundings | SM_Fine_028"
+      },
+      {
+        "name": "StaticMeshActor_82",
+        "label": "Fine Surroundings | SM_Fine_029"
+      },
+      {
+        "name": "StaticMeshActor_83",
+        "label": "Fine Surroundings | SM_Fine_030"
+      },
+      {
+        "name": "StaticMeshActor_84",
+        "label": "Fine Surroundings | SM_Fine_031"
+      },
+      {
+        "name": "StaticMeshActor_85",
+        "label": "Fine Surroundings | SM_Fine_032"
+      },
+      {
+        "name": "StaticMeshActor_86",
+        "label": "Fine Surroundings | SM_Fine_033"
+      },
+      {
+        "name": "StaticMeshActor_87",
+        "label": "Fine Surroundings | SM_Fine_034"
+      },
+      {
+        "name": "StaticMeshActor_88",
+        "label": "Fine Surroundings | SM_Fine_035"
+      },
+      {
+        "name": "StaticMeshActor_89",
+        "label": "Fine Surroundings | SM_Fine_036"
+      },
+      {
+        "name": "StaticMeshActor_90",
+        "label": "Fine Surroundings | SM_Fine_037"
+      },
+      {
+        "name": "StaticMeshActor_91",
+        "label": "Fine Surroundings | SM_Fine_038"
+      },
+      {
+        "name": "StaticMeshActor_92",
+        "label": "Fine Surroundings | SM_Fine_039"
+      },
+      {
+        "name": "StaticMeshActor_93",
+        "label": "Fine Surroundings | SM_Fine_040"
+      },
+      {
+        "name": "StaticMeshActor_94",
+        "label": "Fine Surroundings | SM_Fine_041"
+      },
+      {
+        "name": "StaticMeshActor_95",
+        "label": "Fine Surroundings | SM_Fine_042"
+      },
+      {
+        "name": "StaticMeshActor_96",
+        "label": "Fine Surroundings | SM_Fine_043"
+      },
+      {
+        "name": "StaticMeshActor_97",
+        "label": "Fine Surroundings | SM_Fine_044"
+      },
+      {
+        "name": "StaticMeshActor_98",
+        "label": "Fine Surroundings | SM_Fine_045"
+      },
+      {
+        "name": "StaticMeshActor_99",
+        "label": "Fine Surroundings | SM_Fine_046"
+      },
+      {
+        "name": "StaticMeshActor_100",
+        "label": "Fine Surroundings | SM_Fine_047"
+      },
+      {
+        "name": "StaticMeshActor_101",
+        "label": "Fine Surroundings | SM_Fine_048"
+      },
+      {
+        "name": "StaticMeshActor_102",
+        "label": "Fine Surroundings | SM_Fine_049"
+      },
+      {
+        "name": "StaticMeshActor_103",
+        "label": "Fine Surroundings | SM_Fine_050"
+      },
+      {
+        "name": "StaticMeshActor_104",
+        "label": "Fine Surroundings | SM_Fine_051"
+      },
+      {
+        "name": "StaticMeshActor_105",
+        "label": "Fine Surroundings | SM_Fine_052"
+      },
+      {
+        "name": "StaticMeshActor_106",
+        "label": "Fine Surroundings | SM_Fine_053"
+      },
+      {
+        "name": "StaticMeshActor_107",
+        "label": "Fine Surroundings | SM_Fine_054"
+      },
+      {
+        "name": "StaticMeshActor_108",
+        "label": "Fine Surroundings | SM_Fine_055"
+      },
+      {
+        "name": "StaticMeshActor_109",
+        "label": "Fine Surroundings | SM_Fine_056"
+      },
+      {
+        "name": "StaticMeshActor_110",
+        "label": "Fine Surroundings | SM_Fine_057"
+      },
+      {
+        "name": "StaticMeshActor_111",
+        "label": "Fine Surroundings | SM_Fine_058"
+      },
+      {
+        "name": "StaticMeshActor_112",
+        "label": "Fine Surroundings | SM_Fine_059"
+      },
+      {
+        "name": "StaticMeshActor_113",
+        "label": "Fine Surroundings | SM_Fine_060"
+      },
+      {
+        "name": "StaticMeshActor_114",
+        "label": "Fine Surroundings | SM_Fine_061"
+      },
+      {
+        "name": "StaticMeshActor_115",
+        "label": "Fine Surroundings | SM_Fine_062"
+      },
+      {
+        "name": "StaticMeshActor_116",
+        "label": "Fine Surroundings | SM_Fine_063"
+      },
+      {
+        "name": "StaticMeshActor_117",
+        "label": "Fine Surroundings | SM_Fine_064"
+      },
+      {
+        "name": "StaticMeshActor_118",
+        "label": "Fine Surroundings | SM_Fine_065"
+      },
+      {
+        "name": "StaticMeshActor_119",
+        "label": "Fine Surroundings | SM_Fine_066"
+      },
+      {
+        "name": "StaticMeshActor_120",
+        "label": "Fine Surroundings | SM_Fine_067"
+      },
+      {
+        "name": "StaticMeshActor_121",
+        "label": "Fine Surroundings | SM_Fine_068"
+      },
+      {
+        "name": "StaticMeshActor_122",
+        "label": "Fine Surroundings | SM_Fine_069"
+      },
+      {
+        "name": "StaticMeshActor_123",
+        "label": "Fine Surroundings | SM_Fine_070"
+      },
+      {
+        "name": "StaticMeshActor_171",
+        "label": "Fine Surroundings | SM_Fine_071"
+      },
+      {
+        "name": "StaticMeshActor_172",
+        "label": "Fine Surroundings | SM_Fine_072"
+      },
+      {
+        "name": "StaticMeshActor_173",
+        "label": "Fine Surroundings | SM_Fine_073"
+      },
+      {
+        "name": "StaticMeshActor_174",
+        "label": "Fine Surroundings | SM_Fine_074"
+      },
+      {
+        "name": "StaticMeshActor_175",
+        "label": "Fine Surroundings | SM_Fine_075"
+      },
+      {
+        "name": "StaticMeshActor_176",
+        "label": "Fine Surroundings | SM_Fine_076"
+      },
+      {
+        "name": "StaticMeshActor_177",
+        "label": "Fine Surroundings | SM_Fine_077"
+      },
+      {
+        "name": "StaticMeshActor_178",
+        "label": "Fine Surroundings | SM_Fine_078"
+      },
+      {
+        "name": "StaticMeshActor_179",
+        "label": "Fine Surroundings | SM_Fine_079"
+      },
+      {
+        "name": "StaticMeshActor_180",
+        "label": "Fine Surroundings | SM_Fine_080"
+      },
+      {
+        "name": "StaticMeshActor_181",
+        "label": "Fine Surroundings | SM_Fine_081"
+      },
+      {
+        "name": "StaticMeshActor_182",
+        "label": "Fine Surroundings | SM_Fine_082"
+      },
+      {
+        "name": "StaticMeshActor_183",
+        "label": "Fine Surroundings | SM_Fine_083"
+      },
+      {
+        "name": "StaticMeshActor_184",
+        "label": "Fine Surroundings | SM_Fine_084"
+      },
+      {
+        "name": "StaticMeshActor_185",
+        "label": "Fine Surroundings | SM_Fine_085"
+      },
+      {
+        "name": "StaticMeshActor_186",
+        "label": "Fine Surroundings | SM_Fine_086"
+      },
+      {
+        "name": "StaticMeshActor_481",
+        "label": "Fine Surroundings | SM_Fine_087"
+      },
+      {
+        "name": "StaticMeshActor_482",
+        "label": "Fine Surroundings | SM_Fine_088"
+      },
+      {
+        "name": "StaticMeshActor_483",
+        "label": "Fine Surroundings | SM_Fine_089"
+      },
+      {
+        "name": "StaticMeshActor_484",
+        "label": "Fine Surroundings | SM_Fine_090"
+      },
+      {
+        "name": "StaticMeshActor_485",
+        "label": "Fine Surroundings | SM_Fine_091"
+      },
+      {
+        "name": "StaticMeshActor_486",
+        "label": "Fine Surroundings | SM_Fine_092"
+      },
+      {
+        "name": "StaticMeshActor_487",
+        "label": "Fine Surroundings | SM_Fine_093"
+      },
+      {
+        "name": "StaticMeshActor_488",
+        "label": "Fine Surroundings | SM_Fine_094"
+      },
+      {
+        "name": "StaticMeshActor_489",
+        "label": "Fine Surroundings | SM_Fine_095"
+      },
+      {
+        "name": "StaticMeshActor_490",
+        "label": "Fine Surroundings | SM_Fine_096"
+      },
+      {
+        "name": "StaticMeshActor_491",
+        "label": "Fine Surroundings | SM_Fine_097"
+      },
+      {
+        "name": "StaticMeshActor_492",
+        "label": "Fine Surroundings | SM_Fine_098"
+      },
+      {
+        "name": "StaticMeshActor_493",
+        "label": "Fine Surroundings | SM_Fine_099"
+      },
+      {
+        "name": "StaticMeshActor_498",
+        "label": "Fine Surroundings | SM_Fine_100"
+      },
+      {
+        "name": "StaticMeshActor_499",
+        "label": "Fine Surroundings | SM_Fine_101"
+      },
+      {
+        "name": "StaticMeshActor_500",
+        "label": "Fine Surroundings | SM_Fine_102"
+      },
+      {
+        "name": "StaticMeshActor_505",
+        "label": "Fine Surroundings | SM_Fine_103"
+      },
+      {
+        "name": "StaticMeshActor_506",
+        "label": "Fine Surroundings | SM_Fine_104"
+      },
+      {
+        "name": "StaticMeshActor_507",
+        "label": "Fine Surroundings | SM_Fine_105"
+      },
+      {
+        "name": "StaticMeshActor_512",
+        "label": "Fine Surroundings | SM_Fine_106"
+      },
+      {
+        "name": "StaticMeshActor_513",
+        "label": "Fine Surroundings | SM_Fine_107"
+      },
+      {
+        "name": "StaticMeshActor_514",
+        "label": "Fine Surroundings | SM_Fine_108"
+      },
+      {
+        "name": "StaticMeshActor_519",
+        "label": "Fine Surroundings | SM_Fine_109"
+      },
+      {
+        "name": "StaticMeshActor_520",
+        "label": "Fine Surroundings | SM_Fine_110"
+      },
+      {
+        "name": "StaticMeshActor_521",
+        "label": "Fine Surroundings | SM_Fine_111"
+      },
+      {
+        "name": "StaticMeshActor_526",
+        "label": "Fine Surroundings | SM_Fine_112"
+      },
+      {
+        "name": "StaticMeshActor_527",
+        "label": "Fine Surroundings | SM_Fine_113"
+      },
+      {
+        "name": "StaticMeshActor_528",
+        "label": "Fine Surroundings | SM_Fine_114"
+      },
+      {
+        "name": "StaticMeshActor_533",
+        "label": "Fine Surroundings | SM_Fine_115"
+      },
+      {
+        "name": "StaticMeshActor_534",
+        "label": "Fine Surroundings | SM_Fine_116"
+      },
+      {
+        "name": "StaticMeshActor_535",
+        "label": "Fine Surroundings | SM_Fine_117"
+      },
+      {
+        "name": "StaticMeshActor_547",
+        "label": "Fine Surroundings | SM_Fine_118"
+      },
+      {
+        "name": "StaticMeshActor_548",
+        "label": "Fine Surroundings | SM_Fine_119"
+      },
+      {
+        "name": "StaticMeshActor_549",
+        "label": "Fine Surroundings | SM_Fine_120"
+      },
+      {
+        "name": "StaticMeshActor_550",
+        "label": "Fine Surroundings | SM_Fine_121"
+      },
+      {
+        "name": "StaticMeshActor_551",
+        "label": "Fine Surroundings | SM_Fine_122"
+      },
+      {
+        "name": "StaticMeshActor_553",
+        "label": "Fine Surroundings | SM_Fine_123"
+      },
+      {
+        "name": "StaticMeshActor_573",
+        "label": "Fine Surroundings | SM_Fine_124"
+      },
+      {
+        "name": "StaticMeshActor_574",
+        "label": "Fine Surroundings | SM_Fine_125"
+      },
+      {
+        "name": "StaticMeshActor_575",
+        "label": "Fine Surroundings | SM_Fine_126"
+      },
+      {
+        "name": "StaticMeshActor_578",
+        "label": "Fine Surroundings | SM_Fine_127"
+      },
+      {
+        "name": "StaticMeshActor_588",
+        "label": "Fine Surroundings | SM_Fine_128"
+      },
+      {
+        "name": "StaticMeshActor_607",
+        "label": "Fine Surroundings | SM_Fine_129"
+      },
+      {
+        "name": "StaticMeshActor_615",
+        "label": "Fine Surroundings | SM_Fine_130"
+      },
+      {
+        "name": "StaticMeshActor_616",
+        "label": "Fine Surroundings | SM_Fine_131"
+      },
+      {
+        "name": "StaticMeshActor_617",
+        "label": "Fine Surroundings | SM_Fine_132"
+      },
+      {
+        "name": "StaticMeshActor_124",
+        "label": "NorthwestForecourt | M_Interior_GreyTile"
+      },
+      {
+        "name": "StaticMeshActor_126",
+        "label": "Unmodeled Area Boundary | Teaching stair 94 floor 0"
+      },
+      {
+        "name": "StaticMeshActor_128",
+        "label": "Unmodeled Area Boundary | Teaching stair 94 floor 1"
+      },
+      {
+        "name": "StaticMeshActor_130",
+        "label": "Unmodeled Area Boundary | Teaching stair 94 floor 2"
+      },
+      {
+        "name": "StaticMeshActor_132",
+        "label": "Unmodeled Area Boundary | Teaching stair 94 floor 3"
+      },
+      {
+        "name": "StaticMeshActor_134",
+        "label": "Unmodeled Area Boundary | Teaching stair 94 floor 4"
+      },
+      {
+        "name": "StaticMeshActor_136",
+        "label": "Unmodeled Area Boundary | Teaching stair 94 floor 5"
+      },
+      {
+        "name": "StaticMeshActor_138",
+        "label": "Unmodeled Area Boundary | Teaching stair 94 floor 6"
+      },
+      {
+        "name": "StaticMeshActor_139",
+        "label": "Unmodeled Area Boundary | Hall unconfirmed opening 30.5 10"
+      },
+      {
+        "name": "StaticMeshActor_140",
+        "label": "Unmodeled Area Boundary | Hall unconfirmed opening 30.5 15"
+      },
+      {
+        "name": "StaticMeshActor_141",
+        "label": "Unmodeled Area Boundary | Hall unconfirmed opening 30.5 20"
+      },
+      {
+        "name": "StaticMeshActor_142",
+        "label": "Unmodeled Area Boundary | Hall unconfirmed opening 43.7 5"
+      },
+      {
+        "name": "StaticMeshActor_143",
+        "label": "Unmodeled Area Boundary | Hall unconfirmed opening 43.7 10"
+      },
+      {
+        "name": "StaticMeshActor_144",
+        "label": "Unmodeled Area Boundary | Hall unconfirmed opening 43.7 15"
+      },
+      {
+        "name": "StaticMeshActor_145",
+        "label": "Unmodeled Area Boundary | Hall unconfirmed opening 43.7 20"
+      },
+      {
+        "name": "StaticMeshActor_146",
+        "label": "Unmodeled Area Boundary | Hall unconfirmed rear opening"
+      },
+      {
+        "name": "StaticMeshActor_147",
+        "label": "Unmodeled Area Boundary | East block unmodeled interior"
+      },
+      {
+        "name": "StaticMeshActor_148",
+        "label": "Unmodeled Area Boundary | Rear wing unmodeled interior"
+      },
+      {
+        "name": "StaticMeshActor_149",
+        "label": "Unmodeled Area Boundary | Historic street wing unmodeled interior"
+      },
+      {
+        "name": "StaticMeshActor_150",
+        "label": "Unmodeled Area Boundary | Removed northwest connector 1"
+      },
+      {
+        "name": "StaticMeshActor_151",
+        "label": "Unmodeled Area Boundary | Removed northwest connector 2"
+      },
+      {
+        "name": "ATSTourPoint_1",
+        "label": "Walk Zone 21 右側樓 G/F｜後門、工廠／青年中心"
+      },
+      {
+        "name": "ATSTourPoint_2",
+        "label": "Walk Zone 22 右側樓 1/F｜圖書館"
+      },
+      {
+        "name": "ATSTourPoint_3",
+        "label": "Walk Zone 23 右側樓 2/F｜教員室"
+      },
+      {
+        "name": "ATSTourPoint_4",
+        "label": "Walk Zone 24 前方長樓 2/F｜寄宿部維豪堂"
+      },
+      {
+        "name": "ATSTourPoint_5",
+        "label": "Walk Zone 25 左側橫翼 2/F｜考試室"
+      },
+      {
+        "name": "TargetPoint_0",
+        "label": "Layout Reference | 右側樓｜圖書館／教員室"
+      },
+      {
+        "name": "TargetPoint_1",
+        "label": "Layout Reference | 前方長樓 2/F｜寄宿部維豪堂"
+      },
+      {
+        "name": "TargetPoint_2",
+        "label": "Layout Reference | 左側橫翼 2/F｜考試室"
+      },
+      {
+        "name": "TargetPoint_3",
+        "label": "Layout Reference | 教學樓右端｜樓梯位置"
+      },
+      {
+        "name": "TargetPoint_4",
+        "label": "Layout Reference | 右端樓梯入口門 1/F（門式／尺寸未確認）"
+      },
+      {
+        "name": "TargetPoint_5",
+        "label": "Layout Reference | 右端樓梯入口門 2/F（門式／尺寸未確認）"
+      },
+      {
+        "name": "TargetPoint_6",
+        "label": "Layout Reference | 右端樓梯入口門 3/F（門式／尺寸未確認）"
+      },
+      {
+        "name": "TargetPoint_7",
+        "label": "Layout Reference | 右端樓梯入口門 4/F（門式／尺寸未確認）"
+      },
+      {
+        "name": "TargetPoint_8",
+        "label": "Layout Reference | 右端樓梯入口門 5/F（門式／尺寸未確認）"
+      },
+      {
+        "name": "TargetPoint_9",
+        "label": "Layout Reference | 右端樓梯入口門 6/F（門式／尺寸未確認）"
+      },
+      {
+        "name": "StaticMeshActor_2",
+        "label": "TeachingDetail_1 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_7",
+        "label": "TeachingDetail_1 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_13",
+        "label": "TeachingDetail_1 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_14",
+        "label": "TeachingDetail_2 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_15",
+        "label": "TeachingDetail_2 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_16",
+        "label": "TeachingDetail_2 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_17",
+        "label": "TeachingDetail_3 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_27",
+        "label": "TeachingDetail_3 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_152",
+        "label": "TeachingDetail_3 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_153",
+        "label": "TeachingDetail_4 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_154",
+        "label": "TeachingDetail_4 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_155",
+        "label": "TeachingDetail_4 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_156",
+        "label": "TeachingDetail_5 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_157",
+        "label": "TeachingDetail_5 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_158",
+        "label": "TeachingDetail_5 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_159",
+        "label": "TeachingDetail_6 | M_Interior_Black"
+      },
+      {
+        "name": "StaticMeshActor_160",
+        "label": "TeachingDetail_6 | M_Interior_Metal"
+      },
+      {
+        "name": "StaticMeshActor_161",
+        "label": "TeachingDetail_6 | M_Interior_MintTile"
+      },
+      {
+        "name": "StaticMeshActor_162",
+        "label": "LobbyLeftDoor | M_Interior_DarkWood"
+      },
+      {
+        "name": "StaticMeshActor_163",
+        "label": "LobbyLeftDoor | M_Interior_TerrazzoHall"
+      },
+      {
+        "name": "TargetPoint_10",
+        "label": "歷史點位｜靠街長廊桌椅區｜已被新餐廳圖取代"
+      },
+      {
+        "name": "StaticMeshActor_164",
+        "label": "待核實參考 | Dining | Set 01 | White Table"
+      },
+      {
+        "name": "StaticMeshActor_165",
+        "label": "待核實參考 | Dining | Set 01 | Blue Chair 1"
+      },
+      {
+        "name": "StaticMeshActor_166",
+        "label": "待核實參考 | Dining | Set 01 | Blue Chair 2"
+      },
+      {
+        "name": "StaticMeshActor_167",
+        "label": "待核實參考 | Dining | Set 01 | Blue Chair 3"
+      },
+      {
+        "name": "StaticMeshActor_168",
+        "label": "待核實參考 | Dining | Set 01 | Blue Chair 4"
+      },
+      {
+        "name": "StaticMeshActor_169",
+        "label": "待核實參考 | Dining | Set 01 | Blue Chair 5"
+      },
+      {
+        "name": "StaticMeshActor_170",
+        "label": "待核實參考 | Dining | Set 01 | Blue Chair 6"
+      },
+      {
+        "name": "StaticMeshActor_477",
+        "label": "待核實參考 | Dining | Set 02 | White Table"
+      },
+      {
+        "name": "StaticMeshActor_540",
+        "label": "待核實參考 | Dining | Set 02 | Blue Chair 1"
+      },
+      {
+        "name": "StaticMeshActor_542",
+        "label": "待核實參考 | Dining | Set 02 | Blue Chair 2"
+      },
+      {
+        "name": "StaticMeshActor_545",
+        "label": "待核實參考 | Dining | Set 02 | Blue Chair 3"
+      },
+      {
+        "name": "StaticMeshActor_564",
+        "label": "待核實參考 | Dining | Set 02 | Blue Chair 4"
+      },
+      {
+        "name": "StaticMeshActor_565",
+        "label": "待核實參考 | Dining | Set 02 | Blue Chair 5"
+      },
+      {
+        "name": "StaticMeshActor_566",
+        "label": "待核實參考 | Dining | Set 02 | Blue Chair 6"
+      },
+      {
+        "name": "StaticMeshActor_567",
+        "label": "待核實參考 | Dining | Set 03 | White Table"
+      },
+      {
+        "name": "StaticMeshActor_568",
+        "label": "待核實參考 | Dining | Set 03 | Blue Chair 1"
+      },
+      {
+        "name": "StaticMeshActor_569",
+        "label": "待核實參考 | Dining | Set 03 | Blue Chair 2"
+      },
+      {
+        "name": "StaticMeshActor_570",
+        "label": "待核實參考 | Dining | Set 03 | Blue Chair 3"
+      },
+      {
+        "name": "StaticMeshActor_571",
+        "label": "待核實參考 | Dining | Set 03 | Blue Chair 4"
+      },
+      {
+        "name": "StaticMeshActor_572",
+        "label": "待核實參考 | Dining | Set 03 | Blue Chair 5"
+      },
+      {
+        "name": "StaticMeshActor_577",
+        "label": "待核實參考 | Dining | Set 03 | Blue Chair 6"
+      },
+      {
+        "name": "StaticMeshActor_584",
+        "label": "待核實參考 | Dining Photo Detail | Ceiling"
+      },
+      {
+        "name": "StaticMeshActor_585",
+        "label": "待核實參考 | Dining Photo Detail | Fans"
+      },
+      {
+        "name": "StaticMeshActor_586",
+        "label": "待核實參考 | Dining Photo Detail | Lights"
+      },
+      {
+        "name": "StaticMeshActor_587",
+        "label": "待核實參考 | Dining Photo Detail | WallFinish"
+      },
+      {
+        "name": "StaticMeshActor_590",
+        "label": "待核實參考 | Dining Photo Detail | WallPaint"
+      },
+      {
+        "name": "RectLight_0",
+        "label": "待核實參考 | Dining Photo Light 01"
+      },
+      {
+        "name": "RectLight_1",
+        "label": "待核實參考 | Dining Photo Light 02"
+      },
+      {
+        "name": "RectLight_2",
+        "label": "待核實參考 | Dining Photo Light 03"
+      },
+      {
+        "name": "RectLight_3",
+        "label": "待核實參考 | Dining Photo Light 04"
+      },
+      {
+        "name": "StaticMeshActor_598",
+        "label": "餐廳實體｜Ceiling"
+      },
+      {
+        "name": "StaticMeshActor_599",
+        "label": "餐廳實體｜DoorFrames"
+      },
+      {
+        "name": "StaticMeshActor_600",
+        "label": "餐廳實體｜Floor"
+      },
+      {
+        "name": "StaticMeshActor_601",
+        "label": "餐廳實體｜Fountain"
+      },
+      {
+        "name": "StaticMeshActor_603",
+        "label": "餐廳實體｜Kiosk"
+      },
+      {
+        "name": "StaticMeshActor_608",
+        "label": "餐廳實體｜Lighting"
+      },
+      {
+        "name": "StaticMeshActor_610",
+        "label": "餐廳實體｜OutdoorFloor"
+      },
+      {
+        "name": "StaticMeshActor_613",
+        "label": "餐廳實體｜Sign"
+      },
+      {
+        "name": "StaticMeshActor_618",
+        "label": "餐廳實體｜Thresholds"
+      },
+      {
+        "name": "StaticMeshActor_619",
+        "label": "餐廳實體｜Tiles"
+      },
+      {
+        "name": "StaticMeshActor_620",
+        "label": "餐廳實體｜Walls"
+      },
+      {
+        "name": "StaticMeshActor_621",
+        "label": "餐廳實體｜Washbasin"
+      },
+      {
+        "name": "RectLight_4",
+        "label": "餐廳照明 01"
+      },
+      {
+        "name": "RectLight_5",
+        "label": "餐廳照明 02"
+      },
+      {
+        "name": "RectLight_6",
+        "label": "餐廳照明 03"
+      },
+      {
+        "name": "RectLight_7",
+        "label": "餐廳照明 04"
+      },
+      {
+        "name": "RectLight_8",
+        "label": "餐廳照明 05"
+      },
+      {
+        "name": "RectLight_9",
+        "label": "餐廳照明 06"
+      },
+      {
+        "name": "RectLight_10",
+        "label": "餐廳照明 07"
+      },
+      {
+        "name": "RectLight_11",
+        "label": "餐廳照明 08"
+      },
+      {
+        "name": "RectLight_12",
+        "label": "餐廳照明 09"
+      },
+      {
+        "name": "RectLight_13",
+        "label": "餐廳照明 10"
+      },
+      {
+        "name": "RectLight_14",
+        "label": "餐廳照明 11"
+      },
+      {
+        "name": "RectLight_15",
+        "label": "餐廳照明 12"
+      },
+      {
+        "name": "RectLight_16",
+        "label": "餐廳照明 13"
+      },
+      {
+        "name": "ATSRollerShutter_0",
+        "label": "餐廳捲閘｜RightUpper"
+      },
+      {
+        "name": "ATSRollerShutter_1",
+        "label": "餐廳捲閘｜RightLower"
+      },
+      {
+        "name": "ATSRollerShutter_2",
+        "label": "餐廳捲閘｜CourtyardSide"
+      },
+      {
+        "name": "RectLight_17",
+        "label": "餐廳照明 14"
+      },
+      {
+        "name": "RectLight_18",
+        "label": "餐廳照明 15"
+      },
+      {
+        "name": "RectLight_19",
+        "label": "餐廳照明 16"
+      },
+      {
+        "name": "RectLight_20",
+        "label": "餐廳照明 17"
+      },
+      {
+        "name": "RectLight_21",
+        "label": "餐廳照明 18"
+      },
+      {
+        "name": "RectLight_22",
+        "label": "餐廳照明 19"
+      },
+      {
+        "name": "RectLight_23",
+        "label": "餐廳照明 20"
+      },
+      {
+        "name": "RectLight_24",
+        "label": "餐廳照明 21"
+      },
+      {
+        "name": "StaticMeshActor_591",
+        "label": "餐廳桌椅｜中央｜白枱 01"
+      },
+      {
+        "name": "StaticMeshActor_593",
+        "label": "餐廳桌椅｜中央｜藍椅 02"
+      },
+      {
+        "name": "StaticMeshActor_594",
+        "label": "餐廳桌椅｜中央｜藍椅 03"
+      },
+      {
+        "name": "StaticMeshActor_595",
+        "label": "餐廳桌椅｜中央｜藍椅 04"
+      },
+      {
+        "name": "StaticMeshActor_596",
+        "label": "餐廳桌椅｜中央｜藍椅 05"
+      },
+      {
+        "name": "StaticMeshActor_597",
+        "label": "餐廳桌椅｜靠窗｜白枱 06"
+      },
+      {
+        "name": "StaticMeshActor_602",
+        "label": "餐廳桌椅｜靠窗｜藍椅 07"
+      },
+      {
+        "name": "StaticMeshActor_622",
+        "label": "餐廳桌椅｜靠窗｜藍椅 08"
+      },
+      {
+        "name": "StaticMeshActor_623",
+        "label": "餐廳桌椅｜靠窗｜藍椅 09"
+      },
+      {
+        "name": "StaticMeshActor_624",
+        "label": "餐廳桌椅｜靠窗｜藍椅 10"
+      },
+      {
+        "name": "StaticMeshActor_625",
+        "label": "餐廳十字架窗牆｜Aircon"
+      },
+      {
+        "name": "StaticMeshActor_626",
+        "label": "餐廳十字架窗牆｜Cross"
+      },
+      {
+        "name": "StaticMeshActor_627",
+        "label": "餐廳十字架窗牆｜Frames"
+      },
+      {
+        "name": "StaticMeshActor_628",
+        "label": "餐廳十字架窗牆｜Glass"
+      },
+      {
+        "name": "StaticMeshActor_629",
+        "label": "非實景｜西側未建區隱形遊戲邊界"
+      }
+    ],
+    "baseline_for_full_property_comparison": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\teaching_stair_scene_current.json",
+    "required_invariants": [
+      "All dining actors and current dining reconstruction",
+      "All 24 retained classroom interiors and front doors",
+      "All right-stair shell actors and seven right-stair boundaries",
+      "All other teaching corridor floors/ceilings/parapets",
+      "Current camera unless deliberately showing the finished left repair",
+      "All locomotion/animation/stamina settings"
+    ]
+  },
+  "not_safe_to_infer": [
+    "Do not duplicate the right stair at the left: the old source did exactly that and both videos may depict different tread finishes.",
+    "Do not reinstate six identical storey modules merely because six classroom floors exist.",
+    "Do not infer which stair video belongs to the left from material colour alone.",
+    "Do not infer physical G-floor entrance configuration from the upper-floor user annotation for the right stair.",
+    "Do not treat current shell width, height, back windows or corridor-to-stair gap as measured school dimensions.",
+    "Do not add a new visible landing guardrail solely to make the model safe."
+  ],
+  "visual_orientation_clues_only": {
+    "left_shell_model_campus_center_m": [
+      58.75978997441915,
+      38.35641960474789,
+      0
+    ],
+    "right_shell_model_campus_center_m": [
+      100.33436893742704,
+      21.13566514831885,
+      0
+    ],
+    "front_facing_campus_unit": [
+      -0.3826834323650898,
+      -0.9238795325112867,
+      0
+    ],
+    "expected_landmarks": "Model left-end front view is toward the historic long wing west end/cross-wing court region; right-end front view approaches the right-side newer block. This is a model-based hypothesis to test against frames, not a real-world placement proof."
+  },
+  "supporting_detail_file": "C:\\Users\\Cyrus\\Documents\\Codex\\2026-11-06\\dao\\work\\research\\teaching_left_stair_20261108\\blender_geometry_audit.json"
+}

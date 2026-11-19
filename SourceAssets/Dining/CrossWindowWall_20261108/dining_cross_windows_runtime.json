@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "method": "One initial pawn placement, then CharacterMovement along both new windows and a jump toward the right window.",
+  "route": [
+    {
+      "target": [
+        1.15,
+        16.18
+      ],
+      "position": [
+        1.3175416049759603,
+        16.180000000000003,
+        0.9415001678466801
+      ],
+      "passed": true
+    },
+    {
+      "target": [
+        1.15,
+        20.27
+      ],
+      "position": [
+        1.1569111947492532,
+        20.101284972299815,
+        0.9415001678466801
+      ],
+      "passed": true
+    }
+  ],
+  "initial_placements": 1,
+  "min_u": 0.6100863564015961,
+  "max_jump_height": 1.7116280497658458,
+  "final_position": [
+    0.6710020425154681,
+    20.101284750747688,
+    0.9414979927693814
+  ],
+  "window_blocked_jump": true,
+  "seconds": 10.38,
+  "camera_restored": true
+}

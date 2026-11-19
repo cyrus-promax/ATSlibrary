@@ -1,0 +1,268 @@
+{
+  "scope": "Partial finish reconstruction in the user-confirmed dining area; no complete room plan is asserted.",
+  "appearance_sources": [
+    {
+      "url": "http://www.ats.edu.hk/images/doc/20261102.pdf",
+      "pdf_page": 2,
+      "image": "leaflet_p02_image02.png",
+      "features": [
+        "grey reflective rectangular wall finish",
+        "white ceiling and cross beams",
+        "linear light fittings",
+        "white ceiling fans"
+      ]
+    },
+    {
+      "url": "http://www.ats.edu.hk/images/doc/Dorm_10_Anniversary_Journal.pdf",
+      "pdf_page": 30,
+      "image": "anniversary_p30_image02.png",
+      "features": [
+        "same dining room with blue chairs and white tables",
+        "grey lower wall finish",
+        "plain white ceiling beams",
+        "centreline ceiling fans and flanking strip lights"
+      ]
+    }
+  ],
+  "coverage_campus_m": {
+    "u": [
+      7.2,
+      19.655
+    ],
+    "v": [
+      10.4,
+      22.0
+    ]
+  },
+  "coverage_edges_are_not_room_boundaries": true,
+  "existing_wall_surface_campus_u": 19.6799993,
+  "ceiling_underside_m": 3.96,
+  "height_basis": "Existing model G/1F floor height 4.2 m minus 0.24 m; NOT a measured dining ceiling height.",
+  "minimum_new_headroom_m": 3.3335,
+  "finish_tile_pitch_m": [
+    0.6,
+    0.3
+  ],
+  "new_partitions": 0,
+  "new_openings": 0,
+  "new_kitchen": false,
+  "ceiling_fans": 2,
+  "light_fittings": 4,
+  "not_verified": [
+    "Exact dining room extent and orientation",
+    "Absolute location of the photographed wall in the campus",
+    "Exact ceiling, beam and wall-cladding dimensions",
+    "Exact light and fan spacing/count across the full room",
+    "Door and window positions",
+    "Kitchen and service-area layout"
+  ],
+  "modelling_limits": "Dimensions are visual estimates fitted to the existing shell. Only a bounded section near the confirmed position is modelled. The rest of the room remains incomplete; do not interpret the coverage edges as real construction joints.",
+  "materials": {
+    "CeilingPaint": {
+      "colour_linear": [
+        0.72,
+        0.72,
+        0.68
+      ],
+      "roughness": 0.85,
+      "metallic": 0,
+      "emissive_strength": 0
+    },
+    "WallPaint": {
+      "colour_linear": [
+        0.7,
+        0.7,
+        0.66
+      ],
+      "roughness": 0.82,
+      "metallic": 0,
+      "emissive_strength": 0
+    },
+    "GreyGlazedTile": {
+      "colour_linear": [
+        0.3,
+        0.31,
+        0.3
+      ],
+      "roughness": 0.27,
+      "metallic": 0,
+      "emissive_strength": 0
+    },
+    "GreyGlazedTileLight": {
+      "colour_linear": [
+        0.315,
+        0.325,
+        0.315
+      ],
+      "roughness": 0.28,
+      "metallic": 0,
+      "emissive_strength": 0
+    },
+    "GreyGlazedTileDark": {
+      "colour_linear": [
+        0.29,
+        0.3,
+        0.29
+      ],
+      "roughness": 0.29,
+      "metallic": 0,
+      "emissive_strength": 0
+    },
+    "Grout": {
+      "colour_linear": [
+        0.225,
+        0.23,
+        0.22
+      ],
+      "roughness": 0.91,
+      "metallic": 0,
+      "emissive_strength": 0
+    },
+    "FixtureWhite": {
+      "colour_linear": [
+        0.71,
+        0.72,
+        0.7
+      ],
+      "roughness": 0.4,
+      "metallic": 0.05,
+      "emissive_strength": 0
+    },
+    "FanIvory": {
+      "colour_linear": [
+        0.68,
+        0.68,
+        0.63
+      ],
+      "roughness": 0.47,
+      "metallic": 0.05,
+      "emissive_strength": 0
+    },
+    "LampDiffuser": {
+      "colour_linear": [
+        0.88,
+        0.89,
+        0.85
+      ],
+      "roughness": 0.42,
+      "metallic": 0,
+      "emissive_strength": 3
+    }
+  },
+  "meshes": [
+    {
+      "name": "SM_DiningEnvelope_Ceiling",
+      "group": "Ceiling",
+      "collision": true,
+      "vertices": 384,
+      "faces": 392,
+      "materials": [
+        "M_DiningEnvelope_CeilingPaint"
+      ]
+    },
+    {
+      "name": "SM_DiningEnvelope_WallFinish",
+      "group": "WallFinish",
+      "collision": true,
+      "vertices": 11528,
+      "faces": 11766,
+      "materials": [
+        "M_DiningEnvelope_Grout",
+        "M_DiningEnvelope_GreyGlazedTile",
+        "M_DiningEnvelope_GreyGlazedTileDark",
+        "M_DiningEnvelope_GreyGlazedTileLight"
+      ]
+    },
+    {
+      "name": "SM_DiningEnvelope_WallPaint",
+      "group": "WallPaint",
+      "collision": true,
+      "vertices": 96,
+      "faces": 98,
+      "materials": [
+        "M_DiningEnvelope_WallPaint"
+      ]
+    },
+    {
+      "name": "SM_DiningEnvelope_Lights",
+      "group": "Lights",
+      "collision": false,
+      "vertices": 768,
+      "faces": 784,
+      "materials": [
+        "M_DiningEnvelope_FixtureWhite",
+        "M_DiningEnvelope_LampDiffuser"
+      ]
+    },
+    {
+      "name": "SM_DiningEnvelope_Fans",
+      "group": "Fans",
+      "collision": false,
+      "vertices": 2624,
+      "faces": 2396,
+      "materials": [
+        "M_DiningEnvelope_FanIvory",
+        "M_DiningEnvelope_FixtureWhite"
+      ]
+    }
+  ],
+  "lights": [
+    {
+      "campus_m": [
+        9.7,
+        13.3,
+        3.81
+      ],
+      "lumens": 4000,
+      "width_cm": 12,
+      "height_cm": 118,
+      "temperature_k": 4500
+    },
+    {
+      "campus_m": [
+        16.85,
+        13.3,
+        3.81
+      ],
+      "lumens": 4000,
+      "width_cm": 12,
+      "height_cm": 118,
+      "temperature_k": 4500
+    },
+    {
+      "campus_m": [
+        9.7,
+        19.1,
+        3.81
+      ],
+      "lumens": 4000,
+      "width_cm": 12,
+      "height_cm": 118,
+      "temperature_k": 4500
+    },
+    {
+      "campus_m": [
+        16.85,
+        19.1,
+        3.81
+      ],
+      "lumens": 4000,
+      "width_cm": 12,
+      "height_cm": 118,
+      "temperature_k": 4500
+    }
+  ],
+  "evidence_record": "photo_evidence.json",
+  "scene_status": "reference_only_excluded_from_walkthrough",
+  "validation": "../../../dining_envelope_validation.json",
+  "walk_validation": "../../../dining_envelope_walk_verification.json",
+  "evidence_review_20261107": {
+    "status": "reference_only_excluded_from_walkthrough",
+    "evidence_review": "SourceAssets/Dining/EvidenceReview_20261107/research_findings.json",
+    "exact_layout_verified": false,
+    "active_in_walkthrough": false,
+    "assets_retained": true,
+    "reviewed_at": "2026-11-07T22:36:47.240009+08:00"
+  },
+  "previous_scene_status_before_evidence_review": "saved_and_checked_partial_reconstruction"
+}

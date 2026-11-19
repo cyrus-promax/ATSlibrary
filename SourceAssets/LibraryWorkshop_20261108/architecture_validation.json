@@ -1,0 +1,10 @@
+{
+  "mesh_count": 222,
+  "identity_transforms": true,
+  "uvs_present": true,
+  "finite_geometry": true,
+  "rendered_views": [
+    "LectureExitClose"
+  ],
+  "scene_asset_saved_unchanged": true
+}

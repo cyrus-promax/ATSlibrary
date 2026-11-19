@@ -1,0 +1,337 @@
+{
+  "backup": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\Saved\\Backups\\DiningConstruction_20261107_225613",
+  "actor_count": 864,
+  "camera_world": [
+    1438.7794381785138,
+    180.0918382697717,
+    -441.780150873962
+  ],
+  "rotation": {
+    "pitch": -38.79990005493164,
+    "yaw": -921.000010073185,
+    "roll": 0.0
+  },
+  "replaced_actors": [
+    {
+      "name": "StaticMeshActor_41",
+      "label": "HistoricRoof | M_Interior_RoofConcrete",
+      "class": "StaticMeshActor",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [],
+      "folder": "None",
+      "editor_only": false,
+      "hidden": false,
+      "editor_hidden": false,
+      "collision": true,
+      "mesh": "/Game/ATS/Revision8/Architecture/ATS_FacadeRevision_SM_Walk_HistoricRoof_RoofConcrete.ATS_FacadeRevision_SM_Walk_HistoricRoof_RoofConcrete",
+      "materials": [
+        "/Game/ATS/Revision8/Materials/M_Interior_RoofConcrete.M_Interior_RoofConcrete"
+      ],
+      "component_collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "component_visible": true
+    },
+    {
+      "name": "StaticMeshActor_49",
+      "label": "HistoricWestWing | M_Interior_FacadeWhite",
+      "class": "StaticMeshActor",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [],
+      "folder": "None",
+      "editor_only": false,
+      "hidden": false,
+      "editor_hidden": false,
+      "collision": true,
+      "mesh": "/Game/ATS/Revision8/Architecture/ATS_FacadeRevision_SM_Walk_HistoricWestWing_FacadeWhite.ATS_FacadeRevision_SM_Walk_HistoricWestWing_FacadeWhite",
+      "materials": [
+        "/Game/ATS/Revision8/Materials/M_Interior_FacadeWhite.M_Interior_FacadeWhite"
+      ],
+      "component_collision": "<CollisionEnabled.QUERY_AND_PHYSICS: 3>",
+      "component_visible": true
+    }
+  ],
+  "projection_actors": [
+    {
+      "name": "StaticMeshActor_591",
+      "label": "G 層餐廳平面投影｜Courtyard",
+      "class": "StaticMeshActor",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [
+        "ATS.DiningPlan.Aligned20261107",
+        "ATS.ReferenceOnly",
+        "ATS.Floor.G",
+        "ATS.ExcludeFromWalkthrough"
+      ],
+      "folder": "References/Dining_Aligned_User_Plan",
+      "editor_only": true,
+      "hidden": true,
+      "editor_hidden": false,
+      "collision": false,
+      "mesh": "/Game/ATS/Dining/PlanReference/Meshes/ATS_Dining_Plan_Reference_SM_DiningPlan_Courtyard.ATS_Dining_Plan_Reference_SM_DiningPlan_Courtyard",
+      "materials": [
+        "/Game/ATS/Dining/PlanReference/Materials/M_DiningPlan_Courtyard.M_DiningPlan_Courtyard"
+      ],
+      "component_collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "component_visible": true
+    },
+    {
+      "name": "StaticMeshActor_593",
+      "label": "G 層餐廳平面投影｜Door",
+      "class": "StaticMeshActor",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [
+        "ATS.DiningPlan.Aligned20261107",
+        "ATS.ReferenceOnly",
+        "ATS.Floor.G",
+        "ATS.ExcludeFromWalkthrough"
+      ],
+      "folder": "References/Dining_Aligned_User_Plan",
+      "editor_only": true,
+      "hidden": true,
+      "editor_hidden": false,
+      "collision": false,
+      "mesh": "/Game/ATS/Dining/PlanReference/Meshes/ATS_Dining_Plan_Reference_SM_DiningPlan_Door.ATS_Dining_Plan_Reference_SM_DiningPlan_Door",
+      "materials": [
+        "/Game/ATS/Dining/PlanReference/Materials/M_DiningPlan_Door.M_DiningPlan_Door"
+      ],
+      "component_collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "component_visible": true
+    },
+    {
+      "name": "StaticMeshActor_594",
+      "label": "G 層餐廳平面投影｜Facility",
+      "class": "StaticMeshActor",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [
+        "ATS.DiningPlan.Aligned20261107",
+        "ATS.ReferenceOnly",
+        "ATS.Floor.G",
+        "ATS.ExcludeFromWalkthrough"
+      ],
+      "folder": "References/Dining_Aligned_User_Plan",
+      "editor_only": true,
+      "hidden": true,
+      "editor_hidden": false,
+      "collision": false,
+      "mesh": "/Game/ATS/Dining/PlanReference/Meshes/ATS_Dining_Plan_Reference_SM_DiningPlan_Facility.ATS_Dining_Plan_Reference_SM_DiningPlan_Facility",
+      "materials": [
+        "/Game/ATS/Dining/PlanReference/Materials/M_DiningPlan_Facility.M_DiningPlan_Facility"
+      ],
+      "component_collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "component_visible": true
+    },
+    {
+      "name": "StaticMeshActor_595",
+      "label": "G 層餐廳平面投影｜Plan",
+      "class": "StaticMeshActor",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [
+        "ATS.DiningPlan.Aligned20261107",
+        "ATS.ReferenceOnly",
+        "ATS.Floor.G",
+        "ATS.ExcludeFromWalkthrough"
+      ],
+      "folder": "References/Dining_Aligned_User_Plan",
+      "editor_only": true,
+      "hidden": true,
+      "editor_hidden": false,
+      "collision": false,
+      "mesh": "/Game/ATS/Dining/PlanReference/Meshes/ATS_Dining_Plan_Reference_SM_DiningPlan_Plan.ATS_Dining_Plan_Reference_SM_DiningPlan_Plan",
+      "materials": [
+        "/Game/ATS/Dining/PlanReference/Materials/M_DiningPlan_Plan.M_DiningPlan_Plan"
+      ],
+      "component_collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "component_visible": true
+    },
+    {
+      "name": "StaticMeshActor_596",
+      "label": "G 層餐廳平面投影｜Plate",
+      "class": "StaticMeshActor",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [
+        "ATS.DiningPlan.Aligned20261107",
+        "ATS.ReferenceOnly",
+        "ATS.Floor.G",
+        "ATS.ExcludeFromWalkthrough"
+      ],
+      "folder": "References/Dining_Aligned_User_Plan",
+      "editor_only": true,
+      "hidden": true,
+      "editor_hidden": false,
+      "collision": false,
+      "mesh": "/Game/ATS/Dining/PlanReference/Meshes/ATS_Dining_Plan_Reference_SM_DiningPlan_Plate.ATS_Dining_Plan_Reference_SM_DiningPlan_Plate",
+      "materials": [
+        "/Game/ATS/Dining/PlanReference/Materials/M_DiningPlan_Plate.M_DiningPlan_Plate"
+      ],
+      "component_collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "component_visible": true
+    },
+    {
+      "name": "StaticMeshActor_597",
+      "label": "G 層餐廳平面投影｜Text",
+      "class": "StaticMeshActor",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 0.000000, y: 0.000000, z: 0.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [
+        "ATS.DiningPlan.Aligned20261107",
+        "ATS.ReferenceOnly",
+        "ATS.Floor.G",
+        "ATS.ExcludeFromWalkthrough"
+      ],
+      "folder": "References/Dining_Aligned_User_Plan",
+      "editor_only": true,
+      "hidden": true,
+      "editor_hidden": false,
+      "collision": false,
+      "mesh": "/Game/ATS/Dining/PlanReference/Meshes/ATS_Dining_Plan_Reference_SM_DiningPlan_Text.ATS_Dining_Plan_Reference_SM_DiningPlan_Text",
+      "materials": [
+        "/Game/ATS/Dining/PlanReference/Materials/M_DiningPlan_Text.M_DiningPlan_Text"
+      ],
+      "component_collision": "<CollisionEnabled.NO_COLLISION: 0>",
+      "component_visible": true
+    },
+    {
+      "name": "TargetPoint_11",
+      "label": "G 層定位｜餐廳｜依新圖對位，尺寸待核實",
+      "class": "TargetPoint",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 248.268657, y: 496.750465, z: -2440.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [
+        "ATS.DiningPlan.Aligned20261107",
+        "ATS.ReferenceOnly",
+        "ATS.Floor.G",
+        "ATS.ExcludeFromWalkthrough",
+        "ATS.DiningPlan.Feature.room"
+      ],
+      "folder": "References/Dining_Aligned_User_Plan",
+      "editor_only": true,
+      "hidden": true,
+      "editor_hidden": true,
+      "collision": false
+    },
+    {
+      "name": "TargetPoint_12",
+      "label": "G 層定位｜露天桌椅區｜依新圖對位，尺寸待核實",
+      "class": "TargetPoint",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 437.342381, y: 1029.870673, z: -2440.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [
+        "ATS.DiningPlan.Aligned20261107",
+        "ATS.ReferenceOnly",
+        "ATS.Floor.G",
+        "ATS.ExcludeFromWalkthrough",
+        "ATS.DiningPlan.Feature.outdoor",
+        "ATS.OutdoorSeatingReference"
+      ],
+      "folder": "References/Dining_Aligned_User_Plan",
+      "editor_only": true,
+      "hidden": true,
+      "editor_hidden": true,
+      "collision": false
+    },
+    {
+      "name": "TargetPoint_13",
+      "label": "G 層定位｜維他天地｜依新圖對位，尺寸待核實",
+      "class": "TargetPoint",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 572.084810, y: 745.140269, z: -2440.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [
+        "ATS.DiningPlan.Aligned20261107",
+        "ATS.ReferenceOnly",
+        "ATS.Floor.G",
+        "ATS.ExcludeFromWalkthrough",
+        "ATS.DiningPlan.Feature.vita"
+      ],
+      "folder": "References/Dining_Aligned_User_Plan",
+      "editor_only": true,
+      "hidden": true,
+      "editor_hidden": true,
+      "collision": false
+    },
+    {
+      "name": "TargetPoint_14",
+      "label": "G 層定位｜右側門 1｜依新圖對位，尺寸待核實",
+      "class": "TargetPoint",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: -135.646088, y: 165.107663, z: -2440.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [
+        "ATS.DiningPlan.Aligned20261107",
+        "ATS.ReferenceOnly",
+        "ATS.Floor.G",
+        "ATS.ExcludeFromWalkthrough",
+        "ATS.DiningPlan.Feature.door_right_upper"
+      ],
+      "folder": "References/Dining_Aligned_User_Plan",
+      "editor_only": true,
+      "hidden": true,
+      "editor_hidden": true,
+      "collision": false
+    },
+    {
+      "name": "TargetPoint_15",
+      "label": "G 層定位｜右側門 2｜依新圖對位，尺寸待核實",
+      "class": "TargetPoint",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 140.796663, y: 69.577525, z: -2440.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [
+        "ATS.DiningPlan.Aligned20261107",
+        "ATS.ReferenceOnly",
+        "ATS.Floor.G",
+        "ATS.ExcludeFromWalkthrough",
+        "ATS.DiningPlan.Feature.door_right_lower"
+      ],
+      "folder": "References/Dining_Aligned_User_Plan",
+      "editor_only": true,
+      "hidden": true,
+      "editor_hidden": true,
+      "collision": false
+    },
+    {
+      "name": "TargetPoint_16",
+      "label": "G 層定位｜靠天井門｜依新圖對位，尺寸待核實",
+      "class": "TargetPoint",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 586.348524, y: 443.218989, z: -2440.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [
+        "ATS.DiningPlan.Aligned20261107",
+        "ATS.ReferenceOnly",
+        "ATS.Floor.G",
+        "ATS.ExcludeFromWalkthrough",
+        "ATS.DiningPlan.Feature.door_bottom"
+      ],
+      "folder": "References/Dining_Aligned_User_Plan",
+      "editor_only": true,
+      "hidden": true,
+      "editor_hidden": true,
+      "collision": false
+    },
+    {
+      "name": "TargetPoint_17",
+      "label": "G 層定位｜洗手池｜依新圖對位，尺寸待核實",
+      "class": "TargetPoint",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 506.291355, y: 195.974884, z: -2440.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [
+        "ATS.DiningPlan.Aligned20261107",
+        "ATS.ReferenceOnly",
+        "ATS.Floor.G",
+        "ATS.ExcludeFromWalkthrough",
+        "ATS.DiningPlan.Feature.washbasin"
+      ],
+      "folder": "References/Dining_Aligned_User_Plan",
+      "editor_only": true,
+      "hidden": true,
+      "editor_hidden": true,
+      "collision": false
+    },
+    {
+      "name": "TargetPoint_18",
+      "label": "G 層定位｜飲水機｜依新圖對位，尺寸待核實",
+      "class": "TargetPoint",
+      "transform": "<Struct 'Transform' (ADDR) {rotation: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}, translation: {x: 399.474177, y: 2.556183, z: -2440.000000}, scale3d: {x: 1.000000, y: 1.000000, z: 1.000000}}>",
+      "tags": [
+        "ATS.DiningPlan.Aligned20261107",
+        "ATS.ReferenceOnly",
+        "ATS.Floor.G",
+        "ATS.ExcludeFromWalkthrough",
+        "ATS.DiningPlan.Feature.water"
+      ],
+      "folder": "References/Dining_Aligned_User_Plan",
+      "editor_only": true,
+      "hidden": true,
+      "editor_hidden": true,
+      "collision": false
+    }
+  ]
+}

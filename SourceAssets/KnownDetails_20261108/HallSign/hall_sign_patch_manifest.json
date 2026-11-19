@@ -1,0 +1,213 @@
+{
+  "status": "asset_prepared_not_imported",
+  "source": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Walkthrough\\ATS_Walkthrough.blend",
+  "source_sha256_before": "0b1fe69043159fa3131a232ba4358a74068450ae930b909d15dfd8374fc3ce4e",
+  "source_sha256_after": "0b1fe69043159fa3131a232ba4358a74068450ae930b909d15dfd8374fc3ce4e",
+  "source_object": "SM_Walk_Hall_Black",
+  "output_object": "SM_Hall_Black_CorrectReadingOrder",
+  "target_actor": "StaticMeshActor_552",
+  "target_label": "Hall | M_Interior_Black",
+  "existing_asset": "/Game/ATS/Revision8/Architecture/ATS_FacadeRevision_SM_Walk_Hall_Black",
+  "only_change": "Rigid translations of four original glyph groups, reversing their physical left-to-right order. No glyph mirroring, font replacement, scale, baseline, height, depth, material, UV or other geometry changes.",
+  "text_before_left_to_right": "夏 理 德 堂",
+  "text_after_left_to_right": "堂 德 理 夏",
+  "reading": "Traditional right-to-left signage reads 夏理德堂.",
+  "glyph_changes": [
+    {
+      "glyph": "夏",
+      "vertices": 892,
+      "old_slot_centre_u": 36.34935583378485,
+      "new_slot_centre_u": 37.85227402021308,
+      "translation_campus_m": [
+        1.5029181864282322,
+        0,
+        0
+      ],
+      "bounds_before_campus_m": [
+        [
+          36.20396388101219,
+          22.847998907574024,
+          7.081213760375977
+        ],
+        [
+          36.494747786557504,
+          22.852001849055547,
+          7.368237304687501
+        ]
+      ],
+      "bounds_after_campus_m": [
+        [
+          37.706882067440425,
+          22.84799917964746,
+          7.081213760375977
+        ],
+        [
+          37.997665972985736,
+          22.852002121128983,
+          7.368237304687501
+        ]
+      ]
+    },
+    {
+      "glyph": "理",
+      "vertices": 356,
+      "old_slot_centre_u": 36.849077143483214,
+      "new_slot_centre_u": 37.352552710514715,
+      "translation_campus_m": [
+        0.5034755670315008,
+        0,
+        0
+      ],
+      "bounds_before_campus_m": [
+        [
+          36.70188872348555,
+          22.847998937300076,
+          7.089709091186524
+        ],
+        [
+          36.996265563480875,
+          22.85200180882694,
+          7.367256927490235
+        ]
+      ],
+      "bounds_after_campus_m": [
+        [
+          37.20536429051705,
+          22.847999430727903,
+          7.089709091186524
+        ],
+        [
+          37.499741130512376,
+          22.85200230225477,
+          7.367256927490235
+        ]
+      ]
+    },
+    {
+      "glyph": "德",
+      "vertices": 1252,
+      "old_slot_centre_u": 37.35043151481072,
+      "new_slot_centre_u": 36.851198339187206,
+      "translation_campus_m": [
+        -0.499233175623516,
+        0,
+        0
+      ],
+      "bounds_before_campus_m": [
+        [
+          37.20340650040893,
+          22.847998825029798,
+          7.083336639404298
+        ],
+        [
+          37.497456529212506,
+          22.85200188870783,
+          7.376732635498048
+        ]
+      ],
+      "bounds_after_campus_m": [
+        [
+          36.704173324785415,
+          22.847998873260117,
+          7.083336639404298
+        ],
+        [
+          36.998223353589005,
+          22.852001936938144,
+          7.376732635498048
+        ]
+      ]
+    },
+    {
+      "glyph": "堂",
+      "vertices": 352,
+      "old_slot_centre_u": 37.85276410969729,
+      "new_slot_centre_u": 36.34886574430064,
+      "translation_campus_m": [
+        -1.5038983653966511,
+        0,
+        0
+      ],
+      "bounds_before_campus_m": [
+        [
+          37.707862246408844,
+          22.84799895878063,
+          7.091667938232423
+        ],
+        [
+          37.997665972985736,
+          22.852001864906576,
+          7.375426101684571
+        ]
+      ],
+      "bounds_after_campus_m": [
+        [
+          36.20396388101219,
+          22.84799922014355,
+          7.091667938232423
+        ],
+        [
+          36.49376760758909,
+          22.85200212626949,
+          7.375426101684571
+        ]
+      ]
+    }
+  ],
+  "vertices_total": 3364,
+  "moved_text_vertices": 2852,
+  "untouched_other_vertices": 512,
+  "other_vertices_sha256_before": "d9c6bb2f6efeb90fa9c4db89bf8949e85de63434dc2cdf063a177c95dcb4f944",
+  "other_vertices_sha256_after": "d9c6bb2f6efeb90fa9c4db89bf8949e85de63434dc2cdf063a177c95dcb4f944",
+  "topology_sha256_before": "9a90dc25e7ee4838e5b480ed7f99c79c577ff745b0e665b53808328d73680edb",
+  "topology_sha256_after": "9a90dc25e7ee4838e5b480ed7f99c79c577ff745b0e665b53808328d73680edb",
+  "uvs_sha256_before": "9ca97f997885ff8b546e8d0d3c61c63ca4b26438e0eb282a38eb6b4aa3652903",
+  "uvs_sha256_after": "9ca97f997885ff8b546e8d0d3c61c63ca4b26438e0eb282a38eb6b4aa3652903",
+  "sign_u_bounds_before": [
+    36.20396388101219,
+    37.997665972985736
+  ],
+  "sign_u_bounds_after": [
+    36.20396388101219,
+    37.997665972985736
+  ],
+  "material_slots": [
+    "M_Interior_Black"
+  ],
+  "photo_evidence": [
+    "work/research/photos/HK-Aberdeen-Technical-School-03@1200x1200.JPG",
+    "work/research/photos/HK-Aberdeen-Technical-School-08@1200x1200.JPG"
+  ],
+  "files": [
+    {
+      "path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\KnownDetails_20261108\\HallSign\\ATS_HallSign_ReadingOrder.fbx",
+      "bytes": 116396,
+      "sha256": "f66f71bf6282d312fb9259317c0147bedd34cd38ea8e15f0d55b43a77918bd40"
+    },
+    {
+      "path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\KnownDetails_20261108\\HallSign\\ATS_HallSign_ReadingOrder.blend",
+      "bytes": 175394,
+      "sha256": "b8e4956114c92181db10242800e84b5131f7bb02d53ed1cdb05ca0e26a656121"
+    }
+  ],
+  "limitations": "This correction verifies only character order. Existing hall dimensions, facade and other objects are not certified as a measured 1:1 reconstruction.",
+  "UE_changes": 0,
+  "visual_verification": {
+    "method": "Independent orthographic front renders of patched mesh and original glyph positions reconstructed only in memory; no file saves from proof renderer.",
+    "before_visible_left_to_right": "夏 理 德 堂",
+    "after_visible_left_to_right": "堂 德 理 夏",
+    "glyph_shapes_not_mirrored": true,
+    "files": [
+      {
+        "path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\KnownDetails_20261108\\HallSign\\hall_sign_before.png",
+        "bytes": 288325,
+        "sha256": "31b73048e4523f171c7a1717418123e2156807b31c58da345a6d2adee8e3b4cd"
+      },
+      {
+        "path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\KnownDetails_20261108\\HallSign\\hall_sign_after.png",
+        "bytes": 288128,
+        "sha256": "e17e405be4a2c493b939a922c3f521b0becf275bb83f8211ab00d9c9156411b1"
+      }
+    ]
+  }
+}

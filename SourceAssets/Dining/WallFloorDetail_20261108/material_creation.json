@@ -1,0 +1,22 @@
+{
+  "status": "created_pending_live_visual_check",
+  "materials": {
+    "mosaic": "/Game/ATS/Dining/WallFloorDetail_20261108/Materials/M_Dining_Hall_BasketMosaic_Multiscale.M_Dining_Hall_BasketMosaic_Multiscale",
+    "border": "/Game/ATS/Dining/WallFloorDetail_20261108/Materials/M_Dining_Hall_CharcoalCap_FineJoint.M_Dining_Hall_CharcoalCap_FineJoint",
+    "skirting": "/Game/ATS/Dining/WallFloorDetail_20261108/Materials/M_Dining_Hall_DarkTerrazzoSkirting_Contrasted.M_Dining_Hall_DarkTerrazzoSkirting_Contrasted",
+    "floor": "/Game/ATS/Dining/WallFloorDetail_20261108/Materials/M_Dining_DryTerrazzo_ContrastedAggregate.M_Dining_DryTerrazzo_ContrastedAggregate"
+  },
+  "geometry_unchanged": true,
+  "mosaic_module_model_cm": 3.6,
+  "mosaic_strip_count_model": 3,
+  "mosaic_change": "Preserve block mean colour before global distant averaging; modest grout contrast and shallow joint highlight response. Module size unchanged.",
+  "floor_change": "Neutral pale warm matrix with more distinct dark/grey/ivory aggregate; aggregate scale 1.20 visual estimate, dry roughness .50; same stable sampled mean; no bump or displacement.",
+  "skirting_change": "More visible grey and light aggregate in the dark base strip",
+  "all_numeric_surface_settings_are_visual_estimates": true,
+  "not_added": [
+    "Floor-band geometry",
+    "Floor slab-joint grid",
+    "Unregistered reflective wall panels",
+    "Unknown partitions"
+  ]
+}

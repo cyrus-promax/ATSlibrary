@@ -1,0 +1,27 @@
+{
+  "user_plan": {
+    "path": "餐廳結構圖.png",
+    "sha256": "0ce4c07068569252036ceaabbf35e00da29ded2c5474d1726338ff3d64564057",
+    "clarification": "有售賣窗口的小賣部"
+  },
+  "photo_references": [
+    {
+      "url": "http://www.ats.edu.hk/images/doc/2627_School_News_1.pdf",
+      "pdf_page": 16,
+      "purpose": "Pale pink mosaic wall and brown door appearance; no full layout claim."
+    },
+    {
+      "url": "http://www.ats.edu.hk/images/doc/2324_School_News_1.pdf",
+      "pdf_page": 12,
+      "purpose": "White ceiling, linear lighting, pale tiles and dark trim; flood-cleaning furniture layout not used."
+    },
+    {
+      "url": "https://media.goodschool.hk/storage/upload/ebook/2021-11-02-175925-108203.pdf",
+      "pdf_page": 15,
+      "purpose": "Window framing and small pale mosaic tiles; furniture obscured by group photo."
+    }
+  ],
+  "observations_and_limits": "../EvidenceReview_20261107/research_findings.json",
+  "user_plan_world_alignment": "../UserAlignment_20261107/alignment.json",
+  "scope": "User explicitly requested physical construction from this plan. Exact dimensions and fixture product models remain estimates."
+}

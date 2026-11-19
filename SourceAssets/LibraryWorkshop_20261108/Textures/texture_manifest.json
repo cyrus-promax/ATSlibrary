@@ -1,0 +1,223 @@
+{
+  "version": 1,
+  "created_at_local": "2026-11-08T18:50:24",
+  "resolution_policy": "All supplied maps are original 4096x4096 downloads, not upscaled or generated.",
+  "visual_limit": "Photographic finish matching, not verified original school product identity.",
+  "assets": [
+    {
+      "asset_key": "oak_veneer_02",
+      "title": "Pale oak veneer",
+      "usage": "Furniture, cabinet panels, tables, reading steps",
+      "source": "Poly Haven",
+      "source_page": "https://polyhaven.com/a/oak_veneer_02",
+      "license": "CC0 1.0",
+      "license_url": "https://polyhaven.com/license",
+      "physical_tile_metres": [
+        1.0,
+        1.0
+      ],
+      "normal_convention": "OpenGL (+Y). UE requires flip_green_channel=True for these normal files.",
+      "maps": {
+        "base_color": {
+          "path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\LibraryWorkshop_20261108\\Textures\\oak_veneer_02\\oak_veneer_02_diff_4k.jpg",
+          "filename": "oak_veneer_02_diff_4k.jpg",
+          "width": 4096,
+          "height": 4096,
+          "sha256": "bc19644b49bc66efaa84346247fa1294431d2a898dd0dd66462f3b18343f416d",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/oak_veneer_02/oak_veneer_02_diff_4k.jpg",
+          "bytes": 9748186,
+          "relative_path": "oak_veneer_02/oak_veneer_02_diff_4k.jpg"
+        },
+        "normal_gl": {
+          "path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\LibraryWorkshop_20261108\\Textures\\oak_veneer_02\\oak_veneer_02_nor_gl_4k.png",
+          "filename": "oak_veneer_02_nor_gl_4k.png",
+          "width": 4096,
+          "height": 4096,
+          "sha256": "79d0e47157c247e5fbeecca3b7064234f573b7c25574d7f2a18274329544476c",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/4k/oak_veneer_02/oak_veneer_02_nor_gl_4k.png",
+          "bytes": 75182646,
+          "relative_path": "oak_veneer_02/oak_veneer_02_nor_gl_4k.png"
+        },
+        "roughness": {
+          "path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\LibraryWorkshop_20261108\\Textures\\oak_veneer_02\\oak_veneer_02_rough_4k.jpg",
+          "filename": "oak_veneer_02_rough_4k.jpg",
+          "width": 4096,
+          "height": 4096,
+          "sha256": "bd29bef2435109e494c9d65bb1e3adfeff36016b17e88119301cd97bb9878b43",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/oak_veneer_02/oak_veneer_02_rough_4k.jpg",
+          "bytes": 11885802,
+          "relative_path": "oak_veneer_02/oak_veneer_02_rough_4k.jpg"
+        },
+        "ambient_occlusion": {
+          "path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\LibraryWorkshop_20261108\\Textures\\oak_veneer_02\\oak_veneer_02_ao_4k.jpg",
+          "filename": "oak_veneer_02_ao_4k.jpg",
+          "width": 4096,
+          "height": 4096,
+          "sha256": "c12ea4ed3efd98b29af5bb7e1eeb14def5f12ca88d2ecb8dd24278c7e833238a",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/oak_veneer_02/oak_veneer_02_ao_4k.jpg",
+          "bytes": 8260449,
+          "relative_path": "oak_veneer_02/oak_veneer_02_ao_4k.jpg"
+        }
+      },
+      "srgb": {
+        "base_color": true,
+        "normal_gl": false,
+        "roughness": false,
+        "ambient_occlusion": false
+      },
+      "shader_guidance": {
+        "normal_strength_suggestion": 0.25,
+        "roughness_min_suggestion": 0.42,
+        "roughness_max_suggestion": 0.68,
+        "uv_note": "Original grain follows U. Rotate UVs per board to align the grain with its long axis."
+      }
+    },
+    {
+      "asset_key": "white_plaster_02",
+      "title": "Fine white plaster",
+      "usage": "White painted walls and ceiling",
+      "source": "Poly Haven",
+      "source_page": "https://polyhaven.com/a/white_plaster_02",
+      "license": "CC0 1.0",
+      "license_url": "https://polyhaven.com/license",
+      "physical_tile_metres": [
+        1.0,
+        1.0
+      ],
+      "normal_convention": "OpenGL (+Y). UE requires flip_green_channel=True for these normal files.",
+      "maps": {
+        "base_color": {
+          "path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\LibraryWorkshop_20261108\\Textures\\white_plaster_02\\white_plaster_02_diff_4k.jpg",
+          "filename": "white_plaster_02_diff_4k.jpg",
+          "width": 4096,
+          "height": 4096,
+          "sha256": "a0c48b2de0d4e4c5ad51cda7110dbeb31698fa41b87bce3b28caa608b6e64745",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/white_plaster_02/white_plaster_02_diff_4k.jpg",
+          "bytes": 10554018,
+          "relative_path": "white_plaster_02/white_plaster_02_diff_4k.jpg"
+        },
+        "normal_gl": {
+          "path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\LibraryWorkshop_20261108\\Textures\\white_plaster_02\\white_plaster_02_nor_gl_4k.jpg",
+          "filename": "white_plaster_02_nor_gl_4k.jpg",
+          "width": 4096,
+          "height": 4096,
+          "sha256": "addfca7ccb03ce152f1dedc388d7c8bfe323229fca44b5414f069e7c3c0365a6",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/white_plaster_02/white_plaster_02_nor_gl_4k.jpg",
+          "bytes": 13443163,
+          "relative_path": "white_plaster_02/white_plaster_02_nor_gl_4k.jpg"
+        },
+        "roughness": {
+          "path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\LibraryWorkshop_20261108\\Textures\\white_plaster_02\\white_plaster_02_rough_4k.jpg",
+          "filename": "white_plaster_02_rough_4k.jpg",
+          "width": 4096,
+          "height": 4096,
+          "sha256": "810fc5511cbf898fc803d307694d930d646be62c1dc4ba29071363baf0e04a4f",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/white_plaster_02/white_plaster_02_rough_4k.jpg",
+          "bytes": 6643592,
+          "relative_path": "white_plaster_02/white_plaster_02_rough_4k.jpg"
+        },
+        "ambient_occlusion": {
+          "path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\LibraryWorkshop_20261108\\Textures\\white_plaster_02\\white_plaster_02_ao_4k.jpg",
+          "filename": "white_plaster_02_ao_4k.jpg",
+          "width": 4096,
+          "height": 4096,
+          "sha256": "36a318223b60328a451ff898d1bc833869ab04deaa78c9561b066934043ce5be",
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/white_plaster_02/white_plaster_02_ao_4k.jpg",
+          "bytes": 8909932,
+          "relative_path": "white_plaster_02/white_plaster_02_ao_4k.jpg"
+        }
+      },
+      "srgb": {
+        "base_color": true,
+        "normal_gl": false,
+        "roughness": false,
+        "ambient_occlusion": false
+      },
+      "shader_guidance": {
+        "normal_strength_suggestion": 0.05,
+        "roughness_min_suggestion": 0.7,
+        "roughness_max_suggestion": 0.9,
+        "base_color_linear_suggestion": [
+          0.8,
+          0.8,
+          0.77
+        ],
+        "base_color_texture_mix_suggestion": 0.08,
+        "visual_review": "Raw diffuse is greyer and more textured than the photographed white paint. Do not apply it unchanged; use only subtle variation over clean white paint.",
+        "uv_note": "1 metre per tile. Keep relief very subtle; these are smooth white indoor surfaces."
+      }
+    },
+    {
+      "asset_key": "WoodFloor051",
+      "title": "Light staggered plank floor",
+      "usage": "Library light wood-look floor",
+      "source": "ambientCG",
+      "source_page": "https://ambientcg.com/view?id=WoodFloor051",
+      "license": "CC0 1.0",
+      "license_url": "https://docs.ambientcg.com/license/",
+      "physical_tile_metres": [
+        1.8,
+        1.8
+      ],
+      "normal_convention": "OpenGL (+Y). UE requires flip_green_channel=True for these normal files.",
+      "maps": {
+        "base_color": {
+          "path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\LibraryWorkshop_20261108\\Textures\\WoodFloor051\\WoodFloor051_4K-JPG_Color.jpg",
+          "filename": "WoodFloor051_4K-JPG_Color.jpg",
+          "width": 4096,
+          "height": 4096,
+          "sha256": "d0282585a8ec84aa3f58f4081c25ca9ee12efb4c7f1c7814f89315d3af5f7a8f",
+          "source_url": "https://ambientcg.com/get?file=WoodFloor051_4K-JPG.zip",
+          "archive_member": "WoodFloor051_4K-JPG_Color.jpg",
+          "bytes": 16728805,
+          "relative_path": "WoodFloor051/WoodFloor051_4K-JPG_Color.jpg"
+        },
+        "normal_gl": {
+          "path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\LibraryWorkshop_20261108\\Textures\\WoodFloor051\\WoodFloor051_4K-JPG_NormalGL.jpg",
+          "filename": "WoodFloor051_4K-JPG_NormalGL.jpg",
+          "width": 4096,
+          "height": 4096,
+          "sha256": "66da2ea87b9f69562d3962b90a7081c675f82b5d60ebd65e6525653fc51564ea",
+          "source_url": "https://ambientcg.com/get?file=WoodFloor051_4K-JPG.zip",
+          "archive_member": "WoodFloor051_4K-JPG_NormalGL.jpg",
+          "bytes": 14400184,
+          "relative_path": "WoodFloor051/WoodFloor051_4K-JPG_NormalGL.jpg"
+        },
+        "roughness": {
+          "path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\LibraryWorkshop_20261108\\Textures\\WoodFloor051\\WoodFloor051_4K-JPG_Roughness.jpg",
+          "filename": "WoodFloor051_4K-JPG_Roughness.jpg",
+          "width": 4096,
+          "height": 4096,
+          "sha256": "aba1e575086e67c4cd1c40a1d3aaae368ca8d3c84f4006d91215aeac499bac96",
+          "source_url": "https://ambientcg.com/get?file=WoodFloor051_4K-JPG.zip",
+          "archive_member": "WoodFloor051_4K-JPG_Roughness.jpg",
+          "bytes": 5626729,
+          "relative_path": "WoodFloor051/WoodFloor051_4K-JPG_Roughness.jpg"
+        },
+        "ambient_occlusion": {
+          "path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\LibraryWorkshop_20261108\\Textures\\WoodFloor051\\WoodFloor051_4K-JPG_AmbientOcclusion.jpg",
+          "filename": "WoodFloor051_4K-JPG_AmbientOcclusion.jpg",
+          "width": 4096,
+          "height": 4096,
+          "sha256": "66ab37305500552b75a358dba39af7d05da1e9e3bb7b120af47570e8985cc5e0",
+          "source_url": "https://ambientcg.com/get?file=WoodFloor051_4K-JPG.zip",
+          "archive_member": "WoodFloor051_4K-JPG_AmbientOcclusion.jpg",
+          "bytes": 1204961,
+          "relative_path": "WoodFloor051/WoodFloor051_4K-JPG_AmbientOcclusion.jpg"
+        }
+      },
+      "srgb": {
+        "base_color": true,
+        "normal_gl": false,
+        "roughness": false,
+        "ambient_occlusion": false
+      },
+      "shader_guidance": {
+        "normal_strength_suggestion": 0.35,
+        "roughness_min_suggestion": 0.4,
+        "roughness_max_suggestion": 0.65,
+        "uv_note": "1.8 metres per tile. Align plank length to the room/photo direction, not random per triangle."
+      }
+    }
+  ]
+}

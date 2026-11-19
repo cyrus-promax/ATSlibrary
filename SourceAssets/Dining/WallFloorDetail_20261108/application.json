@@ -1,0 +1,169 @@
+{
+  "status": "applied_pending_visual_check",
+  "materials": [
+    {
+      "actor": "StaticMeshActor_600",
+      "slot": 0,
+      "before": "/Game/ATS/Dining/StructuralSurfaces_20261108/Materials/M_Dining_DryTerrazzo_StableGrain.M_Dining_DryTerrazzo_StableGrain",
+      "after": "/Game/ATS/Dining/WallFloorDetail_20261108/Materials/M_Dining_DryTerrazzo_ContrastedAggregate.M_Dining_DryTerrazzo_ContrastedAggregate"
+    },
+    {
+      "actor": "StaticMeshActor_618",
+      "slot": 0,
+      "before": "/Game/ATS/Dining/StructuralSurfaces_20261108/Materials/M_Dining_DryTerrazzo_StableGrain.M_Dining_DryTerrazzo_StableGrain",
+      "after": "/Game/ATS/Dining/WallFloorDetail_20261108/Materials/M_Dining_DryTerrazzo_ContrastedAggregate.M_Dining_DryTerrazzo_ContrastedAggregate"
+    },
+    {
+      "actor": "StaticMeshActor_619",
+      "slot": 0,
+      "before": "/Game/ATS/Dining/StructuralSurfaces_20261108/Materials/M_Dining_Hall_DarkTerrazzoSkirting.M_Dining_Hall_DarkTerrazzoSkirting",
+      "after": "/Game/ATS/Dining/WallFloorDetail_20261108/Materials/M_Dining_Hall_DarkTerrazzoSkirting_Contrasted.M_Dining_Hall_DarkTerrazzoSkirting_Contrasted"
+    },
+    {
+      "actor": "StaticMeshActor_619",
+      "slot": 1,
+      "before": "/Game/ATS/Dining/StructuralSurfaces_20261108/Materials/M_Dining_Hall_CharcoalCap.M_Dining_Hall_CharcoalCap",
+      "after": "/Game/ATS/Dining/WallFloorDetail_20261108/Materials/M_Dining_Hall_CharcoalCap_FineJoint.M_Dining_Hall_CharcoalCap_FineJoint"
+    },
+    {
+      "actor": "StaticMeshActor_619",
+      "slot": 2,
+      "before": "/Game/ATS/Dining/StructuralSurfaces_20261108/Materials/M_Dining_Hall_BasketMosaic.M_Dining_Hall_BasketMosaic",
+      "after": "/Game/ATS/Dining/WallFloorDetail_20261108/Materials/M_Dining_Hall_BasketMosaic_Multiscale.M_Dining_Hall_BasketMosaic_Multiscale"
+    }
+  ],
+  "lighting": [
+    {
+      "actor": "RectLight_4",
+      "before": 5300.0,
+      "after": 6000,
+      "purpose": "Rendering white-balance adjustment toward neutral photographed surfaces, not a verified lamp specification."
+    },
+    {
+      "actor": "RectLight_5",
+      "before": 5300.0,
+      "after": 6000,
+      "purpose": "Rendering white-balance adjustment toward neutral photographed surfaces, not a verified lamp specification."
+    },
+    {
+      "actor": "RectLight_6",
+      "before": 5300.0,
+      "after": 6000,
+      "purpose": "Rendering white-balance adjustment toward neutral photographed surfaces, not a verified lamp specification."
+    },
+    {
+      "actor": "RectLight_7",
+      "before": 5300.0,
+      "after": 6000,
+      "purpose": "Rendering white-balance adjustment toward neutral photographed surfaces, not a verified lamp specification."
+    },
+    {
+      "actor": "RectLight_8",
+      "before": 5300.0,
+      "after": 6000,
+      "purpose": "Rendering white-balance adjustment toward neutral photographed surfaces, not a verified lamp specification."
+    },
+    {
+      "actor": "RectLight_9",
+      "before": 5300.0,
+      "after": 6000,
+      "purpose": "Rendering white-balance adjustment toward neutral photographed surfaces, not a verified lamp specification."
+    },
+    {
+      "actor": "RectLight_10",
+      "before": 5300.0,
+      "after": 6000,
+      "purpose": "Rendering white-balance adjustment toward neutral photographed surfaces, not a verified lamp specification."
+    },
+    {
+      "actor": "RectLight_11",
+      "before": 5300.0,
+      "after": 6000,
+      "purpose": "Rendering white-balance adjustment toward neutral photographed surfaces, not a verified lamp specification."
+    },
+    {
+      "actor": "RectLight_12",
+      "before": 5300.0,
+      "after": 6000,
+      "purpose": "Rendering white-balance adjustment toward neutral photographed surfaces, not a verified lamp specification."
+    },
+    {
+      "actor": "RectLight_13",
+      "before": 5300.0,
+      "after": 6000,
+      "purpose": "Rendering white-balance adjustment toward neutral photographed surfaces, not a verified lamp specification."
+    },
+    {
+      "actor": "RectLight_14",
+      "before": 5300.0,
+      "after": 6000,
+      "purpose": "Rendering white-balance adjustment toward neutral photographed surfaces, not a verified lamp specification."
+    },
+    {
+      "actor": "RectLight_15",
+      "before": 5300.0,
+      "after": 6000,
+      "purpose": "Rendering white-balance adjustment toward neutral photographed surfaces, not a verified lamp specification."
+    },
+    {
+      "actor": "RectLight_16",
+      "before": 5300.0,
+      "after": 6000,
+      "purpose": "Rendering white-balance adjustment toward neutral photographed surfaces, not a verified lamp specification."
+    },
+    {
+      "actor": "RectLight_17",
+      "before": 5300.0,
+      "after": 6000,
+      "purpose": "Rendering white-balance adjustment toward neutral photographed surfaces, not a verified lamp specification."
+    },
+    {
+      "actor": "RectLight_18",
+      "before": 5300.0,
+      "after": 6000,
+      "purpose": "Rendering white-balance adjustment toward neutral photographed surfaces, not a verified lamp specification."
+    },
+    {
+      "actor": "RectLight_19",
+      "before": 5300.0,
+      "after": 6000,
+      "purpose": "Rendering white-balance adjustment toward neutral photographed surfaces, not a verified lamp specification."
+    },
+    {
+      "actor": "RectLight_20",
+      "before": 5300.0,
+      "after": 6000,
+      "purpose": "Rendering white-balance adjustment toward neutral photographed surfaces, not a verified lamp specification."
+    },
+    {
+      "actor": "RectLight_21",
+      "before": 5300.0,
+      "after": 6000,
+      "purpose": "Rendering white-balance adjustment toward neutral photographed surfaces, not a verified lamp specification."
+    },
+    {
+      "actor": "RectLight_22",
+      "before": 5300.0,
+      "after": 6000,
+      "purpose": "Rendering white-balance adjustment toward neutral photographed surfaces, not a verified lamp specification."
+    },
+    {
+      "actor": "RectLight_23",
+      "before": 5300.0,
+      "after": 6000,
+      "purpose": "Rendering white-balance adjustment toward neutral photographed surfaces, not a verified lamp specification."
+    },
+    {
+      "actor": "RectLight_24",
+      "before": 5300.0,
+      "after": 6000,
+      "purpose": "Rendering white-balance adjustment toward neutral photographed surfaces, not a verified lamp specification."
+    }
+  ],
+  "brightness_positions_and_lamp_geometry_unchanged": true,
+  "mesh_change": {
+    "actor": "StaticMeshActor_619",
+    "before": "/Game/ATS/Dining/CrossWindowWall_20261108/Meshes/ATS_Dining_CrossWindows_SM_DiningCross_Tiles.ATS_Dining_CrossWindows_SM_DiningCross_Tiles",
+    "after": "/Game/ATS/Dining/WallFloorDetail_20261108/Meshes/SM_Dining_WallFloorJoinedPanels.SM_Dining_WallFloorJoinedPanels"
+  }
+}

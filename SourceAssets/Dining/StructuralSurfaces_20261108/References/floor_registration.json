@@ -1,0 +1,97 @@
+{
+  "review_date": "2026-11-08",
+  "scope": "Photo registration and floor material research only. No Unreal execution, scene mutation or project-asset modification.",
+  "registration_status": "The floor's appearance and several local dark-band relationships are visible, but a defensible world-coordinate registration to the current user G-floor model is not established.",
+  "sources": [
+    {
+      "id": "hk01_school_supplied_cleanup_2023",
+      "page_url": "https://www.hk01.com/article/939149",
+      "local_image": "work/research/dining_shutters/hk01_flood_06.jpg",
+      "resolution": [1824, 1368],
+      "visually_inspected": true,
+      "observations": [
+        "Light beige terrazzo contains distinct dark, grey and pale angular chips; broad charcoal terrazzo strips have many contrasting white chips.",
+        "Visible dark bands cross the foreground and connect around the visible column-base zone. At least two broad transverse portions and a connecting diagonal-in-perspective portion are visible; this is not merely thin black grout.",
+        "Fine slab joints are present inside the pale field. The dark band layout is only partially visible; people, furniture, muddy water and image boundaries hide parts.",
+        "The image includes tall windows on two adjacent wall directions, a cross on the far wall, pale patterned column wraps and blue fans.",
+        "The floor is wet and muddy during cleanup. Strong mirror reflections and yellow-brown water colour are not the dry normal material."
+      ],
+      "not_recovered": ["Band width in metres", "Floor-tile module in metres", "Whole-room black-band graph", "Camera pose or scale", "Correspondence to current UE doors and shop", "Normal furniture layout"]
+    },
+    {
+      "id": "goodschool_dry_2021",
+      "page_url": "https://media.goodschool.hk/storage/upload/ebook/2021-11-02-175925-108203.pdf",
+      "pdf_page": 15,
+      "local_image": "work/research/dining_layout/goodschool_2021_p15_image26.png",
+      "resolution": [823, 550],
+      "visually_inspected": true,
+      "observations": [
+        "Dry-looking foreground is pale warm-grey/beige terrazzo with clearly contrasted aggregate and fine slab joints.",
+        "A broad dark speckled band passes in front of the standing group and meets the right visible column-base area.",
+        "Tall windows, a cross, pale rectangular-pattern column wrap, blue fans and exposed white beams are consistent with the 2023 hall, viewed from another direction. This is a visual correspondence inference, not a solved camera transform.",
+        "People cover the band's far edge and most of the hall. The image cannot supply a complete floor layout."
+      ],
+      "not_recovered": ["Measured chip size", "Measured band width", "World positions", "Whole-room dimensions"]
+    },
+    {
+      "id": "goodschool_2026_prospectus_newly_checked",
+      "entry_page_url": "https://www.goodschool.hk/ebook/qr/81005",
+      "pdf_url": "https://media.goodschool.hk/storage/upload/ebook/2026-10-16-172815-785575.pdf",
+      "local_pdf": "work/research/dining_structure_20261108/ats_school_intro_2026.pdf",
+      "pages": 36,
+      "all_pages_visually_reviewed": true,
+      "text_extraction_result": "All 36 pages are raster scans, so keyword matching alone returned no content. All pages were subsequently rendered and visually reviewed.",
+      "review_artifacts": ["ats_2026_contact_01.jpg", "ats_2026_contact_02.jpg", "ats_2026_contact_03.jpg"],
+      "relevant_pages": [
+        {"pdf_page": 24, "printed_page": 22, "native_page_image": "ats_2026_native_page_24_00.jpg", "observation": "Lower-right normal dining close-up shows white tables and blue independent chairs. People and tables conceal the floor and room boundaries; this does not locate floor strips, beams or entrances."},
+        {"pdf_page": 23, "printed_page": 21, "observation": "Orange-shirt serving-food photo is a known reused image, not a new independent angle."},
+        {"pdf_page": 20, "printed_page": 18, "observation": "Large boarding group photograph is in a different bright activity room with cabinet wall; it cannot be used to substitute the dining hall's surfaces."},
+        {"pdf_page": 21, "printed_page": 19, "observation": "Lower-right image is a library/bookshelf setting, not a dining-window position."}
+      ],
+      "limit": "Publication title and upload date do not establish the capture dates of its photographs. No new registered whole-dining-room panorama was found."
+    }
+  ],
+  "registration_barriers": [
+    "Current reconstruction specifications put major dining windows on the two opposite v-boundary walls, whereas the clear 2023 photo shows windows on adjacent wall directions. The current model windows must not be treated as solved photo correspondences merely because both have windows.",
+    "The user's relative plan provides shop, three doors, sink, fountain and nearby courtyards, but none is unambiguously identified together with the black floor bands in the reviewed photographs.",
+    "A cross, blue fan or generic column alone is not a unique surveyed control point. No exact similarity/homography-to-world transform is justified.",
+    "The room's model area and storey height are pre-existing model estimates; they cannot convert photographic band widths or column spacing into measured values."
+  ],
+  "safe_changes_without_new_layout_assumptions": [
+    "Improve the general dry light terrazzo's aggregate contrast and preserve its average colour at long distance.",
+    "Keep the material low-to-moderately glossy rather than copying water reflections.",
+    "Prepare a dark speckled terrazzo material for later use, but do not assign invented black-band strips or slab joints across the room.",
+    "Preserve the previously chosen neutral white paint while geometry registration remains unresolved."
+  ],
+  "shader_review": {
+    "reviewed_code": "work/create_dining_photo_materials.py",
+    "reviewed_render": "ATS/Previews/C23_Dining_Table_and_Floor.png",
+    "finding": "The first shader visibly fades toward nearly plain light beige in the distance. Its unresolved grain path mixes a layer average containing only 0.16 aggregate contribution at a further 0.30 blend, so it does not conserve the visible chip-mask mean. The material also reads as fine sand more than the contrasted angular chips in the dry 2021 photo.",
+    "uncalibrated_roi_comparison": {
+      "notice": "Different exposure, camera, surface distance and pixel scale: these are directional contrast diagnostics only, not measured albedo or a fidelity score.",
+      "dry2021_roi_pixels": [320,490,610,540],
+      "dry2021_luminance_p10_p90": [131.0,186.6666666667],
+      "ue_C23_roi_pixels": [30,650,320,750],
+      "ue_C23_luminance_p10_p90": [117.6666666667,140.0]
+    },
+    "new_builder": "work/create_dining_registered_surface_materials.py",
+    "entrypoint": "create_dining_registered_surface_materials(save=True, include_wall_studies=False)",
+    "new_asset_root": "/Game/ATS/Dining/StructuralSurfaces_20261108/Materials",
+    "returns": "result['materials']['floor'] and result['materials']['paint']; also material_paths, created and reused_untouched",
+    "changes": [
+      "Moderately increase coarse-chip mask coverage while retaining millimetre-scale chips; do not enlarge grains into gravel.",
+      "Increase dark/grey chip share while keeping a light beige matrix and pale chips.",
+      "Numerically integrate each proposed layer over 300000 sample positions and use that mask's coverage and colour moments for the unresolved average; blend between resolved colour and the integrated average.",
+      "Retain analytic edge filtering, dry roughness 0.55, no relief/displacement and neutral white paint sRGB (231,230,225).",
+      "No black-band grid, floor-joint grid or geometry is introduced."
+    ],
+    "numerical_sampling_report": "work/research/dining_structure_20261108/floor_shader_sampling.json",
+    "numerical_sampling_warning": "The calculated coverages 0.19391 and 0.1614633 describe the proposed shader, not measured real-world aggregate percentages.",
+    "validation": "New Python builder syntax checked only. No UE execution or shader compilation was performed by this agent. Parent must inspect compile errors and lit near/far views."
+  },
+  "new_video_leads": [
+    {"url":"https://www.youtube.com/watch?v=vefRqyBVdcE","title":"《築蹟足跡》第十集：香港仔工業學校","channel":"公教頻道","published":"2026-07-03","status":"Passed to wall-registration agent; existing storyboards already saved in outdoor_seating research. Not claimed as new visual evidence by this floor task."},
+    {"url":"https://www.youtube.com/watch?v=JrZGGgkGTEE","title":"香港仔工業學校 寄宿部簡介","channel":"ATS Channel","published":"2014-12-28","status":"Search metadata only. Ceiling agent investigating access; not used for geometry."}
+  ],
+  "conclusion": "The floor appearance can be improved now, but complete real-world floor geometry and all black-band positions cannot honestly be certified from the reviewed sources. Additional anchored room views or a measured plan are required for that step."
+}

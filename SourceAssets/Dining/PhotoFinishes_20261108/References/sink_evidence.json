@@ -1,0 +1,83 @@
+{
+  "review_date": "2026-11-08",
+  "scope": "ATS G-floor restaurant sink evidence; research only; no project edits",
+  "conclusion": "No reviewed source confirms the complete fixed sink, its measured length, continuous trough form, material or tap count. The user's drawing confirms relative placement and the latest instruction authorizes making the current sink longer.",
+  "user_confirmed": {
+    "placement": "Courtyard-side restaurant wall, between the door and the drinking fountain",
+    "change": "Make the sink longer",
+    "drawing_is_survey": false
+  },
+  "visual_sources": [
+    {
+      "source": "ATS 2026/27 School News issue 1, PDF page 16",
+      "url": "http://www.ats.edu.hk/images/doc/2627_School_News_1.pdf",
+      "local_image": "work/research/dining_layout/2627_School_News_1_p16_image12.png",
+      "resolution": [1005, 754],
+      "observed": [
+        "Students performing cleaning work; a foreground student holds a hose",
+        "Red plastic basins stand on a long metal-looking table/rack along the left side",
+        "The rack has dark vertical supports and a reflective horizontal top",
+        "People and basins obscure the top; no clear row of taps or complete continuous trough is visible",
+        "A person stands at a small partly obscured metallic fixture near the rear window"
+      ],
+      "not_established": [
+        "That the red-basin rack is the fixed handwashing sink in the user's drawing",
+        "The room-to-model position of this wash area",
+        "The number of taps",
+        "The length of any sink",
+        "Stainless steel versus another metallic finish for the fixed sink"
+      ],
+      "allowed_use": "Context for washing activity only; do not copy the rack as the fixed sink"
+    },
+    {
+      "source": "User-supplied videos 1 to 7",
+      "local_metadata": "work/video_reference/metadata.json",
+      "review_method": "Visually reviewed the existing contact sheet covering each entire video; not a claim that every frame was watched",
+      "local_contact_sheets": [
+        "work/video_reference/video_01_contact.jpg",
+        "work/video_reference/video_02_contact.jpg",
+        "work/video_reference/video_03_contact.jpg",
+        "work/video_reference/video_04_contact.jpg",
+        "work/video_reference/video_05_contact.jpg",
+        "work/video_reference/video_06_contact.jpg",
+        "work/video_reference/video_07_contact.jpg"
+      ],
+      "observed": "Classrooms, upper-floor corridors, green-mosaic stairs, pink stairs/hall-side corridor, courtyard and rooftops; no restaurant sink was visible in sampled frames",
+      "allowed_use": "No dimensions or sink design may be inferred from these contact sheets"
+    },
+    {
+      "source": "ATS boarding introduction gallery and existing boarding-life brochure contact sheets",
+      "url": "http://www.ats.edu.hk/index.php/2018-12-05-07-42-24/2018-12-18-01-49-38",
+      "local_contact_sheets": [
+        "work/research/outdoor_seating/boarding_contact.jpg",
+        "work/research/outdoor_seating/boarding_life_contact_0.jpg",
+        "work/research/outdoor_seating/boarding_life_contact_1.jpg",
+        "work/research/outdoor_seating/boarding_life_contact_2.jpg"
+      ],
+      "observed": "Dining and other boarding activities; no identifiable fixed restaurant sink visible in these sheets"
+    }
+  ],
+  "text_source": {
+    "url": "https://www.schoolabc.hk/explore_article.php?id=875&lang=tc",
+    "published": "2024-10",
+    "claim": "Boarders share meal preparation and dishwashing duties",
+    "limitation": "Describes an activity, not the sink's type, position, material or dimensions"
+  },
+  "searches": [
+    "Hong Kong Chinese school name with handwashing, basin, sink, dining, dishwashing and kitchen terms",
+    "Exact English school name with sink and canteen terms",
+    "Image search for ATS canteen sink and Vitaland; returned other schools and generic cafeterias and was rejected as architectural evidence"
+  ],
+  "model_fit_option_not_measurement": {
+    "status": "Optional reversible implementation of explicit user request; NOT a reconstruction dimension derived from photos",
+    "existing_bounds_metres_as_provided_by_parent": {"u": [18.97, 19.57], "v": [25.15, 27.97]},
+    "existing_length_metres": 2.82,
+    "candidate_bounds_metres": {"u": [18.97, 19.57], "v": [23.47, 27.97]},
+    "candidate_length_metres": 4.5,
+    "why_this_option": "Extend only toward the door along the same confirmed wall, preserve fountain-side endpoint and depth; approximately 60 percent longer than existing model",
+    "clearance_note": "Candidate lower v remains 9.824 metres from provided door centre v13.646, and upper v remains 1.72 metres from fountain centre v29.69. These are centre-coordinate differences, NOT verified clear openings or real-world measurements. Check actual component bounds before implementing.",
+    "tap_rule": "Do not multiply taps in proportion to length. Existing three taps are unverified and must not be reported as confirmed.",
+    "finish_rule": "Do not claim a new photographed sink material; current generic metallic finish, if retained, remains provisional.",
+    "documentation_rule": "State that length was adjusted to the user's instruction within the existing model, while real dimensions and tap count remain unconfirmed."
+  }
+}

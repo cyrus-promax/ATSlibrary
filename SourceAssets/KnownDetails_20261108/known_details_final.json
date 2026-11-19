@@ -1,0 +1,37 @@
+{
+  "status": "completed_and_saved",
+  "timestamp": "2026-11-08T17:04:23.286235",
+  "project": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\ATS.uproject",
+  "map": "/Game/ATS/Maps/ATS_StudentCampus",
+  "changes": {
+    "classroom_frame_finish_split": 24,
+    "dark_square_mosaic_base_strips": 6,
+    "hall_original_glyph_order_corrected": 1,
+    "dining_ac_fronts_corrected": 2
+  },
+  "new_actors": 0,
+  "changed_actors": 32,
+  "unchanged_actors": 869,
+  "checks": {
+    "source_geometry_and_source_file_hashes": true,
+    "all_actor_positions_lighting_and_collision_settings_preserved": true,
+    "native_UE_before_after_visually_reviewed": [
+      "hall",
+      "corridor",
+      "skirting",
+      "ac"
+    ],
+    "actual_player_door_entry_and_return": true,
+    "saved_map_reloaded_all_901_actors_identical": true,
+    "original_user_camera_restored": true
+  },
+  "backup": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\Saved\\Backups\\KnownDetails_20261108_165524",
+  "evidence_directory": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\KnownDetails_20261108\\Evidence",
+  "limitations": [
+    "Existing classroom geometry and fixture sizes retained; no new architecture or measured full-campus 1:1 claim.",
+    "Mosaic pitch retains existing model convention, not newly measured tile size.",
+    "AC front colour zones only; unresolved grille count and labels not invented."
+  ],
+  "unconfirmed_architecture_added": false,
+  "map_sha256": "d85aa90bfdd991b91c6f60904b15db120beceb53ab2e9209d6f44aa0edf68cc5"
+}

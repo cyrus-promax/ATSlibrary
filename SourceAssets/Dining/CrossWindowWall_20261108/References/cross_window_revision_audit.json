@@ -1,0 +1,457 @@
+{
+  "mode": "read-only source and built mesh audit, no UE calls",
+  "built_asset": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Dining\\CrossWindowWall_20261108\\ATS_Dining_CrossWindows.blend",
+  "built_sha256": "efadc7ff3150602c315ed9c4fdc4c8c37621367db422e4936ef639cd55d6703b",
+  "checks": [
+    {
+      "object": "SM_DiningCross_Shell",
+      "retained_faces": 30,
+      "removed_faces": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "max_retained_position_difference_m": 0,
+      "max_retained_uv_difference": 0,
+      "errors": [],
+      "source_sha_before": "0b1fe69043159fa3131a232ba4358a74068450ae930b909d15dfd8374fc3ce4e",
+      "source_sha_after": "0b1fe69043159fa3131a232ba4358a74068450ae930b909d15dfd8374fc3ce4e",
+      "source_hash_matches_manifest": true
+    },
+    {
+      "object": "SM_DiningCross_Walls",
+      "retained_faces": 282,
+      "removed_faces": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "max_retained_position_difference_m": 0,
+      "max_retained_uv_difference": 0,
+      "errors": [],
+      "source_sha_before": "d77c819e9dedc02c1cf3dfb4190bc121dfd965585e1bfcd9107bf494642c86f3",
+      "source_sha_after": "d77c819e9dedc02c1cf3dfb4190bc121dfd965585e1bfcd9107bf494642c86f3",
+      "source_hash_matches_manifest": true
+    },
+    {
+      "object": "SM_DiningCross_Tiles",
+      "retained_faces": 270,
+      "removed_faces": [
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281
+      ],
+      "max_retained_position_difference_m": 0,
+      "max_retained_uv_difference": 0,
+      "errors": [],
+      "source_sha_before": "cfa9a718ed5782c389f2eafab6c49ad451a40cc54aeec93bc159957890e3f33a",
+      "source_sha_after": "cfa9a718ed5782c389f2eafab6c49ad451a40cc54aeec93bc159957890e3f33a",
+      "source_hash_matches_manifest": true
+    }
+  ],
+  "material_slots": {
+    "SM_DiningCross_Shell": [
+      "M_Interior_ShanghaiRender"
+    ],
+    "SM_DiningCross_Walls": [
+      "M_DiningBuild_Paint"
+    ],
+    "SM_DiningCross_Tiles": [
+      "M_Dining_Hall_DarkTerrazzoSkirting",
+      "M_Dining_Hall_CharcoalCap",
+      "M_Dining_Hall_BasketMosaic"
+    ],
+    "SM_DiningCross_Frames": [
+      "M_DiningBuild_Frame"
+    ],
+    "SM_DiningCross_Glass": [
+      "M_DiningBuild_Glass"
+    ],
+    "SM_DiningCross_Aircon": [
+      "M_Dining_OffWhitePaint_Matte",
+      "M_DiningBuild_Black",
+      "M_DiningBuild_Frame"
+    ],
+    "SM_DiningCross_Cross": [
+      "M_DiningCross_DarkWood"
+    ]
+  },
+  "degenerate_uv_faces": {
+    "SM_DiningCross_Shell": {
+      "count": 0,
+      "indices": []
+    },
+    "SM_DiningCross_Walls": {
+      "count": 0,
+      "indices": []
+    },
+    "SM_DiningCross_Tiles": {
+      "count": 0,
+      "indices": []
+    },
+    "SM_DiningCross_Frames": {
+      "count": 0,
+      "indices": []
+    },
+    "SM_DiningCross_Glass": {
+      "count": 0,
+      "indices": []
+    },
+    "SM_DiningCross_Aircon": {
+      "count": 0,
+      "indices": []
+    },
+    "SM_DiningCross_Cross": {
+      "count": 0,
+      "indices": []
+    }
+  },
+  "suffixed_materials": [],
+  "glass_cells": [
+    {
+      "window": 0,
+      "column": 0,
+      "row": 0,
+      "is_ac_cell": false,
+      "glass_bounds": [
+        [
+          0.19299969250626337,
+          0.20099992589025906
+        ],
+        [
+          15.769447325967722,
+          16.479447775513957
+        ],
+        [
+          0.9200008392333991,
+          1.8475006103515632
+        ]
+      ],
+      "overlap_under_frame_edges_m": [
+        0.01250001138541812,
+        0.0025004381608191295,
+        0.012499160766600848,
+        0.002500610351563015
+      ],
+      "minimum_overlap_m": 0.0025004381608191295
+    },
+    {
+      "window": 0,
+      "column": 0,
+      "row": 1,
+      "is_ac_cell": false,
+      "glass_bounds": [
+        [
+          0.19299969250626337,
+          0.20099992589025906
+        ],
+        [
+          15.769447325967722,
+          16.479447775513957
+        ],
+        [
+          1.8874996185302741,
+          2.4550006866455085
+        ]
+      ],
+      "overlap_under_frame_edges_m": [
+        0.01250001138541812,
+        0.0025004381608191295,
+        0.0025003814697259763,
+        0.0025006866455083987
+      ],
+      "minimum_overlap_m": 0.0025003814697259763
+    },
+    {
+      "window": 0,
+      "column": 0,
+      "row": 2,
+      "is_ac_cell": true,
+      "glass_bounds": [
+        [
+          0.19299969250626337,
+          0.20099992589025906
+        ],
+        [
+          15.769447325967722,
+          16.479447775513957
+        ],
+        [
+          2.4949996948242195,
+          3.1299999237060554
+        ]
+      ],
+      "overlap_under_frame_edges_m": [
+        0.01250001138541812,
+        0.0025004381608191295,
+        0.0025003051757805927,
+        0.012499923706055682
+      ],
+      "minimum_overlap_m": 0.0025003051757805927
+    },
+    {
+      "window": 0,
+      "column": 1,
+      "row": 0,
+      "is_ac_cell": false,
+      "glass_bounds": [
+        [
+          0.19299983485524042,
+          0.20100033723130917
+        ],
+        [
+          16.519446991172373,
+          17.229447273482908
+        ],
+        [
+          0.9200008392333991,
+          1.8475006103515632
+        ]
+      ],
+      "overlap_under_frame_edges_m": [
+        0.00250034618076711,
+        0.01249993612976752,
+        0.012499160766600848,
+        0.002500610351563015
+      ],
+      "minimum_overlap_m": 0.00250034618076711
+    },
+    {
+      "window": 0,
+      "column": 1,
+      "row": 1,
+      "is_ac_cell": false,
+      "glass_bounds": [
+        [
+          0.19299983485524042,
+          0.20100033723130917
+        ],
+        [
+          16.519446991172373,
+          17.229447273482908
+        ],
+        [
+          1.8874996185302741,
+          2.4550006866455085
+        ]
+      ],
+      "overlap_under_frame_edges_m": [
+        0.00250034618076711,
+        0.01249993612976752,
+        0.0025003814697259763,
+        0.0025006866455083987
+      ],
+      "minimum_overlap_m": 0.00250034618076711
+    },
+    {
+      "window": 0,
+      "column": 1,
+      "row": 2,
+      "is_ac_cell": false,
+      "glass_bounds": [
+        [
+          0.19299983485524042,
+          0.20100033723130917
+        ],
+        [
+          16.519446991172373,
+          17.229447273482908
+        ],
+        [
+          2.4949996948242195,
+          3.1299999237060554
+        ]
+      ],
+      "overlap_under_frame_edges_m": [
+        0.00250034618076711,
+        0.01249993612976752,
+        0.0025003051757805927,
+        0.012499923706055682
+      ],
+      "minimum_overlap_m": 0.0025003051757805927
+    },
+    {
+      "window": 1,
+      "column": 0,
+      "row": 0,
+      "is_ac_cell": false,
+      "glass_bounds": [
+        [
+          0.19300004524290593,
+          0.2010002786269025
+        ],
+        [
+          19.2194472700694,
+          19.929447271535274
+        ],
+        [
+          0.9200008392333991,
+          1.8475006103515632
+        ]
+      ],
+      "overlap_under_frame_edges_m": [
+        0.012500067283742311,
+        0.0024999341821327903,
+        0.012499160766600848,
+        0.002500610351563015
+      ],
+      "minimum_overlap_m": 0.0024999341821327903
+    },
+    {
+      "window": 1,
+      "column": 0,
+      "row": 1,
+      "is_ac_cell": false,
+      "glass_bounds": [
+        [
+          0.19300004524290593,
+          0.2010002786269025
+        ],
+        [
+          19.2194472700694,
+          19.929447271535274
+        ],
+        [
+          1.8874996185302741,
+          2.4550006866455085
+        ]
+      ],
+      "overlap_under_frame_edges_m": [
+        0.012500067283742311,
+        0.0024999341821327903,
+        0.0025003814697259763,
+        0.0025006866455083987
+      ],
+      "minimum_overlap_m": 0.0024999341821327903
+    },
+    {
+      "window": 1,
+      "column": 0,
+      "row": 2,
+      "is_ac_cell": true,
+      "glass_bounds": [
+        [
+          0.19300004524290593,
+          0.2010002786269025
+        ],
+        [
+          19.2194472700694,
+          19.929447271535274
+        ],
+        [
+          2.4949996948242195,
+          3.1299999237060554
+        ]
+      ],
+      "overlap_under_frame_edges_m": [
+        0.012500067283742311,
+        0.0024999341821327903,
+        0.0025003051757805927,
+        0.012499923706055682
+      ],
+      "minimum_overlap_m": 0.0024999341821327903
+    },
+    {
+      "window": 1,
+      "column": 1,
+      "row": 0,
+      "is_ac_cell": false,
+      "glass_bounds": [
+        [
+          0.19299956042323885,
+          0.2010000627993076
+        ],
+        [
+          19.969447253154303,
+          20.679447376524713
+        ],
+        [
+          0.9200008392333991,
+          1.8475006103515632
+        ]
+      ],
+      "overlap_under_frame_edges_m": [
+        0.002500084198839403,
+        0.012500039171570165,
+        0.012499160766600848,
+        0.002500610351563015
+      ],
+      "minimum_overlap_m": 0.002500084198839403
+    },
+    {
+      "window": 1,
+      "column": 1,
+      "row": 1,
+      "is_ac_cell": false,
+      "glass_bounds": [
+        [
+          0.19299956042323885,
+          0.2010000627993076
+        ],
+        [
+          19.969447253154303,
+          20.679447376524713
+        ],
+        [
+          1.8874996185302741,
+          2.4550006866455085
+        ]
+      ],
+      "overlap_under_frame_edges_m": [
+        0.002500084198839403,
+        0.012500039171570165,
+        0.0025003814697259763,
+        0.0025006866455083987
+      ],
+      "minimum_overlap_m": 0.002500084198839403
+    },
+    {
+      "window": 1,
+      "column": 1,
+      "row": 2,
+      "is_ac_cell": false,
+      "glass_bounds": [
+        [
+          0.19299956042323885,
+          0.2010000627993076
+        ],
+        [
+          19.969447253154303,
+          20.679447376524713
+        ],
+        [
+          2.4949996948242195,
+          3.1299999237060554
+        ]
+      ],
+      "overlap_under_frame_edges_m": [
+        0.002500084198839403,
+        0.012500039171570165,
+        0.0025003051757805927,
+        0.012499923706055682
+      ],
+      "minimum_overlap_m": 0.002500084198839403
+    }
+  ],
+  "glass_component_count": 12,
+  "min_glass_frame_overlap_m": 0.0024999341821327903,
+  "pass_structural_preservation": true,
+  "pass_material_names": true,
+  "pass_uv_non_degenerate": true,
+  "pass_glass_closure": true
+}

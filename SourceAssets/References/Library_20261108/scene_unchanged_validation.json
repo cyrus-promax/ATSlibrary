@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-11-08T18:36:07.830856",
+  "scene": "/Game/ATS/Maps/ATS_StudentCampus",
+  "before_actor_count": 901,
+  "after_actor_count": 901,
+  "changed_actor_names": [],
+  "added_actor_names": [],
+  "removed_actor_names": [],
+  "map_sha256_before": "d85aa90bfdd991b91c6f60904b15db120beceb53ab2e9209d6f44aa0edf68cc5",
+  "map_sha256_after": "d85aa90bfdd991b91c6f60904b15db120beceb53ab2e9209d6f44aa0edf68cc5",
+  "map_bytes_unchanged": true,
+  "camera_after": [
+    2824.066259059424,
+    4490.031842500346,
+    1283.1966517459252
+  ],
+  "rotation_after": {
+    "pitch": -31.347593307495117,
+    "yaw": 628.7401123046875,
+    "roll": 0.0
+  },
+  "research_only": true,
+  "construction_decision": "No library geometry added: as-built footprint, entry registration and floor height remain unverified."
+}

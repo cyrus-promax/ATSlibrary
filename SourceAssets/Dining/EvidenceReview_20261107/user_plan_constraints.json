@@ -1,0 +1,95 @@
+{
+  "source": "References/餐廳結構圖_用戶原圖.png",
+  "original_path": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\餐廳結構圖.png",
+  "sha256": "66cd8df314ad54f000aede2a781621fcf8c0d06b1062a3c0d3080de516e7e57d",
+  "interpretation": "用戶提供的房內相對關係草圖。沒有比例尺或方位；不按像素長度換算公尺，不自動套到校園座標。",
+  "world_transform": null,
+  "measured_dimensions": null,
+  "features": [
+    {
+      "id": "door_right_upper",
+      "label": "圖右上門",
+      "image_rect_xyxy": [
+        582,
+        43,
+        630,
+        138
+      ],
+      "destination": "unconfirmed"
+    },
+    {
+      "id": "door_right_middle",
+      "label": "圖右中門",
+      "image_rect_xyxy": [
+        576,
+        243,
+        630,
+        354
+      ],
+      "destination": "unconfirmed"
+    },
+    {
+      "id": "door_bottom",
+      "label": "圖下方、洗手池左側的門",
+      "image_rect_xyxy": [
+        266,
+        477,
+        369,
+        536
+      ],
+      "destination": "other_place_unidentified",
+      "excluded_destination": "previous_user_pointed_outdoor_dining_veranda"
+    },
+    {
+      "id": "vita_area",
+      "label": "維他天地",
+      "image_rect_xyxy": [
+        79,
+        312,
+        240,
+        536
+      ],
+      "interpretation": "位置標註，不推定為實心房間、廚房或櫃台形狀"
+    },
+    {
+      "id": "basin",
+      "label": "洗手池",
+      "image_rect_xyxy": [
+        382,
+        489,
+        547,
+        536
+      ],
+      "interpretation": "圖下方，在下方門右側、飲水機左側；型號和尺寸未確認"
+    },
+    {
+      "id": "water_dispenser",
+      "label": "飲水機",
+      "image_rect_xyxy": [
+        548,
+        442,
+        630,
+        536
+      ],
+      "interpretation": "圖右下角；型號和尺寸未確認"
+    }
+  ],
+  "user_clarifications": [
+    {
+      "question": "圖中下方、洗手池左邊的門，是通往餐廳外桌椅走廊的門嗎？",
+      "answer": "不是，通往其他地方",
+      "conclusion": "不能把下方門接到此前指認的室外桌椅走廊。"
+    },
+    {
+      "question": "結構圖右側的兩扇門，是否都通往你之前指出、餐廳外有桌椅的走廊？",
+      "answer": "兩扇都不是／不確定",
+      "conclusion": "保留去向不確定；沒有把答案解讀成已證實兩扇都通往別處。"
+    }
+  ],
+  "not_implied": [
+    "圖中沒畫柱或窗，不能據此認定沒有柱或窗",
+    "圖中沒畫桌椅，不能據此推定數量或位置",
+    "門符號沒有提供實際門寬或開門方向",
+    "未確認圖上、下、左、右分別對應校園哪個方向"
+  ]
+}

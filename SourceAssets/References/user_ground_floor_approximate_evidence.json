@@ -1,0 +1,129 @@
+{
+  "source_image": "User_GroundFloor_Approximate_20261107.png",
+  "source_sha256": "4608377a10b318f2761c1e79d7d90f2c1384bb1ff0e321faf816e5b7373cb19c",
+  "user_description": "G層這一部分大概結構圖，不一定對的",
+  "confidence": "Approximate user sketch, explicitly uncertain; not a measured or verified floor plan.",
+  "floor": "G",
+  "scope": "Entrance, hall, dining area and route towards dormitory stairs; only the portion shown.",
+  "raw_labels": [
+    "大門",
+    "禮堂",
+    "餐廳",
+    "餐廳外的漏天桌椅",
+    "往寄宿部的樓梯"
+  ],
+  "relationships_read_from_sketch": [
+    {
+      "subject": "禮堂",
+      "relation": "大門右側",
+      "confidence": "Consistent with earlier user confirmation"
+    },
+    {
+      "subject": "餐廳外的露天桌椅區",
+      "relation": "大堂左門外，使用者目前面向的靠窗長廊區域。",
+      "confidence": "User confirmed general location by pointing at the live editor view; design and exact arrangement remain unconfirmed."
+    },
+    {
+      "subject": "餐廳",
+      "relation": "露天區再往內、圖中左側；用戶進一步確認原問題所捕捉的 G 層位置就在餐廳內部。",
+      "confidence": "Dining-room membership of the captured position explicitly confirmed by the user; exact room boundaries remain unknown."
+    },
+    {
+      "subject": "往寄宿部的樓梯",
+      "relation": "餐廳與禮堂之間偏左的區域",
+      "confidence": "Approximate label location only"
+    }
+  ],
+  "unresolved": [
+    "Dimensions and scale",
+    "Exact room boundaries and connecting openings",
+    "Meaning of the two unlabelled rectangles",
+    "Stair location, flights, direction, landings and level connections",
+    "Outdoor table/chair design, count and arrangement"
+  ],
+  "implementation": "Reference image and relative-area notes only. No guessed partitions, stairs or furniture built from this explicitly approximate sketch. The separately confirmed matching left lobby doorway is built.",
+  "physical_geometry_added_from_this_sketch": 0,
+  "outdoor_seating_user_pointed_location": {
+    "user_statement": "桌椅在我面前的位置",
+    "location_basis": "Live UE editor camera captured immediately after the user pointed out the position.",
+    "camera_campus_m": [
+      21.590298988858674,
+      2.1439292208682392,
+      1.6864356719556781
+    ],
+    "camera_rotation": {
+      "pitch": -2.399899512529373,
+      "yaw": -204.0000014007092,
+      "roll": 0.0
+    },
+    "marker_campus_m": [
+      18.59760684319521,
+      1.9346597264735532,
+      0.15000320306453574
+    ],
+    "ground_campus_m": [
+      18.59760684319521,
+      1.9346597264735532,
+      3.203064533607858e-06
+    ],
+    "ground_actor": "HistoricWestWing | M_Interior_TerrazzoHall",
+    "marker_interpretation": "Reference for the general area three metres ahead of the captured view; not a measured furniture placement.",
+    "area_description": "大堂左門外，使用者目前面向的靠窗長廊區域。",
+    "confirmed": "General location of the dining-area outdoor tables and chairs",
+    "unconfirmed": [
+      "Furniture design",
+      "Count",
+      "Dimensions",
+      "Exact arrangement",
+      "Extent of the seating area",
+      "Whether the current model roof/canopy matches reality"
+    ],
+    "editor_only": true,
+    "physical_furniture_added": 0,
+    "marker_label": "G/F 餐廳外桌椅區｜用戶指認位置，配置待核實",
+    "backup": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\Saved\\Backups\\OutdoorSeatingLocation_20261107_213735",
+    "superseded_by": "SourceAssets/Dining/UserAlignment_20261107/alignment.json"
+  },
+  "outdoor_seating_research": {
+    "status": "researched_target_furniture_still_unverified",
+    "report": "SourceAssets/References/OutdoorSeatingResearch_20261107/research_findings.json",
+    "physical_furniture_added": 0,
+    "conclusion": "Inspected sources do not yet verify the outdoor furniture at the user-pointed location. No guessed furniture built."
+  },
+  "indoor_dining_location_confirmation": {
+    "confirmed_at": "2026-11-07T22:02:30.754546+08:00",
+    "question": "你現在停在的這片空地，是餐廳內部，還是餐廳門外？",
+    "user_answer": "這裡就是餐廳內部",
+    "status": "user_confirmed_inside_dining_room",
+    "reference_view": "SourceAssets/Dining/User_Dining_Location_20261107.json",
+    "camera_campus_m_at_original_question": [
+      13.511396415327642,
+      12.04704815183997,
+      2.654047781530039
+    ],
+    "confirmed_scope": "The area containing the captured camera position is inside the dining room.",
+    "not_confirmed_by_this_answer": [
+      "Exact room extent, partitions, doors, windows or ceiling height",
+      "Kitchen location or layout",
+      "Furniture dimensions, total count or exact arrangement"
+    ],
+    "geometry_changes": 0
+  },
+  "later_dining_plan_alignment": {
+    "status": "user_confirmed_courtyard_anchors_and_orientation_reference_overlay_saved",
+    "evidence": "SourceAssets/Dining/UserAlignment_20261107/alignment.json",
+    "source_image": "SourceAssets/Dining/UserAlignment_20261107/餐廳結構圖_更新原圖.png",
+    "preview": "Previews/C12_Dining_User_Aligned_Plan.png",
+    "anchor_confirmation": "用戶確認新圖下方兩個空方框就是目前 UE 視角的兩個天井。",
+    "orientation_verified_by_user": true,
+    "relative_adjacency_confirmed_by_user": true,
+    "precise_dimensions_verified": false,
+    "door_destinations_verified": false,
+    "physical_partitions_or_equipment_added": 0,
+    "reference_overlay_meshes": 6,
+    "ground_reference_markers": 8,
+    "furniture_reactivated": false,
+    "reference_folder": "References/Dining_Aligned_User_Plan",
+    "backup": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\Saved\\Backups\\DiningUserAlignment_20261107_224435"
+  }
+}

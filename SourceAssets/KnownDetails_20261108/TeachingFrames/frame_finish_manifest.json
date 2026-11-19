@@ -1,0 +1,5529 @@
+{
+  "status": "prepared_not_imported",
+  "source": "D:\\Cyrus\\OneDrive\\文件\\香港仔工業學校\\ATS\\SourceAssets\\Walkthrough\\ATS_Walkthrough.blend",
+  "source_sha256_before": "0b1fe69043159fa3131a232ba4358a74068450ae930b909d15dfd8374fc3ce4e",
+  "source_sha256_after": "0b1fe69043159fa3131a232ba4358a74068450ae930b909d15dfd8374fc3ce4e",
+  "source_unchanged": true,
+  "scope": "Finish correction on retained classroom window profiles only. Existing door trim retains previous material. No changed positions, topology, UVs, dimensions, door openings or gameplay.",
+  "evidence": [
+    "Video01 1.67/2.07s: neutral white/off-white coated window profile next to green mosaic and yellow/orange vent.",
+    "Video02 3.60s: daylight glazing profiles are pale, yellow/orange elements are lower vents.",
+    "Video07 6s: sunset-tinted pale glazing profiles are distinct from saturated yellow door trim."
+  ],
+  "limitations": [
+    "Shared finish correction applied to the retained schematic classroom family; individual room identity and every frame profile have not been surveyed.",
+    "Window and door geometry remains the pre-existing approximate classroom model.",
+    "Paint shader values are visual settings, not measured spectral or physical material properties."
+  ],
+  "material_slots": [
+    {
+      "index": 0,
+      "name": "M_ATS_Window_OffWhitePaint",
+      "scope": "10 existing window profile boxes"
+    },
+    {
+      "index": 1,
+      "name": "M_Interior_YellowFrame",
+      "scope": "3 existing door trim boxes; map to previous UE material"
+    }
+  ],
+  "mesh_count": 24,
+  "meshes": [
+    {
+      "room": "Class_1_1",
+      "source_object": "SM_Walk_Class_1_1_YellowFrame",
+      "new_mesh": "SM_Known_Class_1_1_FrameFinish",
+      "actor_name": "StaticMeshActor_199",
+      "actor_label": "Class_1_1 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_1_1_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_1_1_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "9b75b4b24a32ee37782beb974e60a0c81712c5946684df64b8527aafcdf915e8",
+      "geometry_hash_after": "9b75b4b24a32ee37782beb974e60a0c81712c5946684df64b8527aafcdf915e8",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.000457763671875,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              59.174997965626766,
+              32.91000016725306,
+              3.439999389648438
+            ],
+            [
+              59.26499983475407,
+              33.09000059782698,
+              6.26000099182129
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              60.33499857168437,
+              32.90999900700463,
+              3.439999389648438
+            ],
+            [
+              60.42500044081167,
+              33.09000100612072,
+              6.26000099182129
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              59.13000190728596,
+              32.90999934189494,
+              6.150000381469727
+            ],
+            [
+              60.470000393416385,
+              33.09000009234035,
+              6.250000762939454
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              51.96749855587768,
+              32.91999732173813,
+              4.500000762939454
+            ],
+            [
+              52.0325022869896,
+              33.00999919086543,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              53.16750086076794,
+              32.919998142182834,
+              4.500000762939454
+            ],
+            [
+              53.232496886549434,
+              33.00999885491894,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              54.36749935459167,
+              32.91999797263111,
+              4.500000762939454
+            ],
+            [
+              54.43249919143969,
+              33.009998851761964,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              55.56750165948192,
+              32.91999796947413,
+              4.500000762939454
+            ],
+            [
+              55.63250149632994,
+              33.00999884860499,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              56.76750015330566,
+              32.9199977999224,
+              4.500000762939454
+            ],
+            [
+              56.83249999015368,
+              33.009998679053254,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              57.967498647129396,
+              32.919997630370666,
+              4.500000762939454
+            ],
+            [
+              58.03250229504393,
+              33.009998675896284,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              59.167500952019644,
+              32.91999762721369,
+              4.500000762939454
+            ],
+            [
+              59.23249697780114,
+              33.00999833994979,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              52.00000016974072,
+              32.91999800178473,
+              4.467499542236329
+            ],
+            [
+              59.20000256588267,
+              33.009998649899636,
+              4.532500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              52.00000016974072,
+              32.91999800178473,
+              4.967499542236329
+            ],
+            [
+              59.20000256588267,
+              33.009998649899636,
+              5.032500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              52.00000016974072,
+              32.91999800178473,
+              6.167500305175782
+            ],
+            [
+              59.20000256588267,
+              33.009998649899636,
+              6.232500839233399
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_1_2",
+      "source_object": "SM_Walk_Class_1_2_YellowFrame",
+      "new_mesh": "SM_Known_Class_1_2_FrameFinish",
+      "actor_name": "StaticMeshActor_211",
+      "actor_label": "Class_1_2 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_1_2_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_1_2_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "1c914ad53f759fc6468f02c32c8c428904222707c7de48f980b26b1fdd748029",
+      "geometry_hash_after": "1c914ad53f759fc6468f02c32c8c428904222707c7de48f980b26b1fdd748029",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.000457763671875,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              68.17500293712847,
+              32.909998862221194,
+              3.439999389648438
+            ],
+            [
+              68.26500099518923,
+              33.09000086133727,
+              6.26000099182129
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              69.33499760180693,
+              32.909999436909686,
+              3.439999389648438
+            ],
+            [
+              69.42500336519812,
+              33.090000766245154,
+              6.26000099182129
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              68.12999628596505,
+              32.909999605405226,
+              6.150000381469727
+            ],
+            [
+              69.4700023942285,
+              33.09000002306112,
+              6.250000762939454
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.96749716581177,
+              32.91999741885367,
+              4.500000762939454
+            ],
+            [
+              61.032500476735215,
+              33.009998372444144,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              62.16749905051354,
+              32.91999823929837,
+              4.500000762939454
+            ],
+            [
+              62.232498887361565,
+              33.00999911842923,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              63.3675013554038,
+              32.919998236141396,
+              4.500000762939454
+            ],
+            [
+              63.432500772063335,
+              33.00999911527225,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              64.56749603816101,
+              32.919997900194915,
+              4.500000762939454
+            ],
+            [
+              64.63249968607555,
+              33.00999894572052,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              65.76750215411778,
+              32.91999806343269,
+              4.500000762939454
+            ],
+            [
+              65.83249817989929,
+              33.00999877616879,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              66.96749725706347,
+              32.919997727486205,
+              4.500000762939454
+            ],
+            [
+              67.03250048478954,
+              33.009998773011816,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              68.16750295283177,
+              32.91999789072399,
+              4.500000762939454
+            ],
+            [
+              68.23249897861328,
+              33.00999860346008,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.999998359486334,
+              32.919998098900265,
+              4.467499542236329
+            ],
+            [
+              68.19999736475023,
+              33.009998747015175,
+              4.532500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.999998359486334,
+              32.919998098900265,
+              4.967499542236329
+            ],
+            [
+              68.19999736475023,
+              33.009998747015175,
+              5.032500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.999998359486334,
+              32.919998098900265,
+              6.167500305175782
+            ],
+            [
+              68.19999736475023,
+              33.009998747015175,
+              6.232500839233399
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_1_3",
+      "source_object": "SM_Walk_Class_1_3_YellowFrame",
+      "new_mesh": "SM_Known_Class_1_3_FrameFinish",
+      "actor_name": "StaticMeshActor_223",
+      "actor_label": "Class_1_3 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_1_3_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_1_3_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "6f491d1e8ddb3d0c16b0ac442289cd013b49749f4ffb75e92f3ad6fcb8a1ee70",
+      "geometry_hash_after": "6f491d1e8ddb3d0c16b0ac442289cd013b49749f4ffb75e92f3ad6fcb8a1ee70",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.000396728515625,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              77.17500112687406,
+              32.90999912573149,
+              3.439999389648438
+            ],
+            [
+              77.26500010850918,
+              33.090000958452805,
+              6.26000099182129
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              78.33499876224212,
+              32.90999903063936,
+              3.439999389648438
+            ],
+            [
+              78.4250045256333,
+              33.0900008633607,
+              6.26000099182129
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              77.12999828677717,
+              32.909999702520764,
+              6.150000381469727
+            ],
+            [
+              78.47000058397413,
+              33.09000028657142,
+              6.250000762939454
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              69.96749874643541,
+              32.91999768236396,
+              4.500000762939454
+            ],
+            [
+              70.03250247754735,
+              33.00999846955967,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              71.16750147151414,
+              32.919997346417475,
+              4.500000762939454
+            ],
+            [
+              71.23249716030455,
+              33.009998632797455,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              72.36749954514941,
+              32.91999750965525,
+              4.500000762939454
+            ],
+            [
+              72.43250327626131,
+              33.009998296850966,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              73.56749803897313,
+              32.919997173708765,
+              4.500000762939454
+            ],
+            [
+              73.63250126669918,
+              33.00999920923081,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              74.76750034386338,
+              32.919998160548225,
+              4.500000762939454
+            ],
+            [
+              74.83249636964489,
+              33.009998873284324,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              75.96749883768713,
+              32.9199979909965,
+              4.500000762939454
+            ],
+            [
+              76.03250248560167,
+              33.00999903652211,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              77.16750156276585,
+              32.919997987839515,
+              4.500000762939454
+            ],
+            [
+              77.23249716835888,
+              33.00999870057562,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              70.00000036029844,
+              32.9199981960158,
+              4.467499542236329
+            ],
+            [
+              77.19999555449584,
+              33.00999901052546,
+              4.532500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              70.00000036029844,
+              32.9199981960158,
+              4.967499542236329
+            ],
+            [
+              77.19999555449584,
+              33.00999901052546,
+              5.032500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              70.00000036029844,
+              32.9199981960158,
+              6.167500305175782
+            ],
+            [
+              77.19999555449584,
+              33.00999901052546,
+              6.232500839233399
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_1_4",
+      "source_object": "SM_Walk_Class_1_4_YellowFrame",
+      "new_mesh": "SM_Known_Class_1_4_FrameFinish",
+      "actor_name": "StaticMeshActor_235",
+      "actor_label": "Class_1_4 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_1_4_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_1_4_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "6c10a448cbf083084ae2be987a7c9d57b48164e9fd41f69b3727d449eab0bbe7",
+      "geometry_hash_after": "6c10a448cbf083084ae2be987a7c9d57b48164e9fd41f69b3727d449eab0bbe7",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.000396728515625,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              86.17499931661968,
+              32.90999888585593,
+              3.439999389648438
+            ],
+            [
+              86.26499829825477,
+              33.09000071857725,
+              6.26000099182129
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              87.33500076305423,
+              32.90999929414966,
+              3.439999389648438
+            ],
+            [
+              87.42500652644543,
+              33.09000112687098,
+              6.26000099182129
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              86.12999647652278,
+              32.90999996603106,
+              6.150000381469727
+            ],
+            [
+              87.47000258478624,
+              33.09000038368694,
+              6.250000762939454
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.96749693618102,
+              32.9199977794795,
+              4.500000762939454
+            ],
+            [
+              79.03250066729295,
+              33.00999856667521,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              80.16750347232625,
+              32.91999760992776,
+              4.500000762939454
+            ],
+            [
+              80.23249916111668,
+              33.00999889630775,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              81.36749815508348,
+              32.91999760677079,
+              4.500000762939454
+            ],
+            [
+              81.43250485688498,
+              33.009998560361254,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              82.56749622871874,
+              32.9199972708243,
+              4.500000762939454
+            ],
+            [
+              82.63249953964218,
+              33.00999822441477,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              83.76749853360899,
+              32.91999842405852,
+              4.500000762939454
+            ],
+            [
+              83.832498370457,
+              33.009998970399856,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              84.9674974476212,
+              32.91999726451036,
+              4.500000762939454
+            ],
+            [
+              85.03250406622531,
+              33.009999300032405,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              86.16749975251145,
+              32.919998084955054,
+              4.500000762939454
+            ],
+            [
+              86.23249874898252,
+              33.00999896408591,
+              6.300000000000001
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.99999855004405,
+              32.91999723851371,
+              4.467499542236329
+            ],
+            [
+              86.1999971351195,
+              33.00999910764099,
+              4.532500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.99999855004405,
+              32.91999723851371,
+              4.967499542236329
+            ],
+            [
+              86.1999971351195,
+              33.00999910764099,
+              5.032500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.99999855004405,
+              32.91999723851371,
+              6.167500305175782
+            ],
+            [
+              86.1999971351195,
+              33.00999910764099,
+              6.232500839233399
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_2_1",
+      "source_object": "SM_Walk_Class_2_1_YellowFrame",
+      "new_mesh": "SM_Known_Class_2_1_FrameFinish",
+      "actor_name": "StaticMeshActor_247",
+      "actor_label": "Class_2_1 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_2_1_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_2_1_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "a0ffef708dad17aea882ea9935f1962a2d6d2bf246c37f7c5d3553cd3b487e74",
+      "geometry_hash_after": "a0ffef708dad17aea882ea9935f1962a2d6d2bf246c37f7c5d3553cd3b487e74",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.000457763671875,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              59.174997965626766,
+              32.91000016725306,
+              6.939999389648438
+            ],
+            [
+              59.26499983475407,
+              33.09000059782698,
+              9.760000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              60.33499857168437,
+              32.90999900700463,
+              6.939999389648438
+            ],
+            [
+              60.42500044081167,
+              33.09000100612072,
+              9.760000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              59.13000190728596,
+              32.90999934189494,
+              9.64999942779541
+            ],
+            [
+              60.470000393416385,
+              33.09000009234035,
+              9.749999809265137
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              51.96749855587768,
+              32.91999732173813,
+              8.000000762939454
+            ],
+            [
+              52.0325022869896,
+              33.00999919086543,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              53.16750086076794,
+              32.919998142182834,
+              8.000000762939454
+            ],
+            [
+              53.232496886549434,
+              33.00999885491894,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              54.36749935459167,
+              32.91999797263111,
+              8.000000762939454
+            ],
+            [
+              54.43249919143969,
+              33.009998851761964,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              55.56750165948192,
+              32.91999796947413,
+              8.000000762939454
+            ],
+            [
+              55.63250149632994,
+              33.00999884860499,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              56.76750015330566,
+              32.9199977999224,
+              8.000000762939454
+            ],
+            [
+              56.83249999015368,
+              33.009998679053254,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              57.967498647129396,
+              32.919997630370666,
+              8.000000762939454
+            ],
+            [
+              58.03250229504393,
+              33.009998675896284,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              59.167500952019644,
+              32.91999762721369,
+              8.000000762939454
+            ],
+            [
+              59.23249697780114,
+              33.00999833994979,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              52.00000016974072,
+              32.91999800178473,
+              7.967499542236329
+            ],
+            [
+              59.20000256588267,
+              33.009998649899636,
+              8.032500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              52.00000016974072,
+              32.91999800178473,
+              8.467499542236329
+            ],
+            [
+              59.20000256588267,
+              33.009998649899636,
+              8.532500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              52.00000016974072,
+              32.91999800178473,
+              9.667499351501466
+            ],
+            [
+              59.20000256588267,
+              33.009998649899636,
+              9.732499885559083
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_2_2",
+      "source_object": "SM_Walk_Class_2_2_YellowFrame",
+      "new_mesh": "SM_Known_Class_2_2_FrameFinish",
+      "actor_name": "StaticMeshActor_259",
+      "actor_label": "Class_2_2 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_2_2_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_2_2_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "3e74c6f390177eed1a14b496f553b87fd143bb91d4df80cbf9cf7baf8dac86e2",
+      "geometry_hash_after": "3e74c6f390177eed1a14b496f553b87fd143bb91d4df80cbf9cf7baf8dac86e2",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.000457763671875,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              68.17500293712847,
+              32.909998862221194,
+              6.939999389648438
+            ],
+            [
+              68.26500099518923,
+              33.09000086133727,
+              9.760000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              69.33499760180693,
+              32.909999436909686,
+              6.939999389648438
+            ],
+            [
+              69.42500336519812,
+              33.090000766245154,
+              9.760000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              68.12999628596505,
+              32.909999605405226,
+              9.64999942779541
+            ],
+            [
+              69.4700023942285,
+              33.09000002306112,
+              9.749999809265137
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.96749716581177,
+              32.91999741885367,
+              8.000000762939454
+            ],
+            [
+              61.032500476735215,
+              33.009998372444144,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              62.16749905051354,
+              32.91999823929837,
+              8.000000762939454
+            ],
+            [
+              62.232498887361565,
+              33.00999911842923,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              63.3675013554038,
+              32.919998236141396,
+              8.000000762939454
+            ],
+            [
+              63.432500772063335,
+              33.00999911527225,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              64.56749603816101,
+              32.919997900194915,
+              8.000000762939454
+            ],
+            [
+              64.63249968607555,
+              33.00999894572052,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              65.76750215411778,
+              32.91999806343269,
+              8.000000762939454
+            ],
+            [
+              65.83249817989929,
+              33.00999877616879,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              66.96749725706347,
+              32.919997727486205,
+              8.000000762939454
+            ],
+            [
+              67.03250048478954,
+              33.009998773011816,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              68.16750295283177,
+              32.91999789072399,
+              8.000000762939454
+            ],
+            [
+              68.23249897861328,
+              33.00999860346008,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.999998359486334,
+              32.919998098900265,
+              7.967499542236329
+            ],
+            [
+              68.19999736475023,
+              33.009998747015175,
+              8.032500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.999998359486334,
+              32.919998098900265,
+              8.467499542236329
+            ],
+            [
+              68.19999736475023,
+              33.009998747015175,
+              8.532500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.999998359486334,
+              32.919998098900265,
+              9.667499351501466
+            ],
+            [
+              68.19999736475023,
+              33.009998747015175,
+              9.732499885559083
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_2_3",
+      "source_object": "SM_Walk_Class_2_3_YellowFrame",
+      "new_mesh": "SM_Known_Class_2_3_FrameFinish",
+      "actor_name": "StaticMeshActor_271",
+      "actor_label": "Class_2_3 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_2_3_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_2_3_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "51febbc875c1c9a157b48216cc9b84fb4ea82f474e3ff630904ced8a56b5ebfd",
+      "geometry_hash_after": "51febbc875c1c9a157b48216cc9b84fb4ea82f474e3ff630904ced8a56b5ebfd",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.000396728515625,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              77.17500112687406,
+              32.90999912573149,
+              6.939999389648438
+            ],
+            [
+              77.26500010850918,
+              33.090000958452805,
+              9.760000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              78.33499876224212,
+              32.90999903063936,
+              6.939999389648438
+            ],
+            [
+              78.4250045256333,
+              33.0900008633607,
+              9.760000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              77.12999828677717,
+              32.909999702520764,
+              9.64999942779541
+            ],
+            [
+              78.47000058397413,
+              33.09000028657142,
+              9.749999809265137
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              69.96749874643541,
+              32.91999768236396,
+              8.000000762939454
+            ],
+            [
+              70.03250247754735,
+              33.00999846955967,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              71.16750147151414,
+              32.919997346417475,
+              8.000000762939454
+            ],
+            [
+              71.23249716030455,
+              33.009998632797455,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              72.36749954514941,
+              32.91999750965525,
+              8.000000762939454
+            ],
+            [
+              72.43250327626131,
+              33.009998296850966,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              73.56749803897313,
+              32.919997173708765,
+              8.000000762939454
+            ],
+            [
+              73.63250126669918,
+              33.00999920923081,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              74.76750034386338,
+              32.919998160548225,
+              8.000000762939454
+            ],
+            [
+              74.83249636964489,
+              33.009998873284324,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              75.96749883768713,
+              32.9199979909965,
+              8.000000762939454
+            ],
+            [
+              76.03250248560167,
+              33.00999903652211,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              77.16750156276585,
+              32.919997987839515,
+              8.000000762939454
+            ],
+            [
+              77.23249716835888,
+              33.00999870057562,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              70.00000036029844,
+              32.9199981960158,
+              7.967499542236329
+            ],
+            [
+              77.19999555449584,
+              33.00999901052546,
+              8.032500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              70.00000036029844,
+              32.9199981960158,
+              8.467499542236329
+            ],
+            [
+              77.19999555449584,
+              33.00999901052546,
+              8.532500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              70.00000036029844,
+              32.9199981960158,
+              9.667499351501466
+            ],
+            [
+              77.19999555449584,
+              33.00999901052546,
+              9.732499885559083
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_2_4",
+      "source_object": "SM_Walk_Class_2_4_YellowFrame",
+      "new_mesh": "SM_Known_Class_2_4_FrameFinish",
+      "actor_name": "StaticMeshActor_283",
+      "actor_label": "Class_2_4 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_2_4_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_2_4_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "62c2232bf6003c0755b0b6e3b28b699a5821e1491553f6a461ad5dd8b4064692",
+      "geometry_hash_after": "62c2232bf6003c0755b0b6e3b28b699a5821e1491553f6a461ad5dd8b4064692",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.000396728515625,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              86.17499931661968,
+              32.90999888585593,
+              6.939999389648438
+            ],
+            [
+              86.26499829825477,
+              33.09000071857725,
+              9.760000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              87.33500076305423,
+              32.90999929414966,
+              6.939999389648438
+            ],
+            [
+              87.42500652644543,
+              33.09000112687098,
+              9.760000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              86.12999647652278,
+              32.90999996603106,
+              9.64999942779541
+            ],
+            [
+              87.47000258478624,
+              33.09000038368694,
+              9.749999809265137
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.96749693618102,
+              32.9199977794795,
+              8.000000762939454
+            ],
+            [
+              79.03250066729295,
+              33.00999856667521,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              80.16750347232625,
+              32.91999760992776,
+              8.000000762939454
+            ],
+            [
+              80.23249916111668,
+              33.00999889630775,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              81.36749815508348,
+              32.91999760677079,
+              8.000000762939454
+            ],
+            [
+              81.43250485688498,
+              33.009998560361254,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              82.56749622871874,
+              32.9199972708243,
+              8.000000762939454
+            ],
+            [
+              82.63249953964218,
+              33.00999822441477,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              83.76749853360899,
+              32.91999842405852,
+              8.000000762939454
+            ],
+            [
+              83.832498370457,
+              33.009998970399856,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              84.9674974476212,
+              32.91999726451036,
+              8.000000762939454
+            ],
+            [
+              85.03250406622531,
+              33.009999300032405,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              86.16749975251145,
+              32.919998084955054,
+              8.000000762939454
+            ],
+            [
+              86.23249874898252,
+              33.00999896408591,
+              9.8
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.99999855004405,
+              32.91999723851371,
+              7.967499542236329
+            ],
+            [
+              86.1999971351195,
+              33.00999910764099,
+              8.032500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.99999855004405,
+              32.91999723851371,
+              8.467499542236329
+            ],
+            [
+              86.1999971351195,
+              33.00999910764099,
+              8.532500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.99999855004405,
+              32.91999723851371,
+              9.667499351501466
+            ],
+            [
+              86.1999971351195,
+              33.00999910764099,
+              9.732499885559083
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_3_1",
+      "source_object": "SM_Walk_Class_3_1_YellowFrame",
+      "new_mesh": "SM_Known_Class_3_1_FrameFinish",
+      "actor_name": "StaticMeshActor_295",
+      "actor_label": "Class_3_1 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_3_1_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_3_1_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "adb12a7db96bf7f95db074a2e8aedb9bc2455efa7fedb633d36c8e748a884bff",
+      "geometry_hash_after": "adb12a7db96bf7f95db074a2e8aedb9bc2455efa7fedb633d36c8e748a884bff",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.000457763671875,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              59.174997965626766,
+              32.91000016725306,
+              10.439999389648438
+            ],
+            [
+              59.26499983475407,
+              33.09000059782698,
+              13.260000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              60.33499857168437,
+              32.90999900700463,
+              10.439999389648438
+            ],
+            [
+              60.42500044081167,
+              33.09000100612072,
+              13.260000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              59.13000190728596,
+              32.90999934189494,
+              13.14999942779541
+            ],
+            [
+              60.470000393416385,
+              33.09000009234035,
+              13.249999809265137
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              51.96749855587768,
+              32.91999732173813,
+              11.499999809265137
+            ],
+            [
+              52.0325022869896,
+              33.00999919086543,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              53.16750086076794,
+              32.919998142182834,
+              11.499999809265137
+            ],
+            [
+              53.232496886549434,
+              33.00999885491894,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              54.36749935459167,
+              32.91999797263111,
+              11.499999809265137
+            ],
+            [
+              54.43249919143969,
+              33.009998851761964,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              55.56750165948192,
+              32.91999796947413,
+              11.499999809265137
+            ],
+            [
+              55.63250149632994,
+              33.00999884860499,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              56.76750015330566,
+              32.9199977999224,
+              11.499999809265137
+            ],
+            [
+              56.83249999015368,
+              33.009998679053254,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              57.967498647129396,
+              32.919997630370666,
+              11.499999809265137
+            ],
+            [
+              58.03250229504393,
+              33.009998675896284,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              59.167500952019644,
+              32.91999762721369,
+              11.499999809265137
+            ],
+            [
+              59.23249697780114,
+              33.00999833994979,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              52.00000016974072,
+              32.91999800178473,
+              11.467499542236329
+            ],
+            [
+              59.20000256588267,
+              33.009998649899636,
+              11.532500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              52.00000016974072,
+              32.91999800178473,
+              11.967499542236329
+            ],
+            [
+              59.20000256588267,
+              33.009998649899636,
+              12.032500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              52.00000016974072,
+              32.91999800178473,
+              13.167499351501466
+            ],
+            [
+              59.20000256588267,
+              33.009998649899636,
+              13.232499885559083
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_3_2",
+      "source_object": "SM_Walk_Class_3_2_YellowFrame",
+      "new_mesh": "SM_Known_Class_3_2_FrameFinish",
+      "actor_name": "StaticMeshActor_307",
+      "actor_label": "Class_3_2 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_3_2_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_3_2_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "cee80afeb79f96b7b25a3ce3274d279b4fed10074d51d8f9901deb0db233877f",
+      "geometry_hash_after": "cee80afeb79f96b7b25a3ce3274d279b4fed10074d51d8f9901deb0db233877f",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.000457763671875,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              68.17500293712847,
+              32.909998862221194,
+              10.439999389648438
+            ],
+            [
+              68.26500099518923,
+              33.09000086133727,
+              13.260000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              69.33499760180693,
+              32.909999436909686,
+              10.439999389648438
+            ],
+            [
+              69.42500336519812,
+              33.090000766245154,
+              13.260000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              68.12999628596505,
+              32.909999605405226,
+              13.14999942779541
+            ],
+            [
+              69.4700023942285,
+              33.09000002306112,
+              13.249999809265137
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.96749716581177,
+              32.91999741885367,
+              11.499999809265137
+            ],
+            [
+              61.032500476735215,
+              33.009998372444144,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              62.16749905051354,
+              32.91999823929837,
+              11.499999809265137
+            ],
+            [
+              62.232498887361565,
+              33.00999911842923,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              63.3675013554038,
+              32.919998236141396,
+              11.499999809265137
+            ],
+            [
+              63.432500772063335,
+              33.00999911527225,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              64.56749603816101,
+              32.919997900194915,
+              11.499999809265137
+            ],
+            [
+              64.63249968607555,
+              33.00999894572052,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              65.76750215411778,
+              32.91999806343269,
+              11.499999809265137
+            ],
+            [
+              65.83249817989929,
+              33.00999877616879,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              66.96749725706347,
+              32.919997727486205,
+              11.499999809265137
+            ],
+            [
+              67.03250048478954,
+              33.009998773011816,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              68.16750295283177,
+              32.91999789072399,
+              11.499999809265137
+            ],
+            [
+              68.23249897861328,
+              33.00999860346008,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.999998359486334,
+              32.919998098900265,
+              11.467499542236329
+            ],
+            [
+              68.19999736475023,
+              33.009998747015175,
+              11.532500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.999998359486334,
+              32.919998098900265,
+              11.967499542236329
+            ],
+            [
+              68.19999736475023,
+              33.009998747015175,
+              12.032500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.999998359486334,
+              32.919998098900265,
+              13.167499351501466
+            ],
+            [
+              68.19999736475023,
+              33.009998747015175,
+              13.232499885559083
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_3_3",
+      "source_object": "SM_Walk_Class_3_3_YellowFrame",
+      "new_mesh": "SM_Known_Class_3_3_FrameFinish",
+      "actor_name": "StaticMeshActor_319",
+      "actor_label": "Class_3_3 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_3_3_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_3_3_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "608839700762206ea890efd94aee5540c8223df0fe434691162a4490ac04ca78",
+      "geometry_hash_after": "608839700762206ea890efd94aee5540c8223df0fe434691162a4490ac04ca78",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.000396728515625,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              77.17500112687406,
+              32.90999912573149,
+              10.439999389648438
+            ],
+            [
+              77.26500010850918,
+              33.090000958452805,
+              13.260000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              78.33499876224212,
+              32.90999903063936,
+              10.439999389648438
+            ],
+            [
+              78.4250045256333,
+              33.0900008633607,
+              13.260000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              77.12999828677717,
+              32.909999702520764,
+              13.14999942779541
+            ],
+            [
+              78.47000058397413,
+              33.09000028657142,
+              13.249999809265137
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              69.96749874643541,
+              32.91999768236396,
+              11.499999809265137
+            ],
+            [
+              70.03250247754735,
+              33.00999846955967,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              71.16750147151414,
+              32.919997346417475,
+              11.499999809265137
+            ],
+            [
+              71.23249716030455,
+              33.009998632797455,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              72.36749954514941,
+              32.91999750965525,
+              11.499999809265137
+            ],
+            [
+              72.43250327626131,
+              33.009998296850966,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              73.56749803897313,
+              32.919997173708765,
+              11.499999809265137
+            ],
+            [
+              73.63250126669918,
+              33.00999920923081,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              74.76750034386338,
+              32.919998160548225,
+              11.499999809265137
+            ],
+            [
+              74.83249636964489,
+              33.009998873284324,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              75.96749883768713,
+              32.9199979909965,
+              11.499999809265137
+            ],
+            [
+              76.03250248560167,
+              33.00999903652211,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              77.16750156276585,
+              32.919997987839515,
+              11.499999809265137
+            ],
+            [
+              77.23249716835888,
+              33.00999870057562,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              70.00000036029844,
+              32.9199981960158,
+              11.467499542236329
+            ],
+            [
+              77.19999555449584,
+              33.00999901052546,
+              11.532500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              70.00000036029844,
+              32.9199981960158,
+              11.967499542236329
+            ],
+            [
+              77.19999555449584,
+              33.00999901052546,
+              12.032500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              70.00000036029844,
+              32.9199981960158,
+              13.167499351501466
+            ],
+            [
+              77.19999555449584,
+              33.00999901052546,
+              13.232499885559083
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_3_4",
+      "source_object": "SM_Walk_Class_3_4_YellowFrame",
+      "new_mesh": "SM_Known_Class_3_4_FrameFinish",
+      "actor_name": "StaticMeshActor_331",
+      "actor_label": "Class_3_4 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_3_4_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_3_4_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "f45874ea2418e779d620df8849139243e5ba30518541169fd850fa5e0a0ca174",
+      "geometry_hash_after": "f45874ea2418e779d620df8849139243e5ba30518541169fd850fa5e0a0ca174",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.000396728515625,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              86.17499931661968,
+              32.90999888585593,
+              10.439999389648438
+            ],
+            [
+              86.26499829825477,
+              33.09000071857725,
+              13.260000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              87.33500076305423,
+              32.90999929414966,
+              10.439999389648438
+            ],
+            [
+              87.42500652644543,
+              33.09000112687098,
+              13.260000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              86.12999647652278,
+              32.90999996603106,
+              13.14999942779541
+            ],
+            [
+              87.47000258478624,
+              33.09000038368694,
+              13.249999809265137
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.96749693618102,
+              32.9199977794795,
+              11.499999809265137
+            ],
+            [
+              79.03250066729295,
+              33.00999856667521,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              80.16750347232625,
+              32.91999760992776,
+              11.499999809265137
+            ],
+            [
+              80.23249916111668,
+              33.00999889630775,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              81.36749815508348,
+              32.91999760677079,
+              11.499999809265137
+            ],
+            [
+              81.43250485688498,
+              33.009998560361254,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              82.56749622871874,
+              32.9199972708243,
+              11.499999809265137
+            ],
+            [
+              82.63249953964218,
+              33.00999822441477,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              83.76749853360899,
+              32.91999842405852,
+              11.499999809265137
+            ],
+            [
+              83.832498370457,
+              33.009998970399856,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              84.9674974476212,
+              32.91999726451036,
+              11.499999809265137
+            ],
+            [
+              85.03250406622531,
+              33.009999300032405,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              86.16749975251145,
+              32.919998084955054,
+              11.499999809265137
+            ],
+            [
+              86.23249874898252,
+              33.00999896408591,
+              13.3
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.99999855004405,
+              32.91999723851371,
+              11.467499542236329
+            ],
+            [
+              86.1999971351195,
+              33.00999910764099,
+              11.532500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.99999855004405,
+              32.91999723851371,
+              11.967499542236329
+            ],
+            [
+              86.1999971351195,
+              33.00999910764099,
+              12.032500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.99999855004405,
+              32.91999723851371,
+              13.167499351501466
+            ],
+            [
+              86.1999971351195,
+              33.00999910764099,
+              13.232499885559083
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_4_1",
+      "source_object": "SM_Walk_Class_4_1_YellowFrame",
+      "new_mesh": "SM_Known_Class_4_1_FrameFinish",
+      "actor_name": "StaticMeshActor_343",
+      "actor_label": "Class_4_1 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_4_1_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_4_1_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "af1930e30e6561323cee597259d5cfc18f2c320f59b4a9e34ff2bee353beeee5",
+      "geometry_hash_after": "af1930e30e6561323cee597259d5cfc18f2c320f59b4a9e34ff2bee353beeee5",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.0004405975341796875,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              59.174997965626766,
+              32.91000016725306,
+              13.939999389648438
+            ],
+            [
+              59.26499983475407,
+              33.09000059782698,
+              16.760000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              60.33499857168437,
+              32.90999900700463,
+              13.939999389648438
+            ],
+            [
+              60.42500044081167,
+              33.09000100612072,
+              16.760000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              59.13000190728596,
+              32.90999934189494,
+              16.64999942779541
+            ],
+            [
+              60.470000393416385,
+              33.09000009234035,
+              16.749999809265137
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              51.96749855587768,
+              32.91999732173813,
+              14.999999809265137
+            ],
+            [
+              52.0325022869896,
+              33.00999919086543,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              53.16750086076794,
+              32.919998142182834,
+              14.999999809265137
+            ],
+            [
+              53.232496886549434,
+              33.00999885491894,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              54.36749935459167,
+              32.91999797263111,
+              14.999999809265137
+            ],
+            [
+              54.43249919143969,
+              33.009998851761964,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              55.56750165948192,
+              32.91999796947413,
+              14.999999809265137
+            ],
+            [
+              55.63250149632994,
+              33.00999884860499,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              56.76750015330566,
+              32.9199977999224,
+              14.999999809265137
+            ],
+            [
+              56.83249999015368,
+              33.009998679053254,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              57.967498647129396,
+              32.919997630370666,
+              14.999999809265137
+            ],
+            [
+              58.03250229504393,
+              33.009998675896284,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              59.167500952019644,
+              32.91999762721369,
+              14.999999809265137
+            ],
+            [
+              59.23249697780114,
+              33.00999833994979,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              52.00000016974072,
+              32.91999800178473,
+              14.967499542236329
+            ],
+            [
+              59.20000256588267,
+              33.009998649899636,
+              15.032500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              52.00000016974072,
+              32.91999800178473,
+              15.467499542236329
+            ],
+            [
+              59.20000256588267,
+              33.009998649899636,
+              15.532500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              52.00000016974072,
+              32.91999800178473,
+              16.667499351501466
+            ],
+            [
+              59.20000256588267,
+              33.009998649899636,
+              16.732499885559083
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_4_2",
+      "source_object": "SM_Walk_Class_4_2_YellowFrame",
+      "new_mesh": "SM_Known_Class_4_2_FrameFinish",
+      "actor_name": "StaticMeshActor_355",
+      "actor_label": "Class_4_2 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_4_2_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_4_2_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "00b4b8e2566c703531ef9a104e0aa67b479a5f8a344c9a0bae59112db11a3cb6",
+      "geometry_hash_after": "00b4b8e2566c703531ef9a104e0aa67b479a5f8a344c9a0bae59112db11a3cb6",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.0004405975341796875,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              68.17500293712847,
+              32.909998862221194,
+              13.939999389648438
+            ],
+            [
+              68.26500099518923,
+              33.09000086133727,
+              16.760000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              69.33499760180693,
+              32.909999436909686,
+              13.939999389648438
+            ],
+            [
+              69.42500336519812,
+              33.090000766245154,
+              16.760000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              68.12999628596505,
+              32.909999605405226,
+              16.64999942779541
+            ],
+            [
+              69.4700023942285,
+              33.09000002306112,
+              16.749999809265137
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.96749716581177,
+              32.91999741885367,
+              14.999999809265137
+            ],
+            [
+              61.032500476735215,
+              33.009998372444144,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              62.16749905051354,
+              32.91999823929837,
+              14.999999809265137
+            ],
+            [
+              62.232498887361565,
+              33.00999911842923,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              63.3675013554038,
+              32.919998236141396,
+              14.999999809265137
+            ],
+            [
+              63.432500772063335,
+              33.00999911527225,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              64.56749603816101,
+              32.919997900194915,
+              14.999999809265137
+            ],
+            [
+              64.63249968607555,
+              33.00999894572052,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              65.76750215411778,
+              32.91999806343269,
+              14.999999809265137
+            ],
+            [
+              65.83249817989929,
+              33.00999877616879,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              66.96749725706347,
+              32.919997727486205,
+              14.999999809265137
+            ],
+            [
+              67.03250048478954,
+              33.009998773011816,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              68.16750295283177,
+              32.91999789072399,
+              14.999999809265137
+            ],
+            [
+              68.23249897861328,
+              33.00999860346008,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.999998359486334,
+              32.919998098900265,
+              14.967499542236329
+            ],
+            [
+              68.19999736475023,
+              33.009998747015175,
+              15.032500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.999998359486334,
+              32.919998098900265,
+              15.467499542236329
+            ],
+            [
+              68.19999736475023,
+              33.009998747015175,
+              15.532500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.999998359486334,
+              32.919998098900265,
+              16.667499351501466
+            ],
+            [
+              68.19999736475023,
+              33.009998747015175,
+              16.732499885559083
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_4_3",
+      "source_object": "SM_Walk_Class_4_3_YellowFrame",
+      "new_mesh": "SM_Known_Class_4_3_FrameFinish",
+      "actor_name": "StaticMeshActor_367",
+      "actor_label": "Class_4_3 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_4_3_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_4_3_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "2414be2c2712cc98a42ffd68a618eccff86a063b66ded55f3a79bd44e338e08d",
+      "geometry_hash_after": "2414be2c2712cc98a42ffd68a618eccff86a063b66ded55f3a79bd44e338e08d",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.0004100799560546875,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              77.17500112687406,
+              32.90999912573149,
+              13.939999389648438
+            ],
+            [
+              77.26500010850918,
+              33.090000958452805,
+              16.760000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              78.33499876224212,
+              32.90999903063936,
+              13.939999389648438
+            ],
+            [
+              78.4250045256333,
+              33.0900008633607,
+              16.760000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              77.12999828677717,
+              32.909999702520764,
+              16.64999942779541
+            ],
+            [
+              78.47000058397413,
+              33.09000028657142,
+              16.749999809265137
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              69.96749874643541,
+              32.91999768236396,
+              14.999999809265137
+            ],
+            [
+              70.03250247754735,
+              33.00999846955967,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              71.16750147151414,
+              32.919997346417475,
+              14.999999809265137
+            ],
+            [
+              71.23249716030455,
+              33.009998632797455,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              72.36749954514941,
+              32.91999750965525,
+              14.999999809265137
+            ],
+            [
+              72.43250327626131,
+              33.009998296850966,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              73.56749803897313,
+              32.919997173708765,
+              14.999999809265137
+            ],
+            [
+              73.63250126669918,
+              33.00999920923081,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              74.76750034386338,
+              32.919998160548225,
+              14.999999809265137
+            ],
+            [
+              74.83249636964489,
+              33.009998873284324,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              75.96749883768713,
+              32.9199979909965,
+              14.999999809265137
+            ],
+            [
+              76.03250248560167,
+              33.00999903652211,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              77.16750156276585,
+              32.919997987839515,
+              14.999999809265137
+            ],
+            [
+              77.23249716835888,
+              33.00999870057562,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              70.00000036029844,
+              32.9199981960158,
+              14.967499542236329
+            ],
+            [
+              77.19999555449584,
+              33.00999901052546,
+              15.032500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              70.00000036029844,
+              32.9199981960158,
+              15.467499542236329
+            ],
+            [
+              77.19999555449584,
+              33.00999901052546,
+              15.532500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              70.00000036029844,
+              32.9199981960158,
+              16.667499351501466
+            ],
+            [
+              77.19999555449584,
+              33.00999901052546,
+              16.732499885559083
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_4_4",
+      "source_object": "SM_Walk_Class_4_4_YellowFrame",
+      "new_mesh": "SM_Known_Class_4_4_FrameFinish",
+      "actor_name": "StaticMeshActor_379",
+      "actor_label": "Class_4_4 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_4_4_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_4_4_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "709f473dad6dd8ecaf680a4241ed6e653fea69cacf6950e0289c2b2ec22b7272",
+      "geometry_hash_after": "709f473dad6dd8ecaf680a4241ed6e653fea69cacf6950e0289c2b2ec22b7272",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.0004100799560546875,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              86.17499931661968,
+              32.90999888585593,
+              13.939999389648438
+            ],
+            [
+              86.26499829825477,
+              33.09000071857725,
+              16.760000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              87.33500076305423,
+              32.90999929414966,
+              13.939999389648438
+            ],
+            [
+              87.42500652644543,
+              33.09000112687098,
+              16.760000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              86.12999647652278,
+              32.90999996603106,
+              16.64999942779541
+            ],
+            [
+              87.47000258478624,
+              33.09000038368694,
+              16.749999809265137
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.96749693618102,
+              32.9199977794795,
+              14.999999809265137
+            ],
+            [
+              79.03250066729295,
+              33.00999856667521,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              80.16750347232625,
+              32.91999760992776,
+              14.999999809265137
+            ],
+            [
+              80.23249916111668,
+              33.00999889630775,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              81.36749815508348,
+              32.91999760677079,
+              14.999999809265137
+            ],
+            [
+              81.43250485688498,
+              33.009998560361254,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              82.56749622871874,
+              32.9199972708243,
+              14.999999809265137
+            ],
+            [
+              82.63249953964218,
+              33.00999822441477,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              83.76749853360899,
+              32.91999842405852,
+              14.999999809265137
+            ],
+            [
+              83.832498370457,
+              33.009998970399856,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              84.9674974476212,
+              32.91999726451036,
+              14.999999809265137
+            ],
+            [
+              85.03250406622531,
+              33.009999300032405,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              86.16749975251145,
+              32.919998084955054,
+              14.999999809265137
+            ],
+            [
+              86.23249874898252,
+              33.00999896408591,
+              16.799999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.99999855004405,
+              32.91999723851371,
+              14.967499542236329
+            ],
+            [
+              86.1999971351195,
+              33.00999910764099,
+              15.032500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.99999855004405,
+              32.91999723851371,
+              15.467499542236329
+            ],
+            [
+              86.1999971351195,
+              33.00999910764099,
+              15.532500076293946
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.99999855004405,
+              32.91999723851371,
+              16.667499351501466
+            ],
+            [
+              86.1999971351195,
+              33.00999910764099,
+              16.732499885559083
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_5_1",
+      "source_object": "SM_Walk_Class_5_1_YellowFrame",
+      "new_mesh": "SM_Known_Class_5_1_FrameFinish",
+      "actor_name": "StaticMeshActor_391",
+      "actor_label": "Class_5_1 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_5_1_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_5_1_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "bae0a0e2d5fb36fc92e6c0273ed028dafeb6f2728ed8c56d594eb60738fb0fbb",
+      "geometry_hash_after": "bae0a0e2d5fb36fc92e6c0273ed028dafeb6f2728ed8c56d594eb60738fb0fbb",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.0004425048828125,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              59.174997965626766,
+              32.91000016725306,
+              17.440000343322755
+            ],
+            [
+              59.26499983475407,
+              33.09000059782698,
+              20.260000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              60.33499857168437,
+              32.90999900700463,
+              17.440000343322755
+            ],
+            [
+              60.42500044081167,
+              33.09000100612072,
+              20.260000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              59.13000190728596,
+              32.90999934189494,
+              20.14999942779541
+            ],
+            [
+              60.470000393416385,
+              33.09000009234035,
+              20.249999809265137
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              51.96749855587768,
+              32.91999732173813,
+              18.499999809265137
+            ],
+            [
+              52.0325022869896,
+              33.00999919086543,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              53.16750086076794,
+              32.919998142182834,
+              18.499999809265137
+            ],
+            [
+              53.232496886549434,
+              33.00999885491894,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              54.36749935459167,
+              32.91999797263111,
+              18.499999809265137
+            ],
+            [
+              54.43249919143969,
+              33.009998851761964,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              55.56750165948192,
+              32.91999796947413,
+              18.499999809265137
+            ],
+            [
+              55.63250149632994,
+              33.00999884860499,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              56.76750015330566,
+              32.9199977999224,
+              18.499999809265137
+            ],
+            [
+              56.83249999015368,
+              33.009998679053254,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              57.967498647129396,
+              32.919997630370666,
+              18.499999809265137
+            ],
+            [
+              58.03250229504393,
+              33.009998675896284,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              59.167500952019644,
+              32.91999762721369,
+              18.499999809265137
+            ],
+            [
+              59.23249697780114,
+              33.00999833994979,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              52.00000016974072,
+              32.91999800178473,
+              18.467500495910645
+            ],
+            [
+              59.20000256588267,
+              33.009998649899636,
+              18.53249912261963
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              52.00000016974072,
+              32.91999800178473,
+              18.967500495910645
+            ],
+            [
+              59.20000256588267,
+              33.009998649899636,
+              19.03249912261963
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              52.00000016974072,
+              32.91999800178473,
+              20.167499351501466
+            ],
+            [
+              59.20000256588267,
+              33.009998649899636,
+              20.232499885559083
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_5_2",
+      "source_object": "SM_Walk_Class_5_2_YellowFrame",
+      "new_mesh": "SM_Known_Class_5_2_FrameFinish",
+      "actor_name": "StaticMeshActor_403",
+      "actor_label": "Class_5_2 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_5_2_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_5_2_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "4534fddc32028d3d9040b99fca3cb308c0660728e08670eee189c03a1c09af65",
+      "geometry_hash_after": "4534fddc32028d3d9040b99fca3cb308c0660728e08670eee189c03a1c09af65",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.0004119873046875,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              68.17500293712847,
+              32.909998862221194,
+              17.440000343322755
+            ],
+            [
+              68.26500099518923,
+              33.09000086133727,
+              20.260000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              69.33499760180693,
+              32.909999436909686,
+              17.440000343322755
+            ],
+            [
+              69.42500336519812,
+              33.090000766245154,
+              20.260000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              68.12999628596505,
+              32.909999605405226,
+              20.14999942779541
+            ],
+            [
+              69.4700023942285,
+              33.09000002306112,
+              20.249999809265137
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.96749716581177,
+              32.91999741885367,
+              18.499999809265137
+            ],
+            [
+              61.032500476735215,
+              33.009998372444144,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              62.16749905051354,
+              32.91999823929837,
+              18.499999809265137
+            ],
+            [
+              62.232498887361565,
+              33.00999911842923,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              63.3675013554038,
+              32.919998236141396,
+              18.499999809265137
+            ],
+            [
+              63.432500772063335,
+              33.00999911527225,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              64.56749603816101,
+              32.919997900194915,
+              18.499999809265137
+            ],
+            [
+              64.63249968607555,
+              33.00999894572052,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              65.76750215411778,
+              32.91999806343269,
+              18.499999809265137
+            ],
+            [
+              65.83249817989929,
+              33.00999877616879,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              66.96749725706347,
+              32.919997727486205,
+              18.499999809265137
+            ],
+            [
+              67.03250048478954,
+              33.009998773011816,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              68.16750295283177,
+              32.91999789072399,
+              18.499999809265137
+            ],
+            [
+              68.23249897861328,
+              33.00999860346008,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.999998359486334,
+              32.919998098900265,
+              18.467500495910645
+            ],
+            [
+              68.19999736475023,
+              33.009998747015175,
+              18.53249912261963
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.999998359486334,
+              32.919998098900265,
+              18.967500495910645
+            ],
+            [
+              68.19999736475023,
+              33.009998747015175,
+              19.03249912261963
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.999998359486334,
+              32.919998098900265,
+              20.167499351501466
+            ],
+            [
+              68.19999736475023,
+              33.009998747015175,
+              20.232499885559083
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_5_3",
+      "source_object": "SM_Walk_Class_5_3_YellowFrame",
+      "new_mesh": "SM_Known_Class_5_3_FrameFinish",
+      "actor_name": "StaticMeshActor_415",
+      "actor_label": "Class_5_3 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_5_3_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_5_3_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "c9383e4a3672c1eb8cce52c076c2693c7a270741844143080776c8bccfb82a80",
+      "geometry_hash_after": "c9383e4a3672c1eb8cce52c076c2693c7a270741844143080776c8bccfb82a80",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.0004119873046875,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              77.17500112687406,
+              32.90999912573149,
+              17.440000343322755
+            ],
+            [
+              77.26500010850918,
+              33.090000958452805,
+              20.260000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              78.33499876224212,
+              32.90999903063936,
+              17.440000343322755
+            ],
+            [
+              78.4250045256333,
+              33.0900008633607,
+              20.260000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              77.12999828677717,
+              32.909999702520764,
+              20.14999942779541
+            ],
+            [
+              78.47000058397413,
+              33.09000028657142,
+              20.249999809265137
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              69.96749874643541,
+              32.91999768236396,
+              18.499999809265137
+            ],
+            [
+              70.03250247754735,
+              33.00999846955967,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              71.16750147151414,
+              32.919997346417475,
+              18.499999809265137
+            ],
+            [
+              71.23249716030455,
+              33.009998632797455,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              72.36749954514941,
+              32.91999750965525,
+              18.499999809265137
+            ],
+            [
+              72.43250327626131,
+              33.009998296850966,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              73.56749803897313,
+              32.919997173708765,
+              18.499999809265137
+            ],
+            [
+              73.63250126669918,
+              33.00999920923081,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              74.76750034386338,
+              32.919998160548225,
+              18.499999809265137
+            ],
+            [
+              74.83249636964489,
+              33.009998873284324,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              75.96749883768713,
+              32.9199979909965,
+              18.499999809265137
+            ],
+            [
+              76.03250248560167,
+              33.00999903652211,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              77.16750156276585,
+              32.919997987839515,
+              18.499999809265137
+            ],
+            [
+              77.23249716835888,
+              33.00999870057562,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              70.00000036029844,
+              32.9199981960158,
+              18.467500495910645
+            ],
+            [
+              77.19999555449584,
+              33.00999901052546,
+              18.53249912261963
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              70.00000036029844,
+              32.9199981960158,
+              18.967500495910645
+            ],
+            [
+              77.19999555449584,
+              33.00999901052546,
+              19.03249912261963
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              70.00000036029844,
+              32.9199981960158,
+              20.167499351501466
+            ],
+            [
+              77.19999555449584,
+              33.00999901052546,
+              20.232499885559083
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_5_4",
+      "source_object": "SM_Walk_Class_5_4_YellowFrame",
+      "new_mesh": "SM_Known_Class_5_4_FrameFinish",
+      "actor_name": "StaticMeshActor_427",
+      "actor_label": "Class_5_4 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_5_4_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_5_4_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "b2ee8c96afa639770c3d87f795281518230c93ba14ca09a3f9c80d5ac7afbec2",
+      "geometry_hash_after": "b2ee8c96afa639770c3d87f795281518230c93ba14ca09a3f9c80d5ac7afbec2",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.0004119873046875,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              86.17499931661968,
+              32.90999888585593,
+              17.440000343322755
+            ],
+            [
+              86.26499829825477,
+              33.09000071857725,
+              20.260000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              87.33500076305423,
+              32.90999929414966,
+              17.440000343322755
+            ],
+            [
+              87.42500652644543,
+              33.09000112687098,
+              20.260000038146973
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              86.12999647652278,
+              32.90999996603106,
+              20.14999942779541
+            ],
+            [
+              87.47000258478624,
+              33.09000038368694,
+              20.249999809265137
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.96749693618102,
+              32.9199977794795,
+              18.499999809265137
+            ],
+            [
+              79.03250066729295,
+              33.00999856667521,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              80.16750347232625,
+              32.91999760992776,
+              18.499999809265137
+            ],
+            [
+              80.23249916111668,
+              33.00999889630775,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              81.36749815508348,
+              32.91999760677079,
+              18.499999809265137
+            ],
+            [
+              81.43250485688498,
+              33.009998560361254,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              82.56749622871874,
+              32.9199972708243,
+              18.499999809265137
+            ],
+            [
+              82.63249953964218,
+              33.00999822441477,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              83.76749853360899,
+              32.91999842405852,
+              18.499999809265137
+            ],
+            [
+              83.832498370457,
+              33.009998970399856,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              84.9674974476212,
+              32.91999726451036,
+              18.499999809265137
+            ],
+            [
+              85.03250406622531,
+              33.009999300032405,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              86.16749975251145,
+              32.919998084955054,
+              18.499999809265137
+            ],
+            [
+              86.23249874898252,
+              33.00999896408591,
+              20.299999046325684
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.99999855004405,
+              32.91999723851371,
+              18.467500495910645
+            ],
+            [
+              86.1999971351195,
+              33.00999910764099,
+              18.53249912261963
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.99999855004405,
+              32.91999723851371,
+              18.967500495910645
+            ],
+            [
+              86.1999971351195,
+              33.00999910764099,
+              19.03249912261963
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.99999855004405,
+              32.91999723851371,
+              20.167499351501466
+            ],
+            [
+              86.1999971351195,
+              33.00999910764099,
+              20.232499885559083
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_6_1",
+      "source_object": "SM_Walk_Class_6_1_YellowFrame",
+      "new_mesh": "SM_Known_Class_6_1_FrameFinish",
+      "actor_name": "StaticMeshActor_439",
+      "actor_label": "Class_6_1 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_6_1_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_6_1_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "60c982aaabaaff5b792fae8174c3dabe365ce4364675a5ac13f2b034b7e6f0c5",
+      "geometry_hash_after": "60c982aaabaaff5b792fae8174c3dabe365ce4364675a5ac13f2b034b7e6f0c5",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.0004290342330932617,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              59.174997965626766,
+              32.91000016725306,
+              20.940000581741334
+            ],
+            [
+              59.26499983475407,
+              33.09000059782698,
+              23.760000216960908
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              60.33499857168437,
+              32.90999900700463,
+              20.940000581741334
+            ],
+            [
+              60.42500044081167,
+              33.09000100612072,
+              23.760000216960908
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              59.13000190728596,
+              32.90999934189494,
+              23.649999606609345
+            ],
+            [
+              60.470000393416385,
+              33.09000009234035,
+              23.74999998807907
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              51.96749855587768,
+              32.91999732173813,
+              22.000000047683717
+            ],
+            [
+              52.0325022869896,
+              33.00999919086543,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              53.16750086076794,
+              32.919998142182834,
+              22.000000047683717
+            ],
+            [
+              53.232496886549434,
+              33.00999885491894,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              54.36749935459167,
+              32.91999797263111,
+              22.000000047683717
+            ],
+            [
+              54.43249919143969,
+              33.009998851761964,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              55.56750165948192,
+              32.91999796947413,
+              22.000000047683717
+            ],
+            [
+              55.63250149632994,
+              33.00999884860499,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              56.76750015330566,
+              32.9199977999224,
+              22.000000047683717
+            ],
+            [
+              56.83249999015368,
+              33.009998679053254,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              57.967498647129396,
+              32.919997630370666,
+              22.000000047683717
+            ],
+            [
+              58.03250229504393,
+              33.009998675896284,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              59.167500952019644,
+              32.91999762721369,
+              22.000000047683717
+            ],
+            [
+              59.23249697780114,
+              33.00999833994979,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              52.00000016974072,
+              32.91999800178473,
+              21.967500734329224
+            ],
+            [
+              59.20000256588267,
+              33.009998649899636,
+              22.03249936103821
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              52.00000016974072,
+              32.91999800178473,
+              22.467500734329224
+            ],
+            [
+              59.20000256588267,
+              33.009998649899636,
+              22.53249936103821
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              52.00000016974072,
+              32.91999800178473,
+              23.6674995303154
+            ],
+            [
+              59.20000256588267,
+              33.009998649899636,
+              23.732500064373017
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_6_2",
+      "source_object": "SM_Walk_Class_6_2_YellowFrame",
+      "new_mesh": "SM_Known_Class_6_2_FrameFinish",
+      "actor_name": "StaticMeshActor_451",
+      "actor_label": "Class_6_2 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_6_2_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_6_2_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "3547b83a036323e15b9134d835e95589486790dcfb250804ba1f4910590b68eb",
+      "geometry_hash_after": "3547b83a036323e15b9134d835e95589486790dcfb250804ba1f4910590b68eb",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.0004252195358276367,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              68.17500293712847,
+              32.909998862221194,
+              20.940000581741334
+            ],
+            [
+              68.26500099518923,
+              33.09000086133727,
+              23.760000216960908
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              69.33499760180693,
+              32.909999436909686,
+              20.940000581741334
+            ],
+            [
+              69.42500336519812,
+              33.090000766245154,
+              23.760000216960908
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              68.12999628596505,
+              32.909999605405226,
+              23.649999606609345
+            ],
+            [
+              69.4700023942285,
+              33.09000002306112,
+              23.74999998807907
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.96749716581177,
+              32.91999741885367,
+              22.000000047683717
+            ],
+            [
+              61.032500476735215,
+              33.009998372444144,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              62.16749905051354,
+              32.91999823929837,
+              22.000000047683717
+            ],
+            [
+              62.232498887361565,
+              33.00999911842923,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              63.3675013554038,
+              32.919998236141396,
+              22.000000047683717
+            ],
+            [
+              63.432500772063335,
+              33.00999911527225,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              64.56749603816101,
+              32.919997900194915,
+              22.000000047683717
+            ],
+            [
+              64.63249968607555,
+              33.00999894572052,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              65.76750215411778,
+              32.91999806343269,
+              22.000000047683717
+            ],
+            [
+              65.83249817989929,
+              33.00999877616879,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              66.96749725706347,
+              32.919997727486205,
+              22.000000047683717
+            ],
+            [
+              67.03250048478954,
+              33.009998773011816,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              68.16750295283177,
+              32.91999789072399,
+              22.000000047683717
+            ],
+            [
+              68.23249897861328,
+              33.00999860346008,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.999998359486334,
+              32.919998098900265,
+              21.967500734329224
+            ],
+            [
+              68.19999736475023,
+              33.009998747015175,
+              22.03249936103821
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.999998359486334,
+              32.919998098900265,
+              22.467500734329224
+            ],
+            [
+              68.19999736475023,
+              33.009998747015175,
+              22.53249936103821
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              60.999998359486334,
+              32.919998098900265,
+              23.6674995303154
+            ],
+            [
+              68.19999736475023,
+              33.009998747015175,
+              23.732500064373017
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_6_3",
+      "source_object": "SM_Walk_Class_6_3_YellowFrame",
+      "new_mesh": "SM_Known_Class_6_3_FrameFinish",
+      "actor_name": "StaticMeshActor_463",
+      "actor_label": "Class_6_3 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_6_3_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_6_3_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "6eb0ac1af0a498d81db6093060b6fbc008923ba53a880bde0b41e1f8992df9f8",
+      "geometry_hash_after": "6eb0ac1af0a498d81db6093060b6fbc008923ba53a880bde0b41e1f8992df9f8",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.0004214048385620117,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              77.17500112687406,
+              32.90999912573149,
+              20.940000581741334
+            ],
+            [
+              77.26500010850918,
+              33.090000958452805,
+              23.760000216960908
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              78.33499876224212,
+              32.90999903063936,
+              20.940000581741334
+            ],
+            [
+              78.4250045256333,
+              33.0900008633607,
+              23.760000216960908
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              77.12999828677717,
+              32.909999702520764,
+              23.649999606609345
+            ],
+            [
+              78.47000058397413,
+              33.09000028657142,
+              23.74999998807907
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              69.96749874643541,
+              32.91999768236396,
+              22.000000047683717
+            ],
+            [
+              70.03250247754735,
+              33.00999846955967,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              71.16750147151414,
+              32.919997346417475,
+              22.000000047683717
+            ],
+            [
+              71.23249716030455,
+              33.009998632797455,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              72.36749954514941,
+              32.91999750965525,
+              22.000000047683717
+            ],
+            [
+              72.43250327626131,
+              33.009998296850966,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              73.56749803897313,
+              32.919997173708765,
+              22.000000047683717
+            ],
+            [
+              73.63250126669918,
+              33.00999920923081,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              74.76750034386338,
+              32.919998160548225,
+              22.000000047683717
+            ],
+            [
+              74.83249636964489,
+              33.009998873284324,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              75.96749883768713,
+              32.9199979909965,
+              22.000000047683717
+            ],
+            [
+              76.03250248560167,
+              33.00999903652211,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              77.16750156276585,
+              32.919997987839515,
+              22.000000047683717
+            ],
+            [
+              77.23249716835888,
+              33.00999870057562,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              70.00000036029844,
+              32.9199981960158,
+              21.967500734329224
+            ],
+            [
+              77.19999555449584,
+              33.00999901052546,
+              22.03249936103821
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              70.00000036029844,
+              32.9199981960158,
+              22.467500734329224
+            ],
+            [
+              77.19999555449584,
+              33.00999901052546,
+              22.53249936103821
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              70.00000036029844,
+              32.9199981960158,
+              23.6674995303154
+            ],
+            [
+              77.19999555449584,
+              33.00999901052546,
+              23.732500064373017
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "room": "Class_6_4",
+      "source_object": "SM_Walk_Class_6_4_YellowFrame",
+      "new_mesh": "SM_Known_Class_6_4_FrameFinish",
+      "actor_name": "StaticMeshActor_475",
+      "actor_label": "Class_6_4 | M_Interior_YellowFrame",
+      "previous_mesh": "/Game/ATS/Revision10/Architecture/ATS_CorridorDetail_SM_Walk_Class_6_4_YellowFrame.ATS_CorridorDetail_SM_Walk_Class_6_4_YellowFrame",
+      "previous_material": [
+        "/Game/ATS/Campus/Materials/M_Interior_YellowFrame.M_Interior_YellowFrame"
+      ],
+      "vertices": 104,
+      "faces": 78,
+      "window_profile_faces": 60,
+      "door_trim_faces": 18,
+      "geometry_hash_before": "29d22bb38d10de8b7c5b823127d4db96d29ac480efbeb93c0eda59c034481c28",
+      "geometry_hash_after": "29d22bb38d10de8b7c5b823127d4db96d29ac480efbeb93c0eda59c034481c28",
+      "geometry_uv_matrix_identical": true,
+      "source_live_bounds_max_error_cm": 0.0004175901412963867,
+      "parts": [
+        {
+          "box_index": 0,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              86.17499931661968,
+              32.90999888585593,
+              20.940000581741334
+            ],
+            [
+              86.26499829825477,
+              33.09000071857725,
+              23.760000216960908
+            ]
+          ]
+        },
+        {
+          "box_index": 1,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              87.33500076305423,
+              32.90999929414966,
+              20.940000581741334
+            ],
+            [
+              87.42500652644543,
+              33.09000112687098,
+              23.760000216960908
+            ]
+          ]
+        },
+        {
+          "box_index": 2,
+          "role": "existing_door_trim",
+          "bounds_teaching_m": [
+            [
+              86.12999647652278,
+              32.90999996603106,
+              23.649999606609345
+            ],
+            [
+              87.47000258478624,
+              33.09000038368694,
+              23.74999998807907
+            ]
+          ]
+        },
+        {
+          "box_index": 3,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.96749693618102,
+              32.9199977794795,
+              22.000000047683717
+            ],
+            [
+              79.03250066729295,
+              33.00999856667521,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 4,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              80.16750347232625,
+              32.91999760992776,
+              22.000000047683717
+            ],
+            [
+              80.23249916111668,
+              33.00999889630775,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 5,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              81.36749815508348,
+              32.91999760677079,
+              22.000000047683717
+            ],
+            [
+              81.43250485688498,
+              33.009998560361254,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 6,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              82.56749622871874,
+              32.9199972708243,
+              22.000000047683717
+            ],
+            [
+              82.63249953964218,
+              33.00999822441477,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 7,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              83.76749853360899,
+              32.91999842405852,
+              22.000000047683717
+            ],
+            [
+              83.832498370457,
+              33.009998970399856,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 8,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              84.9674974476212,
+              32.91999726451036,
+              22.000000047683717
+            ],
+            [
+              85.03250406622531,
+              33.009999300032405,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 9,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              86.16749975251145,
+              32.919998084955054,
+              22.000000047683717
+            ],
+            [
+              86.23249874898252,
+              33.00999896408591,
+              23.79999922513962
+            ]
+          ]
+        },
+        {
+          "box_index": 10,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.99999855004405,
+              32.91999723851371,
+              21.967500734329224
+            ],
+            [
+              86.1999971351195,
+              33.00999910764099,
+              22.03249936103821
+            ]
+          ]
+        },
+        {
+          "box_index": 11,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.99999855004405,
+              32.91999723851371,
+              22.467500734329224
+            ],
+            [
+              86.1999971351195,
+              33.00999910764099,
+              22.53249936103821
+            ]
+          ]
+        },
+        {
+          "box_index": 12,
+          "role": "existing_window_profile",
+          "bounds_teaching_m": [
+            [
+              78.99999855004405,
+              32.91999723851371,
+              23.6674995303154
+            ],
+            [
+              86.1999971351195,
+              33.00999910764099,
+              23.732500064373017
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

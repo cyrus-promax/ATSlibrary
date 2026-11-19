@@ -1,0 +1,29 @@
+香港仔工業學校圖書館官方資料核對 — 2026-11-08
+
+結論：本次核對的公開官方資料未找到可用的圖書館平面圖、竣工圖、門窗尺寸或能對到校園的房間座標。不要依此重建或恢復以前猜測的圖書館。
+
+已完成：
+1. QEF 2020/0355 詳細頁只提供計劃書，未連結落成報告。
+https://qcrc.qef.org.hk/tc/search/projectdetails.php?id=11287
+
+2. QEF 13 頁計劃書已逐頁渲染核對，沒有平面圖。第 10–11 頁是預算與採購規格；約 2,500 平方呎膠地板、獨立閱讀位、玻璃門、書櫃等不能推算成已落成的房形或擺位。
+https://qcrc.qef.org.hk/Publish/project_information/202309/2020_0355_proposal.pdf
+
+3. 官方 2026/27 小冊子共 19 PDF 頁／跨頁，完整下載並逐頁查看，沒有圖書館平面圖。末段交通圖只指學校位置。
+http://www.ats.edu.hk/images/doc/2627_school_intro_index.pdf
+
+4. 2023/24、2024/25、2025/26 年報已搜尋相關文字並檢查相關照片頁，沒有找到可用平面圖。2024/25 年報 PDF 第 23 頁（印刷第 22 頁）有文化閱讀區的兩張低清近景，可與 HKLA 照片交叉比對外觀，但不能定尺度和校園方位。
+http://www.ats.edu.hk/images/doc/2324/schreport2324.pdf
+http://www.ats.edu.hk/images/doc/2425/schreport2425.pdf
+http://www.ats.edu.hk/images/doc/2526/schreport2526.pdf
+
+5. 消防保養和全校系統工程的公開招標 PDF 均只有一頁邀請函，沒有附平面／逃生圖。
+http://www.ats.edu.hk/images/doc/260414_ATS_2026-2028.pdf
+http://www.ats.edu.hk/images/doc/tender/20251104_1.pdf
+
+排除：S2 Design 網站的圖書館是佛教茂峰法師紀念中學，ATS 項目是影音室，不可混用。
+https://www.s2designhk.com/school
+
+仍缺：實測房間外框、門窗及內隔間位置、與校園模型的對位、地板標高、天花高度。以上是有限範圍的公開搜尋結果，不代表圖紙在其他地方或私人紀錄中一定不存在。
+
+此子任務只寫入研究目錄，沒有修改 UE 項目或場景。

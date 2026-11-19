@@ -1,0 +1,27 @@
+{
+  "status": "saved_pending_visual_validation",
+  "changes": [
+    {
+      "actor": "StaticMeshActor_598",
+      "label": "餐廳實體｜Ceiling",
+      "slot": 0,
+      "before": "/Game/ATS/Dining/BuiltFromUserPlan/Materials/M_DiningBuild_Ceiling.M_DiningBuild_Ceiling",
+      "after": "/Game/ATS/Dining/PhotoFinishes_20261108/Materials/M_Dining_OffWhitePaint_Matte.M_Dining_OffWhitePaint_Matte"
+    },
+    {
+      "actor": "StaticMeshActor_600",
+      "label": "餐廳實體｜Floor",
+      "slot": 0,
+      "before": "/Game/ATS/Dining/BuiltFromUserPlan/Materials/M_DiningBuild_Terrazzo.M_DiningBuild_Terrazzo",
+      "after": "/Game/ATS/Dining/PhotoFinishes_20261108/Materials/M_Dining_BeigeFineTerrazzo_Dry.M_Dining_BeigeFineTerrazzo_Dry"
+    },
+    {
+      "actor": "StaticMeshActor_620",
+      "label": "餐廳實體｜Walls",
+      "slot": 0,
+      "before": "/Game/ATS/Dining/BuiltFromUserPlan/Materials/M_DiningBuild_Paint.M_DiningBuild_Paint",
+      "after": "/Game/ATS/Dining/PhotoFinishes_20261108/Materials/M_Dining_OffWhitePaint_Matte.M_Dining_OffWhitePaint_Matte"
+    }
+  ],
+  "lower_walls": "Existing lower-wall tiling remains unresolved; photo sources show different finishes and no positive wall registration. No whole-room pattern replacement or floor-band grid invented."
+}

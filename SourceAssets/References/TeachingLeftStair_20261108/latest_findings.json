@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-08",
+  "user_followup": "User cannot remember which stair finish; use previously supplied videos rather than asking for recollection again.",
+  "source_priority": "Original videos and continuous real frames; no generated detail.",
+  "latest_findings": [
+    {
+      "finding": "Video03 74a8... is strongly registered to the teaching building left corridor end.",
+      "confidence": "high",
+      "evidence": [
+        "End parapet makes an L-shaped corner and closes the corridor.",
+        "Continuous right turn enters the adjacent staircase.",
+        "At29s the camera looks back with classroom windows on the left and outside parapet on the right, opposite the view toward this end in videos02/07.",
+        "Roof, cross-wing and courtyard relationships corroborate the endpoint."
+      ],
+      "limits": "This establishes relative endpoint, not surveyed dimensions."
+    },
+    {
+      "finding": "When facing into this left staircase, the rising flight is on the left and the descending flight on the right.",
+      "confidence": "direct_visual",
+      "model_frame": "Ascending away from corridor = smaller-u lane toward +v; descending away = larger-u lane toward +v.",
+      "correction": "The retired builder used the opposite order; do not restore or mirror its guessed stairs."
+    },
+    {
+      "finding": "The upper rising flight visible at Video03 1.900s has exactly11 risers.",
+      "confidence": "high; independently counted by root and video reviewer",
+      "limits": "Only this bounded observed flight. The eleventh rise ends at the landing; do not add an extra landing riser. Do not extrapolate to all flights or storeys."
+    },
+    {
+      "finding": "Visible finishes include green mosaic lower wall, pale upper wall, dark stepped mosaic skirting, beige small-tiled steps, light grooved nosings and dark metal balusters/handrails.",
+      "confidence": "direct_visual",
+      "limits": "Exact real-world tile size, stair width/run/rise and material physical measurements are not established."
+    },
+    {
+      "finding": "Video02 shows the far left-end stair, then turns into a nearby yellow portal by the purple laboratory door and blue toilet doorway.",
+      "confidence": "continuous_frame_tracking",
+      "correction": "There is no evidence of an edit in the reviewed turns, but the operator did not walk to the distant stair. Its later terrazzo closeups cannot be assigned to the distant left stair from this view."
+    }
+  ],
+  "floor_labels": {
+    "video02_at67s": "Clearly readable4/F, belonging to that near-portal staircase sequence; not a confirmed left-stair anchor.",
+    "video03_at12_to13s": "Lower Chinese glyph resembles三; probable3/F only. Large Arabic numeral is unreadable. Do not use as confirmed numbered-floor placement."
+  },
+  "still_unknown": [
+    "Unambiguous floor assignment of the counted11-riser flight.",
+    "Complete counts of the four descended flights.",
+    "Measured staircase width, going, rise and platform footprint.",
+    "G-to-6 layout and any repetitions outside the filmed sequence."
+  ],
+  "implementation_status": {
+    "scene_geometry_changes": 0,
+    "material_changes": 0,
+    "collision_changes": 0,
+    "map_saved_by_this_followup": false,
+    "research_evidence_only": true,
+    "reason": "User explicitly forbids uncertain construction. A verified local shape is not enough to invent its dimensions and numbered-floor placement."
+  },
+  "question_state": "Answered by user: forgot; no repeated recollection question is needed. Continue using video-derived evidence.",
+  "superseded_inferences": [
+    "Video03 narrow opposite-building vista by itself meant right end.",
+    "Video02 far left stair and nearby terrazzo stair were the same location.",
+    "Blur during the short Video02 turns proved an edit.",
+    "One11-riser visible count applied to all runs."
+  ],
+  "reports": [
+    "route_continuity_review.json",
+    "video03_left_registration_independent.json",
+    "video03_step_tracking.json",
+    "video02_step_tracking.json",
+    "minimal_left_stair_integration.json"
+  ],
+  "key_frames": [
+    "Frames/Followup/left_endpoint_0.8s.png",
+    "Frames/Followup/left_return_corridor_29s.png",
+    "Frames/Followup/eleven_risers_original_1.900s.png",
+    "Frames/Followup/eleven_risers_annotated_1.900s.png",
+    "Frames/Followup/floor_plate_comparison.png"
+  ]
+}

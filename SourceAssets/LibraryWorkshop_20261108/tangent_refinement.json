@@ -1,0 +1,9 @@
+{
+  "meshes": [
+    "SM_LW_A_Step_PendantSuspension_BlackMetal",
+    "SM_LW_Culture_Shelving_DarkOak",
+    "SM_LW_Main_Reception_PaleOak",
+    "SM_LW_Main_Shelving_PaleOak"
+  ],
+  "method": "Engine recomputed tangents for small bevel/curve geometry; full precision UV and normals retained."
+}

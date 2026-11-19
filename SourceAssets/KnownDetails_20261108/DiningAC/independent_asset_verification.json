@@ -1,0 +1,38 @@
+{
+  "blend_meshes": 1,
+  "mesh": "SM_DiningAC_PhotoFronts",
+  "vertices": 960,
+  "polygons": 980,
+  "zero_area_faces": 0,
+  "transform_identity": true,
+  "materials": [
+    "M_Dining_OffWhitePaint_Matte",
+    "M_DiningAC_PaleIntake",
+    "M_DiningAC_DarkOutlet",
+    "M_DiningAC_ControlPatch"
+  ],
+  "fbx_meshes": 1,
+  "fbx_vertices": 960,
+  "fbx_bounds_world_m": [
+    [
+      -14.889694213867188,
+      -13.084277153015137
+    ],
+    [
+      -9.183269500732422,
+      -5.188663482666016
+    ],
+    [
+      -22.02750015258789,
+      -21.447498321533203
+    ]
+  ],
+  "fbx_roundtrip_max_bounds_error_m": 3.814697265625e-06,
+  "fbx_materials": [
+    "M_Dining_OffWhitePaint_Matte",
+    "M_DiningAC_PaleIntake",
+    "M_DiningAC_DarkOutlet",
+    "M_DiningAC_ControlPatch"
+  ],
+  "ue_changes": false
+}
